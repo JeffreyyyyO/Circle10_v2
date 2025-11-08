@@ -1,0 +1,1502 @@
+[
+  {
+    "question": "Which type of firewall operates at the Network (Layer 3) and Transport (Layer 4) layers of the OSI model?",
+    "options": {
+      "a": "Proxy Firewall",
+      "b": "Packet Filtering Firewall",
+      "c": "Next-Generation Firewall (NGFW)",
+      "d": "Unified Threat Management (UTM) Firewall"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a primary vulnerability of a Packet Filtering Firewall?",
+    "options": {
+      "a": "It struggles to handle low traffic volumes.",
+      "b": "It is complex and costly to implement.",
+      "c": "It lacks deep inspection capabilities and is vulnerable to IP spoofing.",
+      "d": "It introduces excessive latency due to processing overhead."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which firewall type tracks active connections and maintains session states using a state table?",
+    "options": {
+      "a": "Proxy Firewall",
+      "b": "Packet Filtering Firewall",
+      "c": "Stateful Inspection Firewall",
+      "d": "Cloud Firewall"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the main limitation of a Stateful Inspection Firewall?",
+    "options": {
+      "a": "It operates only at the application layer.",
+      "b": "It requires more processing power and may struggle with high traffic volume.",
+      "c": "It cannot protect against application layer attacks.",
+      "d": "It must be hosted in the cloud, increasing dependence on the internet."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which firewall acts as an intermediary, intercepting all traffic, and is also known as an Application Level Gateway?",
+    "options": {
+      "a": "Unified Threat Management (UTM)",
+      "b": "Next-Generation Firewall (NGFW)",
+      "c": "Proxy Firewall",
+      "d": "Stateful Inspection Firewall"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "A key benefit of using a Proxy Firewall is that it improves anonymity by doing what?",
+    "options": {
+      "a": "Encrypting data at the network layer.",
+      "b": "Automatically updating firmware.",
+      "c": "Masking internal IP addresses.",
+      "d": "Integrating antivirus and anti-spam features."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Next-Generation Firewalls (NGFWs) combine traditional firewall features with which advanced capability?",
+    "options": {
+      "a": "Operating exclusively at Layer 3/4.",
+      "b": "Inclusion of Intrusion Prevention Systems (IPS) and application awareness.",
+      "c": "Single-purpose hardware appliance.",
+      "d": "Reliance only on packet header inspection."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a characteristic feature of a Unified Threat Management (UTM) Firewall?",
+    "options": {
+      "a": "Focuses only on deep packet inspection.",
+      "b": "Integrates multiple security features like antivirus, anti-spam, and VPNs.",
+      "c": "Requires multiple standalone appliances for full coverage.",
+      "d": "Is primarily hosted off-premise in a cloud environment."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Unified Threat Management (UTM) Firewalls are ideal for which scenario?",
+    "options": {
+      "a": "Large-scale enterprise networks requiring high customization.",
+      "b": "Organizations with unlimited IT resources.",
+      "c": "Small to medium-sized businesses with limited IT infrastructure.",
+      "d": "Distributed networks that require only cloud-based solutions."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a benefit of using Cloud Firewalls (Firewall as a Service or FWaaS)?",
+    "options": {
+      "a": "Centralized management and real-time updates.",
+      "b": "No dependence on internet connectivity.",
+      "c": "Guaranteed low latency.",
+      "d": "They operate strictly at the network layer."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which configuration step is used to define granular permissions for traffic based on IP addresses, ports, and protocols?",
+    "options": {
+      "a": "Optimizing performance.",
+      "b": "Disaster recovery planning.",
+      "c": "Implementing Access Control Lists (ACLs).",
+      "d": "Performing user training."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which tool is recommended for correlating logs from firewall activities to identify potential threats?",
+    "options": {
+      "a": "Load Balancer",
+      "b": "VLAN Manager",
+      "c": "Application Layer Gateway",
+      "d": "Security Information and Event Management (SIEM) tools"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "The process of creating network segments (e.g., DMZs and internal networks) and enforcing security policies between them helps to achieve what?",
+    "options": {
+      "a": "Optimization of hardware resources.",
+      "b": "Limitation of the spread of threats.",
+      "c": "Elimination of the need for encryption.",
+      "d": "Reduction of configuration complexity."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the security strategy of combining firewalls with other measures like antivirus and encryption called?",
+    "options": {
+      "a": "Least Privilege Principle",
+      "b": "Monolithic Security",
+      "c": "Disaster Recovery Plan",
+      "d": "Defense-in-Depth strategy"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Allowing only the minimum necessary traffic required for business operations is known as which security principle?",
+    "options": {
+      "a": "Principle of Least Privilege",
+      "b": "Defense-in-Depth",
+      "c": "Network Segmentation",
+      "d": "Disaster Recovery"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the primary function of an Intrusion Detection System (IDS)?",
+    "options": {
+      "a": "To actively block malicious network traffic in real-time.",
+      "b": "To passively monitor traffic and system activities, and generate an alert.",
+      "c": "To provide deep packet inspection and content filtering.",
+      "d": "To serve as an intermediary between users and services."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How does an Intrusion Prevention System (IPS) primarily function?",
+    "options": {
+      "a": "It relies solely on administrators to take action after detection.",
+      "b": "It operates in a passive mode, providing network visibility.",
+      "c": "It actively monitors and blocks or mitigates malicious traffic in real time.",
+      "d": "It tracks and maintains session states of active connections."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "An Intrusion Detection System (IDS) typically operates in which mode?",
+    "options": {
+      "a": "Inline mode",
+      "b": "Passive mode",
+      "c": "Intermediary mode",
+      "d": "Proxy mode"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which operating mode allows an Intrusion Prevention System (IPS) to take immediate action to block threats?",
+    "options": {
+      "a": "Offline mode",
+      "b": "Passive mode",
+      "c": "Inline mode",
+      "d": "Monitoring mode"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Network-Based IDPS (NIDS/NIPS) are typically deployed at which strategic points?",
+    "options": {
+      "a": "Only on individual host endpoints.",
+      "b": "Inside user applications.",
+      "c": "At network gateways or between network segments.",
+      "d": "In the cloud as a service."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "A Host-Based IDPS (HIDS/HIPS) is primarily focused on monitoring which type of activity?",
+    "options": {
+      "a": "Traffic across the entire network backbone.",
+      "b": "Deep packet inspection of application layer protocols.",
+      "c": "System-level activities like file changes and registry modifications.",
+      "d": "Cloud infrastructure security policies."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "A Signature-Based IDPS is highly effective against which type of threat?",
+    "options": {
+      "a": "Zero-day exploits and unknown attacks.",
+      "b": "Predefined signatures or patterns of known threats.",
+      "c": "Behavioral anomalies from normal network activity.",
+      "d": "Threats that rely on machine learning analysis."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What method does an Anomaly-Based IDPS use to detect malicious activity?",
+    "options": {
+      "a": "Comparing traffic against a database of known threat patterns.",
+      "b": "Analyzing packet headers at Layer 3/4.",
+      "c": "Identifying deviations from normal network behavior using behavioral analysis.",
+      "d": "Blocking all traffic that is not explicitly whitelisted."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary strength of an Anomaly-Based IDPS?",
+    "options": {
+      "a": "Its guaranteed low rate of false positives.",
+      "b": "Its ability to detect unknown or zero-day threats.",
+      "c": "Its simplicity and low resource requirements.",
+      "d": "Its reliance on administrators to manually review logs."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does a Hybrid IDPS combine to improve accuracy and reduce false positives?",
+    "options": {
+      "a": "Cloud and on-premise monitoring.",
+      "b": "IDS and firewall functionality.",
+      "c": "Host-based and network-based solutions.",
+      "d": "Signature-based and anomaly-based detection."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What is a recommended best practice for IDPS deployment regarding SIEM?",
+    "options": {
+      "a": "Separate the IDPS entirely from SIEM for redundancy.",
+      "b": "Integrate IDPS with SIEM systems for centralized monitoring and correlation.",
+      "c": "Only use SIEM for IDS, not IPS.",
+      "d": "Use SIEM only for forensic analysis, not real-time monitoring."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the essential purpose of Virtual Private Networks (VPNs)?",
+    "options": {
+      "a": "To allow unrestricted access to all corporate resources.",
+      "b": "To encrypt data transmission over untrusted networks.",
+      "c": "To solely bypass geo-restrictions on streaming services.",
+      "d": "To act as a central network gateway for all traffic."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which type of VPN is designed to connect entire geographically dispersed networks securely over the internet?",
+    "options": {
+      "a": "Remote Access VPN",
+      "b": "Client-Site VPN",
+      "c": "Cloud VPN",
+      "d": "Site-to-Site VPN"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Remote Access VPNs are primarily used to enable which function?",
+    "options": {
+      "a": "Sharing resources between two corporate branch offices.",
+      "b": "Securely connecting on-premise networks to cloud infrastructure.",
+      "c": "Allowing individual users to securely access a corporate network from a remote location.",
+      "d": "Providing improved anonymity by masking internal IP addresses."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which VPN type is ideal for organizations leveraging cloud services like AWS or Azure, securely connecting on-premise networks to cloud infrastructure?",
+    "options": {
+      "a": "Site-to-Site VPN",
+      "b": "Client-Site VPN",
+      "c": "Cloud VPN",
+      "d": "Remote Access VPN"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a key function of the IPSec (Internet Protocol Security) protocol suite?",
+    "options": {
+      "a": "Operating at the application layer for web-based VPNs.",
+      "b": "Providing tunneling but lacking encryption capabilities.",
+      "c": "Securing IP communications by authenticating and encrypting each IP packet.",
+      "d": "Being known as an older, fast, but insecure protocol."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "At which layer do SSL/TLS VPNs often operate, making them easier to deploy for web-based VPNs?",
+    "options": {
+      "a": "Network Layer (Layer 3)",
+      "b": "Data Link Layer (Layer 2)",
+      "c": "Application Layer",
+      "d": "Physical Layer (Layer 1)"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which modern VPN protocol is known for its simplicity, high performance, and state-of-the-art cryptography?",
+    "options": {
+      "a": "PPTP",
+      "b": "L2TP/IPSec",
+      "c": "OpenVPN",
+      "d": "WireGuard"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "OpenVPN is highly valued for being an open-source protocol that uses SSL/TLS for encryption and what other characteristic?",
+    "options": {
+      "a": "It is complex and strictly limited to Windows platforms.",
+      "b": "It is highly configurable and supports a wide range of platforms.",
+      "c": "It is considered too insecure for corporate use.",
+      "d": "It operates solely at the network layer."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is PPTP (Point-to-Point Tunneling Protocol) not recommended for sensitive environments?",
+    "options": {
+      "a": "It requires excessive configuration and maintenance.",
+      "b": "It is considered insecure due to known vulnerabilities.",
+      "c": "It introduces excessive latency due to double encapsulation.",
+      "d": "It is only compatible with Linux operating systems."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "L2TP/IPSec provides strong security by combining L2TP for tunneling with IPSec for what purpose?",
+    "options": {
+      "a": "Routing",
+      "b": "Network segmentation",
+      "c": "Encryption",
+      "d": "Anti-spam filtering"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which mechanism is recommended for verifying user identity when implementing strong VPN authentication?",
+    "options": {
+      "a": "Use of the insecure PPTP protocol.",
+      "b": "Relying on single password authentication.",
+      "c": "Implementing Multi-Factor Authentication (MFA).",
+      "d": "Disabling logging and monitoring."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What functionality is used to configure VPN clients to block internet traffic if the VPN connection drops, preventing any data leak?",
+    "options": {
+      "a": "Split Tunneling",
+      "b": "Role-Based Access Control (RBAC)",
+      "c": "Kill Switch Functionality",
+      "d": "Disaster Recovery Plan"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Creating dedicated VPN zones to isolate VPN traffic from other network traffic helps to achieve what?",
+    "options": {
+      "a": "Simplification of password policies.",
+      "b": "Use of outdated protocols.",
+      "c": "Reduced bandwidth usage.",
+      "d": "Enhanced security and a reduced attack surface."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "The Zero Trust principle, when applied to VPNs, mandates what action before granting access to a resource?",
+    "options": {
+      "a": "Assuming the user is trusted by default.",
+      "b": "Verifying every single user and device.",
+      "c": "Disabling all security audits.",
+      "d": "Using only the PPTP protocol."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The configuration of 'split tunneling' in a VPN is primarily intended for which purpose?",
+    "options": {
+      "a": "To route all traffic through the VPN for maximum security.",
+      "b": "To route only specific traffic through the VPN, reducing bandwidth usage.",
+      "c": "To enforce strong password policies.",
+      "d": "To manage VPN gateways and routers."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "To protect sensitive information from interception and eavesdropping, VPNs rely on which core mechanism?",
+    "options": {
+      "a": "Content filtering.",
+      "b": "Network segmentation.",
+      "c": "Data encryption.",
+      "d": "Access Control Lists (ACLs)."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which type of credential should be leveraged for device authentication in a VPN environment?",
+    "options": {
+      "a": "Username/Password only",
+      "b": "Digital Certificates",
+      "c": "Shared Public Keys",
+      "d": "Biometric Scanners"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What kind of assessment should be performed on the VPN infrastructure to identify and remediate weaknesses?",
+    "options": {
+      "a": "User Training and Awareness",
+      "b": "Compliance Audits only",
+      "c": "Vulnerability Assessments and Penetration Testing",
+      "d": "Hardware Performance Optimization"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "The design principle of Defense in Depth (DID) dictates the use of what strategy?",
+    "options": {
+      "a": "A single, highly secure firewall.",
+      "b": "Multiple layers of security controls.",
+      "c": "Relying exclusively on encryption.",
+      "d": "Disabling all logging to reduce overhead."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which secure network design principle involves dividing the network into smaller, isolated segments?",
+    "options": {
+      "a": "Redundancy and Failover Systems",
+      "b": "Least Privilege Principle",
+      "c": "Zero Trust Architecture (ZTA)",
+      "d": "Network Segmentation and Isolation"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Perimeter Security, Internal Security (NAC/DLP), Encryption (VPNs), and Monitoring (SIEM) are examples of which key security principle?",
+    "options": {
+      "a": "User Education and Awareness",
+      "b": "Implementation of Security Layers",
+      "c": "Risk Assessment",
+      "d": "Business Continuity Planning"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The core assumption of Zero Trust Architecture (ZTA) is that no user or device can be trusted by default, regardless of what?",
+    "options": {
+      "a": "Their job role.",
+      "b": "Their location (inside or outside the network).",
+      "c": "The speed of the network connection.",
+      "d": "The type of operating system they use."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary goal of the Redundancy and Failover Systems principle?",
+    "options": {
+      "a": "To lower overall network costs.",
+      "b": "To ensure high availability and resilience.",
+      "c": "To eliminate the need for regular updates.",
+      "d": "To limit access to sensitive resources."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Conducting regular vulnerability assessments and penetration testing falls under which key security principle?",
+    "options": {
+      "a": "Defense in Depth",
+      "b": "Redundancy and Failover Systems",
+      "c": "Regular Assessment and Updates",
+      "d": "Zero Trust Architecture"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "The principle of User Education and Awareness is critical because human error is often identified as what?",
+    "options": {
+      "a": "The strongest link in network security.",
+      "b": "A key component of redundancy.",
+      "c": "A weak link in network security.",
+      "d": "A non-factor in modern cyberattacks."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which technology is used in Network Segmentation to separate critical systems from less secure environments?",
+    "options": {
+      "a": "Security Information and Event Management (SIEM).",
+      "b": "Virtual Local Area Networks (VLANs) and subnets.",
+      "c": "Threat Intelligence Platforms (TIPs).",
+      "d": "Endpoint Detection and Response (EDR)."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of implementing a Demilitarized Zone (DMZ) in network segmentation?",
+    "options": {
+      "a": "To ensure all internal users have full access to public servers.",
+      "b": "To isolate public-facing servers from internal networks.",
+      "c": "To serve as the main internal corporate network.",
+      "d": "To solely enforce the principle of least privilege."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In Zero Trust Architecture (ZTA), what technology is specifically used to enforce strict access controls within the network?",
+    "options": {
+      "a": "External firewalls.",
+      "b": "Network Access Control (NAC).",
+      "c": "Microsegmentation.",
+      "d": "Physical security measures."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a primary benefit of designing a network with redundancy and failover systems?",
+    "options": {
+      "a": "It guarantees that no attack can ever succeed.",
+      "b": "It minimizes downtime and ensures business continuity.",
+      "c": "It eliminates the need for any internal security measures.",
+      "d": "It reduces the need for user education and training."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "According to best practices, what should be the first step in secure network design?",
+    "options": {
+      "a": "Implement the Zero Trust Architecture.",
+      "b": "Start with a Risk Assessment.",
+      "c": "Deploy redundant hardware immediately.",
+      "d": "Train all users on security awareness."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Advanced threats that traditional security measures struggle to defend against include ransomware, zero-day exploits, and what other type of threat?",
+    "options": {
+      "a": "Packet filtering attacks.",
+      "b": "Simple port scans.",
+      "c": "Advanced Persistent Threats (APTs).",
+      "d": "Standard web browsing."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the overall goal of adopting Advanced Threat Protection (ATP) solutions?",
+    "options": {
+      "a": "To simplify security management by using only one tool.",
+      "b": "To rely solely on antivirus software for all threats.",
+      "c": "To detect, prevent, and respond to complex attacks.",
+      "d": "To reduce network performance to enhance security."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which key feature is included in Unified Threat Management (UTM) systems alongside firewall and IPS functionalities?",
+    "options": {
+      "a": "Deception Technology",
+      "b": "Antivirus/Anti-Malware and Content Filtering",
+      "c": "Microsegmentation",
+      "d": "Forensic analysis of endpoints"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is an advantage of using a Unified Threat Management (UTM) system?",
+    "options": {
+      "a": "It offers superior performance compared to standalone solutions.",
+      "b": "It is cost-effective and easy to manage for small to medium-sized businesses.",
+      "c": "It is primarily designed for high-traffic enterprise networks.",
+      "d": "It can handle extremely advanced threats with no limitations."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which Next-Generation Firewall (NGFW) feature involves analyzing the content of network packets to detect malicious payloads?",
+    "options": {
+      "a": "Application Layer Filtering",
+      "b": "Deep Packet Inspection (DPI)",
+      "c": "Basic Packet Filtering",
+      "d": "Session State Tracking"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which NGFW feature is crucial for isolating and analyzing suspicious files in a secure environment to detect advanced malware?",
+    "options": {
+      "a": "Cloud-based threat intelligence.",
+      "b": "Application awareness.",
+      "c": "Sandboxing.",
+      "d": "IP address filtering."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "The NGFW capability that identifies and controls traffic based on specific user applications (e.g., blocking unauthorized social media use) is called what?",
+    "options": {
+      "a": "Deep Packet Inspection.",
+      "b": "Application Layer Filtering.",
+      "c": "Stateful Inspection.",
+      "d": "Application Level Gateway."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Endpoint Detection and Response (EDR) primarily focuses on securing which parts of the network?",
+    "options": {
+      "a": "The core network routers and switches.",
+      "b": "The Demilitarized Zone (DMZ).",
+      "c": "Endpoints like laptops, desktops, and mobile phones.",
+      "d": "The physical security infrastructure."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "A key feature of EDR is continuous monitoring of endpoint activities and what type of response to detected threats?",
+    "options": {
+      "a": "Manual intervention only.",
+      "b": "Automated response (e.g., isolating infected devices).",
+      "c": "Alerting a third-party antivirus provider.",
+      "d": "Disabling the user's Wi-Fi connection."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the function of Threat Intelligence Platforms (TIPs)?",
+    "options": {
+      "a": "To perform deep packet inspection at the perimeter.",
+      "b": "To aggregate and analyze data to identify emerging threats and vulnerabilities.",
+      "c": "To manage and configure firewall rules.",
+      "d": "To create isolated network segments (VLANs)."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "An advantage of TIPs is that they enhance proactive threat detection and provide what for security incidents?",
+    "options": {
+      "a": "A high number of false positives.",
+      "b": "Context, improving decision-making.",
+      "c": "Simplified access control lists.",
+      "d": "Guaranteed 100% security coverage."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How is micro-segmentation used to enforce strict access controls in a Zero Trust Architecture (ZTA)?",
+    "options": {
+      "a": "By assuming all internal users are trusted.",
+      "b": "By dividing the network into very small, isolated zones.",
+      "c": "By relying solely on perimeter firewalls.",
+      "d": "By simplifying the user authentication process."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which Advanced Threat Protection technology deploys decoys and traps across the network to lure and detect attackers?",
+    "options": {
+      "a": "Endpoint Detection and Response (EDR)",
+      "b": "Unified Threat Management (UTM)",
+      "c": "Deception Technology",
+      "d": "Advanced Threat Intelligence"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a major benefit of Deception Technology?",
+    "options": {
+      "a": "It completely replaces the need for firewalls.",
+      "b": "It provides early detection of advanced threats by minimizing false positives on actual attacker behavior.",
+      "c": "It requires no maintenance or planning.",
+      "d": "It only works against known signature-based threats."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "A key best practice for Advanced Threat Protection (ATP) is to leverage which tools to detect and respond to threats faster than manual methods?",
+    "options": {
+      "a": "Only basic packet filtering.",
+      "b": "Automation and AI.",
+      "c": "Physical security measures.",
+      "d": "Legacy VPN protocols like PPTP."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What type of security assessment involves simulating attacks to identify and address weaknesses in the network?",
+    "options": {
+      "a": "Compliance Audits",
+      "b": "Network Performance Tuning",
+      "c": "Red Team Exercises and Penetration Testing",
+      "d": "Firmware Update Checks"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Integrating security tools using SIEM platforms is an ATP best practice aimed at improving what process?",
+    "options": {
+      "a": "Reducing hardware costs.",
+      "b": "Incident response through data correlation.",
+      "c": "Eliminating all user training.",
+      "d": "Increasing network latency."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "At which layers of the OSI model do Packet Filtering Firewalls primarily operate?",
+    "options": {
+      "a": "Application Layer (Layer 7) and Presentation Layer (Layer 6).",
+      "b": "Network Layer (Layer 3) and Transport Layer (Layer 4).",
+      "c": "Data Link Layer (Layer 2) and Physical Layer (Layer 1).",
+      "d": "Session Layer (Layer 5) only."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the processing-related limitation of a Proxy Firewall?",
+    "options": {
+      "a": "It cannot filter traffic based on IP address.",
+      "b": "It can introduce latency due to traffic processing overhead.",
+      "c": "It is unable to handle cloud-based applications.",
+      "d": "It requires physical deployment only."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Compared to traditional firewalls, what is a key limitation of Next-Generation Firewalls (NGFWs)?",
+    "options": {
+      "a": "Lower costs and simpler configuration.",
+      "b": "Inability to use application awareness.",
+      "c": "Higher costs and complexity.",
+      "d": "Lack of deep packet inspection."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "A limitation of Unified Threat Management (UTM) Firewalls is that they may not offer the same level of performance or what compared to stand-alone solutions?",
+    "options": {
+      "a": "Antivirus protection.",
+      "b": "Customization.",
+      "c": "VPN integration.",
+      "d": "Firewall functionality."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a primary limitation of Cloud Firewalls (FWaaS)?",
+    "options": {
+      "a": "Inability to protect remote users.",
+      "b": "Dependence on internet connectivity and potential latency issues.",
+      "c": "Lack of real-time updates.",
+      "d": "Requirement for on-premise hardware."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The primary purpose of firewall logging and monitoring is to detect anomalies, investigate incidents, and ensure what?",
+    "options": {
+      "a": "Highest possible performance.",
+      "b": "Regulatory compliance.",
+      "c": "Automatic patching.",
+      "d": "Single-point-of-failure."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the most significant limitation of an Intrusion Detection System (IDS)?",
+    "options": {
+      "a": "It is too expensive for most organizations.",
+      "b": "It cannot prevent attacks in real time.",
+      "c": "It requires a dedicated hardware appliance.",
+      "d": "It monitors only host-based activities."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The main limitation of an Intrusion Prevention System (IPS) is the potential for it to do what?",
+    "options": {
+      "a": "Rely on administrator action.",
+      "b": "Only operate in passive mode.",
+      "c": "Introduce latency or generate false positives.",
+      "d": "Lack the ability to analyze packet headers."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "A disadvantage of Host-Based IDPS (HIDS/HIPS) is that it requires more resources to manage at a large scale despite providing what?",
+    "options": {
+      "a": "Network-wide traffic analysis.",
+      "b": "Granular visibility into system-level activities.",
+      "c": "Deep packet inspection at the gateway.",
+      "d": "Centralized management of network resources."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the goal when fine-tuning IDPS detection rules?",
+    "options": {
+      "a": "To increase the number of alerts generated.",
+      "b": "To simplify the rule set by removing complexity.",
+      "c": "To minimize false positives and false negatives.",
+      "d": "To maximize resource utilization."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "VPNs are essential tools for ensuring secure communication over untrusted networks by protecting sensitive information from which three main threats?",
+    "options": {
+      "a": "Latency, hardware failure, and power outages.",
+      "b": "IP spoofing, deep packet inspection, and packet filtering.",
+      "c": "Interception, eavesdropping, and unauthorized access.",
+      "d": "Antivirus, anti-spam, and content filtering."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "How are Site-to-Site VPNs typically implemented?",
+    "options": {
+      "a": "Using client software installed on every user device.",
+      "b": "Using routers or firewalls with VPN capabilities.",
+      "c": "Through a simple web browser extension.",
+      "d": "By relying on local machine encryption only."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is required on every user device for a Remote Access VPN to function?",
+    "options": {
+      "a": "A full-featured firewall appliance.",
+      "b": "Dedicated physical security measures.",
+      "c": "VPN client software.",
+      "d": "Microsegmentation capability."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "A drawback of the IPSec protocol, despite its strong security, is that it can be what?",
+    "options": {
+      "a": "Too fast for most networks.",
+      "b": "Complex to configure.",
+      "c": "Vulnerable to man-in-the-middle attacks.",
+      "d": "Limited to application-layer traffic."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which VPN protocol is explicitly labeled as 'not recommended for sensitive or high-security environments' due to known vulnerabilities?",
+    "options": {
+      "a": "WireGuard",
+      "b": "PPTP",
+      "c": "IPSec",
+      "d": "SSL/TLS"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What technology is recommended for device authentication within a VPN setup?",
+    "options": {
+      "a": "Role-Based Access Control (RBAC)",
+      "b": "Split Tunneling",
+      "c": "Digital Certificates",
+      "d": "Least Privilege Principle"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Conducting regular security audits on VPN infrastructure should include what type of testing?",
+    "options": {
+      "a": "User Training and Awareness.",
+      "b": "Vulnerability Assessments and Penetration Testing.",
+      "c": "Optimizing hardware resources.",
+      "d": "Disabling the kill switch."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The Zero Trust Architecture (ZTA) assumes that no user or device can be trusted by default, even if they are located where?",
+    "options": {
+      "a": "Outside the network perimeter.",
+      "b": "On a mobile device.",
+      "c": "Inside the network perimeter.",
+      "d": "Using a secure VPN."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What type of hardware is used to implement redundancy to avoid single points of failure?",
+    "options": {
+      "a": "Standalone firewalls only.",
+      "b": "Redundant hardware (firewalls, routers, switches).",
+      "c": "Only virtualized servers.",
+      "d": "Only client-side endpoint devices."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is an ongoing activity that falls under the 'Regular Assessment and Updates' principle?",
+    "options": {
+      "a": "Disabling all internal logging.",
+      "b": "Conducting vulnerability assessments and penetration testing.",
+      "c": "Implementing a new VPN protocol every month.",
+      "d": "Eliminating all failover mechanisms."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Training employees to recognize security threats primarily helps to reduce the risks of which type of attack?",
+    "options": {
+      "a": "Brute-force attacks.",
+      "b": "Hardware failures.",
+      "c": "Social engineering attacks like phishing.",
+      "d": "Zero-day exploits."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In secure network design, how are SIEM tools utilized to monitor network activity?",
+    "options": {
+      "a": "To configure firewalls and routers.",
+      "b": "To ensure compliance with local laws only.",
+      "c": "To monitor network activity and respond to incidents in real-time.",
+      "d": "To replace all forms of encryption."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Advanced Threat Protection (ATP) is necessary to combat increasingly sophisticated threats such as what kind of exploits?",
+    "options": {
+      "a": "Simple dictionary attacks.",
+      "b": "Known signature-based malware.",
+      "c": "Zero-day exploits.",
+      "d": "Basic web traffic filtering."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "NGFWs integrate with threat intelligence feeds to identify and block which three types of known malicious indicators?",
+    "options": {
+      "a": "Antivirus, Anti-spam, and VPNs.",
+      "b": "IPs, domains, and URLs.",
+      "c": "Routers, switches, and servers.",
+      "d": "Layer 3, Layer 4, and Layer 7 protocols."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "A key limitation of Endpoint Detection and Response (EDR) is that it can be resource-intensive, requiring significant storage and what else?",
+    "options": {
+      "a": "Physical security measures.",
+      "b": "VPN client software.",
+      "c": "Processing power.",
+      "d": "Cloud hosting services."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "For Threat Intelligence Platforms (TIPs) to be effective, they require access to what kind of data feeds?",
+    "options": {
+      "a": "Low-quality open-source data.",
+      "b": "Outdated security newsletters.",
+      "c": "High-quality threat intelligence feeds.",
+      "d": "Internal logs only."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Implementing Zero Trust Architecture (ZTA) requires a significant investment in technology and what else?",
+    "options": {
+      "a": "Physical building expansion.",
+      "b": "Simplified network architecture.",
+      "c": "Management processes.",
+      "d": "User anonymity features."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a prerequisite for Deception Technology to be successful?",
+    "options": {
+      "a": "It must be connected to the internet.",
+      "b": "It must be deployed without any planning.",
+      "c": "It requires careful planning and deployment.",
+      "d": "It must only use signature-based detection."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the critical final step for the 'Plan for Incident Response' best practice?",
+    "options": {
+      "a": "Deploying the most expensive firewall.",
+      "b": "Developing and testing the incident response plan.",
+      "c": "Disabling all security alerts.",
+      "d": "Outsourcing all security monitoring."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Next-Generation Firewalls (NGFWs) use machine learning and AI for which specific purpose?",
+    "options": {
+      "a": "To replace all human security staff.",
+      "b": "To simplify packet filtering rules.",
+      "c": "To use behavioral analysis to detect zero-day threats.",
+      "d": "To reduce the overall network bandwidth."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "A primary configuration task for firewalls is to ensure critical traffic is processed efficiently by prioritizing what?",
+    "options": {
+      "a": "Hardware updates.",
+      "b": "Cloud connectivity.",
+      "c": "Security policies.",
+      "d": "User training."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is NOT typically a feature integrated into a Unified Threat Management (UTM) firewall?",
+    "options": {
+      "a": "Antivirus",
+      "b": "Anti-spam",
+      "c": "Virtual Private Network (VPN)",
+      "d": "Physical Security Access Control"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What is the primary way Proxy Firewalls mask internal IP addresses?",
+    "options": {
+      "a": "By using only the source IP for all outgoing connections.",
+      "b": "By encrypting only the packet headers.",
+      "c": "By acting as an intermediary between users and services.",
+      "d": "By operating in passive mode."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "When configuring a firewall, 'Segment Networks' means using the firewall to create segments like DMZs and internal networks to achieve what?",
+    "options": {
+      "a": "Increase the spread of threats.",
+      "b": "Enforce security policies between segments.",
+      "c": "Eliminate the need for VPNs.",
+      "d": "Reduce logging requirements."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the context of the Principle of Least Privilege, what is restricted to only what is necessary for business operations?",
+    "options": {
+      "a": "The number of users.",
+      "b": "The amount of allowed traffic.",
+      "c": "The frequency of updates.",
+      "d": "The complexity of the encryption."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which IDPS system monitors and analyzes network traffic across the entire network, detecting threats like Denial-of-Service (DoS) attacks and malware propagation?",
+    "options": {
+      "a": "Host-Based IDPS (HIDS/HIPS).",
+      "b": "Application-Based IDPS.",
+      "c": "Network-Based IDPS (NIDS/NIPS).",
+      "d": "Signature-Based IDPS only."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the key difference between an IDS and an IPS regarding threat response?",
+    "options": {
+      "a": "IDS detects, while IPS actively blocks.",
+      "b": "IDS blocks, while IPS detects.",
+      "c": "IDS only works on hosts, while IPS works on networks.",
+      "d": "IDS is always cloud-based, while IPS is on-premise."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why might an Anomaly-Based IDPS generate a high number of false positives?",
+    "options": {
+      "a": "It relies solely on known signatures.",
+      "b": "Its behavior analysis identifies harmless deviations as suspicious.",
+      "c": "It is deployed only at the network gateway.",
+      "d": "It lacks machine learning capabilities."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "When adapting to evolving threats, IDPS rules should be customized to minimize false positives and what other metric?",
+    "options": {
+      "a": "Network bandwidth.",
+      "b": "Hardware costs.",
+      "c": "False negatives.",
+      "d": "User complaints."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Site-to-Site VPNs are ideal for which type of organization?",
+    "options": {
+      "a": "Individual consumers accessing streaming services.",
+      "b": "Organizations with multiple branch locations that need to share resources securely.",
+      "c": "Remote employees connecting from home.",
+      "d": "Small businesses with limited IT staff."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Client-Site VPNs are most often used by consumers to access streaming services or to bypass what kind of restrictions?",
+    "options": {
+      "a": "Antivirus scanning.",
+      "b": "Geo-restrictions.",
+      "c": "Network hardware limitations.",
+      "d": "Multi-Factor Authentication."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which VPN protocol is considered modern, lightweight, and uses state-of-the-art cryptography?",
+    "options": {
+      "a": "PPTP",
+      "b": "L2TP",
+      "c": "WireGuard",
+      "d": "SSL/TLS"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Why must VPN configurations be regularly backed up?",
+    "options": {
+      "a": "To ensure they are not using outdated protocols.",
+      "b": "To prevent data leaks from the kill switch.",
+      "c": "To ensure quick recovery in case of failures or attacks.",
+      "d": "To enforce the Zero Trust Architecture."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In the context of Defense in Depth, what is a benefit of using multiple layers of security controls?",
+    "options": {
+      "a": "It makes the network much simpler to manage.",
+      "b": "It eliminates the need for any anti-malware software.",
+      "c": "It reduces the likelihood of a single point of failure.",
+      "d": "It guarantees zero false positives in IDPS."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "The primary benefit of Network Segmentation and Isolation is that it limits the spread of threats and what else?",
+    "options": {
+      "a": "Simplifies network cabling.",
+      "b": "Limits lateral movement of attackers.",
+      "c": "Eliminates all network latency.",
+      "d": "Increases bandwidth usage."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Implementing Zero Trust Architecture (ZTA) reduces the risks of unauthorized access and which other type of threat?",
+    "options": {
+      "a": "Network cabling issues.",
+      "b": "External network performance issues.",
+      "c": "Insider threats.",
+      "d": "Physical theft of hardware."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Using redundant hardware and network paths is essential to avoid what common vulnerability?",
+    "options": {
+      "a": "IP spoofing.",
+      "b": "Single points of failure.",
+      "c": "Social engineering.",
+      "d": "The need for user education."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the security-related implementation of the 'Regular Assessment and Updates' principle?",
+    "options": {
+      "a": "Only updating firmware every five years.",
+      "b": "Reviewing and refining security rules, policies, and access controls.",
+      "c": "Using a fixed set of security rules forever.",
+      "d": "Ignoring threat intelligence feeds."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary focus of Endpoint Detection and Response (EDR) in an ATP strategy?",
+    "options": {
+      "a": "Perimeter network defense.",
+      "b": "Securing laptops, desktops, and mobile devices.",
+      "c": "Cloud infrastructure management.",
+      "d": "Application layer gateway filtering."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "NGFWs integrate with Machine Learning (ML) and AI to detect which specific type of anomalous activity?",
+    "options": {
+      "a": "Known signature threats.",
+      "b": "Routine system backups.",
+      "c": "Zero-day threats.",
+      "d": "Packet filtering errors."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a core benefit of using Threat Intelligence Platforms (TIPs) for threat response?",
+    "options": {
+      "a": "Reducing the reliance on firewalls.",
+      "b": "Providing context for security incidents.",
+      "c": "Eliminating the need for EDR.",
+      "d": "Managing VPN client connections."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Deception Technology helps to minimize false positives by focusing on what specific type of activity?",
+    "options": {
+      "a": "Automated security updates.",
+      "b": "Actual attacker behavior when interacting with decoys.",
+      "c": "User login attempts.",
+      "d": "External network traffic flow."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of enabling Intrusion Detection and Prevention when integrating with firewalls?",
+    "options": {
+      "a": "To replace the firewall completely.",
+      "b": "To identify and block suspicious activity.",
+      "c": "To simplify firewall rule management.",
+      "d": "To reduce network performance."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the critical first step in a successful IDPS deployment?",
+    "options": {
+      "a": "Optimizing hardware performance.",
+      "b": "Choosing the right deployment model (network-based, host-based, or hybrid).",
+      "c": "Enabling logging only.",
+      "d": "Conducting user training."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which VPN protocol is known to be generally faster than traditional protocols like IPSec and OpenVPN?",
+    "options": {
+      "a": "PPTP",
+      "b": "L2TP",
+      "c": "WireGuard",
+      "d": "SSL/TLS"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the recommended approach for managing a large-scale deployment of Host-Based IDPS (HIDS/HIPS)?",
+    "options": {
+      "a": "To focus only on network gateways.",
+      "b": "To use it as a substitute for network-based IDPS.",
+      "c": "To acknowledge it requires more resources and plan accordingly.",
+      "d": "To rely on it for network-wide traffic analysis."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does the term 'bypassing geo-restrictions' refer to in the context of VPN usage?",
+    "options": {
+      "a": "Removing physical security limitations.",
+      "b": "Accessing content restricted by geographic location.",
+      "c": "Bypassing hardware firewalls.",
+      "d": "Removing the need for encryption."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which component is NOT a core part of the 'Implementation of Security Layers' principle?",
+    "options": {
+      "a": "Perimeter Security (Firewalls/IDS/IPS).",
+      "b": "Internal Security (NAC/DLP).",
+      "c": "Encryption (VPNs).",
+      "d": "Disabling all logging systems."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What is the primary function of Advanced Threat Protection (ATP) solutions?",
+    "options": {
+      "a": "To monitor and control incoming/outgoing traffic at Layers 3/4.",
+      "b": "To detect, prevent, and respond to sophisticated attacks.",
+      "c": "To ensure business continuity during hardware failure.",
+      "d": "To reduce the physical attack surface."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which type of firewall is primarily used for enforcing granular security policies at the application layer?",
+    "options": {
+      "a": "Stateful Inspection Firewall.",
+      "b": "Packet Filtering Firewall.",
+      "c": "Proxy Firewall.",
+      "d": "Cloud Firewall."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In the context of the Least Privilege Principle for firewalls, what is the goal?",
+    "options": {
+      "a": "To allow maximum traffic for efficiency.",
+      "b": "To limit traffic to the minimum necessary.",
+      "c": "To use the minimum number of firewalls.",
+      "d": "To require minimum user training."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is an IDS considered passive in its operation?",
+    "options": {
+      "a": "It actively blocks malicious traffic.",
+      "b": "It only monitors and alerts, without actively blocking traffic.",
+      "c": "It requires manual configuration only.",
+      "d": "It is deployed inline in the network traffic flow."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which type of IDPS is best suited for detecting unknown or zero-day threats?",
+    "options": {
+      "a": "Signature-Based IDPS.",
+      "b": "Network-Based IDPS.",
+      "c": "Anomaly-Based IDPS.",
+      "d": "Host-Based IDPS."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What security issue does the VPN Kill Switch functionality address?",
+    "options": {
+      "a": "Weak encryption protocols.",
+      "b": "Unauthorized access to internal resources.",
+      "c": "Data leaks if the VPN connection drops.",
+      "d": "The complexity of configuration."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "The security principle that protects critical assets by utilizing multiple layers of security controls is known as what?",
+    "options": {
+      "a": "Network Segmentation.",
+      "b": "Defense in Depth (DID).",
+      "c": "Redundancy and Failover.",
+      "d": "Zero Trust Architecture (ZTA)."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which action is required for all security tools and systems to protect against known vulnerabilities?",
+    "options": {
+      "a": "Regularly updating and patching systems.",
+      "b": "Reducing the number of devices.",
+      "c": "Disabling the firewalls.",
+      "d": "Using only physical security."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the primary risk reduced by user training on security awareness?",
+    "options": {
+      "a": "Hardware failure.",
+      "b": "Physical theft.",
+      "c": "Social engineering attacks.",
+      "d": "Internet connection drops."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is one of the key limitations of the Unified Threat Management (UTM) approach for security?",
+    "options": {
+      "a": "It is not cost-effective.",
+      "b": "It may not offer the performance/customization of stand-alone solutions.",
+      "c": "It is only deployable in the cloud.",
+      "d": "It requires multiple management platforms."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which Next-Generation Firewall (NGFW) capability allows control over traffic based on applications like social media?",
+    "options": {
+      "a": "Stateful Inspection.",
+      "b": "Application Layer Filtering.",
+      "c": "Packet Filtering.",
+      "d": "Content Distribution."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What type of analysis is used by EDR to investigate and remediate security incidents?",
+    "options": {
+      "a": "Network traffic analysis only.",
+      "b": "Deep packet inspection only.",
+      "c": "Forensic analysis.",
+      "d": "Basic log inspection."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a characteristic of Zero Trust Architecture (ZTA) implementation?",
+    "options": {
+      "a": "Granting blanket access to all internal users.",
+      "b": "Continuous monitoring and validation of every user activity and device health.",
+      "c": "Assuming external users are always malicious.",
+      "d": "Relying on a single firewall at the perimeter."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What technology is used in Deception Technology to mislead attackers?",
+    "options": {
+      "a": "External IP filtering only.",
+      "b": "Fake systems, files, and credentials (decoys).",
+      "c": "Physical security measures.",
+      "d": "Legacy VPN protocols."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the context of firewalls, which action is necessary to address vulnerabilities and protect against emerging threats?",
+    "options": {
+      "a": "Disabling deep packet inspection.",
+      "b": "Perform Regular Updates and Patching.",
+      "c": "Ignoring threat intelligence feeds.",
+      "d": "Optimizing hardware by reducing resources."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which type of IDPS relies on predefined signatures or patterns of known threats?",
+    "options": {
+      "a": "Anomaly-Based IDPS.",
+      "b": "Signature-Based IDPS.",
+      "c": "Hybrid IDPS.",
+      "d": "Host-Based IDPS."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The use of SSL/TLS for VPNs makes them easier to deploy and manage because they operate at which layer?",
+    "options": {
+      "a": "Network Layer.",
+      "b": "Transport Layer.",
+      "c": "Physical Layer.",
+      "d": "Application Layer."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "The principle of Redundancy and Failover Systems primarily aims to ensure which business objective?",
+    "options": {
+      "a": "User anonymity.",
+      "b": "Business continuity.",
+      "c": "Simplified access control.",
+      "d": "Reduced software costs."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is an essential component of a firewall's management process to detect anomalies and investigate incidents?",
+    "options": {
+      "a": "Disabling the state table.",
+      "b": "Enabling logging and monitoring.",
+      "c": "Reducing network segmentation.",
+      "d": "Using only basic packet filtering."
+    },
+    "correctAnswer": "b"
+  }
+]

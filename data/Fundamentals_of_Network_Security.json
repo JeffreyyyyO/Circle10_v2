@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "What are the three foundational principles of the CIA triad?",
+    "options": {
+      "a": "Control, Investigation, Authentication",
+      "b": "Confidentiality, Integrity, Availability",
+      "c": "Compliance, Integrity, Access",
+      "d": "Confidentiality, Internet, Authorization"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which principle of the CIA triad ensures that sensitive information is accessible only to authorized individuals?",
+    "options": {
+      "a": "Integrity",
+      "b": "Authentication",
+      "c": "Confidentiality",
+      "d": "Availability"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What technology converts data into an unreadable format to achieve confidentiality?",
+    "options": {
+      "a": "Encryption",
+      "b": "Firewall",
+      "c": "Hashing",
+      "d": "Load Balancing"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "TLS (Transport Layer Security) is the updated, non-deprecated version of which protocol?",
+    "options": {
+      "a": "HTTP",
+      "b": "FTP",
+      "c": "SSH",
+      "d": "SSL (Secure Sockets Layer)"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which principle of the CIA triad ensures that data remains accurate, consistent, and unaltered?",
+    "options": {
+      "a": "Availability",
+      "b": "Integrity",
+      "c": "Confidentiality",
+      "d": "Non-repudiation"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following are used to verify data integrity by generating a unique value for the data?",
+    "options": {
+      "a": "Encryption Keys (e.g., AES)",
+      "b": "Access Control Lists",
+      "c": "Load Balancers",
+      "d": "Checksums and Hashes (e.g., SHA-256)"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "A 'Man-in-the-Middle (MITM)' attack, where an attacker alters data in transmission, primarily challenges which principle of the CIA triad?",
+    "options": {
+      "a": "Integrity",
+      "b": "Availability",
+      "c": "Authentication",
+      "d": "Authorization"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which principle of the CIA triad ensures that systems and data are accessible when needed?",
+    "options": {
+      "a": "Confidentiality",
+      "b": "Integrity",
+      "c": "Availability",
+      "d": "Accountability"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Distributing network traffic across multiple servers to prevent overloading is known as:",
+    "options": {
+      "a": "Hashing",
+      "b": "Redundancy",
+      "c": "Encryption",
+      "d": "Load Balancing"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "A DDoS (Distributed Denial of Service) attack directly targets which principle of the CIA triad?",
+    "options": {
+      "a": "Confidentiality",
+      "b": "Availability",
+      "c": "Integrity",
+      "d": "Authenticity"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is Wireshark?",
+    "options": {
+      "a": "A network simulation tool",
+      "b": "A hardware firewall",
+      "c": "A free and open-source network protocol analyzer",
+      "d": "An antivirus software"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary function of Wireshark?",
+    "options": {
+      "a": "To block malicious IP addresses",
+      "b": "To capture and inspect network traffic in real time",
+      "c": "To design and configure network topologies",
+      "d": "To encrypt patient medical records"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool is a network simulation tool used to design, configure, and test network topologies, often in educational settings?",
+    "options": {
+      "a": "Wireshark",
+      "b": "Tripwire",
+      "c": "AES",
+      "d": "Cisco Packet Tracer"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What security device acts as a barrier between a trusted internal network and an untrusted external network?",
+    "options": {
+      "a": "Load Balancer",
+      "b": "Firewall",
+      "c": "Router",
+      "d": "Protocol Analyzer"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a key feature of Next-Generation Firewalls (NGFW)?",
+    "options": {
+      "a": "Only filtering by IP address",
+      "b": "Only simulating network traffic",
+      "c": "Intrusion prevention and application awareness",
+      "d": "Only capturing packets"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does an Intrusion Detection System (IDS) do?",
+    "options": {
+      "a": "Automatically blocks all suspicious traffic",
+      "b": "Encrypts all network data",
+      "c": "Simulates network attacks",
+      "d": "Monitors network traffic for suspicious activity and alerts administrators"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What is the primary difference between an IDS (Intrusion Detection System) and an IPS (Intrusion Prevention System)?",
+    "options": {
+      "a": "An IDS is for hardware, an IPS is for software",
+      "b": "An IDS uses signatures, an IPS uses anomalies",
+      "c": "An IPS can automatically block threats, while an IDS primarily monitors and alerts",
+      "d": "An IPS is for networks, an IDS is for hosts"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which type of IDPS detection identifies known threats by comparing traffic against a database of attack patterns?",
+    "options": {
+      "a": "Anomaly-Based Detection",
+      "b": "Signature-Based Detection",
+      "c": "Host-Based Detection",
+      "d": "Network-Based Detection"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which type of IDPS detection identifies new or unknown threats by learning normal network baselines?",
+    "options": {
+      "a": "Signature-Based Detection",
+      "b": "Stateful Inspection",
+      "c": "Anomaly-Based Detection",
+      "d": "Packet Filtering"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the process of converting data into a coded format to prevent unauthorized access?",
+    "options": {
+      "a": "Hashing",
+      "b": "Decoding",
+      "c": "Filtering",
+      "d": "Encryption"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What is AES (Advanced Encryption Standard) widely used for?",
+    "options": {
+      "a": "Encrypting data at rest",
+      "b": "Encrypting data in transit",
+      "c": "Verifying user identity",
+      "d": "Simulating networks"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which protocol is used to protect data in transit, such as in HTTPS, and is the modern successor to SSL?",
+    "options": {
+      "a": "AES (Advanced Encryption Standard)",
+      "b": "RSA (Rivest-Shamir-Adleman)",
+      "c": "TLS (Transport Layer Security)",
+      "d": "MD5 (Message Digest 5)"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Passwords, biometric authentication, and MFA (Multi-Factor Authentication) are all examples of what?",
+    "options": {
+      "a": "Encryption Protocols",
+      "b": "Network Simulation Tools",
+      "c": "Integrity Checks",
+      "d": "Access Control Mechanisms"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What type of access control grants access based on a user's role within an organization (e.g., a manager having more access than an intern)?",
+    "options": {
+      "a": "Multi-Factor Authentication (MFA)",
+      "b": "Role-Based Access Control (RBAC)",
+      "c": "Biometric Authentication",
+      "d": "Mandatory Access Control (MAC)"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does Multi-Factor Authentication (MFA) require?",
+    "options": {
+      "a": "Only a single, complex password",
+      "b": "Only a fingerprint scan",
+      "c": "Users to provide multiple forms of verification",
+      "d": "Access based only on job title"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary function of antivirus and anti-malware software?",
+    "options": {
+      "a": "To encrypt all hard drive data",
+      "b": "To detect, prevent, and remove malicious software",
+      "c": "To filter network traffic based on IP",
+      "d": "To simulate network topologies"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In antivirus software, what is the process of isolating infected files to prevent them from spreading?",
+    "options": {
+      "a": "Real-Time Scanning",
+      "b": "Automatic Updates",
+      "c": "Encryption",
+      "d": "Quarantine"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which tool, such as Tripwire, is used to monitor critical system files and alert administrators if unauthorized changes are detected?",
+    "options": {
+      "a": "Wireshark",
+      "b": "File Integrity Monitoring (FIM)",
+      "c": "Cisco Packet Tracer",
+      "d": "Load Balancer"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the conceptual framework that standardizes the functions of a communication system into seven distinct layers?",
+    "options": {
+      "a": "The CIA Triad",
+      "b": "The TCP/IP Model",
+      "c": "The OSI Model",
+      "d": "The Firewall Model"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is a type of attack, rather than a security tool or technique designed for defense?",
+    "options": {
+      "a": "Wireshark",
+      "b": "Firewall",
+      "c": "SQL Injection",
+      "d": "Encryption"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which layer of the OSI model is responsible for the transmission and reception of raw bit streams over a physical medium?",
+    "options": {
+      "a": "Layer 2: The Data Link Layer",
+      "b": "Layer 3: The Network Layer",
+      "c": "Layer 7: The Application Layer",
+      "d": "Layer 1: The Physical Layer"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Eavesdropping by 'tapping' into network cables is a threat at which OSI layer?",
+    "options": {
+      "a": "Layer 4: The Transport Layer",
+      "b": "Layer 1: The Physical Layer",
+      "c": "Layer 5: The Session Layer",
+      "d": "Layer 7: The Application Layer"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a security measure for the Physical Layer (Layer 1)?",
+    "options": {
+      "a": "MAC Address Filtering",
+      "b": "IPsec",
+      "c": "Locked Server Rooms",
+      "d": "Input Sanitization"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Shielded cabling is used at Layer 1 to protect against what?",
+    "options": {
+      "a": "SQL injection and XSS",
+      "b": "IP spoofing and routing attacks",
+      "c": "Malware and viruses",
+      "d": "Electromagnetic interference (EMI) and eavesdropping"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Theft, tampering with equipment, and natural disasters are primary security concerns for which OSI layer?",
+    "options": {
+      "a": "Layer 3: The Network Layer",
+      "b": "Layer 1: The Physical Layer",
+      "c": "Layer 6: The Presentation Layer",
+      "d": "Layer 7: The Application Layer"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which OSI layer handles MAC addressing, framing, and error detection on the same network?",
+    "options": {
+      "a": "Layer 1: The Physical Layer",
+      "b": "Layer 3: The Network Layer",
+      "c": "Layer 2: The Data Link Layer",
+      "d": "Layer 4: The Transport Layer"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "An attack where an attacker forges a MAC address to impersonate a legitimate device is called:",
+    "options": {
+      "a": "IP Spoofing",
+      "b": "MAC Spoofing",
+      "c": "ARP Poisoning",
+      "d": "Phishing"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "An attack that manipulates ARP tables to redirect traffic, often for MITM attacks, is known as:",
+    "options": {
+      "a": "MAC Spoofing",
+      "b": "IP Spoofing",
+      "c": "Session Hijacking",
+      "d": "ARP Poisoning"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What Layer 2 security measure segments network traffic to limit the spread of attacks, for example, by separating a finance department's network?",
+    "options": {
+      "a": "Firewalls",
+      "b": "VLANs (Virtual Local Area Networks)",
+      "c": "IPsec",
+      "d": "WAFs (Web Application Firewalls)"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Dynamic ARP Inspection (DAI) and Port Security are security measures for which OSI layer?",
+    "options": {
+      "a": "Layer 1: The Physical Layer",
+      "b": "Layer 4: The Transport Layer",
+      "c": "Layer 2: The Data Link Layer",
+      "d": "Layer 7: The Application Layer"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which OSI layer handles logical addressing (IP addressing) and routing of data across multiple networks?",
+    "options": {
+      "a": "Layer 2: The Data Link Layer",
+      "b": "Layer 3: The Network Layer",
+      "c": "Layer 4: The Transport Layer",
+      "d": "Layer 5: The Session Layer"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "An attack where an attacker forges an IP address to impersonate a legitimate device is called:",
+    "options": {
+      "a": "MAC Spoofing",
+      "b": "ARP Poisoning",
+      "c": "DNS Spoofing",
+      "d": "IP Spoofing"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which security measure at Layer 3 encrypts and authenticates IP packets for secure communication, often used in VPNs?",
+    "options": {
+      "a": "TLS (Transport Layer Security)",
+      "b": "MAC Address Filtering",
+      "c": "IPsec (Internet Protocol Security)",
+      "d": "WAF (Web Application Firewall)"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What type of security rule, often implemented on routers and firewalls, filters traffic based on IP addresses, ports, and protocols at Layer 3 and Layer 4?",
+    "options": {
+      "a": "VLANs",
+      "b": "Access Control Lists (ACLs)",
+      "c": "Input Validation",
+      "d": "Digital Signatures"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "DoS (Denial of Service) attacks that flood a network with traffic primarily target which OSI layer (though they can target others)?",
+    "options": {
+      "a": "Layer 1: The Physical Layer",
+      "b": "Layer 2: The Data Link Layer",
+      "c": "Layer 3: The Network Layer",
+      "d": "Layer 7: The Application Layer"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which OSI layer ensures reliable data transfer, error correction, and flow control using protocols like TCP and UDP?",
+    "options": {
+      "a": "Layer 3: The Network Layer",
+      "b": "Layer 5: The Session Layer",
+      "c": "Layer 4: The Transport Layer",
+      "d": "Layer 6: The Presentation Layer"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which protocol is used at Layer 4 to encrypt data, protecting against eavesdropping and tampering (e.g., in HTTPS)?",
+    "options": {
+      "a": "IPsec (Internet Protocol Security)",
+      "b": "TLS (Transport Layer Security)",
+      "c": "MAC Filtering",
+      "d": "AES (Advanced Encryption Standard)"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "An attack where an attacker intercepts and takes over an active session to gain unauthorized access is called:",
+    "options": {
+      "a": "SYN Flood Attack",
+      "b": "IP Spoofing",
+      "c": "Session Hijacking",
+      "d": "Phishing"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "A SYN flood attack, which overwhelms a server with SYN requests, is a threat at which OSI layer?",
+    "options": {
+      "a": "Layer 1: The Physical Layer",
+      "b": "Layer 2: The Data Link Layer",
+      "c": "Layer 6: The Presentation Layer",
+      "d": "Layer 4: The Transport Layer"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What is a key difference between TCP (Transmission Control Protocol) and UDP (User Datagram Protocol), both at Layer 4?",
+    "options": {
+      "a": "TCP is connection-oriented and reliable; UDP is connectionless and faster",
+      "b": "TCP is for email; UDP is for web",
+      "c": "TCP is physical; UDP is logical",
+      "d": "TCP is for encryption; UDP is for routing"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which OSI layer is responsible for managing, establishing, maintaining, and terminating connections (sessions) between applications?",
+    "options": {
+      "a": "Layer 4: The Transport Layer",
+      "b": "Layer 5: The Session Layer",
+      "c": "Layer 6: The Presentation Layer",
+      "d": "Layer 7: The Application Layer"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Session Hijacking and Session Replay Attacks are threats primarily associated with which OSI layer?",
+    "options": {
+      "a": "Layer 1: The Physical Layer",
+      "b": "Layer 2: The Data Link Layer",
+      "c": "Layer 5: The Session Layer",
+      "d": "Layer 3: The Network Layer"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What security measure, often seen in online banking apps, automatically terminates an inactive session to reduce the risk of unauthorized access?",
+    "options": {
+      "a": "Session Encryption",
+      "b": "Multi-Factor Authentication",
+      "c": "Session Timeout",
+      "d": "Port Security"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Using secure, unpredictable session IDs is a mitigation technique for threats at which OSI layer?",
+    "options": {
+      "a": "Layer 1: The Physical Layer",
+      "b": "Layer 3: The Network Layer",
+      "c": "Layer 6: The Presentation Layer",
+      "d": "Layer 5: The Session Layer"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "An attack where an attacker captures and replays valid session data to gain unauthorized access is called a:",
+    "options": {
+      "a": "DDoS Attack",
+      "b": "Phishing Attack",
+      "c": "Session Replay Attack",
+      "d": "MAC Spoofing Attack"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which OSI layer handles data formatting, encryption, and compression to ensure data is readable by the Application Layer?",
+    "options": {
+      "a": "Layer 4: The Transport Layer",
+      "b": "Layer 5: The Session Layer",
+      "c": "Layer 7: The Application Layer",
+      "d": "Layer 6: The Presentation Layer"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Malicious injection into data formats, such as PDFs or images, is a threat at which OSI layer?",
+    "options": {
+      "a": "Layer 1: The Physical Layer",
+      "b": "Layer 6: The Presentation Layer",
+      "c": "Layer 2: The Data Link Layer",
+      "d": "Layer 3: The Network Layer"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Using strong encryption algorithms like AES and RSA to protect data from being intercepted is a key security measure at which OSI layer?",
+    "options": {
+      "a": "Layer 1: The Physical Layer",
+      "b": "Layer 2: The Data Link Layer",
+      "c": "Layer 6: The Presentation Layer",
+      "d": "Layer 5: The Session Layer"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What Layer 6 security measure verifies the authenticity and integrity of data, ensuring it hasn't been tampered with since it was signed?",
+    "options": {
+      "a": "Session Timeouts",
+      "b": "Port Security",
+      "c": "Digital Signatures",
+      "d": "Load Balancing"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Ensuring data is in the correct format before processing to prevent malicious data from being processed is a Layer 6 security measure known as:",
+    "options": {
+      "a": "Data Encryption",
+      "b": "Data Compression",
+      "c": "Data Segmentation",
+      "d": "Data Validation"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which OSI layer is closest to the end-user and provides services like email, web browsing, and file transfers?",
+    "options": {
+      "a": "Layer 1: The Physical Layer",
+      "b": "Layer 7: The Application Layer",
+      "c": "Layer 4: The Transport Layer",
+      "d": "Layer 6: The Presentation Layer"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Phishing, SQL Injection, and Cross-Site Scripting (XSS) are all threats at which OSI layer?",
+    "options": {
+      "a": "Layer 2: The Data Link Layer",
+      "b": "Layer 3: The Network Layer",
+      "c": "Layer 7: The Application Layer",
+      "d": "Layer 4: The Transport Layer"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What type of firewall is specifically designed to protect against Layer 7 web-based attacks like SQL injection and XSS?",
+    "options": {
+      "a": "Stateful Firewall",
+      "b": "Packet-Filtering Firewall",
+      "c": "Hardware Firewall",
+      "d": "Web Application Firewall (WAF)"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What is the process of removing or neutralizing malicious input at the Application Layer to prevent attacks like SQL injection?",
+    "options": {
+      "a": "Input Sanitization",
+      "b": "Input Encryption",
+      "c": "Input Compression",
+      "d": "Input Validation"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is the Application Layer (Layer 7) a common target for attackers?",
+    "options": {
+      "a": "It is where all the encryption keys are stored",
+      "b": "It is the layer that users directly interact with, making it susceptible to social engineering",
+      "c": "It controls the physical hardware of the network",
+      "d": "It handles all data routing"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The 2017 Equifax breach, which exposed the personal information of 147 million people, is a prime example of a failure to:",
+    "options": {
+      "a": "Protect Sensitive Data",
+      "b": "Ensure Business Continuity",
+      "c": "Comply with Physical Security",
+      "d": "Safeguard Critical Infrastructure"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Regulations like GDPR (General Data Protection Regulation) and HIPAA (Health Insurance Portability and Accountability Act) impose strict requirements for what?",
+    "options": {
+      "a": "Network Speed",
+      "b": "Physical Server Location",
+      "c": "Data Protection",
+      "d": "Employee Education"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "The 2021 Colonial Pipeline ransomware attack, which disrupted fuel supplies across the US East Coast, highlighted the risk of attacks on:",
+    "options": {
+      "a": "Social Media Platforms",
+      "b": "E-commerce Websites",
+      "c": "Critical Infrastructure",
+      "d": "Personal Computers"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Cyberattacks that lead to downtime, lost productivity, and revenue losses directly impact an organization's:",
+    "options": {
+      "a": "Data Encryption",
+      "b": "User Authentication",
+      "c": "Physical Security",
+      "d": "Business Continuity"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "The 2016 Dyn DDoS attack, which disrupted major websites like Twitter, Netflix, and PayPal, was a large-scale attack on:",
+    "options": {
+      "a": "Data Integrity",
+      "b": "Business Continuity",
+      "c": "Data Confidentiality",
+      "d": "Physical Access"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The 2018 Cambridge Analytica scandal, where Facebook user data was improperly accessed, primarily led to a widespread:",
+    "options": {
+      "a": "Physical Infrastructure Breach",
+      "b": "Loss of Business Continuity",
+      "c": "Loss of User Trust",
+      "d": "Failure of Encryption"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What term refers to power grids, water systems, transportation networks, and healthcare facilities that rely heavily on digital systems?",
+    "options": {
+      "a": "Public Networks",
+      "b": "Social Media",
+      "c": "E-commerce Platforms",
+      "d": "Critical Infrastructure"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "The 2017 WannaCry ransomware attack, which affected hospitals across the UK and forced them to cancel surgeries, was an attack on:",
+    "options": {
+      "a": "Financial Systems",
+      "b": "Critical Infrastructure (Healthcare)",
+      "c": "E-commerce",
+      "d": "Social Media"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The 2015 Ukrainian power grid attack, which left 230,000 people without electricity, demonstrated the potential for cyberattacks to cause:",
+    "options": {
+      "a": "Only minor data loss",
+      "b": "Only loss of user trust",
+      "c": "Widespread physical disruption",
+      "d": "Only financial theft"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What regulation protects the personal data of European Union (EU) citizens and imposes strict fines for non-compliance?",
+    "options": {
+      "a": "HIPAA",
+      "b": "PCI DSS",
+      "c": "GDPR (General Data Protection Regulation)",
+      "d": "CISA"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What regulation ensures the confidentiality and security of healthcare data (patient medical records) in the United States?",
+    "options": {
+      "a": "GDPR",
+      "b": "HIPAA (Health Insurance Portability and Accountability Act)",
+      "c": "PCI DSS",
+      "d": "CISA"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What regulation protects credit card data and applies to all organizations that process payments?",
+    "options": {
+      "a": "PCI DSS (Payments Card Industry Data Security Standard)",
+      "b": "GDPR",
+      "c": "HIPAA",
+      "d": "CISA"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "The 2013 Target breach, which compromised 40 million credit card numbers, led to a significant:",
+    "options": {
+      "a": "Increase in network speed",
+      "b": "Physical theft of servers",
+      "c": "Power grid failure",
+      "d": "Drop in customer confidence and sales"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What US agency works with public and private sector partners to strengthen the nation's cybersecurity posture and protect critical infrastructure?",
+    "options": {
+      "a": "GDPR",
+      "b": "HIPAA",
+      "c": "CISA (Cybersecurity and Infrastructure Security Agency)",
+      "d": "PCI DSS"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "The 2020 SolarWinds attack, which targeted US government agencies, highlighted the risks of:",
+    "options": {
+      "a": "A simple e-commerce data breach",
+      "b": "Cyber espionage and a national security threat",
+      "c": "A healthcare data (HIPAA) violation",
+      "d": "A credit card (PCI DSS) theft"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the general term for any software (such as viruses, worms, trojans, and ransomware) designed to harm, exploit, or compromise systems?",
+    "options": {
+      "a": "Spoofing",
+      "b": "Phishing",
+      "c": "Malware",
+      "d": "Adware"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which 2017 malware encrypted files on hundreds of thousands of computers worldwide and demanded ransom payments in Bitcoin?",
+    "options": {
+      "a": "Stuxnet Worm",
+      "b": "WannaCry Ransomware",
+      "c": "Emotet Trojan",
+      "d": "Mirai Botnet"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which malware, discovered in 2010, was famous for targeting Iran's nuclear facilities and causing physical damage to centrifuges?",
+    "options": {
+      "a": "WannaCry",
+      "b": "Emotet",
+      "c": "Stuxnet Worm",
+      "d": "Superfish"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which mitigation strategy involves keeping software and operating systems up to date to fix exploitable vulnerabilities?",
+    "options": {
+      "a": "User Education",
+      "b": "Network Segmentation",
+      "c": "Antivirus Scanning",
+      "d": "Patch Management"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What is a Denial of Service (DoS) attack?",
+    "options": {
+      "a": "An attack that steals data",
+      "b": "An attack that encrypts files for ransom",
+      "c": "An attack that overwhelms a system with traffic, making it unavailable",
+      "d": "An attack that impersonates a CEO"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary difference between a DoS (Denial of Service) and a DDoS (Distributed Denial of Service) attack?",
+    "options": {
+      "a": "A DDoS attack uses multiple compromised devices (a botnet), while a DoS attack is from a single source",
+      "b": "A DoS attack is faster than a DDoS attack",
+      "c": "A DDoS attack only targets websites, while a DoS targets servers",
+      "d": "A DoS attack steals data, while a DDoS does not"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "The 2016 Mirai botnet, which infected IoT devices, was famous for launching massive:",
+    "options": {
+      "a": "Phishing campaigns",
+      "b": "Ransomware attacks",
+      "c": "DDoS attacks",
+      "d": "MITM attacks"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Using Content Delivery Networks (CDNs) and Rate Limiting are mitigation strategies for what type of attack?",
+    "options": {
+      "a": "Malware",
+      "b": "DDoS attacks",
+      "c": "Phishing",
+      "d": "Physical Theft"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What type of attack occurs when an attacker secretly intercepts and potentially alters the communication between two parties without their knowledge?",
+    "options": {
+      "a": "DDoS attack",
+      "b": "Phishing attack",
+      "c": "Malware infection",
+      "d": "Man-in-the-Middle (MITM) attack"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What is SSL Stripping?",
+    "options": {
+      "a": "A type of malware",
+      "b": "A MITM technique that downgrades secure HTTPS connections to unencrypted HTTP",
+      "c": "A DDoS mitigation technique",
+      "d": "A form of data encryption"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Using end-to-end encryption, such as HTTPS (TLS) and VPNs, is the primary mitigation strategy for what type of attack?",
+    "options": {
+      "a": "DDoS attacks",
+      "b": "Physical theft",
+      "c": "Man-in-the-Middle (MITM) attacks",
+      "d": "Hardware failures"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is Phishing?",
+    "options": {
+      "a": "A hardware device that blocks traffic",
+      "b": "A social engineering attack impersonating a legitimate entity to steal sensitive information",
+      "c": "A software that encrypts files and demands ransom",
+      "d": "An attack that floods a server with traffic"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary difference between generic Phishing and Spear Phishing?",
+    "options": {
+      "a": "Phishing uses email, while Spear Phishing uses text messages",
+      "b": "Spear Phishing is a type of malware, while Phishing is not",
+      "c": "Phishing is a broad, non-specific attack, while Spear Phishing is highly targeted at a specific individual or organization",
+      "d": "Phishing targets companies, while Spear Phishing only targets government agencies"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Using advanced email filtering and implementing Multi-Factor Authentication (MFA) are key mitigation strategies for what type of attack?",
+    "options": {
+      "a": "DDoS attacks",
+      "b": "Phishing",
+      "c": "Physical theft",
+      "d": "Hardware failures"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is Spoofing?",
+    "options": {
+      "a": "Analyzing network protocols",
+      "b": "Impersonating a legitimate entity (like an IP address, email, or website) to deceive users",
+      "c": "Encrypting data at rest",
+      "d": "Flooding a network with traffic"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "An attack where an email is sent with a forged sender address to trick the recipient is called:",
+    "options": {
+      "a": "IP Spoofing",
+      "b": "DNS Spoofing",
+      "c": "Email Spoofing",
+      "d": "ARP Poisoning"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "An attack that corrupts DNS records to redirect users from a legitimate website to a malicious one is called:",
+    "options": {
+      "a": "IP Spoofing",
+      "b": "Email Spoofing",
+      "c": "MAC Spoofing",
+      "d": "DNS Spoofing"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "'CEO Fraud', where an attacker spoofs a CEO's email to trick an employee into transferring funds, is a specific example of:",
+    "options": {
+      "a": "A DDoS attack",
+      "b": "A MITM attack",
+      "c": "Email Spoofing (used for Spear Phishing)",
+      "d": "A malware infection"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What set of protocols is used to verify email sender authenticity and mitigate email spoofing?",
+    "options": {
+      "a": "TLS, SSL, and HTTPS",
+      "b": "SPF, DKIM, and DMARC",
+      "c": "TCP, UDP, and IP",
+      "d": "AES, RSA, and MD5"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What technology is used to protect DNS records from being spoofed by ensuring data integrity and authenticity with digital signatures?",
+    "options": {
+      "a": "DNSSEC (DNS Security Extensions)",
+      "b": "IP Spoofing",
+      "c": "Email Spoofing",
+      "d": "Physical Theft"
+    },
+    "correctAnswer": "a"
+  }
+]

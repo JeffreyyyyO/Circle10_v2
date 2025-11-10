@@ -12,6 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Sora:wght@300;400;600;900&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
 
     <style>
+        /* NEW: Force body and html to 100% width and prevent horizontal scroll */
+        html, body {
+            width: 100%;
+            overflow-x: hidden;
+        }
+        
         body {
             font-family: 'Inter', sans-serif;
             background-color: #333333; /* Plain dark gray background color */
@@ -21,12 +27,12 @@
             min-height: 100vh; /* Ensure it takes full viewport height */
             margin: 0;
             padding: 0; /* Removed body padding */
-            box-sizing: border-box;
+            box-sizing: border-box; /* MODIFIED: Added box-sizing */
         }
         
         /* UPDATED: Container is now a flex-col layout for the main content and nav bar */
         .quiz-container {
-            width: 100vw;       /* Fill the viewport width */
+            width: 100%;       /* MODIFIED: Changed from 100vw to 100% */
             min-height: 100vh;  /* Fill the viewport height */
             max-width: 500px;   /* A good upper limit for a "phone" app UI */
             
@@ -57,7 +63,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            /* MODIFIED: Default padding */
+            /* MODIFIED: Removed bottom padding */
             padding: 5vw 2vw 0 2vw; 
             box-sizing: border-box;
             background-color: #d0d0d0; /* Match container color */
@@ -69,7 +75,7 @@
             flex-direction: column;
         }
 
-        /* NEW: Remove horizontal padding for screens with lobby-buttons */
+        /* NEW: Horizontal padding override for lobby/format screens */
         #lobby-screen, #format-screen {
             padding-left: 0;
             padding-right: 0;
@@ -202,7 +208,7 @@
             -ms-overflow-style: none; /* IE and Edge */
             scrollbar-width: none; /* Firefox */
             
-            /* NEW: Add padding to container, so content isn't edge-to-edge */
+            /* MODIFIED: Add padding, so content isn't edge-to-edge */
             padding-left: 2vw;
             padding-right: 2vw;
             box-sizing: border-box;
@@ -514,7 +520,7 @@
                 <div id="quiz-main-content">
                     <div class="flex justify-between items-center mb-6">
                         <div class="text-lg font-semibold text-gray-600">Question <span id="current-question-number">1</span> / <span id="total-questions-display"></span></div>
-                        <div class="text-2xl font-bold text-red-600" id="time-left">00:00</div>
+                        <div classV="text-2xl font-bold text-red-600" id="time-left">00:00</div>
                     </div>
                     <h2 id="question-text" class="text-2xl font-semibold text-gray-800 mb-6"></h2>
                     
@@ -622,14 +628,7 @@
     </div> <!-- End #quiz-app -->
 
     <script type="module">
-        // --- REMOVED FIREBASE IMPORTS ---
-        
-        // --- REMOVED FIREBASE CONFIGURATION ---
-        
-        // --- REMOVED Global Firebase variables ---
-
-        
-        // --- QUIZ CATEGORY SETUP (Unchanged) ---
+        // --- QUIZ CATEGORY SETUP ---
         const quizCategories = {
             "Fundamentals_of_Network_Security": "Fundamentals_of_Network_Security",
             "Network_Security_Devices_and_Technologies": "Network_Security_Devices_and_Technologies",
@@ -641,10 +640,7 @@
             "Data_Privacy_and_Professional_Issues": "Data_Privacy_and_Professional_Issues"
         };
         
-        // --- REMOVED FIREBASE PATH CONFIGURATION ---
-
-
-        // DOM Elements (Unchanged)
+        // DOM Elements
         const welcomeScreen = document.getElementById('welcome-screen');
         const continueButton = document.getElementById('continue-button');
         const lobbyScreen = document.getElementById('lobby-screen');
@@ -659,7 +655,7 @@
         const optionsContainer = document.getElementById('options-container');
         const optionButtons = optionsContainer.querySelectorAll('.option-button'); 
         
-        // --- UPDATED: Nav Bar and Content References (Unchanged) ---
+        // --- UPDATED: Nav Bar and Content References ---
         const bottomNavBar = document.getElementById('bottom-nav-bar');
         const lobbyNav = document.getElementById('lobby-nav');
         const formatNav = document.getElementById('format-nav');
@@ -667,7 +663,7 @@
         const resultsNav = document.getElementById('results-nav');
         const performanceNav = document.getElementById('performance-nav');
         
-        // Buttons now referenced from their nav containers (Unchanged)
+        // Buttons now referenced from their nav containers
         const submitAnswerButton = quizNav.querySelector('#submit-answer-button');
         const quitQuizButton = quizNav.querySelector('#quit-quiz-button');
         const returnToLobbyFromResultsButton = resultsNav.querySelector('#return-to-lobby-from-results-button');
@@ -694,7 +690,7 @@
         const typewriterOutput = document.getElementById('typewriter-output');
 
 
-        // --- UPDATED: Screen Navigation System (Unchanged) ---
+        // --- UPDATED: Screen Navigation System ---
         const allScreens = [
             { element: welcomeScreen, name: 'welcome', nav: null }, 
             { element: lobbyScreen, name: 'lobby', nav: lobbyNav }, 
@@ -764,7 +760,7 @@
         // --- End Screen Navigation System ---
 
 
-        // Quiz Variables (Unchanged)
+        // Quiz Variables
         let allQuestionsForCategory = []; 
         let currentQuestions = []; 
         let currentQuestionIndex = 0;
@@ -778,7 +774,7 @@
         let quizResultsDetails = [];
         let isUnlimitedMode = false;
 
-        // --- Typewriter Loop Logic (Unchanged) ---
+        // --- Typewriter Loop Logic ---
         const TYPE_TEXT = "Challenge\nYourself\nToday!";
         let charIndex = 0;
         let isDeleting = false;
@@ -820,7 +816,7 @@
         }
         // --- End Typewriter Loop Logic ---
 
-        // Utility function to show custom message box (Unchanged)
+        // Utility function to show custom message box
         function showMessageBox(title, message, callback) {
             const messageBox = document.getElementById('message-box');
             const messageTitle = document.getElementById('message-title');
@@ -836,9 +832,7 @@
             };
         }
 
-        // --- REMOVED initFirebaseAndAuth function ---
-
-        // Function to shuffle an array (Unchanged)
+        // Function to shuffle an array
         function shuffleArray(array) {
             let newArray = [...array]; 
             for (let i = newArray.length - 1; i > 0; i--) {
@@ -848,7 +842,7 @@
             return newArray;
         }
 
-        // Function to handle quiz category selection (Unchanged)
+        // Function to handle quiz category selection
         function selectQuizCategory(categoryKey) {
             formatCards.forEach(card => {
                 card.dataset.category = categoryKey;
@@ -858,7 +852,7 @@
             navigateTo(formatScreen, 'forward');
         }
 
-        // Function to handle quiz format selection (MODIFIED to call new fetch function)
+        // Function to handle quiz format selection
         async function selectQuizFormat(event) {
             const card = event.currentTarget;
             
@@ -880,9 +874,8 @@
             showMessageBox("Loading Quiz", "Preparing your questions...", null);
             
             try {
-                // --- MODIFIED: Calling new fetch function ---
+                // MODIFIED: Call new JSON fetch function
                 await fetchQuestionsFromJson();
-                // --- END MODIFICATION ---
 
                 let questionsToLoad;
                 if (isUnlimitedMode) {
@@ -912,7 +905,6 @@
         }
         
         /**
-         * --- NEW FUNCTION ---
          * Fetches questions from local JSON files in the /data directory.
          */
         async function fetchQuestionsFromJson() {
@@ -926,7 +918,7 @@
             }
             
             // Build path to the local JSON file
-            // Assumes index.html and the 'data' folder are in the same root directory
+            // This assumes index.html and the 'data' folder are in the same root directory
             const jsonPath = `./data/${categoryFilename}.json`;
             
             console.log("Fetching from:", jsonPath);
@@ -935,7 +927,7 @@
                 const response = await fetch(jsonPath);
                 
                 if (!response.ok) {
-                     throw new Error(`HTTP error! status: ${response.status} - Ensure ${jsonPath} exists`);
+                    throw new Error(`HTTP error! status: ${response.status} - Ensure ${jsonPath} exists`);
                 }
                 
                 // The JSON file MUST contain an array of question objects
@@ -943,7 +935,7 @@
                 console.log(`Fetched ${allQuestionsForCategory.length} questions.`);
 
                 if (!Array.isArray(allQuestionsForCategory)) {
-                     throw new Error("Data file is not a valid JSON array.");
+                    throw new Error("Data file is not a valid JSON array.");
                 }
                 
             } catch (error) {
@@ -951,12 +943,9 @@
                 throw new Error("Could not load questions. Please check your internet connection or if the data file exists.");
             }
         }
-        // --- END NEW FUNCTION ---
-
-        // --- REMOVED fetchQuestionsFromFirebase function ---
 
 
-        // Function to start the quiz (Unchanged)
+        // Function to start the quiz
         function startQuiz() {
             navigateTo(quizScreen, 'forward');
             quizStartTime = new Date();
@@ -974,7 +963,7 @@
             loadQuestion();
         }
 
-        // Function to load the current question (Unchanged)
+        // Function to load the current question
         function loadQuestion() {
             if (currentQuestionIndex >= currentQuestions.length) {
                 endQuiz();
@@ -1003,7 +992,7 @@
             });
         }
 
-        // Function to handle answer submission (Unchanged)
+        // Function to handle answer submission
         function submitAnswer() {
             if (!selectedOption) return;
 
@@ -1038,14 +1027,14 @@
             }, 1500);
         }
 
-        // Function to update the timer display (Unchanged)
+        // Function to update the timer display
         function updateTimerDisplay() {
             const minutes = Math.floor(timeLeft / 60);
             const seconds = timeLeft % 60;
             timeLeftDisplay.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
         }
 
-        // Function to update the timer every second (Unchanged)
+        // Function to update the timer every second
         function updateTimer() {
             timeLeft--;
             if (timeLeft < 0) {
@@ -1055,7 +1044,7 @@
             }
         }
 
-        // Function to end the quiz (Unchanged)
+        // Function to end the quiz
         function endQuiz(timedOut = false) {
             clearInterval(timerInterval);
             
@@ -1088,7 +1077,7 @@
             navigateTo(resultsScreen, 'forward');
         }
 
-        // Function to show performance breakdown (Unchanged)
+        // Function to show performance breakdown
         function showPerformance() {
             navigateTo(performanceScreen, 'forward');
             performanceDetailsContainer.innerHTML = ''; 
@@ -1119,14 +1108,13 @@
             });
         }
         
-        // --- EVENT LISTENERS (MODIFIED) ---
+        // --- EVENT LISTENERS ---
         document.addEventListener('DOMContentLoaded', () => {
             typeWriterEffect();
             
-            // --- MODIFICATION: Removed Firebase init and enabled buttons directly ---
+            // Unlock the buttons immediately since we don't need to wait for auth
             quizCategoryButtons.forEach(button => button.disabled = false);
             loadingMessage.classList.add('hidden');
-            // --- END MODIFICATION ---
             
             // Initial screen state setup
             allScreens.forEach(s => {
@@ -1183,7 +1171,6 @@
             });
 
             // --- Results Screen ---
-            // --- FIX: Corrected variable name from returnToLBody... to returnToLobby... ---
             returnToLobbyFromResultsButton.addEventListener('click', () => {
                 navigateTo(lobbyScreen, 'backward');
             });
@@ -1193,7 +1180,7 @@
             });
 
             // --- Performance Screen ---
-            returnToLobbyFromPerformanceButton.addEventListener('click', () => {
+            returnToLbbyFromPerformanceButton.addEventListener('click', () => {
                 navigateTo(lobbyScreen, 'backward');
             });
         });

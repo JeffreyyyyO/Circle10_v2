@@ -57,7 +57,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            /* MODIFIED: Removed bottom padding */
+            /* MODIFIED: Default padding */
             padding: 5vw 2vw 0 2vw; 
             box-sizing: border-box;
             background-color: #d0d0d0; /* Match container color */
@@ -67,6 +67,12 @@
             /* Ensure screens are flex-col to fill height */
             display: flex;
             flex-direction: column;
+        }
+
+        /* NEW: Remove horizontal padding for screens with lobby-buttons */
+        #lobby-screen, #format-screen {
+            padding-left: 0;
+            padding-right: 0;
         }
 
         /* Screen transition states */
@@ -196,6 +202,11 @@
             -ms-overflow-style: none; /* IE and Edge */
             scrollbar-width: none; /* Firefox */
             
+            /* NEW: Add padding to container, so content isn't edge-to-edge */
+            padding-left: 2vw;
+            padding-right: 2vw;
+            box-sizing: border-box;
+
             /* NEW: Added padding at the bottom of the scroll content */
             padding-bottom: 5vw;
         }
@@ -415,8 +426,8 @@
 
             <!-- Lobby Screen (Back button removed) -->
             <div id="lobby-screen" class="screen right text-center">
-                <h1 class="text-3xl font-bold text-gray-800 mb-6 flex-shrink-0">LOBBY</h1>
-                <p class="text-lg text-gray-700 mb-8 flex-shrink-0">Pick a Section</p>
+                <h1 class="text-3xl font-bold text-gray-800 mb-6 flex-shrink-0 px-[2vw]">LOBBY</h1>
+                <p class="text-lg text-gray-700 mb-8 flex-shrink-0 px-[2vw]">Pick a Section</p>
                 
                 <!-- MODIFIED: Removed inline style from lobby-buttons -->
                 <div class="lobby-buttons"> <!-- This div will now scroll -->
@@ -465,8 +476,8 @@
 
             <!-- Format Screen (Back button removed) -->
             <div id="format-screen" class="screen right text-center">
-                <h1 class="text-3xl font-bold text-gray-800 mb-6 flex-shrink-0">FORMAT</h1>
-                <p class="text-lg text-gray-700 mb-8 flex-shrink-0">Pick a Format</p>
+                <h1 class="text-3xl font-bold text-gray-800 mb-6 flex-shrink-0 px-[2vw]">FORMAT</h1>
+                <p class="text-lg text-gray-700 mb-8 flex-shrink-0 px-[2vw]">Pick a Format</p>
                 
                 <!-- MODIFIED: Removed inline style from lobby-buttons -->
                 <div class="lobby-buttons"> <!-- This div will now scroll -->

@@ -1,0 +1,982 @@
+[
+  {
+    "question": "Which of the following can be said to be a fundamental pillar of cybersecurity?",
+    "options": {
+      "a": "Network Hardware",
+      "b": "Cryptography",
+      "c": "User Interface Design",
+      "d": "Software Licensing"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which core principle of cryptography ensures that only authorized parties can access information?",
+    "options": {
+      "a": "Integrity",
+      "b": "Authentication",
+      "c": "Confidentiality",
+      "d": "Non-repudiation"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What cryptographic principle guarantees that data has not been altered or tampered with?",
+    "options": {
+      "a": "Confidentiality",
+      "b": "Integrity",
+      "c": "Authentication",
+      "d": "Non-repudiation"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which principle confirms the identity of the parties involved in communication?",
+    "options": {
+      "a": "Authentication",
+      "b": "Confidentiality",
+      "c": "Integrity",
+      "d": "Availability"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What principle ensures that a party cannot deny the authenticity of their actions or communications?",
+    "options": {
+      "a": "Confidentiality",
+      "b": "Integrity",
+      "c": "Authentication",
+      "d": "Non-repudiation"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which of the following is listed as an example of a symmetric encryption algorithm?",
+    "options": {
+      "a": "RSA",
+      "b": "ECC",
+      "c": "AES",
+      "d": "Diffie-Hellman"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is listed as an example of an asymmetric encryption algorithm?",
+    "options": {
+      "a": "DES",
+      "b": "AES",
+      "c": "RSA",
+      "d": "3DES"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is another name for symmetric encryption?",
+    "options": {
+      "a": "Public-key cryptography",
+      "b": "Secret-key cryptography",
+      "c": "Key-pair cryptography",
+      "d": "Hashing"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is another name for asymmetric encryption?",
+    "options": {
+      "a": "Public-key cryptography",
+      "b": "Secret-key cryptography",
+      "c": "Single-key cryptography",
+      "d": "Shared-key cryptography"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the primary challenge associated with symmetric encryption?",
+    "options": {
+      "a": "It is very slow",
+      "b": "It requires large keys",
+      "c": "Securely sharing the single key",
+      "d": "It is easily broken by brute-force"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "How many keys are used in symmetric encryption for both encryption and decryption?",
+    "options": {
+      "a": "One",
+      "b": "Two",
+      "c": "Three",
+      "d": "A unique key for each process"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How many keys are used in asymmetric encryption?",
+    "options": {
+      "a": "One shared key",
+      "b": "A pair of keys (public and private)",
+      "c": "A unique key for every message",
+      "d": "Three keys (public, private, shared)"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In asymmetric encryption, which key is used for encryption?",
+    "options": {
+      "a": "Private key",
+      "b": "Shared key",
+      "c": "Public key",
+      "d": "Session key"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In asymmetric encryption, which key is used for decryption?",
+    "options": {
+      "a": "Public key",
+      "b": "Private key",
+      "c": "Shared key",
+      "d": "The sender's public key"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which encryption type is generally faster and more efficient, making it ideal for large volumes of data?",
+    "options": {
+      "a": "Asymmetric encryption",
+      "b": "Symmetric encryption",
+      "c": "Hashing",
+      "d": "Digital signatures"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which encryption type is slower and more computationally intensive?",
+    "options": {
+      "a": "Symmetric encryption",
+      "b": "Asymmetric encryption",
+      "c": "Secret-key encryption",
+      "d": "Stream ciphers"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the key length of the older DES algorithm, making it vulnerable to brute-force attacks?",
+    "options": {
+      "a": "128 bits",
+      "b": "256 bits",
+      "c": "56 bits",
+      "d": "1024 bits"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which symmetric algorithm is the current standard for encrypting sensitive government and financial information?",
+    "options": {
+      "a": "DES",
+      "b": "3DES",
+      "c": "RSA",
+      "d": "AES"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "AES supports key lengths of 128, 192, and...?",
+    "options": {
+      "a": "512 bits",
+      "b": "1024 bits",
+      "c": "64 bits",
+      "d": "256 bits"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What does RSA, a widely used asymmetric algorithm, rely on for its security?",
+    "options": {
+      "a": "The difficulty of factoring large prime numbers",
+      "b": "The speed of elliptic curve equations",
+      "c": "A shared secret key",
+      "d": "The use of a 56-bit key"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which asymmetric algorithm provides the same level of security as RSA but with smaller key sizes, making it ideal for mobile devices?",
+    "options": {
+      "a": "DES",
+      "b": "AES",
+      "c": "ECC (Elliptic Curve Cryptography)",
+      "d": "Diffie-Hellman"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the Diffie-Hellman protocol used for?",
+    "options": {
+      "a": "Encrypting large files directly",
+      "b": "Signing documents",
+      "c": "Securely exchanging cryptographic keys over a public channel",
+      "d": "Hashing passwords"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a 'hybrid cryptosystem'?",
+    "options": {
+      "a": "A system that only uses symmetric encryption",
+      "b": "A system that only uses asymmetric encryption",
+      "c": "A system that combines symmetric and asymmetric encryption",
+      "d": "A system that uses quantum cryptography"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In a typical hybrid cryptosystem, what is asymmetric encryption used for?",
+    "options": {
+      "a": "To encrypt the actual large data file",
+      "b": "To create the digital signature",
+      "c": "To securely exchange a symmetric key",
+      "d": "To hash the message"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In a typical hybrid cryptosystem, what is the symmetric key used for?",
+    "options": {
+      "a": "To encrypt the actual data",
+      "b": "To decrypt the public key",
+      "c": "To verify the sender's identity",
+      "d": "To securely exchange the private key"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is readable, unencrypted data called in cryptography?",
+    "options": {
+      "a": "Ciphertext",
+      "b": "Scrambled text",
+      "c": "Plain text",
+      "d": "Key text"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is unreadable, encrypted data called in cryptography?",
+    "options": {
+      "a": "Ciphertext",
+      "b": "Plain text",
+      "c": "Clear text",
+      "d": "Original text"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the process of converting plain text into ciphertext?",
+    "options": {
+      "a": "Decryption",
+      "b": "Hashing",
+      "c": "Signing",
+      "d": "Encryption"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What is the process of converting ciphertext back into plain text?",
+    "options": {
+      "a": "Encryption",
+      "b": "Hashing",
+      "c": "Decryption",
+      "d": "Key generation"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In the symmetric encryption example, what must Alice and Bob do *before* Alice can send an encrypted message?",
+    "options": {
+      "a": "Generate a key pair",
+      "b": "Securely share a secret key",
+      "c": "Exchange public keys",
+      "d": "Contact a Certificate Authority"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the asymmetric encryption example, what does Bob send to Alice so she can encrypt a message for him?",
+    "options": {
+      "a": "His private key",
+      "b": "His public key",
+      "c": "A shared secret key",
+      "d": "His password"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the asymmetric encryption example, what does Bob use to decrypt the message from Alice?",
+    "options": {
+      "a": "His private key",
+      "b": "His public key",
+      "c": "Alice's public key",
+      "d": "The shared secret key"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In the hybrid encryption example, what does Alice use to encrypt the large file?",
+    "options": {
+      "a": "Bob's public key",
+      "b": "Her own private key",
+      "c": "A new, random symmetric key",
+      "d": "The SHA-256 hash function"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In the hybrid encryption example, what does Alice use to encrypt the symmetric key itself?",
+    "options": {
+      "a": "Her own private key",
+      "b": "Bob's public key",
+      "c": "The same symmetric key",
+      "d": "Her password"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of these is listed as a real-world application of symmetric encryption?",
+    "options": {
+      "a": "Digital signatures",
+      "b": "File and disk encryption (e.g., BitLocker)",
+      "c": "SSL/TLS handshakes",
+      "d": "Email encryption protocols like PGP"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of these is listed as a real-world application of asymmetric encryption?",
+    "options": {
+      "a": "Database encryption",
+      "b": "Virtual Private Networks (VPNs)",
+      "c": "Digital signatures",
+      "d": "Encrypting large data sets directly"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does PKI stand for?",
+    "options": {
+      "a": "Private KeyInfrasystem",
+      "b": "Public Key Infrastructure",
+      "c": "Primary KeyIntegrity",
+      "d": "Public KeyInteraction"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the key component of a PKI that is responsible for issuing, validating, and revoking digital certificates?",
+    "options": {
+      "a": "Registration Authority (RA)",
+      "b": "Certificate Authority (CA)",
+      "c": "Key Management Solution (KMS)",
+      "d": "Hardware Security Module (HSM)"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the role of a Registration Authority (RA) in a PKI?",
+    "options": {
+      "a": "To store the private keys",
+      "b": "To act as an intermediary to verify user identities before certificate issuance",
+      "c": "To create the public/private key pair",
+      "d": "To encrypt the web traffic"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a digital certificate?",
+    "options": {
+      "a": "A document containing a private key",
+      "b": "A document that proves ownership of a domain",
+      "c": "A cryptographically signed document that binds a public key to a specific entity",
+      "d": "A symmetric key used for SSL/TLS"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What common certificate format is widely used for TLS/SSL?",
+    "options": {
+      "a": "PGP",
+      "b": "X.509",
+      "c": "S/MIME",
+      "d": "AES-256"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a CRL in the context of PKI?",
+    "options": {
+      "a": "Certificate Request List",
+      "b": "Certificate Revocation List",
+      "c": "Certificate Renewal Ledger",
+      "d": "Certificate Registration Log"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What real-time protocol allows clients to verify the status of a certificate without downloading an entire CRL?",
+    "options": {
+      "a": "OCSP (Online Certificate Status Protocol)",
+      "b": "TLS (Transport Layer Security)",
+      "c": "HTTPS (Hypertext Transfer Protocol Secure)",
+      "d": "RA (Registration Authority)"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is recommended for securely storing and managing key pairs in a PKI setup?",
+    "options": {
+      "a": "A text file on the server",
+      "b": "An email to the administrator",
+      "c": "Hardware Security Modules (HSMs)",
+      "d": "A public database"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which tool is mentioned for automating certificate issuance and renewal for Let's Encrypt?",
+    "options": {
+      "a": "OpenSSL",
+      "b": "HashiCorp Vault",
+      "c": "Certbot",
+      "d": "Microsoft AD CS"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is NOT listed as a key property of digital signatures?",
+    "options": {
+      "a": "Authenticity",
+      "b": "Integrity",
+      "c": "Confidentiality",
+      "d": "Non-repudiation"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the first step in creating a digital signature?",
+    "options": {
+      "a": "Encrypting the message with a public key",
+      "b": "Applying a cryptographic hash function to the message",
+      "c": "Contacting a Certificate Authority",
+      "d": "Encrypting the message with a private key"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the digital signature process, what does the sender use to encrypt the hash digest?",
+    "options": {
+      "a": "Their private key",
+      "b": "Their public key",
+      "c": "The recipient's public key",
+      "d": "A symmetric key"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How does a receiver verify a digital signature?",
+    "options": {
+      "a": "By decrypting the signature with the sender's public key",
+      "b": "By decrypting the signature with their own private key",
+      "c": "By asking the sender for a password",
+      "d": "By checking the CRL"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does it mean if the decrypted hash matches the hash the receiver computes from the message?",
+    "options": {
+      "a": "The message is confidential",
+      "b": "The message was sent quickly",
+      "c": "The message is authentic and has not been altered",
+      "d": "The sender's private key is compromised"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which standard is mentioned for key components of a digital certificate?",
+    "options": {
+      "a": "AES-256",
+      "b": "SHA-3",
+      "c": "X.509",
+      "d": "MD5"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is NOT a component of a digital certificate?",
+    "options": {
+      "a": "Owner's public key",
+      "b": "Owner's private key",
+      "c": "Certificate expiry date",
+      "d": "CA's digital signature"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the protocol S/MIME used for?",
+    "options": {
+      "a": "Securing web traffic (HTTPS)",
+      "b": "Email encryption and digital signing",
+      "c": "Verifying software integrity",
+      "d": "Securing VPNs"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'code signing' used to verify?",
+    "options": {
+      "a": "That the code is free of bugs",
+      "b": "That the code is efficient",
+      "c": "That the code is from a trusted developer and hasn't been tampered with",
+      "d": "That the code will run on all operating systems"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary difference between encryption and hashing?",
+    "options": {
+      "a": "Encryption is fast, hashing is slow",
+      "b": "Encryption is one-way, hashing is two-way",
+      "c": "Encryption is reversible (two-way), hashing is one-way",
+      "d": "Encryption uses one key, hashing uses two keys"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a cryptographic hash function's output called?",
+    "options": {
+      "a": "A key",
+      "b": "A cipher",
+      "c": "A fixed-length hash value or digest",
+      "d": "A plain text"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which characteristic of hash functions means that the same input will always produce the same hash output?",
+    "options": {
+      "a": "Collision resistance",
+      "b": "Irreversibility",
+      "c": "Deterministic output",
+      "d": "Avalanche effect"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which characteristic means it should be computationally infeasible to find the original input from a hash output?",
+    "options": {
+      "a": "Deterministic output",
+      "b": "Irreversibility (Preimage resistance)",
+      "c": "Fast computation",
+      "d": "Avalanche effect"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'collision resistance' mean for a hash function?",
+    "options": {
+      "a": "The hash function is slow",
+      "b": "The hash output is always the same length",
+      "c": "It is hard to reverse the hash",
+      "d": "It is computationally infeasible for two different inputs to produce the same hash output"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What is the 'avalanche effect' in hash functions?",
+    "options": {
+      "a": "A minor change in the input produces a completely different hash",
+      "b": "The hash function gets slower as the input gets larger",
+      "c": "Two different inputs produce the same hash",
+      "d": "The hash function is deterministic"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "For which application are hash functions *deliberately* slow?",
+    "options": {
+      "a": "File integrity verification",
+      "b": "Password hashing",
+      "c": "Blockchain transactions",
+      "d": "Digital signatures"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which hash function is mentioned as 'cryptographically broken and deprecated' due to collision vulnerabilities?",
+    "options": {
+      "a": "SHA-256",
+      "b": "SHA-3",
+      "c": "MD5",
+      "d": "BLAKE2"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which hash algorithm family includes SHA-256 and SHA-512?",
+    "options": {
+      "a": "MD5",
+      "b": "SHA-1",
+      "c": "SHA-2",
+      "d": "SHA-3"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which hash algorithm is based on the Keccak algorithm and designed for greater security?",
+    "options": {
+      "a": "SHA-2",
+      "b": "MD5",
+      "c": "SHA-1",
+      "d": "SHA-3"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which hash function is heavily used in Bitcoin mining?",
+    "options": {
+      "a": "MD5",
+      "b": "SHA-256",
+      "c": "BLAKE3",
+      "d": "SHA-1"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which modern hash functions are designed for high speed and strong security, with BLAKE3 offering improved parallel processing?",
+    "options": {
+      "a": "MD5 and SHA-1",
+      "b": "BLAKE2 and BLAKE3",
+      "c": "DES and 3DES",
+      "d": "RSA and ECC"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of a 'rainbow table'?",
+    "options": {
+      "a": "A list of valid digital certificates",
+      "b": "A database of pre-computed hashes used to crack passwords",
+      "c": "A list of revoked private keys",
+      "d": "A color-coded chart of encryption algorithms"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What technique is used to mitigate attacks using rainbow tables?",
+    "options": {
+      "a": "Salting (adding a unique random value to each password before hashing)",
+      "b": "Key rotation (changing keys frequently)",
+      "c": "Using a faster hash function",
+      "d": "Increasing the key size"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following is a Key Derivation Function (KDF) designed for password hashing?",
+    "options": {
+      "a": "AES",
+      "b": "RSA",
+      "c": "Bcrypt",
+      "d": "SHA-256 (used alone)"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which password hashing function was the winner of the Password Hashing Competition and resists GPU-based attacks?",
+    "options": {
+      "a": "PBKDF2",
+      "b": "MD5",
+      "c": "SHA-1",
+      "d": "Argon2"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "In a blockchain, what does each block contain to ensure immutability?",
+    "options": {
+      "a": "The private key of the creator",
+      "b": "A list of all users",
+      "c": "The hash of the previous block",
+      "d": "A digital certificate"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What was the 'SHAttered' attack by Google in 2017?",
+    "options": {
+      "a": "A successful brute-force of AES-256",
+      "b": "A successful generation of two different PDF files with the same SHA-1 hash",
+      "c": "The discovery of a flaw in RSA",
+      "d": "A length extension attack on SHA-3"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What kind of attack are hash functions like MD5 and SHA-1 vulnerable to, where an attacker can append data to a hashed value without knowing the original input?",
+    "options": {
+      "a": "Collision attack",
+      "b": "Brute-force attack",
+      "c": "Length extension attack",
+      "d": "Man-in-the-middle attack"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is HMAC?",
+    "options": {
+      "a": "A type of symmetric encryption",
+      "b": "A protocol for key exchange",
+      "c": "A hardware security module",
+      "d": "A method (Hash-based Message Authentication Code) that uses a secret key with a hash function"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What is the purpose of using HMAC (e.g., HMAC-SHA256)?",
+    "options": {
+      "a": "To make hashing faster",
+      "b": "To strengthen hash functions against length extension attacks",
+      "c": "To generate public keys",
+      "d": "To encrypt passwords"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does PQC stand for in the context of cryptographic threats?",
+    "options": {
+      "a": "Private Quantum Cryptography",
+      "b": "Post-Quantum Cryptography",
+      "c": "Primary Quality Control",
+      "d": "Public Query Cryptography"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which algorithm, if run on a powerful quantum computer, could break asymmetric encryption like RSA?",
+    "options": {
+      "a": "Shor's algorithm",
+      "b": "Grover's algorithm",
+      "c": "Dijkstra's algorithm",
+      "d": "Keccak algorithm"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which quantum algorithm could reduce the effective security strength of hash functions, making brute-force attacks faster?",
+    "options": {
+      "a": "Shor's algorithm",
+      "b": "Grover's algorithm",
+      "c": "MD5",
+      "d": "RSA algorithm"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT listed as an application of cryptography?",
+    "options": {
+      "a": "Secure web browsing (HTTPS)",
+      "b": "Online banking",
+      "c": "Creating website content",
+      "d": "Blockchain and cryptocurrency"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does 3DES (Triple DES) do?",
+    "options": {
+      "a": "It uses a 3-bit key",
+      "b": "It applies the DES algorithm three times",
+      "c": "It is a modern replacement for AES",
+      "d": "It is an asymmetric algorithm"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is 3DES largely replaced by AES?",
+    "options": {
+      "a": "It is too fast",
+      "b": "It is slower and less secure than AES",
+      "c": "It only supports one key size",
+      "d": "It is an asymmetric algorithm"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Blowfish and Twofish are examples of what type of algorithm?",
+    "options": {
+      "a": "Asymmetric",
+      "b": "Hashing",
+      "c": "Symmetric",
+      "d": "Key exchange"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary advantage of asymmetric encryption over symmetric encryption?",
+    "options": {
+      "a": "It is much faster",
+      "b": "It eliminates the need for secure key exchange of the main keys",
+      "c": "It uses smaller keys",
+      "d": "It is better for encrypting large files"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What combination of techniques is widely used in protocols like SSL/TLS?",
+    "options": {
+      "a": "Only symmetric encryption",
+      "b": "Only asymmetric encryption",
+      "c": "Only hashing",
+      "d": "A hybrid cryptosystem (both symmetric and asymmetric)"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What is the goal of the encryption process?",
+    "options": {
+      "a": "To ensure data cannot be understood if intercepted, without the correct key",
+      "b": "To make data smaller for transmission",
+      "c": "To verify the sender's identity",
+      "d": "To delete the original data"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In the hybrid encryption example, what two things does Alice send to Bob?",
+    "options": {
+      "a": "The plain text file and her private key",
+      "b": "The encrypted file and the encrypted symmetric key",
+      "c": "Her public key and her private key",
+      "d": "The encrypted file and the symmetric key in plain text"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is one of the main challenges of PKI?",
+    "options": {
+      "a": "It is too fast",
+      "b": "It does not support non-repudiation",
+      "c": "Managing key protection and certificate expiry",
+      "d": "It only works for symmetric encryption"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "A digital signature provides authenticity, integrity, and...?",
+    "options": {
+      "a": "Confidentiality",
+      "b": "Anonymity",
+      "c": "Non-repudiation",
+      "d": "Availability"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In digital forensics, what are hash functions used for?",
+    "options": {
+      "a": "To encrypt the evidence",
+      "b": "To delete the evidence",
+      "c": "To verify the integrity of evidence and confirm it was not altered",
+      "d": "To find the suspect's password"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does 'salting' a password mean?",
+    "options": {
+      "a": "Encrypting the password with AES",
+      "b": "Adding a unique random value to the password before hashing it",
+      "c": "Storing the password in plain text",
+      "d": "Using MD5 to hash the password"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a best practice for secure hashing?",
+    "options": {
+      "a": "Use MD5 for all new applications",
+      "b": "Store passwords in plain text",
+      "c": "Avoid using salting to save database space",
+      "d": "Use strong functions like SHA-2, SHA-3, or BLAKE2/BLAKE3"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What is the key difference between a digital signature and encryption for confidentiality?",
+    "options": {
+      "a": "Signatures use symmetric keys; confidentiality uses asymmetric keys",
+      "b": "Signatures provide integrity and authenticity; encryption provides confidentiality",
+      "c": "Signatures are reversible; encryption is not",
+      "d": "There is no difference"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a major security risk of a 'collision' in a hash function?",
+    "options": {
+      "a": "It makes the hash function too slow",
+      "b": "An attacker could create a malicious file with the same hash as a legitimate one",
+      "c": "It reverses the hash into plain text",
+      "d": "It exposes the private key"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What component of a PKI is an example like Let's Encrypt or DigiCert?",
+    "options": {
+      "a": "Registration Authority (RA)",
+      "b": "Hardware Security Module (HSM)",
+      "c": "Certificate Authority (CA)",
+      "d": "Certificate Revocation List (CRL)"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In asymmetric encryption, which key must be kept secret?",
+    "options": {
+      "a": "The public key",
+      "b": "The shared key",
+      "c": "The private key",
+      "d": "The session key"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which algorithm is *not* a symmetric algorithm?",
+    "options": {
+      "a": "AES",
+      "b": "DES",
+      "c": "ECC",
+      "d": "Blowfish"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which algorithm is *not* an asymmetric algorithm?",
+    "options": {
+      "a": "RSA",
+      "b": "Diffie-Hellman",
+      "c": "ECC",
+      "d": "3DES"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which of these is NOT a core principle of cryptography mentioned in the text?",
+    "options": {
+      "a": "Integrity",
+      "b": "Performance",
+      "c": "Confidentiality",
+      "d": "Authentication"
+    },
+    "correctAnswer": "b"
+  }
+]

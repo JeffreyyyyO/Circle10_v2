@@ -70,7 +70,7 @@
             padding: 5vw 2vw 0 2vw; 
             box-sizing: border-box;
             background-color: #d0d0d0; /* Match container color */
-            transition: transform 0.3s ease-out;
+            transition: transform 0.3s ease-out, background-color 0.3s ease; /* Added background-color transition */
             z-index: 10;
             
             /* Ensure screens are flex-col to fill height */
@@ -274,6 +274,15 @@
             background-color: #aa4400; /* Darker Orange */
         }
         
+        /* --- NEW: Lobby Card Color --- */
+        .quiz-card-lobby {
+            background-color: #895129; /* Brown */
+            color: white;
+        }
+        .quiz-card-lobby:hover {
+            background-color: #753d15; /* Darker Brown */
+        }
+        
         .format-card-button {
             aspect-ratio: 1 / 1; 
             background-color: #800000; /* Maroon color */
@@ -360,11 +369,12 @@
             height: auto; /* Auto height to fit content */
             width: 100%;
             background-color: #d0d0d0; /* Match container background */
-            border-top: 1px solid #b4b4b4;
+            /* REMOVED: border-top: 1px solid #b4b4b4; */
             /* MODIFIED: Reduced vertical padding */
             padding: 2vw 2vw; /* 2vw top/bottom, 3vw left/right */
             box-sizing: border-box;
             z-index: 20;
+            transition: background-color 0.3s ease, border-color 0.3s ease; /* Added transition */
             /* REMOVED: Flex properties removed from main bar */
         }
         
@@ -384,7 +394,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            transition: background-color 0.2s ease;
+            transition: background-color 0.2s ease, color 0.2s ease; /* Added color transition */
             border: none;
             cursor: pointer;
             z-index: 10; 
@@ -392,6 +402,73 @@
         .back-icon-button:hover {
             background-color: #4b5563; /* Gray-600 */
         }
+
+        /* NEW: Welcome Nav Button Style */
+        #go-to-lobby-from-welcome {
+            background-color: #3b82f6; /* Blue-500 */
+        }
+        #go-to-lobby-from-welcome:hover {
+            background-color: #2563eb; /* Blue-600 */
+        }
+
+        /* --- NEW: Dark Mode Styles for Nav Bar --- */
+        #bottom-nav-bar.dark-mode-nav {
+            background-color: #000000;
+            border-top-color: #333;
+        }
+        
+        /* Invert icon button colors */
+        #bottom-nav-bar.dark-mode-nav .back-icon-button {
+            background-color: #333; /* Dark gray */
+            color: #d0d0d0; /* Light text */
+        }
+        #bottom-nav-bar.dark-mode-nav .back-icon-button:hover {
+            background-color: #555; /* Lighter gray on hover */
+        }
+
+        /* Specific style for dark mode toggle icons */
+        /* REMOVED: Old icon-button styles */
+
+        /* --- NEW: Toggle Switch Styles --- */
+        .toggle-dot {
+            transition: transform 0.2s ease-in-out;
+            transform: translateX(0px);
+        }
+        input:checked ~ .toggle-dot {
+            transform: translateX(24px); /* (w-14) - (w-6) = 8 units = 32px. No, w-14 is 3.5rem, w-6 is 1.5rem. Diff is 2rem = 32px. left-1 is 0.25rem = 4px. So 3.5rem - 1.5rem - 0.25rem - 0.25rem = 1.5rem = 24px. */
+        }
+        /* REMOVED: This rule changed the background color when checked */
+        /*
+        input:checked ~ .toggle-bg {
+            background-color: #3b82f6; 
+        }
+        */
+        .toggle-bg {
+            transition: background-color 0.2s ease-in-out;
+        }
+        
+        /* --- Dark Mode Toggle Text Color --- */
+        #reader-nav .dark-mode-toggle-label {
+            /* REMOVED: color transition */
+        }
+        #bottom-nav-bar.dark-mode-nav #reader-nav .dark-mode-toggle-label {
+             /* REMOVED: color rule */
+        }
+
+        /* --- NEW: Dark Mode Emoji Toggle --- */
+        #reader-nav .light-mode-emoji {
+            display: inline;
+        }
+        #reader-nav .dark-mode-emoji {
+            display: none;
+        }
+        #bottom-nav-bar.dark-mode-nav #reader-nav .light-mode-emoji {
+            display: none;
+        }
+        #bottom-nav-bar.dark-mode-nav #reader-nav .dark-mode-emoji {
+            display: inline;
+        }
+        /* --- End Toggle Switch Styles --- */
         
         #typewriter-output {
             font-family: 'Space Grotesk', monospace;
@@ -434,6 +511,7 @@
             flex-shrink: 0; /* Prevent shrinking */
             min-height: 48px; /* Ensure it matches back button height */
             box-sizing: border-box;
+            transition: background-color 0.3s ease, border-color 0.3s ease; /* Added transition */
         }
 
         #reader-title {
@@ -447,6 +525,7 @@
             text-overflow: ellipsis;
             padding-left: 1rem;
             padding-right: 1rem;
+            transition: color 0.3s ease; /* Added transition */
         }
 
         #reader-content-container {
@@ -454,6 +533,7 @@
             overflow-y: auto;
             padding: 20px;
             color: #333;
+            transition: color 0.3s ease; /* Added transition */
             -ms-overflow-style: none; /* IE and Edge */
             scrollbar-width: none; /* Firefox */
         }
@@ -469,6 +549,7 @@
             margin-bottom: 16px;
             border-bottom: 2px solid #b4b4b4;
             padding-bottom: 8px;
+            transition: color 0.3s ease, border-color 0.3s ease; /* Added transition */
         }
         #reader-content-container h2 {
             font-family: 'Sora', sans-serif;
@@ -476,11 +557,13 @@
             font-weight: 600;
             margin-top: 24px;
             margin-bottom: 12px;
+            transition: color 0.3s ease; /* Added transition */
         }
         #reader-content-container p, #reader-content-container ul {
             font-size: 1rem;
             line-height: 1.6;
             margin-bottom: 16px;
+            transition: color 0.3s ease; /* Added transition */
         }
         #reader-content-container ul {
             list-style-type: disc;
@@ -492,6 +575,7 @@
         #reader-content-container strong {
             font-weight: 700;
             color: #000;
+            transition: color 0.3s ease; /* Added transition */
         }
         #reader-content-container code {
             font-family: 'Space Grotesk', monospace;
@@ -499,6 +583,7 @@
             padding: 2px 6px;
             border-radius: 4px;
             font-size: 0.9rem;
+            transition: color 0.3s ease, background-color 0.3s ease; /* Added transition */
         }
         /* NEW: Style for italics (<em> tags) */
         #reader-content-container em {
@@ -517,14 +602,71 @@
             border: 0.5px solid #454545; /* Your specified border */
             padding: 8px 12px;
             text-align: left;
+            transition: color 0.3s ease, border-color 0.3s ease; /* Added transition */
         }
         #reader-content-container th {
             background-color: #e5e7eb; /* Light gray header */
             font-weight: 600;
+            transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease; /* Added transition */
         }
         /* --- End Table Styles --- */
 
         /* --- End Reader Page Styles --- */
+        
+        
+        /* --- NEW: Dark Mode Styles (Reader Only) --- */
+        #reader-screen.dark-mode {
+            background-color: #000000;
+        }
+        
+        #reader-screen.dark-mode #reader-top-bar {
+            background-color: #000000;
+            border-bottom-color: #333; /* Darker border */
+        }
+        
+        #reader-screen.dark-mode #reader-title {
+            color: #d0d0d0;
+        }
+
+        #reader-screen.dark-mode #reader-content-container {
+            /* background-color: #000000; */ /* Handled by #reader-screen.dark-mode */
+            color: #d0d0d0;
+        }
+
+        /* Content formatting */
+        #reader-screen.dark-mode #reader-content-container h1,
+        #reader-screen.dark-mode #reader-content-container h2,
+        #reader-screen.dark-mode #reader-content-container p,
+        #reader-screen.dark-mode #reader-content-container ul,
+        #reader-screen.dark-mode #reader-content-container li {
+            color: #d0d0d0;
+        }
+
+        #reader-screen.dark-mode #reader-content-container h1 {
+            border-bottom-color: #333;
+        }
+        
+        #reader-screen.dark-mode #reader-content-container strong {
+            color: #ffffff; /* Brighter for emphasis */
+        }
+        
+        #reader-screen.dark-mode #reader-content-container code {
+            background-color: #222;
+            color: #d0d0d0;
+        }
+        
+        /* Table Styles */
+        #reader-screen.dark-mode #reader-content-container th {
+            background-color: #222;
+            color: #d0d0d0;
+            border-color: #444;
+        }
+        #reader-screen.dark-mode #reader-content-container td {
+            color: #d0d0d0;
+            border-color: #444;
+        }
+        
+        /* --- End Dark Mode Styles --- */
         
     </style>
 </head>
@@ -549,7 +691,8 @@
                     </div>
                 </div>
                 
-                <button id="continue-button" class="welcome-start-button">Start</button>
+                <!-- REMOVED: Start Button -->
+                <!-- <button id="continue-button" class="welcome-start-button">Start</button> -->
             </div>
 
             <!-- NEW Lobby Screen -->
@@ -559,12 +702,12 @@
                 
                 <div class="lobby-buttons"> <!-- This div will now scroll -->
                     <!-- Notes Card -->
-                    <button id="go-to-notes-button" class="quiz-card-base quiz-card-indigo" style="grid-column: 1 / span 1; aspect-ratio: 1 / 1;">
+                    <button id="go-to-notes-button" class="quiz-card-base quiz-card-lobby" style="grid-column: 1 / span 1; aspect-ratio: 1 / 1;">
                         <span class="card-title">Notes</span>
                         <span class="card-subtitle">Study & gain mastery!</span>
                     </button>
                     <!-- Tests Card -->
-                    <button id="go-to-tests-button" class="quiz-card-base quiz-card-orange" style="grid-column: 2 / span 1; aspect-ratio: 1 / 1;">
+                    <button id="go-to-tests-button" class="quiz-card-base quiz-card-lobby" style="grid-column: 2 / span 1; aspect-ratio: 1 / 1;">
                         <span class="card-title">Tests</span>
                         <span class="card-subtitle">Take on a challenge!</span>
                     </button>
@@ -765,10 +908,19 @@
 
 
         <!-- NEW: Persistent Bottom Navigation Bar -->
-        <div id="bottom-nav-bar" class="hidden"> <!-- Hidden by default, shown by navigateTo -->
+        <div id="bottom-nav-bar"> <!-- Hidden by default, shown by navigateTo -->
 
             <!-- This wrapper holds the swappable content -->
             <!-- REMOVED: Redundant nav-content-wrapper div -->
+
+            <!-- NEW: Welcome Nav Content -->
+            <div id="welcome-nav" class="nav-content hidden w-full justify-center items-center">
+                <button id="go-to-lobby-from-welcome" class="back-icon-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path fill-rule="evenodd" d="M16.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 0 1 1.06-1.06l7.5 7.5Z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+            </div>
             
             <!-- Lobby Nav Content -->
             <!-- UPDATED: Classes changed to justify-between -->
@@ -851,14 +1003,32 @@
             </div>
 
             <!-- NEW: Reader Nav Content -->
-            <!-- UPDATED: Added justify-between, items-center, and fullscreen button -->
+            <!-- UPDATED: Added justify-between, items-center, and NEW dark mode button -->
             <div id="reader-nav" class="nav-content hidden w-full justify-between items-center">
+                <!-- Left: Back Button -->
                 <button id="back-to-notes-from-reader" class="back-icon-button">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                         <path fill-rule="evenodd" d="M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z" clip-rule="evenodd" />
                     </svg>
                 </button>
-                <!-- NEW: Fullscreen button added -->
+                
+                <!-- NEW: Center: Dark Mode Toggle Switch -->
+                <div class="flex items-center justify-center">
+                    <label for="dark-mode-toggle-switch" class="flex items-center cursor-pointer">
+                        <!-- UPDATED: Replaced text with emoji spans -->
+                        <span class="mr-2 text-2xl dark-mode-toggle-label">
+                            <span class="light-mode-emoji">🌕</span>
+                            <span class="dark-mode-emoji">🌑</span>
+                        </span>
+                        <div class="relative">
+                            <input type="checkbox" id="dark-mode-toggle-switch" class="sr-only">
+                            <div class="toggle-bg block bg-gray-500 w-14 h-8 rounded-full"></div>
+                            <div class="toggle-dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full"></div>
+                        </div>
+                    </label>
+                </div>
+                
+                <!-- Right: Fullscreen button -->
                 <button class="fullscreen-toggle-button back-icon-button">
                     <svg class="fullscreen-open-icon w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                       <path fill-rule="evenodd" d="M3.75 6.75a3 3 0 0 1 3-3h3.75a.75.75 0 0 1 0 1.5h-3.75a1.5 1.5 0 0 0-1.5 1.5v3.75a.75.75 0 0 1-1.5 0v-3.75Zm16.5 0a3 3 0 0 0-3-3h-3.75a.75.75 0 0 0 0 1.5h3.75a1.5 1.5 0 0 1 1.5 1.5v3.75a.75.75 0 0 0 1.5 0v-3.75Zm-16.5 10.5a3 3 0 0 0 3 3h3.75a.75.75 0 0 0 0-1.5h-3.75a1.5 1.5 0 0 1-1.5-1.5v-3.75a.75.75 0 0 0-1.5 0v3.75Zm16.5 0a3 3 0 0 1-3 3h-3.75a.75.75 0 0 1 0-1.5h3.75a1.5 1.5 0 0 0 1.5-1.5v-3.75a.75.75 0 0 1 1.5 0v3.75Z" clip-rule="evenodd" />
@@ -930,7 +1100,7 @@
         
         // DOM Elements
         const welcomeScreen = document.getElementById('welcome-screen');
-        const continueButton = document.getElementById('continue-button');
+        // REMOVED: const continueButton = document.getElementById('continue-button');
         
         // NEW: Lobby Screen elements
         const lobbyScreen = document.getElementById('lobby-screen');
@@ -961,6 +1131,7 @@
         
         // --- UPDATED: Nav Bar and Content References ---
         const bottomNavBar = document.getElementById('bottom-nav-bar');
+        const welcomeNav = document.getElementById('welcome-nav'); // NEW
         const lobbyNav = document.getElementById('lobby-nav'); // New
         const notesNav = document.getElementById('notes-nav'); // New
         const readerNav = document.getElementById('reader-nav'); // New
@@ -979,6 +1150,8 @@
         const backToWelcomeFromLobby = lobbyNav.querySelector('#back-to-welcome-from-lobby'); // New
         const backToLobbyFromNotes = notesNav.querySelector('#back-to-lobby-from-notes'); // New
         const backToNotesFromReader = readerNav.querySelector('#back-to-notes-from-reader'); // New
+        const darkModeToggle = readerNav.querySelector('#dark-mode-toggle-switch'); // UPDATED: Dark Mode Switch
+        const goToLobbyFromWelcome = welcomeNav.querySelector('#go-to-lobby-from-welcome'); // NEW
         const backToLobbyFromTests = testsNav.querySelector('#back-to-lobby-from-tests'); // Renamed
         const backToTestsFromFormat = formatNav.querySelector('#back-to-tests-from-format'); // Renamed
         // --- End Nav Bar References ---
@@ -1002,7 +1175,7 @@
 
         // --- UPDATED: Screen Navigation System ---
         const allScreens = [
-            { element: welcomeScreen, name: 'welcome', nav: null }, 
+            { element: welcomeScreen, name: 'welcome', nav: welcomeNav }, // UPDATED
             { element: lobbyScreen, name: 'lobby', nav: lobbyNav },       // New
             { element: notesScreen, name: 'notes', nav: notesNav },       // New
             { element: readerScreen, name: 'reader', nav: readerNav },     // New
@@ -1013,7 +1186,7 @@
             { element: performanceScreen, name: 'performance', nav: performanceNav }
         ];
         // NEW: List of all nav content blocks
-        const allNavContents = [lobbyNav, notesNav, readerNav, testsNav, formatNav, quizNav, resultsNav, performanceNav]; // Updated
+        const allNavContents = [welcomeNav, lobbyNav, notesNav, readerNav, testsNav, formatNav, quizNav, resultsNav, performanceNav]; // Updated
         let currentPage = welcomeScreen;
 
         /**
@@ -1029,12 +1202,17 @@
             const newScreenConfig = allScreens.find(s => s.element === newPage);
 
             // 1. Handle Nav Bar Visibility
-            if (newPage === welcomeScreen) {
-                bottomNavBar.classList.add('hidden');
-            } else {
-                bottomNavBar.classList.remove('hidden');
-            }
+            // REMOVED: Block that hid nav bar on welcome screen
+            bottomNavBar.classList.remove('hidden');
             
+            // --- NEW: Handle Dark Mode state ---
+            // Automatically remove dark mode if we navigate away from the reader screen
+            if (newPage !== readerScreen) {
+                readerScreen.classList.remove('dark-mode');
+                bottomNavBar.classList.remove('dark-mode-nav');
+            }
+            // --- End Dark Mode Handle ---
+
             // 2. Handle Nav Content Visibility
             allNavContents.forEach(nav => nav.classList.add('hidden'));
             if (newScreenConfig && newScreenConfig.nav) {
@@ -1554,16 +1732,29 @@
             currentPage = welcomeScreen;
 
 
-            // --- Welcome Screen ---
-            continueButton.addEventListener('click', () => {
+            /* --- NEW: Manually set initial nav bar state --- */
+            // Show the nav bar itself
+            bottomNavBar.classList.remove('hidden'); 
+            // Hide all nav content blocks
+            allNavContents.forEach(nav => nav.classList.add('hidden'));
+            // Show only the welcome nav content
+            welcomeNav.classList.remove('hidden'); 
+            /* --- End Initial Nav Setup --- */
+
+
+            /* --- Welcome Screen --- */
+            // ADDED: Re-added missing listener
+            goToLobbyFromWelcome.addEventListener('click', () => {
                 navigateTo(lobbyScreen, 'forward');
             });
 
-            // --- NEW Lobby Screen ---
+            /* --- NEW Lobby Screen --- */
+            // ADDED: Re-added missing listener
             goToNotesButton.addEventListener('click', () => {
                 navigateTo(notesScreen, 'forward');
             });
 
+            // MOVED: Listener moved to correct section
             goToTestsButton.addEventListener('click', () => {
                 navigateTo(testsScreen, 'forward');
             });
@@ -1572,7 +1763,7 @@
                 navigateTo(welcomeScreen, 'backward');
             });
 
-            // --- NEW Notes Screen ---
+            /* --- NEW Notes Screen --- */
             backToLobbyFromNotes.addEventListener('click', () => {
                 navigateTo(lobbyScreen, 'backward');
             });
@@ -1588,12 +1779,20 @@
                 });
             });
 
-            // --- NEW Reader Screen ---
+            /* --- NEW Reader Screen --- */
             backToNotesFromReader.addEventListener('click', () => {
+                // Note: The dark mode classes are removed automatically by navigateTo()
                 navigateTo(notesScreen, 'backward');
             });
+            
+            /* --- NEW: Dark Mode Toggle --- */ // FIXED: Comment style
+            darkModeToggle.addEventListener('change', () => { // UPDATED: Event type is 'change'
+                readerScreen.classList.toggle('dark-mode');
+                bottomNavBar.classList.toggle('dark-mode-nav');
+            });
 
-            // --- RENAMED: Tests Screen (formerly Lobby) ---
+
+            /* --- RENAMED: Tests Screen (formerly Lobby) --- */
             quizCategoryButtons.forEach(button => {
                 button.addEventListener('click', (event) => {
                     const categoryKey = event.currentTarget.dataset.quizCategory;
@@ -1606,7 +1805,7 @@
                 navigateTo(lobbyScreen, 'backward');
             });
 
-            // --- Format Screen ---
+            /* --- Format Screen --- */
             formatCards.forEach(card => {
                 card.addEventListener('click', selectQuizFormat);
             });
@@ -1616,7 +1815,7 @@
                 navigateTo(testsScreen, 'backward');
             });
 
-            // --- Quiz Screen ---
+            /* --- Quiz Screen --- */
             optionButtons.forEach(button => {
                 button.addEventListener('click', () => {
                     optionButtons.forEach(btn => btn.classList.remove('selected'));
@@ -1634,7 +1833,7 @@
                 });
             });
 
-            // --- Results Screen ---
+            /* --- Results Screen --- */
             // UPDATED: Button and destination
             returnToTestsFromResultsButton.addEventListener('click', () => {
                 navigateTo(testsScreen, 'backward');
@@ -1644,7 +1843,7 @@
                 showPerformance();
             });
 
-            // --- Performance Screen ---
+            /* --- Performance Screen --- */
             // UPDATED: Button and destination
             returnToTestsFromPerformanceButton.addEventListener('click', () => {
                 navigateTo(testsScreen, 'backward');

@@ -76,7 +76,18 @@
         }
 
         /* NEW: Horizontal padding override for lobby/format screens */
-        #lobby-screen, #format-screen {
+        /* UPDATED: Added new lobby/notes screens to this rule */
+        #lobby-screen, 
+        #notes-screen,
+        #tests-screen, 
+        #format-screen {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        /* NEW: Reader Screen padding override */
+        #reader-screen {
+            padding-top: 0;
             padding-left: 0;
             padding-right: 0;
         }
@@ -148,8 +159,12 @@
             font-weight: 600;
         }
         
+        /* UPDATED: Added new screens to this rule */
         #lobby-screen h1,
+        #notes-screen h1,
+        #tests-screen h1,
         #format-screen h1,
+        #reader-title, /* NEW */
         #results-screen h2,
         #performance-screen h2,
         #message-title {
@@ -403,6 +418,85 @@
         .welcome-start-button:hover {
             background-color: #4338ca; 
         }
+
+        /* --- NEW: Reader Page Styles --- */
+        #reader-top-bar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2vw 2vw; /* Match bottom bar padding */
+            border-bottom: 1px solid #b4b4b4;
+            background-color: #d0d0d0;
+            flex-shrink: 0; /* Prevent shrinking */
+            min-height: 48px; /* Ensure it matches back button height */
+            box-sizing: border-box;
+        }
+
+        #reader-title {
+            font-size: 1.1rem; /* text-lg */
+            font-weight: 600;
+            color: #333333;
+            text-align: center;
+            /* Truncate long titles */
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        #reader-content-container {
+            flex-grow: 1;
+            overflow-y: auto;
+            padding: 20px;
+            color: #333;
+            -ms-overflow-style: none; /* IE and Edge */
+            scrollbar-width: none; /* Firefox */
+        }
+        #reader-content-container::-webkit-scrollbar {
+            display: none; /* Chrome, Safari */
+        }
+
+        /* --- NEW: Notes Content Formatting --- */
+        #reader-content-container h1 {
+            font-family: 'Sora', sans-serif;
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            border-bottom: 2px solid #b4b4b4;
+            padding-bottom: 8px;
+        }
+        #reader-content-container h2 {
+            font-family: 'Sora', sans-serif;
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-top: 24px;
+            margin-bottom: 12px;
+        }
+        #reader-content-container p, #reader-content-container ul {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 16px;
+        }
+        #reader-content-container ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        #reader-content-container li {
+            margin-bottom: 8px;
+        }
+        #reader-content-container strong {
+            font-weight: 700;
+            color: #000;
+        }
+        #reader-content-container code {
+            font-family: 'Space Grotesk', monospace;
+            background-color: #e2e8f0;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+        /* --- End Reader Page Styles --- */
         
     </style>
 </head>
@@ -430,10 +524,76 @@
                 <button id="continue-button" class="welcome-start-button">Start</button>
             </div>
 
-            <!-- Lobby Screen (Back button removed) -->
+            <!-- NEW Lobby Screen -->
             <div id="lobby-screen" class="screen right text-center">
                 <h1 class="text-3xl font-bold text-gray-800 mb-6 flex-shrink-0 px-[2vw]">LOBBY</h1>
-                <p class="text-lg text-gray-700 mb-8 flex-shrink-0 px-[2vw]">Pick a Section</p>
+                <p class="text-lg text-gray-700 mb-8 flex-shrink-0 px-[2vw]">What's your mission today?</p>
+                
+                <div class="lobby-buttons"> <!-- This div will now scroll -->
+                    <!-- Notes Card -->
+                    <button id="go-to-notes-button" class="quiz-card-base quiz-card-indigo" style="grid-column: 1 / span 2; aspect-ratio: 2 / 0.8;">
+                        <span class="card-subtitle">Gain mastery!</span>
+                        <span class="card-title">Notes</span>
+                    </button>
+                    <!-- Tests Card -->
+                    <button id="go-to-tests-button" class="quiz-card-base quiz-card-orange" style="grid-column: 1 / span 2; aspect-ratio: 2 / 0.8;">
+                        <span class="card-subtitle">Take on a challenge!</span>
+                        <span class="card-title">Tests</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- NEW Notes Screen -->
+            <div id="notes-screen" class="screen right text-center">
+                <h1 class="text-3xl font-bold text-gray-800 mb-6 flex-shrink-0 px-[2vw]">NOTES</h1>
+                <p class="text-lg text-gray-700 mb-8 flex-shrink-0 px-[2vw]">Pick a domain.</p>
+                
+                <div class="lobby-buttons"> <!-- This div will now scroll -->
+                    <!-- Row 1 (Indigo) -->
+                    <!-- UPDATED: Made first 3 buttons active and added data attributes -->
+                    <button class="quiz-card-base quiz-card-indigo" data-note-file="Fundamentals_of_Network_Security_notes.txt" data-note-title="Fundamentals of Network Security">
+                        <span class="card-subtitle">CYS 520 &bull; Week 1</span>
+                        <span class="card-title">Fundamentals of Network Security</span>
+                    </button>
+                    <button class="quiz-card-base quiz-card-indigo" data-note-file="Network_Security_Devices_and_Technologies_notes.txt" data-note-title="Network Security Devices">
+                        <span class="card-subtitle">CYS 520 &bull; Week 2</span>
+                        <span class="card-title">Network Security Devices and Technologies</span>
+                    </button>
+                    <!-- Row 2 (Indigo) -->
+                    <button class="quiz-card-base quiz-card-indigo" data-note-file="Introduction_to_Cryptography_notes.txt" data-note-title="Introduction to Cryptography">
+                        <span class="card-subtitle">CYS 520 &bull; Week 3</span>
+                        <span class="card-title">Introduction to Cryptography</span>
+                    </button>
+                    <button class="quiz-card-base quiz-card-indigo opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 520 &bull; Week 4</span>
+                        <span class="card-title">Cryptographic Applications</span>
+                    </button>
+                    <!-- Row 3 (Orange) -->
+                    <button class="quiz-card-base quiz-card-orange opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 525 &bull; Week 1</span>
+                        <span class="card-title">Endpoint Security</span>
+                    </button>
+                    <button class="quiz-card-base quiz-card-orange opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 525 &bull; Week 2</span>
+                        <span class="card-title">Advanced Endpoint Security</span>
+                    </button>
+                    <!-- Row 4 (Orange) -->
+                    <button class="quiz-card-base quiz-card-orange opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 525 &bull; Week 3</span>
+                        <span class="card-title">Standards, Regulations and Data Privacy</span>
+                    </button>
+                    <button class="quiz-card-base quiz-card-orange opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 525 &bull; Week 4</span>
+                        <span class="card-title">Data Privacy and Professional Issues</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- RENAMED: Tests Screen (formerly Lobby Screen) -->
+            <div id="tests-screen" class="screen right text-center">
+                <!-- UPDATED: Title and Subtitle -->
+                <h1 class="text-3xl font-bold text-gray-800 mb-6 flex-shrink-0 px-[2vw]">TESTS</h1>
+                <p class="text-lg text-gray-700 mb-8 flex-shrink-0 px-[2vw]">Pick a Test</p>
                 
                 <!-- MODIFIED: Removed inline style from lobby-buttons -->
                 <div class="lobby-buttons"> <!-- This div will now scroll -->
@@ -451,25 +611,25 @@
                         <span class="card-subtitle">CYS 520 &bull; Week 3</span>
                         <span class="card-title">Introduction to Cryptography</span>
                     </button>
-                    <button class="quiz-card-base quiz-card-indigo" data-quiz-category="Cryptographic_Applications">
+                    <button class="quiz-card-base quiz-card-indigo opacity-50 cursor-not-allowed" data-quiz-category="Cryptographic_Applications">
                         <span class="card-subtitle">CYS 520 &bull; Week 4</span>
                         <span class="card-title">Cryptographic Applications</span>
                     </button>
                     <!-- Row 3 (Orange) -->
-                    <button class="quiz-card-base quiz-card-orange" data-quiz-category="Endpoint_Security">
+                    <button class="quiz-card-base quiz-card-orange opacity-50 cursor-not-allowed" data-quiz-category="Endpoint_Security">
                         <span class="card-subtitle">CYS 525 &bull; Week 1</span>
                         <span class="card-title">Endpoint Security</span>
                     </button>
-                    <button class="quiz-card-base quiz-card-orange" data-quiz-category="Advanced_Endpoint_Security">
+                    <button class="quiz-card-base quiz-card-orange opacity-50 cursor-not-allowed" data-quiz-category="Advanced_Endpoint_Security">
                         <span class="card-subtitle">CYS 525 &bull; Week 2</span>
                         <span class="card-title">Advanced Endpoint Security</span>
                     </button>
                     <!-- Row 4 (Orange) -->
-                    <button class="quiz-card-base quiz-card-orange" data-quiz-category="Standards_Regulations_and_Data_Privacy">
+                    <button class="quiz-card-base quiz-card-orange opacity-50 cursor-not-allowed" data-quiz-category="Standards_Regulations_and_Data_Privacy">
                         <span class="card-subtitle">CYS 525 &bull; Week 3</span>
                         <span class="card-title">Standards, Regulations and Data Privacy</span>
                     </button>
-                    <button class="quiz-card-base quiz-card-orange" data-quiz-category="Data_Privacy_and_Professional_Issues">
+                    <button class="quiz-card-base quiz-card-orange opacity-50 cursor-not-allowed" data-quiz-category="Data_Privacy_and_Professional_Issues">
                         <span class="card-subtitle">CYS 525 &bull; Week 4</span>
                         <span class="card-title">Data Privacy and Professional Issues</span>
                     </button>
@@ -561,13 +721,25 @@
                 <!-- Button removed from here -->
             </div>
 
+            <!-- NEW: Reader Screen -->
+            <div id="reader-screen" class="screen right">
+                <!-- NEW: Top Bar -->
+                <div id="reader-top-bar">
+                    <h1 id="reader-title" class="truncate">Loading...</h1>
+                </div>
+                <!-- NEW: Scrollable Content -->
+                <div id="reader-content-container">
+                    <p>Loading notes...</p>
+                </div>
+            </div>
+
         </div> <!-- End #main-content-area -->
 
 
         <!-- NEW: Persistent Bottom Navigation Bar -->
         <div id="bottom-nav-bar" class="hidden"> <!-- Hidden by default, shown by navigateTo -->
 
-            <!-- Lobby Nav Content -->
+            <!-- NEW Lobby Nav Content -->
             <div id="lobby-nav" class="nav-content hidden w-full justify-start">
                 <button id="back-to-welcome-from-lobby" class="back-icon-button">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -576,9 +748,37 @@
                 </button>
             </div>
 
+            <!-- NEW Notes Nav Content -->
+            <div id="notes-nav" class="nav-content hidden w-full justify-start">
+                <button id="back-to-lobby-from-notes" class="back-icon-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path fill-rule="evenodd" d="M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- NEW Reader Nav Content -->
+            <div id="reader-nav" class="nav-content hidden w-full justify-start">
+                <button id="back-to-notes-from-reader" class="back-icon-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path fill-rule="evenodd" d="M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- RENAMED: Tests Nav Content (formerly lobby-nav) -->
+            <div id="tests-nav" class="nav-content hidden w-full justify-start">
+                <button id="back-to-lobby-from-tests" class="back-icon-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path fill-rule="evenodd" d="M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+            </div>
+
             <!-- Format Nav Content -->
             <div id="format-nav" class="nav-content hidden w-full justify-start">
-                <button id="back-to-lobby-from-format" class="back-icon-button">
+                <!-- UPDATED: Button ID -->
+                <button id="back-to-tests-from-format" class="back-icon-button">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                         <path fill-rule="evenodd" d="M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z" clip-rule="evenodd" />
                     </svg>
@@ -600,17 +800,19 @@
                         <span class="card-title">Performance</span>
                         <span class="card-subtitle">See how you did!</span>
                     </button>
-                    <button id="return-to-lobby-from-results-button" class="quiz-card-base quiz-card-indigo w-1/2" style="aspect-ratio: 2 / 1;">
-                        <span class="card-title">Lobby</span>
-                        <span class="card-subtitle">Return to the lobby!</span>
+                    <!-- UPDATED: Button ID and text -->
+                    <button id="return-to-tests-from-results-button" class="quiz-card-base quiz-card-indigo w-1/2" style="aspect-ratio: 2 / 1;">
+                        <span class="card-title">Tests</span>
+                        <span class="card-subtitle">Return to tests!</span>
                     </button>
                 </div>
             </div>
 
             <!-- Performance Nav Content -->
             <div id="performance-nav" class="nav-content hidden w-full">
-                <button id="return-to-lobby-from-performance-button" class="quiz-card-base quiz-card-indigo w-full py-4 text-lg font-semibold" style="aspect-ratio: unset; height: auto;">
-                    Return to Lobby
+                <!-- UPDATED: Button ID and text -->
+                <button id="return-to-tests-from-performance-button" class="quiz-card-base quiz-card-indigo w-full py-4 text-lg font-semibold" style="aspect-ratio: unset; height: auto;">
+                    Return to Tests
                 </button>
             </div>
 
@@ -643,13 +845,29 @@
         // DOM Elements
         const welcomeScreen = document.getElementById('welcome-screen');
         const continueButton = document.getElementById('continue-button');
+        
+        // NEW: Lobby Screen elements
         const lobbyScreen = document.getElementById('lobby-screen');
+        const goToNotesButton = document.getElementById('go-to-notes-button');
+        const goToTestsButton = document.getElementById('go-to-tests-button');
+
+        // NEW: Notes Screen element
+        const notesScreen = document.getElementById('notes-screen');
+        const notesCategoryButtons = document.querySelectorAll('#notes-screen .quiz-card-base:not(.cursor-not-allowed)'); // NEW
+
+        // RENAMED: Tests Screen elements (formerly lobby)
+        const testsScreen = document.getElementById('tests-screen');
         const loadingMessage = document.getElementById('loading-message');
-        const quizCategoryButtons = document.querySelectorAll('#lobby-screen .quiz-card-base'); 
+        const quizCategoryButtons = document.querySelectorAll('#tests-screen .quiz-card-base:not(.cursor-not-allowed)'); 
 
         const quizScreen = document.getElementById('quiz-screen');
         const resultsScreen = document.getElementById('results-screen');
         const performanceScreen = document.getElementById('performance-screen');
+        
+        // NEW: Reader Screen elements
+        const readerScreen = document.getElementById('reader-screen');
+        const readerTitle = document.getElementById('reader-title');
+        const readerContentContainer = document.getElementById('reader-content-container');
         
         const questionText = document.getElementById('question-text');
         const optionsContainer = document.getElementById('options-container');
@@ -657,7 +875,10 @@
         
         // --- UPDATED: Nav Bar and Content References ---
         const bottomNavBar = document.getElementById('bottom-nav-bar');
-        const lobbyNav = document.getElementById('lobby-nav');
+        const lobbyNav = document.getElementById('lobby-nav'); // New
+        const notesNav = document.getElementById('notes-nav'); // New
+        const readerNav = document.getElementById('reader-nav'); // New
+        const testsNav = document.getElementById('tests-nav'); // Renamed
         const formatNav = document.getElementById('format-nav');
         const quizNav = document.getElementById('quiz-nav');
         const resultsNav = document.getElementById('results-nav');
@@ -666,11 +887,14 @@
         // Buttons now referenced from their nav containers
         const submitAnswerButton = quizNav.querySelector('#submit-answer-button');
         const quitQuizButton = quizNav.querySelector('#quit-quiz-button');
-        const returnToLobbyFromResultsButton = resultsNav.querySelector('#return-to-lobby-from-results-button');
+        const returnToTestsFromResultsButton = resultsNav.querySelector('#return-to-tests-from-results-button'); // Renamed
         const seePerformanceButton = resultsNav.querySelector('#see-performance-button');
-        const returnToLobbyFromPerformanceButton = performanceNav.querySelector('#return-to-lobby-from-performance-button');
-        const backToWelcomeFromLobby = lobbyNav.querySelector('#back-to-welcome-from-lobby');
-        const backToLobbyFromFormat = formatNav.querySelector('#back-to-lobby-from-format');
+        const returnToTestsFromPerformanceButton = performanceNav.querySelector('#return-to-tests-from-performance-button'); // Renamed
+        const backToWelcomeFromLobby = lobbyNav.querySelector('#back-to-welcome-from-lobby'); // New
+        const backToLobbyFromNotes = notesNav.querySelector('#back-to-lobby-from-notes'); // New
+        const backToNotesFromReader = readerNav.querySelector('#back-to-notes-from-reader'); // New
+        const backToLobbyFromTests = testsNav.querySelector('#back-to-lobby-from-tests'); // Renamed
+        const backToTestsFromFormat = formatNav.querySelector('#back-to-tests-from-format'); // Renamed
         // --- End Nav Bar References ---
 
         const timeLeftDisplay = document.getElementById('time-left');
@@ -693,14 +917,17 @@
         // --- UPDATED: Screen Navigation System ---
         const allScreens = [
             { element: welcomeScreen, name: 'welcome', nav: null }, 
-            { element: lobbyScreen, name: 'lobby', nav: lobbyNav }, 
+            { element: lobbyScreen, name: 'lobby', nav: lobbyNav },       // New
+            { element: notesScreen, name: 'notes', nav: notesNav },       // New
+            { element: readerScreen, name: 'reader', nav: readerNav },     // New
+            { element: testsScreen, name: 'tests', nav: testsNav },       // Renamed
             { element: formatScreen, name: 'format', nav: formatNav }, 
             { element: quizScreen, name: 'quiz', nav: quizNav }, 
             { element: resultsScreen, name: 'results', nav: resultsNav }, 
             { element: performanceScreen, name: 'performance', nav: performanceNav }
         ];
         // NEW: List of all nav content blocks
-        const allNavContents = [lobbyNav, formatNav, quizNav, resultsNav, performanceNav];
+        const allNavContents = [lobbyNav, notesNav, readerNav, testsNav, formatNav, quizNav, resultsNav, performanceNav]; // Updated
         let currentPage = welcomeScreen;
 
         /**
@@ -816,6 +1043,71 @@
         }
         // --- End Typewriter Loop Logic ---
 
+        // --- NEW: Notes Parser ---
+        /**
+         * Simple parser to convert text to basic HTML for the reader.
+         * @param {string} text - The raw text content from the .txt file.
+         * @returns {string} - HTML string.
+         */
+        function parseNotesToHTML(text) {
+            if (!text) return '<p>No content found.</p>';
+            
+            const lines = text.split('\n');
+            let html = '';
+            let inList = false;
+
+            for (const line of lines) {
+                const trimmedLine = line.trim();
+
+                if (trimmedLine.startsWith('## ')) {
+                    if (inList) {
+                        html += '</ul>';
+                        inList = false;
+                    }
+                    html += `<h2>${trimmedLine.substring(3)}</h2>`;
+                } else if (trimmedLine.startsWith('# ')) {
+                    if (inList) {
+                        html += '</ul>';
+                        inList = false;
+                    }
+                    html += `<h1>${trimmedLine.substring(2)}</h1>`;
+                } else if (trimmedLine.startsWith('- ')) {
+                    if (!inList) {
+                        html += '<ul>';
+                        inList = true;
+                    }
+                    // Simple bold/code formatting
+                    let listItem = trimmedLine.substring(2)
+                        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                        .replace(/`(.*?)`/g, '<code>$1</code>');
+                    html += `<li>${listItem}</li>`;
+                } else if (trimmedLine === '') {
+                    if (inList) {
+                        html += '</ul>';
+                        inList = false;
+                    }
+                    // Don't add empty <p> tags, just treat as a break
+                } else {
+                    if (inList) {
+                        html += '</ul>';
+                        inList = false;
+                    }
+                    // Simple bold/code formatting
+                    let paragraph = trimmedLine
+                        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                        .replace(/`(.*?)`/g, '<code>$1</code>');
+                    html += `<p>${paragraph}</p>`;
+                }
+            }
+
+            if (inList) {
+                html += '</ul>'; // Close any dangling list
+            }
+            return html;
+        }
+        // --- End Notes Parser ---
+
+
         // Utility function to show custom message box
         function showMessageBox(title, message, callback) {
             const messageBox = document.getElementById('message-box');
@@ -858,8 +1150,9 @@
             
             const categoryKey = card.dataset.category;
             if (!categoryKey) {
-                showMessageBox("Error", "Quiz category was not selected. Please return to Lobby.", () => {
-                    navigateTo(lobbyScreen, 'backward');
+                // UPDATED: Error message and navigation
+                showMessageBox("Error", "Quiz category was not selected. Please return to Tests.", () => {
+                    navigateTo(testsScreen, 'backward');
                 });
                 return;
             }
@@ -941,6 +1234,31 @@
             } catch (error) {
                 console.error("Error fetching local JSON:", error);
                 throw new Error("Could not load questions. Please check your internet connection or if the data file exists.");
+            }
+        }
+
+        // --- NEW: Function to open Reader Page ---
+        async function openReaderPage(noteFile, title) {
+            readerTitle.textContent = title;
+            readerContentContainer.innerHTML = '<p class="text-center text-gray-600">Loading notes...</p>';
+            navigateTo(readerScreen, 'forward');
+
+            const notePath = `./data/${noteFile}`;
+            console.log("Fetching notes from:", notePath);
+
+            try {
+                const response = await fetch(notePath);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status} - Ensure ${notePath} exists`);
+                }
+                const rawNotes = await response.text();
+                const notesHTML = parseNotesToHTML(rawNotes);
+                readerContentContainer.innerHTML = notesHTML;
+
+            } catch (error) {
+                console.error("Error fetching notes:", error);
+                readerContentContainer.innerHTML = `<p class="text-center text-red-600 font-semibold">Error: Could not load notes.<br>${error.message}</p>`;
+                showMessageBox("Error", `Failed to load notes: ${error.message}`);
             }
         }
 
@@ -1123,7 +1441,7 @@
                 }
             });
             welcomeScreen.classList.add('current');
-            currentPage = welcomeScreen;
+currentPage = welcomeScreen;
 
 
             // --- Welcome Screen ---
@@ -1131,7 +1449,41 @@
                 navigateTo(lobbyScreen, 'forward');
             });
 
-            // --- Lobby Screen ---
+            // --- NEW Lobby Screen ---
+            goToNotesButton.addEventListener('click', () => {
+                navigateTo(notesScreen, 'forward');
+            });
+
+            goToTestsButton.addEventListener('click', () => {
+                navigateTo(testsScreen, 'forward');
+            });
+
+            backToWelcomeFromLobby.addEventListener('click', () => {
+                navigateTo(welcomeScreen, 'backward');
+            });
+
+            // --- NEW Notes Screen ---
+            backToLobbyFromNotes.addEventListener('click', () => {
+                navigateTo(lobbyScreen, 'backward');
+            });
+
+            notesCategoryButtons.forEach(button => {
+                button.addEventListener('click', (event) => {
+                    const { noteFile, noteTitle } = event.currentTarget.dataset;
+                    if (noteFile && noteTitle) {
+                        openReaderPage(noteFile, noteTitle);
+                    } else {
+                        showMessageBox("Notice", "Notes for this section are not yet available.");
+                    }
+                });
+            });
+
+            // --- NEW Reader Screen ---
+            backToNotesFromReader.addEventListener('click', () => {
+                navigateTo(notesScreen, 'backward');
+            });
+
+            // --- RENAMED: Tests Screen (formerly Lobby) ---
             quizCategoryButtons.forEach(button => {
                 button.addEventListener('click', (event) => {
                     const categoryKey = event.currentTarget.dataset.quizCategory;
@@ -1139,8 +1491,9 @@
                 });
             });
             
-            backToWelcomeFromLobby.addEventListener('click', () => {
-                navigateTo(welcomeScreen, 'backward');
+            // UPDATED: Button and destination
+            backToLobbyFromTests.addEventListener('click', () => {
+                navigateTo(lobbyScreen, 'backward');
             });
 
             // --- Format Screen ---
@@ -1148,8 +1501,9 @@
                 card.addEventListener('click', selectQuizFormat);
             });
 
-            backToLobbyFromFormat.addEventListener('click', () => {
-                navigateTo(lobbyScreen, 'backward');
+            // UPDATED: Button and destination
+            backToTestsFromFormat.addEventListener('click', () => {
+                navigateTo(testsScreen, 'backward');
             });
 
             // --- Quiz Screen ---
@@ -1171,8 +1525,9 @@
             });
 
             // --- Results Screen ---
-            returnToLobbyFromResultsButton.addEventListener('click', () => {
-                navigateTo(lobbyScreen, 'backward');
+            // UPDATED: Button and destination
+            returnToTestsFromResultsButton.addEventListener('click', () => {
+                navigateTo(testsScreen, 'backward');
             });
             
             seePerformanceButton.addEventListener('click', () => {
@@ -1180,8 +1535,9 @@
             });
 
             // --- Performance Screen ---
-            returnToLbbyFromPerformanceButton.addEventListener('click', () => {
-                navigateTo(lobbyScreen, 'backward');
+            // UPDATED: Button and destination
+            returnToTestsFromPerformanceButton.addEventListener('click', () => {
+                navigateTo(testsScreen, 'backward');
             });
         });
 

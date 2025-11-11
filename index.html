@@ -504,6 +504,26 @@
         #reader-content-container em {
             font-style: italic;
         }
+
+        /* --- NEW: Table Styles for Markdown --- */
+        #reader-content-container table {
+            width: 100%;
+            border-collapse: collapse; /* Ensures borders merge */
+            margin-bottom: 16px;
+            font-size: 0.9rem; /* Slightly smaller text for tables */
+        }
+        #reader-content-container th,
+        #reader-content-container td {
+            border: 0.5px solid #454545; /* Your specified border */
+            padding: 8px 12px;
+            text-align: left;
+        }
+        #reader-content-container th {
+            background-color: #e5e7eb; /* Light gray header */
+            font-weight: 600;
+        }
+        /* --- End Table Styles --- */
+
         /* --- End Reader Page Styles --- */
         
     </style>
@@ -554,7 +574,7 @@
             <!-- NEW Notes Screen -->
             <div id="notes-screen" class="screen right text-center">
                 <h1 class="text-3xl font-bold text-gray-800 mb-6 flex-shrink-0 px-[2vw]">NOTES</h1>
-                <p class="text-lg text-gray-700 mb-8 flex-shrink-0 px-[2vw]">Pick a domain.</p>
+                <p class="text-lg text-gray-700 mb-8 flex-shrink-0 px-[2vw]">Pick a domain</p>
                 
                 <div class="lobby-buttons"> <!-- This div will now scroll -->
                     <!-- Row 1 (Indigo) -->

@@ -365,6 +365,7 @@
             padding: 2vw 2vw; /* 2vw top/bottom, 3vw left/right */
             box-sizing: border-box;
             z-index: 20;
+            /* REMOVED: Flex properties removed from main bar */
         }
         
         /* NEW: Class for nav content blocks */
@@ -538,14 +539,14 @@
                 
                 <div class="lobby-buttons"> <!-- This div will now scroll -->
                     <!-- Notes Card -->
-                    <button id="go-to-notes-button" class="quiz-card-base quiz-card-indigo" style="grid-column: 1 / span 2; aspect-ratio: 2 / 0.8;">
-                        <span class="card-subtitle">Gain mastery!</span>
+                    <button id="go-to-notes-button" class="quiz-card-base quiz-card-indigo" style="grid-column: 1 / span 1; aspect-ratio: 1 / 1;">
                         <span class="card-title">Notes</span>
+                        <span class="card-subtitle">Study & gain mastery!</span>
                     </button>
                     <!-- Tests Card -->
-                    <button id="go-to-tests-button" class="quiz-card-base quiz-card-orange" style="grid-column: 1 / span 2; aspect-ratio: 2 / 0.8;">
-                        <span class="card-subtitle">Take on a challenge!</span>
+                    <button id="go-to-tests-button" class="quiz-card-base quiz-card-orange" style="grid-column: 2 / span 1; aspect-ratio: 1 / 1;">
                         <span class="card-title">Tests</span>
+                        <span class="card-subtitle">Take on a challenge!</span>
                     </button>
                 </div>
             </div>
@@ -746,48 +747,104 @@
         <!-- NEW: Persistent Bottom Navigation Bar -->
         <div id="bottom-nav-bar" class="hidden"> <!-- Hidden by default, shown by navigateTo -->
 
-            <!-- NEW Lobby Nav Content -->
-            <div id="lobby-nav" class="nav-content hidden w-full justify-start">
+            <!-- This wrapper holds the swappable content -->
+            <!-- REMOVED: Redundant nav-content-wrapper div -->
+            
+            <!-- Lobby Nav Content -->
+            <!-- UPDATED: Classes changed to justify-between -->
+            <div id="lobby-nav" class="nav-content hidden w-full justify-between items-center">
                 <button id="back-to-welcome-from-lobby" class="back-icon-button">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                         <path fill-rule="evenodd" d="M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z" clip-rule="evenodd" />
                     </svg>
                 </button>
+
+                <!-- UPDATED: Fullscreen button now uses classes instead of IDs -->
+                <button class="fullscreen-toggle-button back-icon-button">
+                    <!-- open icon -->
+                    <svg class="fullscreen-open-icon w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                      <path fill-rule="evenodd" d="M3.75 6.75a3 3 0 0 1 3-3h3.75a.75.75 0 0 1 0 1.5h-3.75a1.5 1.5 0 0 0-1.5 1.5v3.75a.75.75 0 0 1-1.5 0v-3.75Zm16.5 0a3 3 0 0 0-3-3h-3.75a.75.75 0 0 0 0 1.5h3.75a1.5 1.5 0 0 1 1.5 1.5v3.75a.75.75 0 0 0 1.5 0v-3.75Zm-16.5 10.5a3 3 0 0 0 3 3h3.75a.75.75 0 0 0 0-1.5h-3.75a1.5 1.5 0 0 1-1.5-1.5v-3.75a.75.75 0 0 0-1.5 0v3.75Zm16.5 0a3 3 0 0 1-3 3h-3.75a.75.75 0 0 1 0-1.5h3.75a1.5 1.5 0 0 0 1.5-1.5v-3.75a.75.75 0 0 1 1.5 0v3.75Z" clip-rule="evenodd" />
+                    </svg>
+                    <!-- close icon -->
+                    <svg class="fullscreen-close-icon w-6 h-6 hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                      <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                    </svg>
+                </button>
             </div>
 
-            <!-- NEW Notes Nav Content -->
-            <div id="notes-nav" class="nav-content hidden w-full justify-start">
+            <!-- NEW: Notes Nav Content -->
+            <!-- UPDATED: Added justify-between, items-center, and fullscreen button -->
+            <div id="notes-nav" class="nav-content hidden w-full justify-between items-center">
                 <button id="back-to-lobby-from-notes" class="back-icon-button">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                         <path fill-rule="evenodd" d="M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z" clip-rule="evenodd" />
                     </svg>
                 </button>
-            </div>
-
-            <!-- NEW Reader Nav Content -->
-            <div id="reader-nav" class="nav-content hidden w-full justify-start">
-                <button id="back-to-notes-from-reader" class="back-icon-button">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                        <path fill-rule="evenodd" d="M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z" clip-rule="evenodd" />
+                <!-- NEW: Fullscreen button added -->
+                <button class="fullscreen-toggle-button back-icon-button">
+                    <svg class="fullscreen-open-icon w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                      <path fill-rule="evenodd" d="M3.75 6.75a3 3 0 0 1 3-3h3.75a.75.75 0 0 1 0 1.5h-3.75a1.5 1.5 0 0 0-1.5 1.5v3.75a.75.75 0 0 1-1.5 0v-3.75Zm16.5 0a3 3 0 0 0-3-3h-3.75a.75.75 0 0 0 0 1.5h3.75a1.5 1.5 0 0 1 1.5 1.5v3.75a.75.75 0 0 0 1.5 0v-3.75Zm-16.5 10.5a3 3 0 0 0 3 3h3.75a.75.75 0 0 0 0-1.5h-3.75a1.5 1.5 0 0 1-1.5-1.5v-3.75a.75.75 0 0 0-1.5 0v3.75Zm16.5 0a3 3 0 0 1-3 3h-3.75a.75.75 0 0 1 0-1.5h3.75a1.5 1.5 0 0 0 1.5-1.5v-3.75a.75.75 0 0 1 1.5 0v3.75Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg class="fullscreen-close-icon w-6 h-6 hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                      <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
                     </svg>
                 </button>
             </div>
 
             <!-- RENAMED: Tests Nav Content (formerly lobby-nav) -->
-            <div id="tests-nav" class="nav-content hidden w-full justify-start">
+            <!-- UPDATED: Added justify-between, items-center, and fullscreen button -->
+            <div id="tests-nav" class="nav-content hidden w-full justify-between items-center">
                 <button id="back-to-lobby-from-tests" class="back-icon-button">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                         <path fill-rule="evenodd" d="M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z" clip-rule="evenodd" />
                     </svg>
                 </button>
+                <!-- NEW: Fullscreen button added -->
+                <button class="fullscreen-toggle-button back-icon-button">
+                    <svg class="fullscreen-open-icon w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                      <path fill-rule="evenodd" d="M3.75 6.75a3 3 0 0 1 3-3h3.75a.75.75 0 0 1 0 1.5h-3.75a1.5 1.5 0 0 0-1.5 1.5v3.75a.75.75 0 0 1-1.5 0v-3.75Zm16.5 0a3 3 0 0 0-3-3h-3.75a.75.75 0 0 0 0 1.5h3.75a1.5 1.5 0 0 1 1.5 1.5v3.75a.75.75 0 0 0 1.5 0v-3.75Zm-16.5 10.5a3 3 0 0 0 3 3h3.75a.75.75 0 0 0 0-1.5h-3.75a1.5 1.5 0 0 1-1.5-1.5v-3.75a.75.75 0 0 0-1.5 0v3.75Zm16.5 0a3 3 0 0 1-3 3h-3.75a.75.75 0 0 1 0-1.5h3.75a1.5 1.5 0 0 0 1.5-1.5v-3.75a.75.75 0 0 1 1.5 0v3.75Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg class="fullscreen-close-icon w-6 h-6 hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                      <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                    </svg>
+                </button>
             </div>
 
             <!-- Format Nav Content -->
-            <div id="format-nav" class="nav-content hidden w-full justify-start">
+            <!-- UPDATED: Added justify-between, items-center, and fullscreen button -->
+            <div id="format-nav" class="nav-content hidden w-full justify-between items-center">
                 <!-- UPDATED: Button ID -->
                 <button id="back-to-tests-from-format" class="back-icon-button">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                         <path fill-rule="evenodd" d="M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <!-- NEW: Fullscreen button added -->
+                <button class="fullscreen-toggle-button back-icon-button">
+                    <svg class="fullscreen-open-icon w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                      <path fill-rule="evenodd" d="M3.75 6.75a3 3 0 0 1 3-3h3.75a.75.75 0 0 1 0 1.5h-3.75a1.5 1.5 0 0 0-1.5 1.5v3.75a.75.75 0 0 1-1.5 0v-3.75Zm16.5 0a3 3 0 0 0-3-3h-3.75a.75.75 0 0 0 0 1.5h3.75a1.5 1.5 0 0 1 1.5 1.5v3.75a.75.75 0 0 0 1.5 0v-3.75Zm-16.5 10.5a3 3 0 0 0 3 3h3.75a.75.75 0 0 0 0-1.5h-3.75a1.5 1.5 0 0 1-1.5-1.5v-3.75a.75.75 0 0 0-1.5 0v3.75Zm16.5 0a3 3 0 0 1-3 3h-3.75a.75.75 0 0 1 0-1.5h3.75a1.5 1.5 0 0 0 1.5-1.5v-3.75a.75.75 0 0 1 1.5 0v3.75Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg class="fullscreen-close-icon w-6 h-6 hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                      <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- NEW: Reader Nav Content -->
+            <!-- UPDATED: Added justify-between, items-center, and fullscreen button -->
+            <div id="reader-nav" class="nav-content hidden w-full justify-between items-center">
+                <button id="back-to-notes-from-reader" class="back-icon-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path fill-rule="evenodd" d="M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <!-- NEW: Fullscreen button added -->
+                <button class="fullscreen-toggle-button back-icon-button">
+                    <svg class="fullscreen-open-icon w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                      <path fill-rule="evenodd" d="M3.75 6.75a3 3 0 0 1 3-3h3.75a.75.75 0 0 1 0 1.5h-3.75a1.5 1.5 0 0 0-1.5 1.5v3.75a.75.75 0 0 1-1.5 0v-3.75Zm16.5 0a3 3 0 0 0-3-3h-3.75a.75.75 0 0 0 0 1.5h3.75a1.5 1.5 0 0 1 1.5 1.5v3.75a.75.75 0 0 0 1.5 0v-3.75Zm-16.5 10.5a3 3 0 0 0 3 3h3.75a.75.75 0 0 0 0-1.5h-3.75a1.5 1.5 0 0 1-1.5-1.5v-3.75a.75.75 0 0 0-1.5 0v3.75Zm16.5 0a3 3 0 0 1-3 3h-3.75a.75.75 0 0 1 0-1.5h3.75a1.5 1.5 0 0 0 1.5-1.5v-3.75a.75.75 0 0 1 1.5 0v3.75Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg class="fullscreen-close-icon w-6 h-6 hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                      <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
                     </svg>
                 </button>
             </div>
@@ -817,11 +874,13 @@
 
             <!-- Performance Nav Content -->
             <div id="performance-nav" class="nav-content hidden w-full">
-                <!-- UPDATED: Button ID and text -->
                 <button id="return-to-tests-from-performance-button" class="quiz-card-base quiz-card-indigo w-full py-4 text-lg font-semibold" style="aspect-ratio: unset; height: auto;">
                     Return to Tests
                 </button>
             </div>
+            <!-- REMOVED: Redundant wrapper div closing tag -->
+
+            <!-- REMOVED: Static fullscreen-toggle-container -->
 
         </div> <!-- End #bottom-nav-bar -->
 
@@ -1365,6 +1424,66 @@
             navigateTo(resultsScreen, 'forward');
         }
 
+        /* --- NEW: Fullscreen Toggle Logic --- */
+        /* UPDATED: Logic to support class-based selectors */
+        function setupFullscreenToggle() {
+            const fullscreenToggleButtons = document.querySelectorAll('.fullscreen-toggle-button');
+
+            // This function will update ALL toggle icons on the page
+            function updateAllFullscreenIcons() {
+                const allOpenIcons = document.querySelectorAll('.fullscreen-open-icon');
+                const allCloseIcons = document.querySelectorAll('.fullscreen-close-icon');
+                
+                if (document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement) {
+                    allOpenIcons.forEach(icon => icon.classList.add('hidden'));
+                    allCloseIcons.forEach(icon => icon.classList.remove('hidden'));
+                } else {
+                    allOpenIcons.forEach(icon => icon.classList.remove('hidden'));
+                    allCloseIcons.forEach(icon => icon.classList.add('hidden'));
+                }
+            }
+
+            function toggleFullscreen() {
+                const elem = document.documentElement; // Toggle fullscreen for the whole page
+
+                if (!document.fullscreenElement && !document.webkitFullscreenElement && !document.mozFullScreenElement && !document.msFullscreenElement) {
+                    // Enter fullscreen
+                    if (elem.requestFullscreen) {
+                        elem.requestFullscreen();
+                    } else if (elem.webkitRequestFullscreen) { /* Safari */
+                        elem.webkitRequestFullscreen();
+                    } else if (elem.mozRequestFullScreen) { /* Firefox */
+                        elem.mozRequestFullScreen();
+                    } else if (elem.msRequestFullscreen) { /* IE/Edge */
+                        elem.msRequestFullscreen();
+                    }
+                } else {
+                    // Exit fullscreen
+                    if (document.exitFullscreen) {
+                        document.exitFullscreen();
+                    } else if (document.webkitExitFullscreen) { /* Safari */
+                        document.webkitExitFullscreen();
+                    } else if (document.mozCancelFullScreen) { /* Firefox */
+                        document.mozCancelFullScreen();
+                    } else if (document.msExitFullscreen) { /* IE/Edge */
+                        document.msExitFullscreen();
+                    }
+                }
+            }
+
+            // Add click listener to every toggle button
+            fullscreenToggleButtons.forEach(button => {
+                button.addEventListener('click', toggleFullscreen);
+            });
+
+            // Listen for changes in fullscreen state (e.g., user pressing Esc)
+            document.addEventListener('fullscreenchange', updateAllFullscreenIcons);
+            document.addEventListener('webkitfullscreenchange', updateAllFullscreenIcons);
+            document.addEventListener('mozfullscreenchange', updateAllFullscreenIcons);
+            document.addEventListener('MSFullscreenChange', updateAllFullscreenIcons);
+        }
+        /* --- End Fullscreen Toggle Logic --- */
+
         // Function to show performance breakdown
         function showPerformance() {
             navigateTo(performanceScreen, 'forward');
@@ -1399,6 +1518,7 @@
         // --- EVENT LISTENERS ---
         document.addEventListener('DOMContentLoaded', () => {
             typeWriterEffect();
+            setupFullscreenToggle(); // NEW: Initialize fullscreen button logic
             
             // Unlock the buttons immediately since we don't need to wait for auth
             quizCategoryButtons.forEach(button => button.disabled = false);
@@ -1411,7 +1531,7 @@
                 }
             });
             welcomeScreen.classList.add('current');
-currentPage = welcomeScreen;
+            currentPage = welcomeScreen;
 
 
             // --- Welcome Screen ---

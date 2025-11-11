@@ -8,6 +8,9 @@
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
+    <!-- NEW: Marked.js Library (for rendering Markdown) -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
     <!-- Google Fonts: Inter & Sora & Space Grotesk -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Sora:wght@300;400;600;900&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
 
@@ -495,6 +498,10 @@
             padding: 2px 6px;
             border-radius: 4px;
             font-size: 0.9rem;
+        }
+        /* NEW: Style for italics (<em> tags) */
+        #reader-content-container em {
+            font-style: italic;
         }
         /* --- End Reader Page Styles --- */
         
@@ -1043,67 +1050,30 @@
         }
         // --- End Typewriter Loop Logic ---
 
-        // --- NEW: Notes Parser ---
+        // --- UPDATED: Notes Parser (now uses 'marked.js' library) ---
         /**
-         * Simple parser to convert text to basic HTML for the reader.
-         * @param {string} text - The raw text content from the .txt file.
+         * Uses the marked.js library to parse Markdown to HTML.
+         * @param {string} text - The raw markdown text.
          * @returns {string} - HTML string.
          */
         function parseNotesToHTML(text) {
             if (!text) return '<p>No content found.</p>';
             
-            const lines = text.split('\n');
-            let html = '';
-            let inList = false;
-
-            for (const line of lines) {
-                const trimmedLine = line.trim();
-
-                if (trimmedLine.startsWith('## ')) {
-                    if (inList) {
-                        html += '</ul>';
-                        inList = false;
-                    }
-                    html += `<h2>${trimmedLine.substring(3)}</h2>`;
-                } else if (trimmedLine.startsWith('# ')) {
-                    if (inList) {
-                        html += '</ul>';
-                        inList = false;
-                    }
-                    html += `<h1>${trimmedLine.substring(2)}</h1>`;
-                } else if (trimmedLine.startsWith('- ')) {
-                    if (!inList) {
-                        html += '<ul>';
-                        inList = true;
-                    }
-                    // Simple bold/code formatting
-                    let listItem = trimmedLine.substring(2)
-                        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-                        .replace(/`(.*?)`/g, '<code>$1</code>');
-                    html += `<li>${listItem}</li>`;
-                } else if (trimmedLine === '') {
-                    if (inList) {
-                        html += '</ul>';
-                        inList = false;
-                    }
-                    // Don't add empty <p> tags, just treat as a break
-                } else {
-                    if (inList) {
-                        html += '</ul>';
-                        inList = false;
-                    }
-                    // Simple bold/code formatting
-                    let paragraph = trimmedLine
-                        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-                        .replace(/`(.*?)`/g, '<code>$1</code>');
-                    html += `<p>${paragraph}</p>`;
-                }
+            // Use the global 'marked.parse()' function from the library
+            // This is much more robust than the old custom parser.
+            try {
+                // Set options for compatibility
+                marked.setOptions({
+                    gfm: true, // Enable GitHub Flavored Markdown
+                    breaks: true, // Convert single line breaks to <br>
+                    mangle: false, // Prevent mangling of email addresses
+                    headerIds: false // Don't add IDs to headers
+                });
+                return marked.parse(text);
+            } catch (error) {
+                console.error("Markdown parsing error:", error);
+                return '<p class="text-red-600">Error: Could not parse notes.</p>';
             }
-
-            if (inList) {
-                html += '</ul>'; // Close any dangling list
-            }
-            return html;
         }
         // --- End Notes Parser ---
 

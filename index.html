@@ -869,7 +869,8 @@
             <!-- Results Screen (Button container removed) -->
             <div id="results-screen" class="screen right text-center justify-between">
                 <div class="flex-grow flex flex-col justify-center items-center">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Done!</h2>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-2">Done!</h2> <!-- MODIFIED: Reduced margin -->
+                    <p id="results-subtitle" class="text-lg text-gray-700 mb-4 px-[2vw]"></p> <!-- NEW: Subtitle element -->
                     
                     <p class="text-8xl font-bold mb-4 score-indigo-text" style="font-family: 'Sora', sans-serif;">
                         <span id="final-score-percentage"></span>%
@@ -884,7 +885,8 @@
 
             <!-- Performance Screen (Button removed) -->
             <div id="performance-screen" class="screen right">
-                <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center flex-shrink-0">Your Performance</h2>
+                <h2 class="text-3xl font-bold text-gray-800 mb-2 text-center flex-shrink-0">Your Performance</h2> <!-- MODIFIED: Reduced margin -->
+                <p id="performance-subtitle" class="text-lg text-gray-700 mb-6 text-center flex-shrink-0 px-[2vw]"></p> <!-- NEW: Subtitle element -->
                 <div id="performance-details-container" class="mt-4 flex-grow" style="overflow-y: auto; -ms-overflow-style: none; scrollbar-width: none;">
                     <!-- Performance items will be injected here -->
                 </div>
@@ -1166,6 +1168,8 @@
         const timeTakenResultsDisplay = document.getElementById('time-taken-results');
 
         const performanceDetailsContainer = document.getElementById('performance-details-container');
+        const performanceSubtitle = document.getElementById('performance-subtitle'); // FIX: Added missing definition
+        const resultsSubtitle = document.getElementById('results-subtitle'); // NEW: Added definition
         
         const formatScreen = document.getElementById('format-screen');
         const formatCards = document.querySelectorAll('.format-card-button');
@@ -1261,6 +1265,7 @@
         let timeLeft; 
         let quizStartTime;
         let selectedQuizCategory = null; 
+        let selectedQuizDisplayName = ""; // NEW: Variable to store the test name
         let selectedOption = null; 
         let quizResultsDetails = [];
         let isUnlimitedMode = false;
@@ -1360,14 +1365,14 @@
             }
             return newArray;
         }
-
-        // Function to handle quiz category selection
+            // Function to handle quiz category selection
         function selectQuizCategory(categoryKey) {
             formatCards.forEach(card => {
                 card.dataset.category = categoryKey;
             });
             
             selectedQuizCategory = categoryKey;
+            // REMOVED: selectedQuizDisplayName is now set in the event listener
             navigateTo(formatScreen, 'forward');
         }
 
@@ -1610,6 +1615,7 @@
             finalScorePercentageDisplay.textContent = percentageScore;
             correctAnswersCountDisplay.textContent = score;
             totalQuestionsResultsDisplay.textContent = totalQuestionsAnswered;
+            resultsSubtitle.textContent = selectedQuizDisplayName; // NEW: Set the subtitle text
             
             if (isUnlimitedMode) {
                  timeTakenResultsDisplay.textContent = `Time taken: ${minutes}m ${seconds}s`;
@@ -1685,6 +1691,7 @@
         // Function to show performance breakdown
         function showPerformance() {
             navigateTo(performanceScreen, 'forward');
+            performanceSubtitle.textContent = selectedQuizDisplayName; // NEW: Set the subtitle text
             performanceDetailsContainer.innerHTML = ''; 
 
             if (quizResultsDetails.length === 0) {
@@ -1796,6 +1803,8 @@
             quizCategoryButtons.forEach(button => {
                 button.addEventListener('click', (event) => {
                     const categoryKey = event.currentTarget.dataset.quizCategory;
+                    // NEW: Get the display name from the card's title
+                    selectedQuizDisplayName = event.currentTarget.querySelector('.card-title').textContent.trim();
                     selectQuizCategory(categoryKey);
                 });
             });
@@ -1853,4 +1862,3 @@
     </script>
 </body>
 </html>
-

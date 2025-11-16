@@ -34,7 +34,7 @@
     "options": {
       "a": "It guarantees the VPN connection will never drop.",
       "b": "It ensures that a compromised session key cannot be used to decrypt past, recorded traffic.",
-      "c":S: "It uses both IPSec and OpenVPN protocols simultaneously for redundancy.",
+      "c": "It uses both IPSec and OpenVPN protocols simultaneously for redundancy.",
       "d": "It verifies the user's identity using multi-factor authentication."
     },
     "correctAnswer": "b"
@@ -980,3 +980,4 @@
     "correctAnswer": "b"
   }
 ]
+

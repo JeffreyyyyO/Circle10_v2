@@ -1,0 +1,982 @@
+[
+  {
+    "question": "What is the primary function of email authentication protocols like SPF and DKIM?",
+    "options": {
+      "a": "To encrypt the body of an email message.",
+      "b": "To verify the sender's identity and prevent email spoofing.",
+      "c": "To scan emails for viruses and malware.",
+      "d": "To ensure end-to-end encryption between sender and receiver."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the context of IoT security, what is the purpose of using cryptographic signing for Secure Over-The-Air (OTA) updates?",
+    "options": {
+      "a": "To encrypt the device's internet traffic.",
+      "b": "To ensure the firmware update is from a trusted source and hasn't been tampered with.",
+      "c": "To provide two-factor authentication for the device.",
+      "d": "To reduce the power consumption of the device during the update."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which feature distinguishes 'Zero-Knowledge Encryption' from standard cloud storage encryption?",
+    "options": {
+      "a": "It only encrypts data in transit, not at rest.",
+      "b": "It uses symmetric keys instead of asymmetric keys.",
+      "c": "Only the user has access to the decryption keys, preventing the service provider from reading the data.",
+      "d": "It is a term for encrypting data on a local device before uploading."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What security guarantee does 'Perfect Forward Secrecy (PFS)' offer in a VPN context?",
+    "options": {
+      "a": "It guarantees the VPN connection will never drop.",
+      "b": "It ensures that a compromised session key cannot be used to decrypt past, recorded traffic.",
+      "c":S: "It uses both IPSec and OpenVPN protocols simultaneously for redundancy.",
+      "d": "It verifies the user's identity using multi-factor authentication."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary difference between IPSec's Transport Mode and Tunnel Mode?",
+    "options": {
+      "a": "Transport Mode is used for site-to-site VPNs, while Tunnel Mode is for host-to-host.",
+      "b": "Transport Mode encrypts only the IP payload, while Tunnel Mode encrypts the entire original IP packet.",
+      "c": "Transport Mode uses asymmetric encryption, while Tunnel Mode uses symmetric encryption.",
+      "d": "Transport Mode provides authentication, while Tunnel Mode provides only confidentiality."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In IPSec, what is the function of a 'Security Association (SA)'?",
+    "options": {
+      "a": "It is a hardware device used to accelerate encryption.",
+      "b": "It is a protocol for exchanging keys, replacing IKE.",
+      "c": "It is a management database that defines the security parameters (algorithms, keys) for a connection.",
+      "d": "It is a type of digital certificate used for authentication."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which IPSec component is responsible for providing confidentiality (encryption) for the packet payload?",
+    "options": {
+      "a": "Authentication Header (AH)",
+      "b": "Encapsulating Security Payload (ESP)",
+      "c": "Internet Key Exchange (IKE)",
+      "d": "Security Policy Database (SPD)"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the main function of the 'Authentication Header (AH)' in IPSec?",
+    "options": {
+      "a": "It provides confidentiality (encryption) for the entire packet.",
+      "b": "It provides authentication and integrity for the IP packet but lacks confidentiality.",
+      "c": "It encapsulates the original IP packet within a new one.",
+      "d": "It is used exclusively for key exchange."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The SSH protocol provides three core security services. What are they?",
+    "options": {
+      "a": "Encryption, Authentication, and Port Forwarding",
+      "b": "Confidentiality, Integrity, and Authentication",
+      "c": "Key Exchange, Secure File Transfer, and Integrity",
+      "d": "Authentication, Authorization, and Accounting (AAA)"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of 'Port Forwarding' in SSH?",
+    "options": {
+      "a": "To allow secure access to services on a remote server through an encrypted channel.",
+      "b": "To check the integrity of transmitted data using hash functions.",
+      "c": "To transfer files securely between a client and a server.",
+      "d": "To authenticate a user using public-key cryptography."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What encryption protocol was used by WPA as an interim replacement for WEP's flawed encryption?",
+    "options": {
+      "a": "AES",
+      "b": "CCMP",
+      "c": "TKIP",
+      "d": "DES"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "WPA2, the current standard, achieves its high security level by using which combination of encryption and encryption mode?",
+    "options": {
+      "a": "TKIP with MIC",
+      "b": "AES with CCMP",
+      "c": "WEP with PSK",
+      "d": "DES with EAP"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the context of WPA2, what does 'Enterprise Mode (802.1X)' require that 'PSK Mode' does not?",
+    "options": {
+      "a": "A shorter, easier-to-remember passphrase.",
+      "b": "A centralized authentication server, such as RADIUS.",
+      "c": "The use of the TKIP protocol.",
+      "d": "Disabling the network segmentation (VLANs)."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is it a recommended best practice to disable WPS (Wi-Fi Protected Setup)?",
+    "options": {
+      "a": "It is vulnerable to security breaches.",
+      "b": "It is not compatible with WPA2.",
+      "c": "It significantly slows down the network.",
+      "d": "It only works in Enterprise Mode."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the role of Post-Quantum Cryptography (PQC) in network security?",
+    "options": {
+      "a": "To secure transactions on a blockchain.",
+      "b": "To develop algorithms that are resistant to attacks from quantum computers.",
+      "c": "To use quantum mechanics to generate encryption keys.",
+      "d": "To inspect encrypted network traffic without compromising privacy."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a primary principle of a 'Zero Trust Security Model'?",
+    "options": {
+      "a": "Trusting all devices and users inside the network perimeter.",
+      "b": "Granting access based on identity verification and continuous monitoring, following the principle of least privilege.",
+      "c": "Using a single, strong password for all network access.",
+      "d": "Relying exclusively on firewalls for network protection."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the function of a 'Hardware Security Module (HSM)' in key management?",
+    "options": {
+      "a": "It is a software library for generating keys.",
+      "b": "It is a policy for how often keys should be rotated.",
+      "c": "It is a dedicated hardware device for securely generating, storing, and managing cryptographic keys.",
+      "d": "It is a protocol for exchanging keys over an insecure channel, like Diffie-Hellman."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Why is AES (Advanced Encryption Standard) considered a symmetric encryption algorithm?",
+    "options": {
+      "a": "It uses two different keys, a public and a private one.",
+      "b": "It is only used for data at rest, not data in transit.",
+      "c": "It uses the same key for both encryption and decryption.",
+      "d": "It supports key sizes of 128, 192, and 256 bits."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the role of the 'Trusted Platform Module (TPM)' when used with BitLocker?",
+    "options": {
+      "a": "It is a USB drive that stores the recovery key.",
+      "b": "It is a dedicated security chip on the motherboard that securely stores encryption keys.",
+      "c": "It is a software-based encryption algorithm that replaces AES.",
+      "d": "It is a password required to unlock the drive."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the main difference between FTPS (File Transfer Protocol Secure) and SFTP (Secure File Transfer Protocol)?",
+    "options": {
+      "a": "FTPS is faster, while SFTP is more secure.",
+      "b": "FTPS adds SSL/TLS encryption to the FTP protocol, while SFTP is a completely different protocol that runs over SSH.",
+      "c": "FTPS uses symmetric encryption, while SFTP uses asymmetric encryption.",
+      "d": "FTPS is for file uploads, while SFTP is for file downloads."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a primary reason for using a VPN?",
+    "options": {
+      "a": "To increase your internet connection speed.",
+      "b": "To bypass all website logins.",
+      "c": "To encrypt your internet traffic and mask your IP address, enhancing privacy and security.",
+      "d": "To get free access to paid streaming services."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Why are free VPN services often discouraged from a security perspective?",
+    "options": {
+      "a": "They are typically much slower than paid services.",
+      "b": "They may compromise user data security and privacy to make money.",
+      "c": "They do not offer servers in different countries.",
+      "d": "They are not compatible with mobile devices."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the core problem with 'Weak Key Generation' in a cryptographic system?",
+    "options": {
+      "a": "It makes the encryption process too slow.",
+      "b": "It creates keys that are too long to manage.",
+      "c": "It makes the system vulnerable to brute force attacks due to insufficient key length or poor randomness.",
+      "d": "It can only be used for asymmetric encryption."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a 'Side-Channel Attack'?",
+    "options": {
+      "a": "An attack that exploits information leaked by the physical implementation of a crypto-system, like power consumption or timing.",
+      "b": "An attack where the attacker intercepts and retransmits a valid message.",
+      "c": "An attack that uses a dictionary of common passwords.",
+      "d": "An attack that exploits a buffer overflow in a software library."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is 'Cryptanalysis'?",
+    "options": {
+      "a": "The practice of creating new cryptographic algorithms.",
+      "b": "The art and science of breaking cryptographic systems by exploiting weaknesses.",
+      "c": "A type of hardware security module (HSM).",
+      "d": "The process of securely managing encryption keys."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the key characteristic of a 'Chosen-Plaintext Attack (CPA)'?",
+    "options": {
+      "a": "The attacker only has access to the ciphertext.",
+      "b": "The attacker has access to a collection of plaintexts and their corresponding ciphertexts.",
+      "c": "The attacker can choose specific plaintexts to be encrypted and observe the resulting ciphertexts.",
+      "d": "The attacker analyzes the frequency of letters in the ciphertext."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "A 'Meet-in-the-Middle Attack' is particularly effective against what type of cryptographic design?",
+    "options": {
+      "a": "A single-stage, strong algorithm like AES-256.",
+      "b": "Multi-stage encryption schemes, like Double DES, where intermediate results can be matched.",
+      "c": "Hash functions like SHA-256.",
+      "d": "Asymmetric algorithms like RSA."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "A 'Birthday Attack' is a cryptanalytic technique primarily used to find collisions in which cryptographic primitive?",
+    "options": {
+      "a": "Symmetric ciphers",
+      "b": "Stream ciphers",
+      "c": "Hash functions",
+      "d": "Asymmetric ciphers"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What type of attack involves intercepting a valid message and retransmitting it later to gain unauthorized access?",
+    "options": {
+      "a": "A Replay Attack",
+      "b": "A Side-Channel Attack",
+      "c": "A Birthday Attack",
+      "d": "Frequency Analysis"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is 'Differential Cryptanalysis'?",
+    "options": {
+      "a": "An attack that exploits timing differences in cryptographic operations.",
+      "b": "A statistical technique that analyzes differences between plaintext pairs and their corresponding ciphertext pairs.",
+      "c": "An attack that uses a pre-generated list of common passwords.",
+      "d": "An attack that tries every possible key combination."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In online banking, what is the role of 'Cryptographic Hashes'?",
+    "options": {
+      "a": "To encrypt the user's password for storage.",
+      "b": "To verify the integrity of electronic payments and transactions.",
+      "c": "To provide two-factor authentication tokens.",
+      "d": "To create a secure tunnel for the banking session."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Social media platforms use secure hashing algorithms like 'Bcrypt' or 'Argon2' for what purpose?",
+    "options": {
+      "a": "To encrypt direct messages between users.",
+      "b": "To encrypt stored passwords, making them difficult to reverse even if stolen.",
+      "c": "To verify the identity of users logging in.",
+      "d": "To compress images and videos uploaded by users."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the function of a 'Digital Certificate' in web browsing (HTTPS)?",
+    "options": {
+      "a": "It encrypts the user's credit card number.",
+      "b": "It proves the website's identity, ensuring it is real and not a fake.",
+      "c": "It is the hashing algorithm used by the server.",
+      "d": "It is a symmetric key used for the session."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Mutual TLS (mTLS)'?",
+    "options": {
+      "a": "A protocol where only the client authenticates the server.",
+      "b": "A protocol where both the client and the server must prove their identities to each other.",
+      "c": "An older, deprecated version of TLS.",
+      "d": "A protocol used for encrypting messages in apps like WhatsApp."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of 'DNSSEC'?",
+    "options": {
+      "a": "To encrypt all web traffic, replacing TLS.",
+      "b": "To protect against DNS spoofing by ensuring the website address you type in is real.",
+      "c": "To provide secure remote access for IT professionals.",
+      "d": "To speed up website connections, like QUIC."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a valid authentication method for IPSec?",
+    "options": {
+      "a": "Pre-Shared Key (PSK)",
+      "b": "Digital Certificates (PKI)",
+      "c": "TKIP",
+      "d": "Kerberos"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In IPSec, what is the 'Security Parameter Index (SPI)'?",
+    "options": {
+      "a": "A protocol for key management.",
+      "b": "The algorithm used for encryption (e.g., AES).",
+      "c": "A unique identifier for a Security Association (SA).",
+      "d": "The hash function used for integrity (e.g., SHA-2)."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary vulnerability of the 'MD5' hash function that led to it being phased out?",
+    "options": {
+      "a": "It is too slow for modern applications.",
+      "b": "It has known vulnerabilities and is susceptible to collisions.",
+      "c": "It produces a hash that is too long.",
+      "d": "It is an asymmetric algorithm, not a hash function."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the function of the 'Internet Key Exchange (IKE)' protocol within IPSec?",
+    "options": {
+      "a": "It encrypts the payload of the IP packet.",
+      "b": "It is responsible for authenticating endpoints, exchanging keys, and setting up SAs.",
+      "c": "It provides integrity checks using SHA-2.",
+      "d": "It is the database that stores active Security Associations."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary benefit of using 'Public Key Infrastructure (PKI)' with SSH?",
+    "options": {
+      "a": "It forces all users to share a single password.",
+      "b": "It allows users to authenticate using key pairs, eliminating the need for password-based authentication.",
+      "c": "It encrypts the file transfer process (SFTP).",
+      "d": "It provides a faster connection than password authentication."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the key difference between WPA and WPA2 regarding their 'Data Protection Method'?",
+    "options": {
+      "a": "WPA uses AES, while WPA2 uses TKIP.",
+      "b": "WPA uses MIC, while WPA2 uses CCMP.",
+      "c": "WPA is for Enterprise Mode, while WPA2 is for PSK Mode.",
+      "d": "WPA has no data protection method."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In WPA/WPA2, what is the 'PSK (Pre-Shared Key) Mode' most suitable for?",
+    "options": {
+      "a": "Large organizations with thousands of users.",
+      "b": "Small, personal, or home office networks where a single passphrase is shared.",
+      "c": "Networks that require individual user authentication via a RADIUS server.",
+      "d": "Connecting devices that do not support encryption."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary role of 'Elliptic Curve Cryptography (ECC)' in network security?",
+    "options": {
+      "a": "It is a symmetric algorithm that is replacing AES.",
+      "b": "It provides strong security with smaller key sizes, making it efficient for resource-constrained devices like IoT.",
+      "c": "It is a hashing algorithm used in blockchains.",
+      "d": "It is a protocol for secure email (like PGP)."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How does 'Deep Packet Inspection (DPI)' in modern firewalls handle encrypted traffic?",
+    "options": {
+      "a": "It blocks all encrypted traffic by default.",
+      "b": "It can examine encrypted traffic to identify threats without compromising privacy.",
+      "c": "It forces the traffic to be decrypted, violating end-to-end encryption.",
+      "d": "It can only inspect unencrypted (HTTP) traffic."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How does blockchain technology ensure 'data integrity'?",
+    "options": {
+      "a": "By using symmetric encryption for all data blocks.",
+      "b": "By leveraging cryptographic hashing and digital signatures to create an immutable, tamper-proof record.",
+      "c": "By storing all data in a centralized, highly-secure database.",
+      "d": "By using a zero-trust security model."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a fundamental cryptographic principle focused on preventing unauthorized modification of data?",
+    "options": {
+      "a": "Confidentiality",
+      "b": "Authentication",
+      "c": "Integrity",
+      "d": "Non-Repudiation"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is 'Non-Repudiation' in cryptography?",
+    "options": {
+      "a": "Ensuring that data is not modified without authorization.",
+      "b": "Ensuring that only authorized users can access data.",
+      "c": "Ensuring that the sender of a message cannot deny having sent it.",
+      "d": "Verifying the identity of a user or device."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the purpose of 'Key Rotation'?",
+    "options": {
+      "a": "To use the same key for multiple different purposes.",
+      "b": "To regularly update encryption keys to minimize the impact of a potential compromise.",
+      "c": "To store keys in a Hardware Security Module (HSM).",
+      "d": "To generate keys using elliptic curve cryptography."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary security goal of data encryption for storage (data at rest)?",
+    "options": {
+      "a": "To ensure data is transmitted quickly.",
+      "b": "To protect data from unauthorized access even if the physical storage device is stolen.",
+      "c": "To verify the identity of the user accessing the data.",
+      "d": "To prevent data modification during transit."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "BitLocker is an example of what type of encryption?",
+    "options": {
+      "a": "Email Encryption (PGP)",
+      "b": "File Transfer Encryption (SFTP)",
+      "c": "Full Disk Encryption (DEX)",
+      "d": "Network Traffic Encryption (TLS)"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the difference between 'Symmetric' and 'Asymmetric' encryption?",
+    "options": {
+      "a": "Symmetric is for data at rest, Asymmetric is for data in transit.",
+      "b": "Symmetric uses one key for encryption/decryption, Asymmetric uses two keys (public/private).",
+      "c": "Symmetric is faster but less secure, Asymmetric is slower but more secure.",
+      "d": "Symmetric is the old standard (DES), Asymmetric is the new standard (AES)."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "TLS (Transport Layer Security) uses which combination of encryption types to establish a secure channel?",
+    "options": {
+      "a": "Only symmetric encryption.",
+      "b": "Only asymmetric encryption.",
+      "c": "Both symmetric and asymmetric encryption.",
+      "d": "Neither, it only provides authentication."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does a VPN 'kill switch' do?",
+    "options": {
+      "a": "Automatically selects the fastest server location.",
+      "b": "Blocks internet access if the VPN connection drops to prevent data leaks.",
+      "c": "Allows you to bypass regional restrictions.",
+      "d": "Enables two-factor authentication for your VPN account."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the vulnerability associated with 'Improper Use of Cryptographic APIs'?",
+    "options": {
+      "a": "The API itself contains a virus.",
+      "b": "The API is written in an insecure programming language.",
+      "c": "Developers use the library incorrectly, such as with weak key generation or inadequate parameter settings.",
+      "d": "The API is proprietary and not open-source."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary risk of 'Implementation Errors' like buffer overflows in cryptographic systems?",
+    "options": {
+      "a": "They can be exploited to weaken the security provided by the system, even if the algorithm itself is secure.",
+      "b": "They make the cryptographic algorithm run slower.",
+      "c": "They only affect the user interface, not the security.",
+      "d": "They prevent the system from using strong algorithms like AES."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a 'Brute Force Attack'?",
+    "options": {
+      "a": "An attack that exploits a physical leak, like power consumption.",
+      "b": "An attack that tries every possible key or password combination until the correct one is found.",
+      "c": "An attack that intercepts and retransmits a valid message.",
+      "d": "An attack that uses a pre-generated list of common passwords."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'Dictionary Attack'?",
+    "options": {
+      "a": "An attack that analyzes the frequency of letters in a message.",
+      "b": "An attack that tries every possible key combination.",
+      "c": "An attack that uses a pre-generated list of common words or passwords.",
+      "d": "An attack that exploits timing differences in operations."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "How does a 'Man-in-the-Middle Attack' work?",
+    "options": {
+      "a": "The attacker guesses the password using a large dictionary.",
+      "b": "The attacker intercepts communication between two parties without their knowledge, potentially altering messages.",
+      "c": "The attacker floods the server with requests until it crashes.",
+      "d": "The attacker exploits timing differences in the server's responses."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the core principle exploited by 'Frequency Analysis' in cryptanalysis?",
+    "options": {
+      "a": "The fact that certain letters or combinations appear more often than others in a given language.",
+      "b": "The mathematical properties of prime numbers.",
+      "c": "The timing variations in a computer's processor.",
+      "d": "The birthday paradox from probability theory."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does an attacker need for a 'Known-Plaintext Attack (KPA)'?",
+    "options": {
+      "a": "Only the ciphertext of several messages.",
+      "b": "The ability to encrypt arbitrary plaintexts of their choosing.",
+      "c": "Access to a collection of plaintexts and their corresponding ciphertexts.",
+      "d": "Physical access to the computer performing the encryption."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What type of attack is a 'Timing Attack'?",
+    "options": {
+      "a": "A Brute Force Attack that is timed.",
+      "b": "A Replay Attack that is sent at a specific time.",
+      "c": "A Side-Channel Attack that exploits subtle differences in the time it takes for cryptographic operations.",
+      "d": "A Dictionary Attack that measures the time to check each password."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which cryptographic tool is used to scramble an email so only the intended recipient can read it?",
+    "options": {
+      "a": "SPF",
+      "b": "DKIM",
+      "c": "DMARC",
+      "d": "PGP"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What is the purpose of 'Two-Factor Authentication (2FA)' in online banking?",
+    "options": {
+      "a": "To encrypt the transaction data.",
+      "b": "To add an extra layer of security, typically using a cryptographic token or code.",
+      "c": "To verify the integrity of the bank's website.",
+      "d": "To replace the need for a password."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'cryptographic token-based authentication'?",
+    "options": {
+      "a": "A password that is stored in encrypted form.",
+      "b": "A system where a user presents a physical or digital token as part of 2FA.",
+      "c": "A digital signature used to sign a transaction.",
+      "d": "A hash function used to verify data integrity."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In cloud storage, what is the difference between 'Data at Rest' and 'Data in Transit'?",
+    "options": {
+      "a": "'Data at Rest' is unencrypted, while 'Data in Transit' is encrypted.",
+      "b": "'Data at Rest' is data stored on servers, while 'Data in Transit' is data being transferred.",
+      "c": "'Data at Rest' uses symmetric encryption, while 'Data in Transit' uses asymmetric encryption.",
+      "d": "'Data at Rest' is stored in the cloud, while 'Data in Transit' is on a local device."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the newest version of TLS mentioned in the text, which makes connections faster and safer?",
+    "options": {
+      "a": "SSL 3.0",
+      "b": "TLS 1.1",
+      "c": "TLS 1.3",
+      "d": "HTTPS 2.0"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of these is NOT a primary protocol used by VPNs to create the 'secret tunnel'?",
+    "options": {
+      "a": "IPSec",
+      "b": "OpenVPN",
+      "c": "S/MIME",
+      "d": "(No 'd' option provided, but 'c' is correct)"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "At which layer of the OSI model does IPSec primarily operate?",
+    "options": {
+      "a": "Layer 7 (Application)",
+      "b": "Layer 4 (Transport)",
+      "c": "Layer 3 (Network)",
+      "d": "Layer 2 (Data Link)"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which algorithm is NOT listed as a symmetric encryption algorithm used by IPSec?",
+    "options": {
+      "a": "DES",
+      "b": "AES",
+      "c": "RC4",
+      "d": "SHA-2"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "In IPSec, what is the 'Security Policy Database (SPD)' used for?",
+    "options": {
+      "a": "Storing the active SAs.",
+      "b": "Storing policies that determine which traffic should be secured.",
+      "c": "Exchanging cryptographic keys.",
+      "d": "Encrypting the packet payload."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is an IPSec deployment scenario for securing communication between two networks?",
+    "options": {
+      "a": "Host-to-Host VPN",
+      "b": "Site-to-Site VPN",
+      "c": "Remote Access VPN",
+      "d": "SSL VPN"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which SSH tool is specifically designed for secure file transfers?",
+    "options": {
+      "a": "Telnet",
+      "b": "Port Forwarding",
+      "c": "SFTP (Secure File Transfer Protocol)",
+      "d": "Diffie-Hellman"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a 'Message Integrity Check (MIC)' as used in WPA?",
+    "options": {
+      "a": "An encryption algorithm.",
+      "b": "A method for device authentication.",
+      "c": "A technique to protect against data tampering.",
+      "d": "A centralized authentication server."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a 'RADIUS' server used for in WPA2 Enterprise Mode?",
+    "options": {
+      "a": "To provide a single Pre-Shared Key (PSK) to all users.",
+      "b": "To act as a centralized authentication server for individual users.",
+      "c": "To encrypt the wireless traffic using AES.",
+      "d": "To update the firmware of the access point."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary vulnerability of 'Shor's algorithm'?",
+    "options": {
+      "a": "It can be used by quantum computers to break traditional algorithms like RSA and ECC.",
+      "b": "It is a weak symmetric encryption algorithm.",
+      "c": "It is susceptible to side-channel attacks.",
+      "d": "It cannot be used on resource-constrained IoT devices."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following is an example of a 'Post-Quantum Cryptography (PQC)' algorithm type?",
+    "options": {
+      "a": "AES-based",
+      "b": "RSA-based",
+      "c": "Lattice-based",
+      "d": "SHA-based"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the purpose of 'Message Authentication Codes (MACs and HMACs)'?",
+    "options": {
+      "a": "To encrypt data at rest.",
+      "b": "To securely verify message integrity and authenticity.",
+      "c": "To generate keys for a session.",
+      "d": "To authenticate a user's identity."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the function of 'DNS over HTTPS (DoH)'?",
+    "options": {
+      "a": "It encrypts DNS queries to prevent spoofing and enhance privacy.",
+      "b": "It is a new version of the HTTP protocol.",
+      "c": "It is a secure file transfer protocol.",
+      "d": "It is a type of post-quantum cryptography."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a 'Customer-Managed Encryption Key (CMEK)' in cloud security?",
+    "options": {
+      "a": "A key managed entirely by the cloud provider.",
+      "b": "A system where the customer manages their own encryption keys, rather than the cloud provider.",
+      "c": "A key that is hard-coded into an application.",
+      "d": "A key that is only used for data in transit."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a supported key size for the AES algorithm?",
+    "options": {
+      "a": "128 bits",
+      "b": "192 bits",
+      "c": "256 bits",
+      "d": "512 bits"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "When configuring BitLocker, what is the 'recovery key' used for?",
+    "options": {
+      "a": "To encrypt the drive.",
+      "b": "To unlock the drive if the primary authentication method (password, PIN) is lost.",
+      "c": "To connect the drive to a different computer.",
+      "d": "To enable the TPM chip."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is an 'asymmetric' encryption algorithm?",
+    "options": {
+      "a": "AES",
+      "b": "DES",
+      "c": "RSA",
+      "d": "RC4"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following protocols provides secure remote access, secure file transfers (SFTP), and port forwarding?",
+    "options": {
+      "a": "TLS",
+      "b": "IPSec",
+      "c": "SSH",
+      "d": "FTPS"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a major 'challenge' in cryptographic integration?",
+    "options": {
+      "a": "The lack of available encryption algorithms.",
+      "b": "The complexity of secure key management.",
+      "c": "The fact that encryption is not supported by modern operating systems.",
+      "d": "The lack of threats to unencrypted data."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary mitigation for 'Weak Key Generation'?",
+    "options": {
+      "a": "Using a longer password.",
+      "b": "Utilizing strong random number generators.",
+      "c": "Implementing a firewall.",
+      "d": "Using an asymmetric algorithm."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a countermeasure against 'Side-Channel Attacks'?",
+    "options": {
+      "a": "Using a longer key length.",
+      "b": "Implementing constant-time algorithms.",
+      "c": "Rotating passwords frequently.",
+      "d": "Using a strong hash function."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the goal of a cryptanalyst using 'linear cryptanalysis'?",
+    "options": {
+      "a": "To exploit mathematical properties or algorithmic flaws to recover a key.",
+      "b": "To guess the password using a dictionary.",
+      "c": "To measure the power consumption of a device.",
+      "d": "To intercept and resend a message."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a countermeasure against 'Brute Force Attacks' on passwords?",
+    "options": {
+      "a": "Using a well-known algorithm like DES.",
+      "b": "Implementing account lockout policies.",
+      "c": "Storing passwords in plaintext.",
+      "d": "Disabling firewalls."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Key Escrow'?",
+    "options": {
+      "a": "A mechanism to prevent data loss by backing up keys.",
+      "b": "The process of rotating keys regularly.",
+      "c": "A hardware device for storing keys.",
+      "d": "A vulnerability where keys are leaked."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the purpose of 'Intrusion Detection and Prevention Systems (IDPS)'?",
+    "options": {
+      "a": "To encrypt all network traffic.",
+      "b": "To monitor network traffic for potential attacks and block them.",
+      "c": "To authenticate users logging into the network.",
+      "d": "To store and manage encryption keys."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'SIEM' (Security Information and Event Management) tool used for?",
+    "options": {
+      "a": "To monitor and analyze network and system logs for signs of attacks.",
+      "b": "To generate strong cryptographic keys.",
+      "c": "To encrypt a computer's hard drive.",
+      "d": "To provide secure remote access (like a VPN)."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What type of attack is 'Algebraic Attack'?",
+    "options": {
+      "a": "An attack that exploits timing differences.",
+      "b": "An attack based on analyzing the mathematical structure of an algorithm.",
+      "c": "An attack that uses a dictionary of words.",
+      "d": "An attack that exploits a physical implementation leak."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How does 'End-to-End Encryption (E2EE)' in messaging apps work?",
+    "options": {
+      "a": "The message is encrypted by the service provider and then sent to the recipient.",
+      "b": "The message is coded on the sender's device and only decoded by the recipient's device.",
+      "c": "The message is sent in plaintext but over a secure TLS connection.",
+      "d": "The message is authenticated using SPF and DKIM."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary purpose of 'S/MIME'?",
+    "options": {
+      "a": "To secure web browsing (HTTPS).",
+      "b": "To provide encryption and digital signatures for email.",
+      "c": "To secure wireless networks (Wi-Fi).",
+      "d": "To provide secure remote access (like SSH)."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of these is NOT a core module objective listed in the introduction?",
+    "options": {
+      "a": "Real-World Applications (email, SSL/TLS, VPNs)",
+      "b": "Secure Communication Protocols (TLS/SSL)",
+      "c": "Network Security Integration",
+      "d": "Developing New Post-Quantum Algorithms"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What is 'RC4' (Rivest Cipher 4)?",
+    "options": {
+      "a": "A strong asymmetric encryption algorithm.",
+      "b": "A stream cipher algorithm known for its simplicity and speed, used by IPSec.",
+      "c": "A modern hash function that replaced SHA-1.",
+      "d": "A key exchange protocol."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'key benefit' of the SSH protocol?",
+    "options": {
+      "a": "It is not widely supported across different operating systems.",
+      "b": "It is flexible, allowing remote login for administration and command execution.",
+      "c": "It does not require any form of authentication.",
+      "d": "It transmits all data in plaintext for easy debugging."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'network segmentation' (e.g., VLANs) used for?",
+    "options": {
+      "a": "To combine all devices into one large, fast network.",
+      "b": "To isolate devices and mitigate the spread of potential attacks.",
+      "c": "To encrypt all traffic on the network.",
+      "d": "To update the firmware on wireless access points."
+    },
+    "correctAnswer": "b"
+  }
+]

@@ -665,7 +665,7 @@
       "a": "IPSec",
       "b": "OpenVPN",
       "c": "S/MIME",
-      "d": "(No 'd' option provided, but 'c' is correct)"
+      "d": "TLS"
     },
     "correctAnswer": "c"
   },
@@ -980,4 +980,3 @@
     "correctAnswer": "b"
   }
 ]
-

@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "In the context of cybersecurity, what acts as the 'gateway' to digital ecosystems?",
+    "options": {
+      "a": "Firewalls",
+      "b": "Endpoints",
+      "c": "Cloud Servers",
+      "d": "Ethernet Cables"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT listed as an example of an endpoint in the text?",
+    "options": {
+      "a": "IoT devices",
+      "b": "Fiber optic cables",
+      "c": "Laptops",
+      "d": "Smartphones"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary core practice of endpoint security?",
+    "options": {
+      "a": "Safeguarding devices that connect to a network",
+      "b": "Designing ergonomic keyboards",
+      "c": "Creating faster internet speeds",
+      "d": "Developing new software applications"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why are endpoints considered prime targets for cyber criminals?",
+    "options": {
+      "a": "They are easy to physically steal",
+      "b": "They are expensive to replace",
+      "c": "They serve as entry points into a network and data",
+      "d": "They are usually left unlocked"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which device type is used in retail environments to process transactions?",
+    "options": {
+      "a": "POS (Point of Sale) Systems",
+      "b": "Mainframe Servers",
+      "c": "Routers",
+      "d": "Wearables"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What risk does a 'Keylogger' pose?",
+    "options": {
+      "a": "It records every keystroke, including passwords",
+      "b": "It physically locks the keys on a keyboard",
+      "c": "It deletes system files",
+      "d": "It overheats the CPU"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What trend has accelerated the shift to endpoints being outside secure office environments?",
+    "options": {
+      "a": "The use of desktop computers",
+      "b": "Remote Work",
+      "c": "Wired connections",
+      "d": "On-premise servers"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does BYOD stand for?",
+    "options": {
+      "a": "Buy Your Own Data",
+      "b": "Build Your Own Device",
+      "c": "Bring Your Own Device",
+      "d": "Block Your Own DNS"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "How does the proliferation of devices affect the 'attack surface'?",
+    "options": {
+      "a": "It expands it",
+      "b": "It reduces it",
+      "c": "It has no effect",
+      "d": "It secures it"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is 'fileless malware'?",
+    "options": {
+      "a": "Malware that creates empty files",
+      "b": "Malware that operates in memory without leaving traces on the hard drive",
+      "c": "Malware that only attacks paper files",
+      "d": "Malware that deletes itself immediately"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which attack targets software vulnerabilities that are unknown to the vendor?",
+    "options": {
+      "a": "Brute Force",
+      "b": "Zero-Day Exploit",
+      "c": "DDoS",
+      "d": "Phishing"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary goal of Ransomware?",
+    "options": {
+      "a": "To steal passwords silently",
+      "b": "To mine cryptocurrency",
+      "c": "To encrypt data and demand payment",
+      "d": "To display ads"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which regulation applies to organizations operating in the EU regarding personal data?",
+    "options": {
+      "a": "HIPAA",
+      "b": "PCI DSS",
+      "c": "GDPR",
+      "d": "FERPA"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the maximum fine for GDPR violations mentioned?",
+    "options": {
+      "a": "4% of global annual revenue",
+      "b": "1 million dollars",
+      "c": "10% of local revenue",
+      "d": "500,000 Euros"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which regulation mandates strong security for credit card data?",
+    "options": {
+      "a": "HIPAA",
+      "b": "PCI DSS",
+      "c": "GDPR",
+      "d": "SOX"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a potential consequence of non-compliance with data regulations?",
+    "options": {
+      "a": "Increased market share",
+      "b": "Loss of trust and legal action",
+      "c": "Lower operational costs",
+      "d": "Faster network speeds"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Malware' a broad term for?",
+    "options": {
+      "a": "Malicious Hardware",
+      "b": "Malicious Software",
+      "c": "Malfunctioning Software",
+      "d": "Manual Warehousing"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT listed as a common purpose of malware?",
+    "options": {
+      "a": "Stealing sensitive data",
+      "b": "Improving system performance",
+      "c": "Disrupting operations",
+      "d": "Gaining unauthorized access"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What was the name of the major ransomware attack in 2017 mentioned in the text?",
+    "options": {
+      "a": "Stuxnet",
+      "b": "Code Red",
+      "c": "WannaCry",
+      "d": "Zeus"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is 'Double Extortion' in ransomware attacks?",
+    "options": {
+      "a": "Charging double the ransom",
+      "b": "Stealing data before encryption to threaten public release",
+      "c": "Encrypting the data twice",
+      "d": "Attacking two servers at once"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'Rootkit' designed to do?",
+    "options": {
+      "a": "Root the device for custom software",
+      "b": "Give hackers administrative access while hiding their presence",
+      "c": "Clean the root directory of the OS",
+      "d": "Speed up the boot process"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why are rootkits difficult to detect?",
+    "options": {
+      "a": "They hide deep within the operating system",
+      "b": "They are very small files",
+      "c": "They only run at night",
+      "d": "They mimic antivirus software"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which type of phishing targets high-profile individuals like CEOs?",
+    "options": {
+      "a": "Spear Phishing",
+      "b": "Whaling",
+      "c": "Vishing",
+      "d": "Smishing"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Smishing'?",
+    "options": {
+      "a": "Phishing via SMS/text",
+      "b": "Phishing via Email",
+      "c": "Phishing via Voice calls",
+      "d": "Phishing via Social Media"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is 'Vishing'?",
+    "options": {
+      "a": "Video Phishing",
+      "b": "Voice Phishing",
+      "c": "Virtual Phishing",
+      "d": "Viral Phishing"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Angler Phishing'?",
+    "options": {
+      "a": "Phishing targeting fishermen",
+      "b": "Phishing using fake customer support on social media",
+      "c": "Phishing using bait links on sports sites",
+      "d": "Phishing via angry emails"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How does 'Signature-based detection' work?",
+    "options": {
+      "a": "It analyzes user behavior",
+      "b": "It compares files against a database of known malicious patterns",
+      "c": "It uses AI to guess threats",
+      "d": "It checks the digital signature of the developer"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'Heuristic analysis' identify?",
+    "options": {
+      "a": "Exact matches of known viruses",
+      "b": "New or modified threats by examining code behavior",
+      "c": "Hardware failures",
+      "d": "Network speed issues"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary focus of Anti-Malware software?",
+    "options": {
+      "a": "Basic known viruses",
+      "b": "Emerging and sophisticated threats like Zero-day attacks",
+      "c": "Firewall management",
+      "d": "Password storage"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool is mentioned as a built-in antivirus for Windows?",
+    "options": {
+      "a": "Malwarebytes",
+      "b": "Windows Defender",
+      "c": "Norton",
+      "d": "McAfee"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "When configuring Windows Defender, what should be toggled 'On' for active scanning?",
+    "options": {
+      "a": "Game Mode",
+      "b": "Real-time protection",
+      "c": "Silent Mode",
+      "d": "Developer Mode"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Where do you navigate in Task Scheduler to schedule a Windows Defender scan?",
+    "options": {
+      "a": "Library > Microsoft > Windows > Windows Defender",
+      "b": "Library > System > Security",
+      "c": "Library > Windows > Updates",
+      "d": "Library > Admin > Tasks"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which Malwarebytes setting is recommended for deep scanning?",
+    "options": {
+      "a": "Scan for rootkits",
+      "b": "Quick Scan",
+      "c": "Flash Scan",
+      "d": "Background Scan"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does EDR stand for?",
+    "options": {
+      "a": "External Data Recorder",
+      "b": "Endpoint Detection and Response",
+      "c": "Electronic Device Registry",
+      "d": "Emergency Disaster Recovery"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Patch Management'?",
+    "options": {
+      "a": "Managing physical network cables",
+      "b": "Ensuring software is up to date with security patches",
+      "c": "Fixing holes in hardware casing",
+      "d": "Managing employee uniforms"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a key benefit of Automated Updates?",
+    "options": {
+      "a": "They ensure timely updates without manual intervention",
+      "b": "They are cheaper",
+      "c": "They allow users to skip updates",
+      "d": "They work offline"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following is a requirement for a strong password policy?",
+    "options": {
+      "a": "Use the same password for all accounts",
+      "b": "Use simple words found in the dictionary",
+      "c": "Use a mix of letters, numbers, and special characters",
+      "d": "Write passwords on a sticky note"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does MFA stand for?",
+    "options": {
+      "a": "Multi-Factor Authentication",
+      "b": "Multiple File Access",
+      "c": "Master File Allocation",
+      "d": "Main Folder Administration"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the 'Principle of Least Privilege'?",
+    "options": {
+      "a": "Granting all users admin access",
+      "b": "Granting users minimum access necessary for their role",
+      "c": "Giving privileges based on seniority",
+      "d": "Restricting internet access completely"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Network Segmentation' used for?",
+    "options": {
+      "a": "To speed up the network",
+      "b": "To isolate critical systems and reduce lateral movement risk",
+      "c": "To connect all devices to one switch",
+      "d": "To share files publicly"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does Full Disk Encryption protect against?",
+    "options": {
+      "a": "Virus infection",
+      "b": "Data theft in case of device loss",
+      "c": "Phishing emails",
+      "d": "Slow performance"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What protocol is mentioned for encrypting data in transit?",
+    "options": {
+      "a": "HTTP",
+      "b": "TLS/SSL",
+      "c": "FTP",
+      "d": "Telnet"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the function of a Firewall?",
+    "options": {
+      "a": "To monitor and control network traffic",
+      "b": "To cool the system",
+      "c": "To clean viruses",
+      "d": "To encrypt the hard drive"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is 'DLP'?",
+    "options": {
+      "a": "Data Link Protocol",
+      "b": "Data Loss Prevention",
+      "c": "Device Lock Policy",
+      "d": "Digital License Protection"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why should you use immutable backups?",
+    "options": {
+      "a": "They are faster to restore",
+      "b": "They cannot be changed or deleted by ransomware",
+      "c": "They take up less space",
+      "d": "They are free"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What technology is recommended for secure remote access?",
+    "options": {
+      "a": "VPN",
+      "b": "Telnet",
+      "c": "Open Wi-Fi",
+      "d": "LAN"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does Zero Trust Architecture assume?",
+    "options": {
+      "a": "Inside users are trusted",
+      "b": "No device or user is trusted by default",
+      "c": "Only external users are untrusted",
+      "d": "Trust but verify"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of disabling unused ports?",
+    "options": {
+      "a": "To save power",
+      "b": "To prevent unauthorized access",
+      "c": "To improve aesthetics",
+      "d": "To reduce dust"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why should 'Auto-Run' be disabled for external devices?",
+    "options": {
+      "a": "To prevent automatic malware execution",
+      "b": "To save battery",
+      "c": "To make file transfer slower",
+      "d": "To stop music from playing"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does NAC (Network Access Control) do?",
+    "options": {
+      "a": "Controls internet speed",
+      "b": "Ensures only authorized/compliant devices connect",
+      "c": "Manages social media access",
+      "d": "Encrypts email"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Penetration Testing'?",
+    "options": {
+      "a": "Testing hardware durability",
+      "b": "Simulating attacks to identify weaknesses",
+      "c": "Checking internet connection",
+      "d": "Installing software"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Anomaly Detection' based on?",
+    "options": {
+      "a": "Signature matching",
+      "b": "Identifying unusual behavior using AI",
+      "c": "Manual logs",
+      "d": "User reports"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'Secure Decommissioning' involve?",
+    "options": {
+      "a": "Throwing the computer in the bin",
+      "b": "Properly wiping data before disposal",
+      "c": "Selling the device as is",
+      "d": "Deleting the desktop shortcuts"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is an MSSP?",
+    "options": {
+      "a": "Managed Security Service Provider",
+      "b": "Master Security System Protocol",
+      "c": "Mobile System Security Platform",
+      "d": "Main Server Safety Plan"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a benefit of using an MSSP?",
+    "options": {
+      "a": "Free hardware",
+      "b": "24/7 monitoring and expert support",
+      "c": "No need for passwords",
+      "d": "Faster internet"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What defines a 'Spear Phishing' attack?",
+    "options": {
+      "a": "It targets a random mass audience",
+      "b": "It targets specific individuals using gathered details",
+      "c": "It uses voice calls",
+      "d": "It uses SMS"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following describes an 'Insider Threat'?",
+    "options": {
+      "a": "A hacker from outside the country",
+      "b": "A negligent or malicious employee",
+      "c": "A software bug",
+      "d": "A virus on a USB"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of 'Behavioral Analysis' in security tools?",
+    "options": {
+      "a": "To monitor employee productivity",
+      "b": "To detect suspicious activity like unauthorized file mods",
+      "c": "To analyze market trends",
+      "d": "To check for hardware errors"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Cloud-based analysis' used for in Antivirus?",
+    "options": {
+      "a": "Real-time examination using updated threat intelligence",
+      "b": "Storing user photos",
+      "c": "Hosting websites",
+      "d": "Running virtual machines"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the main difference between Antivirus and Anti-malware?",
+    "options": {
+      "a": "Antivirus is for hardware, Anti-malware for software",
+      "b": "Antivirus focuses on known threats; Anti-malware on advanced/zero-day threats",
+      "c": "They are exactly the same",
+      "d": "Anti-malware is only for Macs"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which software example is given for Anti-Malware?",
+    "options": {
+      "a": "Windows Defender",
+      "b": "Malwarebytes",
+      "c": "Excel",
+      "d": "Outlook"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'Zero-day vulnerability'?",
+    "options": {
+      "a": "A vulnerability that is 0 days old",
+      "b": "A flaw unknown to the vendor and unpatched",
+      "c": "A vulnerability that is not dangerous",
+      "d": "A fixed vulnerability"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the risk of using public Unsecured Wi-Fi?",
+    "options": {
+      "a": "Data interception",
+      "b": "Battery drain",
+      "c": "Screen damage",
+      "d": "Keyboard failure"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does 'HIPAA' protect?",
+    "options": {
+      "a": "Credit card data",
+      "b": "Patient health data",
+      "c": "Student records",
+      "d": "European citizen data"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Identity Theft' a consequence of?",
+    "options": {
+      "a": "Data Breach",
+      "b": "System Update",
+      "c": "Data Backup",
+      "d": "Disk Defragmentation"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the 'Analogy' used for Ransomware in the text?",
+    "options": {
+      "a": "Changing the locks on your house",
+      "b": "A secret passage in your house",
+      "c": "A broken window",
+      "d": "A stolen car"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the 'Analogy' used for Rootkits in the text?",
+    "options": {
+      "a": "Changing the locks",
+      "b": "Building a secret passage",
+      "c": "A loud alarm",
+      "d": "A guard dog"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of these is a 'Social Engineering' tactic?",
+    "options": {
+      "a": "Port Scanning",
+      "b": "Phishing",
+      "c": "SQL Injection",
+      "d": "Buffer Overflow"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What should you do if you receive a suspicious email?",
+    "options": {
+      "a": "Click the link immediately",
+      "b": "Report it",
+      "c": "Forward it to friends",
+      "d": "Reply to it"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of 'Regular Security Audits'?",
+    "options": {
+      "a": "To waste time",
+      "b": "To align with regulations and identify weaknesses",
+      "c": "To increase budget",
+      "d": "To slow down operations"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Centralized Management'?",
+    "options": {
+      "a": "Managing all endpoints from a single platform",
+      "b": "Managing each device individually",
+      "c": "Letting users manage their own security",
+      "d": "No management at all"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does 'Encryption Key Management' ensure?",
+    "options": {
+      "a": "Keys are not compromised",
+      "b": "Keys are shared publicly",
+      "c": "Keys are deleted daily",
+      "d": "Keys are printed on paper"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is 'Role-Based Access Control' (RBAC)?",
+    "options": {
+      "a": "Access based on user's job role",
+      "b": "Access based on user's age",
+      "c": "Access based on user's height",
+      "d": "Access based on user's computer brand"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does 'PAM' stand for?",
+    "options": {
+      "a": "Privileged Account Management",
+      "b": "Public Access Mode",
+      "c": "Private Area Map",
+      "d": "Personal Account Manager"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a 'Botnet'?",
+    "options": {
+      "a": "A network of compromised devices controlled by an attacker",
+      "b": "A fast internet network",
+      "c": "A type of robot",
+      "d": "A security software"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the risk of 'Legacy Systems'?",
+    "options": {
+      "a": "They are too new",
+      "b": "They may lack security updates",
+      "c": "They are too expensive",
+      "d": "They have too many features"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Cryptojacking'?",
+    "options": {
+      "a": "Stealing physical coins",
+      "b": "Using a victim's computer to mine cryptocurrency",
+      "c": "Encrypting files for ransom",
+      "d": "Stealing passwords"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What defines 'Adware'?",
+    "options": {
+      "a": "Software that displays unwanted ads",
+      "b": "Software that adds files",
+      "c": "Software that subtracts files",
+      "d": "Software for addition"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What defines 'Spyware'?",
+    "options": {
+      "a": "Software that spies on user activity",
+      "b": "Software that protects privacy",
+      "c": "Software for webcams",
+      "d": "Software for spies"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a 'Trojan'?",
+    "options": {
+      "a": "Malware disguised as legitimate software",
+      "b": "A type of horse",
+      "c": "A valid antivirus",
+      "d": "A safe file"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a 'Worm'?",
+    "options": {
+      "a": "Malware that self-replicates to spread",
+      "b": "A computer bug",
+      "c": "A hardware cable",
+      "d": "A slow computer"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the difference between a Virus and a Worm?",
+    "options": {
+      "a": "Worms self-replicate without a host; Viruses need a host",
+      "b": "Viruses are faster",
+      "c": "Worms are hardware",
+      "d": "Viruses are always harmless"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is 'Threat Intelligence'?",
+    "options": {
+      "a": "Information about emerging threats",
+      "b": "IQ of a hacker",
+      "c": "Smart firewalls",
+      "d": "Secret police"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does 'Quarantining' a file do?",
+    "options": {
+      "a": "Isolates it to prevent damage",
+      "b": "Deletes it immediately",
+      "c": "Sends it to the recycle bin",
+      "d": "Emails it to the admin"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does the text suggest about 'Guest Network Isolation'?",
+    "options": {
+      "a": "Separate guest devices from the main network",
+      "b": "Allow guests full access",
+      "c": "Ban guests from using Wi-Fi",
+      "d": "Charge guests for Wi-Fi"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the 'Attack Surface'?",
+    "options": {
+      "a": "The physical area of the office",
+      "b": "The total number of vulnerable points in a system",
+      "c": "The screen of a laptop",
+      "d": "The keyboard surface"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Operational Disruption'?",
+    "options": {
+      "a": "Downtime and lost productivity",
+      "b": "Faster operations",
+      "c": "New hardware installation",
+      "d": "Employee training"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a 'Virtual Environment' endpoint?",
+    "options": {
+      "a": "Virtual Machines (VMs)",
+      "b": "VR Headsets",
+      "c": "Video Games",
+      "d": "Social Media"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which is an example of a Wearable endpoint?",
+    "options": {
+      "a": "Smartwatch",
+      "b": "Laptop",
+      "c": "Server",
+      "d": "Router"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is 'Incident Response'?",
+    "options": {
+      "a": "Reacting to and managing a security breach",
+      "b": "Ignoring the problem",
+      "c": "Calling the police",
+      "d": "Formatting the computer"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is 'Safe Browsing'?",
+    "options": {
+      "a": "Using HTTPS and avoiding suspicious links",
+      "b": "Browsing in Incognito mode only",
+      "c": "Using a slow internet connection",
+      "d": "Only visiting one website"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does 'HTTPS' ensure?",
+    "options": {
+      "a": "Secure communication over the network",
+      "b": "Faster loading times",
+      "c": "Free internet access",
+      "d": "Access to blocked sites"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is 'Lateral Movement'?",
+    "options": {
+      "a": "Attackers moving from one device to another within a network",
+      "b": "Moving the mouse sideways",
+      "c": "Shifting desks in the office",
+      "d": "Transferring data to the cloud"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a 'Symptom' of malware?",
+    "options": {
+      "a": "System slowdowns and pop-ups",
+      "b": "Faster boot times",
+      "c": "Quieter fans",
+      "d": "Clearer screen"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What defines 'Compliance'?",
+    "options": {
+      "a": "Adhering to laws and regulations",
+      "b": "Doing what you want",
+      "c": "Following hacker rules",
+      "d": "Paying fines"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which entity might impose fines for data breaches?",
+    "options": {
+      "a": "Regulatory Bodies",
+      "b": "Internet Providers",
+      "c": "Hardware Vendors",
+      "d": "Software Developers"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is 'Reputational Damage'?",
+    "options": {
+      "a": "Loss of brand trust and business",
+      "b": "Physical damage to the office",
+      "c": "Damage to the server room",
+      "d": "Corrupted files"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the benefit of 'Endpoint Compliance Checks'?",
+    "options": {
+      "a": "Verifies device security before access is granted",
+      "b": "Checks if the device is expensive",
+      "c": "Checks if the user is present",
+      "d": "Checks internet speed"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the purpose of 'Secure Deployment'?",
+    "options": {
+      "a": "Configuring new devices securely before use",
+      "b": "Deploying guards at the door",
+      "c": "Shipping devices in metal boxes",
+      "d": "Using strong passwords only"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the main driver for endpoint security related to location?",
+    "options": {
+      "a": "Remote Work",
+      "b": "Office Renovation",
+      "c": "New Building",
+      "d": "Better Chairs"
+    },
+    "correctAnswer": "a"
+  }
+]

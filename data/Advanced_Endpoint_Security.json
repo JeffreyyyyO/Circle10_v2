@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "Which of the following serves as an access point to an organization's network and requires rigorous protection?",
+    "options": {
+      "a": "Firewall",
+      "b": "Endpoint",
+      "c": "Gateway",
+      "d": "Switch"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary risk associated with 'Lateral Movement' in the context of endpoint security?",
+    "options": {
+      "a": "Data encryption by ransomware",
+      "b": "Phishing emails reaching the inbox",
+      "c": "An attacker leveraging a compromised device to infiltrate the entire network",
+      "d": "Loss of unsaved data due to power failure"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which framework provides a structured approach to analyzing adversary tactics and enhancing defenses?",
+    "options": {
+      "a": "ISO 27001",
+      "b": "NIST Cybersecurity Framework",
+      "c": "MITRE ATT&CK Framework",
+      "d": "CIS Controls"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which mitigation strategy is most effective against Phishing and Social Engineering?",
+    "options": {
+      "a": "Application Whitelisting",
+      "b": "Security Awareness Training",
+      "c": "Regular Patching",
+      "d": "Network Segmentation"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary purpose of the Principle of Least Privilege (POLP)?",
+    "options": {
+      "a": "To encrypt all sensitive data at rest",
+      "b": "To restrict user access rights to the minimum necessary",
+      "c": "To ensure all software is updated automatically",
+      "d": "To monitor network traffic for anomalies"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which security solution focuses on OS-level security by inspecting system logs and file integrity?",
+    "options": {
+      "a": "NIDS",
+      "b": "Firewall",
+      "c": "HIDS",
+      "d": "VPN"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does a Host-Based Intrusion Detection System (HIDS) primarily monitor?",
+    "options": {
+      "a": "Network packet headers",
+      "b": "External firewall rules",
+      "c": "Activities on a specific host like a server or workstation",
+      "d": "Cloud storage buckets"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is a key feature of HIDS that detects unauthorized modifications to critical files?",
+    "options": {
+      "a": "Packet Sniffing",
+      "b": "File Integrity Checking",
+      "c": "Port Scanning",
+      "d": "Traffic Analysis"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which open-source HIDS solution is known for log analysis, rootkit detection, and SIEM integration?",
+    "options": {
+      "a": "Tripwire",
+      "b": "OSSEC",
+      "c": "Snort",
+      "d": "CrowdStrike"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the main function of 'Wazuh' in the context of endpoint security?",
+    "options": {
+      "a": "A modernized fork of OSSEC with centralized management",
+      "b": "A dedicated mobile device management tool",
+      "c": "A commercial firewall hardware",
+      "d": "A password manager"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which HIDS solution focuses primarily on file integrity checking and is common on Linux systems?",
+    "options": {
+      "a": "AIDE",
+      "b": "Windows Defender",
+      "c": "Nessus",
+      "d": "Wireshark"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What type of detection uses machine learning to identify deviations from normal system behavior?",
+    "options": {
+      "a": "Signature-Based Detection",
+      "b": "Anomaly-Based Detection",
+      "c": "Static Analysis",
+      "d": "Rule-Based Detection"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which regulation requires regular patching to protect sensitive payment card data?",
+    "options": {
+      "a": "HIPAA",
+      "b": "PCI-DSS",
+      "c": "GDPR",
+      "d": "FERPA"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'Zero-Day Vulnerability'?",
+    "options": {
+      "a": "A vulnerability that has been known for zero days",
+      "b": "A newly discovered weakness not yet patched by the vendor",
+      "c": "A vulnerability that affects zero users",
+      "d": "A patch released on day zero of a month"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which database documents publicly disclosed vulnerabilities?",
+    "options": {
+      "a": "DNS",
+      "b": "CVE",
+      "c": "SQL",
+      "d": "URL"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What was the attack vector for the WannaCry Ransomware in 2017?",
+    "options": {
+      "a": "Unpatched Apache Struts vulnerability",
+      "b": "Phishing email with a PDF attachment",
+      "c": "Exploited EternalBlue (SMBv1) vulnerability",
+      "d": "Brute force attack on RDP"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which tool is used for automated endpoint patch management across different platforms?",
+    "options": {
+      "a": "Automox",
+      "b": "Wireshark",
+      "c": "Metasploit",
+      "d": "Nmap"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the purpose of 'Staging Environments' in patch management?",
+    "options": {
+      "a": "To host the main production database",
+      "b": "To test patches before deploying them to production",
+      "c": "To store backup files",
+      "d": "To run unauthorized software"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which endpoint hardening technique helps prevent code injection attacks like buffer overflows?",
+    "options": {
+      "a": "ASLR (Address Space Layout Randomization)",
+      "b": "Disabling Bluetooth",
+      "c": "Enforcing complex passwords",
+      "d": "Using a VPN"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the lesson learned from the Equifax Breach (2017)?",
+    "options": {
+      "a": "Phishing training is useless",
+      "b": "Timely patching of critical infrastructure is crucial",
+      "c": "Passwords should be changed daily",
+      "d": "Antivirus software is 100% effective"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which attack involves phishing conducted via SMS?",
+    "options": {
+      "a": "Vishing",
+      "b": "Smishing",
+      "c": "Spear Phishing",
+      "d": "Whaling"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the function of Mobile Device Management (MDM) regarding lost devices?",
+    "options": {
+      "a": "It physically locates the thief",
+      "b": "It allows IT to remotely lock and wipe the device",
+      "c": "It automatically calls the police",
+      "d": "It recovers the stolen hardware"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which MDM feature isolates work data from personal data on employee-owned devices?",
+    "options": {
+      "a": "Jailbreaking",
+      "b": "Rooting",
+      "c": "Containerization",
+      "d": "Sideloading"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is 'Sideloading' in the context of mobile security?",
+    "options": {
+      "a": "Charging a device from the side port",
+      "b": "Installing apps from outside official app stores",
+      "c": "Transferring data via Bluetooth",
+      "d": "Using a device in landscape mode"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which threat involves redirects users to malicious websites by manipulating domain resolution?",
+    "options": {
+      "a": "DNS Spoofing",
+      "b": "SQL Injection",
+      "c": "Buffer Overflow",
+      "d": "Cross-Site Scripting"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What differentiates Next-Generation Antivirus (NGAV) from traditional AV?",
+    "options": {
+      "a": "Reliance solely on signature-based detection",
+      "b": "Use of AI and machine learning to detect unknown threats",
+      "c": "Inability to detect ransomware",
+      "d": "Lack of cloud integration"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a core function of Endpoint Detection and Response (EDR) systems?",
+    "options": {
+      "a": "Passive scanning only",
+      "b": "Threat Hunting and Incident Response",
+      "c": "Replacing the operating system",
+      "d": "Hosting websites"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which solution focuses on detecting fileless malware and script-based attacks?",
+    "options": {
+      "a": "Traditional Antivirus",
+      "b": "Next-Generation Antivirus (NGAV)",
+      "c": "Packet Filters",
+      "d": "Static Firewalls"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which type of Threat Intelligence provides high-level insights for executives?",
+    "options": {
+      "a": "Tactical",
+      "b": "Technical",
+      "c": "Strategic",
+      "d": "Operational"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does 'Beaconing' usually indicate in Network Traffic Analysis?",
+    "options": {
+      "a": "Normal web browsing",
+      "b": "Communication with a Command & Control (C2) server",
+      "c": "A successful software update",
+      "d": "A printer connection"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which learning method identifies new threats by detecting pure deviations from the norm without labeled data?",
+    "options": {
+      "a": "Supervised Learning",
+      "b": "Unsupervised Learning",
+      "c": "Reinforcement Learning",
+      "d": "Static Learning"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary goal of Application Whitelisting?",
+    "options": {
+      "a": "To allow all applications to run by default",
+      "b": "To block specific known malicious apps",
+      "c": "To allow only approved software to execute",
+      "d": "To monitor internet usage"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which component is often the 'First Line of Defense' in an organization?",
+    "options": {
+      "a": "The CEO",
+      "b": "The Endpoint",
+      "c": "The Backup Server",
+      "d": "The Printer"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Malware often spreads via which of the following methods?",
+    "options": {
+      "a": "Secure VPN connections",
+      "b": "Phishing and drive-by downloads",
+      "c": "Encrypted email",
+      "d": "Two-factor authentication"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'drive-by download'?",
+    "options": {
+      "a": "Downloading data to a USB drive",
+      "b": "Unintentional download of malicious code by visiting a website",
+      "c": "Downloading a file while driving a car",
+      "d": "A legitimate software update"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which threat type is typically carried out by well-funded adversaries over a long term?",
+    "options": {
+      "a": "Script Kiddies",
+      "b": "Advanced Persistent Threats (APTs)",
+      "c": "Adware",
+      "d": "Spam"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does the 'Detect' function in the NIST Cybersecurity Framework involve?",
+    "options": {
+      "a": "Developing organizational understanding",
+      "b": "Defining appropriate safeguards",
+      "c": "Identifying the occurrence of a cybersecurity event",
+      "d": "Restoring capabilities after an event"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "CrowdStrike Falcon is an example of which type of security solution?",
+    "options": {
+      "a": "Legacy Antivirus",
+      "b": "Endpoint Detection and Response (EDR)",
+      "c": "Web Browser",
+      "d": "Office Suite"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does MFA stand for in security authentication?",
+    "options": {
+      "a": "Multi-Factor Authorization",
+      "b": "Multi-Factor Authentication",
+      "c": "Main File Access",
+      "d": "Multiple Firewall Access"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is 'Network Segmentation' important for endpoint security?",
+    "options": {
+      "a": "It increases internet speed",
+      "b": "It prevents lateral malware spread",
+      "c": "It reduces the need for passwords",
+      "d": "It simplifies file sharing"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool uses 'Log Analysis' to examine system and application logs for anomalies?",
+    "options": {
+      "a": "Photoshop",
+      "b": "HIDS",
+      "c": "Word",
+      "d": "Excel"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Tripwire is best known as a commercial solution for what?",
+    "options": {
+      "a": "Video conferencing",
+      "b": "File Integrity Monitoring (FIM)",
+      "c": "Email filtering",
+      "d": "Cloud storage"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Alert Fatigue'?",
+    "options": {
+      "a": "Being tired from working late",
+      "b": "Desensitization to alerts due to high volume of false positives",
+      "c": "A feature of HIDS",
+      "d": "A type of malware"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which type of rule in HIDS tracks changes to critical system files?",
+    "options": {
+      "a": "Log Analysis Rules",
+      "b": "FIM Rules",
+      "c": "Rootkit Detection Rules",
+      "d": "Behavioral Anomaly Rules"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which is a 'Key Log Source' for identifying unauthorized remote access attempts?",
+    "options": {
+      "a": "Printer Logs",
+      "b": "Network Logs",
+      "c": "Chat Logs",
+      "d": "Browser History"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary purpose of 'Patch Management'?",
+    "options": {
+      "a": "To add new features to games",
+      "b": "To mitigate vulnerabilities that cyber-criminals exploit",
+      "c": "To change the look of the desktop",
+      "d": "To increase hard drive space"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a cause of software vulnerabilities?",
+    "options": {
+      "a": "Strong passwords",
+      "b": "Coding errors like buffer overflows",
+      "c": "Regular backups",
+      "d": "Encrypted connections"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'EOL' stand for in software?",
+    "options": {
+      "a": "End of Line",
+      "b": "End of Life",
+      "c": "Error on Load",
+      "d": "End of List"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Microsoft Patch Tuesday is an example of what?",
+    "options": {
+      "a": "A malware attack",
+      "b": "A vendor-specific patch release cycle",
+      "c": "A networking protocol",
+      "d": "A hacker group"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does Microsoft WSUS stand for?",
+    "options": {
+      "a": "Windows System User Security",
+      "b": "Windows Server Update Services",
+      "c": "Wide System Update Solution",
+      "d": "Web Server Utility Software"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool identifies missing patches through vulnerability scans?",
+    "options": {
+      "a": "Nessus",
+      "b": "Putty",
+      "c": "WinRAR",
+      "d": "VLC"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What involves restricting user access to only necessary permissions?",
+    "options": {
+      "a": "Administrative Access",
+      "b": "Principle of Least Privilege",
+      "c": "Root Access",
+      "d": "Guest Access"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following services should ideally be disabled to harden an endpoint?",
+    "options": {
+      "a": "HTTPS",
+      "b": "SMBv1",
+      "c": "SSH (securely configured)",
+      "d": "DNS"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the function of BitLocker on Windows?",
+    "options": {
+      "a": "To browse the web",
+      "b": "To encrypt sensitive data",
+      "c": "To play videos",
+      "d": "To edit photos"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which ransomware exploited the EternalBlue vulnerability to affect over 230,000 systems?",
+    "options": {
+      "a": "CryptoLocker",
+      "b": "WannaCry",
+      "c": "Zeus",
+      "d": "ILOVEYOU"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'Jailbreaking' or 'Rooting' a mobile device typically bypass?",
+    "options": {
+      "a": "Battery limits",
+      "b": "Security restrictions and sandbox models",
+      "c": "Screen brightness settings",
+      "d": "Network speed caps"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which attack uses fake mobile apps to steal credentials?",
+    "options": {
+      "a": "DDoS",
+      "b": "Phishing/Social Engineering",
+      "c": "SQL Injection",
+      "d": "Port Scanning"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'Trojanized App'?",
+    "options": {
+      "a": "A historical app",
+      "b": "Malware disguised as a legitimate app",
+      "c": "An app for horse racing",
+      "d": "A secure antivirus app"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which secure storage solution is native to Android?",
+    "options": {
+      "a": "Keychain",
+      "b": "Keystore",
+      "c": "Vault",
+      "d": "Locker"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a risk associated with BYOD (Bring Your Own Device)?",
+    "options": {
+      "a": "Increased hardware costs",
+      "b": "Data Leakage",
+      "c": "Less flexibility",
+      "d": "Slower work speed"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'Fileless Malware' primarily target to avoid detection?",
+    "options": {
+      "a": "Hard drive files",
+      "b": "System memory (RAM)",
+      "c": "External USB drives",
+      "d": "CD-ROMs"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which company provides the 'Carbon Black' EDR solution?",
+    "options": {
+      "a": "Microsoft",
+      "b": "VMware",
+      "c": "Cisco",
+      "d": "IBM"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What are 'IOCs' in threat intelligence?",
+    "options": {
+      "a": "Internet of Computers",
+      "b": "Indicators of Compromise",
+      "c": "Internal Operating Codes",
+      "d": "Integrated Office Circuits"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which platform is a source for Technical Threat Intelligence like hashes?",
+    "options": {
+      "a": "Facebook",
+      "b": "VirusTotal",
+      "c": "Netflix",
+      "d": "Amazon"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "User Behavior Analytics (UBA) is best at detecting what type of threat?",
+    "options": {
+      "a": "DDoS attacks",
+      "b": "Insider Threats and Compromised Accounts",
+      "c": "Hardware failure",
+      "d": "Power outages"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'False Positive' in behavioral analysis?",
+    "options": {
+      "a": "A missed attack",
+      "b": "Benign behavior flagged as malicious",
+      "c": "A confirmed breach",
+      "d": "A system crash"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a common endpoint example?",
+    "options": {
+      "a": "Router",
+      "b": "Workstation",
+      "c": "IoT Device",
+      "d": "Server"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does 'Samhain' HIDS focus on?",
+    "options": {
+      "a": "Network traffic",
+      "b": "Central management of multiple systems, FIM, and log monitoring",
+      "c": "Cloud billing",
+      "d": "Password generation"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of 'Whitelisting' in HIDS configuration?",
+    "options": {
+      "a": "To block all traffic",
+      "b": "To identify known good behavior and prevent false positives",
+      "c": "To change the background color",
+      "d": "To encrypt logs"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Code Obfuscation' used for in mobile app development?",
+    "options": {
+      "a": "To make code run faster",
+      "b": "To minimize exposure to reverse engineering",
+      "c": "To increase app size",
+      "d": "To make the UI prettier"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which EDR solution is described as 'Autonomous AI-driven protection with rollback capabilities'?",
+    "options": {
+      "a": "SentinelOne",
+      "b": "Norton",
+      "c": "McAfee",
+      "d": "Avast"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does 'SOAR' stand for in security integration?",
+    "options": {
+      "a": "System of Automated Responses",
+      "b": "Security Orchestration, Automation, and Response",
+      "c": "Secure Online Access Rules",
+      "d": "Simple Open Access Register"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which threat vector involves 'manipulation of users to reveal confidential info via deceptive communications'?",
+    "options": {
+      "a": "Social Engineering",
+      "b": "Brute Force",
+      "c": "DDoS",
+      "d": "Man-in-the-Middle"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which vulnerability type refers to 'Legacy applications no longer supported by the vendor'?",
+    "options": {
+      "a": "Zero-Day",
+      "b": "End-of-Life (EOL)",
+      "c": "Beta",
+      "d": "Shareware"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of 'PowerShell Constrained Language Mode'?",
+    "options": {
+      "a": "To teach PowerShell",
+      "b": "To restrict script execution to authorized functions",
+      "c": "To speed up scripts",
+      "d": "To debug scripts"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which mobile threat involves 'Intrusive ads displayed to collect user data'?",
+    "options": {
+      "a": "Ransomware",
+      "b": "Malicious Adware",
+      "c": "Spyware",
+      "d": "Rootkits"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the target audience for 'Tactical/Operational' Threat Intelligence?",
+    "options": {
+      "a": "CEOs",
+      "b": "SOC Analysts and Incident Responders",
+      "c": "HR Managers",
+      "d": "Sales Teams"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which HIDS detection method compares activities against known attack patterns?",
+    "options": {
+      "a": "Signature-Based Detection",
+      "b": "Anomaly-Based Detection",
+      "c": "Heuristic Detection",
+      "d": "Behavioral Detection"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which log source records 'Authentication attempts and privilege escalations'?",
+    "options": {
+      "a": "Application Logs",
+      "b": "System Logs",
+      "c": "Network Logs",
+      "d": "Firewall Logs"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'JIT' stand for in 'JIT privilege escalation'?",
+    "options": {
+      "a": "Just-In-Time",
+      "b": "Java-In-Time",
+      "c": "Jump-In-Time",
+      "d": "Job-In-Time"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which attack affected thousands of email servers in 2021 via Zero-Day vulnerabilities?",
+    "options": {
+      "a": "SolarWinds",
+      "b": "Microsoft Exchange ProxyLogon",
+      "c": "Heartbleed",
+      "d": "Log4j"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the function of 'Remote Wipe'?",
+    "options": {
+      "a": "Cleaning the screen remotely",
+      "b": "Erasing device data remotely in case of theft",
+      "c": "Deleting emails",
+      "d": "Uninstalling apps"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which MDM solution is cloud-managed and provided by Cisco?",
+    "options": {
+      "a": "Intune",
+      "b": "Meraki Systems Manager",
+      "c": "MaaS360",
+      "d": "Workspace ONE"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which machine learning type is trained on labeled 'bad' data?",
+    "options": {
+      "a": "Unsupervised Learning",
+      "b": "Supervised Learning",
+      "c": "Deep Learning",
+      "d": "Reinforcement Learning"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'NIDS' stand for?",
+    "options": {
+      "a": "Network Internal Defense System",
+      "b": "Network Intrusion Detection System",
+      "c": "New Internet Data Standard",
+      "d": "Non-Intrusive Data Scanner"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool provides 'Enterprise-grade file integrity monitoring' and compliance reporting?",
+    "options": {
+      "a": "Tripwire",
+      "b": "Notepad++",
+      "c": "GIMP",
+      "d": "Audacity"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the primary benefit of 'Automated Patch Deployment'?",
+    "options": {
+      "a": "It looks cool",
+      "b": "Reduces manual effort and improves consistency",
+      "c": "Increases network latency",
+      "d": "Requires more staff"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which hardening technique involves 'Turning off Bluetooth and NFC when not in use'?",
+    "options": {
+      "a": "Service Restriction",
+      "b": "Disabling Unnecessary Services",
+      "c": "Application Sandboxing",
+      "d": "Rooting"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'DLP' stand for in MDM features?",
+    "options": {
+      "a": "Data Loss Prevention",
+      "b": "Digital Life Protection",
+      "c": "Direct Link Protocol",
+      "d": "Device Lock Policy"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which is a challenge in Patch Management?",
+    "options": {
+      "a": "Patches are always perfect",
+      "b": "Compatibility Issues",
+      "c": "Patches are free",
+      "d": "Automatic updates never fail"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Memory Forensics' used to identify?",
+    "options": {
+      "a": "Bad RAM sticks",
+      "b": "Malicious code running solely in memory",
+      "c": "Hard drive speed",
+      "d": "CPU temperature"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which framework recommends securing configurations and managing vulnerabilities?",
+    "options": {
+      "a": "HTML5",
+      "b": "CIS Controls",
+      "c": "Scrum",
+      "d": "Agile"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Application Sandboxing'?",
+    "options": {
+      "a": "Building castles in apps",
+      "b": "Isolating apps to prevent unauthorized data access",
+      "c": "Playing games in a sandbox",
+      "d": "Testing apps on a beach"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which threat involves 'Redirecting users to malicious websites'?",
+    "options": {
+      "a": "DNS Spoofing",
+      "b": "Ping Flood",
+      "c": "Keylogging",
+      "d": "Screen scraping"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does 'TTP' stand for in Threat Intelligence?",
+    "options": {
+      "a": "Time To Patch",
+      "b": "Tactics, Techniques, and Procedures",
+      "c": "Total Threat Prevention",
+      "d": "Technical Transfer Protocol"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is an example of an Endpoint?",
+    "options": {
+      "a": "Ethernet Cable",
+      "b": "Virtual Machine",
+      "c": "ISP",
+      "d": "Data Center Building"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Polymorphic' malware?",
+    "options": {
+      "a": "Malware that changes its shape",
+      "b": "Malware that changes its code to evade detection",
+      "c": "Malware that affects many users",
+      "d": "Malware that is slow"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which solution adds threat intelligence and centralized management to OSSEC?",
+    "options": {
+      "a": "Wazuh",
+      "b": "Norton",
+      "c": "Kaspersky",
+      "d": "AVG"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the purpose of 'Endpoint Isolation'?",
+    "options": {
+      "a": "To punish the user",
+      "b": "To prevent lateral malware spread",
+      "c": "To save battery",
+      "d": "To speed up the device"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which case study underscored the need for rigorous protection due to an unpatched laptop?",
+    "options": {
+      "a": "The Great Hack",
+      "b": "Financial Data Breach Case Study",
+      "c": "Y2K",
+      "d": "Dotcom Bubble"
+    },
+    "correctAnswer": "b"
+  }
+]

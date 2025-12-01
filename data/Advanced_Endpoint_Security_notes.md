@@ -2,8 +2,6 @@
 
 ## **ADVANCED ENDPOINT SECURITY**
 
----
-
 1. # **Introduction**
 
 ## **1\. Understanding Endpoints**
@@ -69,8 +67,6 @@ The next phase of learning delves into advanced endpoint protection strategies t
 * **Patch Management:** Deep dive into strategies.  
 * **Endpoint Hardening:** Applying patches and securing configurations.  
 * **Mobile Device Security:** Protecting the mobile workforce.
-
----
 
 2. # **Host Intrusion Detection Systems (HIDS)**
 
@@ -180,8 +176,6 @@ HIDS uses predefined and custom rules to detect intrusions.
 * **Incident Response Procedures:** Define specific actions for different alert levels.  
 * **Reduce False Positives:** Regularly refine detection rules.  
 * **Monitoring & Continuous Tuning:** Adjust thresholds to balance security and usability.
-
----
 
 3. # **Patch Management & Endpoint Hardening**
 
@@ -415,8 +409,6 @@ Strengthening the device itself against attacks:
 4. **Restrict High-Risk Applications:** Blocklist unauthorized apps and enforce installation only from trusted sources.  
 5. **Continuous Monitoring:** Automate compliance checks to ensure devices remain secure over time.
 
----
-
 5. # **Advanced Endpoint Protection Strategies**
 
 ## **1\. Evolution of Endpoint Security**
@@ -541,5 +533,4 @@ This lesson covered advanced techniques strengthening defense mechanisms against
 
 **Key Takeaway:** Endpoint security is an ongoing process requiring continuous monitoring, timely updates, and strategic implementation of security frameworks.
 
----
 

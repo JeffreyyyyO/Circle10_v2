@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "Which of the following best describes the primary goal of adhering to cybersecurity standards regarding business continuity?",
+    "options": {
+      "a": "Avoiding legal penalties and fines",
+      "b": "Preventing financial and operational damage from breaches",
+      "c": "Establishing a common language for security controls",
+      "d": "Demonstrating a commitment to data protection to investors"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which global security framework provides a systematic approach to managing sensitive company information securely through an Information Security Management System (ISMS)?",
+    "options": {
+      "a": "NIST CSF",
+      "b": "CIS Controls",
+      "c": "ISO/IEC 27001",
+      "d": "COBIT"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary focus of SOC 2 compliance?",
+    "options": {
+      "a": "Securing credit card transactions",
+      "b": "Protecting federal information systems",
+      "c": "Securing customer data in cloud environments and managed services",
+      "d": "Establishing governance for IT security controls"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which US regulation mandates cybersecurity standards specifically for defense contractors working with the Department of Defense?",
+    "options": {
+      "a": "FISMA",
+      "b": "CMMC",
+      "c": "GLBA",
+      "d": "HIPAA"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Under GDPR, what is the maximum potential fine for non-compliance?",
+    "options": {
+      "a": "€10 million or 2% of annual global turnover",
+      "b": "€20 million or 4% of annual global turnover",
+      "c": "$100,000 per month",
+      "d": "£20 million regardless of turnover"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which GDPR principle states that personal data should not be kept longer than necessary?",
+    "options": {
+      "a": "Data Minimization",
+      "b": "Purpose Limitation",
+      "c": "Storage Limitation",
+      "d": "Integrity and Confidentiality"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the key difference between GDPR and CCPA regarding the legal basis for data processing?",
+    "options": {
+      "a": "GDPR requires an Opt-in approach, while CCPA focuses on Opt-out rights",
+      "b": "CCPA requires an Opt-in approach, while GDPR focuses on Opt-out rights",
+      "c": "Both require explicit Opt-in consent for all data processing",
+      "d": "Neither requires a legal basis for collecting non-sensitive data"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which PCI DSS requirement falls under the objective of 'Protect Cardholder Data'?",
+    "options": {
+      "a": "Install and maintain firewalls",
+      "b": "Encrypt transmission of cardholder data across open, public networks",
+      "c": "Restrict physical access to cardholder data",
+      "d": "Regularly test security systems and processes"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the context of Risk Assessment, what is the first step?",
+    "options": {
+      "a": "Identify Threats",
+      "b": "Analyze Vulnerabilities",
+      "c": "Identify Assets",
+      "d": "Assess Impact and Likelihood"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which type of audit is performed by independent third-party assessors to provide unbiased verification for certifications?",
+    "options": {
+      "a": "Internal Audit",
+      "b": "Gap Analysis",
+      "c": "External Audit",
+      "d": "Self-Assessment"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does the 'Right to Data Portability' in GDPR allow data subjects to do?",
+    "options": {
+      "a": "Request the deletion of their personal data",
+      "b": "Obtain and reuse their personal data across different services",
+      "c": "Correct inaccurate personal data",
+      "d": "Object to automated decision-making"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which African regulation is described as aligning with GDPR principles and regulating data processing within the UAE?",
+    "options": {
+      "a": "NDPR",
+      "b": "POPIA",
+      "c": "UAE Data Protection Law",
+      "d": "Cybersecurity Act"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What specific timeframe does GDPR mandate for notifying authorities of a data breach?",
+    "options": {
+      "a": "24 hours",
+      "b": "48 hours",
+      "c": "72 hours",
+      "d": "7 business days"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which component of the CIA triad does the GDPR principle of 'Integrity and Confidentiality' primarily address?",
+    "options": {
+      "a": "Availability only",
+      "b": "Integrity only",
+      "c": "Confidentiality only",
+      "d": "Both Integrity and Confidentiality"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which NIST framework is prioritized for federal agencies and government contractors to ensure security and privacy controls?",
+    "options": {
+      "a": "NIST CSF",
+      "b": "NIST 800-53",
+      "c": "ISO 27001",
+      "d": "COBIT"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the main purpose of a 'Gap Analysis' in the context of compliance?",
+    "options": {
+      "a": "To penalize non-compliant departments",
+      "b": "To identify discrepancies between current measures and requirements",
+      "c": "To officially certify the organization as compliant",
+      "d": "To replace the need for an external audit"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which intellectual property law protects original works of authorship such as software code and music?",
+    "options": {
+      "a": "Patent Law",
+      "b": "Trademark Law",
+      "c": "Copyright Law",
+      "d": "Trade Secret Law"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What mechanism does Digital Rights Management (DRM) use to track content ownership?",
+    "options": {
+      "a": "Firewalls",
+      "b": "Watermarking",
+      "c": "Phishing simulation",
+      "d": "Role-Based Access Control"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the Equifax breach case study, which specific compliance failure was identified regarding vulnerability management?",
+    "options": {
+      "a": "Failure to use multi-factor authentication",
+      "b": "Failure to patch a known Apache Struts vulnerability",
+      "c": "Lack of physical security at the data center",
+      "d": "Unauthorized data sharing with third parties"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which compliance framework resulted in a £20 million fine for British Airways in 2018 alongside GDPR penalties?",
+    "options": {
+      "a": "HIPAA",
+      "b": "SOX",
+      "c": "PCI DSS",
+      "d": "FISMA"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary function of GRC tools?",
+    "options": {
+      "a": "To replace human security analysts entirely",
+      "b": "To encrypt all data at rest and in transit",
+      "c": "To integrate risk assessment, monitoring, and reporting",
+      "d": "To provide firewall protection for network edges"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which US law requires financial institutions to protect consumer financial information?",
+    "options": {
+      "a": "HIPAA",
+      "b": "GLBA",
+      "c": "FISMA",
+      "d": "CMMC"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the 'Fair Use Doctrine' in the context of copyright?",
+    "options": {
+      "a": "It allows unlimited use of any digital content",
+      "b": "It allows limited use of copyrighted material without permission for specific purposes",
+      "c": "It grants ownership of content to the user after 10 years",
+      "d": "It requires payment for every single use of a work"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a right granted to data subjects under GDPR?",
+    "options": {
+      "a": "Right to Rectification",
+      "b": "Right to be Forgotten",
+      "c": "Right to Anonymity in all transactions",
+      "d": "Right to Object to Processing"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does the 'Accountability' principle in GDPR require from companies?",
+    "options": {
+      "a": "To achieve 100% security with no breaches",
+      "b": "To document compliance efforts and demonstrate adherence",
+      "c": "To publicize all employee salaries",
+      "d": "To allow government access to all private data"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which regional framework governs data privacy rights and processing conditions in South Africa?",
+    "options": {
+      "a": "NDPR",
+      "b": "POPIA",
+      "c": "GDPR",
+      "d": "CMMC"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does the 'Right to Rectification' allow a data subject to do?",
+    "options": {
+      "a": "Delete their data permanently",
+      "b": "Correct inaccurate or incomplete personal data",
+      "c": "Transfer their data to another provider",
+      "d": "Restrict how their data is processed"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which PCI DSS requirement is associated with 'Maintains a Vulnerability Management Program'?",
+    "options": {
+      "a": "Restrict physical access to cardholder data",
+      "b": "Protect systems against malware and regularly update antivirus",
+      "c": "Track and monitor all access to network resources",
+      "d": "Assign a unique ID to each person with computer access"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the context of risk assessment, what defines 'Risk Impact'?",
+    "options": {
+      "a": "The frequency of a threat occurring",
+      "b": "The potential financial, reputational, or operational damage",
+      "c": "The technical complexity of the attack",
+      "d": "The cost of implementing a security control"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of the 'Breach Notification Rule' under HIPAA?",
+    "options": {
+      "a": "To preventing breaches from happening",
+      "b": "To notify affected individuals and regulators of a data breach",
+      "c": "To fine employees responsible for the breach",
+      "d": "To automatically encrypt all leaked data"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a key feature of GRC tools like ServiceNow or RSA Archer?",
+    "options": {
+      "a": "Automated code generation",
+      "b": "Centralized management of compliance efforts",
+      "c": "Hardware firewall acceleration",
+      "d": "Social engineering simulation"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which Asian regulation specifically defines obligations for operators of Critical Information Infrastructure (CII)?",
+    "options": {
+      "a": "China CSL",
+      "b": "Japan APPI",
+      "c": "Singapore Cybersecurity Act",
+      "d": "GDPR"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which concept ensures that only the necessary data required for processing is collected?",
+    "options": {
+      "a": "Data Minimization",
+      "b": "Storage Limitation",
+      "c": "Purpose Limitation",
+      "d": "Accuracy"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the role of a Data Protection Officer (DPO) under GDPR?",
+    "options": {
+      "a": "To personally pay fines for non-compliance",
+      "b": "To oversee data protection strategy and implementation",
+      "c": "To encrypt all company hard drives",
+      "d": "To manage the company's marketing budget"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which intellectual property law protects confidential business information and formulas, such as the Google Waymo case?",
+    "options": {
+      "a": "Copyright Law",
+      "b": "Patent Law",
+      "c": "Trade Secret Law",
+      "d": "Trademark Law"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the 'Right to know' under the California Consumer Privacy Act (CCPA)?",
+    "options": {
+      "a": "The right to know the personal home address of the CEO",
+      "b": "The right to know what personal data is collected, sold, or shared",
+      "c": "The right to know the exact security algorithms used",
+      "d": "The right to know the salaries of all employees"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which framework focuses on governance, risk management, and IT security controls, providing objectives for information and related technologies?",
+    "options": {
+      "a": "NIST CSF",
+      "b": "COBIT",
+      "c": "CIS Controls",
+      "d": "ISO 27001"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the Target (2013) breach case study, what was the primary failure that led to the compromise?",
+    "options": {
+      "a": "Lack of physical security",
+      "b": "Weak access controls and lack of network segmentation via a third-party vendor",
+      "c": "Failure to encrypt backup tapes",
+      "d": "Insider threat from a disgruntled employee"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which directive regulates digital communications, including cookies and online tracking, in the EU?",
+    "options": {
+      "a": "NIS 2 Directive",
+      "b": "ePrivacy Directive",
+      "c": "GDPR",
+      "d": "PSD2"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of 'Remediation Plans' following an audit?",
+    "options": {
+      "a": "To punish employees who failed the audit",
+      "b": "To outline corrective actions to close identified security gaps",
+      "c": "To increase the budget for the next year",
+      "d": "To hide the findings from the public"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which step in the Risk Assessment process involves using risk matrices to classify risks as Low, Medium, or High?",
+    "options": {
+      "a": "Identify Threats",
+      "b": "Analyze Vulnerabilities",
+      "c": "Assess Impact and Likelihood",
+      "d": "Implement Mitigation Strategies"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the 'Right to Object to Processing' under GDPR?",
+    "options": {
+      "a": "The right to stop data processing for specific reasons like direct marketing",
+      "b": "The right to delete all data immediately",
+      "c": "The right to sue the company for any reason",
+      "d": "The right to demand payment for data use"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which emerging law is China's equivalent to GDPR?",
+    "options": {
+      "a": "CSL",
+      "b": "PIPL (Personal Information Protection Law)",
+      "c": "DPDPA",
+      "d": "LGPD"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the consequence of failing to comply with PCI DSS regarding transaction fees?",
+    "options": {
+      "a": "Transaction fees are waived",
+      "b": "Transaction fees are lowered",
+      "c": "Higher processing fees are imposed",
+      "d": "No impact on transaction fees"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which framework is a prioritized set of security best practices designed to defend against cyber threats efficiently?",
+    "options": {
+      "a": "NIST CSF",
+      "b": "CIS Controls",
+      "c": "ISO 27001",
+      "d": "COBIT"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does the 'Privacy Rule' in HIPAA govern?",
+    "options": {
+      "a": "Security standards for electronic health records only",
+      "b": "Use and disclosure of PHI by healthcare providers and insurers",
+      "c": "The hardware specifications for hospital servers",
+      "d": "The cost of health insurance premiums"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a strategy for IP protection involving limiting exposure?",
+    "options": {
+      "a": "Open source distribution",
+      "b": "Role-Based Access Control (RBAC)",
+      "c": "Public file sharing",
+      "d": "Broadcasting trade secrets"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of 'Standard Contractual Clauses (SCCs)' in GDPR?",
+    "options": {
+      "a": "To define employee salary bands",
+      "b": "To ensure cross-border data transfers comply with legal frameworks",
+      "c": "To set the price of software licenses",
+      "d": "To limit the liability of the Data Protection Officer"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which organization enforces the CCPA regulations?",
+    "options": {
+      "a": "Federal Trade Commission (FTC)",
+      "b": "Office for Civil Rights (OCR)",
+      "c": "California Attorney General",
+      "d": "EU Data Protection Authorities"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which PCI DSS objective requires the restriction of physical access to cardholder data?",
+    "options": {
+      "a": "Build and Maintain a Secure Network",
+      "b": "Implement Strong Access Control Measures",
+      "c": "Maintain a Vulnerability Management Program",
+      "d": "Regularly Monitor and Test Networks"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What defines the 'Right to Opt-out' under CCPA?",
+    "options": {
+      "a": "Consumers can opt-out of the sale of their personal data",
+      "b": "Consumers can opt-out of using the internet",
+      "c": "Consumers can opt-out of paying for services",
+      "d": "Consumers can opt-out of being prosecuted for crimes"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which term refers to establishing minimum security requirements that organizations must follow?",
+    "options": {
+      "a": "Risk Acceptance",
+      "b": "Defining Security Baselines",
+      "c": "Threat Modeling",
+      "d": "Vulnerability Scanning"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What type of threat involves employees or contractors leaking sensitive IP?",
+    "options": {
+      "a": "Advanced Persistent Threat",
+      "b": "Insider Threat",
+      "c": "Ransomware",
+      "d": "DDoS Attack"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which Brazilian law is influenced by GDPR and enforces data protection in Brazil?",
+    "options": {
+      "a": "PIPL",
+      "b": "LGPD",
+      "c": "DPDPA",
+      "d": "NDPR"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the function of a 'Gap Analysis' in compliance?",
+    "options": {
+      "a": "To close security holes immediately",
+      "b": "To identify discrepancies between current security and requirements",
+      "c": "To analyze the physical gaps in the office building",
+      "d": "To audit the financial gaps in the budget"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which legislation mandated the 'Security Rule' for Electronic PHI (ePHI)?",
+    "options": {
+      "a": "GDPR",
+      "b": "HIPAA",
+      "c": "SOX",
+      "d": "GLBA"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the context of Risk Assessment, what does 'Likelihood' refer to?",
+    "options": {
+      "a": "The cost of the asset",
+      "b": "The probability of a threat materializing",
+      "c": "The severity of the damage",
+      "d": "The time it takes to recover"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a consequence of non-compliance with PCI DSS?",
+    "options": {
+      "a": "Fines ranging from $5,000 to $100,000 per month",
+      "b": "Loss of merchant privileges",
+      "c": "Guaranteed government bailouts",
+      "d": "Reputational damage"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the 'Right to Erasure' also known as?",
+    "options": {
+      "a": "Right to be Informed",
+      "b": "Right to be Forgotten",
+      "c": "Right to Restrict Processing",
+      "d": "Right to Data Portability"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which document outlines the 'purpose limitation' principle?",
+    "options": {
+      "a": "PCI DSS",
+      "b": "GDPR",
+      "c": "NIST CSF",
+      "d": "SOX"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which US Act establishes security requirements for federal agencies and their contractors?",
+    "options": {
+      "a": "HIPAA",
+      "b": "FISMA",
+      "c": "GLBA",
+      "d": "CCPA"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary role of the 'Enforcement Rule' in HIPAA?",
+    "options": {
+      "a": "It defines the technical standards for encryption",
+      "b": "It defines penalties for non-compliance and enforcement procedures",
+      "c": "It mandates the hiring of a security guard",
+      "d": "It outlines the medical treatments allowed"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a common DRM technology?",
+    "options": {
+      "a": "Phishing",
+      "b": "Encryption",
+      "c": "Social Engineering",
+      "d": "Port Scanning"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What was the result of the Home Depot (2014) breach involving 56 million records?",
+    "options": {
+      "a": "A small fine of $10,000",
+      "b": "Cost over $200 million",
+      "c": "No financial impact",
+      "d": "Increase in stock price"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which standard focuses on securing customer data in cloud environments and managed services?",
+    "options": {
+      "a": "PCI DSS",
+      "b": "SOC 2",
+      "c": "HIPAA",
+      "d": "COBIT"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does the 'Lawfulness, Fairness, and Transparency' principle of GDPR entail?",
+    "options": {
+      "a": "Data must be processed in a lawful and transparent manner",
+      "b": "Companies can do whatever they want as long as it makes money",
+      "c": "Data processing should be hidden from the user",
+      "d": "Fairness is optional if the service is free"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which organization oversees GDPR enforcement in the EU?",
+    "options": {
+      "a": "Federal Trade Commission (FTC)",
+      "b": "Data Protection Authorities (DPAs)",
+      "c": "Office for Civil Rights (OCR)",
+      "d": "Department of Defense (DoD)"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the main goal of 'Data Minimization'?",
+    "options": {
+      "a": "To collect as much data as possible for future use",
+      "b": "To collect only the necessary data required for processing",
+      "c": "To minimize the size of the database files",
+      "d": "To reduce the number of employees handling data"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which PCI DSS requirement involves 'Avoid using vendor-supplied defaults for system passwords'?",
+    "options": {
+      "a": "Build and Maintain a Secure Network",
+      "b": "Maintain a Vulnerability Management Program",
+      "c": "Implement Strong Access Control Measures",
+      "d": "Protect Cardholder Data"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which India-specific act establishes strict rules for handling personal data?",
+    "options": {
+      "a": "GDPR",
+      "b": "DPDPA (Digital Personal Data Protection Act)",
+      "c": "PIPL",
+      "d": "CCPA"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Cyber Espionage' in the context of IP threats?",
+    "options": {
+      "a": "Employees accidentally deleting files",
+      "b": "Nation-state actors or competitors stealing proprietary information",
+      "c": "Downloading pirated movies",
+      "d": "Sending spam emails"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which step in the risk assessment process involves deploying firewalls and IDS/IPS?",
+    "options": {
+      "a": "Identify Assets",
+      "b": "Implement Mitigation Strategies",
+      "c": "Identify Threats",
+      "d": "Analyze Vulnerabilities"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which directive strengthens cybersecurity requirements for critical infrastructure businesses in the EU?",
+    "options": {
+      "a": "GDPR",
+      "b": "NIS 2 Directive",
+      "c": "ePrivacy Directive",
+      "d": "PSD2"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of 'Internal Audits'?",
+    "options": {
+      "a": "To provide a final certification for the company",
+      "b": "To assess security policies and identify weaknesses before external auditors intervene",
+      "c": "To fine employees for non-compliance",
+      "d": "To publish the results to the public"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a core objective of PCI DSS?",
+    "options": {
+      "a": "Build and Maintain a Secure Network",
+      "b": "Protect Cardholder Data",
+      "c": "Maximize Marketing Reach",
+      "d": "Maintain a Vulnerability Management Program"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which trademark law protects brand names and logos?",
+    "options": {
+      "a": "Copyright Law",
+      "b": "Trademark Law",
+      "c": "Patent Law",
+      "d": "Trade Secret Law"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does the 'Storage Limitation' principle in GDPR dictate?",
+    "options": {
+      "a": "Data can be stored indefinitely",
+      "b": "Personal data should not be kept longer than necessary",
+      "c": "Data must be stored on at least three different servers",
+      "d": "Storage capacity must be limited to 1TB"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which US agency enforces consumer protection laws, including data privacy?",
+    "options": {
+      "a": "FBI",
+      "b": "FTC (Federal Trade Commission)",
+      "c": "CIA",
+      "d": "NSA"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the 'Right to non-discrimination' under CCPA?",
+    "options": {
+      "a": "Companies cannot discriminate against employees based on race",
+      "b": "Companies cannot discriminate against consumers for exercising their privacy rights",
+      "c": "Consumers must treat all companies equally",
+      "d": "Companies must offer the same price to everyone regardless of location"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which international convention protects literary and artistic works?",
+    "options": {
+      "a": "The Geneva Convention",
+      "b": "The Berne Convention",
+      "c": "The Paris Agreement",
+      "d": "The Kyoto Protocol"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the 'Right to Restriction of Processing' in GDPR?",
+    "options": {
+      "a": "The right to stop all business operations",
+      "b": "The right to limit how an organization uses personal data under certain circumstances",
+      "c": "The right to restrict the internet bandwidth of the company",
+      "d": "The right to block all emails from the company"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a key activity in a compliance audit?",
+    "options": {
+      "a": "Increasing the marketing budget",
+      "b": "Log and Event Analysis",
+      "c": "Hiring new sales staff",
+      "d": "Redesigning the company logo"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'Accuracy' in GDPR principles refer to?",
+    "options": {
+      "a": "Organizations must ensure data remains accurate and up-to-date",
+      "b": "The accuracy of the company's financial predictions",
+      "c": "The precision of the marketing targeting",
+      "d": "The speed of the data transfer"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which Nigeria-specific regulation enforces privacy protections?",
+    "options": {
+      "a": "GDPR",
+      "b": "NDPR (Nigeria Data Protection Regulation)",
+      "c": "POPIA",
+      "d": "CCPA"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Patent Law' primarily used for?",
+    "options": {
+      "a": "Protecting brand logos",
+      "b": "Granting inventors exclusive rights over their inventions",
+      "c": "Protecting music and art",
+      "d": "Protecting customer lists"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which step in the risk assessment process involves categorizing assets based on importance?",
+    "options": {
+      "a": "Identify Threats",
+      "b": "Identify Assets",
+      "c": "Assess Impact",
+      "d": "Monitor and Review"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'Trade Secret'?",
+    "options": {
+      "a": "A published patent",
+      "b": "Confidential business information, formulas, and proprietary knowledge",
+      "c": "A registered trademark",
+      "d": "Open-source software code"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which PCI DSS requirement is part of 'Implement Strong Access Control Measures'?",
+    "options": {
+      "a": "Install firewalls",
+      "b": "Restrict access to cardholder data on a need-to-know basis",
+      "c": "Update antivirus software",
+      "d": "Maintain an information security policy"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of 'Continuous Monitoring' in the context of compliance?",
+    "options": {
+      "a": "To spy on employees' personal lives",
+      "b": "To detect and respond to threats promptly rather than relying on periodic checks",
+      "c": "To record all office conversations",
+      "d": "To monitor stock prices continuously"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which law grants exclusive rights to authors for their creations?",
+    "options": {
+      "a": "Patent Law",
+      "b": "Copyright Law",
+      "c": "Trade Secret Law",
+      "d": "Antitrust Law"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the Google vs. Uber case, what was the primary legal issue?",
+    "options": {
+      "a": "Copyright infringement of a logo",
+      "b": "Trade Secret Theft regarding self-driving car technology",
+      "c": "Patent violation of a search algorithm",
+      "d": "Trademark dispute over a name"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the role of 'Third-Party Assessors' in maintaining compliance?",
+    "options": {
+      "a": "To implement the security controls",
+      "b": "To provide unbiased verification of compliance",
+      "c": "To write the company's security policy",
+      "d": "To manage the IT department"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is an example of 'Human Mitigation' in risk management?",
+    "options": {
+      "a": "Installing a firewall",
+      "b": "Conducting security awareness training for employees",
+      "c": "Encrypting hard drives",
+      "d": "Using biometric scanners"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the focus of the 'Security Assessment and Authorization (CA)' control in NIST 800-53?",
+    "options": {
+      "a": "Hiring new staff",
+      "b": "Ensuring continuous monitoring",
+      "c": "Buying new hardware",
+      "d": "Marketing the security posture"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which term describes 'Reducing vulnerabilities by enforcing secure policies'?",
+    "options": {
+      "a": "Mitigating Cyber Threats",
+      "b": "Accepting Risk",
+      "c": "Transferring Risk",
+      "d": "Ignoring Risk"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the 'Right to Access' in GDPR?",
+    "options": {
+      "a": "The right to enter the company building",
+      "b": "The right to obtain confirmation and access to personal data being processed",
+      "c": "The right to access the CEO's emails",
+      "d": "The right to free internet access"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which framework provides a 'common language and structure' for security practices?",
+    "options": {
+      "a": "Standardizing Security Practices",
+      "b": "Ad-hoc Security",
+      "c": "Security through Obscurity",
+      "d": "Decentralized Security"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the primary benefit of 'Standardizing Security Practices'?",
+    "options": {
+      "a": "It makes security more expensive",
+      "b": "It provides a common language and structure across industries",
+      "c": "It eliminates the need for firewalls",
+      "d": "It guarantees 100% safety"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a potential impact of a data breach used in risk assessment?",
+    "options": {
+      "a": "Reputational Damage",
+      "b": "Increased Employee Morale",
+      "c": "Lower Insurance Premiums",
+      "d": "Faster Network Speeds"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does 'Confidentiality' in the context of GDPR ensure?",
+    "options": {
+      "a": "Data is available to everyone",
+      "b": "Data is secured from unauthorized access",
+      "c": "Data is always accurate",
+      "d": "Data is deleted after 1 day"
+    },
+    "correctAnswer": "b"
+  }
+]

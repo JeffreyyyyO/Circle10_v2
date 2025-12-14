@@ -3,9 +3,9 @@
 ## **TLS/SSL Configuration, VPN Setup & Traffic Analysis**
 This guide outlines the steps for setting up a secure web server, configuring SSL/TLS, and analyzing network traffic using Kali Linux and Wireshark.
 
-## **Prerequisites: VirtualBox Configuration**
+## **Prerequisites: Virtualizer Configuration**
 
-Before starting the Kali Linux VM, ensure the following settings are configured in VirtualBox:
+Before starting the Kali Linux VM, ensure the following settings are configured in the Virtualizer (VMware, VirtualBox, UTM, IPFire, Pfsense, etc):
 
 1. **Network Settings:**  
    * Set the network adapter to **NAT Network** or **Bridged Adapter** (NAT is used for this demo).  

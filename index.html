@@ -8,14 +8,14 @@
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- NEW: Marked.js Library (for rendering Markdown) -->
+    <!-- Marked.js Library (for rendering Markdown) -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
     <!-- Google Fonts: Inter & Sora & Space Grotesk -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Sora:wght@300;400;600;900&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
 
     <style>
-        /* NEW: Force body and html to 100% width and prevent horizontal scroll */
+        /* Force body and html to 100% width and prevent horizontal scroll */
         html, body {
             width: 100%;
             overflow-x: hidden;
@@ -30,19 +30,19 @@
             min-height: 100vh; /* Ensure it takes full viewport height */
             margin: 0;
             padding: 0; /* Removed body padding */
-            box-sizing: border-box; /* MODIFIED: Added box-sizing */
+            box-sizing: border-box; 
         }
         
-        /* UPDATED: Container is now a flex-col layout for the main content and nav bar */
+        /* Container is now a flex-col layout for the main content and nav bar */
         .quiz-container {
-            width: 100%;       /* MODIFIED: Changed from 100vw to 100% */
+            width: 100%;       
             min-height: 100vh;  /* Fill the viewport height */
             max-width: 500px;   /* A good upper limit for a "phone" app UI */
             
             background-color: #d0d0d0;
             border-radius: 0; 
             
-            /* UPDATED: Container is now a flex column with 0 padding */
+            /* Container is now a flex column with 0 padding */
             display: flex;
             flex-direction: column;
             padding: 0; /* Padding is now on the screens and nav bar */
@@ -52,25 +52,24 @@
             overflow: hidden; /* Hide overflow */
         }
         
-        /* NEW: This area holds all the screens */
+        /* This area holds all the screens */
         #main-content-area {
             flex-grow: 1; /* Takes up all available space above the nav bar */
             position: relative; /* For the absolute positioned screens */
             overflow: hidden; /* For the transition */
         }
 
-        /* UPDATED: Screens are now inside the main-content-area */
+        /* Screens are now inside the main-content-area */
         .screen {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            /* MODIFIED: Removed bottom padding */
             padding: 5vw 2vw 0 2vw; 
             box-sizing: border-box;
             background-color: #d0d0d0; /* Match container color */
-            transition: transform 0.3s ease-out, background-color 0.3s ease; /* Added background-color transition */
+            transition: transform 0.3s ease-out, background-color 0.3s ease;
             z-index: 10;
             
             /* Ensure screens are flex-col to fill height */
@@ -78,17 +77,18 @@
             flex-direction: column;
         }
 
-        /* NEW: Horizontal padding override for lobby/format screens */
-        /* UPDATED: Added new lobby/notes screens to this rule */
+        /* Horizontal padding override for lobby/format/notes/decks/misc screens */
         #lobby-screen, 
         #notes-screen,
+        #decks-screen,
+        #misc-screen,
         #tests-screen, 
         #format-screen {
             padding-left: 0;
             padding-right: 0;
         }
 
-        /* NEW: Reader Screen padding override */
+        /* Reader Screen padding override */
         #reader-screen {
             padding-top: 0;
             padding-left: 0;
@@ -106,19 +106,11 @@
             transform: translateX(100%);
         }
         
-        /* UPDATED: Quiz Screen Layout */
-        #quiz-screen {
-            /* flex-col is now default on .screen */
-        }
-        
         #quiz-main-content {
             flex-grow: 1; /* Pushes buttons to the bottom */
             overflow-y: auto; /* Allows questions/options to scroll if needed */
         }
         
-        /* REMOVED: #quiz-button-container is replaced by #bottom-nav-bar */
-
-
         .option-button {
             display: block;
             width: 100%;
@@ -162,12 +154,13 @@
             font-weight: 600;
         }
         
-        /* UPDATED: Added new screens to this rule */
         #lobby-screen h1,
         #notes-screen h1,
+        #decks-screen h1,
+        #misc-screen h1,
         #tests-screen h1,
         #format-screen h1,
-        #reader-title, /* NEW */
+        #reader-title,
         #results-screen h2,
         #performance-screen h2,
         #message-title {
@@ -213,7 +206,6 @@
             background-color: #dc2626; /* Darker red on hover */
         }
         
-        /* UPDATED: .lobby-buttons no longer needs bottom padding */
         .lobby-buttons {
             display: grid;
             grid-template-columns: 1fr 1fr; 
@@ -226,20 +218,17 @@
             -ms-overflow-style: none; /* IE and Edge */
             scrollbar-width: none; /* Firefox */
             
-            /* MODIFIED: Add padding, so content isn't edge-to-edge */
             padding-left: 2vw;
             padding-right: 2vw;
             box-sizing: border-box;
 
-            /* NEW: Added padding at the bottom of the scroll content */
             padding-bottom: 5vw;
         }
         .lobby-buttons::-webkit-scrollbar {
             display: none; /* Chrome, Safari */
         }
-        /* --- END SCROLLBAR HIDING --- */
         
-        /* --- REFACTORED: Base Card Style --- */
+        /* --- Base Card Style --- */
         .quiz-card-base {
             aspect-ratio: 1 / 1; 
             border-radius: 16px;
@@ -265,7 +254,7 @@
             background-color: #4338ca; /* Darker indigo on hover */
         }
 
-        /* --- NEW: Orange Card Color --- */
+        /* --- Orange Card Color --- */
         .quiz-card-orange {
             background-color: #CC5500; /* Burnt Orange */
             color: white;
@@ -274,13 +263,22 @@
             background-color: #aa4400; /* Darker Orange */
         }
         
-        /* --- NEW: Lobby Card Color --- */
+        /* --- Lobby Card Color --- */
         .quiz-card-lobby {
             background-color: #895129; /* Brown */
             color: white;
         }
         .quiz-card-lobby:hover {
             background-color: #753d15; /* Darker Brown */
+        }
+
+        /* --- Dark Green Card Color --- */
+        .quiz-card-darkgreen {
+            background-color: #013220; /* Dark Green */
+            color: white;
+        }
+        .quiz-card-darkgreen:hover {
+            background-color: #024b30; /* Slightly lighter Green on hover */
         }
         
         .format-card-button {
@@ -358,27 +356,23 @@
             font-weight: 500;
         }
         
-        /* NEW: Added padding to performance container */
         #performance-details-container {
             padding-bottom: 5vw;
         }
         
-        /* UPDATED: Bottom Navigation Bar Styling */
+        /* Bottom Navigation Bar Styling */
         #bottom-nav-bar {
             flex-shrink: 0; /* Prevent shrinking */
             height: auto; /* Auto height to fit content */
             width: 100%;
             background-color: #d0d0d0; /* Match container background */
-            /* REMOVED: border-top: 1px solid #b4b4b4; */
-            /* MODIFIED: Reduced vertical padding */
             padding: 2vw 2vw; /* 2vw top/bottom, 3vw left/right */
             box-sizing: border-box;
             z-index: 20;
-            transition: background-color 0.3s ease, border-color 0.3s ease; /* Added transition */
-            /* REMOVED: Flex properties removed from main bar */
+            transition: background-color 0.3s ease, border-color 0.3s ease;
         }
         
-        /* NEW: Class for nav content blocks */
+        /* Class for nav content blocks */
         .nav-content {
             width: 100%;
             display: flex;
@@ -403,7 +397,7 @@
             background-color: #4b5563; /* Gray-600 */
         }
 
-        /* NEW: Welcome Nav Button Style */
+        /* Welcome Nav Button Style */
         #go-to-lobby-from-welcome {
             background-color: #3b82f6; /* Blue-500 */
         }
@@ -411,7 +405,7 @@
             background-color: #2563eb; /* Blue-600 */
         }
 
-        /* --- NEW: Dark Mode Styles for Nav Bar --- */
+        /* --- Dark Mode Styles for Nav Bar --- */
         #bottom-nav-bar.dark-mode-nav {
             background-color: #000000;
             border-top-color: #333;
@@ -426,36 +420,19 @@
             background-color: #555; /* Lighter gray on hover */
         }
 
-        /* Specific style for dark mode toggle icons */
-        /* REMOVED: Old icon-button styles */
-
-        /* --- NEW: Toggle Switch Styles --- */
+        /* --- Toggle Switch Styles --- */
         .toggle-dot {
             transition: transform 0.2s ease-in-out;
             transform: translateX(0px);
         }
         input:checked ~ .toggle-dot {
-            transform: translateX(24px); /* (w-14) - (w-6) = 8 units = 32px. No, w-14 is 3.5rem, w-6 is 1.5rem. Diff is 2rem = 32px. left-1 is 0.25rem = 4px. So 3.5rem - 1.5rem - 0.25rem - 0.25rem = 1.5rem = 24px. */
+            transform: translateX(24px); 
         }
-        /* REMOVED: This rule changed the background color when checked */
-        /*
-        input:checked ~ .toggle-bg {
-            background-color: #3b82f6; 
-        }
-        */
         .toggle-bg {
             transition: background-color 0.2s ease-in-out;
         }
         
-        /* --- Dark Mode Toggle Text Color --- */
-        #reader-nav .dark-mode-toggle-label {
-            /* REMOVED: color transition */
-        }
-        #bottom-nav-bar.dark-mode-nav #reader-nav .dark-mode-toggle-label {
-             /* REMOVED: color rule */
-        }
-
-        /* --- NEW: Dark Mode Emoji Toggle --- */
+        /* --- Dark Mode Emoji Toggle --- */
         #reader-nav .light-mode-emoji {
             display: inline;
         }
@@ -500,7 +477,7 @@
             background-color: #4338ca; 
         }
 
-        /* --- NEW: Reader Page Styles --- */
+        /* --- Reader Page Styles --- */
         #reader-top-bar {
             display: flex;
             align-items: center;
@@ -541,7 +518,7 @@
             display: none; /* Chrome, Safari */
         }
 
-        /* --- NEW: Notes Content Formatting --- */
+        /* --- Notes Content Formatting --- */
         #reader-content-container h1 {
             font-family: 'Sora', sans-serif;
             font-size: 1.75rem;
@@ -585,12 +562,12 @@
             font-size: 0.9rem;
             transition: color 0.3s ease, background-color 0.3s ease; /* Added transition */
         }
-        /* NEW: Style for italics (<em> tags) */
+        /* Style for italics (<em> tags) */
         #reader-content-container em {
             font-style: italic;
         }
 
-        /* --- NEW: Table Styles for Markdown --- */
+        /* --- Table Styles for Markdown --- */
         #reader-content-container table {
             width: 100%;
             border-collapse: collapse; /* Ensures borders merge */
@@ -614,7 +591,7 @@
         /* --- End Reader Page Styles --- */
         
         
-        /* --- NEW: Dark Mode Styles (Reader Only) --- */
+        /* --- Dark Mode Styles (Reader Only) --- */
         #reader-screen.dark-mode {
             background-color: #000000;
         }
@@ -629,7 +606,6 @@
         }
 
         #reader-screen.dark-mode #reader-content-container {
-            /* background-color: #000000; */ /* Handled by #reader-screen.dark-mode */
             color: #d0d0d0;
         }
 
@@ -674,7 +650,7 @@
     <!-- Main container is now fluid -->
     <div id="quiz-app" class="quiz-container"> 
 
-        <!-- NEW: Main Content Area (for screens) -->
+        <!-- Main Content Area (for screens) -->
         <div id="main-content-area" class="flex-grow relative overflow-hidden">
 
             <!-- Welcome Screen (No changes to its own content) -->
@@ -690,38 +666,44 @@
                         <span id="typewriter-output"></span>
                     </div>
                 </div>
-                
-                <!-- REMOVED: Start Button -->
-                <!-- <button id="continue-button" class="welcome-start-button">Start</button> -->
             </div>
 
-            <!-- NEW Lobby Screen -->
+            <!-- Lobby Screen -->
             <div id="lobby-screen" class="screen right text-center">
                 <h1 class="text-3xl font-bold text-gray-800 mb-6 flex-shrink-0 px-[2vw]">LOBBY</h1>
-                <p class="text-lg text-gray-700 mb-8 flex-shrink-0 px-[2vw]">What's your mission today?</p>
+                <p class="text-lg text-gray-700 mb-8 flex-shrink-0 px-[2vw]">What will YOU explore?</p>
                 
-                <div class="lobby-buttons"> <!-- This div will now scroll -->
+                <div class="lobby-buttons">
                     <!-- Notes Card -->
                     <button id="go-to-notes-button" class="quiz-card-base quiz-card-lobby" style="grid-column: 1 / span 1; aspect-ratio: 1 / 1;">
                         <span class="card-title">Notes</span>
                         <span class="card-subtitle">Study & gain mastery!</span>
                     </button>
+                    <!-- Decks Card -->
+                    <button id="go-to-decks-button" class="quiz-card-base quiz-card-lobby" style="grid-column: 2 / span 1; aspect-ratio: 1 / 1;">
+                        <span class="card-title">Decks</span>
+                        <span class="card-subtitle">Revisit the live classes!</span>
+                    </button>
                     <!-- Tests Card -->
-                    <button id="go-to-tests-button" class="quiz-card-base quiz-card-lobby" style="grid-column: 2 / span 1; aspect-ratio: 1 / 1;">
+                    <button id="go-to-tests-button" class="quiz-card-base quiz-card-lobby" style="grid-column: 1 / span 1; aspect-ratio: 1 / 1;">
                         <span class="card-title">Tests</span>
                         <span class="card-subtitle">Take on a challenge!</span>
+                    </button>
+                    <!-- Miscellaneous Card -->
+                    <button id="go-to-misc-button" class="quiz-card-base quiz-card-lobby" style="grid-column: 2 / span 1; aspect-ratio: 1 / 1;">
+                        <span class="card-title">Miscellaneous</span>
+                        <span class="card-subtitle">All the other stuff!</span>
                     </button>
                 </div>
             </div>
 
-            <!-- NEW Notes Screen -->
+            <!-- Notes Screen -->
             <div id="notes-screen" class="screen right text-center">
                 <h1 class="text-3xl font-bold text-gray-800 mb-6 flex-shrink-0 px-[2vw]">NOTES</h1>
                 <p class="text-lg text-gray-700 mb-8 flex-shrink-0 px-[2vw]">Pick a domain</p>
                 
-                <div class="lobby-buttons"> <!-- This div will now scroll -->
+                <div class="lobby-buttons">
                     <!-- Row 1 (Indigo) -->
-                    <!-- UPDATED: Made first 3 buttons active and added data attributes -->
                     <button class="quiz-card-base quiz-card-indigo" data-note-file="Fundamentals_of_Network_Security_notes.md" data-note-title="Fundamentals of Network Security">
                         <span class="card-subtitle">CYS 520 &bull; Week 1</span>
                         <span class="card-title">Fundamentals of Network Security</span>
@@ -760,14 +742,121 @@
                 </div>
             </div>
 
-            <!-- RENAMED: Tests Screen (formerly Lobby Screen) -->
-            <div id="tests-screen" class="screen right text-center">
-                <!-- UPDATED: Title and Subtitle -->
-                <h1 class="text-3xl font-bold text-gray-800 mb-6 flex-shrink-0 px-[2vw]">TESTS</h1>
-                <p class="text-lg text-gray-700 mb-8 flex-shrink-0 px-[2vw]">Pick a Test</p>
+            <!-- Decks Screen -->
+            <div id="decks-screen" class="screen right text-center">
+                <h1 class="text-3xl font-bold text-gray-800 mb-6 flex-shrink-0 px-[2vw]">DECKS</h1>
+                <p class="text-lg text-gray-700 mb-8 flex-shrink-0 px-[2vw]">Transcribed & structured live-class decks</p>
                 
-                <!-- MODIFIED: Removed inline style from lobby-buttons -->
-                <div class="lobby-buttons"> <!-- This div will now scroll -->
+                <div class="lobby-buttons">
+                    <!-- Row 1 (Indigo) -->
+                    <button class="quiz-card-base quiz-card-indigo" data-note-file="Fundamentals_of_Network_Security_deck.md" data-note-title="Fundamentals of Network Security">
+                        <span class="card-subtitle">CYS 520 &bull; Week 1</span>
+                        <span class="card-title">Fundamentals of Network Security</span>
+                    </button>
+                    <button class="quiz-card-base quiz-card-indigo" data-note-file="Network_Security_Devices_and_Technologies_deck.md" data-note-title="Network Security Devices">
+                        <span class="card-subtitle">CYS 520 &bull; Week 2</span>
+                        <span class="card-title">Network Security Devices and Technologies</span>
+                    </button>
+                    <!-- Row 2 (Indigo) -->
+                    <button class="quiz-card-base quiz-card-indigo" data-note-file="Introduction_to_Cryptography_deck.md" data-note-title="Introduction to Cryptography">
+                        <span class="card-subtitle">CYS 520 &bull; Week 3</span>
+                        <span class="card-title">Introduction to Cryptography</span>
+                    </button>
+                    <button class="quiz-card-base quiz-card-indigo" data-note-file="Cryptographic_Applications_deck.md" data-note-title="Cryptographic Applications">
+                        <span class="card-subtitle">CYS 520 &bull; Week 4</span>
+                        <span class="card-title">Cryptographic Applications</span>
+                    </button>
+                    <!-- Row 3 (Orange) -->
+                    <button class="quiz-card-base quiz-card-orange" data-note-file="Endpoint_Security_deck.md" data-note-title="Endpoint Security">
+                        <span class="card-subtitle">CYS 525 &bull; Week 1</span>
+                        <span class="card-title">Endpoint Security</span>
+                    </button>
+                    <button class="quiz-card-base quiz-card-orange opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 525 &bull; Week 2</span>
+                        <span class="card-title">Advanced Endpoint Security</span>
+                    </button>
+                    <!-- Row 4 (Orange) -->
+                    <button class="quiz-card-base quiz-card-orange opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 525 &bull; Week 3</span>
+                        <span class="card-title">Standards, Regulations and Data Privacy</span>
+                    </button>
+                    <button class="quiz-card-base quiz-card-orange opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 525 &bull; Week 4</span>
+                        <span class="card-title">Data Privacy and Professional Issues</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Miscellaneous Screen -->
+            <div id="misc-screen" class="screen right text-center">
+                <h1 class="text-3xl font-bold text-gray-800 mb-6 flex-shrink-0 px-[2vw]">MISCELLANEOUS</h1>
+                <p class="text-lg text-gray-700 mb-8 flex-shrink-0 px-[2vw]">Labs, Guides and so on...</p>
+                
+                <div class="lobby-buttons">
+                    <!-- Card 1 -->
+                    <button class="quiz-card-base quiz-card-darkgreen opacity-50 cursor-not-allowed" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;">
+                        <span class="card-title">Lab: Network Traffic Analysis</span>
+                        <span class="card-subtitle">Network traffic analysis using Wireshark</span>
+                    </button>
+                    <!-- Card 2 -->
+                    <button class="quiz-card-base quiz-card-darkgreen opacity-50 cursor-not-allowed" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;">
+                        <span class="card-title">Lab: Threat Simulation</span>
+                        <span class="card-subtitle">ARP Spoofing (Bettercap) and traffic analysis (Wireshark)</span>
+                    </button>
+                    <!-- Card 3 -->
+                    <button class="quiz-card-base quiz-card-darkgreen" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;" data-note-file="Lab_Encryption_on_Kali_Linux.md" data-note-title="Lab: Encryption on Kali Linux">
+                        <span class="card-title">Lab: Encryption on Kali Linux</span>
+                        <span class="card-subtitle">Symmetric & Asymmetric Encryption, & PKI</span>
+                    </button>
+                    <!-- Card 4 -->
+                    <button class="quiz-card-base quiz-card-darkgreen" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;" data-note-file="Lab_TLS_SSL_VPN_&_Traffic_Analysis.md" data-note-title="Lab: TLS/SSL, VPN & Traffic Analysis">
+                        <span class="card-title">Lab: TLS/SSL, VPN & Traffic Analysis</span>
+                        <span class="card-subtitle">Configurations using Kali Linux and Wireshark</span>
+                    </button>
+                    <!-- Card 5 -->
+                    <button class="quiz-card-base quiz-card-darkgreen" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;" data-note-file="Guide_Next-Gen_Firewall_Setup.md" data-note-title="Guide: Next-Gen Firewall Setup">
+                        <span class="card-title">Guide: Next-Gen Firewall Setup</span>
+                        <span class="card-subtitle">Adding & configuring Sophos Virtual Firewall</span>
+                    </button>
+                    <!-- Card 6 -->
+                    <button class="quiz-card-base quiz-card-darkgreen" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;" data-note-file="Guide_Sophos_Central_Registration.md" data-note-title="Guide: Sophos Central Registration">
+                        <span class="card-title">Guide: Sophos Central Registration</span>
+                        <span class="card-subtitle">Completing registration for full access</span>
+                    </button>
+                    <!-- Card 7 -->
+                    <button class="quiz-card-base quiz-card-darkgreen opacity-50 cursor-not-allowed" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;">
+                        <span class="card-title">Guide: Sophos Firewall Security Configuration 1</span>
+                        <span class="card-subtitle">Configuring 3 security policies</span>
+                    </button>
+                    <!-- Card 8 -->
+                    <button class="quiz-card-base quiz-card-darkgreen" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;" data-note-file="Guide_Sophos_Firewall_Security_Configuration_2.md" data-note-title="Guide: Sophos Firewall Security Configuration 2">
+                        <span class="card-title">Guide: Sophos Firewall Security Configuration 2</span>
+                        <span class="card-subtitle">Configuring 2 more security policies</span>
+                    </button>
+                    <!-- Card 9 -->
+                    <button class="quiz-card-base quiz-card-darkgreen opacity-50 cursor-not-allowed" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;">
+                        <span class="card-title">Guide: Sophos Endpoint Security</span>
+                        <span class="card-subtitle">Configuring and installing Sophos Endpoint Protection on endpoints</span>
+                    </button>
+                    <!-- Card 10 -->
+                    <button class="quiz-card-base quiz-card-darkgreen" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;" data-note-file="Guide_Setting_Up_an_AWS_Account.md" data-note-title="Guide: Setting Up an AWS Account">
+                        <span class="card-title">Guide: Setting Up an AWS Account</span>
+                        <span class="card-subtitle">Registering an AWS account to access cloud services</span>
+                    </button>
+                    <!-- Card 11 -->
+                    <button class="quiz-card-base quiz-card-darkgreen" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;" data-note-file="Guide_Wazuh_SIEM_&_Agents.md" data-note-title="Guide: Wazuh SIEM & Agents">
+                        <span class="card-title">Guide: Wazuh SIEM & Agents</span>
+                        <span class="card-subtitle">Deploying Wazuh Server on AWS EC2 & Adding Agents on Local VMs</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Tests Screen -->
+            <div id="tests-screen" class="screen right text-center">
+                <h1 class="text-3xl font-bold text-gray-800 mb-6 flex-shrink-0 px-[2vw]">TESTS</h1>
+                <p class="text-lg text-gray-700 mb-8 flex-shrink-0 px-[2vw]">Take on a challenge!</p>
+                
+                <div class="lobby-buttons">
                     <!-- Row 1 (Indigo) -->
                     <button class="quiz-card-base quiz-card-indigo" data-quiz-category="Fundamentals_of_Network_Security">
                         <span class="card-subtitle">CYS 520 &bull; Week 1</span>
@@ -807,17 +896,14 @@
 
                     <p id="loading-message" class="text-sm text-gray-600 col-span-full hidden">Loading quiz data...</p>
                 </div>
-                
-                <!-- Back button removed from here -->
             </div>
 
-            <!-- Format Screen (Back button removed) -->
+            <!-- Format Screen -->
             <div id="format-screen" class="screen right text-center">
-                <h1 class="text-3xl font-bold text-gray-800 mb-6 flex-shrink-0 px-[2vw]">FORMAT</h1>
+                <h1 class="text-3xl font-bold text-gray-800 mb-6 flex-shrink-0 px-[2vw]">TEST FORMAT</h1>
                 <p class="text-lg text-gray-700 mb-8 flex-shrink-0 px-[2vw]">Pick a Format</p>
                 
-                <!-- MODIFIED: Removed inline style from lobby-buttons -->
-                <div class="lobby-buttons"> <!-- This div will now scroll -->
+                <div class="lobby-buttons">
                     <!-- Row 1 -->
                     <button class="format-card-button" data-questions="5" data-time="2">
                         <span class="card-subtitle">5 questions &bull; 2 minutes</span>
@@ -842,11 +928,9 @@
                         <span class="card-title">Surfing!</span>
                     </button>
                 </div>
-                
-                <!-- Back button removed from here -->
             </div>
             
-            <!-- Quiz Screen (Button container removed) -->
+            <!-- Quiz Screen -->
             <div id="quiz-screen" class="screen right">
                 <div id="quiz-main-content">
                     <div class="flex justify-between items-center mb-6">
@@ -862,15 +946,13 @@
                         <button class="option-button"></button>
                     </div>
                 </div>
-                
-                <!-- Button container removed from here -->
             </div>
 
-            <!-- Results Screen (Button container removed) -->
+            <!-- Results Screen -->
             <div id="results-screen" class="screen right text-center justify-between">
                 <div class="flex-grow flex flex-col justify-center items-center">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-2">Done!</h2> <!-- MODIFIED: Reduced margin -->
-                    <p id="results-subtitle" class="text-lg text-gray-700 mb-4 px-[2vw]"></p> <!-- NEW: Subtitle element -->
+                    <h2 class="text-3xl font-bold text-gray-800 mb-2">Done!</h2> 
+                    <p id="results-subtitle" class="text-lg text-gray-700 mb-4 px-[2vw]"></p> 
                     
                     <p class="text-8xl font-bold mb-4 score-indigo-text" style="font-family: 'Sora', sans-serif;">
                         <span id="final-score-percentage"></span>%
@@ -879,28 +961,24 @@
                     <p class="text-lg text-gray-600 mb-2">You got <span id="correct-answers-count" class="font-bold score-indigo-text"></span> out of <span id="total-questions-results" class="font-bold score-indigo-text"></span> right!</p>
                     <p class="text-lg text-gray-600 mb-6" id="time-taken-results"></p>
                 </div>
-
-                <!-- Button container removed from here -->
             </div>
 
-            <!-- Performance Screen (Button removed) -->
+            <!-- Performance Screen -->
             <div id="performance-screen" class="screen right">
-                <h2 class="text-3xl font-bold text-gray-800 mb-2 text-center flex-shrink-0">Your Performance</h2> <!-- MODIFIED: Reduced margin -->
-                <p id="performance-subtitle" class="text-lg text-gray-700 mb-6 text-center flex-shrink-0 px-[2vw]"></p> <!-- NEW: Subtitle element -->
+                <h2 class="text-3xl font-bold text-gray-800 mb-2 text-center flex-shrink-0">Your Performance</h2> 
+                <p id="performance-subtitle" class="text-lg text-gray-700 mb-6 text-center flex-shrink-0 px-[2vw]"></p> 
                 <div id="performance-details-container" class="mt-4 flex-grow" style="overflow-y: auto; -ms-overflow-style: none; scrollbar-width: none;">
                     <!-- Performance items will be injected here -->
                 </div>
-                
-                <!-- Button removed from here -->
             </div>
 
-            <!-- NEW: Reader Screen -->
+            <!-- Reader Screen -->
             <div id="reader-screen" class="screen right">
-                <!-- NEW: Top Bar -->
+                <!-- Top Bar -->
                 <div id="reader-top-bar">
                     <h1 id="reader-title" class="truncate">Loading...</h1>
                 </div>
-                <!-- NEW: Scrollable Content -->
+                <!-- Scrollable Content -->
                 <div id="reader-content-container">
                     <p>Loading notes...</p>
                 </div>
@@ -909,13 +987,10 @@
         </div> <!-- End #main-content-area -->
 
 
-        <!-- NEW: Persistent Bottom Navigation Bar -->
-        <div id="bottom-nav-bar"> <!-- Hidden by default, shown by navigateTo -->
+        <!-- Persistent Bottom Navigation Bar -->
+        <div id="bottom-nav-bar"> 
 
-            <!-- This wrapper holds the swappable content -->
-            <!-- REMOVED: Redundant nav-content-wrapper div -->
-
-            <!-- NEW: Welcome Nav Content -->
+            <!-- Welcome Nav Content -->
             <div id="welcome-nav" class="nav-content hidden w-full justify-center items-center">
                 <button id="go-to-lobby-from-welcome" class="back-icon-button">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -925,7 +1000,6 @@
             </div>
             
             <!-- Lobby Nav Content -->
-            <!-- UPDATED: Classes changed to justify-between -->
             <div id="lobby-nav" class="nav-content hidden w-full justify-between items-center">
                 <button id="back-to-welcome-from-lobby" class="back-icon-button">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -933,28 +1007,23 @@
                     </svg>
                 </button>
 
-                <!-- UPDATED: Fullscreen button now uses classes instead of IDs -->
                 <button class="fullscreen-toggle-button back-icon-button">
-                    <!-- open icon -->
                     <svg class="fullscreen-open-icon w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                       <path fill-rule="evenodd" d="M3.75 6.75a3 3 0 0 1 3-3h3.75a.75.75 0 0 1 0 1.5h-3.75a1.5 1.5 0 0 0-1.5 1.5v3.75a.75.75 0 0 1-1.5 0v-3.75Zm16.5 0a3 3 0 0 0-3-3h-3.75a.75.75 0 0 0 0 1.5h3.75a1.5 1.5 0 0 1 1.5 1.5v3.75a.75.75 0 0 0 1.5 0v-3.75Zm-16.5 10.5a3 3 0 0 0 3 3h3.75a.75.75 0 0 0 0-1.5h-3.75a1.5 1.5 0 0 1-1.5-1.5v-3.75a.75.75 0 0 0-1.5 0v3.75Zm16.5 0a3 3 0 0 1-3 3h-3.75a.75.75 0 0 1 0-1.5h3.75a1.5 1.5 0 0 0 1.5-1.5v-3.75a.75.75 0 0 1 1.5 0v3.75Z" clip-rule="evenodd" />
                     </svg>
-                    <!-- close icon -->
                     <svg class="fullscreen-close-icon w-6 h-6 hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                       <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
                     </svg>
                 </button>
             </div>
 
-            <!-- NEW: Notes Nav Content -->
-            <!-- UPDATED: Added justify-between, items-center, and fullscreen button -->
+            <!-- Notes Nav Content -->
             <div id="notes-nav" class="nav-content hidden w-full justify-between items-center">
                 <button id="back-to-lobby-from-notes" class="back-icon-button">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                         <path fill-rule="evenodd" d="M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z" clip-rule="evenodd" />
                     </svg>
                 </button>
-                <!-- NEW: Fullscreen button added -->
                 <button class="fullscreen-toggle-button back-icon-button">
                     <svg class="fullscreen-open-icon w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                       <path fill-rule="evenodd" d="M3.75 6.75a3 3 0 0 1 3-3h3.75a.75.75 0 0 1 0 1.5h-3.75a1.5 1.5 0 0 0-1.5 1.5v3.75a.75.75 0 0 1-1.5 0v-3.75Zm16.5 0a3 3 0 0 0-3-3h-3.75a.75.75 0 0 0 0 1.5h3.75a1.5 1.5 0 0 1 1.5 1.5v3.75a.75.75 0 0 0 1.5 0v-3.75Zm-16.5 10.5a3 3 0 0 0 3 3h3.75a.75.75 0 0 0 0-1.5h-3.75a1.5 1.5 0 0 1-1.5-1.5v-3.75a.75.75 0 0 0-1.5 0v3.75Zm16.5 0a3 3 0 0 1-3 3h-3.75a.75.75 0 0 1 0-1.5h3.75a1.5 1.5 0 0 0 1.5-1.5v-3.75a.75.75 0 0 1 1.5 0v3.75Z" clip-rule="evenodd" />
@@ -965,15 +1034,47 @@
                 </button>
             </div>
 
-            <!-- RENAMED: Tests Nav Content (formerly lobby-nav) -->
-            <!-- UPDATED: Added justify-between, items-center, and fullscreen button -->
+            <!-- Decks Nav Content -->
+            <div id="decks-nav" class="nav-content hidden w-full justify-between items-center">
+                <button id="back-to-lobby-from-decks" class="back-icon-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path fill-rule="evenodd" d="M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <button class="fullscreen-toggle-button back-icon-button">
+                    <svg class="fullscreen-open-icon w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                      <path fill-rule="evenodd" d="M3.75 6.75a3 3 0 0 1 3-3h3.75a.75.75 0 0 1 0 1.5h-3.75a1.5 1.5 0 0 0-1.5 1.5v3.75a.75.75 0 0 1-1.5 0v-3.75Zm16.5 0a3 3 0 0 0-3-3h-3.75a.75.75 0 0 0 0 1.5h3.75a1.5 1.5 0 0 1 1.5 1.5v3.75a.75.75 0 0 0 1.5 0v-3.75Zm-16.5 10.5a3 3 0 0 0 3 3h3.75a.75.75 0 0 0 0-1.5h-3.75a1.5 1.5 0 0 1-1.5-1.5v-3.75a.75.75 0 0 0-1.5 0v3.75Zm16.5 0a3 3 0 0 1-3 3h-3.75a.75.75 0 0 1 0-1.5h3.75a1.5 1.5 0 0 0 1.5-1.5v-3.75a.75.75 0 0 1 1.5 0v3.75Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg class="fullscreen-close-icon w-6 h-6 hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                      <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- NEW: Miscellaneous Nav Content -->
+            <div id="misc-nav" class="nav-content hidden w-full justify-between items-center">
+                <button id="back-to-lobby-from-misc" class="back-icon-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path fill-rule="evenodd" d="M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <button class="fullscreen-toggle-button back-icon-button">
+                    <svg class="fullscreen-open-icon w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                      <path fill-rule="evenodd" d="M3.75 6.75a3 3 0 0 1 3-3h3.75a.75.75 0 0 1 0 1.5h-3.75a1.5 1.5 0 0 0-1.5 1.5v3.75a.75.75 0 0 1-1.5 0v-3.75Zm16.5 0a3 3 0 0 0-3-3h-3.75a.75.75 0 0 0 0 1.5h3.75a1.5 1.5 0 0 1 1.5 1.5v3.75a.75.75 0 0 0 1.5 0v-3.75Zm-16.5 10.5a3 3 0 0 0 3 3h3.75a.75.75 0 0 0 0-1.5h-3.75a1.5 1.5 0 0 1-1.5-1.5v-3.75a.75.75 0 0 0-1.5 0v3.75Zm16.5 0a3 3 0 0 1-3 3h-3.75a.75.75 0 0 1 0-1.5h3.75a1.5 1.5 0 0 0 1.5-1.5v-3.75a.75.75 0 0 1 1.5 0v3.75Z" clip-rule="evenodd" />
+                    </svg>
+                    <svg class="fullscreen-close-icon w-6 h-6 hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                      <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Tests Nav Content -->
             <div id="tests-nav" class="nav-content hidden w-full justify-between items-center">
                 <button id="back-to-lobby-from-tests" class="back-icon-button">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                         <path fill-rule="evenodd" d="M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z" clip-rule="evenodd" />
                     </svg>
                 </button>
-                <!-- NEW: Fullscreen button added -->
                 <button class="fullscreen-toggle-button back-icon-button">
                     <svg class="fullscreen-open-icon w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                       <path fill-rule="evenodd" d="M3.75 6.75a3 3 0 0 1 3-3h3.75a.75.75 0 0 1 0 1.5h-3.75a1.5 1.5 0 0 0-1.5 1.5v3.75a.75.75 0 0 1-1.5 0v-3.75Zm16.5 0a3 3 0 0 0-3-3h-3.75a.75.75 0 0 0 0 1.5h3.75a1.5 1.5 0 0 1 1.5 1.5v3.75a.75.75 0 0 0 1.5 0v-3.75Zm-16.5 10.5a3 3 0 0 0 3 3h3.75a.75.75 0 0 0 0-1.5h-3.75a1.5 1.5 0 0 1-1.5-1.5v-3.75a.75.75 0 0 0-1.5 0v3.75Zm16.5 0a3 3 0 0 1-3 3h-3.75a.75.75 0 0 1 0-1.5h3.75a1.5 1.5 0 0 0 1.5-1.5v-3.75a.75.75 0 0 1 1.5 0v3.75Z" clip-rule="evenodd" />
@@ -985,15 +1086,12 @@
             </div>
 
             <!-- Format Nav Content -->
-            <!-- UPDATED: Added justify-between, items-center, and fullscreen button -->
             <div id="format-nav" class="nav-content hidden w-full justify-between items-center">
-                <!-- UPDATED: Button ID -->
                 <button id="back-to-tests-from-format" class="back-icon-button">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                         <path fill-rule="evenodd" d="M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z" clip-rule="evenodd" />
                     </svg>
                 </button>
-                <!-- NEW: Fullscreen button added -->
                 <button class="fullscreen-toggle-button back-icon-button">
                     <svg class="fullscreen-open-icon w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                       <path fill-rule="evenodd" d="M3.75 6.75a3 3 0 0 1 3-3h3.75a.75.75 0 0 1 0 1.5h-3.75a1.5 1.5 0 0 0-1.5 1.5v3.75a.75.75 0 0 1-1.5 0v-3.75Zm16.5 0a3 3 0 0 0-3-3h-3.75a.75.75 0 0 0 0 1.5h3.75a1.5 1.5 0 0 1 1.5 1.5v3.75a.75.75 0 0 0 1.5 0v-3.75Zm-16.5 10.5a3 3 0 0 0 3 3h3.75a.75.75 0 0 0 0-1.5h-3.75a1.5 1.5 0 0 1-1.5-1.5v-3.75a.75.75 0 0 0-1.5 0v3.75Zm16.5 0a3 3 0 0 1-3 3h-3.75a.75.75 0 0 1 0-1.5h3.75a1.5 1.5 0 0 0 1.5-1.5v-3.75a.75.75 0 0 1 1.5 0v3.75Z" clip-rule="evenodd" />
@@ -1004,8 +1102,7 @@
                 </button>
             </div>
 
-            <!-- NEW: Reader Nav Content -->
-            <!-- UPDATED: Added justify-between, items-center, and NEW dark mode button -->
+            <!-- Reader Nav Content -->
             <div id="reader-nav" class="nav-content hidden w-full justify-between items-center">
                 <!-- Left: Back Button -->
                 <button id="back-to-notes-from-reader" class="back-icon-button">
@@ -1014,10 +1111,9 @@
                     </svg>
                 </button>
                 
-                <!-- NEW: Center: Dark Mode Toggle Switch -->
+                <!-- Center: Dark Mode Toggle Switch -->
                 <div class="flex items-center justify-center">
                     <label for="dark-mode-toggle-switch" class="flex items-center cursor-pointer">
-                        <!-- UPDATED: Replaced text with emoji spans -->
                         <span class="mr-2 text-2xl dark-mode-toggle-label">
                             <span class="light-mode-emoji">🌕</span>
                             <span class="dark-mode-emoji">🌑</span>
@@ -1056,7 +1152,6 @@
                         <span class="card-title">Performance</span>
                         <span class="card-subtitle">See how you did!</span>
                     </button>
-                    <!-- UPDATED: Button ID and text -->
                     <button id="return-to-tests-from-results-button" class="quiz-card-base quiz-card-indigo w-1/2" style="aspect-ratio: 2 / 1;">
                         <span class="card-title">Tests</span>
                         <span class="card-subtitle">Take another test!</span>
@@ -1070,9 +1165,6 @@
                     Return to Tests
                 </button>
             </div>
-            <!-- REMOVED: Redundant wrapper div closing tag -->
-
-            <!-- REMOVED: Static fullscreen-toggle-container -->
 
         </div> <!-- End #bottom-nav-bar -->
 
@@ -1102,18 +1194,27 @@
         
         // DOM Elements
         const welcomeScreen = document.getElementById('welcome-screen');
-        // REMOVED: const continueButton = document.getElementById('continue-button');
         
-        // NEW: Lobby Screen elements
+        // Lobby Screen elements
         const lobbyScreen = document.getElementById('lobby-screen');
         const goToNotesButton = document.getElementById('go-to-notes-button');
+        const goToDecksButton = document.getElementById('go-to-decks-button');
+        const goToMiscButton = document.getElementById('go-to-misc-button'); 
         const goToTestsButton = document.getElementById('go-to-tests-button');
 
-        // NEW: Notes Screen element
+        // Notes Screen element
         const notesScreen = document.getElementById('notes-screen');
-        const notesCategoryButtons = document.querySelectorAll('#notes-screen .quiz-card-base:not(.cursor-not-allowed)'); // NEW
+        const notesCategoryButtons = document.querySelectorAll('#notes-screen .quiz-card-base:not(.cursor-not-allowed)');
 
-        // RENAMED: Tests Screen elements (formerly lobby)
+        // Decks Screen element
+        const decksScreen = document.getElementById('decks-screen');
+        const decksCategoryButtons = document.querySelectorAll('#decks-screen .quiz-card-base:not(.cursor-not-allowed)');
+
+        // Misc Screen element
+        const miscScreen = document.getElementById('misc-screen');
+        const miscCategoryButtons = document.querySelectorAll('#misc-screen .quiz-card-base:not(.cursor-not-allowed)');
+
+        // Tests Screen elements
         const testsScreen = document.getElementById('tests-screen');
         const loadingMessage = document.getElementById('loading-message');
         const quizCategoryButtons = document.querySelectorAll('#tests-screen .quiz-card-base:not(.cursor-not-allowed)'); 
@@ -1122,7 +1223,7 @@
         const resultsScreen = document.getElementById('results-screen');
         const performanceScreen = document.getElementById('performance-screen');
         
-        // NEW: Reader Screen elements
+        // Reader Screen elements
         const readerScreen = document.getElementById('reader-screen');
         const readerTitle = document.getElementById('reader-title');
         const readerContentContainer = document.getElementById('reader-content-container');
@@ -1131,13 +1232,15 @@
         const optionsContainer = document.getElementById('options-container');
         const optionButtons = optionsContainer.querySelectorAll('.option-button'); 
         
-        // --- UPDATED: Nav Bar and Content References ---
+        // --- Nav Bar and Content References ---
         const bottomNavBar = document.getElementById('bottom-nav-bar');
-        const welcomeNav = document.getElementById('welcome-nav'); // NEW
-        const lobbyNav = document.getElementById('lobby-nav'); // New
-        const notesNav = document.getElementById('notes-nav'); // New
-        const readerNav = document.getElementById('reader-nav'); // New
-        const testsNav = document.getElementById('tests-nav'); // Renamed
+        const welcomeNav = document.getElementById('welcome-nav'); 
+        const lobbyNav = document.getElementById('lobby-nav'); 
+        const notesNav = document.getElementById('notes-nav');
+        const decksNav = document.getElementById('decks-nav');
+        const miscNav = document.getElementById('misc-nav'); 
+        const readerNav = document.getElementById('reader-nav'); 
+        const testsNav = document.getElementById('tests-nav'); 
         const formatNav = document.getElementById('format-nav');
         const quizNav = document.getElementById('quiz-nav');
         const resultsNav = document.getElementById('results-nav');
@@ -1146,16 +1249,18 @@
         // Buttons now referenced from their nav containers
         const submitAnswerButton = quizNav.querySelector('#submit-answer-button');
         const quitQuizButton = quizNav.querySelector('#quit-quiz-button');
-        const returnToTestsFromResultsButton = resultsNav.querySelector('#return-to-tests-from-results-button'); // Renamed
+        const returnToTestsFromResultsButton = resultsNav.querySelector('#return-to-tests-from-results-button'); 
         const seePerformanceButton = resultsNav.querySelector('#see-performance-button');
-        const returnToTestsFromPerformanceButton = performanceNav.querySelector('#return-to-tests-from-performance-button'); // Renamed
-        const backToWelcomeFromLobby = lobbyNav.querySelector('#back-to-welcome-from-lobby'); // New
-        const backToLobbyFromNotes = notesNav.querySelector('#back-to-lobby-from-notes'); // New
-        const backToNotesFromReader = readerNav.querySelector('#back-to-notes-from-reader'); // New
-        const darkModeToggle = readerNav.querySelector('#dark-mode-toggle-switch'); // UPDATED: Dark Mode Switch
-        const goToLobbyFromWelcome = welcomeNav.querySelector('#go-to-lobby-from-welcome'); // NEW
-        const backToLobbyFromTests = testsNav.querySelector('#back-to-lobby-from-tests'); // Renamed
-        const backToTestsFromFormat = formatNav.querySelector('#back-to-tests-from-format'); // Renamed
+        const returnToTestsFromPerformanceButton = performanceNav.querySelector('#return-to-tests-from-performance-button'); 
+        const backToWelcomeFromLobby = lobbyNav.querySelector('#back-to-welcome-from-lobby'); 
+        const backToLobbyFromNotes = notesNav.querySelector('#back-to-lobby-from-notes');
+        const backToLobbyFromDecks = decksNav.querySelector('#back-to-lobby-from-decks');
+        const backToLobbyFromMisc = miscNav.querySelector('#back-to-lobby-from-misc'); 
+        const backToNotesFromReader = readerNav.querySelector('#back-to-notes-from-reader'); 
+        const darkModeToggle = readerNav.querySelector('#dark-mode-toggle-switch'); 
+        const goToLobbyFromWelcome = welcomeNav.querySelector('#go-to-lobby-from-welcome'); 
+        const backToLobbyFromTests = testsNav.querySelector('#back-to-lobby-from-tests'); 
+        const backToTestsFromFormat = formatNav.querySelector('#back-to-tests-from-format'); 
         // --- End Nav Bar References ---
 
         const timeLeftDisplay = document.getElementById('time-left');
@@ -1168,29 +1273,34 @@
         const timeTakenResultsDisplay = document.getElementById('time-taken-results');
 
         const performanceDetailsContainer = document.getElementById('performance-details-container');
-        const performanceSubtitle = document.getElementById('performance-subtitle'); // FIX: Added missing definition
-        const resultsSubtitle = document.getElementById('results-subtitle'); // NEW: Added definition
+        const performanceSubtitle = document.getElementById('performance-subtitle'); 
+        const resultsSubtitle = document.getElementById('results-subtitle'); 
         
         const formatScreen = document.getElementById('format-screen');
         const formatCards = document.querySelectorAll('.format-card-button');
 
         const typewriterOutput = document.getElementById('typewriter-output');
 
+        // State variables for Reader navigation
+        let lastScreenBeforeReader = null;
 
-        // --- UPDATED: Screen Navigation System ---
+
+        // --- Screen Navigation System ---
         const allScreens = [
-            { element: welcomeScreen, name: 'welcome', nav: welcomeNav }, // UPDATED
-            { element: lobbyScreen, name: 'lobby', nav: lobbyNav },       // New
-            { element: notesScreen, name: 'notes', nav: notesNav },       // New
-            { element: readerScreen, name: 'reader', nav: readerNav },     // New
-            { element: testsScreen, name: 'tests', nav: testsNav },       // Renamed
+            { element: welcomeScreen, name: 'welcome', nav: welcomeNav }, 
+            { element: lobbyScreen, name: 'lobby', nav: lobbyNav },       
+            { element: notesScreen, name: 'notes', nav: notesNav },
+            { element: decksScreen, name: 'decks', nav: decksNav },   
+            { element: miscScreen, name: 'misc', nav: miscNav }, 
+            { element: readerScreen, name: 'reader', nav: readerNav },     
+            { element: testsScreen, name: 'tests', nav: testsNav },       
             { element: formatScreen, name: 'format', nav: formatNav }, 
             { element: quizScreen, name: 'quiz', nav: quizNav }, 
             { element: resultsScreen, name: 'results', nav: resultsNav }, 
             { element: performanceScreen, name: 'performance', nav: performanceNav }
         ];
-        // NEW: List of all nav content blocks
-        const allNavContents = [welcomeNav, lobbyNav, notesNav, readerNav, testsNav, formatNav, quizNav, resultsNav, performanceNav]; // Updated
+        // List of all nav content blocks
+        const allNavContents = [welcomeNav, lobbyNav, notesNav, decksNav, miscNav, readerNav, testsNav, formatNav, quizNav, resultsNav, performanceNav]; 
         let currentPage = welcomeScreen;
 
         /**
@@ -1206,14 +1316,15 @@
             const newScreenConfig = allScreens.find(s => s.element === newPage);
 
             // 1. Handle Nav Bar Visibility
-            // REMOVED: Block that hid nav bar on welcome screen
             bottomNavBar.classList.remove('hidden');
             
-            // --- NEW: Handle Dark Mode state ---
+            // --- Handle Dark Mode state ---
             // Automatically remove dark mode if we navigate away from the reader screen
             if (newPage !== readerScreen) {
                 readerScreen.classList.remove('dark-mode');
                 bottomNavBar.classList.remove('dark-mode-nav');
+                // Reset toggle
+                if (darkModeToggle) darkModeToggle.checked = false;
             }
             // --- End Dark Mode Handle ---
 
@@ -1265,7 +1376,7 @@
         let timeLeft; 
         let quizStartTime;
         let selectedQuizCategory = null; 
-        let selectedQuizDisplayName = ""; // NEW: Variable to store the test name
+        let selectedQuizDisplayName = ""; 
         let selectedOption = null; 
         let quizResultsDetails = [];
         let isUnlimitedMode = false;
@@ -1312,17 +1423,10 @@
         }
         // --- End Typewriter Loop Logic ---
 
-        // --- UPDATED: Notes Parser (now uses 'marked.js' library) ---
-        /**
-         * Uses the marked.js library to parse Markdown to HTML.
-         * @param {string} text - The raw markdown text.
-         * @returns {string} - HTML string.
-         */
+        // --- Notes Parser (uses 'marked.js' library) ---
         function parseNotesToHTML(text) {
             if (!text) return '<p>No content found.</p>';
             
-            // Use the global 'marked.parse()' function from the library
-            // This is much more robust than the old custom parser.
             try {
                 // Set options for compatibility
                 marked.setOptions({
@@ -1372,7 +1476,6 @@
             });
             
             selectedQuizCategory = categoryKey;
-            // REMOVED: selectedQuizDisplayName is now set in the event listener
             navigateTo(formatScreen, 'forward');
         }
 
@@ -1382,7 +1485,6 @@
             
             const categoryKey = card.dataset.category;
             if (!categoryKey) {
-                // UPDATED: Error message and navigation
                 showMessageBox("Error", "Quiz category was not selected. Please return to Tests.", () => {
                     navigateTo(testsScreen, 'backward');
                 });
@@ -1399,7 +1501,7 @@
             showMessageBox("Loading Quiz", "Preparing your questions...", null);
             
             try {
-                // MODIFIED: Call new JSON fetch function
+                // Call JSON fetch function
                 await fetchQuestionsFromJson();
 
                 let questionsToLoad;
@@ -1443,7 +1545,6 @@
             }
             
             // Build path to the local JSON file
-            // This assumes index.html and the 'data' folder are in the same root directory
             const jsonPath = `./data/${categoryFilename}.json`;
             
             console.log("Fetching from:", jsonPath);
@@ -1455,7 +1556,6 @@
                     throw new Error(`HTTP error! status: ${response.status} - Ensure ${jsonPath} exists`);
                 }
                 
-                // The JSON file MUST contain an array of question objects
                 allQuestionsForCategory = await response.json();
                 console.log(`Fetched ${allQuestionsForCategory.length} questions.`);
 
@@ -1469,14 +1569,20 @@
             }
         }
 
-        // --- NEW: Function to open Reader Page ---
-        async function openReaderPage(noteFile, title) {
+        // --- Function to open Reader Page ---
+        async function openReaderPage(noteFile, title, sourceScreen) {
             readerTitle.textContent = title;
-            readerContentContainer.innerHTML = '<p class="text-center text-gray-600">Loading notes...</p>';
+            readerContentContainer.innerHTML = '<p class="text-center text-gray-600">Loading content...</p>';
+            
+            // Save source screen for back navigation
+            if (sourceScreen) {
+                lastScreenBeforeReader = sourceScreen;
+            }
+
             navigateTo(readerScreen, 'forward');
 
             const notePath = `./data/${noteFile}`;
-            console.log("Fetching notes from:", notePath);
+            console.log("Fetching notes/decks from:", notePath);
 
             try {
                 const response = await fetch(notePath);
@@ -1488,9 +1594,9 @@
                 readerContentContainer.innerHTML = notesHTML;
 
             } catch (error) {
-                console.error("Error fetching notes:", error);
-                readerContentContainer.innerHTML = `<p class="text-center text-red-600 font-semibold">Error: Could not load notes.<br>${error.message}</p>`;
-                showMessageBox("Error", `Failed to load notes: ${error.message}`);
+                console.error("Error fetching content:", error);
+                readerContentContainer.innerHTML = `<p class="text-center text-red-600 font-semibold">Error: Could not load content.<br>${error.message}</p>`;
+                showMessageBox("Error", `Failed to load content: ${error.message}`);
             }
         }
 
@@ -1615,7 +1721,7 @@
             finalScorePercentageDisplay.textContent = percentageScore;
             correctAnswersCountDisplay.textContent = score;
             totalQuestionsResultsDisplay.textContent = totalQuestionsAnswered;
-            resultsSubtitle.textContent = selectedQuizDisplayName; // NEW: Set the subtitle text
+            resultsSubtitle.textContent = selectedQuizDisplayName; 
             
             if (isUnlimitedMode) {
                  timeTakenResultsDisplay.textContent = `Time taken: ${minutes}m ${seconds}s`;
@@ -1628,8 +1734,7 @@
             navigateTo(resultsScreen, 'forward');
         }
 
-        /* --- NEW: Fullscreen Toggle Logic --- */
-        /* UPDATED: Logic to support class-based selectors */
+        /* --- Fullscreen Toggle Logic --- */
         function setupFullscreenToggle() {
             const fullscreenToggleButtons = document.querySelectorAll('.fullscreen-toggle-button');
 
@@ -1691,7 +1796,7 @@
         // Function to show performance breakdown
         function showPerformance() {
             navigateTo(performanceScreen, 'forward');
-            performanceSubtitle.textContent = selectedQuizDisplayName; // NEW: Set the subtitle text
+            performanceSubtitle.textContent = selectedQuizDisplayName; 
             performanceDetailsContainer.innerHTML = ''; 
 
             if (quizResultsDetails.length === 0) {
@@ -1723,7 +1828,7 @@
         // --- EVENT LISTENERS ---
         document.addEventListener('DOMContentLoaded', () => {
             typeWriterEffect();
-            setupFullscreenToggle(); // NEW: Initialize fullscreen button logic
+            setupFullscreenToggle(); 
             
             // Unlock the buttons immediately since we don't need to wait for auth
             quizCategoryButtons.forEach(button => button.disabled = false);
@@ -1739,38 +1844,43 @@
             currentPage = welcomeScreen;
 
 
-            /* --- NEW: Manually set initial nav bar state --- */
-            // Show the nav bar itself
+            /* --- Manually set initial nav bar state --- */
             bottomNavBar.classList.remove('hidden'); 
-            // Hide all nav content blocks
             allNavContents.forEach(nav => nav.classList.add('hidden'));
-            // Show only the welcome nav content
             welcomeNav.classList.remove('hidden'); 
             /* --- End Initial Nav Setup --- */
 
 
             /* --- Welcome Screen --- */
-            // ADDED: Re-added missing listener
             goToLobbyFromWelcome.addEventListener('click', () => {
                 navigateTo(lobbyScreen, 'forward');
             });
 
-            /* --- NEW Lobby Screen --- */
-            // ADDED: Re-added missing listener
+            /* --- Lobby Screen --- */
             goToNotesButton.addEventListener('click', () => {
                 navigateTo(notesScreen, 'forward');
             });
 
-            // MOVED: Listener moved to correct section
+            goToDecksButton.addEventListener('click', () => {
+                navigateTo(decksScreen, 'forward');
+            });
+
             goToTestsButton.addEventListener('click', () => {
                 navigateTo(testsScreen, 'forward');
             });
+
+            // Misc button listener
+            if (goToMiscButton) {
+                goToMiscButton.addEventListener('click', () => {
+                    navigateTo(miscScreen, 'forward');
+                });
+            }
 
             backToWelcomeFromLobby.addEventListener('click', () => {
                 navigateTo(welcomeScreen, 'backward');
             });
 
-            /* --- NEW Notes Screen --- */
+            /* --- Notes Screen --- */
             backToLobbyFromNotes.addEventListener('click', () => {
                 navigateTo(lobbyScreen, 'backward');
             });
@@ -1779,37 +1889,71 @@
                 button.addEventListener('click', (event) => {
                     const { noteFile, noteTitle } = event.currentTarget.dataset;
                     if (noteFile && noteTitle) {
-                        openReaderPage(noteFile, noteTitle);
+                        openReaderPage(noteFile, noteTitle, notesScreen);
                     } else {
                         showMessageBox("Notice", "Notes for this section are not yet available.");
                     }
                 });
             });
 
-            /* --- NEW Reader Screen --- */
+            /* --- Decks Screen --- */
+            backToLobbyFromDecks.addEventListener('click', () => {
+                navigateTo(lobbyScreen, 'backward');
+            });
+
+            decksCategoryButtons.forEach(button => {
+                button.addEventListener('click', (event) => {
+                    const { noteFile, noteTitle } = event.currentTarget.dataset; 
+                    if (noteFile && noteTitle) {
+                        openReaderPage(noteFile, noteTitle, decksScreen);
+                    } else {
+                        showMessageBox("Notice", "Deck for this section is not yet available.");
+                    }
+                });
+            });
+
+            /* --- Misc Screen --- */
+            backToLobbyFromMisc.addEventListener('click', () => {
+                navigateTo(lobbyScreen, 'backward');
+            });
+
+            miscCategoryButtons.forEach(button => {
+                button.addEventListener('click', (event) => {
+                    const { noteFile, noteTitle } = event.currentTarget.dataset; 
+                    if (noteFile && noteTitle) {
+                        openReaderPage(noteFile, noteTitle, miscScreen);
+                    } else {
+                        showMessageBox("Notice", "Content for this item is not yet available.");
+                    }
+                });
+            });
+
+            /* --- Reader Screen --- */
             backToNotesFromReader.addEventListener('click', () => {
-                // Note: The dark mode classes are removed automatically by navigateTo()
-                navigateTo(notesScreen, 'backward');
+                // Return to the screen that invoked the reader
+                if (lastScreenBeforeReader) {
+                    navigateTo(lastScreenBeforeReader, 'backward');
+                } else {
+                    navigateTo(notesScreen, 'backward'); // Default fallback
+                }
             });
             
-            /* --- NEW: Dark Mode Toggle --- */ // FIXED: Comment style
-            darkModeToggle.addEventListener('change', () => { // UPDATED: Event type is 'change'
+            /* --- Dark Mode Toggle --- */ 
+            darkModeToggle.addEventListener('change', () => { 
                 readerScreen.classList.toggle('dark-mode');
                 bottomNavBar.classList.toggle('dark-mode-nav');
             });
 
 
-            /* --- RENAMED: Tests Screen (formerly Lobby) --- */
+            /* --- Tests Screen --- */
             quizCategoryButtons.forEach(button => {
                 button.addEventListener('click', (event) => {
                     const categoryKey = event.currentTarget.dataset.quizCategory;
-                    // NEW: Get the display name from the card's title
                     selectedQuizDisplayName = event.currentTarget.querySelector('.card-title').textContent.trim();
                     selectQuizCategory(categoryKey);
                 });
             });
             
-            // UPDATED: Button and destination
             backToLobbyFromTests.addEventListener('click', () => {
                 navigateTo(lobbyScreen, 'backward');
             });
@@ -1819,7 +1963,6 @@
                 card.addEventListener('click', selectQuizFormat);
             });
 
-            // UPDATED: Button and destination
             backToTestsFromFormat.addEventListener('click', () => {
                 navigateTo(testsScreen, 'backward');
             });
@@ -1843,7 +1986,6 @@
             });
 
             /* --- Results Screen --- */
-            // UPDATED: Button and destination
             returnToTestsFromResultsButton.addEventListener('click', () => {
                 navigateTo(testsScreen, 'backward');
             });
@@ -1853,7 +1995,6 @@
             });
 
             /* --- Performance Screen --- */
-            // UPDATED: Button and destination
             returnToTestsFromPerformanceButton.addEventListener('click', () => {
                 navigateTo(testsScreen, 'backward');
             });
@@ -1862,6 +2003,3 @@
     </script>
 </body>
 </html>
-
-
-

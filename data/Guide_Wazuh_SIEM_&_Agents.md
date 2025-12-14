@@ -1,4 +1,4 @@
-# **Wazuh SIEM on AWS & Agents on VMs**
+# **Wazuh SIEM & Agents**
 
 # **Deploying Wazuh SIEM on AWS EC2 & Connecting Local VM Agents**
 

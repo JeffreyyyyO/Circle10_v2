@@ -1,5 +1,6 @@
-# **Lab: TLS/SSL Configuration, VPN Setup & Traffic Analysis**
+# **Lab: TLS/SSL, VPN & Traffic Analysis**
 
+## **TLS/SSL Configuration, VPN Setup & Traffic Analysis**
 This guide outlines the steps for setting up a secure web server, configuring SSL/TLS, and analyzing network traffic using Kali Linux and Wireshark.
 
 ## **Prerequisites: VirtualBox Configuration**

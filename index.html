@@ -166,6 +166,12 @@
         #message-title {
             font-family: 'Sora', sans-serif;
         }
+        
+        /* Anchor Link Styles */
+        #reader-anchor-overlay h3, 
+        .anchor-link-item {
+            font-family: 'Sora', sans-serif;
+        }
 
         .score-indigo-text {
             color: #4f46e5; 
@@ -264,12 +270,13 @@
         }
         
         /* --- Lobby Card Color --- */
+        /* UPDATED: Changed from Brown to Teal #004545 */
         .quiz-card-lobby {
-            background-color: #895129; /* Brown */
+            background-color: #004545; /* Teal */
             color: white;
         }
         .quiz-card-lobby:hover {
-            background-color: #753d15; /* Darker Brown */
+            background-color: #003333; /* Darker Teal on hover */
         }
 
         /* --- Dark Green Card Color --- */
@@ -481,14 +488,17 @@
         #reader-top-bar {
             display: flex;
             align-items: center;
-            justify-content: center;
-            padding: 2vw 2vw; /* Match bottom bar padding */
+            justify-content: space-between; /* Changed for hamburger & title layout */
+            gap: 12px; /* Gap between hamburger and title */
+            padding: 1rem 1.5rem; /* Expanded padding for height */
             border-bottom: 1px solid #b4b4b4;
             background-color: #d0d0d0;
-            flex-shrink: 0; /* Prevent shrinking */
-            min-height: 48px; /* Ensure it matches back button height */
+            flex-shrink: 0; 
+            min-height: 80px; /* Expanded height for 2 lines */
             box-sizing: border-box;
-            transition: background-color 0.3s ease, border-color 0.3s ease; /* Added transition */
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+            position: relative;
+            z-index: 30; /* Above the overlay content */
         }
 
         #reader-title {
@@ -496,13 +506,52 @@
             font-weight: 600;
             color: #333333;
             text-align: center;
-            /* Truncate long titles */
-            white-space: nowrap;
+            
+            /* Support 2 lines */
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
             overflow: hidden;
-            text-overflow: ellipsis;
-            padding-left: 1rem;
-            padding-right: 1rem;
-            transition: color 0.3s ease; /* Added transition */
+            white-space: normal; /* Allow wrapping */
+            line-height: 1.3;
+            
+            flex-grow: 1; /* Take remaining space */
+            transition: color 0.3s ease;
+        }
+
+        /* New Hamburger Button Style */
+        .hamburger-button {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background-color: transparent; 
+            color: #4b5563; /* Gray-600 */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.2s ease, color 0.2s ease;
+            border: 2px solid #9ca3af; /* Add border to match size visual */
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+        .hamburger-button:hover {
+            background-color: rgba(0,0,0,0.05);
+            color: #1f2937;
+        }
+
+        /* Placeholder spacer to balance the title centering */
+        .reader-top-spacer {
+            width: 48px;
+            height: 48px;
+            flex-shrink: 0;
+        }
+
+        /* Reader Content Wrapper to hold overlay and content */
+        #reader-wrapper {
+            position: relative;
+            flex-grow: 1;
+            overflow: hidden; /* Hide overflow of overlay */
+            display: flex;
         }
 
         #reader-content-container {
@@ -510,13 +559,80 @@
             overflow-y: auto;
             padding: 20px;
             color: #333;
-            transition: color 0.3s ease; /* Added transition */
+            transition: color 0.3s ease;
             -ms-overflow-style: none; /* IE and Edge */
             scrollbar-width: none; /* Firefox */
         }
         #reader-content-container::-webkit-scrollbar {
             display: none; /* Chrome, Safari */
         }
+        
+        /* --- Anchor Links Overlay --- */
+        #reader-anchor-overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 50%; /* Half screen width */
+            background-color: #e5e5e5; /* Slightly distinct from bg */
+            z-index: 25; /* Above content */
+            
+            transform: translateX(-100%); /* Hidden by default */
+            transition: transform 0.3s ease-in-out;
+            
+            overflow-y: auto;
+            border-right: 1px solid #b4b4b4;
+            padding: 20px;
+            box-sizing: border-box;
+            
+            /* Hide scrollbar */
+            -ms-overflow-style: none; 
+            scrollbar-width: none; 
+        }
+        #reader-anchor-overlay::-webkit-scrollbar {
+            display: none;
+        }
+        
+        #reader-anchor-overlay.open {
+            transform: translateX(0);
+        }
+
+        .anchor-section-title {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #6b7280;
+            margin-bottom: 12px;
+            margin-top: 20px;
+            font-weight: 700;
+        }
+        .anchor-section-title:first-child {
+            margin-top: 0;
+        }
+
+        .anchor-link-item {
+            display: block;
+            padding: 8px 0;
+            color: #374151;
+            text-decoration: none;
+            font-size: 0.95rem;
+            border-bottom: 1px solid #d1d5db;
+            transition: color 0.2s ease, padding-left 0.2s ease;
+            cursor: pointer;
+        }
+        .anchor-link-item:hover {
+            color: #2563eb; /* Blue */
+            padding-left: 4px;
+        }
+        .anchor-link-h2 {
+            padding-left: 16px; /* Indent H2 */
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+        .anchor-link-h2:hover {
+            padding-left: 20px;
+        }
+
 
         /* --- Notes Content Formatting --- */
         #reader-content-container h1 {
@@ -603,6 +719,30 @@
         
         #reader-screen.dark-mode #reader-title {
             color: #d0d0d0;
+        }
+        
+        #reader-screen.dark-mode .hamburger-button {
+            color: #d0d0d0;
+            border-color: #4b5563;
+        }
+        #reader-screen.dark-mode .hamburger-button:hover {
+            background-color: rgba(255,255,255,0.1);
+            color: white;
+        }
+
+        #reader-screen.dark-mode #reader-anchor-overlay {
+            background-color: #1a1a1a;
+            border-right-color: #333;
+        }
+        #reader-screen.dark-mode .anchor-section-title {
+            color: #9ca3af;
+        }
+        #reader-screen.dark-mode .anchor-link-item {
+            color: #d1d5db;
+            border-bottom-color: #374151;
+        }
+        #reader-screen.dark-mode .anchor-link-item:hover {
+            color: #60a5fa; /* Blue-400 */
         }
 
         #reader-screen.dark-mode #reader-content-container {
@@ -976,11 +1116,29 @@
             <div id="reader-screen" class="screen right">
                 <!-- Top Bar -->
                 <div id="reader-top-bar">
+                    <!-- Hamburger Button -->
+                    <button id="reader-hamburger-button" class="hamburger-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                    </button>
+                    <!-- Title -->
                     <h1 id="reader-title" class="truncate">Loading...</h1>
+                    <!-- Spacer -->
+                    <div class="reader-top-spacer"></div>
                 </div>
-                <!-- Scrollable Content -->
-                <div id="reader-content-container">
-                    <p>Loading notes...</p>
+                
+                <!-- Content Wrapper -->
+                <div id="reader-wrapper">
+                    <!-- Anchor Overlay -->
+                    <div id="reader-anchor-overlay">
+                        <!-- Links will be injected here -->
+                    </div>
+                    
+                    <!-- Scrollable Content -->
+                    <div id="reader-content-container">
+                        <p>Loading notes...</p>
+                    </div>
                 </div>
             </div>
 
@@ -1227,6 +1385,8 @@
         const readerScreen = document.getElementById('reader-screen');
         const readerTitle = document.getElementById('reader-title');
         const readerContentContainer = document.getElementById('reader-content-container');
+        const readerHamburgerButton = document.getElementById('reader-hamburger-button');
+        const readerAnchorOverlay = document.getElementById('reader-anchor-overlay');
         
         const questionText = document.getElementById('question-text');
         const optionsContainer = document.getElementById('options-container');
@@ -1569,10 +1729,58 @@
             }
         }
 
+        // --- Function to generate Table of Contents ---
+        function generateTableOfContents(title) {
+            readerAnchorOverlay.innerHTML = ''; // Clear previous content
+            
+            const headers = readerContentContainer.querySelectorAll('h1, h2');
+            
+            // Document Title
+            const docTitle = document.createElement('h3');
+            docTitle.textContent = title;
+            docTitle.className = 'anchor-section-title';
+            readerAnchorOverlay.appendChild(docTitle);
+            
+            if (headers.length === 0) {
+                const noHeadersMsg = document.createElement('p');
+                noHeadersMsg.textContent = "No headers found in this document.";
+                noHeadersMsg.className = "text-sm text-gray-500 italic mt-2";
+                readerAnchorOverlay.appendChild(noHeadersMsg);
+                return;
+            }
+
+            headers.forEach((header, index) => {
+                // Generate ID if missing
+                if (!header.id) {
+                    header.id = 'header-' + index;
+                }
+
+                const link = document.createElement('a');
+                link.textContent = header.textContent;
+                link.className = 'anchor-link-item';
+                
+                if (header.tagName === 'H2') {
+                    link.classList.add('anchor-link-h2');
+                }
+
+                link.addEventListener('click', () => {
+                    header.scrollIntoView({ behavior: 'smooth' });
+                    // Close overlay
+                    readerAnchorOverlay.classList.remove('open');
+                });
+
+                readerAnchorOverlay.appendChild(link);
+            });
+        }
+
         // --- Function to open Reader Page ---
         async function openReaderPage(noteFile, title, sourceScreen) {
             readerTitle.textContent = title;
             readerContentContainer.innerHTML = '<p class="text-center text-gray-600">Loading content...</p>';
+            
+            // Reset overlay state
+            readerAnchorOverlay.classList.remove('open');
+            readerAnchorOverlay.innerHTML = '';
             
             // Save source screen for back navigation
             if (sourceScreen) {
@@ -1592,6 +1800,9 @@
                 const rawNotes = await response.text();
                 const notesHTML = parseNotesToHTML(rawNotes);
                 readerContentContainer.innerHTML = notesHTML;
+                
+                // Generate Anchor Links after content is injected
+                generateTableOfContents(title);
 
             } catch (error) {
                 console.error("Error fetching content:", error);
@@ -1937,6 +2148,18 @@
                     navigateTo(notesScreen, 'backward'); // Default fallback
                 }
             });
+
+            // Reader Hamburger Button Toggle
+            readerHamburgerButton.addEventListener('click', () => {
+                readerAnchorOverlay.classList.toggle('open');
+            });
+
+            // Close Reader Overlay when clicking content area
+            readerContentContainer.addEventListener('click', () => {
+                if (readerAnchorOverlay.classList.contains('open')) {
+                    readerAnchorOverlay.classList.remove('open');
+                }
+            });
             
             /* --- Dark Mode Toggle --- */ 
             darkModeToggle.addEventListener('change', () => { 
@@ -2003,4 +2226,3 @@
     </script>
 </body>
 </html>
-

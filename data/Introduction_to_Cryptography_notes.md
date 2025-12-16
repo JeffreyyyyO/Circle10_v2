@@ -1,8 +1,6 @@
-# .**CYS 520—WEEK 3**.
+# **CYS 520—WEEK 3**
 
 ## **INTRODUCTION TO CRYPTOGRAPHY**
-
----
 
 1. # **Introduction**
 
@@ -17,8 +15,6 @@ We'll cover the basics of cryptography, including its definitions, significance,
 Additionally, we'll break down the encryption and decryption processes, examining how symmetric and asymmetric encryption work to safeguard sensitive information.
 
 By understanding these cryptographic principles, you will gain the foundational knowledge needed to implement secure communication protocols, protect data from unauthorized access, and enhance overall cybersecurity defenses.
-
----
 
 2. # **Basics of Cryptography**
 
@@ -105,8 +101,6 @@ In practice, symmetric and asymmetric encryption are often used together in hybr
 
 This approach ensures both security and efficiency and is widely used in protocols like SSL/TLS, which secure internet communication.
 
----
-
 3. # **Encryption and Decryption Processes**
 
 ## **Introduction**
@@ -179,8 +173,6 @@ In many real-world applications, symmetric and asymmetric encryption are combine
 
 **Key Point:** Hybrid encryption ensures both security and efficiency, making it ideal for securing large datasets and communication channels.
 
----
-
 4. # **How Symmetric and Asymmetric Encryption Works**
 
 ## **Introduction**
@@ -234,8 +226,6 @@ Asymmetric encryption (also known as **public-key cryptography**) uses a pair of
 * **SSL/TLS Handshakes:** Asymmetric encryption is used during the initial handshake of an SSL/TLS connection to authenticate parties and establish a secure session key. After the handshake, a symmetric key is used for faster data transmission.  
 * **Secure File Transfer (SFTP):** Secure File Transfer Protocol often uses a **hybrid encryption** (asymmetric for authentication and key exchange, symmetric for the file transfer itself).
 
----
-
 5. # **Public Key Infrastructure (PKI)**
 
 ## **Introduction**
@@ -282,8 +272,6 @@ Here are the key components of PKI:
 * **Compliance Requirements:** Always adhere to industry standards such as PCI-DSS, HIPAA, and GDPR for secure certificate management.
 
 PKI plays a critical role in securing digital interactions across industries, ensuring confidentiality, integrity, and authenticity in communications.
-
----
 
 6. # **Digital Signatures and Certificates**
 
@@ -365,8 +353,6 @@ A digital certificate is an electronic document issued by a Certificate Authorit
 2. **Automate Certificate Management:** Use tools like Certbot (Let's Encrypt), AWS Certificate Manager, or Kubernetes cert-manager to auto-renew certificates.  
 3. **Use Hardware Security Modules (HSMs):** Secure private keys using **HSMs** or cloud-based **Key Management Systems (KMS).**  
 4. **Regularly Rotate Keys:** Prevent key compromise by enforcing periodic key rotation policies.
-
----
 
 7. # **Cryptographic Hash Functions**
 

@@ -1,8 +1,6 @@
-# .**CYS 520—WEEK 1**.
+# **CYS 520—WEEK 1**
 
 ## **FUNDAMENTALS OF NETWORK SECURITY**
-
----
 
 1. # **Introduction to Network Security**
 
@@ -91,8 +89,6 @@ The three principles of the CIA triad are interconnected, and a weakness in one 
 * A loss of **Availability** (DDoS attack) can prevent users from accessing critical systems, indirectly compromising **Confidentiality** and **Integrity**.
 
 By understanding and addressing the CIA Triad, organizations can build a comprehensive security strategy that protects their networks, data, and users from a wide range of threats.
-
----
 
 2. # **Network Security Tools and Techniques**
 
@@ -253,8 +249,6 @@ The Intrusion Detection System (IDS) and Intrusion Prevention System (IPS) are o
 
 **Example:** A company's antivirus software detects a ransomware infection on an employee's laptop. The software immediately quarantines the infected files and alerts the IT department, preventing the ransomware from spreading to other devices.
 
----
-
 3. # **The OSI Model and Network Security**
 
 ## **Introduction to the OSI Model**
@@ -287,8 +281,6 @@ The Physical Layer is responsible for the **transmission and reception of raw bi
 * **Shielded Cabling:** Protecting against electromagnetic interference (EMI) and eavesdropping.
 
 **Example:** A data center uses biometric access controls and 24/7 surveillance to prevent unauthorized physical access to its server and networking equipment.
-
----
 
 ## **Layer 2: The Data Link Layer**
 
@@ -439,8 +431,6 @@ The **Application Layer**, or Layer 7, provides **end-user services** such as em
 
 **Example:** An e-commerce platform uses a WAF to block SQL injection attacks and regularly updates its code to fix vulnerabilities.
 
----
-
 4. # **Why Network Security Matters**
 
 Network security isn't just about protecting technology; it’s about safeguarding people, businesses, and critical infrastructure.
@@ -524,8 +514,6 @@ Finally, network security is about **building a safer digital world**. It’s no
 * **Protecting Vulnerable Populations:** Strong network security can help us protect vulnerable groups, such as children and the elderly, from online threats like scams and exploitation.
 
 **Real-World Example:** The **Cybersecurity and Infrastructure Security Agency (CISA)** in the US works with public and private sector partners to strengthen the nation’s cybersecurity posture and protect critical infrastructure.
-
----
 
 5. # **Detailed Study of Network-Based Threats**
 

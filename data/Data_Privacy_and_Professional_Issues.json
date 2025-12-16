@@ -1,0 +1,932 @@
+[
+  {
+    "question": "Which article of the Universal Declaration of Human Rights recognizes privacy as a fundamental human right?",
+    "options": {
+      "a": "Article 12",
+      "b": "Article 8",
+      "c": "Article 15",
+      "d": "Article 4"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the primary focus of the European Convention on Human Rights Article 8?",
+    "options": {
+      "a": "Freedom of Speech",
+      "b": "Right to Privacy",
+      "c": "Right to Education",
+      "d": "Freedom of Assembly"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which 2017 data breach exposed the personal information of 147 million people?",
+    "options": {
+      "a": "Yahoo",
+      "b": "Target",
+      "c": "Equifax",
+      "d": "Marriott"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "How much was British Airways fined under GDPR for its 2018 data breach?",
+    "options": {
+      "a": "€50 million",
+      "b": "€10 million",
+      "c": "€100 million",
+      "d": "€20 million"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which legislation expanded US government surveillance powers following the 9/11 attacks?",
+    "options": {
+      "a": "The US Patriot Act",
+      "b": "The Freedom Act",
+      "c": "The Privacy Act",
+      "d": "GDPR"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Who was responsible for leaking information about the NSA's PRISM program in 2013?",
+    "options": {
+      "a": "Julian Assange",
+      "b": "Edward Snowden",
+      "c": "Chelsea Manning",
+      "d": "Frances Haugen"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which company faced a scandal involving Cambridge Analytica harvesting user data?",
+    "options": {
+      "a": "Google",
+      "b": "Twitter",
+      "c": "Facebook",
+      "d": "Amazon"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the maximum fine for non-compliance under the GDPR?",
+    "options": {
+      "a": "1% of global annual revenue",
+      "b": "€10 million flat fee",
+      "c": "2% of global annual revenue",
+      "d": "4% of global annual revenue"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which privacy law gives California residents the right to opt-out of the sale of their personal data?",
+    "options": {
+      "a": "CCPA",
+      "b": "GDPR",
+      "c": "LGPD",
+      "d": "PIPL"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which emerging privacy regulation is associated with Brazil?",
+    "options": {
+      "a": "PIPL",
+      "b": "LGPD",
+      "c": "DPDP",
+      "d": "CDPA"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which country implemented the Digital Personal Data Protection Act (DPDP)?",
+    "options": {
+      "a": "China",
+      "b": "Brazil",
+      "c": "India",
+      "d": "Russia"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What was the main ethical concern regarding Google's 'Project Dragonfly'?",
+    "options": {
+      "a": "Data theft",
+      "b": "Environmental impact",
+      "c": "Financial fraud",
+      "d": "Censorship and human rights"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "In the Apple vs. FBI case, what did the FBI want Apple to do?",
+    "options": {
+      "a": "Unlock an iPhone involved in a terrorist attack",
+      "b": "Provide GPS data for all users",
+      "c": "Install spyware on all devices",
+      "d": "Shut down their encryption servers"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How much did Uber pay hackers to conceal a data breach affecting 57 million users?",
+    "options": {
+      "a": "$50,000",
+      "b": "$100,000",
+      "c": "$1 million",
+      "d": "$500,000"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which organization is known for the CISSP certification?",
+    "options": {
+      "a": "SANS",
+      "b": "ISACA",
+      "c": "(ISC)²",
+      "d": "CompTIA"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which ISACA framework is widely used for IT governance?",
+    "options": {
+      "a": "NIST",
+      "b": "ISO 27001",
+      "c": "ITIL",
+      "d": "COBIT"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which certification is considered the 'gold standard' for advanced security management?",
+    "options": {
+      "a": "CISSP",
+      "b": "GSEC",
+      "c": "SSCP",
+      "d": "CEH"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the primary focus of the CISM certification?",
+    "options": {
+      "a": "Penetration testing",
+      "b": "Information security management",
+      "c": "Technical operations",
+      "d": "Software coding"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which SANS certification validates ethical hacking skills?",
+    "options": {
+      "a": "GSEC",
+      "b": "GCIH",
+      "c": "GPEN",
+      "d": "CISA"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does the 'Right to be Forgotten' in GDPR allow users to do?",
+    "options": {
+      "a": "Hide their identity online",
+      "b": "Request data portability",
+      "c": "Edit their personal data",
+      "d": "Request deletion of their data"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "According to the (ISC)² Code of Ethics, which is NOT one of the four key canons?",
+    "options": {
+      "a": "Maximize corporate profits",
+      "b": "Protect society and the common good",
+      "c": "Act honorably and honestly",
+      "d": "Provide diligent service to principals"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which privacy law introduced the concept of 'Data Minimization'?",
+    "options": {
+      "a": "US Patriot Act",
+      "b": "GDPR",
+      "c": "HIPAA",
+      "d": "SOX"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The USA FREEDOM Act was a reform enacted in response to which event?",
+    "options": {
+      "a": "The Equifax Breach",
+      "b": "The 9/11 Attacks",
+      "c": "The Snowden Revelations",
+      "d": "The Facebook Scandal"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which country enacted the Personal Information Protection Law (PIPL)?",
+    "options": {
+      "a": "Japan",
+      "b": "Russia",
+      "c": "South Korea",
+      "d": "China"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which ISACA initiative is designed to increase the representation of women in technology leadership?",
+    "options": {
+      "a": "SheLeadsTech",
+      "b": "Women in Cyber",
+      "c": "Girls Who Code",
+      "d": "CyberWomen"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the first step in the Ethical Decision-Making Framework described in the text?",
+    "options": {
+      "a": "Gather Relevant Facts",
+      "b": "Identify the Ethical Dilemma",
+      "c": "Evaluate Your Options",
+      "d": "Consult Codes of Conduct"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which organization manages the GIAC certifications?",
+    "options": {
+      "a": "(ISC)²",
+      "b": "CompTIA",
+      "c": "SANS Institute",
+      "d": "ISACA"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What fine was Google issued in 2019 for GDPR violations?",
+    "options": {
+      "a": "€10 million",
+      "b": "€20 million",
+      "c": "€100 million",
+      "d": "€50 million"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which term describes the practice of companies collecting and selling user data for advertising?",
+    "options": {
+      "a": "Data Monetization",
+      "b": "Data Encryption",
+      "c": "Data Maximization",
+      "d": "Data Targeting"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Frances Haugen is known for whistleblowing against which company?",
+    "options": {
+      "a": "Google",
+      "b": "Facebook",
+      "c": "Uber",
+      "d": "Apple"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which certification is ideal for hands-on operational security tasks like access controls?",
+    "options": {
+      "a": "CISM",
+      "b": "CISSP",
+      "c": "SSCP",
+      "d": "CRISC"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the main focus of the CRISC certification?",
+    "options": {
+      "a": "Penetration testing",
+      "b": "Cloud security",
+      "c": "Software development",
+      "d": "IT risk management"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Under GDPR, which right allows users to transfer their data to another service?",
+    "options": {
+      "a": "Data Portability",
+      "b": "Right to Access",
+      "c": "Right to Correction",
+      "d": "Right to Consent"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following is an example of an insider threat?",
+    "options": {
+      "a": "A hacker attacking from another country",
+      "b": "An employee misusing privileged access",
+      "c": "A phishing email from an external source",
+      "d": "A external attacker infiltrating the premises"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does the 'GSEC' certification cover?",
+    "options": {
+      "a": "Advanced auditing",
+      "b": "Management policy",
+      "c": "Foundational cybersecurity knowledge",
+      "d": "Legal compliance"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following frameworks is associated with (ISC)²?",
+    "options": {
+      "a": "COBIT",
+      "b": "NIST CSF",
+      "c": "ISO 27001",
+      "d": "Common Body of Knowledge (CBK)"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What was the result of the Yahoo data breaches (2013-2014)?",
+    "options": {
+      "a": "Financial losses and damaged credibility",
+      "b": "Increased user trust",
+      "c": "Reduction in overall service quality",
+      "d": "Government penalty and user abandonment"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "The Virginia Consumer Data Protection Act (CDPA) was inspired by which legislation?",
+    "options": {
+      "a": "PIPL",
+      "b": "CCPA",
+      "c": "GDPR",
+      "d": "HIPAA"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which ethical code emphasizes avoiding conflicts of interest and disclosing vulnerabilities responsibly?",
+    "options": {
+      "a": "UDHR",
+      "b": "ECHR",
+      "c": "SANS Ethical Guidelines",
+      "d": "GDPR Articles"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What action did Apple take in response to the FBI's request in the San Bernardino case?",
+    "options": {
+      "a": "They remotely created a backdoor immediately",
+      "b": "They paid a fine to avoid compliance",
+      "c": "They remotely wiped the phone for privacy",
+      "d": "They refused to assist, citing privacy concerns"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which principle allows governments to justify surveillance for crime prevention?",
+    "options": {
+      "a": "National Security",
+      "b": "Corporate Profit",
+      "c": "Data Minimization",
+      "d": "Explicit Consent"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the final step in the Ethical Decision-Making Framework?",
+    "options": {
+      "a": "Make a decision",
+      "b": "Document the process",
+      "c": "Consult a lawyer",
+      "d": "Evaluate options"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which organization provides the GCIH certification?",
+    "options": {
+      "a": "ISACA",
+      "b": "(ISC)²",
+      "c": "GIAC",
+      "d": "CompTIA"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What type of data did the Cambridge Analytica scandal involve?",
+    "options": {
+      "a": "Financial records",
+      "b": "Health records",
+      "c": "Social media user profiles",
+      "d": "Facebook marketplace purchase habits"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of these is NOT mentioned as a core value of privacy?",
+    "options": {
+      "a": "Human dignity",
+      "b": "Personal autonomy",
+      "c": "Freedom",
+      "d": "Corporate secrecy"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which (ISC)² program pairs experienced professionals with newcomers?",
+    "options": {
+      "a": "Mentor Program",
+      "b": "CyberCorps",
+      "c": "Security Lead",
+      "d": "Future CISO"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What consequence can members of (ISC)² face for ethical violations?",
+    "options": {
+      "a": "Disinvitation to chapter events",
+      "b": "Revocation of certifications",
+      "c": "Mandatory volunteer service",
+      "d": "Imprisonment by the organization"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which law requires data localization in India?",
+    "options": {
+      "a": "GDPR",
+      "b": "CCPA",
+      "c": "DPDP",
+      "d": "LGPD"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In the context of the data-driven economy, what is personal data considered?",
+    "options": {
+      "a": "A profitable commodity",
+      "b": "An appreciating product",
+      "c": "Intelligence",
+      "d": "A highly valuable asset"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which organization's code of ethics specifically mentions 'Advancing and protecting the profession'?",
+    "options": {
+      "a": "(ISC)²",
+      "b": "ISACA",
+      "c": "SANS",
+      "d": "NSA"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the full name of the organization ISACA?",
+    "options": {
+      "a": "International Security Audit and Control Association",
+      "b": "Information Systems Audit and Control Association",
+      "c": "Institute of Security Audit and Control Analysis",
+      "d": "Internet Safety and Cyber Association"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which SANS resource is described as a vast repository of white papers?",
+    "options": {
+      "a": "The Cyber Library",
+      "b": "The Knowledge Center",
+      "c": "The Reading Room",
+      "d": "The Info Hub"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which event underscored the dangers of unchecked data sharing and political manipulation?",
+    "options": {
+      "a": "The Yahoo Breach",
+      "b": "The 2017 Equifax Breach",
+      "c": "The Target Hack",
+      "d": "The Cambridge Analytica Scandal"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which step comes immediately after 'Gather Relevant Facts' in the decision-making framework?",
+    "options": {
+      "a": "Consult Professional Codes of Conduct",
+      "b": "Identify the Ethical Dilemma",
+      "c": "Make a Decision",
+      "d": "Document the Process"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which organization organizes the 'Cyber Defense Initiative' training events?",
+    "options": {
+      "a": "ISACA",
+      "b": "SANS",
+      "c": "(ISC)²",
+      "d": "IEEE"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What legal action was taken against Facebook following the Cambridge Analytica scandal?",
+    "options": {
+      "a": "It was shut down temporarily",
+      "b": "No action was taken",
+      "c": "A $5 billion fine from the FTC",
+      "d": "A $1 million fine from the UN"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is NOT a consequence of non-compliance with privacy laws?",
+    "options": {
+      "a": "Operational disruptions",
+      "b": "Heavy fines",
+      "c": "Lawsuits",
+      "d": "Guaranteed increased stock value"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which ISACA certification focuses on identifying and managing IT risks?",
+    "options": {
+      "a": "CRISC",
+      "b": "CISM",
+      "c": "CISSP",
+      "d": "CISA"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Who was fined €50 million in 2019 under GDPR?",
+    "options": {
+      "a": "Amazon",
+      "b": "Google",
+      "c": "Facebook",
+      "d": "Microsoft"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a key principle of GDPR?",
+    "options": {
+      "a": "Data Maximization",
+      "b": "Implied Consent",
+      "c": "Explicit Consent",
+      "d": "Permanent Data Retention"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which organization offers the SSCP certification?",
+    "options": {
+      "a": "SANS",
+      "b": "ISACA",
+      "c": "CompTIA",
+      "d": "(ISC)²"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which of the following is a risk to individuals resulting from data breaches?",
+    "options": {
+      "a": "Identity theft",
+      "b": "Lost credentials",
+      "c": "Lower taxes",
+      "d": "Better credit score"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which emerging technology by law enforcement is mentioned as sparking debate on civil liberties?",
+    "options": {
+      "a": "Blockchain",
+      "b": "Facial recognition",
+      "c": "Cloud computing",
+      "d": "Artificial Intelligence"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary role of professional organizations like ISACA and (ISC)²?",
+    "options": {
+      "a": "To develop antivirus software",
+      "b": "To enforce criminal law",
+      "c": "To set standards and certify professionals",
+      "d": "To certify security tools"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "According to the text, what is essential for maintaining human dignity and personal autonomy?",
+    "options": {
+      "a": "Surveillance",
+      "b": "Security",
+      "c": "Profits",
+      "d": "Privacy"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which (ISC)² certification covers software development security as one of its domains?",
+    "options": {
+      "a": "CISSP",
+      "b": "SSCP",
+      "c": "CCSP",
+      "d": "CC"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "The text states that ethical behavior encourages a '___ First' mindset.",
+    "options": {
+      "a": "Safety",
+      "b": "Security",
+      "c": "Speed",
+      "d": "Compliance"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which organization's code of ethics highlights 'objectivity' as a key focus?",
+    "options": {
+      "a": "SANS",
+      "b": "(ISC)²",
+      "c": "ISACA",
+      "d": "IEEE"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What did the Snowden revelations expose?",
+    "options": {
+      "a": "Classified government missions",
+      "b": "Voter fraud",
+      "c": "Election hacking",
+      "d": "Global mass surveillance by intelligence agencies"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which of these is considered a 'Professional Dilemma' in the text?",
+    "options": {
+      "a": "Choosing between user privacy and government requests",
+      "b": "Choosing between Windows and Mac",
+      "c": "Deciding on office hours",
+      "d": "Choosing between security tools"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "The CCPA requires companies to disclose what?",
+    "options": {
+      "a": "Their profit margins",
+      "b": "Data collection practices",
+      "c": "Employee salaries",
+      "d": "Security staff strength"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which organization's certification is often a requirement for the CISO role?",
+    "options": {
+      "a": "CompTIA Security+",
+      "b": "Google IT Support",
+      "c": "CISSP",
+      "d": "CEH"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does 'CPE' stand for in the context of maintaining certifications?",
+    "options": {
+      "a": "Certified Professional Ethics",
+      "b": "Computer Programming Education",
+      "c": "Central Processing Element",
+      "d": "Continuing Professional Education"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which concept refers to storing data within the country of origin?",
+    "options": {
+      "a": "Data Localization",
+      "b": "Data Encryption",
+      "c": "Data Mining",
+      "d": "Data Redundancy"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why was Google's Project Dragonfly shelved?",
+    "options": {
+      "a": "Lack of funding",
+      "b": "Employee and public backlash over censorship",
+      "c": "Technical failure",
+      "d": "Government ban in the US"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which organization provides the 'Common Body of Knowledge' (CBK)?",
+    "options": {
+      "a": "SANS",
+      "b": "ISACA",
+      "c": "(ISC)²",
+      "d": "ISO"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "The text mentions that privacy is critical for building what in a digital ecosystem?",
+    "options": {
+      "a": "Speed",
+      "b": "Complexity",
+      "c": "Surveillance",
+      "d": "Trust"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Is the General Data Protection Regulation (GDPR) an EU law?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Did the Equifax breach happen in 2015?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Is privacy recognized as a fundamental human right under the Universal Declaration of Human Rights?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Did Uber pay hackers $1 million to conceal a data breach?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Does the CCPA apply to residents of California?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Is the CISSP certification provided by ISACA?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Does the SANS Institute focus on practical, hands-on training?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Was Google's Project Dragonfly a success and fully implemented?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Does 'Data Minimization' mean collecting only the necessary data?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Is the fine for GDPR non-compliance capped at €1 million?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Did the Facebook-Cambridge Analytica scandal involve the use of data for political manipulation?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Is the Patriot Act a European privacy law?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Does the LGPD regulation apply to Brazil?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Is whistleblowing always free of personal and professional risks?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Does the CISM certification focus on Information Security Management?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Did Apple assist the FBI by unlocking the San Bernardino shooter's iPhone?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Is 'SheLeadsTech' an initiative by ISACA?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Does the GSEC certification cover advanced penetration testing only?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Is trust considered a cornerstone of the digital ecosystem?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Did the British Airways breach occur in 2020?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  }
+]

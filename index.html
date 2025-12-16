@@ -933,62 +933,62 @@
                 <p class="text-lg text-gray-700 mb-8 flex-shrink-0 px-[2vw]">Labs, Guides and so on...</p>
                 
                 <div class="lobby-buttons">
-                    <!-- Card 0 -->
+                    <!-- Card 1 -->
                     <button class="quiz-card-base quiz-card-darkgreen" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;" data-note-file="Official_2nd_Semester_Assessment_Checklist.md" data-note-title="Official: 2nd Semester Assessment Checklist">
                         <span class="card-title">Official: 2nd Semester Assessment Checklist</span>
                         <span class="card-subtitle">Assessment guide to what’s coming</span>
                     </button>
-                    <!-- Card 1 -->
+                    <!-- Card 2 -->
                     <button class="quiz-card-base quiz-card-darkgreen opacity-50 cursor-not-allowed" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;">
                         <span class="card-title">Lab: Network Traffic Analysis</span>
                         <span class="card-subtitle">Network traffic analysis using Wireshark</span>
                     </button>
-                    <!-- Card 2 -->
+                    <!-- Card 3 -->
                     <button class="quiz-card-base quiz-card-darkgreen opacity-50 cursor-not-allowed" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;">
                         <span class="card-title">Lab: Threat Simulation</span>
                         <span class="card-subtitle">ARP Spoofing (Bettercap) and traffic analysis (Wireshark)</span>
                     </button>
-                    <!-- Card 3 -->
+                    <!-- Card 4 -->
                     <button class="quiz-card-base quiz-card-darkgreen" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;" data-note-file="Lab_Encryption_on_Kali_Linux.md" data-note-title="Lab: Encryption on Kali Linux">
                         <span class="card-title">Lab: Encryption on Kali Linux</span>
                         <span class="card-subtitle">Symmetric & Asymmetric Encryption, & PKI</span>
                     </button>
-                    <!-- Card 4 -->
+                    <!-- Card 5 -->
                     <button class="quiz-card-base quiz-card-darkgreen" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;" data-note-file="Lab_TLS_SSL_VPN_&_Traffic_Analysis.md" data-note-title="Lab: TLS/SSL, VPN & Traffic Analysis">
                         <span class="card-title">Lab: TLS/SSL, VPN & Traffic Analysis</span>
                         <span class="card-subtitle">Configurations using Kali Linux and Wireshark</span>
                     </button>
-                    <!-- Card 5 -->
+                    <!-- Card 6 -->
                     <button class="quiz-card-base quiz-card-darkgreen" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;" data-note-file="Guide_Next-Gen_Firewall_Setup.md" data-note-title="Guide: Next-Gen Firewall Setup">
                         <span class="card-title">Guide: Next-Gen Firewall Setup</span>
                         <span class="card-subtitle">Adding & configuring Sophos Virtual Firewall</span>
                     </button>
-                    <!-- Card 6 -->
+                    <!-- Card 7 -->
                     <button class="quiz-card-base quiz-card-darkgreen" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;" data-note-file="Guide_Sophos_Central_Registration.md" data-note-title="Guide: Sophos Central Registration">
                         <span class="card-title">Guide: Sophos Central Registration</span>
                         <span class="card-subtitle">Completing registration for full access</span>
                     </button>
-                    <!-- Card 7 -->
+                    <!-- Card 8 -->
                     <button class="quiz-card-base quiz-card-darkgreen" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;" data-note-file="Guide_Sophos_Firewall_Security_Configuration_1.md" data-note-title="Guide: Sophos Firewall Security Configuration 1">
                         <span class="card-title">Guide: Sophos Firewall Security Configuration 1</span>
                         <span class="card-subtitle">Configuring 3 security policies</span>
                     </button>
-                    <!-- Card 8 -->
+                    <!-- Card 9 -->
                     <button class="quiz-card-base quiz-card-darkgreen" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;" data-note-file="Guide_Sophos_Firewall_Security_Configuration_2.md" data-note-title="Guide: Sophos Firewall Security Configuration 2">
                         <span class="card-title">Guide: Sophos Firewall Security Configuration 2</span>
                         <span class="card-subtitle">Configuring 2 more security policies</span>
                     </button>
-                    <!-- Card 9 -->
+                    <!-- Card 10 -->
                     <button class="quiz-card-base quiz-card-darkgreen opacity-50 cursor-not-allowed" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;">
                         <span class="card-title">Guide: Sophos Endpoint Security</span>
                         <span class="card-subtitle">Configuring and installing Sophos Endpoint Protection on endpoints</span>
                     </button>
-                    <!-- Card 10 -->
+                    <!-- Card 11 -->
                     <button class="quiz-card-base quiz-card-darkgreen" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;" data-note-file="Guide_Setting_Up_an_AWS_Account.md" data-note-title="Guide: Setting Up an AWS Account">
                         <span class="card-title">Guide: Setting Up an AWS Account</span>
                         <span class="card-subtitle">Registering an AWS account to access cloud services</span>
                     </button>
-                    <!-- Card 11 -->
+                    <!-- Card 12 -->
                     <button class="quiz-card-base quiz-card-darkgreen" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;" data-note-file="Guide_Wazuh_SIEM_&_Agents.md" data-note-title="Guide: Wazuh SIEM & Agents">
                         <span class="card-title">Guide: Wazuh SIEM & Agents</span>
                         <span class="card-subtitle">Deploying Wazuh Server on AWS EC2 & Adding Agents on Local VMs</span>
@@ -1849,18 +1849,30 @@
             selectedOption = null;
             submitAnswerButton.disabled = true;
 
-            const shuffledOptionKeys = shuffleArray(Object.keys(currentQuestion.options));
+            // Get keys and shuffle
+            const optionKeys = Object.keys(currentQuestion.options);
+            const shuffledOptionKeys = shuffleArray(optionKeys);
             
             optionButtons.forEach((button, index) => {
-                const originalKey = shuffledOptionKeys[index];
-                const optionText = currentQuestion.options[originalKey];
-                const displayLabel = ['A', 'B', 'C', 'D'][index]; 
-
-                button.textContent = `${displayLabel}. ${optionText}`;
-                button.dataset.option = originalKey; 
-
+                // Reset state
                 button.classList.remove('selected', 'correct', 'incorrect');
                 button.disabled = false;
+
+                if (index < shuffledOptionKeys.length) {
+                    // Button is needed
+                    button.style.display = 'block'; 
+
+                    const originalKey = shuffledOptionKeys[index];
+                    const optionText = currentQuestion.options[originalKey];
+                    const displayLabel = ['A', 'B', 'C', 'D'][index]; 
+
+                    button.textContent = `${displayLabel}. ${optionText}`;
+                    button.dataset.option = originalKey; 
+                } else {
+                    // Button is not needed (e.g. for True/False)
+                    button.style.display = 'none';
+                    button.dataset.option = ""; // Clear data
+                }
             });
         }
 
@@ -2231,6 +2243,3 @@
     </script>
 </body>
 </html>
-
-
-

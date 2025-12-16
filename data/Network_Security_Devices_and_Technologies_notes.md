@@ -1,8 +1,6 @@
-# .**CYS 520—WEEK 2**.
+# **CYS 520—WEEK 2**
 
 ## **NETWORK SECURITY DEVICES AND TECHNOLOGIES**
-
----
 
 1. # **Firewalls (Types and Configurations)**
 
@@ -60,8 +58,6 @@ Let's look at the configuration and management of firewalls:
 3. **Least Privilege Principle:** Allow only the minimum necessary traffic required for business operations.  
 4. **User Training:** Educate employees about the importance of firewalls and safe browsing practices to reduce the risks of human error.  
 5. **Disaster Recovery Plan:** Ensure that firewall configurations are backed up and can be restored quickly in case of any failure.
-
----
 
 2. # **Intrusion Detection and Prevention Systems (IDS,IPS)**
 
@@ -129,8 +125,6 @@ A successful deployment of IDPS involves several key steps:
 3. **User Training and Awareness:** Educate employees about the importance of IDPS and how to respond to alerts. Train security teams to analyze and respond to incidents effectively.  
 4. **Incident Response Plan:** Develop a clear plan to address detected threats promptly, defining roles and responsibilities for handling alerts and mitigating attacks.  
 5. **Scalability and Redundancy:** Ensure the IDPS solution can scale with your organization's growth. Implement redundancy to maintain protection during hardware or software failures.
-
----
 
 3. # **Virtual Private Networks (VPNs)**
 
@@ -203,8 +197,6 @@ Cloud VPNs are designed to securely connect on-premise networks to cloud-based i
 6. **Leverage Zero Trust Principles:** Adopt a **Zero Trust** approach by verifying every single user and device before granting access to a resource. Continuously monitor and validate every VPN connection.  
 7. **Plan for Scalability:** Ensure that the VPN infrastructure can handle increasing numbers of users and devices. Use cloud-based VPN solutions for scalable and flexible deployments.  
 8. **Backup VPN Configurations:** Regularly back up VPN configurations to ensure quick recovery in case of failures or attacks.
-
----
 
 4. # **Secure Network Design Principles**
 
@@ -307,8 +299,6 @@ Train users to recognize and respond to security threats, as **human error** is 
 4. **Monitor and Respond:** Use SIEM tools to monitor network activity and respond to incidents in real-time.  
 5. **Plan for Scalability:** Design the network to accommodate future growth and evolving security needs.  
 6. **Always Document and Test:** Maintain detailed documentation of network architecture and security configurations, and regularly test security controls to ensure they are effective.
-
----
 
 5. # **Advanced Threat Protection**
 
@@ -456,6 +446,3 @@ Now that we have seen the key technologies for advanced threat protection, their
 6. **Integrate Security Tools:** Use SIEM platforms to correlate data from multiple security tools and improve incident response.  
 7. **Monitor and Analyze Logs:** Regularly review logs from firewalls, IDS/IPS, and endpoints to detect suspicious activity.  
 8. **Plan for Incident Response:** Develop and test an incident response plan to ensure quick and effective action during a data breach.
-
----
-

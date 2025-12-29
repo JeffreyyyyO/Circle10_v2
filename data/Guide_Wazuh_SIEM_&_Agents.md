@@ -19,7 +19,7 @@ We need a cloud server to act as the central manager. We will use Ubuntu Server 
 3. **Name:** Wazuh-Server-Lab  
 4. **OS Images:** Select **Ubuntu** (Ubuntu Server 22.04 LTS or 24.04 LTS).  
    ***Note:** Default username is set to “ubuntu” by default.*  
-5. **Instance Type:** Select **t3.medium** (2 vCPU, 4 GiB Memory) or **t3.large** (2 vCPU, 8 GiB Memory).  
+5. **Instance Type:** Select **t3.medium** (2 vCPU, 4 GiB Memory) or **t3.large** (2 vCPU, 8 GiB Memory). If you are on Free Tier, use **m7i.large** (2 vCPU, 8 GiB Memory).
    * **CRITICAL WARNING:** Do **NOT** use t2.micro (Free Tier). It has only 1GB RAM. The Wazuh database **will crash** immediately on startup.  
 6. **Key Pair:** Create a new key pair (e.g., wazuh-key.pem) and download it.  
    * **Note:** Save this file to a known folder (e.g., C:\\Users\\Student\\Downloads). **Do not lose it.**  

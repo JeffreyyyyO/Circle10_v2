@@ -1,0 +1,1162 @@
+[
+  {
+    "question": "In the 'Apartment Analogy' for cloud computing, what does the VPC represent?",
+    "options": {
+      "a": "The entire apartment building",
+      "b": "An individual private apartment",
+      "c": "The building's security guard",
+      "d": "The plumbing and electrical systems"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which component acts as a virtual firewall for cloud instances at the server level?",
+    "options": {
+      "a": "Network ACL",
+      "b": "Route Table",
+      "c": "Security Group",
+      "d": "Internet Gateway"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary characteristic of a 'Stateful' firewall like a Security Group?",
+    "options": {
+      "a": "It requires explicit rules for both inbound and outbound traffic.",
+      "b": "It remembers the state of connections and automatically allows return traffic.",
+      "c": "It only operates based on geographical location.",
+      "d": "It can only block traffic, not allow it."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "At which level does a Network Access Control List (NACL) operate?",
+    "options": {
+      "a": "Instance level",
+      "b": "Subnet level",
+      "c": "User level",
+      "d": "Application level"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following describes 'Encryption at Rest'?",
+    "options": {
+      "a": "Protecting data while it moves between a browser and a server",
+      "b": "Encrypting data while it is stored in a database or cloud repository",
+      "c": "Verifying a user's identity through Multi-Factor Authentication",
+      "d": "Scanning network traffic for malicious patterns"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In a tiered encryption model, what is the purpose of a Key Encryption Key (KEK)?",
+    "options": {
+      "a": "To encrypt the actual plain text data",
+      "b": "To provide a second password for the user",
+      "c": "To encrypt the Data Encryption Key (DEK)",
+      "d": "To manage the hardware security module"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which AWS service is specifically designed to record all API calls and actions taken within an account for auditing?",
+    "options": {
+      "a": "AWS CloudWatch",
+      "b": "AWS Config",
+      "c": "AWS CloudTrail",
+      "d": "AWS Shield"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary difference between Authentication and Authorization in IAM?",
+    "options": {
+      "a": "Authentication is for humans; Authorization is for machines.",
+      "b": "Authentication verifies identity; Authorization determines permissions.",
+      "c": "Authentication is done by the user; Authorization is done by the provider.",
+      "d": "They are synonymous terms for access control."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which principle suggests that users should only have the minimum access necessary to perform their jobs?",
+    "options": {
+      "a": "Principle of Maximum Security",
+      "b": "Principle of Least Privilege (PoLP)",
+      "c": "Principle of Infinite Scaling",
+      "d": "Principle of Network Isolation"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "A SIEM platform combines which two technologies?",
+    "options": {
+      "a": "IDS and IPS",
+      "b": "VPC and NACL",
+      "c": "SEM and SIM",
+      "d": "IAM and KMS"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which detection methodology establishes a 'baseline' of normal behavior and flags significant deviations?",
+    "options": {
+      "a": "Signature-Based Detection",
+      "b": "Protocol-Based Detection",
+      "c": "Anomaly-Based Detection",
+      "d": "Manual Inspection"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In the context of VPC segmentation, where would you typically place a database containing sensitive records?",
+    "options": {
+      "a": "Public Subnet",
+      "b": "Private Subnet",
+      "c": "The Internet Gateway",
+      "d": "A DMZ Subnet"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which protocol is commonly used for encrypting data in transit over the internet?",
+    "options": {
+      "a": "AES-256",
+      "b": "TLS (Transport Layer Security)",
+      "c": "FTP",
+      "d": "WPA3"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is an IAM 'Role' primarily used for?",
+    "options": {
+      "a": "To permanently store a user's password",
+      "b": "To provide temporary permissions to a user or service",
+      "c": "To group users with similar job functions",
+      "d": "To define the physical location of a server"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool would you use in Microsoft Azure to enforce that all Virtual Machines are tagged with a cost center?",
+    "options": {
+      "a": "Azure Key Vault",
+      "b": "Azure Monitor",
+      "c": "Azure Policy",
+      "d": "Azure Active Directory"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What happens when an IPS (Intrusion Prevention System) detects a known threat?",
+    "options": {
+      "a": "It only logs the event for later review.",
+      "b": "It sends a notification but allows the traffic.",
+      "c": "It can automatically drop malicious packets or block the IP.",
+      "d": "It shuts down the entire network segment."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which component of a SIEM is responsible for converting logs from different formats into a standard, comparable format?",
+    "options": {
+      "a": "Aggregation",
+      "b": "Normalization",
+      "c": "Correlation",
+      "d": "Retention"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which encryption standard is typically used by cloud providers for automatic encryption of data at rest?",
+    "options": {
+      "a": "DES",
+      "b": "RSA-2048",
+      "c": "AES-256",
+      "d": "MD5"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the main drawback of Signature-Based Detection?",
+    "options": {
+      "a": "It has a high rate of false positives.",
+      "b": "It is ineffective against Zero-Day attacks.",
+      "c": "It is too complex to implement.",
+      "d": "It only works on internal networks."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In Google Cloud, which service acts as a centralized management platform for identifying vulnerabilities and misconfigurations?",
+    "options": {
+      "a": "Stackdriver",
+      "b": "BigQuery",
+      "c": "Security Command Center (SCC)",
+      "d": "Cloud Functions"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which IAM entity is a collection of users that share the same permissions?",
+    "options": {
+      "a": "Policy",
+      "b": "Group",
+      "c": "Role",
+      "d": "Bucket"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'Stateless' security mechanism in the context of cloud networking?",
+    "options": {
+      "a": "A firewall that ignores all outbound traffic.",
+      "b": "A rule-set where return traffic must be explicitly allowed.",
+      "c": "A system that doesn't require a password.",
+      "d": "A network that changes its IP address frequently."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which service provides managed HSM (Hardware Security Module) keys in Microsoft Azure?",
+    "options": {
+      "a": "Azure Monitor",
+      "b": "Azure SQL",
+      "c": "Azure Key Vault",
+      "d": "Azure App Service"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Monitoring focuses on the continuous observation of resources. What is the primary focus of Logging?",
+    "options": {
+      "a": "Stopping real-time attacks",
+      "b": "Recording a detailed history of events and activities",
+      "c": "Encrypting data in transit",
+      "d": "Managing user passwords"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool would alert a security analyst if there is a failed login followed by a spike in database outbound traffic?",
+    "options": {
+      "a": "HIDS",
+      "b": "SIEM",
+      "c": "NACL",
+      "d": "KMS"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the function of a 'Route Table' in a VPC?",
+    "options": {
+      "a": "To store cryptographic keys",
+      "b": "To define how traffic is routed between subnets and the internet",
+      "c": "To filter traffic based on port numbers",
+      "d": "To manage user identity groups"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of these is a 'Host-Based' IDPS (HIDS) capable of monitoring?",
+    "options": {
+      "a": "Network protocol headers across the entire segment",
+      "b": "Registry changes and system calls on a specific server",
+      "c": "The power consumption of the data center",
+      "d": "The physical security of the server racks"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which AWS monitoring service would you use to detect CPU spikes on an EC2 instance that might indicate a DoS attack?",
+    "options": {
+      "a": "AWS CloudTrail",
+      "b": "AWS CloudWatch",
+      "c": "AWS Config",
+      "d": "AWS Inspector"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In IAM, what format are policies typically written in?",
+    "options": {
+      "a": "XML",
+      "b": "YAML",
+      "c": "JSON",
+      "d": "HTML"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the 'Default Policy' for a well-configured Security Group in a banking application?",
+    "options": {
+      "a": "Allow all traffic by default",
+      "b": "Block all traffic except specific allowed ports",
+      "c": "Allow traffic only from the local country",
+      "d": "Block traffic only when a threat is detected"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which cloud security pillar focuses on 'who' can access 'what'?",
+    "options": {
+      "a": "Network Security",
+      "b": "Data Security",
+      "c": "Identity and Access Management (IAM)",
+      "d": "Monitoring and Logging"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which tool helps organizations securely create, rotate, and manage encryption keys?",
+    "options": {
+      "a": "SIEM",
+      "b": "KMS",
+      "c": "IDPS",
+      "d": "VPC"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which detection system is often placed *behind* a firewall to monitor traffic that has passed initial defenses?",
+    "options": {
+      "a": "IPS",
+      "b": "IDS",
+      "c": "WAF",
+      "d": "NACL"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary risk of an Anomaly-Based Detection system?",
+    "options": {
+      "a": "It cannot detect Zero-Day attacks.",
+      "b": "It has a higher rate of false positives.",
+      "c": "It is easily bypassed by known signatures.",
+      "d": "It requires physical access to the network."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the E-commerce platform example, which subnet should *not* be accessible from the internet?",
+    "options": {
+      "a": "Web Server Subnet",
+      "b": "Application Subnet",
+      "c": "Public Subnet",
+      "d": "Client Subnet"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which service name is Google Cloud's logging and monitoring tool (formerly Stackdriver)?",
+    "options": {
+      "a": "Cloud Operations",
+      "b": "Cloud Sentinel",
+      "c": "Cloud Watcher",
+      "d": "Cloud Audit"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is 'Ciphertext'?",
+    "options": {
+      "a": "A type of database software",
+      "b": "Unreadable data produced by encryption",
+      "c": "A list of authorized users",
+      "d": "The original plain text message"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which protocol is primarily used for encrypting network communications for VPNs?",
+    "options": {
+      "a": "HTTPS",
+      "b": "IPSec",
+      "c": "SMTP",
+      "d": "SSH"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does a HIDS (Host-Based Intrusion Detection System) monitor?",
+    "options": {
+      "a": "The entire corporate network",
+      "b": "Activity on a single endpoint or server",
+      "c": "Satellite communications",
+      "d": "Physical building access"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which component allows for automatic corrective action if a resource violates a policy in Azure?",
+    "options": {
+      "a": "Azure Monitor",
+      "b": "Azure Policy Remediation",
+      "c": "Azure KMS",
+      "d": "Azure Virtual Network"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of 'Network Segmentation' in a VPC?",
+    "options": {
+      "a": "To increase internet speed for users",
+      "b": "To divide the network into smaller, isolated sections to reduce risk",
+      "c": "To combine multiple cloud providers into one",
+      "d": "To share data with external companies more easily"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which SIEM capability involves long-term storage of logs for forensic investigations?",
+    "options": {
+      "a": "Data Aggregation",
+      "b": "Correlation",
+      "c": "Retention",
+      "d": "Normalization"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which IAM policy type is attached directly to a resource like an S3 bucket?",
+    "options": {
+      "a": "Identity-based policy",
+      "b": "Resource-based policy",
+      "c": "Permission boundary",
+      "d": "Service control policy"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool would track who changed a Security Group setting in AWS and when it happened?",
+    "options": {
+      "a": "AWS GuardDuty",
+      "b": "AWS Config",
+      "c": "AWS Inspector",
+      "d": "AWS Shield"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the E-commerce example, which layer stores sensitive user data?",
+    "options": {
+      "a": "Web Server Layer",
+      "b": "Application Layer",
+      "c": "Database Layer",
+      "d": "Public Layer"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does MFA stand for in cloud security?",
+    "options": {
+      "a": "Managed Firewall Access",
+      "b": "Multi-Factor Authentication",
+      "c": "Multiple Flow Analysis",
+      "d": "Main Frame Architecture"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which detection system is 'inline', meaning traffic must pass through it?",
+    "options": {
+      "a": "IDS",
+      "b": "IPS",
+      "c": "NIDS",
+      "d": "SIEM"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which cloud provider uses the term 'Entra ID' for its IAM services?",
+    "options": {
+      "a": "AWS",
+      "b": "Google Cloud",
+      "c": "Microsoft Azure",
+      "d": "IBM Cloud"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary function of a 'Data Encryption Key' (DEK)?",
+    "options": {
+      "a": "To encrypt the KMS service",
+      "b": "To encrypt the actual data records",
+      "c": "To provide access to the user portal",
+      "d": "To verify the user's phone number"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which protocol is a standard for network and Unix/Linux logging often used by SIEMs?",
+    "options": {
+      "a": "HTTP",
+      "b": "Syslog",
+      "c": "SNMP",
+      "d": "POP3"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is 'Key Rotation' considered a best practice in KMS?",
+    "options": {
+      "a": "It makes encryption faster.",
+      "b": "It limits the impact of a potential key compromise.",
+      "c": "It is required to keep the cloud account active.",
+      "d": "It reduces the cost of key storage."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of these is NOT a core component of IAM mentioned in the text?",
+    "options": {
+      "a": "Users",
+      "b": "Roles",
+      "c": "Policies",
+      "d": "Subnets"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What is the 'CIA triad' mentioned in the context of cloud security goals?",
+    "options": {
+      "a": "Cloud, Infrastructure, Applications",
+      "b": "Confidentiality, Integrity, Availability",
+      "c": "Centralized, Integrated, Automated",
+      "d": "Control, Identify, Authenticate"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which system provides a 'centralized view' into an organization's security posture?",
+    "options": {
+      "a": "KMS",
+      "b": "VPC",
+      "c": "SIEM",
+      "d": "IAM"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In the house analogy for subnets, subnets are compared to:",
+    "options": {
+      "a": "The foundation",
+      "b": "Individual rooms",
+      "c": "The roof",
+      "d": "The windows"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which security tool focuses on maintaining and controlling IT infrastructure best practices?",
+    "options": {
+      "a": "Encryption Tool",
+      "b": "Configuration Management Tool",
+      "c": "Traffic Management Tool",
+      "d": "Identity Management Tool"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'Zero-Day' attack?",
+    "options": {
+      "a": "An attack that happens at midnight",
+      "b": "An attack that exploits an unknown vulnerability",
+      "c": "An attack that lasts for zero days",
+      "d": "An attack with zero impact"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which IAM solution prevents an employee from downloading files from unknown locations on personal devices?",
+    "options": {
+      "a": "MFA",
+      "b": "Conditional Access Policies",
+      "c": "Role-Based Access Control",
+      "d": "Principle of Least Privilege"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the role of an 'Agent' in a SIEM environment?",
+    "options": {
+      "a": "To hire security analysts",
+      "b": "To push logs from endpoints to the SIEM platform",
+      "c": "To encrypt the database",
+      "d": "To manage the VPC routing"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In VPC architecture, what defines the IP address range of the isolated network?",
+    "options": {
+      "a": "The Route Table",
+      "b": "The Subnet",
+      "c": "The VPC itself",
+      "d": "The NACL"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which detection method is most likely to produce 'False Positives' due to legitimate network changes?",
+    "options": {
+      "a": "Signature-Based",
+      "b": "Anomaly-Based",
+      "c": "Rule-Based",
+      "d": "Static Analysis"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which encryption protocol is used for TLS?",
+    "options": {
+      "a": "AES",
+      "b": "MD5",
+      "c": "SHA-1",
+      "d": "RSA"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which IAM component allows for 'Inheritance' of permissions?",
+    "options": {
+      "a": "Users",
+      "b": "Roles",
+      "c": "Groups",
+      "d": "Policies"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary benefit of 'Normalization' in a SIEM?",
+    "options": {
+      "a": "It makes logs smaller.",
+      "b": "It allows logs from different vendors to be compared and correlated.",
+      "c": "It encrypts the logs automatically.",
+      "d": "It deletes irrelevant logs."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of these is a 'Permission Boundary'?",
+    "options": {
+      "a": "A rule that allows access to all services",
+      "b": "A setting that defines the maximum permissions an entity can have",
+      "c": "The physical limit of the data center",
+      "d": "A policy that expires after 24 hours"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool would you use to track patient data access for HIPAA compliance in Azure?",
+    "options": {
+      "a": "Azure SQL",
+      "b": "Azure Monitor",
+      "c": "Azure Key Vault",
+      "d": "Azure Blobs"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the result of applying 'Least Privilege'?",
+    "options": {
+      "a": "Users can access any resource they want.",
+      "b": "The attack surface is reduced.",
+      "c": "Network speed is increased.",
+      "d": "Passwords are no longer needed."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which component acts as a 'perimeter fence' for an entire subnet?",
+    "options": {
+      "a": "Security Group",
+      "b": "Network ACL",
+      "c": "IAM Role",
+      "d": "VPC Endpoint"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which cloud KMS solution integrates with BigQuery and Kubernetes?",
+    "options": {
+      "a": "AWS KMS",
+      "b": "Azure Key Vault",
+      "c": "Google Cloud KMS",
+      "d": "IBM Key Protect"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is 'SIM' in the context of SIEM?",
+    "options": {
+      "a": "Security Identity Management",
+      "b": "Security Information Management",
+      "c": "System Infrastructure Monitoring",
+      "d": "Secure Internet Messaging"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool is used for troubleshooting and logging in Google Cloud?",
+    "options": {
+      "a": "Cloud Armor",
+      "b": "Cloud DNS",
+      "c": "Cloud Operations",
+      "d": "Cloud Pub/Sub"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does 'Passive' mean in the context of IDS?",
+    "options": {
+      "a": "It doesn't do anything.",
+      "b": "It monitors and alerts but does not stop traffic.",
+      "c": "It only works when the admin is logged in.",
+      "d": "It turns off when a threat is high."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which IAM solution involves using OAuth for healthcare APIs?",
+    "options": {
+      "a": "MFA",
+      "b": "API Gateway restrictions",
+      "c": "PoLP",
+      "d": "RBAC"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of 'Dashboards' in a SIEM?",
+    "options": {
+      "a": "To configure firewall rules",
+      "b": "To visually represent trends and top threats",
+      "c": "To store user passwords",
+      "d": "To encrypt database tables"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the context of NACLs, what does 'Explicitly Defined' mean for rules?",
+    "options": {
+      "a": "Rules are suggested by the system.",
+      "b": "Rules for both inbound and outbound must be manually created.",
+      "c": "Rules are hidden from the user.",
+      "d": "Rules only apply to the root user."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which monitoring tool integrates with AWS Security Hub for alerts?",
+    "options": {
+      "a": "AWS Config",
+      "b": "AWS CloudTrail",
+      "c": "AWS CloudWatch",
+      "d": "AWS Inspector"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary risk of using 'Wildcard permissions (*)' in IAM policies?",
+    "options": {
+      "a": "They make the policy too long.",
+      "b": "They grant unrestricted access to resources.",
+      "c": "They slow down the login process.",
+      "d": "They require special hardware to process."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool identifies 'Indicators of Compromise' (IoCs)?",
+    "options": {
+      "a": "VPC",
+      "b": "NACL",
+      "c": "SIEM",
+      "d": "KMS"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the focus of 'Network-Based' IDPS?",
+    "options": {
+      "a": "Individual user behavior",
+      "b": "Entire network segments and protocol activity",
+      "c": "Hardware power usage",
+      "d": "Physical cabling security"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which configuration management tool provides a map of resources and vulnerabilities in Google Cloud?",
+    "options": {
+      "a": "Azure Policy",
+      "b": "AWS Config",
+      "c": "Security Command Center (SCC)",
+      "d": "Splunk"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Why is 'Defense in Depth' recommended for IDPS?",
+    "options": {
+      "a": "Because IDPS is the only tool needed.",
+      "b": "Because it should be part of a layered security strategy.",
+      "c": "Because it is cheaper than other tools.",
+      "d": "Because it only works in deep data centers."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which service uses 'Managed HSM' to encrypt Azure Monitor logs?",
+    "options": {
+      "a": "Azure Active Directory",
+      "b": "Azure Key Vault",
+      "c": "Azure Policy",
+      "d": "Azure Blobs"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary goal of Cloud Network Security?",
+    "options": {
+      "a": "To make the network faster",
+      "b": "To isolate and protect cloud environments",
+      "c": "To reduce the cost of servers",
+      "d": "To provide public Wi-Fi"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which component of IAM is a temporary set of permissions for a service?",
+    "options": {
+      "a": "User",
+      "b": "Group",
+      "c": "Role",
+      "d": "Policy"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In a SIEM, what is 'Correlation'?",
+    "options": {
+      "a": "Moving logs to a new server",
+      "b": "Looking for patterns across disparate logs to identify threats",
+      "c": "Deleting duplicate logs",
+      "d": "Updating the SIEM software"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which monitoring tool allows for automated responses via AWS Lambda?",
+    "options": {
+      "a": "AWS CloudTrail",
+      "b": "AWS CloudWatch",
+      "c": "AWS Config",
+      "d": "AWS IAM"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'RBAC'?",
+    "options": {
+      "a": "Remote Backup and Control",
+      "b": "Role-Based Access Control",
+      "c": "Redundant Basic Access Code",
+      "d": "Real-time Behavior and Correlation"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool would block a VM deployment if it doesn't meet geographical restrictions in Azure?",
+    "options": {
+      "a": "Azure Monitor",
+      "b": "Azure Policy",
+      "c": "Azure Key Vault",
+      "d": "Azure Active Directory"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary vulnerability of IDPS if traffic is encrypted?",
+    "options": {
+      "a": "It cannot see the payload of the traffic.",
+      "b": "The encryption makes the system crash.",
+      "c": "It only works on decrypted files.",
+      "d": "Encryption makes the logs too large."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which component manages 'who' can access 'what' in Google Cloud?",
+    "options": {
+      "a": "Cloud SQL",
+      "b": "Google Cloud IAM",
+      "c": "Stackdriver",
+      "d": "Compute Engine"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of these is a benefit of using 'Short-lived credentials' in IAM roles?",
+    "options": {
+      "a": "They are easier to remember.",
+      "b": "They reduce exposure if credentials are stolen.",
+      "c": "They are required by law in every country.",
+      "d": "They don't require internet access."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which SIEM technology focuses on 'Long-term storage' and 'Reporting'?",
+    "options": {
+      "a": "SEM",
+      "b": "SIM",
+      "c": "IDS",
+      "d": "IPS"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which subnet in a healthcare application would host backend databases?",
+    "options": {
+      "a": "Public Subnet",
+      "b": "Private Subnet",
+      "c": "Gateway Subnet",
+      "d": "External Subnet"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In a SIEM workflow, which step comes immediately after Log Collection?",
+    "options": {
+      "a": "Correlation",
+      "b": "Normalization",
+      "c": "Notification",
+      "d": "Retention"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool is used for detecting 'insider threats' effectively?",
+    "options": {
+      "a": "NIDS",
+      "b": "HIDS",
+      "c": "VPC",
+      "d": "NACL"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Syslog'?",
+    "options": {
+      "a": "A type of encryption",
+      "b": "A standard protocol for message logging",
+      "c": "A cloud provider name",
+      "d": "A user role in IAM"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which service tracks resource configurations to visualize changes over time in AWS?",
+    "options": {
+      "a": "AWS Shield",
+      "b": "AWS Config",
+      "c": "AWS CloudTrail",
+      "d": "AWS Lambda"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of these is a 'Security Principle' of IAM mentioned in the summary?",
+    "options": {
+      "a": "High Availability",
+      "b": "Least Privilege",
+      "c": "Unlimited Access",
+      "d": "Manual Provisioning"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary purpose of 'Cloud Trail'?",
+    "options": {
+      "a": "To monitor CPU usage",
+      "b": "To record API calls and user activity",
+      "c": "To encrypt data at rest",
+      "d": "To route traffic between subnets"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool would be used to identify a brute-force attack source in Google Cloud?",
+    "options": {
+      "a": "BigQuery",
+      "b": "Cloud Operations",
+      "c": "Cloud Storage",
+      "d": "Cloud IAM"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: A Security Group is stateless, meaning you must define both inbound and outbound rules manually.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Network ACLs act at the subnet level as a second layer of security.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Encryption at Rest protects data while it is being transmitted over the internet.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: AWS KMS, Azure Key Vault, and Google Cloud KMS all support automatic key rotation.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Identity and Access Management (IAM) is only concerned with human users, not services or applications.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: The Principle of Least Privilege (PoLP) increases the attack surface by giving users more options.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Monitoring and Logging are the same thing and used for identical purposes.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: A SIEM platform helps in meeting regulatory requirements like HIPAA and GDPR by providing log retention.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: An Intrusion Detection System (IDS) is traditionally active and stops threats automatically.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Signature-Based Detection can easily detect Zero-Day attacks.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Azure Policy can automatically take corrective action if a resource violates a policy.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: VPC segmentation ensures that if a web server is compromised, the database is not immediately accessible.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: 'Normalization' in a SIEM converts all incoming data into a standard format.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: IAM roles require long-term passwords and credentials to be used by services.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Anomaly-Based Detection establishes a 'baseline' of normal behavior.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Multi-Factor Authentication (MFA) is only recommended for administrative accounts.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: AWS Config tracks changes to resource configurations over time.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Route Tables define the permissions for users within a VPC.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Data Encryption Key (DEK) is used to encrypt the actual data records.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: A Network IPS (NIPS) is usually installed on a specific laptop to monitor its activity.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  }
+]

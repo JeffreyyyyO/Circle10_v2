@@ -540,23 +540,6 @@
             transition: none; 
             padding-right: 2px;
         }
-        
-        .welcome-start-button {
-            background-color: #4f46e5; /* Indigo */
-            color: white;
-            padding: 16px 30px; 
-            border-radius: 12px;
-            font-size: 1.5rem; 
-            font-weight: 600; 
-            cursor: pointer;
-            transition: background-color 0.2s ease;
-            border: none;
-            font-family: 'Sora', sans-serif; 
-            width: 66.6666%; /* w-2/3 equivalent */
-        }
-        .welcome-start-button:hover {
-            background-color: #4338ca; 
-        }
 
         /* --- Reader Page Styles --- */
         #reader-top-bar {
@@ -867,9 +850,9 @@
         <!-- Main Content Area (for screens) -->
         <div id="main-content-area" class="flex-grow relative overflow-hidden">
 
-            <!-- Welcome Screen (No changes to its own content) -->
+            <!-- Welcome Screen -->
             <div id="welcome-screen" class="screen current justify-between items-center pt-20 pb-10">
-                <div class="text-center">
+                <div class="text-center flex flex-col items-center w-full">
                     <h1 class="text-7xl text-gray-800" style="font-family: 'Sora', sans-serif;">
                         <span class="font-light" style="font-weight: 300;">Circle</span><span class="font-black italic" style="font-weight: 900;">10</span>
                     </h1>
@@ -1958,7 +1941,7 @@
             "Designing_a_Security_Awareness_Program": "Designing_a_Security_Awareness_Program",
             "Program_Deployment_Metrics_and_Culture_Change": "Program_Deployment_Metrics_and_Culture_Change",
             "Cybersecurity_Strategy_Fundamentals": "Cybersecurity_Strategy_Fundamentals",
-            "Threat_Modelling_and_Application_Security_Testing",
+            "Threat_Modelling_and_Application_Security_Testing": "Threat_Modelling_and_Application_Security_Testing",
             "Securing_APIs_and_Microservices": "Securing_APIs_and_Microservices",
             "Policy_Design_Implementation_and_Enforcement": "Policy_Design_Implementation_and_Enforcement",
         };
@@ -2688,9 +2671,8 @@
 
 
             /* --- Welcome Screen --- */
-            goToLobbyFromWelcome.addEventListener('click', () => {
-                navigateTo(lobbyScreen, 'forward');
-            });
+            const startHandler = () => navigateTo(lobbyScreen, 'forward');
+            goToLobbyFromWelcome.addEventListener('click', startHandler);
 
             /* --- Lobby Screen --- */
             goToNotesButton.addEventListener('click', () => {
@@ -2851,4 +2833,3 @@
     </script>
 </body>
 </html>
-

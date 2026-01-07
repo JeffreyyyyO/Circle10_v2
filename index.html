@@ -879,9 +879,6 @@
                     <div class="h-auto text-gray-500 font-bold mb-10">
                         <span id="typewriter-output"></span>
                     </div>
-                    <button id="main-start-button" class="welcome-start-button">
-                        Get Started
-                    </button>
                 </div>
             </div>
 
@@ -2689,15 +2686,8 @@
             welcomeNav.classList.remove('hidden'); 
             /* --- End Initial Nav Setup --- */
 
+
             /* --- Welcome Screen --- */
-            const mainStartButton = document.getElementById('main-start-button');
-            
-            // Action for the new button in the center of the screen
-            mainStartButton.addEventListener('click', () => {
-                navigateTo(lobbyScreen, 'forward');
-            });
-            
-            // Action for the small arrow icon in the bottom nav bar
             goToLobbyFromWelcome.addEventListener('click', () => {
                 navigateTo(lobbyScreen, 'forward');
             });
@@ -2861,9 +2851,3 @@
     </script>
 </body>
 </html>
-
-
-
-
-
-

@@ -279,6 +279,69 @@
         .quiz-card-orange:hover {
             background-color: #aa4400; /* Darker Orange */
         }
+
+        /* --- Emerald Card Color --- */
+        .quiz-card-emerald {
+            background-color: #028A0F;
+            color: white;
+        }
+        .quiz-card-emerald:hover {
+            background-color: #026b0c;
+        }
+
+        /* --- Red-Violet Card Color --- */
+        .quiz-card-redviolet {
+            background-color: #C71585;
+            color: white;
+        }
+        .quiz-card-redviolet:hover {
+            background-color: #a3116d;
+        }
+
+        /* --- Chocolate Card Color --- */
+        .quiz-card-chocolate {
+            background-color: #2E1503;
+            color: white;
+        }
+        .quiz-card-chocolate:hover {
+            background-color: #1a0c02;
+        }
+
+        /* --- Teal Card Color --- */
+        .quiz-card-teal {
+            background-color: #008080;
+            color: white;
+        }
+        .quiz-card-teal:hover {
+            background-color: #006666;
+        }
+
+        /* --- Parakeet Card Color --- */
+        .quiz-card-parakeet {
+            background-color: #03C04A;
+            color: white;
+        }
+        .quiz-card-parakeet:hover {
+            background-color: #02993b;
+        }
+
+        /* --- Deep-Violet Card Color --- */
+        .quiz-card-deepviolet {
+            background-color: #330066;
+            color: white;
+        }
+        .quiz-card-deepviolet:hover {
+            background-color: #26004d;
+        }
+
+        /* --- Burgundy Card Color --- */
+        .quiz-card-burgundy {
+            background-color: #650015;
+            color: white;
+        }
+        .quiz-card-burgundy:hover {
+            background-color: #4d0010;
+        }
         
         /* --- Lobby Card Color --- */
         /* UPDATED: Changed from Brown to Teal #004545 */
@@ -854,17 +917,19 @@
                 <p class="text-lg text-gray-700 mb-8 flex-shrink-0 px-[2vw]">Pick a domain</p>
                 
                 <div class="lobby-buttons">
-                    <!--  Semester 2 • Month 1 -->
+                    <!--  Semester 2 • Month 1 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 2 • Month 1</h2>
+
                     <!-- Row 1 (Indigo) -->
                     <button class="quiz-card-base quiz-card-indigo" data-note-file="Fundamentals_of_Network_Security_notes.md" data-note-title="Fundamentals of Network Security">
                         <span class="card-subtitle">CYS 520 &bull; Week 1</span>
                         <span class="card-title">Fundamentals of Network Security</span>
                     </button>
-                    <button class="quiz-card-base quiz-card-indigo" data-note-file="Network_Security_Devices_and_Technologies_notes.md" data-note-title="Network Security Devices and Technologies">
+                    <button class="quiz-card-base quiz-card-indigo" data-note-file="Network_Security_Devices_and_Technologies_notes.md" data-note-title="Network Security Devices">
                         <span class="card-subtitle">CYS 520 &bull; Week 2</span>
                         <span class="card-title">Network Security Devices and Technologies</span>
                     </button>
+                    <!-- Row 2 (Indigo) -->
                     <button class="quiz-card-base quiz-card-indigo" data-note-file="Introduction_to_Cryptography_notes.md" data-note-title="Introduction to Cryptography">
                         <span class="card-subtitle">CYS 520 &bull; Week 3</span>
                         <span class="card-title">Introduction to Cryptography</span>
@@ -874,9 +939,10 @@
                         <span class="card-title">Cryptographic Applications</span>
                     </button>
 
-                    <!--  Semester 2 • Month 2 -->
+                    <!-- Semester 2 • Month 2 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 2 • Month 2</h2>
-                    <!-- Row 1 (Indigo) -->
+
+                    <!-- Row 3 (Orange) -->
                     <button class="quiz-card-base quiz-card-orange" data-note-file="Endpoint_Security_notes.md" data-note-title="Endpoint Security">
                         <span class="card-subtitle">CYS 525 &bull; Week 1</span>
                         <span class="card-title">Endpoint Security</span>
@@ -885,6 +951,7 @@
                         <span class="card-subtitle">CYS 525 &bull; Week 2</span>
                         <span class="card-title">Advanced Endpoint Security</span>
                     </button>
+                    <!-- Row 4 (Orange) -->
                     <button class="quiz-card-base quiz-card-orange" data-note-file="Standards_Regulations_and_Data_Privacy_notes.md" data-note-title="Standards, Regulations and Data Privacy">
                         <span class="card-subtitle">CYS 525 &bull; Week 3</span>
                         <span class="card-title">Standards, Regulations and Data Privacy</span>
@@ -894,143 +961,164 @@
                         <span class="card-title">Data Privacy and Professional Issues</span>
                     </button>
 
-                    <!--  Semester 2 • Month 3 -->
+                    <!-- Semester 2 • Month 3 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 2 • Month 3</h2>
-                    <button class="quiz-card-base text-white" style="background-color: #028A0F;" data-note-file="Cloud_Security_notes.md" data-note-title="Cloud Security">
-                        <span class="card-subtitle">CYS 523 &bull; Week 1</span>
+                    <!-- Emerald Cards (Disabled) -->
+                    <button class="quiz-card-base quiz-card-emerald" data-note-file="Cloud_Security_notes.md" data-note-title="Cloud Security">
+                        <span class="card-subtitle">CYS 523 • Week 1</span>
                         <span class="card-title">Cloud Security</span>
                     </button>
-                    <button class="quiz-card-base text-white" style="background-color: #028A0F;" data-note-file="Securing_Cloud_Infrastructure_notes.md" data-note-title="Securing Cloud Infrastructure">
-                        <span class="card-subtitle">CYS 523 &bull; Week 2</span>
+                    <button class="quiz-card-base quiz-card-emerald" data-note-file="Securing_Cloud_Infrastructure_notes.md" data-note-title="Securing Cloud Infrastructure">
+                        <span class="card-subtitle">CYS 523 • Week 2</span>
                         <span class="card-title">Securing Cloud Infrastructure</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #028A0F;">
-                        <span class="card-subtitle">CYS 523 &bull; Week 3</span>
+                    <button class="quiz-card-base quiz-card-emerald opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 523 • Week 3</span>
                         <span class="card-title">Compliance in the Cloud</span>
                     </button>
 
+                    <!-- Semester 3 (SEAC) • Month 1 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 3 (SEAC) • Month 1</h2>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #C71585;">
-                        <span class="card-subtitle">CYS 530 (SEAC) &bull; Week 1</span>
+                    <!-- Red-Violet Cards (Disabled) -->
+                    <button class="quiz-card-base quiz-card-redviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 530 (SEAC) • Week 1</span>
                         <span class="card-title">Fundamentals of Security Architecture</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #C71585;">
-                        <span class="card-subtitle">CYS 530 (SEAC) &bull; Week 2</span>
+                    <button class="quiz-card-base quiz-card-redviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 530 (SEAC) • Week 2</span>
                         <span class="card-title">Designing Secure Networks</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #C71585;">
-                        <span class="card-subtitle">CYS 530 (SEAC) &bull; Week 3</span>
+                    <button class="quiz-card-base quiz-card-redviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 530 (SEAC) • Week 3</span>
                         <span class="card-title">Enterprise Security Architecture</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #C71585;">
-                        <span class="card-subtitle">CYS 530 (SEAC) &bull; Week 4</span>
+                    <button class="quiz-card-base quiz-card-redviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 530 (SEAC) • Week 4</span>
                         <span class="card-title">Emerging Technologies in Architecture</span>
                     </button>
 
+                    <!-- Semester 3 (SRMS) • Month 1 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 3 (SRMS) • Month 1</h2>
-                    <button class="quiz-card-base text-white" style="background-color: #2E1503;" data-note-file="Foundations_of_GRC_notes.md" data-note-title="Foundations of GRC in Cybersecurity">
-                        <span class="card-subtitle">CYS 531 (SRMS) &bull; Week 1</span>
+                    <!-- Chocolate Cards (Enabled) -->
+                    <button class="quiz-card-base quiz-card-chocolate" data-note-file="Foundations_of_GRC_in_Cybersecurity_notes.md" data-note-title="Foundations of GRC in Cybersecurity">
+                        <span class="card-subtitle">CYS 531 (SRMS) • Week 1</span>
                         <span class="card-title">Foundations of GRC in Cybersecurity</span>
                     </button>
-                    <button class="quiz-card-base text-white" style="background-color: #2E1503;" data-note-file="Cyber_Risk_Management_notes.md" data-note-title="Cyber Risk Management and Methodologies">
-                        <span class="card-subtitle">CYS 531 (SRMS) &bull; Week 2</span>
+                    <button class="quiz-card-base quiz-card-chocolate" data-note-file="Cyber_Risk_Management_and_Methodologies_notes.md" data-note-title="Cyber Risk Management and Methodologies">
+                        <span class="card-subtitle">CYS 531 (SRMS) • Week 2</span>
                         <span class="card-title">Cyber Risk Management and Methodologies</span>
                     </button>
-                    <button class="quiz-card-base text-white" style="background-color: #2E1503;" data-note-file="Compliance_Management_notes.md" data-note-title="Compliance Management and Regulatory Mapping">
-                        <span class="card-subtitle">CYS 531 (SRMS) &bull; Week 3</span>
+                    <button class="quiz-card-base quiz-card-chocolate" data-note-file="Compliance_Management_and_Regulatory_Mapping_notes.md" data-note-title="Compliance Management and Regulatory Mapping">
+                        <span class="card-subtitle">CYS 531 (SRMS) • Week 3</span>
                         <span class="card-title">Compliance Management and Regulatory Mapping</span>
                     </button>
-                    <button class="quiz-card-base text-white" style="background-color: #2E1503;" data-note-file="Integrating_GRC_notes.md" data-note-title="Integrating GRC Into Enterprise Strategy">
-                        <span class="card-subtitle">CYS 531 (SRMS) &bull; Week 4</span>
+                    <button class="quiz-card-base quiz-card-chocolate" data-note-file="Integrating_GRC_Into_Enterprise_Strategy_notes.md" data-note-title="Integrating GRC Into Enterprise Strategy">
+                        <span class="card-subtitle">CYS 531 (SRMS) • Week 4</span>
                         <span class="card-title">Integrating GRC Into Enterprise Strategy</span>
                     </button>
 
+                    <!-- Semester 3 (SEAC) • Month 2 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 3 (SEAC) • Month 2</h2>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #008080;">
-                        <span class="card-subtitle">CYS 535 (SEAC) &bull; Week 1</span>
+                    <!-- Teal Cards (Disabled) -->
+                    <button class="quiz-card-base quiz-card-teal opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 535 (SEAC) • Week 1</span>
                         <span class="card-title">Advanced Cryptographic Techniques</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #008080;">
-                        <span class="card-subtitle">CYS 535 (SEAC) &bull; Week 2</span>
+                    <button class="quiz-card-base quiz-card-teal opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 535 (SEAC) • Week 2</span>
                         <span class="card-title">Public Key Infrastructure (PKI)</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #008080;">
-                        <span class="card-subtitle">CYS 535 (SEAC) &bull; Week 3</span>
+                    <button class="quiz-card-base quiz-card-teal opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 535 (SEAC) • Week 3</span>
                         <span class="card-title">Advanced Threat Detetction</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #008080;">
-                        <span class="card-subtitle">CYS 535 (SEAC) &bull; Week 4</span>
+                    <button class="quiz-card-base quiz-card-teal opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 535 (SEAC) • Week 4</span>
                         <span class="card-title">Incident Response Planning</span>
                     </button>
 
+                    <!-- Semester 3 (SRMS) • Month 2 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 3 (SRMS) • Month 2</h2>
-                    <button class="quiz-card-base text-white" style="background-color: #03C04A;" data-note-file="CYS_536_W1_notes.md" data-note-title="Cybersecurity Project Planning and Execution">
-                        <span class="card-subtitle">CYS 536 (SRMS) &bull; Week 1</span>
+                    <!-- Parakeet Cards (Enabled) -->
+                    <button class="quiz-card-base quiz-card-parakeet" data-note-file="Cybersecurity_Project_Planning_and_Execution_notes.md" data-note-title="Cybersecurity Project Planning and Execution">
+                        <span class="card-subtitle">CYS 536 (SRMS) • Week 1</span>
                         <span class="card-title">Cybersecurity Project Planning and Execution</span>
                     </button>
-                    <button class="quiz-card-base text-white" style="background-color: #03C04A;" data-note-file="CYS_536_W2_notes.md" data-note-title="Agile Practices in Cybersecurity">
-                        <span class="card-subtitle">CYS 536 (SRMS) &bull; Week 2</span>
+                    <button class="quiz-card-base quiz-card-parakeet" data-note-file="Agile_Practices_in_Cybersecurity_notes.md" data-note-title="Agile Practices in Cybersecurity">
+                        <span class="card-subtitle">CYS 536 (SRMS) • Week 2</span>
                         <span class="card-title">Agile Practices in Cybersecurity</span>
                     </button>
-                    <button class="quiz-card-base text-white" style="background-color: #03C04A;" data-note-file="CYS_536_W3_notes.md" data-note-title="Communication, Reporting, and Stakeholder Engagement">
-                        <span class="card-subtitle">CYS 536 (SRMS) &bull; Week 3</span>
+                    <button class="quiz-card-base quiz-card-parakeet" data-note-file="Communication_Reporting_and_Stakeholder_Engagement_notes.md" data-note-title="Communication, Reporting, and Stakeholder Engagement">
+                        <span class="card-subtitle">CYS 536 (SRMS) • Week 3</span>
                         <span class="card-title">Communication, Reporting, and Stakeholder Engagement</span>
                     </button>
-                    <button class="quiz-card-base text-white" style="background-color: #03C04A;" data-note-file="CYS_536_W4_notes.md" data-note-title="Cloud Security Architecture and Identity Management">
-                        <span class="card-subtitle">CYS 536 (SRMS) &bull; Week 4</span>
+                    <button class="quiz-card-base quiz-card-parakeet" data-note-file="Cloud_Security_Architecture_and_Identity_Management_notes.md" data-note-title="Cloud Security Architecture and Identity Management">
+                        <span class="card-subtitle">CYS 536 (SRMS) • Week 4</span>
                         <span class="card-title">Cloud Security Architecture and Identity Management</span>
                     </button>
 
+                    <!-- Semester 3 (SEAC) • Month 3 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 3 (SEAC) • Month 3</h2>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #330066;">
-                        <span class="card-subtitle">CYS 532 (SEAC) &bull; Week 1</span>
+                    <!-- Deep Violet Cards (Disabled) -->
+                    <button class="quiz-card-base quiz-card-deepviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 532 (SEAC) • Week 1</span>
                         <span class="card-title">Advanced Endpoint Security</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #330066;">
-                        <span class="card-subtitle">CYS 532 (SEAC) &bull; Week 2</span>
+                    <button class="quiz-card-base quiz-card-deepviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 532 (SEAC) • Week 2</span>
                         <span class="card-title">Advanced Cloud Security</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #330066;">
-                        <span class="card-subtitle">CYS 532 (SEAC) &bull; Week 3</span>
+                    <button class="quiz-card-base quiz-card-deepviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 532 (SEAC) • Week 3</span>
                         <span class="card-title">Systems Security</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #330066;">
-                        <span class="card-subtitle">CYS 532 (SEAC) &bull; Week 4</span>
+                    <button class="quiz-card-base quiz-card-deepviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 532 (SEAC) • Week 4</span>
                         <span class="card-title">Application Security</span>
                     </button>
 
+                    <!-- Semester 3 (SRMS) • Month 3 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 3 (SRMS) • Month 3</h2>
-                    <button class="quiz-card-base text-white" style="background-color: #650015;" data-note-file="CYS_533_W1_notes.md" data-note-title="Threat Detection, Compliance and Hardening in the Cloud">
-                        <span class="card-subtitle">CYS 533 (SRMS) &bull; Week 1</span>
+                    <!-- Deep Burgundy Cards (Enabled) -->
+                    <button class="quiz-card-base quiz-card-burgundy" data-note-file="Threat_Detection_Compliance_and_Hardening_in_the_Cloud_notes.md" data-note-title="Threat Detection, Compliance and Hardening in the Cloud">
+                        <span class="card-subtitle">CYS 533 (SRMS) • Week 1</span>
                         <span class="card-title">Threat Detection, Compliance and Hardening in the Cloud</span>
                     </button>
-                    <button class="quiz-card-base text-white" style="background-color: #650015;" data-note-file="CYS_533_W2_notes.md" data-note-title="Designing a Security Awareness Program">
-                        <span class="card-subtitle">CYS 533 (SRMS) &bull; Week 2</span>
+                    <button class="quiz-card-base quiz-card-burgundy" data-note-file="Designing_a_Security_Awareness_Program_notes.md" data-note-title="Designing a Security Awareness Program">
+                        <span class="card-subtitle">CYS 533 (SRMS) • Week 2</span>
                         <span class="card-title">Designing a Security Awareness Program</span>
                     </button>
-                    <button class="quiz-card-base text-white" style="background-color: #650015;" data-note-file="CYS_533_W3_notes.md" data-note-title="Program Deployment, Metrics and Culture Change">
-                        <span class="card-subtitle">CYS 533 (SRMS) &bull; Week 3</span>
+                    <button class="quiz-card-base quiz-card-burgundy" data-note-file="Program_Deployment_Metrics_and_Culture_Change_notes.md" data-note-title="Program Deployment, Metrics and Culture Change">
+                        <span class="card-subtitle">CYS 533 (SRMS) • Week 3</span>
                         <span class="card-title">Program Deployment, Metrics and Culture Change</span>
                     </button>
-                    <button class="quiz-card-base text-white" style="background-color: #650015;" data-note-file="CYS_533_W4_notes.md" data-note-title="Cybersecurity Strategy Fundamentals">
-                        <span class="card-subtitle">CYS 533 (SRMS) &bull; Week 4</span>
+                    <button class="quiz-card-base quiz-card-burgundy" data-note-file="Cybersecurity_Strategy_Fundamentals_notes.md" data-note-title="Cybersecurity Strategy Fundamentals">
+                        <span class="card-subtitle">CYS 533 (SRMS) • Week 4</span>
                         <span class="card-title">Cybersecurity Strategy Fundamentals</span>
                     </button>
 
+                    <!-- Semester 3 (SEAC) • Month 4 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 3 (SEAC) • Month 4</h2>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #330066;">
-                        <span class="card-subtitle">CYS 532 (SEAC) &bull; Week 5</span>
+                    <!-- Deep Violet Cards (Disabled) - using Deep Violet as continuation of SEAC -->
+                    <button class="quiz-card-base quiz-card-deepviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 532 (SEAC) • Week 5</span>
                         <span class="card-title">Threat Modelling and Application Security Testing</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #330066;">
-                        <span class="card-subtitle">CYS 532 (SEAC) &bull; Week 6</span>
+                    <button class="quiz-card-base quiz-card-deepviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 532 (SEAC) • Week 6</span>
                         <span class="card-title">Securing APIs and Microservices</span>
                     </button>
 
+                    <!-- Semester 3 (SRMS) • Month 4 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 3 (SRMS) • Month 4</h2>
-                    <button class="quiz-card-base text-white" style="background-color: #650015;" data-note-file="CYS_533_W5_notes.md" data-note-title="Policy Design, Implementation and Enforcement">
-                        <span class="card-subtitle">CYS 533 (SRMS) &bull; Week 5</span>
+                    <!-- Deep Burgundy Cards (Enabled) -->
+                    <button class="quiz-card-base quiz-card-burgundy" data-note-file="Policy_Design_Implementation_and_Enforcement_notes.md" data-note-title="Policy Design, Implementation and Enforcement">
+                        <span class="card-subtitle">CYS 533 (SRMS) • Week 5</span>
                         <span class="card-title">Policy Design, Implementation and Enforcement</span>
+                    </button>
+                    <button class="quiz-card-base quiz-card-burgundy opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 533 (SRMS) • Week 6</span>
+                        <span class="card-title">NIL</span>
                     </button>
                 </div>
             </div>
@@ -1041,8 +1129,9 @@
                 <p class="text-lg text-gray-700 mb-8 flex-shrink-0 px-[2vw]">Transcribed & structured live-class decks</p>
                 
                 <div class="lobby-buttons">
-                    <!--  Semester 2 • Month 1 -->
-                    <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 2 • Month 1</h2>
+                    <!-- Month 1 Header -->
+                    <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 2: Month 1</h2>
+
                     <!-- Row 1 (Indigo) -->
                     <button class="quiz-card-base quiz-card-indigo" data-note-file="Fundamentals_of_Network_Security_deck.md" data-note-title="Fundamentals of Network Security">
                         <span class="card-subtitle">CYS 520 &bull; Week 1</span>
@@ -1052,6 +1141,7 @@
                         <span class="card-subtitle">CYS 520 &bull; Week 2</span>
                         <span class="card-title">Network Security Devices and Technologies</span>
                     </button>
+                    <!-- Row 2 (Indigo) -->
                     <button class="quiz-card-base quiz-card-indigo" data-note-file="Introduction_to_Cryptography_deck.md" data-note-title="Introduction to Cryptography">
                         <span class="card-subtitle">CYS 520 &bull; Week 3</span>
                         <span class="card-title">Introduction to Cryptography</span>
@@ -1061,9 +1151,10 @@
                         <span class="card-title">Cryptographic Applications</span>
                     </button>
 
-                    <!--  Semester 2 • Month 2 -->
-                    <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 2 • Month 2</h2>
-                    <!-- Row 1 (Indigo) -->
+                    <!-- Month 2 Header -->
+                    <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 2: Month 2</h2>
+
+                    <!-- Row 3 (Orange) -->
                     <button class="quiz-card-base quiz-card-orange" data-note-file="Endpoint_Security_deck.md" data-note-title="Endpoint Security">
                         <span class="card-subtitle">CYS 525 &bull; Week 1</span>
                         <span class="card-title">Endpoint Security</span>
@@ -1072,152 +1163,174 @@
                         <span class="card-subtitle">CYS 525 &bull; Week 2</span>
                         <span class="card-title">Advanced Endpoint Security</span>
                     </button>
+                    <!-- Row 4 (Orange) -->
                     <button class="quiz-card-base quiz-card-orange opacity-50 cursor-not-allowed">
                         <span class="card-subtitle">CYS 525 &bull; Week 3</span>
                         <span class="card-title">Standards, Regulations and Data Privacy</span>
                     </button>
-                    <button class="quiz-card-base quiz-card-orange" data-note-file="Data_Privacy_and_Professional_Issues_deck.md" data-note-title="Data Privacy and Professional Issues">
+                    <button class="quiz-card-base quiz-card-orange opacity-50 cursor-not-allowed">
                         <span class="card-subtitle">CYS 525 &bull; Week 4</span>
                         <span class="card-title">Data Privacy and Professional Issues</span>
                     </button>
 
-                    <!--  Semester 2 • Month 3 -->
+                    <!-- Semester 2: Month 3 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 2 • Month 3</h2>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #028A0F;">
-                        <span class="card-subtitle">CYS 523 &bull; Week 1</span>
+                    <!-- Emerald Cards (Disabled) -->
+                    <button class="quiz-card-base quiz-card-emerald opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 523 • Week 1</span>
                         <span class="card-title">Cloud Security</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #028A0F;">
-                        <span class="card-subtitle">CYS 523 &bull; Week 2</span>
+                    <button class="quiz-card-base quiz-card-emerald opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 523 • Week 2</span>
                         <span class="card-title">Securing Cloud Infrastructure</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #028A0F;">
-                        <span class="card-subtitle">CYS 523 &bull; Week 3</span>
+                    <button class="quiz-card-base quiz-card-emerald opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 523 • Week 3</span>
                         <span class="card-title">Compliance in the Cloud</span>
                     </button>
 
+                    <!-- Semester 3 (SEAC) • Month 1 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 3 (SEAC) • Month 1</h2>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #C71585;">
-                        <span class="card-subtitle">CYS 530 (SEAC) &bull; Week 1</span>
+                    <!-- Red-Violet Cards (Disabled) -->
+                    <button class="quiz-card-base quiz-card-redviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 530 (SEAC) • Week 1</span>
                         <span class="card-title">Fundamentals of Security Architecture</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #C71585;">
-                        <span class="card-subtitle">CYS 530 (SEAC) &bull; Week 2</span>
+                    <button class="quiz-card-base quiz-card-redviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 530 (SEAC) • Week 2</span>
                         <span class="card-title">Designing Secure Networks</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #C71585;">
-                        <span class="card-subtitle">CYS 530 (SEAC) &bull; Week 3</span>
+                    <button class="quiz-card-base quiz-card-redviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 530 (SEAC) • Week 3</span>
                         <span class="card-title">Enterprise Security Architecture</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #C71585;">
-                        <span class="card-subtitle">CYS 530 (SEAC) &bull; Week 4</span>
+                    <button class="quiz-card-base quiz-card-redviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 530 (SEAC) • Week 4</span>
                         <span class="card-title">Emerging Technologies in Architecture</span>
                     </button>
 
+                    <!-- Semester 3 (SRMS) • Month 1 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 3 (SRMS) • Month 1</h2>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #2E1503;">
-                        <span class="card-subtitle">CYS 531 (SRMS) &bull; Week 1</span>
+                    <!-- Chocolate Cards (Enabled) -->
+                    <button class="quiz-card-base quiz-card-chocolate" data-note-file="Foundations_of_GRC_in_Cybersecurity_deck.md" data-note-title="Foundations of GRC in Cybersecurity">
+                        <span class="card-subtitle">CYS 531 (SRMS) • Week 1</span>
                         <span class="card-title">Foundations of GRC in Cybersecurity</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #2E1503;">
-                        <span class="card-subtitle">CYS 531 (SRMS) &bull; Week 2</span>
+                    <button class="quiz-card-base quiz-card-chocolate" data-note-file="Cyber_Risk_Management_and_Methodologies_deck.md" data-note-title="Cyber Risk Management and Methodologies">
+                        <span class="card-subtitle">CYS 531 (SRMS) • Week 2</span>
                         <span class="card-title">Cyber Risk Management and Methodologies</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #2E1503;">
-                        <span class="card-subtitle">CYS 531 (SRMS) &bull; Week 3</span>
+                    <button class="quiz-card-base quiz-card-chocolate" data-note-file="Compliance_Management_and_Regulatory_Mapping_deck.md" data-note-title="Compliance Management and Regulatory Mapping">
+                        <span class="card-subtitle">CYS 531 (SRMS) • Week 3</span>
                         <span class="card-title">Compliance Management and Regulatory Mapping</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #2E1503;">
-                        <span class="card-subtitle">CYS 531 (SRMS) &bull; Week 4</span>
+                    <button class="quiz-card-base quiz-card-chocolate" data-note-file="Integrating_GRC_Into_Enterprise_Strategy_deck.md" data-note-title="Integrating GRC Into Enterprise Strategy">
+                        <span class="card-subtitle">CYS 531 (SRMS) • Week 4</span>
                         <span class="card-title">Integrating GRC Into Enterprise Strategy</span>
                     </button>
 
+                    <!-- Semester 3 (SEAC) • Month 2 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 3 (SEAC) • Month 2</h2>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #008080;">
-                        <span class="card-subtitle">CYS 535 (SEAC) &bull; Week 1</span>
+                    <!-- Teal Cards (Disabled) -->
+                    <button class="quiz-card-base quiz-card-teal opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 535 (SEAC) • Week 1</span>
                         <span class="card-title">Advanced Cryptographic Techniques</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #008080;">
-                        <span class="card-subtitle">CYS 535 (SEAC) &bull; Week 2</span>
+                    <button class="quiz-card-base quiz-card-teal opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 535 (SEAC) • Week 2</span>
                         <span class="card-title">Public Key Infrastructure (PKI)</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #008080;">
-                        <span class="card-subtitle">CYS 535 (SEAC) &bull; Week 3</span>
+                    <button class="quiz-card-base quiz-card-teal opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 535 (SEAC) • Week 3</span>
                         <span class="card-title">Advanced Threat Detetction</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #008080;">
-                        <span class="card-subtitle">CYS 535 (SEAC) &bull; Week 4</span>
+                    <button class="quiz-card-base quiz-card-teal opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 535 (SEAC) • Week 4</span>
                         <span class="card-title">Incident Response Planning</span>
                     </button>
 
+                    <!-- Semester 3 (SRMS) • Month 2 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 3 (SRMS) • Month 2</h2>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #03C04A;">
-                        <span class="card-subtitle">CYS 536 (SRMS) &bull; Week 1</span>
+                    <!-- Parakeet Cards (Enabled) -->
+                    <button class="quiz-card-base quiz-card-parakeet" data-note-file="Cybersecurity_Project_Planning_and_Execution_deck.md" data-note-title="Cybersecurity Project Planning and Execution">
+                        <span class="card-subtitle">CYS 536 (SRMS) • Week 1</span>
                         <span class="card-title">Cybersecurity Project Planning and Execution</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #03C04A;">
-                        <span class="card-subtitle">CYS 536 (SRMS) &bull; Week 2</span>
+                    <button class="quiz-card-base quiz-card-parakeet" data-note-file="Agile_Practices_in_Cybersecurity_deck.md" data-note-title="Agile Practices in Cybersecurity">
+                        <span class="card-subtitle">CYS 536 (SRMS) • Week 2</span>
                         <span class="card-title">Agile Practices in Cybersecurity</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #03C04A;">
-                        <span class="card-subtitle">CYS 536 (SRMS) &bull; Week 3</span>
+                    <button class="quiz-card-base quiz-card-parakeet" data-note-file="Communication_Reporting_and_Stakeholder_Engagement_deck.md" data-note-title="Communication, Reporting, and Stakeholder Engagement">
+                        <span class="card-subtitle">CYS 536 (SRMS) • Week 3</span>
                         <span class="card-title">Communication, Reporting, and Stakeholder Engagement</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #03C04A;">
-                        <span class="card-subtitle">CYS 536 (SRMS) &bull; Week 4</span>
+                    <button class="quiz-card-base quiz-card-parakeet" data-note-file="Cloud_Security_Architecture_and_Identity_Management_deck.md" data-note-title="Cloud Security Architecture and Identity Management">
+                        <span class="card-subtitle">CYS 536 (SRMS) • Week 4</span>
                         <span class="card-title">Cloud Security Architecture and Identity Management</span>
                     </button>
 
+                    <!-- Semester 3 (SEAC) • Month 3 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 3 (SEAC) • Month 3</h2>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #330066;">
-                        <span class="card-subtitle">CYS 532 (SEAC) &bull; Week 1</span>
+                    <!-- Deep Violet Cards (Disabled) -->
+                    <button class="quiz-card-base quiz-card-deepviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 532 (SEAC) • Week 1</span>
                         <span class="card-title">Advanced Endpoint Security</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #330066;">
-                        <span class="card-subtitle">CYS 532 (SEAC) &bull; Week 2</span>
+                    <button class="quiz-card-base quiz-card-deepviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 532 (SEAC) • Week 2</span>
                         <span class="card-title">Advanced Cloud Security</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #330066;">
-                        <span class="card-subtitle">CYS 532 (SEAC) &bull; Week 3</span>
+                    <button class="quiz-card-base quiz-card-deepviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 532 (SEAC) • Week 3</span>
                         <span class="card-title">Systems Security</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #330066;">
-                        <span class="card-subtitle">CYS 532 (SEAC) &bull; Week 4</span>
+                    <button class="quiz-card-base quiz-card-deepviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 532 (SEAC) • Week 4</span>
                         <span class="card-title">Application Security</span>
                     </button>
 
+                    <!-- Semester 3 (SRMS) • Month 3 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 3 (SRMS) • Month 3</h2>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #650015;">
-                        <span class="card-subtitle">CYS 533 (SRMS) &bull; Week 1</span>
+                    <!-- Deep Burgundy Cards (Enabled) -->
+                    <button class="quiz-card-base quiz-card-burgundy" data-note-file="Threat_Detection_Compliance_and_Hardening_in_the_Cloud_deck.md" data-note-title="Threat Detection, Compliance and Hardening in the Cloud">
+                        <span class="card-subtitle">CYS 533 (SRMS) • Week 1</span>
                         <span class="card-title">Threat Detection, Compliance and Hardening in the Cloud</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #650015;">
-                        <span class="card-subtitle">CYS 533 (SRMS) &bull; Week 2</span>
+                    <button class="quiz-card-base quiz-card-burgundy" data-note-file="Designing_a_Security_Awareness_Program_deck.md" data-note-title="Designing a Security Awareness Program">
+                        <span class="card-subtitle">CYS 533 (SRMS) • Week 2</span>
                         <span class="card-title">Designing a Security Awareness Program</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #650015;">
-                        <span class="card-subtitle">CYS 533 (SRMS) &bull; Week 3</span>
+                    <button class="quiz-card-base quiz-card-burgundy" data-note-file="Program_Deployment_Metrics_and_Culture_Change_deck.md" data-note-title="Program Deployment, Metrics and Culture Change">
+                        <span class="card-subtitle">CYS 533 (SRMS) • Week 3</span>
                         <span class="card-title">Program Deployment, Metrics and Culture Change</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #650015;">
-                        <span class="card-subtitle">CYS 533 (SRMS) &bull; Week 4</span>
+                    <button class="quiz-card-base quiz-card-burgundy" data-note-file="Cybersecurity_Strategy_Fundamentals_deck.md" data-note-title="Cybersecurity Strategy Fundamentals">
+                        <span class="card-subtitle">CYS 533 (SRMS) • Week 4</span>
                         <span class="card-title">Cybersecurity Strategy Fundamentals</span>
                     </button>
 
+                    <!-- Semester 3 (SEAC) • Month 4 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 3 (SEAC) • Month 4</h2>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #330066;">
-                        <span class="card-subtitle">CYS 532 (SEAC) &bull; Week 5</span>
+                    <!-- Deep Violet Cards (Disabled) -->
+                    <button class="quiz-card-base quiz-card-deepviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 532 (SEAC) • Week 5</span>
                         <span class="card-title">Threat Modelling and Application Security Testing</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #330066;">
-                        <span class="card-subtitle">CYS 532 (SEAC) &bull; Week 6</span>
+                    <button class="quiz-card-base quiz-card-deepviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 532 (SEAC) • Week 6</span>
                         <span class="card-title">Securing APIs and Microservices</span>
                     </button>
 
+                    <!-- Semester 3 (SRMS) • Month 4 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 3 (SRMS) • Month 4</h2>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #650015;">
-                        <span class="card-subtitle">CYS 533 (SRMS) &bull; Week 5</span>
+                    <!-- Deep Burgundy Cards (Enabled) -->
+                    <button class="quiz-card-base quiz-card-burgundy" data-note-file="Policy_Design_Implementation_and_Enforcement_deck.md" data-note-title="Policy Design, Implementation and Enforcement">
+                        <span class="card-subtitle">CYS 533 (SRMS) • Week 5</span>
                         <span class="card-title">Policy Design, Implementation and Enforcement</span>
+                    </button>
+                    <button class="quiz-card-base quiz-card-burgundy opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 533 (SRMS) • Week 6</span>
+                        <span class="card-title">NIL</span>
                     </button>
                 </div>
             </div>
@@ -1228,66 +1341,67 @@
                 <p class="text-lg text-gray-700 mb-8 flex-shrink-0 px-[2vw]">Labs, Guides and so on...</p>
                 
                 <div class="lobby-buttons">
-                    <!-- Card 1 -->
-                    <button class="quiz-card-base quiz-card-darkgreen" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;" data-note-file="Official_2nd_Semester_Assessment_Checklist.md" data-note-title="Official: 2nd Semester Assessment Checklist">
-                        <span class="card-title">Official: 2nd Semester Assessment Checklist</span>
-                        <span class="card-subtitle">Assessment guide to what’s coming</span>
+                    <!-- Official Instruction 1 -->
+                    <button class="quiz-card-base quiz-card-darkgreen opacity-50 cursor-not-allowed" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;">
+                        <span class="card-title">Oficial: 2nd Semester Assessment Checklist</span>
+                        <span class="card-subtitle">Guide to the Assessments coming</span>
                     </button>
-                    <!-- Card 2 -->
+                    <!-- Lab 1 -->
                     <button class="quiz-card-base quiz-card-darkgreen opacity-50 cursor-not-allowed" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;">
                         <span class="card-title">Lab: Network Traffic Analysis</span>
                         <span class="card-subtitle">Network traffic analysis using Wireshark</span>
                     </button>
-                    <!-- Card 3 -->
+                    <!-- Lab 2 -->
                     <button class="quiz-card-base quiz-card-darkgreen opacity-50 cursor-not-allowed" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;">
                         <span class="card-title">Lab: Threat Simulation</span>
                         <span class="card-subtitle">ARP Spoofing (Bettercap) and traffic analysis (Wireshark)</span>
                     </button>
-                    <!-- Card 4 -->
+                    <!-- Lab 3 -->
                     <button class="quiz-card-base quiz-card-darkgreen" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;" data-note-file="Lab_Encryption_on_Kali_Linux.md" data-note-title="Lab: Encryption on Kali Linux">
                         <span class="card-title">Lab: Encryption on Kali Linux</span>
                         <span class="card-subtitle">Symmetric & Asymmetric Encryption, & PKI</span>
                     </button>
-                    <!-- Card 5 -->
+                    <!-- Lab 4 -->
                     <button class="quiz-card-base quiz-card-darkgreen" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;" data-note-file="Lab_TLS_SSL_VPN_&_Traffic_Analysis.md" data-note-title="Lab: TLS/SSL, VPN & Traffic Analysis">
                         <span class="card-title">Lab: TLS/SSL, VPN & Traffic Analysis</span>
                         <span class="card-subtitle">Configurations using Kali Linux and Wireshark</span>
                     </button>
+                    <!-- Lab 5 -->
                     <button class="quiz-card-base quiz-card-darkgreen" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;" data-note-file="Lab_Cloud_Storage_Security_in_AWS.md" data-note-title="Lab: Cloud Storage Security in AWS">
                         <span class="card-title">Lab: Cloud Storage Security in AWS</span>
-                        <span class="card-subtitle">Set up and secure an Amazon S3 bucket</span>
+                        <span class="card-subtitle">Set up and secure an Amazon S3 Bucket</span>
                     </button>
-                    <!-- Card 6 -->
+                    <!-- Guide 1 -->
                     <button class="quiz-card-base quiz-card-darkgreen" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;" data-note-file="Guide_Next-Gen_Firewall_Setup.md" data-note-title="Guide: Next-Gen Firewall Setup">
                         <span class="card-title">Guide: Next-Gen Firewall Setup</span>
                         <span class="card-subtitle">Adding & configuring Sophos Virtual Firewall</span>
                     </button>
-                    <!-- Card 7 -->
+                    <!-- Guide 2 -->
                     <button class="quiz-card-base quiz-card-darkgreen" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;" data-note-file="Guide_Sophos_Central_Registration.md" data-note-title="Guide: Sophos Central Registration">
                         <span class="card-title">Guide: Sophos Central Registration</span>
                         <span class="card-subtitle">Completing registration for full access</span>
                     </button>
-                    <!-- Card 8 -->
+                    <!-- Guide 3 -->
                     <button class="quiz-card-base quiz-card-darkgreen" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;" data-note-file="Guide_Sophos_Firewall_Security_Configuration_1.md" data-note-title="Guide: Sophos Firewall Security Configuration 1">
                         <span class="card-title">Guide: Sophos Firewall Security Configuration 1</span>
                         <span class="card-subtitle">Configuring 3 security policies</span>
                     </button>
-                    <!-- Card 9 -->
+                    <!-- Guide 4 -->
                     <button class="quiz-card-base quiz-card-darkgreen" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;" data-note-file="Guide_Sophos_Firewall_Security_Configuration_2.md" data-note-title="Guide: Sophos Firewall Security Configuration 2">
                         <span class="card-title">Guide: Sophos Firewall Security Configuration 2</span>
                         <span class="card-subtitle">Configuring 2 more security policies</span>
                     </button>
-                    <!-- Card 10 -->
+                    <!-- Guide 5 -->
                     <button class="quiz-card-base quiz-card-darkgreen opacity-50 cursor-not-allowed" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;">
                         <span class="card-title">Guide: Sophos Endpoint Security</span>
                         <span class="card-subtitle">Configuring and installing Sophos Endpoint Protection on endpoints</span>
                     </button>
-                    <!-- Card 11 -->
+                    <!-- Guide 6 -->
                     <button class="quiz-card-base quiz-card-darkgreen" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;" data-note-file="Guide_Setting_Up_an_AWS_Account.md" data-note-title="Guide: Setting Up an AWS Account">
                         <span class="card-title">Guide: Setting Up an AWS Account</span>
                         <span class="card-subtitle">Registering an AWS account to access cloud services</span>
                     </button>
-                    <!-- Card 12 -->
+                    <!-- Guide 7 -->
                     <button class="quiz-card-base quiz-card-darkgreen" style="grid-column: 1 / span 2; aspect-ratio: 4 / 1;" data-note-file="Guide_Wazuh_SIEM_&_Agents.md" data-note-title="Guide: Wazuh SIEM & Agents">
                         <span class="card-title">Guide: Wazuh SIEM & Agents</span>
                         <span class="card-subtitle">Deploying Wazuh Server on AWS EC2 & Adding Agents on Local VMs</span>
@@ -1301,9 +1415,9 @@
                 <p class="text-lg text-gray-700 mb-8 flex-shrink-0 px-[2vw]">Take on a challenge!</p>
                 
                 <div class="lobby-buttons">
-
-                    <!--  Semester 2 • Month 1 -->
-                    <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 2 • Month 1</h2>
+                    <!-- Month 1 Header -->
+                    <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 2: Month 1</h2>
+                    <!-- Row 1 (Indigo) -->
                     <button class="quiz-card-base quiz-card-indigo" data-quiz-category="Fundamentals_of_Network_Security">
                         <span class="card-subtitle">CYS 520 &bull; Week 1</span>
                         <span class="card-title">Fundamentals of Network Security</span>
@@ -1312,6 +1426,7 @@
                         <span class="card-subtitle">CYS 520 &bull; Week 2</span>
                         <span class="card-title">Network Security Devices and Technologies</span>
                     </button>
+                    <!-- Row 2 (Indigo) -->
                     <button class="quiz-card-base quiz-card-indigo" data-quiz-category="Introduction_to_Cryptography">
                         <span class="card-subtitle">CYS 520 &bull; Week 3</span>
                         <span class="card-title">Introduction to Cryptography</span>
@@ -1321,8 +1436,9 @@
                         <span class="card-title">Cryptographic Applications</span>
                     </button>
 
-                    <!--  Semester 2 • Month 2 -->
-                    <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 2 • Month 2</h2>
+                    <!-- Month 2 Header -->
+                    <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 2: Month 2</h2>
+                    <!-- Row 3 (Orange) -->
                     <button class="quiz-card-base quiz-card-orange" data-quiz-category="Endpoint_Security">
                         <span class="card-subtitle">CYS 525 &bull; Week 1</span>
                         <span class="card-title">Endpoint Security</span>
@@ -1331,6 +1447,7 @@
                         <span class="card-subtitle">CYS 525 &bull; Week 2</span>
                         <span class="card-title">Advanced Endpoint Security</span>
                     </button>
+                    <!-- Row 4 (Orange) -->
                     <button class="quiz-card-base quiz-card-orange" data-quiz-category="Standards_Regulations_and_Data_Privacy">
                         <span class="card-subtitle">CYS 525 &bull; Week 3</span>
                         <span class="card-title">Standards, Regulations and Data Privacy</span>
@@ -1340,143 +1457,164 @@
                         <span class="card-title">Data Privacy and Professional Issues</span>
                     </button>
 
-                    <!--  Semester 2 • Month 3 -->
+                    <!-- Semester 2: Month 3 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 2 • Month 3</h2>
-                    <button class="quiz-card-base text-white" style="background-color: #028A0F;" data-quiz-category="CYS_523_W1">
-                        <span class="card-subtitle">CYS 523 &bull; Week 1</span>
+                    <!-- Emerald Cards (Disabled) -->
+                    <button class="quiz-card-base quiz-card-emerald" data-quiz-category="Cloud_Security">
+                        <span class="card-subtitle">CYS 523 • Week 1</span>
                         <span class="card-title">Cloud Security</span>
                     </button>
-                    <button class="quiz-card-base text-white" style="background-color: #028A0F;" data-quiz-category="CYS_523_W2">
-                        <span class="card-subtitle">CYS 523 &bull; Week 2</span>
+                    <button class="quiz-card-base quiz-card-emerald" data-quiz-category="Securing_Cloud_Infrastructure">
+                        <span class="card-subtitle">CYS 523 • Week 2</span>
                         <span class="card-title">Securing Cloud Infrastructure</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #028A0F;">
-                        <span class="card-subtitle">CYS 523 &bull; Week 3</span>
+                    <button class="quiz-card-base quiz-card-emerald opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 523 • Week 3</span>
                         <span class="card-title">Compliance in the Cloud</span>
                     </button>
 
+                    <!-- Semester 3 (SEAC) • Month 1 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 3 (SEAC) • Month 1</h2>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #C71585;">
-                        <span class="card-subtitle">CYS 530 (SEAC) &bull; Week 1</span>
+                    <!-- Red-Violet Cards (Disabled) -->
+                    <button class="quiz-card-base quiz-card-redviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 530 (SEAC) • Week 1</span>
                         <span class="card-title">Fundamentals of Security Architecture</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #C71585;">
-                        <span class="card-subtitle">CYS 530 (SEAC) &bull; Week 2</span>
+                    <button class="quiz-card-base quiz-card-redviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 530 (SEAC) • Week 2</span>
                         <span class="card-title">Designing Secure Networks</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #C71585;">
-                        <span class="card-subtitle">CYS 530 (SEAC) &bull; Week 3</span>
+                    <button class="quiz-card-base quiz-card-redviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 530 (SEAC) • Week 3</span>
                         <span class="card-title">Enterprise Security Architecture</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #C71585;">
-                        <span class="card-subtitle">CYS 530 (SEAC) &bull; Week 4</span>
+                    <button class="quiz-card-base quiz-card-redviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 530 (SEAC) • Week 4</span>
                         <span class="card-title">Emerging Technologies in Architecture</span>
                     </button>
 
+                    <!-- Semester 3 (SRMS) • Month 1 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 3 (SRMS) • Month 1</h2>
-                    <button class="quiz-card-base text-white" style="background-color: #2E1503;" data-quiz-category="CYS_531_W1">
-                        <span class="card-subtitle">CYS 531 (SRMS) &bull; Week 1</span>
+                    <!-- Chocolate Cards (Enabled) -->
+                    <button class="quiz-card-base quiz-card-chocolate" data-quiz-category="Foundations_of_GRC_in_Cybersecurity">
+                        <span class="card-subtitle">CYS 531 (SRMS) • Week 1</span>
                         <span class="card-title">Foundations of GRC in Cybersecurity</span>
                     </button>
-                    <button class="quiz-card-base text-white" style="background-color: #2E1503;" data-quiz-category="CYS_531_W2">
-                        <span class="card-subtitle">CYS 531 (SRMS) &bull; Week 2</span>
+                    <button class="quiz-card-base quiz-card-chocolate" data-quiz-category="Cyber_Risk_Management_and_Methodologies">
+                        <span class="card-subtitle">CYS 531 (SRMS) • Week 2</span>
                         <span class="card-title">Cyber Risk Management and Methodologies</span>
                     </button>
-                    <button class="quiz-card-base text-white" style="background-color: #2E1503;" data-quiz-category="CYS_531_W3">
-                        <span class="card-subtitle">CYS 531 (SRMS) &bull; Week 3</span>
+                    <button class="quiz-card-base quiz-card-chocolate" data-quiz-category="Compliance_Management_and_Regulatory_Mapping">
+                        <span class="card-subtitle">CYS 531 (SRMS) • Week 3</span>
                         <span class="card-title">Compliance Management and Regulatory Mapping</span>
                     </button>
-                    <button class="quiz-card-base text-white" style="background-color: #2E1503;" data-quiz-category="CYS_531_W4">
-                        <span class="card-subtitle">CYS 531 (SRMS) &bull; Week 4</span>
+                    <button class="quiz-card-base quiz-card-chocolate" data-quiz-category="Integrating_GRC_Into_Enterprise_Strategy">
+                        <span class="card-subtitle">CYS 531 (SRMS) • Week 4</span>
                         <span class="card-title">Integrating GRC Into Enterprise Strategy</span>
                     </button>
 
+                    <!-- Semester 3 (SEAC) • Month 2 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 3 (SEAC) • Month 2</h2>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #008080;">
-                        <span class="card-subtitle">CYS 535 (SEAC) &bull; Week 1</span>
+                    <!-- Teal Cards (Disabled) -->
+                    <button class="quiz-card-base quiz-card-teal opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 535 (SEAC) • Week 1</span>
                         <span class="card-title">Advanced Cryptographic Techniques</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #008080;">
-                        <span class="card-subtitle">CYS 535 (SEAC) &bull; Week 2</span>
+                    <button class="quiz-card-base quiz-card-teal opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 535 (SEAC) • Week 2</span>
                         <span class="card-title">Public Key Infrastructure (PKI)</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #008080;">
-                        <span class="card-subtitle">CYS 535 (SEAC) &bull; Week 3</span>
+                    <button class="quiz-card-base quiz-card-teal opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 535 (SEAC) • Week 3</span>
                         <span class="card-title">Advanced Threat Detetction</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #008080;">
-                        <span class="card-subtitle">CYS 535 (SEAC) &bull; Week 4</span>
+                    <button class="quiz-card-base quiz-card-teal opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 535 (SEAC) • Week 4</span>
                         <span class="card-title">Incident Response Planning</span>
                     </button>
 
+                    <!-- Semester 3 (SRMS) • Month 2 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 3 (SRMS) • Month 2</h2>
-                    <button class="quiz-card-base text-white" style="background-color: #03C04A;" data-quiz-category="CYS_536_W1">
-                        <span class="card-subtitle">CYS 536 (SRMS) &bull; Week 1</span>
+                    <!-- Parakeet Cards (Enabled) -->
+                    <button class="quiz-card-base quiz-card-parakeet" data-quiz-category="Cybersecurity_Project_Planning_and_Execution">
+                        <span class="card-subtitle">CYS 536 (SRMS) • Week 1</span>
                         <span class="card-title">Cybersecurity Project Planning and Execution</span>
                     </button>
-                    <button class="quiz-card-base text-white" style="background-color: #03C04A;" data-quiz-category="CYS_536_W2">
-                        <span class="card-subtitle">CYS 536 (SRMS) &bull; Week 2</span>
+                    <button class="quiz-card-base quiz-card-parakeet" data-quiz-category="Agile_Practices_in_Cybersecurity">
+                        <span class="card-subtitle">CYS 536 (SRMS) • Week 2</span>
                         <span class="card-title">Agile Practices in Cybersecurity</span>
                     </button>
-                    <button class="quiz-card-base text-white" style="background-color: #03C04A;" data-quiz-category="CYS_536_W3">
-                        <span class="card-subtitle">CYS 536 (SRMS) &bull; Week 3</span>
+                    <button class="quiz-card-base quiz-card-parakeet" data-quiz-category="Communication_Reporting_and_Stakeholder_Engagement">
+                        <span class="card-subtitle">CYS 536 (SRMS) • Week 3</span>
                         <span class="card-title">Communication, Reporting, and Stakeholder Engagement</span>
                     </button>
-                    <button class="quiz-card-base text-white" style="background-color: #03C04A;" data-quiz-category="CYS_536_W4">
-                        <span class="card-subtitle">CYS 536 (SRMS) &bull; Week 4</span>
+                    <button class="quiz-card-base quiz-card-parakeet" data-quiz-category="Cloud_Security_Architecture_and_Identity_Management">
+                        <span class="card-subtitle">CYS 536 (SRMS) • Week 4</span>
                         <span class="card-title">Cloud Security Architecture and Identity Management</span>
                     </button>
 
+                    <!-- Semester 3 (SEAC) • Month 3 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 3 (SEAC) • Month 3</h2>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #330066;">
-                        <span class="card-subtitle">CYS 532 (SEAC) &bull; Week 1</span>
+                    <!-- Deep Violet Cards (Disabled) -->
+                    <button class="quiz-card-base quiz-card-deepviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 532 (SEAC) • Week 1</span>
                         <span class="card-title">Advanced Endpoint Security</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #330066;">
-                        <span class="card-subtitle">CYS 532 (SEAC) &bull; Week 2</span>
+                    <button class="quiz-card-base quiz-card-deepviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 532 (SEAC) • Week 2</span>
                         <span class="card-title">Advanced Cloud Security</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #330066;">
-                        <span class="card-subtitle">CYS 532 (SEAC) &bull; Week 3</span>
+                    <button class="quiz-card-base quiz-card-deepviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 532 (SEAC) • Week 3</span>
                         <span class="card-title">Systems Security</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #330066;">
-                        <span class="card-subtitle">CYS 532 (SEAC) &bull; Week 4</span>
+                    <button class="quiz-card-base quiz-card-deepviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 532 (SEAC) • Week 4</span>
                         <span class="card-title">Application Security</span>
                     </button>
 
+                    <!-- Semester 3 (SRMS) • Month 3 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 3 (SRMS) • Month 3</h2>
-                    <button class="quiz-card-base text-white" style="background-color: #650015;" data-quiz-category="CYS_533_W1">
-                        <span class="card-subtitle">CYS 533 (SRMS) &bull; Week 1</span>
+                    <!-- Deep Burgundy Cards (Enabled) -->
+                    <button class="quiz-card-base quiz-card-burgundy" data-quiz-category="Threat_Detection_Compliance_and_Hardening_in_the_Cloud">
+                        <span class="card-subtitle">CYS 533 (SRMS) • Week 1</span>
                         <span class="card-title">Threat Detection, Compliance and Hardening in the Cloud</span>
                     </button>
-                    <button class="quiz-card-base text-white" style="background-color: #650015;" data-quiz-category="CYS_533_W2">
-                        <span class="card-subtitle">CYS 533 (SRMS) &bull; Week 2</span>
+                    <button class="quiz-card-base quiz-card-burgundy" data-quiz-category="Designing_a_Security_Awareness_Program">
+                        <span class="card-subtitle">CYS 533 (SRMS) • Week 2</span>
                         <span class="card-title">Designing a Security Awareness Program</span>
                     </button>
-                    <button class="quiz-card-base text-white" style="background-color: #650015;" data-quiz-category="CYS_533_W3">
-                        <span class="card-subtitle">CYS 533 (SRMS) &bull; Week 3</span>
+                    <button class="quiz-card-base quiz-card-burgundy" data-quiz-category="Program_Deployment_Metrics_and_Culture_Change">
+                        <span class="card-subtitle">CYS 533 (SRMS) • Week 3</span>
                         <span class="card-title">Program Deployment, Metrics and Culture Change</span>
                     </button>
-                    <button class="quiz-card-base text-white" style="background-color: #650015;" data-quiz-category="CYS_533_W4">
-                        <span class="card-subtitle">CYS 533 (SRMS) &bull; Week 4</span>
+                    <button class="quiz-card-base quiz-card-burgundy" data-quiz-category="Cybersecurity_Strategy_Fundamentals">
+                        <span class="card-subtitle">CYS 533 (SRMS) • Week 4</span>
                         <span class="card-title">Cybersecurity Strategy Fundamentals</span>
                     </button>
 
+                    <!-- Semester 3 (SEAC) • Month 4 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 3 (SEAC) • Month 4</h2>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #330066;">
-                        <span class="card-subtitle">CYS 532 (SEAC) &bull; Week 5</span>
+                    <!-- Deep Violet Cards (Disabled) -->
+                    <button class="quiz-card-base quiz-card-deepviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 532 (SEAC) • Week 5</span>
                         <span class="card-title">Threat Modelling and Application Security Testing</span>
                     </button>
-                    <button class="quiz-card-base opacity-50 cursor-not-allowed text-white" style="background-color: #330066;">
-                        <span class="card-subtitle">CYS 532 (SEAC) &bull; Week 6</span>
+                    <button class="quiz-card-base quiz-card-deepviolet opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 532 (SEAC) • Week 6</span>
                         <span class="card-title">Securing APIs and Microservices</span>
                     </button>
 
+                    <!-- Semester 3 (SRMS) • Month 4 Header -->
                     <h2 class="col-span-2 text-center text-xl font-bold text-gray-700 mt-2 mb-2" style="font-family: 'Sora', sans-serif;">Semester 3 (SRMS) • Month 4</h2>
-                    <button class="quiz-card-base text-white" style="background-color: #650015;" data-quiz-category="CYS_533_W5">
-                        <span class="card-subtitle">CYS 533 (SRMS) &bull; Week 5</span>
+                    <!-- Deep Burgundy Cards (Enabled) -->
+                    <button class="quiz-card-base quiz-card-burgundy" data-quiz-category="Policy_Design_Implementation_and_Enforcement">
+                        <span class="card-subtitle">CYS 533 (SRMS) • Week 5</span>
                         <span class="card-title">Policy Design, Implementation and Enforcement</span>
+                    </button>
+                    <button class="quiz-card-base quiz-card-burgundy opacity-50 cursor-not-allowed">
+                        <span class="card-subtitle">CYS 533 (SRMS) • Week 6</span>
+                        <span class="card-title">NIL</span>
                     </button>
 
                     <p id="loading-message" class="text-sm text-gray-600 col-span-full hidden">Loading quiz data...</p>
@@ -1666,7 +1804,7 @@
                       <path fill-rule="evenodd" d="M3.75 6.75a3 3 0 0 1 3-3h3.75a.75.75 0 0 1 0 1.5h-3.75a1.5 1.5 0 0 0-1.5 1.5v3.75a.75.75 0 0 1-1.5 0v-3.75Zm16.5 0a3 3 0 0 0-3-3h-3.75a.75.75 0 0 0 0 1.5h3.75a1.5 1.5 0 0 1 1.5 1.5v3.75a.75.75 0 0 0 1.5 0v-3.75Zm-16.5 10.5a3 3 0 0 0 3 3h3.75a.75.75 0 0 0 0-1.5h-3.75a1.5 1.5 0 0 1-1.5-1.5v-3.75a.75.75 0 0 0-1.5 0v3.75Zm16.5 0a3 3 0 0 1-3 3h-3.75a.75.75 0 0 1 0-1.5h3.75a1.5 1.5 0 0 0 1.5-1.5v-3.75a.75.75 0 0 1 1.5 0v3.75Z" clip-rule="evenodd" />
                     </svg>
                     <svg class="fullscreen-close-icon w-6 h-6 hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                      <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1-1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                      <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
                     </svg>
                 </button>
             </div>
@@ -1683,7 +1821,7 @@
                       <path fill-rule="evenodd" d="M3.75 6.75a3 3 0 0 1 3-3h3.75a.75.75 0 0 1 0 1.5h-3.75a1.5 1.5 0 0 0-1.5 1.5v3.75a.75.75 0 0 1-1.5 0v-3.75Zm16.5 0a3 3 0 0 0-3-3h-3.75a.75.75 0 0 0 0 1.5h3.75a1.5 1.5 0 0 1 1.5 1.5v3.75a.75.75 0 0 0 1.5 0v-3.75Zm-16.5 10.5a3 3 0 0 0 3 3h3.75a.75.75 0 0 0 0-1.5h-3.75a1.5 1.5 0 0 1-1.5-1.5v-3.75a.75.75 0 0 0-1.5 0v3.75Zm16.5 0a3 3 0 0 1-3 3h-3.75a.75.75 0 0 1 0-1.5h3.75a1.5 1.5 0 0 0 1.5-1.5v-3.75a.75.75 0 0 1 1.5 0v3.75Z" clip-rule="evenodd" />
                     </svg>
                     <svg class="fullscreen-close-icon w-6 h-6 hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                      <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1-1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                      <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
                     </svg>
                 </button>
             </div>
@@ -2149,7 +2287,7 @@
 
             } catch (error) {
                 console.error("Error preparing quiz:", error);
-                showMessageBox("Error", `Failed to start quiz: ${error.message}`);
+                showMessageBox("Error", `Failed to load quiz: ${error.message}`);
             }
         }
         
@@ -2700,4 +2838,3 @@
     </script>
 </body>
 </html>
-

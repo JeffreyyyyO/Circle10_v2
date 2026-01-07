@@ -1,0 +1,1152 @@
+[
+  {
+    "question": "In the Shared Responsibility Model, which party is responsible for the physical security of data centers in an IaaS model?",
+    "options": {
+      "a": "The Customer",
+      "b": "The Cloud Service Provider (CSP)",
+      "c": "The Internet Service Provider (ISP)",
+      "d": "The Managed Security Service Provider (MSSP)"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which cloud service model is analogous to renting an 'unfurnished apartment' where the tenant brings their own furniture?",
+    "options": {
+      "a": "Platform as a Service (PaaS)",
+      "b": "Software as a Service (SaaS)",
+      "c": "Infrastructure as a Service (IaaS)",
+      "d": "Function as a Service (FaaS)"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In a PaaS environment, who is responsible for the host operating system and runtime environment?",
+    "options": {
+      "a": "The Customer",
+      "b": "The Provider",
+      "c": "Shared equally",
+      "d": "Third-party auditor"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a customer responsibility in an IaaS model?",
+    "options": {
+      "a": "Physical network infrastructure",
+      "b": "Hypervisor maintenance",
+      "c": "Operating system patching",
+      "d": "Power supply management"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Microsoft 365 and Google Workspace are examples of which cloud service model?",
+    "options": {
+      "a": "IaaS",
+      "b": "PaaS",
+      "c": "SaaS",
+      "d": "DaaS"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which analogy best describes Software as a Service (SaaS)?",
+    "options": {
+      "a": "Building a house from scratch",
+      "b": "Renting an unfurnished apartment",
+      "c": "Staying in a hotel",
+      "d": "Leasing a plot of land"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In the AWS Shared Responsibility Model, who is responsible for 'Security OF the Cloud'?",
+    "options": {
+      "a": "AWS",
+      "b": "The Customer",
+      "c": "The Government",
+      "d": "The End User"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a primary customer responsibility when using Amazon EC2?",
+    "options": {
+      "a": "Securing the virtualization layer",
+      "b": "Physical access controls",
+      "c": "Managing security groups (firewalls)",
+      "d": "Decommissioning disk drives"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which certification covers AWS security specialties?",
+    "options": {
+      "a": "SC-900",
+      "b": "Certified Security - Specialty",
+      "c": "Professional Cloud Security Engineer",
+      "d": "CISSP"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Regardless of the service model (IaaS, PaaS, SaaS), the customer is ALWAYS responsible for:",
+    "options": {
+      "a": "The operating system",
+      "b": "Network controls",
+      "c": "Physical hardware",
+      "d": "Data and user access"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which Azure exam focuses on Security, Compliance, and Identity Fundamentals?",
+    "options": {
+      "a": "AZ-104",
+      "b": "SC-900",
+      "c": "AZ-500",
+      "d": "MS-500"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In a SaaS model, which of the following is NOT a customer responsibility?",
+    "options": {
+      "a": "User access configuration",
+      "b": "Data governance",
+      "c": "Application runtime patching",
+      "d": "Managing data within the software"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which GCP service is an example of PaaS?",
+    "options": {
+      "a": "Google Compute Engine",
+      "b": "Google App Engine",
+      "c": "Google Workspace",
+      "d": "Google Cloud Storage"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Network segmentation primarily reduces the risk of:",
+    "options": {
+      "a": "DDoS attacks",
+      "b": "Lateral movement by attackers",
+      "c": "Phishing attempts",
+      "d": "Password fatigue"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a Virtual Private Cloud (VPC)?",
+    "options": {
+      "a": "A public internet cafe",
+      "b": "A private data center within the cloud",
+      "c": "A physical server rack",
+      "d": "A shared storage drive"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which subnet type is best suited for a database server that should not be directly accessible from the internet?",
+    "options": {
+      "a": "Public Subnet",
+      "b": "Private Subnet",
+      "c": "DMZ Subnet",
+      "d": "Broadcast Subnet"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What function do Network Security Groups (NSGs) serve?",
+    "options": {
+      "a": "They encrypt data at rest",
+      "b": "They act as firewalls to filter traffic",
+      "c": "They manage user identities",
+      "d": "They backup database logs"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The 'Principle of Least Privilege' implies:",
+    "options": {
+      "a": "Giving all users admin access to ensure no blockers",
+      "b": "Granting only minimum necessary access to perform a job",
+      "c": "Restricting access based on time of day only",
+      "d": "Using the same password for all services"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which IAM component defines a set of allowed actions, such as read-only access?",
+    "options": {
+      "a": "Users",
+      "b": "Groups",
+      "c": "Policies (Roles and Permissions)",
+      "d": "MFA Tokens"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Encryption 'at rest' protects data when it is:",
+    "options": {
+      "a": "Moving between services",
+      "b": "Stored on disks or storage services",
+      "c": "Being processed in RAM",
+      "d": "Displayed on a monitor"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which protocol is commonly used to encrypt data 'in transit' for web traffic?",
+    "options": {
+      "a": "FTP",
+      "b": "HTTP",
+      "c": "TLS/HTTPS",
+      "d": "Telnet"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does SSE stand for in the context of cloud storage encryption?",
+    "options": {
+      "a": "Secure Socket Encryption",
+      "b": "Server-Side Encryption",
+      "c": "Standard Security Encoding",
+      "d": "System Storage Encapsulation"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which service allows users to control their own encryption keys?",
+    "options": {
+      "a": "SSE-S3",
+      "b": "Customer Managed Keys (CMKs) via KMS",
+      "c": "Auto-Scaling Groups",
+      "d": "Elastic Load Balancing"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "AWS Security Hub aggregates alerts from which of the following services?",
+    "options": {
+      "a": "EC2 and RDS",
+      "b": "GuardDuty, Inspector, and Macie",
+      "c": "Lambda and DynamoDB",
+      "d": "Route 53 and CloudFront"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which AWS service is specifically designed for sensitive data discovery (e.g., PII)?",
+    "options": {
+      "a": "Amazon Inspector",
+      "b": "Amazon GuardDuty",
+      "c": "Amazon Macie",
+      "d": "AWS Shield"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Microsoft Defender for Cloud provides a metric called 'Secure Score'. What is its purpose?",
+    "options": {
+      "a": "To calculate the monthly bill",
+      "b": "To quantify security posture and guide improvement",
+      "c": "To measure network latency",
+      "d": "To count the number of active users"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which GCP tool provides a real-time inventory of all cloud resources?",
+    "options": {
+      "a": "Cloud Armor",
+      "b": "Chronicle",
+      "c": "Security Command Center (SCC)",
+      "d": "Cloud DLP"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which tool would you use in GCP for Web Application Firewall (WAF) capabilities?",
+    "options": {
+      "a": "Cloud Armor",
+      "b": "Cloud Functions",
+      "c": "BigQuery",
+      "d": "Compute Engine"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Identity Federation allows users to access cloud services using:",
+    "options": {
+      "a": "A separate account for every service",
+      "b": "Credentials from an external Identity Provider (IdP)",
+      "c": "The root account password only",
+      "d": "A shared spreadsheet of passwords"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the 'Passport Analogy' for Identity Federation, what does the passport represent?",
+    "options": {
+      "a": "The cloud service",
+      "b": "The user's main identity from their home country",
+      "c": "The visa application fee",
+      "d": "The flight ticket"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which markup language is associated with SAML tokens?",
+    "options": {
+      "a": "JSON",
+      "b": "YAML",
+      "c": "XML",
+      "d": "HTML"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "OIDC (OpenID Connect) tokens typically use which format?",
+    "options": {
+      "a": "XML",
+      "b": "JSON/JWT",
+      "c": "CSV",
+      "d": "Binary"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary benefit of Single Sign-On (SSO)?",
+    "options": {
+      "a": "It increases the complexity of passwords",
+      "b": "It allows one login to access multiple systems",
+      "c": "It eliminates the need for encryption",
+      "d": "It prevents users from logging out"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How does SSO help reduce phishing risks?",
+    "options": {
+      "a": "By making passwords longer",
+      "b": "By blocking email attachments",
+      "c": "By reducing the number of login prompts presented to users",
+      "d": "By disabling email access"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In a federated workflow, who generates the secure token after authentication?",
+    "options": {
+      "a": "The Cloud Service Provider",
+      "b": "The Identity Provider (IdP)",
+      "c": "The User's Browser",
+      "d": "The ISP"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the E-Commerce Web App scenario, where should the Database Server be placed?",
+    "options": {
+      "a": "In the Public Subnet",
+      "b": "In the Private Subnet",
+      "c": "On the Internet Gateway",
+      "d": "Outside the VPC"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which AWS service is used for DNS management in the architecture scenario?",
+    "options": {
+      "a": "Direct Connect",
+      "b": "Route 53",
+      "c": "CloudFront",
+      "d": "API Gateway"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of the Application Load Balancer (ALB)?",
+    "options": {
+      "a": "To encrypt the database",
+      "b": "To distribute traffic to web servers",
+      "c": "To store backup files",
+      "d": "To generate IAM policies"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which role in the architecture scenario has 'Read-Only / Deploy' access?",
+    "options": {
+      "a": "Administrator",
+      "b": "Auditor",
+      "c": "Developer",
+      "d": "Manager"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "According to the NIST 800-53 framework, defining IAM roles maps to which control?",
+    "options": {
+      "a": "Access Control (AC-2)",
+      "b": "Audit Logging (AU-2)",
+      "c": "System Monitoring (SI-4)",
+      "d": "Backup & Recovery (CP-9)"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which framework maps 'Data Encryption (C.12)' to using AWS KMS?",
+    "options": {
+      "a": "NIST 800-53",
+      "b": "SOC 2",
+      "c": "ISO 27017",
+      "d": "PCI-DSS"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What tool is used to record all API activity within an AWS account?",
+    "options": {
+      "a": "CloudWatch",
+      "b": "CloudTrail",
+      "c": "VPC Flow Logs",
+      "d": "Config"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Amazon CloudWatch is primarily used for:",
+    "options": {
+      "a": "Auditing API calls",
+      "b": "Monitoring system health and metrics",
+      "c": "Managing encryption keys",
+      "d": "Routing DNS traffic"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the 'Unfurnished Apartment' analogy for IaaS, what does the landlord provide?",
+    "options": {
+      "a": "Furniture and decor",
+      "b": "Building and utilities",
+      "c": "Cleaning services",
+      "d": "Food and beverages"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which cloud model abstracts away the underlying infrastructure so you can focus on code?",
+    "options": {
+      "a": "IaaS",
+      "b": "PaaS",
+      "c": "On-Premises",
+      "d": "Bare Metal"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Salesforce is a prime example of:",
+    "options": {
+      "a": "IaaS",
+      "b": "PaaS",
+      "c": "SaaS",
+      "d": "CaaS"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In AWS, who manages the security of the virtualization layer?",
+    "options": {
+      "a": "The Customer",
+      "b": "AWS",
+      "c": "The partner network",
+      "d": "The open-source community"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "On a Google Cloud SQL instance (PaaS), who is responsible for patching the database engine?",
+    "options": {
+      "a": "The Customer",
+      "b": "Google",
+      "c": "The Database Administrator",
+      "d": "The application developer"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Lateral movement refers to:",
+    "options": {
+      "a": "Moving data from on-premise to cloud",
+      "b": "An attacker moving from one compromised system to another within a network",
+      "c": "Upgrading from a free tier to a paid tier",
+      "d": "Shifting responsibility from provider to customer"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following would be placed in a Public Subnet?",
+    "options": {
+      "a": "Backend Database",
+      "b": "Public-facing Web Server",
+      "c": "Internal Log Server",
+      "d": "Secure Key Vault"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What allows a VPC to control IP address ranges?",
+    "options": {
+      "a": "CIDR blocks",
+      "b": "MAC addresses",
+      "c": "DNS records",
+      "d": "Serial numbers"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "A Finance Officer should have what kind of access to cloud infrastructure?",
+    "options": {
+      "a": "Full Admin access",
+      "b": "Write access to databases",
+      "c": "No access to infrastructure, read-only to billing",
+      "d": "Deploy access to production"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which Azure service maps to 'Microsoft Entra ID' for IAM?",
+    "options": {
+      "a": "Azure AD",
+      "b": "Azure Sentinel",
+      "c": "Azure Key Vault",
+      "d": "Azure Monitor"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "AWS KMS stands for:",
+    "options": {
+      "a": "Key Management Service",
+      "b": "Kernel Mode Security",
+      "c": "Key Monitoring System",
+      "d": "Knowledge Management Store"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Encryption in transit often uses:",
+    "options": {
+      "a": "VPNs and Private Links",
+      "b": "USB drives",
+      "c": "Tape backups",
+      "d": "Plain text emails"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which tool provides actionable insights to remediate security issues in AWS?",
+    "options": {
+      "a": "AWS Security Hub",
+      "b": "AWS Lambda",
+      "c": "AWS Glacier",
+      "d": "AWS SQS"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Microsoft Defender for Cloud can identify vulnerabilities in:",
+    "options": {
+      "a": "Physical door locks",
+      "b": "Container images",
+      "c": "Employee badges",
+      "d": "Office Wi-Fi signals"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "GCP Security Command Center integrates with which service for data loss prevention?",
+    "options": {
+      "a": "Cloud DLP",
+      "b": "Cloud Spanner",
+      "c": "Cloud Bigtable",
+      "d": "Cloud CDN"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which is NOT a benefit of Identity Federation?",
+    "options": {
+      "a": "Reduced password fatigue",
+      "b": "Centralized authentication",
+      "c": "Increased need for local user accounts",
+      "d": "Secure access to multiple platforms"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "SAML stands for:",
+    "options": {
+      "a": "Secure Access Management Link",
+      "b": "Security Assertion Markup Language",
+      "c": "System Administration Module Logic",
+      "d": "Standard Access Mode Layer"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which token format is described as 'Modern, lightweight, efficient'?",
+    "options": {
+      "a": "SAML",
+      "b": "OIDC (JSON/JWT)",
+      "c": "Kerberos",
+      "d": "NTLM"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In an SSO scenario, if a user logs into Okta, what happens when they open Salesforce?",
+    "options": {
+      "a": "They must enter their password again",
+      "b": "They are instantly logged in via a token",
+      "c": "Access is denied by default",
+      "d": "They are redirected to AWS"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "A Developer Policy typically restricts actions to:",
+    "options": {
+      "a": "Full VPC modification",
+      "b": "Billing dashboard access",
+      "c": "Describe* and limited deploy permissions",
+      "d": "IAM user creation"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "The SOC 2 control 'Audit Logging (AU-2)' is implemented using:",
+    "options": {
+      "a": "CloudTrail and CloudWatch",
+      "b": "S3 and Glacier",
+      "c": "EC2 and EBS",
+      "d": "Route 53 and ALB"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which AWS service allows for automated daily backups?",
+    "options": {
+      "a": "AWS Backup",
+      "b": "AWS Restore",
+      "c": "AWS Archive",
+      "d": "AWS Snapshot"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In the shared responsibility model for Azure, who handles 'End-user access'?",
+    "options": {
+      "a": "Microsoft",
+      "b": "The Customer",
+      "c": "The Datacenter Manager",
+      "d": "Azure Support"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Google Compute Engine is an example of:",
+    "options": {
+      "a": "SaaS",
+      "b": "PaaS",
+      "c": "IaaS",
+      "d": "FaaS"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the 'root' of the trust relationship in Identity Federation?",
+    "options": {
+      "a": "The handshake between the Cloud Provider and the IdP",
+      "b": "The user's password strength",
+      "c": "The ISP connection speed",
+      "d": "The browser version"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following is a physical security measure managed by AWS?",
+    "options": {
+      "a": "Locked cages and power",
+      "b": "Firewall configuration",
+      "c": "Data encryption",
+      "d": "User permissions"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In a PaaS model, the customer does NOT manage:",
+    "options": {
+      "a": "Application code",
+      "b": "Data input/output",
+      "c": "Operating system updates",
+      "d": "Application-level authentication"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which is a characteristic of a Private Subnet?",
+    "options": {
+      "a": "Direct access to the internet gateway",
+      "b": "Used for resources like databases",
+      "c": "Hosts the load balancer",
+      "d": "Accessible via public IP by default"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The 'Analogy' for OIDC compared to SAML is:",
+    "options": {
+      "a": "A passport with stamps",
+      "b": "A digital driver's license",
+      "c": "A physical key",
+      "d": "A handwritten letter"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool offers 'Continuous Scanning' for misconfigurations in Azure?",
+    "options": {
+      "a": "Azure Monitor",
+      "b": "Microsoft Defender for Cloud",
+      "c": "Azure Logic Apps",
+      "d": "Azure Service Bus"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "GCP's 'Professional Cloud Security Engineer' is a:",
+    "options": {
+      "a": "Service",
+      "b": "Certification",
+      "c": "Tool",
+      "d": "Policy"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "If an S3 bucket is publicly accessible, which tool will alert you?",
+    "options": {
+      "a": "AWS Security Hub",
+      "b": "Amazon Connect",
+      "c": "AWS Chime",
+      "d": "Amazon Alexa"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Who is responsible for Application Code in a PaaS model?",
+    "options": {
+      "a": "Provider",
+      "b": "Customer",
+      "c": "Both",
+      "d": "Neither"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of these is NOT an example of SaaS?",
+    "options": {
+      "a": "Salesforce",
+      "b": "Google Workspace",
+      "c": "Microsoft 365",
+      "d": "AWS EC2"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "The process of verifying a user's identity is called:",
+    "options": {
+      "a": "Authorization",
+      "b": "Authentication",
+      "c": "Accounting",
+      "d": "Allocation"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The process of determining what an authenticated user can do is called:",
+    "options": {
+      "a": "Authorization",
+      "b": "Authentication",
+      "c": "Federation",
+      "d": "Encryption"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which component acts as a firewall for a specific VM?",
+    "options": {
+      "a": "VPC Gateway",
+      "b": "Network Security Group (NSG)",
+      "c": "Route Table",
+      "d": "Subnet Mask"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the Lucid Chart scenario, the 'Encryption Zone' consists of:",
+    "options": {
+      "a": "Public Subnets",
+      "b": "Private Subnets",
+      "c": "The Internet",
+      "d": "The User's Device"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of the AWS Network Firewall in the architecture?",
+    "options": {
+      "a": "To protect the entire network at the VPC entry",
+      "b": "To speed up the internet connection",
+      "c": "To store user passwords",
+      "d": "To host the website"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does 'S3' stand for in AWS?",
+    "options": {
+      "a": "Simple Storage Service",
+      "b": "Secure System Storage",
+      "c": "Scalable Server System",
+      "d": "Super Speed Storage"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which AWS service is a relational database backend?",
+    "options": {
+      "a": "DynamoDB",
+      "b": "RDS",
+      "c": "Redshift",
+      "d": "ElastiCache"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "An Administrator Policy typically uses which Action wildcard?",
+    "options": {
+      "a": "Action: 'None'",
+      "b": "Action: '*'",
+      "c": "Action: 'Read'",
+      "d": "Action: 'Deny'"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Integrating CloudWatch with CloudTrail allows for:",
+    "options": {
+      "a": "Faster internet speeds",
+      "b": "Automated alerting based on API activities",
+      "c": "Cheaper storage costs",
+      "d": "Automatic code generation"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "ISO 27017 control CP-9 relates to:",
+    "options": {
+      "a": "Backup & Recovery",
+      "b": "Access Control",
+      "c": "Human Resources",
+      "d": "Physical Security"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In Azure, who manages the 'Host Operating System'?",
+    "options": {
+      "a": "The Customer",
+      "b": "Microsoft (Azure)",
+      "c": "The User",
+      "d": "The Auditor"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which is an example of an external Identity Provider (IdP)?",
+    "options": {
+      "a": "Okta",
+      "b": "VPC",
+      "c": "EC2",
+      "d": "S3"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does MFA stand for?",
+    "options": {
+      "a": "Multi-Factor Authorization",
+      "b": "Multi-Factor Authentication",
+      "c": "Multiple File Access",
+      "d": "Main Frame Access"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "If a system is compromised, network segmentation helps prevent:",
+    "options": {
+      "a": "Data encryption",
+      "b": "Lateral movement",
+      "c": "System updates",
+      "d": "User login"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of these is NOT a core security principle mentioned?",
+    "options": {
+      "a": "Network Segmentation",
+      "b": "IAM",
+      "c": "Encryption",
+      "d": "Viral Marketing"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which service acts as a 'private data center in the cloud'?",
+    "options": {
+      "a": "VPC",
+      "b": "VPN",
+      "c": "VPS",
+      "d": "VCR"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In the hotel analogy for SaaS, what is the guest responsible for?",
+    "options": {
+      "a": "Fixing the plumbing",
+      "b": "Maintaining the building",
+      "c": "What they do inside their room",
+      "d": "Providing electricity"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "AWS Elastic Beanstalk is an example of:",
+    "options": {
+      "a": "IaaS",
+      "b": "PaaS",
+      "c": "SaaS",
+      "d": "FaaS"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Azure App Service is an example of:",
+    "options": {
+      "a": "IaaS",
+      "b": "PaaS",
+      "c": "SaaS",
+      "d": "HaaS"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the Shared Responsibility Model, 'Data Confidentiality' is always the responsibility of:",
+    "options": {
+      "a": "The Provider",
+      "b": "The Customer",
+      "c": "The Auditor",
+      "d": "The Public"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Cloud security responsibilities are divided based on:",
+    "options": {
+      "a": "The price of the service",
+      "b": "The service model used (IaaS, PaaS, SaaS)",
+      "c": "The location of the user",
+      "d": "The time of year"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is true regarding cloud security?",
+    "options": {
+      "a": "The provider is responsible for everything",
+      "b": "The customer is responsible for everything",
+      "c": "Security is a shared responsibility",
+      "d": "Security is not necessary in the cloud"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In IaaS, the provider manages the physical infrastructure. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In SaaS, the customer is responsible for application updates. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "VPCs are used in AWS, Azure, and GCP. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "A public subnet has no internet access. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "IAM policies can be applied to both users and groups. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Encryption ensures data is readable by everyone. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "HTTPS is used to encrypt data at rest. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "AWS Security Hub collects findings from Amazon GuardDuty. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Identity Federation requires creating new user accounts for every cloud service. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "SAML tokens are typically in JSON format. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "SSO stands for Single Service Option. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the architectural scenario, the web server is placed in a private subnet. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The 'Auditor' role typically has write access to the database. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "CloudTrail logs who did what and when in an AWS account. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "The customer is always responsible for data and user access in the cloud. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "PaaS is like renting a serviced apartment. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Microsoft Defender for Cloud was formerly known as Azure Security Center. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Network Security Groups (NSGs) act as firewalls. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "OIDC is older than SAML. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "A resilient cloud environment requires architectural design and security governance to work together. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  }
+]

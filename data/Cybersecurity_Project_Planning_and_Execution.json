@@ -1,0 +1,1202 @@
+[
+  {
+    "question": "Unlike general IT projects, cybersecurity initiatives are often characterized by which of the following?",
+    "options": {
+      "a": "Lower operational risks and flexible deadlines",
+      "b": "Focus on improving efficiency rather than compliance",
+      "c": "Stricter deadlines and higher potential risks",
+      "d": "Exclusively internal governance policies"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is NOT typically a driver for cybersecurity projects compared to traditional IT projects?",
+    "options": {
+      "a": "Regulatory Standards",
+      "b": "Feature Addition",
+      "c": "Higher Risks",
+      "d": "Stricter Deadlines"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the context of compliance requirements, what is the primary focus of cybersecurity projects?",
+    "options": {
+      "a": "Enhancing user interface experience",
+      "b": "Maintaining business operations legally",
+      "c": "Reducing hardware procurement costs",
+      "d": "Increasing software processing speed"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which regulation mandates encryption for customer data in the Financial Services sector?",
+    "options": {
+      "a": "HIPAA",
+      "b": "GLBA",
+      "c": "PCI DSS",
+      "d": "GDPR"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the potential fine range per violation for non-compliance with HIPAA requirements in healthcare?",
+    "options": {
+      "a": "$10 to $1,000",
+      "b": "$50 to $10,000",
+      "c": "$100 to $50,000",
+      "d": "$500 to $100,000"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Retail companies must implement tokenization to comply with which standard?",
+    "options": {
+      "a": "ISO 27001",
+      "b": "SOX",
+      "c": "PCI DSS",
+      "d": "NIST"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Under GDPR, what is the maximum potential fine for companies handling EU citizen data incorrectly?",
+    "options": {
+      "a": "1% of annual global revenue",
+      "b": "2% of annual global revenue",
+      "c": "4% of annual global revenue",
+      "d": "10% of annual global revenue"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following describes a unique implication of compliance-driven projects?",
+    "options": {
+      "a": "Deadlines are flexible based on budget",
+      "b": "Documentation requirements are minimal",
+      "c": "External audits are part of the scope",
+      "d": "Requirements can be negotiated with stakeholders"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "A simple update to block Port 443/HTTPS on a firewall is an example of which type of risk?",
+    "options": {
+      "a": "Regulatory Risk",
+      "b": "High Technical Risk",
+      "c": "Financial Risk",
+      "d": "Personnel Risk"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Improperly coordinated SSL certificate replacements can primarily disrupt which of the following?",
+    "options": {
+      "a": "Physical security access",
+      "b": "API connections and mobile applications",
+      "c": "Employee payroll processing",
+      "d": "Hardware inventory tracking"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Implementing stricter password policies or locking service accounts may inadvertently break what?",
+    "options": {
+      "a": "External marketing campaigns",
+      "b": "Automated processes organization-wide",
+      "c": "Physical door locks",
+      "d": "Customer support phone lines"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a recommended mitigation strategy for high technical risks in cybersecurity projects?",
+    "options": {
+      "a": "Conducting changes during peak business hours",
+      "b": "Testing in production environments",
+      "c": "Detailed rollback procedures",
+      "d": "Limiting communication to IT staff only"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Following a data breach, the FTC may issue a consent decree requiring security implementations within what window?",
+    "options": {
+      "a": "30 days",
+      "b": "90 days",
+      "c": "120 days",
+      "d": "180 days"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Banking regulators may order enhanced fraud detection systems within how many days following a deficient assessment?",
+    "options": {
+      "a": "60 days",
+      "b": "90 days",
+      "c": "120 days",
+      "d": "180 days"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which stakeholder is typically NOT encountered in traditional IT projects but is critical in cybersecurity projects?",
+    "options": {
+      "a": "Project Managers",
+      "b": "Software Developers",
+      "c": "Law Enforcement",
+      "d": "Database Administrators"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Success in cybersecurity projects is often measured by 'negatives'. Which of the following is an example?",
+    "options": {
+      "a": "Increased system speed",
+      "b": "Zero security incidents",
+      "c": "Higher user adoption rates",
+      "d": "Reduced software licensing costs"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Unlike projects with a defined end, cybersecurity projects often transition into what?",
+    "options": {
+      "a": "Product marketing phases",
+      "b": "Ongoing operational activities",
+      "c": "Separate legal entities",
+      "d": "Archived historical data"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which document acts as a formal contract between the project sponsor and the implementation team?",
+    "options": {
+      "a": "Stakeholder Map",
+      "b": "Risk Register",
+      "c": "Project Charter",
+      "d": "Work Breakdown Structure"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is NOT a core function of the Project Charter?",
+    "options": {
+      "a": "Formal Authorization",
+      "b": "Detailed Technical Configuration",
+      "c": "Definition of Scope",
+      "d": "Roles and Responsibilities"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In a Project Charter, what does the 'Background & Problem Statement' address?",
+    "options": {
+      "a": "The technical specifications of the tool",
+      "b": "The 'why' behind the project",
+      "c": "The list of all stakeholders",
+      "d": "The detailed budget breakdown"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which section of the Project Charter prevents misalignment by clarifying what is and is not included?",
+    "options": {
+      "a": "Objectives/Goals",
+      "b": "Scope",
+      "c": "Timeline/Milestones",
+      "d": "Budget Estimates"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The 'Approval Section' of a Project Charter typically requires signatures from whom?",
+    "options": {
+      "a": "End users",
+      "b": "Project leadership/sponsors",
+      "c": "External vendors",
+      "d": "Government regulators"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "A stakeholder map helps to categorize individuals based on which two dimensions?",
+    "options": {
+      "a": "Cost vs. Benefit",
+      "b": "Time vs. Effort",
+      "c": "Influence vs. Interest",
+      "d": "Risk vs. Reward"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "According to the Power-Interest Grid, how should stakeholders with High Influence and High Interest be managed?",
+    "options": {
+      "a": "Monitor with minimal effort",
+      "b": "Keep informed",
+      "c": "Keep satisfied",
+      "d": "Manage closely"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Stakeholders with High Influence but Low Interest (e.g., Legal, Compliance) should be:",
+    "options": {
+      "a": "Managed closely",
+      "b": "Kept satisfied",
+      "c": "Kept informed",
+      "d": "Monitored"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "End users who are directly affected by changes but have little power to stop them fall into which category?",
+    "options": {
+      "a": "High Influence / High Interest",
+      "b": "High Influence / Low Interest",
+      "c": "Low Influence / High Interest",
+      "d": "Low Influence / Low Interest"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the recommended engagement strategy for Low Influence / Low Interest stakeholders?",
+    "options": {
+      "a": "Provide high-level updates to ensure they don't block progress",
+      "b": "Fully engage with regular meetings",
+      "c": "Monitor with minimal effort",
+      "d": "Use newsletters to reduce resistance"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In the MFA Case Study, which group is categorized as High Interest/High Influence?",
+    "options": {
+      "a": "HR",
+      "b": "All Employees",
+      "c": "IT/Security",
+      "d": "Legal/Compliance"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "The primary goal of 'Scoping' in a cybersecurity project is to:",
+    "options": {
+      "a": "Select the cheapest vendor",
+      "b": "Define what the project will and will not cover",
+      "c": "Create the final training manual",
+      "d": "Conduct a penetration test"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Improper scoping often leads to which common project pitfall?",
+    "options": {
+      "a": "Scope creep",
+      "b": "Vendor lock-in",
+      "c": "Regulatory fines",
+      "d": "Excessive documentation"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which element of scoping involves defining which platforms, devices, and integrations are covered?",
+    "options": {
+      "a": "Stakeholder Impacts",
+      "b": "Technical Boundaries",
+      "c": "Compliance Requirements",
+      "d": "Project Objectives"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the Bank DLP Deployment case study, which of the following was considered 'Out-of-Scope'?",
+    "options": {
+      "a": "Email filtering",
+      "b": "USB restrictions",
+      "c": "Mobile device controls",
+      "d": "Cloud storage monitoring"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does WBS stand for in project management?",
+    "options": {
+      "a": "Work Breakdown Structure",
+      "b": "Work Budget System",
+      "c": "Weekly Business Schedule",
+      "d": "Workflow Boundary Scope"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following best describes a Work Breakdown Structure (WBS)?",
+    "options": {
+      "a": "A legal contract with the vendor",
+      "b": "A hierarchical decomposition of the project into manageable parts",
+      "c": "A list of all project risks and mitigation strategies",
+      "d": "A visual timeline showing task dependencies"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the correct hierarchy of a WBS from top to bottom?",
+    "options": {
+      "a": "Tasks -> Phases -> Work Packages -> End Goal",
+      "b": "End Goal -> Major Phases -> Work Packages -> Discrete Tasks",
+      "c": "Major Phases -> End Goal -> Discrete Tasks -> Work Packages",
+      "d": "Work Packages -> Tasks -> End Goal -> Major Phases"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In a SIEM Deployment WBS, 'Configure log source integrations' typically falls under which phase?",
+    "options": {
+      "a": "Project Planning",
+      "b": "Tool Selection",
+      "c": "Implementation",
+      "d": "Training and Handover"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a Gantt chart primarily used for?",
+    "options": {
+      "a": "Budget estimation",
+      "b": "Visualizing the project schedule and task dependencies",
+      "c": "Identifying stakeholders",
+      "d": "Defining the project scope"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following describes a 'Milestone' in a project timeline?",
+    "options": {
+      "a": "A task that takes the longest to complete",
+      "b": "A significant checkpoint with zero duration",
+      "c": "A recurring meeting with stakeholders",
+      "d": "The total budget for a specific phase"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Gantt charts help identify the 'Critical Path'. What does this represent?",
+    "options": {
+      "a": "The least important tasks in the project",
+      "b": "The sequence of tasks that determines the shortest project duration",
+      "c": "The tasks with the highest budget allocation",
+      "d": "The list of stakeholders with veto power"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the DLP Implementation example, 'Vendor selected and contract signed' is an example of what?",
+    "options": {
+      "a": "A Work Package",
+      "b": "A Milestone",
+      "c": "A Risk",
+      "d": "A Constraint"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is an example of a 'Stage Gate'?",
+    "options": {
+      "a": "Weekly team lunch",
+      "b": "Formal review before moving to the next project phase",
+      "c": "Daily stand-up meeting",
+      "d": "End-user training session"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary purpose of 'Data Localization Controls'?",
+    "options": {
+      "a": "To speed up data transfer rates",
+      "b": "To comply with country-specific data sovereignty laws",
+      "c": "To reduce cloud storage costs",
+      "d": "To encrypt data on mobile devices"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "SOX audits typically apply to which type of organization?",
+    "options": {
+      "a": "Private startups",
+      "b": "Public companies",
+      "c": "Non-profit organizations",
+      "d": "Government agencies only"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Following a SOX audit, companies may need to implement 'Segregation of Duties' controls to maintain what?",
+    "options": {
+      "a": "Marketing momentum",
+      "b": "Audit opinion",
+      "c": "Employee morale",
+      "d": "Customer loyalty"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which team is primarily responsible for 'Compliance Interpretation' in a cybersecurity project?",
+    "options": {
+      "a": "IT Support",
+      "b": "Legal Team",
+      "c": "HR Department",
+      "d": "Sales Team"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following best describes the 'Ongoing Nature' of cybersecurity projects?",
+    "options": {
+      "a": "They end abruptly once the software is installed",
+      "b": "They require continuous monitoring and vulnerability assessments",
+      "c": "They are one-time capital expenditures",
+      "d": "They do not require maintenance after deployment"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does a 'Stakeholder Map' prevent?",
+    "options": {
+      "a": "Technical bugs in software",
+      "b": "Conflict by ensuring no critical department is ignored",
+      "c": "Budget overruns in hardware purchasing",
+      "d": "Network latency issues"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the context of the 2x2 Power-Interest Grid, who would be considered a 'Project Sponsor'?",
+    "options": {
+      "a": "Low Influence / High Interest",
+      "b": "High Influence / Low Interest",
+      "c": "High Influence / High Interest",
+      "d": "Low Influence / Low Interest"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is a 'Technical Boundary' example in scoping?",
+    "options": {
+      "a": "Employees must attend training",
+      "b": "The project must be done by Q3",
+      "c": "Will new access controls be enforced through Identity Federation?",
+      "d": "GDPR compliance is mandatory"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In the SIEM WBS example, 'Validate detection accuracy and fine-tune thresholds' belongs to which phase?",
+    "options": {
+      "a": "Project Planning",
+      "b": "Tool Selection",
+      "c": "Testing and Tuning",
+      "d": "Training and Handover"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does 'SIEM' stand for?",
+    "options": {
+      "a": "Security Integration and Emergency Management",
+      "b": "System Information and Error Monitoring",
+      "c": "Security Information and Event Management",
+      "d": "Secure Internet and Email Monitoring"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary risk of 'Network Segmentation' if not planned correctly?",
+    "options": {
+      "a": "It increases the cost of internet service",
+      "b": "It may inadvertently block legitimate cross-departmental communications",
+      "c": "It automatically deletes user data",
+      "d": "It voids hardware warranties"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a 'Constraint' in a project charter?",
+    "options": {
+      "a": "The goal to encrypt laptops",
+      "b": "Budget limitations and timeline restrictions",
+      "c": "The list of deliverables",
+      "d": "The background problem statement"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is 'Legal' often categorized as 'High Influence / Low Interest' (Keep Satisfied)?",
+    "options": {
+      "a": "They do not care about the project outcome",
+      "b": "They have no power to stop the project",
+      "c": "They are not involved in daily details but can block progress if non-compliant",
+      "d": "They are the primary users of the new system"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a 'Discrete Task' in a WBS?",
+    "options": {
+      "a": "The broad stage of a project",
+      "b": "The individual action required to complete a work package",
+      "c": "The final deliverable",
+      "d": "A group of related tasks"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a benefit of using a WBS?",
+    "options": {
+      "a": "Better cost estimation",
+      "b": "Resource planning",
+      "c": "Guaranteed project success",
+      "d": "Risk analysis"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In the DLP example, 'Meet with compliance and legal teams' is part of which phase?",
+    "options": {
+      "a": "Planning and Requirements Gathering",
+      "b": "Evaluation and Procurement",
+      "c": "Deployment and Configuration",
+      "d": "Monitoring and Optimization"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the role of 'HR' in the MFA Case Study Stakeholder Map?",
+    "options": {
+      "a": "Lead implementation (High Interest)",
+      "b": "Help enforce policy (Medium Interest/Influence)",
+      "c": "Ensure data law compliance (Low Interest)",
+      "d": "Provide regular status reports (High Influence)"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a 'Project Implication' of strict compliance requirements?",
+    "options": {
+      "a": "Timeline flexibility is unlimited",
+      "b": "Documentation is optional",
+      "c": "Non-negotiable requirements that cannot be compromised",
+      "d": "External audits are excluded from the scope"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does 'DLP' stand for?",
+    "options": {
+      "a": "Data Loss Prevention",
+      "b": "Digital Link Protocol",
+      "c": "Direct Lease Purchase",
+      "d": "Data Level Protection"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Multinational corporations having 90 days to implement controls is an example of what?",
+    "options": {
+      "a": "International Compliance Deadline",
+      "b": "Internal Policy Change",
+      "c": "Vendor Contract Negotiation",
+      "d": "Software Development Lifecycle"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following is a 'Risk' example in the MFA Case Study Charter?",
+    "options": {
+      "a": "User resistance and compatibility issues",
+      "b": "Budget surplus",
+      "c": "Faster internet speeds",
+      "d": "Reduced hardware costs"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In the DLP WBS, 'Install DLP agents on all company laptops' is a task in which phase?",
+    "options": {
+      "a": "Phase 1: Planning",
+      "b": "Phase 2: Evaluation",
+      "c": "Phase 3: Deployment",
+      "d": "Phase 4: Training"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which tool translates high-level goals into well-defined tasks?",
+    "options": {
+      "a": "Project Charter",
+      "b": "WBS",
+      "c": "Stakeholder Map",
+      "d": "Risk Register"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the consequence of failing to meet a milestone?",
+    "options": {
+      "a": "It automatically increases the budget",
+      "b": "It signals major issues like non-compliance",
+      "c": "It reduces the project scope",
+      "d": "It improves team morale"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which phase comes after 'Tool Selection' in the SIEM WBS example?",
+    "options": {
+      "a": "Project Planning",
+      "b": "Implementation",
+      "c": "Testing and Tuning",
+      "d": "Training and Handover"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "A 'Work Package' in a WBS consists of what?",
+    "options": {
+      "a": "Groups of related tasks",
+      "b": "A single isolated task",
+      "c": "The entire project scope",
+      "d": "The project budget"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following is NOT a typical stakeholder in a cybersecurity project?",
+    "options": {
+      "a": "Insurance companies",
+      "b": "Competitors",
+      "c": "Third-party security vendors",
+      "d": "Regulatory bodies"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why do cybersecurity projects often have 'Zero flexibility' for deadline extensions?",
+    "options": {
+      "a": "Because project managers are strict",
+      "b": "Because deadlines are fixed by external authorities",
+      "c": "Because the budget runs out",
+      "d": "Because technology becomes obsolete quickly"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What distinguishes cybersecurity project stakeholders from traditional IT stakeholders?",
+    "options": {
+      "a": "They are only technical staff",
+      "b": "They include legal, external auditors, and law enforcement",
+      "c": "They are only internal employees",
+      "d": "They have less influence on the project"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the 2x2 grid, 'Keep Informed' is the strategy for which stakeholder group?",
+    "options": {
+      "a": "High Power / High Interest",
+      "b": "High Power / Low Interest",
+      "c": "Low Power / High Interest",
+      "d": "Low Power / Low Interest"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which activity is part of 'Phase 5: Monitoring and Optimization' in the DLP WBS?",
+    "options": {
+      "a": "Install DLP agents",
+      "b": "Review logs and alerts from pilot groups",
+      "c": "Identify key data types",
+      "d": "Conduct proof of concept"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary function of a 'Gantt Chart' regarding task dependencies?",
+    "options": {
+      "a": "It hides them to simplify the view",
+      "b": "It shows which tasks must be completed before others begin",
+      "c": "It eliminates the need for dependencies",
+      "d": "It randomizes task order"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is an example of 'Success Measurement' in cybersecurity?",
+    "options": {
+      "a": "Passing compliance audits",
+      "b": "Spending the entire budget",
+      "c": "Creating the most documents",
+      "d": "Hiring the most staff"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does 'MFA' stand for?",
+    "options": {
+      "a": "Multi-Factor Authentication",
+      "b": "Multiple Firewall Access",
+      "c": "Managed File Authorization",
+      "d": "Mobile Fingerprint Access"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following is a risk of 'Certificate Updates'?",
+    "options": {
+      "a": "Breaking API connections",
+      "b": "Increasing internet speed",
+      "c": "Reducing data storage needs",
+      "d": "Improving battery life"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the 'Critical Path' useful for determining?",
+    "options": {
+      "a": "The project's maximum budget",
+      "b": "The shortest possible project duration",
+      "c": "The number of stakeholders involved",
+      "d": "The quality of the code"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which document is described as a 'contract' that authorizes the project?",
+    "options": {
+      "a": "WBS",
+      "b": "Project Charter",
+      "c": "Gantt Chart",
+      "d": "Stakeholder Map"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of 'Phase 2' in the DLP WBS example?",
+    "options": {
+      "a": "Deployment and Configuration",
+      "b": "Evaluation and Procurement",
+      "c": "Planning and Requirements",
+      "d": "Training and Change Management"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is 'Scope Creep' dangerous in cybersecurity projects?",
+    "options": {
+      "a": "It makes the project too easy",
+      "b": "It can derail timelines and budgets",
+      "c": "It reduces the number of stakeholders",
+      "d": "It eliminates technical risks"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a core component of a Project Charter?",
+    "options": {
+      "a": "Budget Estimates",
+      "b": "Technical User Manual",
+      "c": "Risks & Assumptions",
+      "d": "Key Deliverables"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the context of 'Project Implications', what does 'Non-negotiable requirements' refer to?",
+    "options": {
+      "a": "Optional features suggested by users",
+      "b": "Compliance mandates that must be met",
+      "c": "Flexible deadlines for internal projects",
+      "d": "Budget allocations for team building"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following describes 'Active Directory Security' risks?",
+    "options": {
+      "a": "Locking service accounts can break automated processes",
+      "b": "It only affects external users",
+      "c": "It has no impact on internal workflows",
+      "d": "It simplifies password management without risk"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the 'Power-Interest Grid' used for?",
+    "options": {
+      "a": "Scheduling tasks",
+      "b": "Analyzing and categorizing stakeholders",
+      "c": "Calculating budget variance",
+      "d": "Defining technical requirements"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which group should you 'Monitor with minimal effort'?",
+    "options": {
+      "a": "High Influence / High Interest",
+      "b": "Low Influence / Low Interest",
+      "c": "High Influence / Low Interest",
+      "d": "Low Influence / High Interest"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary characteristic of 'Regular vulnerability assessments'?",
+    "options": {
+      "a": "They are one-off events",
+      "b": "They are part of the ongoing nature of cybersecurity",
+      "c": "They are only done before project closure",
+      "d": "They are optional for high-security firms"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is an example of a 'Milestone' in the Gantt Timeline example?",
+    "options": {
+      "a": "Weeks 1-2: Planning",
+      "b": "Project Charter Approved",
+      "c": "Conducting market research",
+      "d": "Installing agents"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the timeline for 'Phase 1' in the DLP Gantt example?",
+    "options": {
+      "a": "Weeks 1-2",
+      "b": "Weeks 3-5",
+      "c": "Weeks 6-8",
+      "d": "Week 9"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which phase involves 'Developing internal user training sessions'?",
+    "options": {
+      "a": "Phase 2",
+      "b": "Phase 3",
+      "c": "Phase 4",
+      "d": "Phase 5"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the main purpose of 'Change windows' in risk mitigation?",
+    "options": {
+      "a": "To allow staff to sleep",
+      "b": "To schedule changes during low business impact periods",
+      "c": "To increase the project duration",
+      "d": "To avoid paying overtime"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a 'Risk Mitigation Consideration' mentioned?",
+    "options": {
+      "a": "Extensive testing in isolated environments",
+      "b": "Detailed rollback procedures",
+      "c": "Ignoring stakeholder communication",
+      "d": "Change windows scheduled during low impact periods"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does 'PCI DSS' stand for?",
+    "options": {
+      "a": "Payment Card Industry Data Security Standard",
+      "b": "Public Cyber Intelligence Data Safety System",
+      "c": "Private Card Information Digital Security Service",
+      "d": "Payment Control Interface Data Standard Set"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following describes the 'In-Scope' items for the Bank DLP case study?",
+    "options": {
+      "a": "Mobile device controls",
+      "b": "Email filtering and USB restrictions",
+      "c": "Public-facing web applications",
+      "d": "Legacy application migration"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the budget constraint in the Bank DLP case study?",
+    "options": {
+      "a": "$50,000",
+      "b": "$100,000",
+      "c": "$150,000",
+      "d": "$200,000"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is an example of 'Stakeholder Complexity'?",
+    "options": {
+      "a": "Dealing only with the IT team",
+      "b": "Managing Legal, HR, and External Auditors simultaneously",
+      "c": "Reporting to a single manager",
+      "d": "Having no external dependencies"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the result of 'Failure to meet a milestone' in a regulated project?",
+    "options": {
+      "a": "Minor inconvenience",
+      "b": "Potential fines and non-compliance",
+      "c": "Automatic deadline extension",
+      "d": "Reduced project scope"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a 'Major Phase' in a standard WBS structure?",
+    "options": {
+      "a": "Discrete Task",
+      "b": "Project Planning",
+      "c": "End Goal",
+      "d": "Milestone"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of 'Rollback procedures'?",
+    "options": {
+      "a": "To revert changes if they cause issues",
+      "b": "To speed up the deployment",
+      "c": "To document the project history",
+      "d": "To train users on the new system"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following is a key feature of 'Cybersecurity Project Planning'?",
+    "options": {
+      "a": "Ignoring regulatory standards",
+      "b": "Focusing solely on feature requests",
+      "c": "Risk management and stakeholder collaboration",
+      "d": "Avoiding documentation"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In the Stakeholder Map, where would 'Executives' typically be placed?",
+    "options": {
+      "a": "Low Interest / Low Influence",
+      "b": "High Interest / Low Influence",
+      "c": "Variable Interest / High Influence",
+      "d": "Low Interest / Low Influence"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "True or False: Cybersecurity projects are always purely business-driven initiatives focused on adding features.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": " ",
+      "d": " "
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Non-compliance with HIPAA can result in fines ranging from $100 to $50,000 per violation.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": " ",
+      "d": " "
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Cybersecurity projects typically have flexible deadlines that can be easily negotiated.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": " ",
+      "d": " "
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: A simple firewall rule change to block a port can accidentally shut down web-based business applications.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": " ",
+      "d": " "
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: The Project Charter acts as a formal contract between the project sponsor and the implementation team.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": " ",
+      "d": " "
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Stakeholders with Low Influence and High Interest should be 'Managed Closely'.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": " ",
+      "d": " "
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Scoping defines what is in-scope but does not need to define what is out-of-scope.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": " ",
+      "d": " "
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: A Work Breakdown Structure (WBS) is a hierarchical decomposition of a project into smaller parts.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": " ",
+      "d": " "
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Gantt charts are used to visualize the project schedule and task dependencies.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": " ",
+      "d": " "
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Milestones have a duration of at least one week.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": " ",
+      "d": " "
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Scope creep refers to the gradual expansion of project goals that can derail timelines.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": " ",
+      "d": " "
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: In a WBS, 'Major Phases' are smaller than 'Discrete Tasks'.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": " ",
+      "d": " "
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: GDPR fines can be up to 4% of a company's annual global revenue.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": " ",
+      "d": " "
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Legal teams are typically considered 'Low Interest / Low Influence' stakeholders.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": " ",
+      "d": " "
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Success in cybersecurity is often measured by what does *not* happen, such as zero incidents.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": " ",
+      "d": " "
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: The 'Critical Path' in a Gantt chart identifies tasks that have no impact on the project end date.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": " ",
+      "d": " "
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: 'Rollback procedures' are unnecessary if the code is tested in production.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": " ",
+      "d": " "
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: A Project Charter grants the team the authority to begin work.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": " ",
+      "d": " "
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Technical risks in cybersecurity projects are usually isolated to a single application.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": " ",
+      "d": " "
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Milestones are useful for triggering 'stage gates' or formal reviews.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": " ",
+      "d": " "
+    },
+    "correctAnswer": "a"
+  }
+]

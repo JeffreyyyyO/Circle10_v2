@@ -1,0 +1,1173 @@
+[
+  {
+    "question": "According to the module, while technical skills are essential, what acts as the 'glue' that holds a security project together?",
+    "options": {
+      "a": "Budget allocation",
+      "b": "Effective communication and stakeholder engagement",
+      "c": "Advanced firewall management",
+      "d": "Strict compliance adherence"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT listed as a core topic in this learning session?",
+    "options": {
+      "a": "Targeted Status Reporting",
+      "b": "Cryptographic Algorithm Development",
+      "c": "Risk & Escalation",
+      "d": "Stakeholder Management"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary goal of effective status reporting in cybersecurity governance?",
+    "options": {
+      "a": "To document every single line of code written",
+      "b": "To ensure the project remains aligned with objectives, timelines, and risk posture",
+      "c": "To confuse potential attackers with misinformation",
+      "d": "To delay decision-making until all data is perfect"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which audience group typically requires granular reports on patch status and vulnerability scans?",
+    "options": {
+      "a": "Executive Audiences",
+      "b": "Board Members",
+      "c": "Technical Audiences",
+      "d": "External Regulators"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Executive audiences in cybersecurity reporting differ from technical audiences because executives focus primarily on:",
+    "options": {
+      "a": "System administration logs",
+      "b": "Strategic objectives, risk exposure, and business impact",
+      "c": "The specific syntax of firewall rules",
+      "d": "The technical configuration of intrusion detection systems"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following metrics is most suitable for a Technical Audience report?",
+    "options": {
+      "a": "Return on Investment (ROI) of the security initiative",
+      "b": "Compliance with GDPR regulations",
+      "c": "Number of high-risk vulnerabilities closed",
+      "d": "Overall business reputation score"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "When reporting to executives, which visual aid is suggested for presenting complex information?",
+    "options": {
+      "a": "Raw JSON log files",
+      "b": "Traffic light indicators (Green, Amber, Red)",
+      "c": "Detailed code snippets",
+      "d": "Unfiltered database dumps"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What are the three primary elements involved in tailoring cybersecurity reports?",
+    "options": {
+      "a": "Length, Font Size, and Paper Quality",
+      "b": "Level of Technical Detail, Language/Jargon, and Format",
+      "c": "Encryption Level, Sender Identity, and Timestamp",
+      "d": "Volume, Velocity, and Variety"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the DLP implementation case study, what was the primary focus of the 'Technical Team Report'?",
+    "options": {
+      "a": "Business impact and ROI",
+      "b": "Regulatory goals and budget variances",
+      "c": "Coverage metrics and specific functional outcomes",
+      "d": "Strategic alignment with Q2 targets"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Reporting project status is described as a 'translation task.' What are you translating for executives?",
+    "options": {
+      "a": "English to Binary",
+      "b": "Risks and compliance into technical jargon",
+      "c": "Systems and controls into risks, compliance, and business outcomes",
+      "d": "Business outcomes into raw log data"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Why is documentation considered critical for operational continuity?",
+    "options": {
+      "a": "It increases the administrative workload effectively",
+      "b": "It preserves knowledge so the team doesn't rely on individual memory",
+      "c": "It prevents auditors from asking questions",
+      "d": "It ensures that no one can be fired"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a best practice for 'Clarity' in documentation?",
+    "options": {
+      "a": "Using as much technical jargon as possible to sound professional",
+      "b": "Explaining acronyms and technical terms upon first use",
+      "c": "Writing long, complex sentences to cover every detail",
+      "d": "Assuming the reader knows all internal abbreviations"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which document serves as the project's 'North Star' to prevent scope creep?",
+    "options": {
+      "a": "Risk Register",
+      "b": "Incident Response Plan",
+      "c": "Project Charter",
+      "d": "Audit Log"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary purpose of an 'Implementation Plan'?",
+    "options": {
+      "a": "To outline the technical and logistical steps required to execute the project",
+      "b": "To list who has access to specific resources",
+      "c": "To summarize what went well after the project is over",
+      "d": "To define the high-level goals and stakeholders"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which document tracks identified risks, their likelihood, impact, and mitigation status?",
+    "options": {
+      "a": "Lessons Learned Report",
+      "b": "Risk Register",
+      "c": "Project Charter",
+      "d": "Access Control Matrix"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "A 'Lessons Learned Report' is also known as a:",
+    "options": {
+      "a": "Pre-Mortem Analysis",
+      "b": "Post-Implementation Review",
+      "c": "Vulnerability Scan",
+      "d": "System Architecture Diagram"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In Cloud Migration documentation, what does an 'Access Control Matrix' list?",
+    "options": {
+      "a": "The cost of AWS services",
+      "b": "Who has access to specific resources based on RBAC",
+      "c": "The encryption keys for data-at-rest",
+      "d": "The timeline for server decommissioning"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Risk reporting serves as the foundation for:",
+    "options": {
+      "a": "Reactive crisis management",
+      "b": "Informed decision-making",
+      "c": "Assigning blame to employees",
+      "d": "Creating unnecessary paperwork"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which principle of effective risk reporting ensures stakeholders receive reliable information?",
+    "options": {
+      "a": "Timeliness",
+      "b": "Accuracy",
+      "c": "Actionability",
+      "d": "Consistency"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In a risk report, 'Business Impact Assessment' translates technical risks into:",
+    "options": {
+      "a": "Binary code",
+      "b": "Network diagrams",
+      "c": "Business terms like financial losses or reputational damage",
+      "d": "A list of software patches"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which risk category covers 'Technological obsolescence and vendor dependencies'?",
+    "options": {
+      "a": "Operational",
+      "b": "Technical",
+      "c": "Compliance",
+      "d": "Strategic"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which risk quantification method uses dollar-based calculations like FAIR?",
+    "options": {
+      "a": "Qualitative",
+      "b": "Quantitative",
+      "c": "Hybrid",
+      "d": "Subjective"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In a Multi-Tier Escalation Structure, who is typically involved in Tier 3?",
+    "options": {
+      "a": "Direct supervisors",
+      "b": "Department heads",
+      "c": "Executive leadership",
+      "d": "External regulators"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a 'Time-based' escalation trigger?",
+    "options": {
+      "a": "When a risk exceeds a financial threshold",
+      "b": "When a critical vulnerability is not addressed within a set period (e.g., 24 hours)",
+      "c": "When a risk requires expertise beyond the current team",
+      "d": "When a risk affects multiple business units"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why might a dynamic escalation matrix lower thresholds during 'High-Risk Periods'?",
+    "options": {
+      "a": "To reduce the workload on the security team",
+      "b": "Because executives are more available during these times",
+      "c": "To account for major system deployments or known threat campaigns",
+      "d": "To bypass standard compliance checks"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which stakeholder group is primarily interested in 'fiduciary responsibility and broad strategic implications'?",
+    "options": {
+      "a": "Technical Teams",
+      "b": "Board Level",
+      "c": "Customers",
+      "d": "Regulators"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which communication channel is best for 'real-time visibility into risk status'?",
+    "options": {
+      "a": "Formal Written Reports",
+      "b": "Executive Dashboards",
+      "c": "Emergency Procedures",
+      "d": "Follow-up Communications"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the 'Supply Chain Vulnerability' scenario, when is the 3rd Tier (CEO) escalation triggered?",
+    "options": {
+      "a": "Immediately upon detection",
+      "b": "When legal counsel advises of potential regulatory notification requirements",
+      "c": "When vendor patches are delayed by a few days",
+      "d": "When the IT Director creates a temporary mitigation"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In an 'Insider Threat Detection' scenario, which team is escalated to due to employee-related implications?",
+    "options": {
+      "a": "Network Engineering",
+      "b": "HR & Legal",
+      "c": "Marketing",
+      "d": "Sales"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a primary function of 'Workflow Automation' in risk management platforms?",
+    "options": {
+      "a": "It automatically routes risks to appropriate stakeholders",
+      "b": "It writes the code to patch vulnerabilities",
+      "c": "It conducts physical security sweeps",
+      "d": "It replaces the need for a CISO"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which KPI measures the average time it takes to fix a vulnerability?",
+    "options": {
+      "a": "Mean Time to Risk Identification",
+      "b": "Mean Time to Escalation",
+      "c": "Mean Time to Resolution",
+      "d": "Mean Time to Audit"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Why is 'Silence' dangerous during a cybersecurity incident?",
+    "options": {
+      "a": "It saves bandwidth for technical teams",
+      "b": "It is often interpreted as negligence or a lack of control",
+      "c": "It allows the hackers to get bored and leave",
+      "d": "It ensures that legal counsel has time to draft a perfect press release"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The principle 'Speed Over Perfection' in incident communication suggests:",
+    "options": {
+      "a": "You should guess the root cause to provide an answer quickly",
+      "b": "You should share what you know as soon as possible, even if incomplete",
+      "c": "You should wait until the incident is fully resolved to say anything",
+      "d": "You should only communicate via fast social media channels"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is an example of 'Factual and Calm' communication?",
+    "options": {
+      "a": "\"We are under attack and everything is lost!\"",
+      "b": "\"A misconfiguration allowed public access; it was corrected at 10:42 AM.\"",
+      "c": "\"The IT guy messed up the firewall again.\"",
+      "d": "\"We believe it might be a state-sponsored actor, but we aren't sure.\""
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why must teams use 'Predefined and Secure Channels' during an incident?",
+    "options": {
+      "a": "Because regular email is too expensive",
+      "b": "To ensure accessibility even if primary systems are compromised or down",
+      "c": "To prevent executives from seeing technical chatter",
+      "d": "Because they are legally required to use Slack"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of documenting every action in a 'Communication Log' during an incident?",
+    "options": {
+      "a": "To calculate overtime pay for the team",
+      "b": "For forensic investigations, root cause analysis, and legal obligations",
+      "c": "To prove that the network team is slower than the security team",
+      "d": "To fill up storage space on the server"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the Ransomware Case Study, what was the 'Immediate Action' taken after notifying leadership?",
+    "options": {
+      "a": "Pay the ransom immediately",
+      "b": "Disconnect the HR server and verify backups",
+      "c": "Post about the incident on Twitter",
+      "d": "Format all hard drives in the building"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "When communicating 'Major Project Blockers', what should you do besides reporting the problem?",
+    "options": {
+      "a": "Blame the vendor extensively",
+      "b": "Propose next steps or contingency plans",
+      "c": "Hide the delay until the last possible minute",
+      "d": "Ask for a budget increase immediately"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In Stakeholder Analysis, which factor asks 'Can they make or block decisions?'",
+    "options": {
+      "a": "Identity",
+      "b": "Interest",
+      "c": "Influence",
+      "d": "Support"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In the Power-Interest Matrix, how should you manage a stakeholder with 'High Power' and 'High Interest'?",
+    "options": {
+      "a": "Monitor (Minimal Effort)",
+      "b": "Keep Informed",
+      "c": "Keep Satisfied",
+      "d": "Manage Closely"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "In the Power-Interest Matrix, how should you manage a stakeholder with 'High Power' but 'Low Interest' (e.g., Legal Advisor)?",
+    "options": {
+      "a": "Manage Closely",
+      "b": "Keep Satisfied",
+      "c": "Keep Informed",
+      "d": "Monitor"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which stakeholder group often requires 'awareness sessions' because they have Low Influence but High Interest?",
+    "options": {
+      "a": "End Users",
+      "b": "CISO",
+      "c": "Finance Department",
+      "d": "Board of Directors"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In the Incident Report Template, where would 'Phishing email' be recorded?",
+    "options": {
+      "a": "Incident Identification",
+      "b": "Root Cause Analysis",
+      "c": "Impact Assessment",
+      "d": "Communication Log"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which section of the Incident Report Template includes 'Data types at risk'?",
+    "options": {
+      "a": "Incident Description (Scope of Impact)",
+      "b": "Response Actions Taken",
+      "c": "Resolution and Lessons Learned",
+      "d": "Communication Log"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What distinguishes 'Professional Growth through Documentation'?",
+    "options": {
+      "a": "Creating repeatable processes that others can follow",
+      "b": "Keeping all knowledge to oneself to ensure job security",
+      "c": "Writing code without comments to save time",
+      "d": "Avoiding documentation to focus on 'real work'"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the key difference in reporting format for Executives vs. Technical teams?",
+    "options": {
+      "a": "Executives prefer long emails; Tech teams prefer slides",
+      "b": "Executives prefer concise slide decks; Tech teams prefer detailed reports/logs",
+      "c": "Executives prefer oral reports only; Tech teams prefer video calls",
+      "d": "There is no difference in preferred format"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a 'meaningful entry' in documentation?",
+    "options": {
+      "a": "An entry made just to satisfy a quota",
+      "b": "An entry that contributes to understanding, action, or accountability",
+      "c": "A copy-paste of the entire system log",
+      "d": "A vague note saying 'system checked'"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'Project Charter' analogous to?",
+    "options": {
+      "a": "A user manual",
+      "b": "A receipt",
+      "c": "A North Star",
+      "d": "A map of the building"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In risk escalation, what defines 'Tier 4'?",
+    "options": {
+      "a": "Immediate team members",
+      "b": "Senior technical staff",
+      "c": "External parties (Board, Regulators, Law Enforcement)",
+      "d": "The IT Helpdesk"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which escalation trigger is based on 'potential losses exceeding certain financial thresholds'?",
+    "options": {
+      "a": "Time-based",
+      "b": "Impact-based",
+      "c": "Complexity-based",
+      "d": "Scope-based"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following represents a 'Strategic' risk category?",
+    "options": {
+      "a": "Staffing failures",
+      "b": "Misconfigured firewalls",
+      "c": "Technological obsolescence",
+      "d": "Regulatory violations"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does 'Transparency' in risk reporting enable?",
+    "options": {
+      "a": "Stakeholders to understand potential threats and implications",
+      "b": "Hackers to see the vulnerabilities",
+      "c": "Competitors to steal trade secrets",
+      "d": "Staff to ignore low-priority risks"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why should technical jargon be avoided with non-technical stakeholders?",
+    "options": {
+      "a": "It makes the security team look less intelligent",
+      "b": "It can lead to misunderstandings and poor decision-making",
+      "c": "Non-technical stakeholders prefer Latin terms",
+      "d": "It takes too long to type out"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the 'Action' associated with the documentation best practice of Clarity?",
+    "options": {
+      "a": "Use complex sentence structures",
+      "b": "Explain acronyms and technical terms upon first use",
+      "c": "Assume the audience knows the context",
+      "d": "Use passive voice extensively"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which document helps facilitate knowledge transfer when staff members change roles?",
+    "options": {
+      "a": "Payroll records",
+      "b": "Security Project Documentation",
+      "c": "Marketing brochures",
+      "d": "The cafeteria menu"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the context of 'Risk Categories', what does 'Operational' refer to?",
+    "options": {
+      "a": "Vulnerabilities in software",
+      "b": "Staffing and process failures",
+      "c": "Technological obsolescence",
+      "d": "Vendor dependencies"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'Hybrid' risk quantification method?",
+    "options": {
+      "a": "Using only CVSS scores",
+      "b": "Guessing the risk level based on feeling",
+      "c": "Combines quantitative data with qualitative assessments",
+      "d": "A method that only uses financial data"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "When does 'Tier 1' escalation occur?",
+    "options": {
+      "a": "When the risk requires board intervention",
+      "b": "When the risk is resolvable with existing resources and authority",
+      "c": "When the risk involves external law enforcement",
+      "d": "When the risk exceeds $1 million in potential loss"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'Scope-based' escalation trigger?",
+    "options": {
+      "a": "Risks affecting multiple systems or business units",
+      "b": "Risks that take longer than 24 hours to fix",
+      "c": "Risks that require a specific software tool",
+      "d": "Risks that are difficult to explain"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which stakeholder group requires 'detailed technical information, including system specifications'?",
+    "options": {
+      "a": "Management",
+      "b": "Executing Agencies",
+      "c": "Technical Teams",
+      "d": "Regulators"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the focus of 'Executing Agencies' in risk communication?",
+    "options": {
+      "a": "System specifications",
+      "b": "Strategic implications and competitive impact",
+      "c": "Fiduciary responsibility",
+      "d": "Granular patch levels"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which channel is best for 'Ensuring immediate notification of critical events'?",
+    "options": {
+      "a": "Weekly Newsletters",
+      "b": "Automated Alerts",
+      "c": "Quarterly Business Reviews",
+      "d": "Intranet Articles"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In 'Scenario B: Insider Threat Detection', when is 'Executive Escalation' triggered?",
+    "options": {
+      "a": "When any employee logs in late",
+      "b": "If potential intellectual property theft is identified",
+      "c": "Immediately upon any unusual data access",
+      "d": "When the HR team is unavailable"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'MTTI' stand for in risk metrics?",
+    "options": {
+      "a": "Mean Time To Incident",
+      "b": "Mean Time To Identification",
+      "c": "Maximum Time To Ignore",
+      "d": "Minimum Time To Investigate"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which dashboard tracks 'regulatory risks and reporting deadlines'?",
+    "options": {
+      "a": "Operational Dashboard",
+      "b": "Executive Dashboard",
+      "c": "Compliance Dashboard",
+      "d": "Technical Dashboard"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the purpose of 'Tabletop Exercises' in continuous improvement?",
+    "options": {
+      "a": "To test furniture durability",
+      "b": "To rehearse communication handling and test procedures",
+      "c": "To clean the office desks",
+      "d": "To benchmark against industry standards"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is 'Legal Defensibility' important in risk documentation?",
+    "options": {
+      "a": "It ensures the documents are written in legal jargon",
+      "b": "Proper audit trails support the organization in litigation or regulatory action",
+      "c": "It allows lawyers to rewrite the security policies",
+      "d": "It prevents the security team from being sued personally"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a consequence of 'Poor Communication' during an incident?",
+    "options": {
+      "a": "Increased trust from clients",
+      "b": "Faster resolution times",
+      "c": "Reputational harm and escalated damage",
+      "d": "Reduced legal liability"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which communication principle prevents 'assumptions and panic'?",
+    "options": {
+      "a": "Speed Over Perfection",
+      "b": "Silence is Golden",
+      "c": "Wait and See",
+      "d": "Deny Everything"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In the 'Ransomware Attack' case study, what was the 'Final Closure' step?",
+    "options": {
+      "a": "Conducting a full root cause analysis and circulating a final report",
+      "b": "Restoring data from the backup",
+      "c": "Disconnecting the server",
+      "d": "Calling the police"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "When communicating a 'Blocker', you should strictly avoid:",
+    "options": {
+      "a": "Sticking to facts",
+      "b": "Using standardized formats",
+      "c": "Sugarcoating delays",
+      "d": "Proposing next steps"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which stakeholder group is responsible for 'policy enforcement and user onboarding'?",
+    "options": {
+      "a": "IT Managers",
+      "b": "HR Teams",
+      "c": "Legal Teams",
+      "d": "Executive Sponsors"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the Power-Interest Matrix, 'Finance' (Low Influence/Low Interest) should be:",
+    "options": {
+      "a": "Managed Closely",
+      "b": "Kept Satisfied",
+      "c": "Kept Informed",
+      "d": "Monitored (Minimal Effort)",
+      "correctAnswer": "d"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What is the 'Initial Detection Method' in an incident report?",
+    "options": {
+      "a": "The time the report was written",
+      "b": "How the incident was found (e.g., SIEM alert, Antivirus)",
+      "c": "The name of the person reporting",
+      "d": "The summary of the incident"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which part of the Incident Report Template lists 'preventive measures' for the future?",
+    "options": {
+      "a": "Incident Identification",
+      "b": "Impact Assessment",
+      "c": "Resolution and Lessons Learned",
+      "d": "Response Actions Taken"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Effective status reporting allows stakeholders to:",
+    "options": {
+      "a": "Micromanage the security team",
+      "b": "Stay informed and facilitate decision-making",
+      "c": "Ignore the project until it is finished",
+      "d": "Reduce the budget immediately"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which question addresses the concerns of a Technical Audience?",
+    "options": {
+      "a": "What is the ROI?",
+      "b": "Are we compliant with GDPR?",
+      "c": "Have all security patches been applied to systems in scope?",
+      "d": "Is the project on track regarding budget?"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a 'Risk Register' primarily used for?",
+    "options": {
+      "a": "A decision-making tool for mitigation",
+      "b": "A dense technical report for archiving",
+      "c": "A list of employee attendance",
+      "d": "A log of daily server activity"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does 'RCA' stand for in the context of incident documentation?",
+    "options": {
+      "a": "Rapid Control Assessment",
+      "b": "Root Cause Analysis",
+      "c": "Risk Control Audit",
+      "d": "Remote Connection Access"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which escalation trigger involves 'risks that could attract media attention'?",
+    "options": {
+      "a": "Regulatory",
+      "b": "Reputational",
+      "c": "Complexity-based",
+      "d": "Time-based"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the 'glue' that holds a security project together?",
+    "options": {
+      "a": "Penetration testing",
+      "b": "Communication",
+      "c": "Malware analysis",
+      "d": "Firewall management"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Technical audiences usually prefer which report format?",
+    "options": {
+      "a": "Detailed reports or logs",
+      "b": "Concise slide decks",
+      "c": "Oral briefings",
+      "d": "Dashboards with traffic lights"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which document outlines the 'technical and logistical steps' to execute a project?",
+    "options": {
+      "a": "Project Charter",
+      "b": "Implementation Plan",
+      "c": "Risk Register",
+      "d": "Incident Response Plan"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the first step in the 'Ransomware Attack' case study?",
+    "options": {
+      "a": "Direct Technical Instructions",
+      "b": "Notify Leadership (Initial Alert)",
+      "c": "Regular Momentum Updates",
+      "d": "Final Closure"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the Power-Interest Matrix, 'Keep Satisfied' applies to stakeholders with:",
+    "options": {
+      "a": "High Influence, High Interest",
+      "b": "High Influence, Low Interest",
+      "c": "Low Influence, High Interest",
+      "d": "Low Influence, Low Interest"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a benefit of 'Workflow Automation'?",
+    "options": {
+      "a": "Automatically routes risks",
+      "b": "Connects with other security tools",
+      "c": "Eliminates the need for human decision-making entirely",
+      "d": "Identifies trends and patterns"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the focus of 'Board Level' stakeholders?",
+    "options": {
+      "a": "Enterprise risks and fiduciary responsibility",
+      "b": "System uptime and patch management",
+      "c": "User experience and interface design",
+      "d": "Specific vulnerability details"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "A 'Misconfiguration Record' in cloud documentation logs:",
+    "options": {
+      "a": "Ideally configured systems",
+      "b": "Incorrectly set permissions that were remediated",
+      "c": "Future plans for configuration",
+      "d": "Passwords for all users"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is 'Timeliness' a key principle of effective reporting?",
+    "options": {
+      "a": "Because risks must be reported as soon as they are identified",
+      "b": "Because managers leave early",
+      "c": "Because reports expire after 1 hour",
+      "d": "Because it is required by the printer"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What type of audience focuses on 'Return on Investment (ROI)'?",
+    "options": {
+      "a": "Technical Audiences",
+      "b": "System Administrators",
+      "c": "Executive Audiences",
+      "d": "Security Engineers"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which documentation type is described as a 'step-by-step guide for responding to security incidents'?",
+    "options": {
+      "a": "Project Charter",
+      "b": "Incident Response Plan",
+      "c": "Risk Register",
+      "d": "Implementation Plan"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a 'Technical' risk category?",
+    "options": {
+      "a": "Vulnerabilities and misconfigurations",
+      "b": "Staffing failures",
+      "c": "Regulatory violations",
+      "d": "Technological obsolescence"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the purpose of 'Follow-up Communications' in risk strategy?",
+    "options": {
+      "a": "To track progress and provide updates on remediation",
+      "b": "To ensure immediate notification",
+      "c": "To provide real-time visibility",
+      "d": "To document the initial risk"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does 'Tier 2' escalation typically involve?",
+    "options": {
+      "a": "Immediate team members only",
+      "b": "Department heads and senior technical staff",
+      "c": "Executive leadership",
+      "d": "Law enforcement"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is an example of a 'Regulatory' escalation trigger?",
+    "options": {
+      "a": "Risks resulting in compliance violations",
+      "b": "Risks affecting multiple systems",
+      "c": "Risks requiring extra expertise",
+      "d": "Risks exceeding financial thresholds"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which stakeholder has 'Low Influence' but 'High Interest'?",
+    "options": {
+      "a": "CISO",
+      "b": "Legal Advisor",
+      "c": "End Users",
+      "d": "Procurement"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the 'glue' that holds a security project together?",
+    "options": {
+      "a": "The budget",
+      "b": "The firewall",
+      "c": "Communication",
+      "d": "The CEO"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In the context of 'Writing Effective Security Project Documentation', what does 'Structure' refer to?",
+    "options": {
+      "a": "Using simple language",
+      "b": "Breaking down information using headings and bullet points",
+      "c": "Identifying the goal and audience",
+      "d": "Using technical jargon"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which document is best for 'demonstrating compliance with industry regulations'?",
+    "options": {
+      "a": "A sticky note",
+      "b": "Security Documentation",
+      "c": "A verbal agreement",
+      "d": "An email draft"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Risk reporting should be 'Relevant'. This means:",
+    "options": {
+      "a": "It should focus on risks that matter to the specific audience",
+      "b": "It should include every possible risk in the world",
+      "c": "It should be funny",
+      "d": "It should be written in code"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Effective status reporting allows project governance to:",
+    "options": {
+      "a": "Facilitate decision-making",
+      "b": "Increase the budget",
+      "c": "Stop all work",
+      "d": "Hide mistakes"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Technical skills like firewall management are the only factors that determine the success of a cybersecurity project.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Executive stakeholders are primarily interested in granular reports about individual patch statuses.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: 'Tailoring' reporting involves adjusting the level of technical detail, language, and format.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: A Project Charter is used to define the goals, scope, and stakeholders of a project.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Documentation is less important than technical skills because it does not stop hackers.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: 'Actionability' in risk reporting means the report should indicate what steps are being taken.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Tier 1 escalation involves the Board of Directors.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: During a crisis, 'Speed Over Perfection' means you should share what you know immediately, even if incomplete.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Silence during an incident is a good strategy to keep everyone calm.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: The Power-Interest Matrix helps determine the appropriate communication strategy for stakeholders.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Technical audiences generally prefer concise slide decks over detailed logs.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: A 'Lessons Learned Report' is typically created before a project begins.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: 'Operational' risks include staffing and process failures.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Dynamic escalation matrices are static and never change based on context.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Use regular email for all incident communication, even if the email server is the target of the attack.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: 'Influence' in Stakeholder Analysis refers to whether a stakeholder can make or block decisions.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: You should avoid using technical jargon when communicating with non-technical stakeholders.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: A 'Risk Register' is a dense technical report meant only for engineers.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: 'Transparency' in risk reporting enables stakeholders to understand potential threats.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: The 'Implementation Plan' outlines the technical steps to execute a project.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  }
+]

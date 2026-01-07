@@ -1,0 +1,1162 @@
+[
+  {
+    "question": "In the 'Fortress Analogy' of GRC, what role does Governance play?",
+    "options": {
+      "a": "It serves as the master blueprint defining how the fort is built and maintained.",
+      "b": "It functions as the intelligence network that continuously monitors for external threats.",
+      "c": "It represents the ongoing verification that the fortress meets all safety codes and treaty obligations.",
+      "d": "It constitutes the physical walls and barriers protecting the fortress during a siege."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How does GRC transform an organization's security measures in a cybersecurity context?",
+    "options": {
+      "a": "It standardizes all security protocols to match government regulations exclusively.",
+      "b": "It transforms reactive measures into proactive, business-aligned defense mechanisms.",
+      "c": "It shifts the focus from technical controls to purely administrative policies.",
+      "d": "It centralizes all decision-making within the legal department to avoid liability."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is an example of Governance in action within a bank?",
+    "options": {
+      "a": "The IT team deploying a new firewall to block incoming threats.",
+      "b": "A security analyst investigating a flagged transaction for potential fraud.",
+      "c": "The Board approving a policy that mandates data protection and regular audits.",
+      "d": "The compliance officer generating a report for a regulatory audit."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the core question asked by Risk Management?",
+    "options": {
+      "a": "Are we doing things the right way to ensure accountability?",
+      "b": "Are we meeting all external and internal rules?",
+      "c": "How can we eliminate all potential threats to the organization?",
+      "d": "What can go wrong, and what can we do about it?"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Compliance refers to the act of adhering to which of the following?",
+    "options": {
+      "a": "Laws, regulations, standards, and contractual obligations.",
+      "b": "Voluntary standards suggested by industry bodies only.",
+      "c": "Strategic business goals defined by the board of directors.",
+      "d": "Risk mitigation strategies developed by the IT department."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following is a key benefit of aligning cybersecurity with business objectives via Governance?",
+    "options": {
+      "a": "It allows security teams to prioritize technical perfection over operational efficiency.",
+      "b": "It protects customer trust and safeguards sensitive data.",
+      "c": "It separates executive decision-making from technical implementation details.",
+      "d": "It mandates that all security measures be cost-neutral to the business."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How does GRC enable data-driven investments?",
+    "options": {
+      "a": "By allocating funds based on the most expensive available solutions.",
+      "b": "By strictly following the budget allocation of the previous fiscal year.",
+      "c": "By justifying budgets with clear risk assessments rather than guesswork.",
+      "d": "By prioritizing investments solely based on competitor analysis."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Why do stakeholders and investors prefer organizations that demonstrate compliance with recognized standards?",
+    "options": {
+      "a": "It ensures that the organization is immune to all forms of cyber litigation.",
+      "b": "It signals that the organization prioritizes profit over operational security.",
+      "c": "It implies that the organization has the most advanced technology stack available.",
+      "d": "It builds trust and credibility in the market."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "In the Hospital IT case study, who is responsible for enforcing policies and reporting to leadership?",
+    "options": {
+      "a": "The Chief Information Security Officer (CISO).",
+      "b": "The Chief Executive Officer (CEO).",
+      "c": "The IT System Administrator.",
+      "d": "The Compliance Officer."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In the hospital case study, which of the following was identified as a critical risk?",
+    "options": {
+      "a": "Staff members sharing credentials to bypass login delays.",
+      "b": "Legacy medical devices running unsupported operating systems.",
+      "c": "The use of personal mobile devices on the hospital network.",
+      "d": "Inadequate physical security at the data center entrance."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What mitigation step was suggested for legacy devices in the hospital case study?",
+    "options": {
+      "a": "Connecting them directly to the public internet.",
+      "b": "Replacing them all immediately regardless of cost.",
+      "c": "Network segmentation to isolate them.",
+      "d": "Disabling their power supply."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "To maintain compliance with HIPAA, what must third-party cloud providers sign?",
+    "options": {
+      "a": "A liability waiver.",
+      "b": "A non-disclosure agreement only.",
+      "c": "A cloud usage receipt.",
+      "d": "A Business Associate Agreement (BAA)."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What does ISO/IEC 27001 specify standards for?",
+    "options": {
+      "a": "Information Security Management Systems (ISMS).",
+      "b": "Electrical wiring in server rooms.",
+      "c": "Governance, Risk and Compliance.",
+      "d": "Incident Response practices."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In the CIA Triad, what does 'Integrity' ensure?",
+    "options": {
+      "a": "Data is accessible when needed.",
+      "b": "Data is accurate and unaltered.",
+      "c": "Data is only accessible to authorized people.",
+      "d": "Data contains factual information."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a core element of ISO/IEC 27001?",
+    "options": {
+      "a": "Incident response and report strategy.",
+      "b": "Product development.",
+      "c": "Internal Audit and Monitoring.",
+      "d": "Security helpdesk support scripts."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "NIST SP 800-53 is primarily designed to protect which type of information systems?",
+    "options": {
+      "a": "Small business retail systems.",
+      "b": "European Union private sector systems.",
+      "c": "Personally Identifiable Information systems.",
+      "d": "Federal information systems in the U.S."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "How are the controls in NIST SP 800-53 categorized?",
+    "options": {
+      "a": "Into 'families' based on specific areas of security.",
+      "b": "Alphabetically by control name.",
+      "c": "By the cost of implementation.",
+      "d": "Chronologically by release date."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which NIST control family is represented by the code 'AC'?",
+    "options": {
+      "a": "Audit and Compliance.",
+      "b": "Access Control.",
+      "c": "Assessment Control.",
+      "d": "Administrative Check."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does the NIST control 'AC-2' specifically refer to?",
+    "options": {
+      "a": "Wireless Access.",
+      "b": "Remote Access.",
+      "c": "Account Management.",
+      "d": "Access Enforcement."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which action is a requirement under the NIST AC-2 control?",
+    "options": {
+      "a": "Installing antivirus software.",
+      "b": "Encrypting hard drives and other storage devices.",
+      "c": "Creating incremental data backups frequently.",
+      "d": "Disabling accounts immediately users leave the organization."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "When did the General Data Protection Regulation (GDPR) become enforceable?",
+    "options": {
+      "a": "May 25, 2018.",
+      "b": "January 1, 2020.",
+      "c": "December 25, 2017.",
+      "d": "May 25, 2016."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following best describes the global impact of GDPR?",
+    "options": {
+      "a": "It only applies to companies physically located in Europe.",
+      "b": "It applies to any company offering goods/services to EU residents.",
+      "c": "It only applies to government agencies.",
+      "d": "It has no impact outside the Eurozone."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does the 'Purpose Limitation' mandate in GDPR require?",
+    "options": {
+      "a": "Data can be used for any profitable purpose.",
+      "b": "Data must be kept forever.",
+      "c": "Data collected for one reason cannot be used for another without permission.",
+      "d": "Data must be limited to 10MB per user."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Under GDPR, within what timeframe must authorities be notified of a data breach?",
+    "options": {
+      "a": "24 hours.",
+      "b": "48 hours.",
+      "c": "60 days.",
+      "d": "72 hours."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which GDPR principle states 'Do not collect more data than is actually needed'?",
+    "options": {
+      "a": "Data Minimization.",
+      "b": "Storage Limitation.",
+      "c": "Data maximization.",
+      "d": "Integrity."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the 'Right to Rectification' under GDPR?",
+    "options": {
+      "a": "The right to delete data.",
+      "b": "The right to correct incorrect or incomplete data.",
+      "c": "The right to structure personal data.",
+      "d": "The right to demand data compliance."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which right allows users to request their data in a machine-readable format?",
+    "options": {
+      "a": "Right to Data Consistency.",
+      "b": "Right to Object.",
+      "c": "Right to Data Portability.",
+      "d": "Right to Erasure."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary focus of 'Compliance' compared to Governance and Risk Management?",
+    "options": {
+      "a": "Strategic direction.",
+      "b": "Identifying threats.",
+      "c": "Improving efficiency.",
+      "d": "Adherence to laws, standards, and rules."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which core question is associated with Governance?",
+    "options": {
+      "a": "Are we making the right decisions?",
+      "b": "Are we following the rules?",
+      "c": "What can go wrong?",
+      "d": "How do we recover?"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which core question is associated with Risk Management?",
+    "options": {
+      "a": "Are we compliant?",
+      "b": "What could go wrong and how do we prepare?",
+      "c": "Who is responsible?",
+      "d": "How much will it cost?"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the GRC implementation roadmap, what step typically follows 'Assessment'?",
+    "options": {
+      "a": "Continuous Maintenance.",
+      "b": "Roadmap Development.",
+      "c": "Gap Analysis.",
+      "d": "Executive Sponsorship."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which activity is part of the 'Continuous Maintenance' of GRC programs?",
+    "options": {
+      "a": "Ignoring new threats.",
+      "b": "Writing the policy once and never changing it.",
+      "c": "Firing the security team.",
+      "d": "Maintaining stakeholder engagement through communication and training."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "In the Fortress Analogy, what represents the 'Intelligence Network'?",
+    "options": {
+      "a": "Risk Management.",
+      "b": "Governance.",
+      "c": "Compliance.",
+      "d": "The CISO."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In the Fortress Analogy, what ensures the fortress meets safety codes and treaty obligations?",
+    "options": {
+      "a": "Governance.",
+      "b": "Compliance.",
+      "c": "Risk Management.",
+      "d": "The guards."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Governance asks: 'Are we doing things ______?'",
+    "options": {
+      "a": "the cheapest way",
+      "b": "the fastest way",
+      "c": "the right way",
+      "d": "the easiest way"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "An organization discovers a customer database is exposed. Which team assesses the impact as 'High'?",
+    "options": {
+      "a": "Sales Team.",
+      "b": "HR Department.",
+      "c": "Governance Committee.",
+      "d": "Risk Management Team."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "HIPAA is a law that regulates data handling in which industry?",
+    "options": {
+      "a": "Healthcare.",
+      "b": "Banking.",
+      "c": "Retail.",
+      "d": "Education."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Integrated GRC enables organizations to do which of the following?",
+    "options": {
+      "a": "Ignore regulatory changes.",
+      "b": "Optimize resource allocation.",
+      "c": "Eliminate all business costs.",
+      "d": "Operate without a Board of Directors."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following helps in 'Ensuring Operational Continuity'?",
+    "options": {
+      "a": "Maximizing downtime.",
+      "b": "Ignoring backup protocols.",
+      "c": "Minimizing downtime from cybersecurity incidents.",
+      "d": "Reducing staff numbers."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Proactive risk management allows for which of the following?",
+    "options": {
+      "a": "Waiting for a breach to happen.",
+      "b": "Ignoring low-impact risks completely.",
+      "c": "Randomly assigning security budgets.",
+      "d": "Prioritized mitigation based on impact and likelihood."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What is a primary consequence of non-compliance with regulations like GDPR?",
+    "options": {
+      "a": "Fines and legal consequences.",
+      "b": "Increased market share.",
+      "c": "Better customer retention.",
+      "d": "Reduced operational costs."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How does a well-defined GRC framework enhance resilience?",
+    "options": {
+      "a": "By preventing all attacks 100% of the time.",
+      "b": "By ensuring faster recovery through incident response plans.",
+      "c": "By hiding breaches from the public.",
+      "d": "By removing accountability."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the hospital case study, what was the risk associated with 'Shared credentials'?",
+    "options": {
+      "a": "It saves time.",
+      "b": "It is cost-effective.",
+      "c": "It leads to untraceable data leaks.",
+      "d": "It improves teamwork."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What solution was proposed to eliminate password sharing in the hospital case study?",
+    "options": {
+      "a": "Writing passwords on sticky notes.",
+      "b": "Using 'password123' for everyone.",
+      "c": "Removing passwords entirely.",
+      "d": "Biometric Authentication."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Under HIPAA, how many days does a hospital have to report a breach to avoid fines?",
+    "options": {
+      "a": "60 days.",
+      "b": "30 days.",
+      "c": "90 days.",
+      "d": "7 days."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How can ransomware affect a hospital environment?",
+    "options": {
+      "a": "It only affects administrative email.",
+      "b": "It can lock ER systems, delaying critical treatment.",
+      "c": "It improves system speed.",
+      "d": "It automatically encrypts data for safety."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Effective GRC transforms cybersecurity from a reactive discipline to a ______ capability.",
+    "options": {
+      "a": "Passive.",
+      "b": "Manual.",
+      "c": "Proactive.",
+      "d": "Redundant."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following describes the applicability of ISO/IEC 27001?",
+    "options": {
+      "a": "It applies only to tech startups.",
+      "b": "It applies only to hospitals.",
+      "c": "It is a government-only standard.",
+      "d": "It is global, vendor-neutral, and applies to all organizations."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "In the CIA Triad, what does 'Availability' ensure?",
+    "options": {
+      "a": "Information is accessible when needed.",
+      "b": "Information is kept secret.",
+      "c": "Information is not altered.",
+      "d": "Information is legally compliant."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "According to ISO/IEC 27001, who must approve policies and allocate resources?",
+    "options": {
+      "a": "The IT helpdesk.",
+      "b": "Leadership / Management.",
+      "c": "The end-users.",
+      "d": "The software vendor."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "To what does the text compare the structure of NIST SP 800-53?",
+    "options": {
+      "a": "A fortress.",
+      "b": "A blueprint.",
+      "c": "A toolbox.",
+      "d": "A checklist."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which NIST control family focuses on 'keeping logs of activities'?",
+    "options": {
+      "a": "Access Control (AC).",
+      "b": "Risk Assessment (RA).",
+      "c": "Contingency Planning (CP).",
+      "d": "Audit and Accountability (AU)."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which NIST family outlines how an organization prepares for and detects security incidents?",
+    "options": {
+      "a": "Incident Response (IR).",
+      "b": "System Protection (SC).",
+      "c": "Risk Assessment (RA).",
+      "d": "Audit (AU)."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does the NIST family 'SC' stand for?",
+    "options": {
+      "a": "System Checks.",
+      "b": "System and Communications Protection.",
+      "c": "Security Controls.",
+      "d": "Safe Communications."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which NIST family ensures system recovery following failures?",
+    "options": {
+      "a": "Risk Assessment (RA).",
+      "b": "Incident Response (IR).",
+      "c": "Contingency Planning (CP).",
+      "d": "Audit (AU)."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is an example of a specific NIST control code?",
+    "options": {
+      "a": "GDPR-1.",
+      "b": "ISO-27001.",
+      "c": "Section 5.",
+      "d": "AC-2."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "In the Defense Contractor case study, what technology was used for Access Control (AC)?",
+    "options": {
+      "a": "Smart card logins and MFA.",
+      "b": "Simple username and password.",
+      "c": "Retina scanners only.",
+      "d": "Physical keys."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In the Defense Contractor case study, what protocol was used to encrypt data (SC)?",
+    "options": {
+      "a": "HTTP.",
+      "b": "TLS 1.3.",
+      "c": "FTP.",
+      "d": "Telnet."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is considered 'personal data' under GDPR?",
+    "options": {
+      "a": "Corporate revenue data.",
+      "b": "Weather statistics.",
+      "c": "IP address.",
+      "d": "Generic company email (info@company.com)."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Before GDPR, how was personal data often handled by online businesses?",
+    "options": {
+      "a": "With strict oversight.",
+      "b": "With full transparency.",
+      "c": "Only with explicit permission.",
+      "d": "With little oversight or accountability."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What does 'Mandatory Consent' in GDPR eliminate?",
+    "options": {
+      "a": "Pre-ticked boxes or confusing privacy policies.",
+      "b": "The need for a privacy policy.",
+      "c": "The ability to collect data at all.",
+      "d": "Online shopping."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which GDPR mandate requires technical steps like encryption to protect data?",
+    "options": {
+      "a": "Purpose Limitation.",
+      "b": "Data Security.",
+      "c": "Accuracy.",
+      "d": "Portability."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which GDPR principle requires privacy notices to be written in plain language?",
+    "options": {
+      "a": "Storage Limitation.",
+      "b": "Integrity.",
+      "c": "Transparency.",
+      "d": "Minimization."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which GDPR principle states that data should not be kept longer than necessary?",
+    "options": {
+      "a": "Accountability.",
+      "b": "Accuracy.",
+      "c": "Purpose Limitation.",
+      "d": "Storage Limitation."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "The GDPR principle of 'Accuracy' ensures what?",
+    "options": {
+      "a": "Personal data is up-to-date and mistakes can be corrected.",
+      "b": "Data is encrypted.",
+      "c": "Data is deleted after 1 year.",
+      "d": "Data is collected lawfully."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "The GDPR principle 'Integrity and Confidentiality' emphasizes the use of what?",
+    "options": {
+      "a": "Paper records.",
+      "b": "Strong security measures like encryption.",
+      "c": "Publicly accessible databases.",
+      "d": "Shared passwords."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is another name for the 'Right to Erasure'?",
+    "options": {
+      "a": "Right to Delete.",
+      "b": "Right to Hide.",
+      "c": "Right to be Forgotten.",
+      "d": "Right to Vanish."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "The 'Right to Object' allows users to stop their data from being used for what?",
+    "options": {
+      "a": "Legal proceedings.",
+      "b": "Tax purposes.",
+      "c": "Shipping products.",
+      "d": "Marketing, profiling, or advertising."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "GDPR gives users rights regarding decisions made without human involvement. What is this called?",
+    "options": {
+      "a": "Rights Related to Automated Decision-Making.",
+      "b": "Right to Artificial Intelligence.",
+      "c": "Right to Manual Processing.",
+      "d": "Right to Human Intervention."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In the E-commerce scenario, what must the store explain to the customer?",
+    "options": {
+      "a": "The CEO's salary.",
+      "b": "Why data is collected (e.g., to confirm orders).",
+      "c": "The server's IP address.",
+      "d": "The names of all employees."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the maximum percentage of annual global revenue that can be fined under GDPR?",
+    "options": {
+      "a": "2%",
+      "b": "10%",
+      "c": "4%",
+      "d": "1%"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is categorized as a 'Standard'?",
+    "options": {
+      "a": "GDPR.",
+      "b": "NIST SP 800-53.",
+      "c": "HIPAA.",
+      "d": "ISO/IEC 27001."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "NIST SP 800-53 is categorized as a ______?",
+    "options": {
+      "a": "Guideline.",
+      "b": "Law.",
+      "c": "Treaty.",
+      "d": "Contract."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "GDPR is categorized as a ______?",
+    "options": {
+      "a": "Suggestion.",
+      "b": "Legal Regulation.",
+      "c": "Technical Standard.",
+      "d": "Best Practice."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which component is critical for successful GRC implementation?",
+    "options": {
+      "a": "Vendor lock-in.",
+      "b": "Secrecy.",
+      "c": "Executive sponsorship.",
+      "d": "Unlimited budget."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is required for GRC implementation besides executive sponsorship?",
+    "options": {
+      "a": "Ignoring lower-level staff.",
+      "b": "Single-department focus.",
+      "c": "Rigid planning.",
+      "d": "Cross-functional collaboration."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What is the first step in the GRC Development Roadmap?",
+    "options": {
+      "a": "Assessment.",
+      "b": "Gap Analysis.",
+      "c": "Roadmap Development.",
+      "d": "Purchase of software."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In the Roadmap, what does 'Roadmap Development' align GRC investments with?",
+    "options": {
+      "a": "Competitor's stock price.",
+      "b": "Business objectives and risk tolerance.",
+      "c": "Employee salaries.",
+      "d": "Government holidays."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which action is part of 'Continuous Maintenance'?",
+    "options": {
+      "a": "Never changing the policy.",
+      "b": "Disbanding the GRC team.",
+      "c": "Updating policies and procedures.",
+      "d": "Deleting all logs."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Why must risk assessments be refreshed?",
+    "options": {
+      "a": "To waste time.",
+      "b": "Because auditors require it.",
+      "c": "To increase paperwork.",
+      "d": "Because threats evolve."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "The text states GRC builds what kind of organizations?",
+    "options": {
+      "a": "Resilient and secure.",
+      "b": "Profitable and fast.",
+      "c": "Large and bureaucratic.",
+      "d": "Small and agile."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Governance determines decisions made during which conditions?",
+    "options": {
+      "a": "Only during audits.",
+      "b": "Both peacetime and siege conditions.",
+      "c": "Only during peacetime.",
+      "d": "Only during siege."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Internal policies are an example of which GRC component?",
+    "options": {
+      "a": "Governance.",
+      "b": "Risk Management.",
+      "c": "Compliance.",
+      "d": "Auditing."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Risk Management includes taking steps to reduce, accept, avoid, or ______ risks?",
+    "options": {
+      "a": "Ignore.",
+      "b": "Hide.",
+      "c": "Amplify.",
+      "d": "Transfer."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which of the following is an industry standard mentioned for payment cards?",
+    "options": {
+      "a": "PCI DSS.",
+      "b": "GDPR.",
+      "c": "HIPAA.",
+      "d": "NIST."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "When the three components of GRC operate in harmony, the result is ______?",
+    "options": {
+      "a": "More paperwork.",
+      "b": "Greater than the sum of its parts.",
+      "c": "Slower decision making.",
+      "d": "Increased confusion."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a competitive advantage of GRC?",
+    "options": {
+      "a": "Cheaper products.",
+      "b": "Faster internet.",
+      "c": "Stakeholder trust and market credibility.",
+      "d": "Less employees."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which benefit helps prevent gaps in accountability?",
+    "options": {
+      "a": "Business Continuity.",
+      "b": "Continuous Improvement.",
+      "c": "Risk Assessment.",
+      "d": "Clear Roles and Responsibilities."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which attack disrupted the UK's NHS in 2017?",
+    "options": {
+      "a": "WannaCry.",
+      "b": "Stuxnet.",
+      "c": "NotPetya.",
+      "d": "SolarWinds."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In healthcare, data integrity issues (hackers altering records) can lead to what?",
+    "options": {
+      "a": "Higher profits.",
+      "b": "Misdiagnosis.",
+      "c": "Faster service.",
+      "d": "Better patient care."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Confidentiality ensures data is accessible to whom?",
+    "options": {
+      "a": "Everyone.",
+      "b": "The public.",
+      "c": "Authorized people only.",
+      "d": "Government only."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "ISO/IEC 27001 promotes which concept similar to software updates?",
+    "options": {
+      "a": "Planned obsolescence.",
+      "b": "Static defense.",
+      "c": "One-time setup.",
+      "d": "Continuous improvement."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "The NIST family 'RA' stands for what?",
+    "options": {
+      "a": "Risk Assessment.",
+      "b": "Risk Avoidance.",
+      "c": "Remote Access.",
+      "d": "Rapid Action."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which right allows users to request to see what data an organization has on them?",
+    "options": {
+      "a": "Right to Erasure.",
+      "b": "Right to Access.",
+      "c": "Right to Object.",
+      "d": "Right to Portability."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does the 'Right to Restrict Processing' allow users to do?",
+    "options": {
+      "a": "Delete all data.",
+      "b": "Transfer data.",
+      "c": "Limit how their data is used.",
+      "d": "Correct data."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "The principle of 'Accountability' in GDPR requires organizations to do what?",
+    "options": {
+      "a": "Hire a lawyer.",
+      "b": "Pay fines in advance.",
+      "c": "Keep data secret.",
+      "d": "Document compliance efforts and prove them."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "How does Governance differ from Risk Management?",
+    "options": {
+      "a": "Governance focuses on strategic direction; Risk Management focuses on threats.",
+      "b": "Governance is about threats; Risk Management is about rules.",
+      "c": "They are the same thing.",
+      "d": "Governance is tactical; Risk Management is strategic."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What core question does Compliance answer?",
+    "options": {
+      "a": "How can we make more money?",
+      "b": "Are we meeting all the rules?",
+      "c": "What is the best technology?",
+      "d": "Who is the boss?"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Implementing GRC requires appropriate ______?",
+    "options": {
+      "a": "Office space.",
+      "b": "Marketing.",
+      "c": "Resource allocation.",
+      "d": "Social media presence."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "GRC enables organizations to achieve objectives while managing ______?",
+    "options": {
+      "a": "Employees.",
+      "b": "Profits.",
+      "c": "Stockholders.",
+      "d": "Uncertainty."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Governance serves as the master blueprint in the Fortress Analogy.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Compliance focuses on identifying and handling potential threats.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "A hospital failing to encrypt devices led to a $5.1 million fine in 2023.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "NIST SP 800-53 is an international standard for all global organizations.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "GDPR applies to companies in Nigeria if they collect data from EU residents.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "The 'Right to be Forgotten' allows users to request data deletion.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Risk Management is purely a reactive discipline.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "ISO/IEC 27001 is built around the CIA Triad.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "AC-2 in NIST stands for 'Audit Control'.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "GDPR breach notification must occur within 72 hours.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Gap Analysis is the first step in the GRC implementation roadmap.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Business Continuity plans help minimize downtime.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "The 'Integrity' principle in GDPR refers to honesty in marketing.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "TLS 1.3 is an encryption protocol mentioned in the text.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "British Airways was fined €20 million under HIPAA.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Governance ensures security objectives align with business objectives.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "The 'Right to Object' allows users to stop data use for marketing.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "NIST SP 800-53 contains over 1,000 detailed controls.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Risk Management asks 'Are we meeting all the rules?'.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Biometric authentication was suggested to stop credential sharing.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  }
+]

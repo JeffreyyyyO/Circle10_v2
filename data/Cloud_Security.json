@@ -1,0 +1,1152 @@
+[
+  {
+    "question": "What is the primary definition of Cloud Computing according to the provided text?",
+    "options": {
+      "a": "A system where all data is stored on a single physical server.",
+      "b": "A transformative technology paradigm enabling on-demand access to shared computing resources via the internet.",
+      "c": "A network security protocol used to encrypt data in transit.",
+      "d": "A software development methodology for mobile applications."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT listed as a core resource provided by cloud computing?",
+    "options": {
+      "a": "Servers",
+      "b": "Storage",
+      "c": "Physical Cables",
+      "d": "Databases"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which key characteristic of cloud computing allows users to provision resources without human intervention from the service provider?",
+    "options": {
+      "a": "Broad Network Access",
+      "b": "Resource Pooling",
+      "c": "On-Demand Self-Service",
+      "d": "Measured Service"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does 'Resource Pooling' in cloud computing primarily refer to?",
+    "options": {
+      "a": "The ability to access services from diverse devices.",
+      "b": "Computing resources are dynamically allocated and shared across multiple users (multi-tenancy).",
+      "c": "The automatic monitoring and optimization of resource usage.",
+      "d": "The pooling of financial resources to pay for cloud services."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the context of Cloud Computing, what does 'Measured Service' imply?",
+    "options": {
+      "a": "Service speed is measured daily by the provider.",
+      "b": "Resource usage is automatically monitored, optimized, and reported based on consumption.",
+      "c": "Users must manually measure their data consumption.",
+      "d": "Services are limited to a specific measurement of bandwidth."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which cloud service model offers the highest level of flexibility and control over infrastructure components?",
+    "options": {
+      "a": "SaaS",
+      "b": "PaaS",
+      "c": "IaaS",
+      "d": "DaaS"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is a key component of Infrastructure as a Service (IaaS)?",
+    "options": {
+      "a": "CI/CD Pipelines",
+      "b": "Virtual Machines (VMs)",
+      "c": "CRM Software",
+      "d": "Email Services"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Google Cloud Storage and AWS S3 are examples of which IaaS component?",
+    "options": {
+      "a": "Networking",
+      "b": "Compute",
+      "c": "Storage",
+      "d": "Virtualization"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which is a primary challenge associated with Infrastructure as a Service (IaaS)?",
+    "options": {
+      "a": "Limited customization options.",
+      "b": "Requires expertise in infrastructure management; customers must secure OS and apps.",
+      "c": "Potential vendor lock-in regarding application logic.",
+      "d": "Lack of access to underlying hardware for any purpose."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Platform as a Service (PaaS) is best suited for which of the following use cases?",
+    "options": {
+      "a": "Hosting legacy enterprise ERP systems that require specific OS configurations.",
+      "b": "Disaster recovery and backup storage.",
+      "c": "Web and mobile application development and deployment.",
+      "d": "End-user productivity tools like email and spreadsheets."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is an example of a PaaS offering?",
+    "options": {
+      "a": "Microsoft Office 365",
+      "b": "AWS Elastic Beanstalk",
+      "c": "AWS EC2",
+      "d": "Salesforce"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In a PaaS model, who is responsible for managing the underlying infrastructure (servers, storage, networking)?",
+    "options": {
+      "a": "The Customer",
+      "b": "The Service Provider",
+      "c": "A Third-party Auditor",
+      "d": "The Government"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which cloud model delivers software applications over the internet on a subscription basis without requiring installation?",
+    "options": {
+      "a": "IaaS",
+      "b": "PaaS",
+      "c": "SaaS",
+      "d": "FaaS"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is a key advantage of Software as a Service (SaaS)?",
+    "options": {
+      "a": "Full control over the operating system.",
+      "b": "Ability to install custom antivirus software on the host server.",
+      "c": "Automatic updates and patch management by the provider.",
+      "d": "Complete isolation of hardware resources per user."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Salesforce and Google Workspace are prime examples of which cloud service model?",
+    "options": {
+      "a": "IaaS",
+      "b": "SaaS",
+      "c": "PaaS",
+      "d": "DBaaS"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which cloud service model is characterized by 'Low / No control' over the underlying infrastructure and application configuration?",
+    "options": {
+      "a": "IaaS",
+      "b": "PaaS",
+      "c": "SaaS",
+      "d": "Hybrid Cloud"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is 'Scalability' in the context of cloud benefits?",
+    "options": {
+      "a": "The ability to run on multiple operating systems.",
+      "b": "Increasing or decreasing resources as required to meet demand.",
+      "c": "The speed at which data travels across the network.",
+      "d": "The physical security of the data center."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How does 'Elasticity' differ from general scalability?",
+    "options": {
+      "a": "Elasticity is manual, whereas scalability is automatic.",
+      "b": "Elasticity refers to cost, while scalability refers to performance.",
+      "c": "Elasticity is the automatic adjustment of resources to workload fluctuations to prevent over/under-provisioning.",
+      "d": "Elasticity only applies to storage, not compute power."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which benefit of cloud security allows resources to be deployed closer to users to reduce latency?",
+    "options": {
+      "a": "Elasticity",
+      "b": "Global Reach",
+      "c": "Economies of Scale",
+      "d": "Multi-tenancy"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the 'Pay-as-you-go' model primarily associated with?",
+    "options": {
+      "a": "Enhanced Security",
+      "b": "Cost Efficiency",
+      "c": "Regulatory Compliance",
+      "d": "Data Sovereignty"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a significant data security challenge in the cloud?",
+    "options": {
+      "a": "Automatic backups",
+      "b": "Data Breaches",
+      "c": "Resource Pooling",
+      "d": "Measured Service"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'Data Residency/Sovereignty' refer to?",
+    "options": {
+      "a": "The legal requirement for data to be stored in specific geographical locations.",
+      "b": "The ability to move data freely between different cloud providers.",
+      "c": "The ownership of the physical hardware in a data center.",
+      "d": "The residency status of the cloud administrators."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which challenge is caused by limited visibility into the underlying infrastructure managed by the provider?",
+    "options": {
+      "a": "Visibility, Control, and Governance",
+      "b": "Data Encryption",
+      "c": "Cost Management",
+      "d": "Network Latency"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a leading cause of data breaches in the cloud according to the text?",
+    "options": {
+      "a": "Advanced Persistent Threats (APTs)",
+      "b": "Misconfigurations (e.g., publicly accessible S3 buckets)",
+      "c": "Hardware failure in data centers",
+      "d": "Lack of physical security at the provider's site"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What type of threat involves employees or contractors utilizing their authorized access to compromise the system?",
+    "options": {
+      "a": "DDoS Attacks",
+      "b": "Man-in-the-Middle Attacks",
+      "c": "Insider Threats",
+      "d": "Phishing Attacks"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What attack vector focuses on overloading cloud resources to disrupt services?",
+    "options": {
+      "a": "SQL Injection",
+      "b": "Denial of Service (DoS)",
+      "c": "Cross-Site Scripting (XSS)",
+      "d": "Brute Force"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which security strategy involves principles requiring continuous authentication and strict verification for all users?",
+    "options": {
+      "a": "Perimeter Defense Model",
+      "b": "Zero Trust Model",
+      "c": "Trust But Verify",
+      "d": "Open Access Model"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The Shared Responsibility Model defines the division of security duties between whom?",
+    "options": {
+      "a": "The IT department and the CEO",
+      "b": "The Cloud Service Provider (CSP) and the Government",
+      "c": "The Cloud Service Provider (CSP) and the Customer",
+      "d": "The Developer and the End-user"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In the Shared Responsibility Model, the CSP is generally responsible for 'Security ______ the cloud'.",
+    "options": {
+      "a": "in",
+      "b": "of",
+      "c": "around",
+      "d": "for"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the Shared Responsibility Model, the Customer is generally responsible for 'Security ______ the cloud'.",
+    "options": {
+      "a": "in",
+      "b": "of",
+      "c": "under",
+      "d": "over"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following is ALWAYS a CSP responsibility regardless of the service model?",
+    "options": {
+      "a": "Identity and Access Management",
+      "b": "Physical Security of Data Centers",
+      "c": "Application Patching",
+      "d": "Client-side Data Encryption"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Under IaaS, which of the following is the Customer responsible for?",
+    "options": {
+      "a": "Physical Network",
+      "b": "Hypervisor Security",
+      "c": "Operating System and Applications",
+      "d": "Server Hardware"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In a SaaS model, which of the following remains a Customer responsibility?",
+    "options": {
+      "a": "Application Patching",
+      "b": "Network Controls",
+      "c": "Physical Security",
+      "d": "Data Protection and User Access Management"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Who is responsible for securing the Platform Runtime in a PaaS model?",
+    "options": {
+      "a": "The Customer",
+      "b": "The Provider",
+      "c": "The Developer",
+      "d": "The Internet Service Provider (ISP)"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which compliance certification is focused on the protection of healthcare data?",
+    "options": {
+      "a": "GDPR",
+      "b": "PCI-DSS",
+      "c": "HIPAA",
+      "d": "ISO 27001"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is Role-Based Access Control (RBAC)?",
+    "options": {
+      "a": "Assigning permissions based on user roles (e.g., Admin, Viewer).",
+      "b": "Allowing all users access to all files.",
+      "c": "Restricting access based on time of day only.",
+      "d": "Using biometrics for every login."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which IAM feature requires multiple forms of verification, such as a password and an SMS code?",
+    "options": {
+      "a": "Single Sign-On (SSO)",
+      "b": "Multi-Factor Authentication (MFA)",
+      "c": "Least Privilege",
+      "d": "Biometric Scanning"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of Single Sign-On (SSO)?",
+    "options": {
+      "a": "To require a new password for every application.",
+      "b": "To allow users to access multiple applications with a single set of credentials.",
+      "c": "To encrypt data in transit.",
+      "d": "To monitor network traffic logs."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Encryption 'at Rest' refers to protecting data when it is:",
+    "options": {
+      "a": "Moving between systems via HTTPS.",
+      "b": "Stored in databases or object storage.",
+      "c": "Being processed by the CPU.",
+      "d": "Displayed on the user's screen."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool manages cryptographic keys used for encryption in AWS?",
+    "options": {
+      "a": "AWS EC2",
+      "b": "AWS KMS",
+      "c": "AWS S3",
+      "d": "AWS WAF"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary function of a Security Information and Event Management (SIEM) tool?",
+    "options": {
+      "a": "To encrypt all incoming emails.",
+      "b": "To collect and analyze security-related data/logs to detect threats.",
+      "c": "To provide a firewall for web applications.",
+      "d": "To manage user passwords."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a cloud-native SIEM solution by Microsoft?",
+    "options": {
+      "a": "Azure Sentinel",
+      "b": "Azure Blob Storage",
+      "c": "Azure Active Directory",
+      "d": "Microsoft Defender"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does Cloud Security Posture Management (CSPM) help organizations identify?",
+    "options": {
+      "a": "Employee productivity levels.",
+      "b": "Misconfigurations and compliance violations.",
+      "c": "Network speed bottlenecks.",
+      "d": "Software bugs in custom code."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool is primarily used to protect web applications from SQL Injection and XSS attacks?",
+    "options": {
+      "a": "IAM",
+      "b": "WAF (Web Application Firewall)",
+      "c": "KMS",
+      "d": "DLP"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the main purpose of Data Loss Prevention (DLP) tools?",
+    "options": {
+      "a": "To prevent unauthorized sharing or leakage of sensitive data.",
+      "b": "To backup data in case of deletion.",
+      "c": "To speed up data transfer rates.",
+      "d": "To encrypt the operating system."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which AWS service uses machine learning to discover and protect sensitive data (DLP)?",
+    "options": {
+      "a": "AWS Shield",
+      "b": "AWS Macie",
+      "c": "AWS Config",
+      "d": "AWS Inspector"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which principle suggests giving users only the minimum permissions necessary to perform their job?",
+    "options": {
+      "a": "Principle of Maximum Authority",
+      "b": "Principle of Least Privilege",
+      "c": "Principle of Shared Access",
+      "d": "Principle of Open Trust"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Just-in-Time (JIT)' access?",
+    "options": {
+      "a": "Access granted permanently upon hiring.",
+      "b": "Time-based and approval-based controls for temporary permissions.",
+      "c": "Access granted only during business hours.",
+      "d": "Access that is never revoked."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the recommended protocol for securing data in transit?",
+    "options": {
+      "a": "HTTP",
+      "b": "FTP",
+      "c": "Telnet",
+      "d": "TLS 1.2+ / HTTPS"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Why is 'comprehensive logging' important for cloud security?",
+    "options": {
+      "a": "It increases the speed of the application.",
+      "b": "It allows for tracking activity and forensic analysis during investigations.",
+      "c": "It reduces the cost of storage.",
+      "d": "It automatically blocks all attacks."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the role of Infrastructure as Code (IaC) in security?",
+    "options": {
+      "a": "It replaces the need for firewalls.",
+      "b": "It allows security policies to be enforced via code templates (e.g., Terraform).",
+      "c": "It is a manual process for configuring servers.",
+      "d": "It is used only for developing frontend applications."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of 'Immutable Backups'?",
+    "options": {
+      "a": "To allow backups to be easily edited by admins.",
+      "b": "To protect data so it cannot be modified or deleted by ransomware.",
+      "c": "To compress data to save space.",
+      "d": "To store data in a publicly accessible format."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which practice helps mitigate the risk of human error in security breaches?",
+    "options": {
+      "a": "Increasing internet speed",
+      "b": "Security Awareness Training",
+      "c": "Buying more servers",
+      "d": "Disabling all logging"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'Phishing Simulation' used for?",
+    "options": {
+      "a": "To teach employees how to hack.",
+      "b": "To assess employee readiness and ability to recognize phishing attempts.",
+      "c": "To send marketing emails to customers.",
+      "d": "To test the speed of the email server."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does GDPR primarily protect?",
+    "options": {
+      "a": "Government secrets",
+      "b": "Personal data of EU citizens",
+      "c": "Financial transactions in the US",
+      "d": "Intellectual property of corporations"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a PaaS example from Google?",
+    "options": {
+      "a": "Google Compute Engine",
+      "b": "Google App Engine",
+      "c": "Google Drive",
+      "d": "Google Chrome"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a SaaS example from Microsoft?",
+    "options": {
+      "a": "Azure VMs",
+      "b": "Office 365",
+      "c": "Azure SQL Database",
+      "d": "Windows Server"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the risk associated with 'Vendor Lock-in'?",
+    "options": {
+      "a": "The vendor locks the physical doors of the data center.",
+      "b": "Difficulty in moving applications or data to another provider due to proprietary formats.",
+      "c": "The vendor increases prices unexpectedly.",
+      "d": "The vendor goes bankrupt."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool allows for 'Automated Remediation' of security risks?",
+    "options": {
+      "a": "Excel Spreadsheets",
+      "b": "CSPM (Cloud Security Posture Management)",
+      "c": "Standard Firewall",
+      "d": "Word Processor"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary function of a Hypervisor?",
+    "options": {
+      "a": "To speed up internet connections.",
+      "b": "To enable multiple virtual machines to operate on shared hardware.",
+      "c": "To encrypt database entries.",
+      "d": "To serve as a web browser."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which cloud model is generally the 'Least Scalable' in terms of customization?",
+    "options": {
+      "a": "IaaS",
+      "b": "PaaS",
+      "c": "SaaS",
+      "d": "Private Cloud"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Who is responsible for 'User Management' in a SaaS environment?",
+    "options": {
+      "a": "The Provider",
+      "b": "The Customer",
+      "c": "The ISP",
+      "d": "No one"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a benefit of cloud computing?",
+    "options": {
+      "a": "Scalability",
+      "b": "Cost Efficiency",
+      "c": "Total elimination of all security risks",
+      "d": "Global Reach"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does 'Geo-Redundant Storage' ensure?",
+    "options": {
+      "a": "Data is stored in a single location for safety.",
+      "b": "Backups are stored in multiple geographic regions for resilience.",
+      "c": "Data is only accessible from one country.",
+      "d": "Storage costs are tripled."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which standard is related to credit card data security?",
+    "options": {
+      "a": "HIPAA",
+      "b": "GDPR",
+      "c": "PCI-DSS",
+      "d": "NIST"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the main advantage of 'Economies of Scale' in cloud computing?",
+    "options": {
+      "a": "Providers can offer services at a lower cost due to large-scale infrastructure.",
+      "b": "Users can scale their applications infinitely.",
+      "c": "The internet becomes faster.",
+      "d": "More jobs are created in IT."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which IAM component helps control access to Google Cloud resources?",
+    "options": {
+      "a": "Google Drive",
+      "b": "Google Cloud IAM",
+      "c": "Google Analytics",
+      "d": "Google Search"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Prisma Cloud by Palo Alto Networks is an example of which tool category?",
+    "options": {
+      "a": "CRM",
+      "b": "CSPM",
+      "c": "ERP",
+      "d": "IDE"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'API' stand for in the context of cloud connectivity?",
+    "options": {
+      "a": "Application Programming Interface",
+      "b": "Automated Program Integration",
+      "c": "Advanced Peripheral Interconnect",
+      "d": "Applied Protocol Internet"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why are 'API and Identity Exploits' a significant threat?",
+    "options": {
+      "a": "They slow down the computer.",
+      "b": "Weak authentication can allow administrative privilege escalation.",
+      "c": "They consume too much electricity.",
+      "d": "They are only possible on Windows systems."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following best describes 'Broad Network Access'?",
+    "options": {
+      "a": "Accessing the cloud from a single dedicated terminal.",
+      "b": "Services are accessible over the internet from diverse devices (laptops, phones).",
+      "c": "A network that covers a broad physical area only.",
+      "d": "Access limited to broadband connections."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the 'Control' level for the customer in an IaaS model?",
+    "options": {
+      "a": "Low / No control",
+      "b": "Medium control",
+      "c": "High / Full control over infrastructure components",
+      "d": "Control only over the user interface"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is a component of 'Physical Security' managed by the CSP?",
+    "options": {
+      "a": "Firewalls configuration",
+      "b": "Biometric access controls to data centers",
+      "c": "User password policies",
+      "d": "Database encryption keys"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Azure App Services is an example of:",
+    "options": {
+      "a": "IaaS",
+      "b": "PaaS",
+      "c": "SaaS",
+      "d": "FaaS"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Cross-platform Compatibility'?",
+    "options": {
+      "a": "Applications work across different operating systems and devices.",
+      "b": "The ability to transfer physical servers between data centers.",
+      "c": "Using the same password for all platforms.",
+      "d": "Connecting two different internet cables."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which tool logs all API calls and user activity within AWS?",
+    "options": {
+      "a": "AWS EC2",
+      "b": "AWS CloudTrail",
+      "c": "AWS S3",
+      "d": "AWS Connect"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Google Cloud Armor'?",
+    "options": {
+      "a": "A physical shield for servers.",
+      "b": "A WAF and DDoS protection service.",
+      "c": "An antivirus for Android.",
+      "d": "A data backup service."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which practice involves 'Regularly reviewing permissions to align with current responsibilities'?",
+    "options": {
+      "a": "Access Audits",
+      "b": "Data Encryption",
+      "c": "Load Balancing",
+      "d": "Code Refactoring"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a 'Social Engineering' attack?",
+    "options": {
+      "a": "An attack on the social media platform code.",
+      "b": "Manipulating individuals into divulging confidential information.",
+      "c": "Engineering a better social network.",
+      "d": "A DDoS attack on a social site."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following helps reduce 'Latency'?",
+    "options": {
+      "a": "Stronger encryption",
+      "b": "Global reach/data centers closer to users",
+      "c": "More complex passwords",
+      "d": "Using older hardware"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary benefit of 'Automation' in cloud security?",
+    "options": {
+      "a": "It removes the need for any security staff.",
+      "b": "It allows for rapid detection and remediation of threats without manual delay.",
+      "c": "It makes the cloud cheaper automatically.",
+      "d": "It guarantees 100% security."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a responsibility of the customer in IaaS?",
+    "options": {
+      "a": "Securing the OS",
+      "b": "Securing the Data",
+      "c": "Securing the physical server hardware",
+      "d": "Securing the Applications"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is 'FedRAMP'?",
+    "options": {
+      "a": "A federal government standard for cloud security assessment.",
+      "b": "A type of RAM memory.",
+      "c": "A federal tax on cloud services.",
+      "d": "A cloud provider."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following is a 'Compute' resource?",
+    "options": {
+      "a": "Hard Drive",
+      "b": "Virtual Machine (VM)",
+      "c": "Ethernet Cable",
+      "d": "Router"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'SLA' usually stand for in cloud contracts (implied context)?",
+    "options": {
+      "a": "Service Level Agreement",
+      "b": "Security Level Access",
+      "c": "System Local Area",
+      "d": "Server Load Analysis"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which is an example of 'Unstructured Data' storage?",
+    "options": {
+      "a": "SQL Database",
+      "b": "Azure Blob Storage",
+      "c": "Excel Sheet",
+      "d": "Phone Book"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the context of PaaS, what is a 'CI/CD pipeline'?",
+    "options": {
+      "a": "A physical cable for data transfer.",
+      "b": "Continuous Integration and Continuous Deployment tool.",
+      "c": "Customer Identity / Customer Data protocol.",
+      "d": "Cloud Interface / Cloud Database."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a risk of 'Multi-tenancy'?",
+    "options": {
+      "a": "Increased cost.",
+      "b": "Potential data leakage between tenants if isolation fails.",
+      "c": "Slower internet speed for everyone.",
+      "d": "Requirement to use the same password."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Shadow IT' (implied by 'Visibility' challenges)?",
+    "options": {
+      "a": "Dark mode on computers.",
+      "b": "Unsanctioned use of cloud services by employees without IT approval.",
+      "c": "IT staff working at night.",
+      "d": "A secure, hidden network."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which service model is best for 'Ready-to-use software'?",
+    "options": {
+      "a": "IaaS",
+      "b": "PaaS",
+      "c": "SaaS",
+      "d": "MaaS"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary use of 'Azure SQL Database'?",
+    "options": {
+      "a": "Virtual Machine hosting",
+      "b": "Managed database for efficient data storage (PaaS)",
+      "c": "Word processing",
+      "d": "Video editing"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following ensures 'Business Continuity'?",
+    "options": {
+      "a": "Disaster Recovery Planning",
+      "b": "Faster processors",
+      "c": "Larger monitors",
+      "d": "More employees"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is 'ISO 27001'?",
+    "options": {
+      "a": "A type of camera setting.",
+      "b": "An international standard for information security management.",
+      "c": "A software license.",
+      "d": "A model of server."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In IaaS, 'Networking' components include:",
+    "options": {
+      "a": "Google Docs",
+      "b": "Virtual networks, firewalls, and load balancers.",
+      "c": "Keyboards and mice.",
+      "d": "Monitors."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which is a characteristic of 'Private Cloud' (implied vs Public)?",
+    "options": {
+      "a": "Open to the general public.",
+      "b": "Resources used exclusively by a single organization.",
+      "c": "Always free.",
+      "d": "No security needed."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'CSP' stand for?",
+    "options": {
+      "a": "Computer Security Protocol",
+      "b": "Cloud Service Provider",
+      "c": "Central Service Point",
+      "d": "Cyber Security Plan"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The concept of 'Data Sovereignty' is most closely linked to:",
+    "options": {
+      "a": "Speed",
+      "b": "Geography and Law",
+      "c": "Cost",
+      "d": "Hardware brand"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is considered 'Sensitive Data'?",
+    "options": {
+      "a": "Public marketing brochures",
+      "b": "PII (Personally Identifiable Information)",
+      "c": "Website background images",
+      "d": "Open source code"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Ransomware'?",
+    "options": {
+      "a": "Software that improves RAM speed.",
+      "b": "Malware that encrypts data and demands payment for the key.",
+      "c": "Free software for random tasks.",
+      "d": "Hardware that holds memory hostage."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: In the SaaS model, the customer is responsible for managing the underlying infrastructure.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Cloud computing requires organizations to maintain their own on-premise physical infrastructure.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: 'Resource Pooling' allows computing resources to be dynamically allocated and shared across multiple users.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Security in the cloud is the sole responsibility of the Cloud Service Provider (CSP).",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Multi-Factor Authentication (MFA) requires more than just a password for verification.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Data at rest does not need to be encrypted if the firewall is strong.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: PaaS is primarily used for hosting legacy applications that need specific OS configurations.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Insider threats are a potential risk in cloud environments.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Misconfigured cloud resources are a leading cause of data breaches.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: GDPR applies to the protection of personal data.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: IaaS provides the customer with the highest level of control among the cloud models.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: WAF stands for Wide Area Firewall.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: A 'Zero Trust' model assumes that users inside the network are already trusted.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: SIEM tools are used to collect and analyze logs for threat detection.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: In the Shared Responsibility Model, the customer is responsible for the physical security of the data center.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Scalability allows resources to be increased or decreased as required.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: SaaS applications typically require installation and manual patching by the user.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: DLP tools are designed to prevent data loss due to hardware failure only.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: AWS is an example of a Cloud Service Provider.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: 'Elasticity' helps prevent over-provisioning of resources.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  }
+]

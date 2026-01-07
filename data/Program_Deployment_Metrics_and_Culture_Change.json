@@ -1,0 +1,1152 @@
+[
+  {
+    "question": "What is the primary purpose of a 'Pilot' phase in a security awareness campaign?",
+    "options": {
+      "a": "To train the entire organization simultaneously",
+      "b": "To test training materials on a small group before full launch",
+      "c": "To immediately identify high-risk employees for termination",
+      "d": "To reduce the cost of the Learning Management System"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a critical question answered by a Pilot program?",
+    "options": {
+      "a": "Does the content cover industry-specific threats?",
+      "b": "Is the Learning Management System technically functional?",
+      "c": "Is the format appealing to employees?",
+      "d": "Which employees are responsible for the budget?"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "In the 'Large Hospital Pilot' case study, why were IT and HR chosen for the test group?",
+    "options": {
+      "a": "They had the most free time to complete training",
+      "b": "They were the only departments with computer access",
+      "c": "IT is targeted by advanced phishing and HR handles sensitive data",
+      "d": "They requested to be the first to try the new system"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What issue was revealed during the 'Large Hospital Pilot' regarding the training content?",
+    "options": {
+      "a": "The videos were too long and unengaging",
+      "b": "The content used financial scenarios instead of healthcare ones",
+      "c": "The quizzes were too difficult for the staff",
+      "d": "The training platform crashed on mobile devices"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which rollout strategy involves releasing training to everyone on the same day?",
+    "options": {
+      "a": "Staggered Rollout",
+      "b": "Phased Deployment",
+      "c": "All-at-Once",
+      "d": "Risk-Based Launch"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a potential downside of the 'All-at-Once' rollout strategy?",
+    "options": {
+      "a": "It extends the timeline of the training unnecessarily",
+      "b": "It may overwhelm support staff if technical issues arise",
+      "c": "It makes it difficult to track completion rates",
+      "d": "It requires more complex configuration of the LMS"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "A 'Staggered Rollout' helps organizations manage which of the following?",
+    "options": {
+      "a": "The cost of the training content",
+      "b": "The complexity of the phishing simulations",
+      "c": "Support capacity and network bandwidth",
+      "d": "The legal requirements for compliance"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which characteristic best describes effective 'Refresher Training'?",
+    "options": {
+      "a": "Long and comprehensive",
+      "b": "Concise and timely",
+      "c": "Infrequent and generalized",
+      "d": "Optional and unmonitored"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "If an organization notices a rise in 'Quishing' (QR code phishing), what is the appropriate response?",
+    "options": {
+      "a": "Wait for the annual training cycle to address it",
+      "b": "Deploy a targeted, short refresher training immediately",
+      "c": "Ban the use of mobile phones in the workplace",
+      "d": "Increase the difficulty of password policies"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Risk-Based Customization' in the context of refresher training?",
+    "options": {
+      "a": "Giving training only to new hires",
+      "b": "Assigning more frequent training to employees who fail simulations",
+      "c": "Providing training based on the cost of the department's equipment",
+      "d": "Allowing employees to choose their own training topics"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tools are specifically designed to reduce human error in cybersecurity?",
+    "options": {
+      "a": "Firewalls and Antivirus",
+      "b": "Intrusion Detection Systems (IDS)",
+      "c": "Awareness Platforms like KnowBe4 and Hoxhunt",
+      "d": "Encryption and Hashing algorithms"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary function of a 'Phishing Simulation'?",
+    "options": {
+      "a": "To infect employee computers with actual malware for testing",
+      "b": "To send controlled, fake emails to test employee responses",
+      "c": "To monitor employee productivity during work hours",
+      "d": "To block all incoming emails from external sources"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In a typical awareness platform, what happens if an employee fails a phishing test?",
+    "options": {
+      "a": "They are immediately fired",
+      "b": "Their internet access is revoked",
+      "c": "They are automatically enrolled in follow-up training",
+      "d": "They are publicly shamed in the company newsletter"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is an example of an advanced simulation feature offered by platforms like Hoxhunt?",
+    "options": {
+      "a": "Static email templates that never change",
+      "b": "Gamification that rewards users for reporting attacks",
+      "c": "Manual distribution of paper-based quizzes",
+      "d": "Removing all email filters to allow real spam through"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'Progressive Difficulty' in phishing simulations mean?",
+    "options": {
+      "a": "The complexity of attacks increases as employees improve",
+      "b": "New employees receive the hardest tests first",
+      "c": "The simulations become easier over time to boost morale",
+      "d": "Managers receive harder tests than regular staff"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following is NOT a common LMS platform mentioned in the text?",
+    "options": {
+      "a": "Moodle",
+      "b": "TalentLMS",
+      "c": "SAP Litmos",
+      "d": "CyberGuard Pro"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What is a key benefit of integrating cybersecurity training into an existing LMS?",
+    "options": {
+      "a": "It separates security training from other HR compliance tasks",
+      "b": "It allows for a Unified Dashboard for all training types",
+      "c": "It reduces the need for manager involvement",
+      "d": "It guarantees that no employee will ever click a phishing link"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why are KPIs (Key Performance Indicators) essential in cybersecurity awareness programs?",
+    "options": {
+      "a": "To justify the budget for new hardware",
+      "b": "To measure effectiveness and demonstrate ROI",
+      "c": "To compete with other companies' marketing teams",
+      "d": "To ensure every employee becomes a technical expert"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does the 'Training Completion Rate' KPI specifically track?",
+    "options": {
+      "a": "The percentage of employees who passed the final exam",
+      "b": "The percentage of employees who finished assigned modules",
+      "c": "The number of phishing emails reported",
+      "d": "The speed at which employees type their passwords"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a limitation of relying solely on Training Completion Rates?",
+    "options": {
+      "a": "It is difficult to calculate",
+      "b": "Completion does not necessarily equate to behavior change",
+      "c": "It requires expensive software to track",
+      "d": "Employees often refuse to mark courses as complete"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "A decreasing 'Phishing Click Rate' over time generally indicates:",
+    "options": {
+      "a": "The email filter is blocking too many legitimate emails",
+      "b": "Employees are ignoring their inboxes",
+      "c": "Improved employee awareness and training effectiveness",
+      "d": "The simulation emails are becoming too easy to spot"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is considered a 'Behavior Change Indicator'?",
+    "options": {
+      "a": "Watching a 10-minute video on password security",
+      "b": "Increased reporting of suspicious emails to IT",
+      "c": "Scoring 100% on a multiple-choice quiz",
+      "d": "Logging into the LMS once a month"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Dashboards in tools like KnowBe4 typically allow security teams to identify:",
+    "options": {
+      "a": "Which employees are browsing social media",
+      "b": "High-risk users or departments needing additional training",
+      "c": "The personal email passwords of staff members",
+      "d": "The exact location of every employee's mobile device"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Gamification' in the context of cybersecurity training?",
+    "options": {
+      "a": "Playing video games during work hours to reduce stress",
+      "b": "Using game-like elements (points, badges) to engage employees",
+      "c": "Turning the IT department into an esports team",
+      "d": "Simulating a cyberattack where the loser is fired"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a common element of gamification?",
+    "options": {
+      "a": "Leaderboards",
+      "b": "Badges",
+      "c": "Progress Bars",
+      "d": "Financial Penalties"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What is the primary goal of using 'Nudging' in cybersecurity?",
+    "options": {
+      "a": "To force employees to follow strict rules",
+      "b": "To influence decisions gently without imposing restrictions",
+      "c": "To annoy users until they comply with policy",
+      "d": "To automatically lock accounts after one mistake"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which is an example of a 'Nudge'?",
+    "options": {
+      "a": "Blocking access to all external websites",
+      "b": "A pop-up asking 'Are you sure?' when sending an external attachment",
+      "c": "Requiring a 20-character password with no hints",
+      "d": "Sending a disciplinary email for a weak password"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What type of reward is a 'Group Lunch' for a team with no security violations?",
+    "options": {
+      "a": "Tangible Reward",
+      "b": "Experiential Reward",
+      "c": "Intrinsic Reward",
+      "d": "Digital Badge"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which psychological principle suggests that people repeat actions that bring recognition?",
+    "options": {
+      "a": "Loss Aversion",
+      "b": "Reinforcement Theory",
+      "c": "Social Proof",
+      "d": "Cognitive Dissonance"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Leaderboards leverage which psychological concept to drive behavior?",
+    "options": {
+      "a": "Social Proof",
+      "b": "Fear of Missing Out (FOMO)",
+      "c": "Analysis Paralysis",
+      "d": "Sunk Cost Fallacy"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What defines a 'Security-First Culture'?",
+    "options": {
+      "a": "Strict surveillance and fear of punishment",
+      "b": "The IT team handling all security responsibilities",
+      "c": "Every individual viewing cybersecurity as a personal responsibility",
+      "d": "Focusing solely on advanced technical exploits"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Why is culture considered the critical first line of defense?",
+    "options": {
+      "a": "Because software cannot solve human error",
+      "b": "Because it is cheaper than buying antivirus software",
+      "c": "Because firewalls are no longer effective",
+      "d": "Because hackers only target company culture"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How does 'Publicly shaming mistakes' impact security culture?",
+    "options": {
+      "a": "It encourages others to be more careful",
+      "b": "It destroys trust and reinforces a blame culture",
+      "c": "It helps identify the weakest links quickly",
+      "d": "It provides a clear example of what not to do"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What message does a CEO send by completing training first?",
+    "options": {
+      "a": "That they have the most free time",
+      "b": "That security is a priority at all levels",
+      "c": "That the training is too easy",
+      "d": "That executives are exempt from real work"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which step in building a security culture involves revoking access immediately when an employee leaves?",
+    "options": {
+      "a": "Leadership Buy-In",
+      "b": "Embed Security into the Employee Lifecycle",
+      "c": "Normalize Reporting",
+      "d": "Celebrate Secure Behavior"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is meant by 'Normalize Reporting'?",
+    "options": {
+      "a": "Making sure all reports are filed in triplicate",
+      "b": "Ensuring employees feel safe reporting incidents without blame",
+      "c": "Requiring a report for every single email received",
+      "d": "Standardizing the font used in security reports"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the context of 'Employee Lifecycle', when should new hires receive basic cybersecurity training?",
+    "options": {
+      "a": "Within their first week",
+      "b": "After their probation period ends",
+      "c": "Only when they experience a breach",
+      "d": "During their annual performance review"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following is NOT an example of a tangible reward?",
+    "options": {
+      "a": "Gift cards",
+      "b": "T-shirts",
+      "c": "Public praise in a newsletter",
+      "d": "Coffee mugs"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is 'Loss Aversion' in the context of cybersecurity psychology?",
+    "options": {
+      "a": "People act to avoid negative outcomes like data breaches",
+      "b": "People are motivated by the promise of financial gain",
+      "c": "People prefer to ignore risks until they happen",
+      "d": "People engage more when games are involved"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which is a characteristic of 'Proactive behavior' in a security-first culture?",
+    "options": {
+      "a": "Waiting for IT to fix a virus",
+      "b": "Pausing to verify suspicious links even under pressure",
+      "c": "Ignoring software updates until forced to install them",
+      "d": "Sharing passwords with colleagues to increase efficiency"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the role of 'Manager Involvement' in a company-wide rollout?",
+    "options": {
+      "a": "To write the code for the training software",
+      "b": "To provide reminders and facilitate discussions",
+      "c": "To grade the quizzes manually",
+      "d": "To install the software on employee computers"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why might a school prioritize different training content than a bank?",
+    "options": {
+      "a": "Schools do not have valuable data",
+      "b": "Banks are the only targets of cybercrime",
+      "c": "Schools prioritize student records; banks prioritize wire fraud",
+      "d": "Schools use different operating systems than banks"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which element of gamification provides a visual representation of advancement?",
+    "options": {
+      "a": "Leaderboards",
+      "b": "Progress Bars",
+      "c": "Badges",
+      "d": "Points"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary benefit of 'Centralized Reporting' in LMS integrations?",
+    "options": {
+      "a": "It allows managers to pull reports across thousands of staff",
+      "b": "It ensures that data is stored in a single physical location",
+      "c": "It prevents employees from accessing their own records",
+      "d": "It automatically reports breaches to the government"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the recommended frequency for 'Refresher Training'?",
+    "options": {
+      "a": "Every 5 years",
+      "b": "Only after a major breach",
+      "c": "At regular intervals like 3, 6, or 12 months",
+      "d": "Whenever the IT manager feels like it"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is a 'Social Recognition' reward?",
+    "options": {
+      "a": "A $50 Amazon gift card",
+      "b": "An 'Employee of the Month' feature",
+      "c": "An extra day of paid leave",
+      "d": "A company-branded hoodie"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the 'seatbelt light' analogy used to describe?",
+    "options": {
+      "a": "Phishing Simulations",
+      "b": "Nudging",
+      "c": "Gamification",
+      "d": "Reporting Policies"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'Intrinsic Motivation' rely on?",
+    "options": {
+      "a": "Large cash bonuses",
+      "b": "Fear of punishment",
+      "c": "A sense of personal accomplishment",
+      "d": "Peer pressure from managers"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which action by leadership can create fear and discourage future reporting?",
+    "options": {
+      "a": "Punishing late reporting",
+      "b": "Providing easy reporting tools",
+      "c": "Celebrating secure behavior",
+      "d": "Taking training courses alongside staff"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the main advantage of 'Adaptive emails' in Phishing Simulations?",
+    "options": {
+      "a": "They use AI to guess the employee's password",
+      "b": "They are personalized based on previous behavior",
+      "c": "They are sent at the exact same time every day",
+      "d": "They contain real malware to test antivirus"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is 'Scalability' a benefit of LMS integrations?",
+    "options": {
+      "a": "It allows the system to work for global organizations",
+      "b": "It makes the text larger for easier reading",
+      "c": "It reduces the file size of the videos",
+      "d": "It limits the number of users to ensure speed"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does the KPI 'Risk scoring for individuals' help identify?",
+    "options": {
+      "a": "Who deserves a promotion",
+      "b": "Who is working the longest hours",
+      "c": "Who is most likely to cause a security breach",
+      "d": "Who has the best technical skills"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which tool is described as 'Open-source' in the text?",
+    "options": {
+      "a": "TalentLMS",
+      "b": "Moodle",
+      "c": "SAP Litmos",
+      "d": "KnowBe4"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the 'Refinement' stage in the Pilot phase?",
+    "options": {
+      "a": "Firing employees who failed the pilot",
+      "b": "Revising training based on feedback before full rollout",
+      "c": "Translating the content into different languages",
+      "d": "Upgrading the hardware of the pilot group"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following implies a positive trend in security awareness?",
+    "options": {
+      "a": "High click rates and low reporting rates",
+      "b": "Low completion rates and high click rates",
+      "c": "Decreasing click rates and increasing reporting rates",
+      "d": "Constant click rates over 12 months"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary focus of 'Behavior Change' over 'Knowledge Acquisition'?",
+    "options": {
+      "a": "Knowing the definition of phishing",
+      "b": "Consistently acting securely despite habits",
+      "c": "Passing a written exam",
+      "d": "Memorizing the security policy manual"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a strategy for 'Building a Security-First Culture'?",
+    "options": {
+      "a": "Leadership Buy-In",
+      "b": "Regular and Relevant Training",
+      "c": "Strict "Zero Tolerance" Punishment Policies",
+      "d": "Celebrate Secure Behavior"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "How can 'Auto-suggestions' act as a Nudge?",
+    "options": {
+      "a": "By recommending secure company platforms over personal tools",
+      "b": "By automatically completing passwords for users",
+      "c": "By correcting spelling mistakes in emails",
+      "d": "By suggesting lunch spots near the office"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is 'Timeliness' important in Refresher Training?",
+    "options": {
+      "a": "To ensure training happens during lunch breaks",
+      "b": "To address emerging threats like new phishing tactics",
+      "c": "To make sure training is done before the budget expires",
+      "d": "To avoid clashing with company holidays"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the rationale for using 'Experiential Rewards'?",
+    "options": {
+      "a": "They are cheaper than tangible rewards",
+      "b": "They build team pride and reinforce behavior",
+      "c": "They are easier to tax",
+      "d": "They require less planning than gift cards"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What happens if a dashboard reveals a high phishing click rate in the Sales department?",
+    "options": {
+      "a": "The entire Sales department is replaced",
+      "b": "Targeted training is delivered to that specific group",
+      "c": "The security team ignores it to avoid conflict",
+      "d": "The phishing simulation difficulty is lowered"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following best describes 'Phishing'?",
+    "options": {
+      "a": "Encrypting data to protect it from hackers",
+      "b": "Sending fraudulent emails to induce individuals to reveal personal information",
+      "c": "Scanning the network for vulnerabilities",
+      "d": "Physically stealing a laptop from an office"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does the acronym LMS stand for?",
+    "options": {
+      "a": "Learning Management System",
+      "b": "Local Monitoring Service",
+      "c": "Legal Mandate Standard",
+      "d": "Long-term Maintenance Strategy"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is 'Technical Functionality' a critical question in a Pilot?",
+    "options": {
+      "a": "To ensure the IT team has work to do",
+      "b": "To ensure videos load and quizzes function on all devices",
+      "c": "To test the internet speed of the office",
+      "d": "To verify that employees have the latest smartphones"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which factor manages bandwidth during a company-wide rollout?",
+    "options": {
+      "a": "All-at-Once Rollout",
+      "b": "Staggered Rollout",
+      "c": "Email Reminders",
+      "d": "Gamification"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the danger of 'Siloed' security training (not integrated with LMS)?",
+    "options": {
+      "a": "It is too secure",
+      "b": "It makes it harder to centralize reporting and tracking",
+      "c": "It is cheaper to maintain",
+      "d": "It requires less login information"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a 'Red Flag' often used in phishing simulations?",
+    "options": {
+      "a": "Correct use of employee names",
+      "b": "Standard company logos",
+      "c": "Artificial urgency or poor grammar",
+      "d": "Links to the official company intranet"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the 'Badge' element in Gamification?",
+    "options": {
+      "a": "A physical ID card",
+      "b": "A digital reward for specific achievements",
+      "c": "A penalty for poor performance",
+      "d": "A requirement to enter the building"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How does 'Feedback' from a Pilot improve the final rollout?",
+    "options": {
+      "a": "It allows the company to ignore employee complaints",
+      "b": "It helps refine content to be more relevant and understandable",
+      "c": "It identifies who should be excluded from training",
+      "d": "It confirms that no changes are ever needed"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool is mentioned as a 'Cloud-based solution'?",
+    "options": {
+      "a": "Moodle",
+      "b": "TalentLMS",
+      "c": "Microsoft Word",
+      "d": "Linux"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the relationship between 'Completion Rates' and 'Understanding'?",
+    "options": {
+      "a": "They are exactly the same thing",
+      "b": "High completion rates guarantee high understanding",
+      "c": "Completion does not guarantee understanding",
+      "d": "Low completion rates indicate high understanding"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the benefit of 'Unified Dashboards'?",
+    "options": {
+      "a": "Employees can track Security, HR, and Compliance training in one place",
+      "b": "It separates security data from all other company data",
+      "c": "It increases the number of passwords employees need to remember",
+      "d": "It makes the system slower and harder to use"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What kind of 'Culture' relies on shaping everyday habits?",
+    "options": {
+      "a": "Blame Culture",
+      "b": "Security-First Culture",
+      "c": "Compliance-Only Culture",
+      "d": "High-Risk Culture"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the hospital case study, what acronym was unexplained?",
+    "options": {
+      "a": "CPU",
+      "b": "SaaS",
+      "c": "MRI",
+      "d": "USB"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the potential negative outcome of 'All-at-Once' rollouts?",
+    "options": {
+      "a": "Employees finish too quickly",
+      "b": "Support staff may be overwhelmed",
+      "c": "The training becomes too effective",
+      "d": "No one will do the training"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'Targeted Training' allow organizations to do?",
+    "options": {
+      "a": "Assign modules based on organizational role or risk level",
+      "b": "Force everyone to take the exact same course",
+      "c": "Avoid training senior management",
+      "d": "Target competitors with cyberattacks"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which represents a 'Positive Indicator' in behavior change?",
+    "options": {
+      "a": "More incidents of weak passwords",
+      "b": "Fewer incidents of policy violations",
+      "c": "Decreased reporting of suspicious emails",
+      "d": "Faster clicking on email links"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is 'Communication' key during implementation?",
+    "options": {
+      "a": "To tell employees to ignore the training",
+      "b": "So employees know why, how, and when to complete training",
+      "c": "To confuse potential hackers",
+      "d": "To meet the word count requirement of the policy"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'Risk-free environment' in the context of simulations?",
+    "options": {
+      "a": "A computer with no internet connection",
+      "b": "A simulation where mistakes don't cause actual data breaches",
+      "c": "An office with armed guards",
+      "d": "A training room with no windows"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is an 'Intangible' benefit of reward systems?",
+    "options": {
+      "a": "A gift card",
+      "b": "A team lunch",
+      "c": "Pride and recognition",
+      "d": "A branded t-shirt"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the purpose of 'Offboarding' in the employee lifecycle?",
+    "options": {
+      "a": "To give the employee a farewell party",
+      "b": "To ensure access rights are revoked immediately",
+      "c": "To ask the employee for their passwords",
+      "d": "To copy the employee's hard drive"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which concept helps people make better choices by default?",
+    "options": {
+      "a": "Coercion",
+      "b": "Nudging",
+      "c": "Mandating",
+      "d": "Ignoring"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'ROI' stand for in 'Measuring Effectiveness'?",
+    "options": {
+      "a": "Risk of Incident",
+      "b": "Return on Investment",
+      "c": "Rate of Infection",
+      "d": "Report on Issues"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool is mentioned as designed for 'Large-scale enterprise use'?",
+    "options": {
+      "a": "Moodle",
+      "b": "TalentLMS",
+      "c": "SAP Litmos",
+      "d": "Notepad"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the result of 'Regular and Relevant Training'?",
+    "options": {
+      "a": "Employees become bored and disengaged",
+      "b": "Awareness stays fresh as new threats emerge",
+      "c": "The company spends too much money",
+      "d": "Security policies become obsolete"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary cause of security breaches mentioned in the text?",
+    "options": {
+      "a": "Advanced AI attacks",
+      "b": "Human error",
+      "c": "Hardware failure",
+      "d": "Natural disasters"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How does 'Gamification' make training more effective?",
+    "options": {
+      "a": "It makes training longer",
+      "b": "It increases engagement and motivation",
+      "c": "It simplifies the content to a kindergarten level",
+      "d": "It removes the need for tests"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'Phish Report' badge given for?",
+    "options": {
+      "a": "Sending a phishing email",
+      "b": "Reporting a simulated or real phishing email",
+      "c": "Deleting a phishing email without reading it",
+      "d": "Clicking on a phishing link"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why should access rights be reviewed during 'Role Changes'?",
+    "options": {
+      "a": "To congratulate the employee",
+      "b": "To ensure they have access to everything",
+      "c": "To adjust permissions to fit the new role's requirements",
+      "d": "To reset their password"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the benefit of 'Anonymous reporting channels'?",
+    "options": {
+      "a": "They allow employees to spread rumors",
+      "b": "They help employees feel safe reporting incidents",
+      "c": "They are cheaper to set up",
+      "d": "They prevent IT from knowing who to blame"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which is a characteristic of 'SaaS' mentioned in the pilot outcome?",
+    "options": {
+      "a": "It was an unexplained acronym in the hospital pilot",
+      "b": "It stands for Security as a Service",
+      "c": "It is a type of malware",
+      "d": "It is a new phishing technique"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does 'DLP' stand for (referenced in the hospital case study)?",
+    "options": {
+      "a": "Download Link Protection",
+      "b": "Data Loss Prevention",
+      "c": "Digital License Protocol",
+      "d": "Direct Line Phishing"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the ultimate goal of a 'Security-First Culture' regarding employee choices?",
+    "options": {
+      "a": "Employees make safe choices naturally",
+      "b": "Employees are afraid to make any choices",
+      "c": "Employees ask IT for permission for every click",
+      "d": "Employees rely entirely on antivirus software"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following describes 'Compliance' vs 'Culture'?",
+    "options": {
+      "a": "Compliance is voluntary; Culture is mandatory",
+      "b": "Compliance is a checkbox; Culture is a mindset",
+      "c": "Compliance prevents breaches; Culture causes them",
+      "d": "Compliance is for IT; Culture is for HR"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How often should refresher training typically occur?",
+    "options": {
+      "a": "Once every 10 years",
+      "b": "3, 6, or 12 months",
+      "c": "Weekly",
+      "d": "Only when a new employee joins"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the function of 'Analytics' in security platforms?",
+    "options": {
+      "a": "To create colorful graphs for decoration",
+      "b": "To provide dashboards to measure compliance and risk",
+      "c": "To slow down the system",
+      "d": "To generate random numbers"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What differentiates 'Hoxhunt' from basic tools according to the text?",
+    "options": {
+      "a": "It is free",
+      "b": "It uses advanced features like personalization and gamification",
+      "c": "It does not use phishing simulations",
+      "d": "It is only for mobile devices"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is 'Employee Engagement' a question in the Pilot?",
+    "options": {
+      "a": "To see if employees are sleeping",
+      "b": "To determine if the format is too long or technical",
+      "c": "To check if the internet is working",
+      "d": "To measure typing speed"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the main risk of 'Set and Forget' in cybersecurity training?",
+    "options": {
+      "a": "Employees will complain",
+      "b": "Threats evolve and retention fades",
+      "c": "The software license will expire",
+      "d": "It saves too much money"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: A pilot program should always include the entire organization to be effective.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: IT and HR departments are often good candidates for pilot programs due to their high risk profiles.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: The 'All-at-Once' rollout strategy is best for managing support capacity in large organizations.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Refresher training is typically longer and more comprehensive than initial training.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Phishing simulations are designed to punish employees who fail by fining them.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: KnowBe4 and Hoxhunt are examples of cybersecurity awareness platforms.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Integrating security training with an LMS prevents centralized reporting.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: A high training completion rate automatically guarantees that employees have changed their behavior.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: A decreasing phishing click rate is a positive indicator of training effectiveness.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Gamification involves using game-like elements in non-game environments.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Nudging uses force and strict rules to make employees comply.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Publicly shaming mistakes is an effective way to build a security-first culture.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Leadership buy-in is not necessary if the IT department is strong.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Onboarding is the only time an employee needs cybersecurity training.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Celebrating secure behavior can help reinforce positive organizational norms.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: 'Quishing' refers to phishing via QR codes.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Moodle is an example of a closed-source, expensive LMS.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Social proof suggests that individuals tend to follow behaviors modeled by others.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Dashboards are useless for identifying high-risk users.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Technology alone is sufficient to protect an organization from all cyber threats.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  }
+]

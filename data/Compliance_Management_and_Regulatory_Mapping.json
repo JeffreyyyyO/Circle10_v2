@@ -1,0 +1,1222 @@
+[
+  {
+    "question": "What is the primary definition of compliance management in the context of cybersecurity?",
+    "options": {
+      "a": "The process of securing data against external threats only.",
+      "b": "A structured process ensuring adherence to legal, regulatory, industry, and internal standards.",
+      "c": "The technical implementation of firewalls and antivirus software.",
+      "d": "A voluntary framework adopted by organizations to increase profit margins."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following best describes the 'Why' principle of compliance?",
+    "options": {
+      "a": "Identifying the mandating bodies such as governments.",
+      "b": "Implementing internal practices to align with mandates.",
+      "c": "Understanding the intent and reason behind specific laws and frameworks.",
+      "d": "Providing proof of alignment to auditors."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which role is specifically responsible for designing infrastructure that supports data protection laws like GDPR or CCPA?",
+    "options": {
+      "a": "Security Analyst",
+      "b": "Compliance Officer",
+      "c": "Cloud Architect",
+      "d": "Red Teamer"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Why must Testers and Red Teamers have a solid grasp of compliance principles?",
+    "options": {
+      "a": "To properly scope ethical hacking engagements responsibly.",
+      "b": "To design the organization's legal defense strategy.",
+      "c": "To calculate the fines associated with data breaches.",
+      "d": "To replace the role of the internal audit team."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following is NOT listed as a step in the compliance strategic process?",
+    "options": {
+      "a": "Identifying legal and regulatory obligations",
+      "b": "Assessing risks",
+      "c": "Maximizing shareholder revenue",
+      "d": "Remediating identified gaps"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "How does compliance contribute to operational resilience?",
+    "options": {
+      "a": "By guaranteeing total immunity from cyber attacks.",
+      "b": "By eliminating the need for internal security policies.",
+      "c": "By ensuring structured processes that reduce the likelihood of security incidents.",
+      "d": "By transferring all risk to third-party insurance providers."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary origin of Internal Compliance obligations?",
+    "options": {
+      "a": "Government legislation",
+      "b": "International industry groups",
+      "c": "The organization itself",
+      "d": "Third-party vendors"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is an example of an internal compliance obligation?",
+    "options": {
+      "a": "GDPR data deletion requests",
+      "b": "Mandatory password expiration every 90 days",
+      "c": "PCI-DSS firewall requirements",
+      "d": "HIPAA patient data encryption"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the main consequence of failing to meet external compliance obligations?",
+    "options": {
+      "a": "Internal disciplinary action and operational risk.",
+      "b": "Heavy fines, lawsuits, and license revocations.",
+      "c": "A temporary reduction in employee productivity.",
+      "d": "A requirement to update the employee handbook."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which regulation applies to any company processing personal data of EU citizens?",
+    "options": {
+      "a": "CCPA",
+      "b": "HIPAA",
+      "c": "GDPR",
+      "d": "PCI-DSS"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does the 'Principle of Least Privilege' typically align with in internal compliance?",
+    "options": {
+      "a": "Mandatory Security Awareness Training",
+      "b": "Role-Based Access Control (RBAC)",
+      "c": "Customized Incident Response Plans",
+      "d": "Password Expiration Policy"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "If an internal policy requires monthly scans but an external standard mandates quarterly scans, what must the organization do?",
+    "options": {
+      "a": "Adopt the quarterly scan to save resources.",
+      "b": "Meet the external requirement as a minimum, but it may choose to exceed it.",
+      "c": "Ignore the external requirement if the internal one is stricter.",
+      "d": "Apply for an exemption from the external regulator."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the analogy used to describe internal compliance rules?",
+    "options": {
+      "a": "National traffic laws",
+      "b": "House rules in a family",
+      "c": "International treaties",
+      "d": "A wild west environment"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which framework focuses on five high-level functions: Identify, Protect, Detect, Respond, and Recover?",
+    "options": {
+      "a": "ISO/IEC 27001",
+      "b": "COBIT",
+      "c": "NIST Cybersecurity Framework (CSF)",
+      "d": "CIS Critical Security Controls"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary purpose of 'Mapping Controls' in cybersecurity?",
+    "options": {
+      "a": "To create a visual map of the network topology.",
+      "b": "To connect implemented security controls to specific legal or regulatory requirements.",
+      "c": "To track the location of physical assets within the office.",
+      "d": "To assign specific employees to specific desks."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which standard includes Annex A with 93 security controls?",
+    "options": {
+      "a": "NIST CSF",
+      "b": "ISO/IEC 27001",
+      "c": "COBIT",
+      "d": "PCI-DSS"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which framework is often used in enterprise IT environments to align IT goals with business strategy?",
+    "options": {
+      "a": "CIS Critical Security Controls",
+      "b": "NIST CSF",
+      "c": "COBIT",
+      "d": "GDPR"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a key benefit of control mapping regarding certifications?",
+    "options": {
+      "a": "It guarantees that no audit will ever be required.",
+      "b": "It reduces overlap and confusion when seeking multiple certifications.",
+      "c": "It allows organizations to skip the implementation of technical controls.",
+      "d": "It automatically generates the legal defense in court."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool is described as a platform that automates mapping, tracks implementation, and generates audit trails?",
+    "options": {
+      "a": "Spreadsheet",
+      "b": "GRC Tool",
+      "c": "Firewall Manager",
+      "d": "Antivirus Console"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the context of mapping, if NIST recommends MFA and ISO 27001 requires secure log-on procedures, what is the 'Make the Connection' step?",
+    "options": {
+      "a": "Implementing a second firewall.",
+      "b": "Documenting that the implemented MFA satisfies both frameworks.",
+      "c": "Choosing one framework and ignoring the other.",
+      "d": "Asking the auditor to choose the preferred control."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the 'CIS Critical Security Controls' framework best known for?",
+    "options": {
+      "a": "High-level governance policies for board members.",
+      "b": "A prioritized set of 18 actionable best practices for hardening systems.",
+      "c": "Legal advice for data privacy litigation.",
+      "d": "Managing financial risk in banking sectors."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a typical type of compliance documentation?",
+    "options": {
+      "a": "Risk assessment reports",
+      "b": "Marketing brochures",
+      "c": "Access control logs",
+      "d": "Incident response plans"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What role does documentation play during an audit?",
+    "options": {
+      "a": "It is optional and rarely requested.",
+      "b": "It serves as proof that compliance controls are in place and working.",
+      "c": "It is used only to train new employees.",
+      "d": "It is used to delay the audit process."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Who conducts an 'Internal Audit'?",
+    "options": {
+      "a": "Independent third-party firms",
+      "b": "Regulatory authorities",
+      "c": "The organization's own compliance team",
+      "d": "Certification bodies"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "SOC 2 focuses on five trust service criteria. Which of the following is NOT one of them?",
+    "options": {
+      "a": "Security",
+      "b": "Profitability",
+      "c": "Availability",
+      "d": "Processing Integrity"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Who typically demands a SOC 2 report?",
+    "options": {
+      "a": "Government regulators for tax purposes.",
+      "b": "Clients as a contractual requirement before signing a service agreement.",
+      "c": "The general public via open records requests.",
+      "d": "Internal IT support staff."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How many requirements does the PCI-DSS standard contain?",
+    "options": {
+      "a": "5",
+      "b": "10",
+      "c": "12",
+      "d": "20"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a mandatory requirement of PCI-DSS?",
+    "options": {
+      "a": "Publicly disclosing all data breaches within 24 hours.",
+      "b": "Encrypting cardholder data.",
+      "c": "Storing CVV codes for future transactions.",
+      "d": "Allowing all employees access to payment systems."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which legislation grants individuals the 'right to opt out of the sale of their data'?",
+    "options": {
+      "a": "HIPAA",
+      "b": "PCI-DSS",
+      "c": "CCPA",
+      "d": "SOX"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the maximum fine for a GDPR violation?",
+    "options": {
+      "a": "€10 million or 2% of annual global revenue.",
+      "b": "€20 million or 4% of annual global revenue.",
+      "c": "$5,000 per violation.",
+      "d": "Unlimited liability depending on the judge."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which company was fined €746 million in 2021 for GDPR violations?",
+    "options": {
+      "a": "Google",
+      "b": "Facebook",
+      "c": "Amazon",
+      "d": "Marriott"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the penalty for an intentional violation of the CCPA?",
+    "options": {
+      "a": "$2,500 per violation",
+      "b": "$7,500 per violation",
+      "c": "$50,000 per violation",
+      "d": "Jail time for the CEO"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which organization enforces PCI-DSS compliance?",
+    "options": {
+      "a": "The Federal Trade Commission (FTC)",
+      "b": "The European Union",
+      "c": "Card brands like Visa, MasterCard, and American Express",
+      "d": "The United Nations"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What happened in the Marriott International (2019) case?",
+    "options": {
+      "a": "They were fined for selling customer data to third parties.",
+      "b": "Hackers accessed the Starwood guest reservation database, exposing 339 million guests.",
+      "c": "They failed to encrypt credit card transactions resulting in a PCI fine.",
+      "d": "They lost their license to operate in the EU."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What was the cause of the Equifax Breach in 2017?",
+    "options": {
+      "a": "A phishing attack on the CEO.",
+      "b": "Failure to patch a known vulnerability.",
+      "c": "Physical theft of servers.",
+      "d": "Insider threat from a disgruntled employee."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a potential personal liability for executives in sectors like finance and healthcare?",
+    "options": {
+      "a": "Mandatory unpaid leave.",
+      "b": "Criminal charges or civil lawsuits.",
+      "c": "Requirement to retake cybersecurity training.",
+      "d": "Loss of year-end bonus only."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'Gap Analysis' refer to in the context of audit readiness?",
+    "options": {
+      "a": "Comparing the budget of the current year vs. previous year.",
+      "b": "Identifying and remediating security weaknesses before an audit.",
+      "c": "Analyzing the physical gap between server racks.",
+      "d": "Measuring the time gap between incident detection and response."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is 'Regulatory Mapping' considered a strategic tool?",
+    "options": {
+      "a": "It helps maximize tax deductions.",
+      "b": "It enables organizations to avoid redundancy and improve efficiency.",
+      "c": "It allows organizations to ignore minor regulations.",
+      "d": "It replaces the need for a Chief Information Security Officer (CISO)."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is defined as 'Internal Compliance'?",
+    "options": {
+      "a": "Rules mandated by federal law.",
+      "b": "Rules voluntarily adopted based on risk appetite and company values.",
+      "c": "Rules imposed by industry competitors.",
+      "d": "Rules created solely by the IT department without management approval."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which term describes the 'The Who' principle of compliance?",
+    "options": {
+      "a": "Understanding the technical implementation of controls.",
+      "b": "Identifying the mandating bodies, such as governments or industry groups.",
+      "c": "Documenting the internal audit procedures.",
+      "d": "Explaining the penalties for non-compliance."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Security Analysts must implement controls that satisfy:",
+    "options": {
+      "a": "Only security requirements.",
+      "b": "Only compliance requirements.",
+      "c": "Both security and compliance requirements.",
+      "d": "Only the requirements of the IT director."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Compliance Officers are responsible for:",
+    "options": {
+      "a": "Penetration testing the network.",
+      "b": "Monitoring organizational policies to ensure alignment with regulations.",
+      "c": "Writing code for the company website.",
+      "d": "Managing the physical security of the building."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following creates a 'continuous strategic process' for compliance?",
+    "options": {
+      "a": "Performing a one-time audit.",
+      "b": "Remediating identified gaps and performing audits regularly.",
+      "c": "Ignoring risks until a breach occurs.",
+      "d": "Buying insurance and skipping security controls."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which benefit of compliance is described as 'reducing the likelihood of heavy penalties during a data breach'?",
+    "options": {
+      "a": "Customer Trust",
+      "b": "Operational Resilience",
+      "c": "Risk Reduction",
+      "d": "Market Dominance"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the analogy used for External Compliance?",
+    "options": {
+      "a": "House rules",
+      "b": "National traffic laws",
+      "c": "A handshake agreement",
+      "d": "Optional guidelines"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "HIPAA applies to which type of entity?",
+    "options": {
+      "a": "Entities processing credit card data.",
+      "b": "US-based entities storing medical records.",
+      "c": "Any company doing business in California.",
+      "d": "European e-commerce sites."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a characteristic of internal compliance regarding 'Scope'?",
+    "options": {
+      "a": "It is always industry-wide.",
+      "b": "It varies per company.",
+      "c": "It is jurisdiction-wide.",
+      "d": "It is identical for every company in a sector."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the 'Efficiency' driver for mapping controls?",
+    "options": {
+      "a": "It increases the budget for the security team.",
+      "b": "It avoids duplication of effort by showing how one control satisfies multiple requirements.",
+      "c": "It ensures that every control is unique to one regulation.",
+      "d": "It allows the team to work fewer hours."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "NIST CSF organizes controls into how many high-level functions?",
+    "options": {
+      "a": "Three",
+      "b": "Four",
+      "c": "Five",
+      "d": "Six"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which version of ISO/IEC 27001 is mentioned in the text?",
+    "options": {
+      "a": "2013",
+      "b": "2022",
+      "c": "2019",
+      "d": "2025"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the mapping example, what NIST CSF control maps to ISO A.10.1 (Policies on Cryptographic Controls)?",
+    "options": {
+      "a": "PR.AC-7 (Authenticated access)",
+      "b": "PR.DS-1 (Data-at-rest protected)",
+      "c": "DE.AE-1 (Anomalies detected)",
+      "d": "RS.RP-1 (Response plan executed)"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which platform is an example of a GRC tool?",
+    "options": {
+      "a": "Microsoft Word",
+      "b": "ServiceNow",
+      "c": "Adobe Acrobat",
+      "d": "Kali Linux"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is 'Information security policies' listed as key documentation?",
+    "options": {
+      "a": "It is required for marketing purposes.",
+      "b": "It serves as the foundation for the organization's security stance.",
+      "c": "It is used to calculate employee salaries.",
+      "d": "It is a list of all hardware assets."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is an 'External Audit'?",
+    "options": {
+      "a": "An audit conducted by the company's own staff.",
+      "b": "An audit conducted by independent third-party firms or regulators.",
+      "c": "An automated scan of the external firewall.",
+      "d": "A review of the company's exterior building security."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a primary outcome of an audit?",
+    "options": {
+      "a": "Immediate termination of all IT staff.",
+      "b": "Identification of gaps and recommendations for improvement.",
+      "c": "A guarantee of zero future breaches.",
+      "d": "A refund of all security software costs."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "SOC 2 was created by which organization?",
+    "options": {
+      "a": "NIST",
+      "b": "ISO",
+      "c": "AICPA",
+      "d": "CIS"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which standard is NOT legally required but often a contractual necessity for SaaS providers?",
+    "options": {
+      "a": "GDPR",
+      "b": "CCPA",
+      "c": "SOC 2",
+      "d": "HIPAA"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does PCI-DSS stand for?",
+    "options": {
+      "a": "Private Card Information - Data Security System",
+      "b": "Payment Card Industry Data Security Standard",
+      "c": "Personal Credit Identification - Data Safe Standard",
+      "d": "Payment Check Interface - Digital Security Service"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What happens if a retailer fails to comply with PCI-DSS?",
+    "options": {
+      "a": "They may be barred from accepting card transactions.",
+      "b": "They are forced to use cash only for 1 year.",
+      "c": "They must pay a flat fee of $100.",
+      "d": "Nothing, as it is a voluntary standard."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "The CCPA applies to businesses that meet specific criteria, such as:",
+    "options": {
+      "a": "Having at least 5 employees.",
+      "b": "Revenue thresholds or volume of data collected.",
+      "c": "Being headquartered in Sacramento.",
+      "d": "Using cloud storage."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a right granted by CCPA?",
+    "options": {
+      "a": "The right to know what personal data is collected.",
+      "b": "The right to delete collected data.",
+      "c": "The right to access the company's internal financial records.",
+      "d": "The right to opt out of the sale of their data."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What type of consequences are fines and lawsuits?",
+    "options": {
+      "a": "Reputational",
+      "b": "Financial and Legal",
+      "c": "Operational",
+      "d": "Internal"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following describes the impact of the Equifax breach?",
+    "options": {
+      "a": "Minimal financial loss and no executive changes.",
+      "b": "Settled lawsuits costing over $700 million and executive resignations.",
+      "c": "A small fine from the UK ICO.",
+      "d": "An increase in customer trust due to transparency."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Ongoing Regulatory Scrutiny'?",
+    "options": {
+      "a": "A one-time checkup after a breach.",
+      "b": "Long-term supervision including annual audits and progress reporting.",
+      "c": "A voluntary program to improve relations with the government.",
+      "d": "A standard audit procedure for all new companies."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In which sectors is personal liability for executives most common?",
+    "options": {
+      "a": "Retail and Manufacturing",
+      "b": "Financial Services and Healthcare",
+      "c": "Entertainment and Media",
+      "d": "Transportation and Logistics"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the potential career impact of personal liability for a compliance officer?",
+    "options": {
+      "a": "Promotion to CEO.",
+      "b": "Disqualification from holding similar roles in the future.",
+      "c": "A mandatory sabbatical.",
+      "d": "Transfer to the marketing department."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "According to the conclusion, compliance should be transformed from a checkbox exercise into:",
+    "options": {
+      "a": "A profit center.",
+      "b": "A cohesive security strategy.",
+      "c": "A purely legal defense mechanism.",
+      "d": "A marketing campaign."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which standard ensures service providers securely manage data to protect privacy and confidentiality?",
+    "options": {
+      "a": "PCI DSS",
+      "b": "CCPA",
+      "c": "SOC 2",
+      "d": "GDPR"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the timeframe for reporting breaches under GDPR?",
+    "options": {
+      "a": "24 hours",
+      "b": "48 hours",
+      "c": "72 hours",
+      "d": "1 week"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Internal compliance assists organizations to proactively manage risks before:",
+    "options": {
+      "a": "The CEO finds out.",
+      "b": "Legal authorities step in.",
+      "c": "Competitors steal the market share.",
+      "d": "The quarterly budget meeting."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The 'How' principle of compliance refers to:",
+    "options": {
+      "a": "Implementing internal practices and providing proof.",
+      "b": "Identifying the lawmakers.",
+      "c": "Understanding the logic of the law.",
+      "d": "Paying the fines."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following is NOT an advantage of compliance?",
+    "options": {
+      "a": "Customer Trust",
+      "b": "Operational Resilience",
+      "c": "Guaranteed Immunity from Hacks",
+      "d": "Risk Reduction"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the 'Analogy' for External Compliance?",
+    "options": {
+      "a": "House rules",
+      "b": "Traffic laws",
+      "c": "Friendly advice",
+      "d": "Suggestions box"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which obligation is 'Voluntary Adoption'?",
+    "options": {
+      "a": "External Compliance",
+      "b": "Internal Compliance",
+      "c": "GDPR",
+      "d": "HIPAA"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Failure to meet internal compliance typically leads to:",
+    "options": {
+      "a": "Jail time.",
+      "b": "Operational disruption or loss of stakeholder trust.",
+      "c": "Federal lawsuits.",
+      "d": "International sanctions."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which NIST function includes 'Authenticated access'?",
+    "options": {
+      "a": "Identify",
+      "b": "Protect",
+      "c": "Detect",
+      "d": "Respond"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'COBIT' stand for?",
+    "options": {
+      "a": "Control Objectives for Information and Related Technologies",
+      "b": "Computer Operations for Business Information Technology",
+      "c": "Central Organization for Business IT",
+      "d": "Cyber Operations and Business IT"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which mapping tool provides pre-built mapping libraries across standards like NIST and ISO?",
+    "options": {
+      "a": "Excel Solver",
+      "b": "Compliance Forge",
+      "c": "GitHub",
+      "d": "Dropbox"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is 'Training completion records' important documentation?",
+    "options": {
+      "a": "To see who attended the free lunch.",
+      "b": "To prove that staff are aware of security protocols.",
+      "c": "To rank employees by intelligence.",
+      "d": "To determine who gets a promotion."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Who might issue a certification after an audit?",
+    "options": {
+      "a": "The company's CEO.",
+      "b": "A certification body.",
+      "c": "The lead developer.",
+      "d": "A customer."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary focus of 'Privacy' in SOC 2?",
+    "options": {
+      "a": "Protecting the physical building.",
+      "b": "Handling personal information in accordance with the organization's privacy notice.",
+      "c": "Ensuring the system is always online.",
+      "d": "Preventing financial fraud."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What type of data does HIPAA protect?",
+    "options": {
+      "a": "Credit card data",
+      "b": "Student records",
+      "c": "Patient health data",
+      "d": "Employee salary data"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is a consequence of 'Operational Disruptions' imposed by regulators?",
+    "options": {
+      "a": "Increased stock price.",
+      "b": "Costly remediation programs and third-party audits.",
+      "c": "Faster product release cycles.",
+      "d": "Reduced need for security staff."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The UK Information Commissioner's Office (ICO) fined Marriott £18.4 million under which regulation?",
+    "options": {
+      "a": "CCPA",
+      "b": "PCI-DSS",
+      "c": "GDPR",
+      "d": "HIPAA"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary purpose of 'Role-Based Access Control (RBAC)'?",
+    "options": {
+      "a": "To give everyone administrator access.",
+      "b": "To ensure only specific roles can access sensitive data.",
+      "c": "To make login procedures faster.",
+      "d": "To eliminate the need for passwords."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is an example of 'Clear Communication' as a benefit of control mapping?",
+    "options": {
+      "a": "Sending encrypted emails to everyone.",
+      "b": "Providing a clear way to show stakeholders that security efforts are structured.",
+      "c": "Using technical jargon to confuse auditors.",
+      "d": "Hosting a press conference."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What defines the 'Scope' of GDPR?",
+    "options": {
+      "a": "Only companies located in Europe.",
+      "b": "Any organization processing personal data of EU citizens.",
+      "c": "Only government agencies in the EU.",
+      "d": "Any company with a website."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'Customized Incident Response Plan'?",
+    "options": {
+      "a": "A generic document downloaded from the internet.",
+      "b": "Documented procedures for detecting and recovering from incidents, tailored to the company.",
+      "c": "A plan to call the police immediately.",
+      "d": "A plan to shut down the company in case of a hack."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which framework is developed by the Center for Internet Security?",
+    "options": {
+      "a": "NIST CSF",
+      "b": "ISO 27001",
+      "c": "CIS Critical Security Controls",
+      "d": "COBIT"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does 'MFA' stand for in the context of security controls?",
+    "options": {
+      "a": "Multiple Firewall Access",
+      "b": "Multi-Factor Authentication",
+      "c": "Main File Authority",
+      "d": "Managed Financial Account"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a consequence of non-compliance mentioned?",
+    "options": {
+      "a": "Loss of Customer Trust",
+      "b": "Loss of Contracts",
+      "c": "Increased Government Funding",
+      "d": "Operational Disruptions"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What defines 'Audit Readiness'?",
+    "options": {
+      "a": "Having enough coffee for the auditors.",
+      "b": "The ability to show mapped controls with evidence when asked.",
+      "c": "Scheduling the audit for a convenient time.",
+      "d": "Hiring a friendly auditor."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which standard focuses on 'aligning IT goals with business strategy'?",
+    "options": {
+      "a": "PCI-DSS",
+      "b": "COBIT",
+      "c": "CCPA",
+      "d": "HIPAA"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the 'Analogy' for Internal Compliance?",
+    "options": {
+      "a": "House rules",
+      "b": "Traffic laws",
+      "c": "Martial law",
+      "d": "Universal laws"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the 'Scope' of CCPA?",
+    "options": {
+      "a": "Global",
+      "b": "US-wide",
+      "c": "California residents",
+      "d": "San Francisco only"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following roles needs to understand compliance to 'satisfy both security and compliance requirements'?",
+    "options": {
+      "a": "HR Manager",
+      "b": "Security Analyst",
+      "c": "Sales Director",
+      "d": "Graphic Designer"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the result of 'Proper Record Keeping'?",
+    "options": {
+      "a": "Maintaining accurate logs and documentation.",
+      "b": "Filling up hard drive space unnecessarily.",
+      "c": "Slowing down the system.",
+      "d": "Confusing the auditors."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which organization type typically uses SOC 2?",
+    "options": {
+      "a": "Retail stores",
+      "b": "SaaS and cloud service providers",
+      "c": "Hospitals",
+      "d": "Banks"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'Change management record'?",
+    "options": {
+      "a": "A list of employee shift changes.",
+      "b": "Documentation of changes made to IT systems.",
+      "c": "A record of loose change in the petty cash box.",
+      "d": "A log of office temperature changes."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the main goal of 'Proactive Preparation' for audits?",
+    "options": {
+      "a": "To remain proactive rather than reactive.",
+      "b": "To hide evidence of non-compliance.",
+      "c": "To bribe the auditors.",
+      "d": "To delay the audit indefinitely."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Compliance is described as what kind of commitment in the conclusion?",
+    "options": {
+      "a": "A one-time commitment.",
+      "b": "An ongoing strategic commitment.",
+      "c": "A low-priority commitment.",
+      "d": "A financial burden."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Compliance provides 'Business Impact and Value' by:",
+    "options": {
+      "a": "Increasing the number of employees.",
+      "b": "Providing significant business advantages like customer trust.",
+      "c": "Reducing the need for marketing.",
+      "d": "Guaranteeing a monopoly."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Internal compliance obligations are legally binding and mandated by government authorities.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Neither",
+      "d": "Both"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: GDPR applies only to companies physically located within the European Union.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Neither",
+      "d": "Both"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: PCI-DSS is mandatory for all entities that store, process, or transmit credit card data.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Neither",
+      "d": "Both"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: SOC 2 is a legally required standard for all US businesses.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Neither",
+      "d": "Both"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: The 'Right to opt out of data sales' is a feature of CCPA.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Neither",
+      "d": "Both"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Documentation is not essential for proving compliance during an audit.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Neither",
+      "d": "Both"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: NIST Cybersecurity Framework (CSF) consists of five functions: Identify, Protect, Detect, Respond, and Recover.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Neither",
+      "d": "Both"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Non-compliance with regulations can lead to personal liability for executives in some sectors.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Neither",
+      "d": "Both"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Internal audits are conducted by independent third-party firms.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Neither",
+      "d": "Both"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Mapping controls helps avoid duplication of effort when seeking multiple certifications.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Neither",
+      "d": "Both"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: The maximum fine for GDPR violations is €1 million.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Neither",
+      "d": "Both"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Compliance is merely a 'check-box' exercise with no strategic value.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Neither",
+      "d": "Both"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: HIPAA requires encryption and access controls for patient health data.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Neither",
+      "d": "Both"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: The Equifax breach was caused by a failure to patch a known vulnerability.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Neither",
+      "d": "Both"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Internal compliance rules are similar to 'national traffic laws'.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Neither",
+      "d": "Both"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: 'Risk Reduction' means compliance grants total immunity from security incidents.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Neither",
+      "d": "Both"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: CIS Critical Security Controls consists of 18 prioritized best practices.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Neither",
+      "d": "Both"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Regulatory mapping involves connecting security controls to legal requirements.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Neither",
+      "d": "Both"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Marriot was fined by the UK ICO for a data breach exposing guest records.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Neither",
+      "d": "Both"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Cloud Architects have no role in compliance management.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Neither",
+      "d": "Both"
+    },
+    "correctAnswer": "b"
+  }
+]

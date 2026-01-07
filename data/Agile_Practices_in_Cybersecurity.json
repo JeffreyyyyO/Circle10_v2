@@ -1,0 +1,1162 @@
+[
+  {
+    "question": "Why are traditional project management methods often considered inadequate for modern cybersecurity work?",
+    "options": {
+      "a": "They lack the necessary documentation standards required for compliance.",
+      "b": "They are too expensive to implement for small security teams.",
+      "c": "They fall short of meeting the dynamic demands of rapidly evolving threats.",
+      "d": "They require too many stakeholders to be involved in the decision-making process."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following best describes the 'Waterfall' model's approach to project phases?",
+    "options": {
+      "a": "Iterative and cyclic",
+      "b": "Linear and sequential",
+      "c": "Parallel and concurrent",
+      "d": "Randomized and flexible"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the Scrum framework, what is the primary purpose of 'Time-Boxed Ceremonies'?",
+    "options": {
+      "a": "To limit the amount of time developers spend coding.",
+      "b": "To ensure regular, structured meetings to maintain momentum.",
+      "c": "To strictly control the budget allocated to security tools.",
+      "d": "To force the Product Owner to make faster decisions."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "DevSecOps is best described as:",
+    "options": {
+      "a": "A specific software tool for scanning code vulnerabilities.",
+      "b": "A cultural shift integrating security directly into agile development pipelines.",
+      "c": "A project management methodology that replaces Agile.",
+      "d": "A specialized role for managing firewall configurations."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which phase comes immediately after 'System Design' in the traditional Waterfall model?",
+    "options": {
+      "a": "Testing",
+      "b": "Requirement Gathering",
+      "c": "Implementation",
+      "d": "Deployment"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a significant disadvantage of the Waterfall model regarding security flaws?",
+    "options": {
+      "a": "Security flaws are often discovered too late, making them expensive to fix.",
+      "b": "It requires daily security scans which slow down development.",
+      "c": "It prevents the use of firewalls during the testing phase.",
+      "d": "It allows for too many changes to security scope during implementation."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following scenarios is the Waterfall model still best suited for?",
+    "options": {
+      "a": "Developing a new mobile banking app with evolving features.",
+      "b": "Responding to a zero-day exploit in real-time.",
+      "c": "Deploying a new firewall system or performing an annual risk assessment.",
+      "d": "Managing a cross-functional DevSecOps pipeline."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "How long does a typical Agile 'Sprint' last?",
+    "options": {
+      "a": "3 to 6 months",
+      "b": "1 to 4 weeks",
+      "c": "24 to 48 hours",
+      "d": "6 to 12 weeks"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In an Agile cycle, what happens after the team reviews small parts of the solution?",
+    "options": {
+      "a": "They deploy the final product to the customer immediately.",
+      "b": "They adjust based on feedback.",
+      "c": "They restart the Requirement Gathering phase.",
+      "d": "They switch to a Waterfall methodology for the next phase."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How does Agile facilitate 'Real-time Responsiveness' in cybersecurity?",
+    "options": {
+      "a": "By extending the project timeline to accommodate all changes.",
+      "b": "By allowing teams to reprioritize detection signatures in the very next sprint.",
+      "c": "By freezing the code base until the threat is analyzed.",
+      "d": "By assigning a single security officer to make all decisions."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the key difference in 'Feedback' between Waterfall and Agile?",
+    "options": {
+      "a": "Waterfall has continuous feedback; Agile has feedback at the end.",
+      "b": "Agile relies on automated feedback only; Waterfall uses manual feedback.",
+      "c": "Waterfall receives feedback late in the cycle; Agile receives it continuously.",
+      "d": "There is no difference; both receive feedback at the same intervals."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In the context of Scrum roles, who acts as the 'Facilitator'?",
+    "options": {
+      "a": "The Product Owner",
+      "b": "The Stakeholder",
+      "c": "The Scrum Master",
+      "d": "The Lead Developer"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Who is responsible for prioritizing the backlog in a Scrum team?",
+    "options": {
+      "a": "The Scrum Master",
+      "b": "The Development Team",
+      "c": "The Product Owner",
+      "d": "The Chief Information Security Officer (CISO)"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is a responsibility of the 'Development Team' in Scrum?",
+    "options": {
+      "a": "Removing roadblocks for the team.",
+      "b": "Deciding what the team should work on next.",
+      "c": "Deciding how to perform the work and delivering value.",
+      "d": "Managing the budget and resource allocation."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "If a security engineer is blocked by a network restriction, whose role is it to escalate and resolve this issue?",
+    "options": {
+      "a": "The Product Owner",
+      "b": "The Scrum Master",
+      "c": "The Compliance Officer",
+      "d": "The HR Manager"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which Scrum ceremony occurs at the start of each sprint?",
+    "options": {
+      "a": "Sprint Review",
+      "b": "Sprint Retrospective",
+      "c": "Sprint Planning",
+      "d": "Daily Standup"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary goal of the 'Daily Standup' meeting?",
+    "options": {
+      "a": "To provide a detailed status report to upper management.",
+      "b": "To demonstrate the completed work to stakeholders.",
+      "c": "To answer what was done, what will be done, and identify blockers.",
+      "d": "To plan the backlog for the next month."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "When does the 'Sprint Review' take place?",
+    "options": {
+      "a": "Every morning at 9 AM.",
+      "b": "At the end of the sprint.",
+      "c": "Before the Sprint Planning meeting.",
+      "d": "Halfway through the sprint."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the focus of the 'Sprint Retrospective'?",
+    "options": {
+      "a": "Reflecting on the process and identifying improvements.",
+      "b": "Showcasing the product to the customers.",
+      "c": "Assigning tasks for the next sprint.",
+      "d": "Fixing bugs found during the review."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which backlog contains the full list of all possible work?",
+    "options": {
+      "a": "Sprint Backlog",
+      "b": "Product Backlog",
+      "c": "Defect Backlog",
+      "d": "Release Backlog"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The Sprint Backlog is owned by:",
+    "options": {
+      "a": "The Product Owner",
+      "b": "The Scrum Master",
+      "c": "The Team",
+      "d": "The Project Manager"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is a valid example of a cybersecurity backlog item?",
+    "options": {
+      "a": "Drafting the annual holiday schedule.",
+      "b": "Reviewing AWS IAM rules to minimize over-permissioned accounts.",
+      "c": "Designing the office seating plan.",
+      "d": "Ordering new hardware for the sales team."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool is described as being widely used in Agile environments, particularly for technical teams managing bug tracking?",
+    "options": {
+      "a": "Monday.com",
+      "b": "Trello",
+      "c": "Jira",
+      "d": "Asana"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Asana is best noted for which of the following characteristics?",
+    "options": {
+      "a": "Its complex interface designed solely for developers.",
+      "b": "Its user-friendly interface suitable for cross-functional teams.",
+      "c": "Its focus on deep code analysis and compilation.",
+      "d": "Its exclusive use in government military projects."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which platform is highlighted for being highly visual and effective for large-scale interdepartmental collaboration?",
+    "options": {
+      "a": "Jira",
+      "b": "Monday.com",
+      "c": "GitHub",
+      "d": "Slack"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the context of Jira, what action moves a task to the 'Done' stage?",
+    "options": {
+      "a": "Creating the task in the backlog.",
+      "b": "Assigning the task to an analyst.",
+      "c": "Completing the investigation and resolving the issue.",
+      "d": "Prioritizing the task during sprint planning."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Why are Agile tools critical for maintaining 'Audit Trails' in cybersecurity?",
+    "options": {
+      "a": "They automatically delete old records to save space.",
+      "b": "They provide documentation and accountability necessary for compliance.",
+      "c": "They prevent external auditors from accessing company data.",
+      "d": "They encrypt all communication to prevent interception."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "DevSecOps integrates security into which part of the development process?",
+    "options": {
+      "a": "Only the final testing phase.",
+      "b": "Every part of the development process.",
+      "c": "The initial requirement gathering only.",
+      "d": "The post-deployment maintenance phase."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In a DevSecOps approach, when is security included in the backlog?",
+    "options": {
+      "a": "From the beginning during Sprint Planning.",
+      "b": "After the main features have been coded.",
+      "c": "During the Sprint Review.",
+      "d": "Only when a vulnerability is detected."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the purpose of Static Application Security Testing (SAST) in the development phase?",
+    "options": {
+      "a": "To monitor the application in real-time production.",
+      "b": "To scan source code for hard-coded credentials or insecure functions.",
+      "c": "To simulate a phishing attack on employees.",
+      "d": "To manage user access permissions."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What happens in a CI/CD pipeline if a critical security issue is detected?",
+    "options": {
+      "a": "The pipeline ignores it and proceeds to deployment.",
+      "b": "The pipeline automatically blocks the deployment.",
+      "c": "The pipeline sends an email but continues the build.",
+      "d": "The pipeline deletes the entire code repository."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Dependency Scanners are used to check for:",
+    "options": {
+      "a": "Syntax errors in the code.",
+      "b": "Known vulnerabilities in third-party libraries.",
+      "c": "Performance bottlenecks in the database.",
+      "d": "Unauthorized access attempts to the server."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a task typical of a Code Review in a DevSecOps context?",
+    "options": {
+      "a": "Ensuring the color scheme matches the brand guidelines.",
+      "b": "Verifying that user inputs are properly sanitized.",
+      "c": "Checking if the code is written in the correct font.",
+      "d": "Confirming the developer clocked in on time."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'User Story' in the context of breaking down large goals?",
+    "options": {
+      "a": "A fictional narrative about a cyber attack.",
+      "b": "A small, actionable item deliverable in a single sprint.",
+      "c": "A comprehensive report on the project's success.",
+      "d": "A complaint filed by a user regarding a bug."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is 'Regular Backlog Refinement' necessary in cybersecurity?",
+    "options": {
+      "a": "To keep the team busy with administrative work.",
+      "b": "Because security threats change constantly and new vulnerabilities emerge.",
+      "c": "To ensure that the Product Owner maintains control over the team.",
+      "d": "To prevent the backlog from becoming empty."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which strategy helps prevent silos between developers, security, and operations?",
+    "options": {
+      "a": "Restricting communication to formal emails only.",
+      "b": "Encouraging continuous collaboration through joint review sessions.",
+      "c": "Physically separating the teams into different buildings.",
+      "d": "Assigning separate managers for each team with conflicting goals."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the case study of the E-Commerce Checkout Feature, which team is responsible for ensuring stored data meets financial compliance (PCI-DSS)?",
+    "options": {
+      "a": "The Development Team",
+      "b": "The Compliance Team",
+      "c": "The Operations Team",
+      "d": "The Marketing Team"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary benefit of involving stakeholders early in the sprint?",
+    "options": {
+      "a": "It allows them to micromanage the daily tasks.",
+      "b": "It ensures requirements like compliance are translated into tasks early.",
+      "c": "It reduces the need for the Scrum Master role.",
+      "d": "It guarantees that the project will be finished under budget."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following represents an 'Incremental Improvement' in Agile cybersecurity?",
+    "options": {
+      "a": "Deploying a full security suite after two years of development.",
+      "b": "Deploying input validation in Sprint 1 and MFA in Sprint 2.",
+      "c": "Waiting for a major breach to upgrade systems.",
+      "d": "Conducting a single penetration test at the end of the year."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the typical duration of a Daily Standup meeting?",
+    "options": {
+      "a": "1 hour",
+      "b": "15 minutes",
+      "c": "30 minutes",
+      "d": "45 minutes"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which role acts as the 'coach' for the Scrum team?",
+    "options": {
+      "a": "Product Owner",
+      "b": "Scrum Master",
+      "c": "Lead Developer",
+      "d": "Security Analyst"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the Waterfall model, 'Implementation' refers to:",
+    "options": {
+      "a": "Releasing the final product.",
+      "b": "Development and coding.",
+      "c": "Verifying the solution.",
+      "d": "Planning the technical architecture."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a typical phase of the Waterfall model?",
+    "options": {
+      "a": "Sprint Planning",
+      "b": "System Design",
+      "c": "Testing",
+      "d": "Requirement Gathering"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "A Product Owner might prioritize patching an XSS vulnerability over a phishing simulation because:",
+    "options": {
+      "a": "Phishing simulations are not important.",
+      "b": "The risk urgency of the XSS vulnerability is higher.",
+      "c": "The development team prefers working on patches.",
+      "d": "Phishing simulations require external consultants."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'Time-Boxed' mean in the context of Scrum ceremonies?",
+    "options": {
+      "a": "The meeting can go on as long as necessary.",
+      "b": "The meeting has a fixed maximum duration.",
+      "c": "The meeting must happen at the same time every day.",
+      "d": "The meeting time is decided by a vote."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which Agile tool is described as suitable for 'compliance, policy tracking, and cross-functional work'?",
+    "options": {
+      "a": "Jira",
+      "b": "Monday.com",
+      "c": "Asana",
+      "d": "GitLab"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the main risk of 'Long Feedback Loops' in the Waterfall model?",
+    "options": {
+      "a": "Developers get bored waiting for feedback.",
+      "b": "Security flaws might not be discovered until they are too expensive to fix.",
+      "c": "Stakeholders lose interest in the project.",
+      "d": "Documentation becomes outdated before the project ends."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is an example of a 'Reactive' defense shifted to 'Proactive' by Agile?",
+    "options": {
+      "a": "Fixing bugs after customer complaints.",
+      "b": "Embedding security into every layer of development.",
+      "c": "Patching servers once a year.",
+      "d": "Reviewing logs only after a breach occurs."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the role of 'Dependency Scanners' like OWASP Dependency-Check?",
+    "options": {
+      "a": "To visualize the project timeline.",
+      "b": "To detect malware in Docker images.",
+      "c": "To check for known vulnerabilities in third-party libraries.",
+      "d": "To validate user passwords."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which Scrum ceremony involves demonstrating the actual value delivered to stakeholders?",
+    "options": {
+      "a": "Sprint Planning",
+      "b": "Daily Standup",
+      "c": "Sprint Review",
+      "d": "Sprint Retrospective"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Who defines the 'What' in a Scrum project (what needs to be built)?",
+    "options": {
+      "a": "The Scrum Master",
+      "b": "The Product Owner",
+      "c": "The Development Team",
+      "d": "The External Auditor"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Who defines the 'How' in a Scrum project (how to build it)?",
+    "options": {
+      "a": "The Product Owner",
+      "b": "The Scrum Master",
+      "c": "The Development Team",
+      "d": "The CEO"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is NOT a benefit of using Agile tools in cybersecurity?",
+    "options": {
+      "a": "Improved response time to new threats.",
+      "b": "Clear communication across teams.",
+      "c": "Elimination of the need for security analysts.",
+      "d": "Actionable tasks with clear responsibilities."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In the context of the 'Mobile Banking' example, why is the build halted automatically?",
+    "options": {
+      "a": "If the developer forgets to clock out.",
+      "b": "If any API leaks data or insecure permissions are detected.",
+      "c": "If the code is not commented properly.",
+      "d": "If the build takes longer than 10 minutes."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'Prioritized Backlogs' ensure in the Scrum framework?",
+    "options": {
+      "a": "That the easiest tasks are done first.",
+      "b": "That the most critical security tasks are addressed first.",
+      "c": "That all tasks are given equal importance.",
+      "d": "That tasks are done in alphabetical order."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a key feature of the Agile methodology?",
+    "options": {
+      "a": "Rigid adherence to the initial plan.",
+      "b": "Sequential phases that do not overlap.",
+      "c": "Iterative and incremental approach.",
+      "d": "Late delivery of value."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the main challenge of 'Rigidity' in the Waterfall model regarding cybersecurity?",
+    "options": {
+      "a": "It makes it difficult to address vulnerabilities emerging mid-project.",
+      "b": "It requires too much documentation.",
+      "c": "It is too fast for security teams to keep up.",
+      "d": "It does not allow for a budget review."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which Scrum ceremony allows the team to reflect on 'what didn't go well'?",
+    "options": {
+      "a": "Sprint Review",
+      "b": "Sprint Retrospective",
+      "c": "Daily Standup",
+      "d": "Backlog Refinement"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "A 'Sprint' in Agile is best described as:",
+    "options": {
+      "a": "A race to finish the project as quickly as possible.",
+      "b": "A short, repeatable timeframe for completing specific tasks.",
+      "c": "A meeting to discuss long-term strategy.",
+      "d": "A tool for tracking bugs."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is an example of a 'Feature-Specific Security' task in Sprint Planning?",
+    "options": {
+      "a": "Installing Microsoft Office on all computers.",
+      "b": "Implementing rate limiting for a password reset feature.",
+      "c": "Scheduling a team lunch.",
+      "d": "Reviewing the company's annual financial report."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'SAST' stand for?",
+    "options": {
+      "a": "System Administration Security Tool",
+      "b": "Static Application Security Testing",
+      "c": "Secure Agile System Testing",
+      "d": "Standard Application Safety Test"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool is mentioned as an example for 'Dependency Scanners'?",
+    "options": {
+      "a": "Jira",
+      "b": "Scout Suite",
+      "c": "GitHub Dependabot",
+      "d": "Monday.com"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In a cross-functional team, who is primarily focused on 'customer trust and brand reputation'?",
+    "options": {
+      "a": "Developers",
+      "b": "Operations (Ops)",
+      "c": "Business Stakeholders",
+      "d": "Compliance Officers"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the purpose of 'Data Mapping' when breaking down GDPR compliance goals?",
+    "options": {
+      "a": "To create a visual map of the office network.",
+      "b": "To identify where personal data is stored.",
+      "c": "To track the location of company laptops.",
+      "d": "To map out the hierarchy of the organization."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is an example of 'Proactive Adjustments' to the backlog?",
+    "options": {
+      "a": "Adding an item to update a library to fix a newly discovered CVE.",
+      "b": "Ignoring a new vulnerability until the next major release.",
+      "c": "Removing security tasks to speed up development.",
+      "d": "Waiting for a client to report a security issue."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the main benefit of 'Joint Review Sessions' between Dev, Sec, and Ops?",
+    "options": {
+      "a": "They allow teams to socialize.",
+      "b": "They ensure no team is surprised by last-minute security issues.",
+      "c": "They reduce the need for documentation.",
+      "d": "They replace the need for the Scrum Master."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the Checkout Feature case study, which team is responsible for 'Input Validation'?",
+    "options": {
+      "a": "Developer + Security",
+      "b": "Compliance Only",
+      "c": "Ops Only",
+      "d": "Business Stakeholders"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which methodology is described as 'Sequential and rigid'?",
+    "options": {
+      "a": "Agile",
+      "b": "Scrum",
+      "c": "Waterfall",
+      "d": "DevSecOps"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which methodology is best used for 'Fixed-scope, compliance-heavy projects'?",
+    "options": {
+      "a": "Agile",
+      "b": "Waterfall",
+      "c": "Lean",
+      "d": "Kanban"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In Agile, when is security supposed to be addressed?",
+    "options": {
+      "a": "Usually at the end",
+      "b": "Embedded in every sprint",
+      "c": "During the maintenance phase only",
+      "d": "Whenever the budget allows"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Scout Suite' mentioned in the context of?",
+    "options": {
+      "a": "Automating manual cloud permission checks.",
+      "b": "Creating phishing simulations.",
+      "c": "Managing the product backlog.",
+      "d": "Tracking employee attendance."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which team member is typically responsible for 'removing roadblocks'?",
+    "options": {
+      "a": "The Developer",
+      "b": "The Scrum Master",
+      "c": "The Product Owner",
+      "d": "The Tester"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What defines the 'Sprint Backlog'?",
+    "options": {
+      "a": "The complete wish-list for the product.",
+      "b": "A subset of tasks chosen specifically for the current sprint.",
+      "c": "A list of rejected ideas.",
+      "d": "A log of all past completed tasks."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The 'Product Owner' is also referred to as:",
+    "options": {
+      "a": "The Facilitator",
+      "b": "The Prioritizer",
+      "c": "The Doer",
+      "d": "The Enforcer"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a core role in Scrum?",
+    "options": {
+      "a": "Scrum Master",
+      "b": "Product Owner",
+      "c": "Project Manager",
+      "d": "Development Team"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary function of 'Monday.com' in the examples provided?",
+    "options": {
+      "a": "Visual task management and interdepartmental collaboration.",
+      "b": "Deep packet inspection for network traffic.",
+      "c": "Source code repository hosting.",
+      "d": "Automated penetration testing."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In the 'Phishing Investigation' use case for Jira, what is the first step?",
+    "options": {
+      "a": "Moving the task to 'Done'.",
+      "b": "Task Creation.",
+      "c": "Prioritization.",
+      "d": "Documentation."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which Agile ceremony helps in 'Fostering a culture of constant refinement'?",
+    "options": {
+      "a": "Daily Standup",
+      "b": "Sprint Planning",
+      "c": "Sprint Retrospective",
+      "d": "System Design"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does 'MFA' stand for in the backlog example?",
+    "options": {
+      "a": "Multi-Factor Authorization",
+      "b": "Multi-Factor Authentication",
+      "c": "Multiple Firewall Access",
+      "d": "Main Feature Analysis"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is 'Continuous Collaboration' important in Agile?",
+    "options": {
+      "a": "It ensures faster decision-making and broader awareness.",
+      "b": "It makes the project last longer.",
+      "c": "It eliminates the need for security tools.",
+      "d": "It allows everyone to be a manager."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the 'Waterfall' model's stance on flexibility?",
+    "options": {
+      "a": "High flexibility",
+      "b": "Moderate flexibility",
+      "c": "Low flexibility",
+      "d": "Unlimited flexibility"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is a 'Traditional' project management method?",
+    "options": {
+      "a": "Scrum",
+      "b": "Kanban",
+      "c": "Waterfall",
+      "d": "XP (Extreme Programming)"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What enables teams to respond to new threats immediately in Agile?",
+    "options": {
+      "a": "Rigid planning phases.",
+      "b": "Real-time Responsiveness.",
+      "c": "Long feedback loops.",
+      "d": "Detailed documentation requirements."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Who owns the 'Product Backlog'?",
+    "options": {
+      "a": "The Development Team",
+      "b": "The Scrum Master",
+      "c": "The Product Owner",
+      "d": "The Stakeholders"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the purpose of 'Audit Logging' in the e-commerce checkout example?",
+    "options": {
+      "a": "To record transaction logs for monitoring.",
+      "b": "To speed up the checkout process.",
+      "c": "To design the user interface.",
+      "d": "To train the support staff."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which task falls under 'Consent Management' for GDPR?",
+    "options": {
+      "a": "Adding features for users to manage data consent.",
+      "b": "Encrypting the database.",
+      "c": "Setting up a firewall.",
+      "d": "Running a phishing simulation."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the result of 'Silos' between teams?",
+    "options": {
+      "a": "Increased efficiency.",
+      "b": "Delays and weakened systems.",
+      "c": "Better security practices.",
+      "d": "Faster deployment times."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a 'Compliance Officer's' main concern?",
+    "options": {
+      "a": "Writing efficient code.",
+      "b": "Managing infrastructure.",
+      "c": "Ensuring adherence to laws and regulations.",
+      "d": "Designing the product logo."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does 'CVE' stand for?",
+    "options": {
+      "a": "Common Vulnerability Exposure",
+      "b": "Common Vulnerabilities and Exposures",
+      "c": "Critical Virus Emergency",
+      "d": "Computer Virus Elimination"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool helps teams 'plan, track, and collaborate'?",
+    "options": {
+      "a": "Agile Project Management Tools",
+      "b": "Compilers",
+      "c": "Antivirus Software",
+      "d": "Firewalls"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "The 'Shift to Agile' is driven by the need to:",
+    "options": {
+      "a": "Slow down the development process.",
+      "b": "Align security efforts with modern development cycles.",
+      "c": "Return to traditional Waterfall methods.",
+      "d": "Reduce the number of security staff."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the context of 'Continuous Improvement', what does Agile foster?",
+    "options": {
+      "a": "A culture of constant refinement and adaptation.",
+      "b": "A culture of strict adherence to initial plans.",
+      "c": "A culture of minimal communication.",
+      "d": "A culture of assigning blame."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which phase of Waterfall involves 'Planning the technical architecture'?",
+    "options": {
+      "a": "Requirement Gathering",
+      "b": "System Design",
+      "c": "Implementation",
+      "d": "Testing"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the risk of 'Late Feedback' in Waterfall?",
+    "options": {
+      "a": "It is too expensive to fix flaws discovered late.",
+      "b": "It allows for too much innovation.",
+      "c": "It speeds up the project unnecessarily.",
+      "d": "It reduces the quality of the documentation."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Agile 'Sprints' typically last:",
+    "options": {
+      "a": "1-2 days",
+      "b": "1-4 weeks",
+      "c": "2-3 months",
+      "d": "6-12 months"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Who decides 'How to perform the work' in Scrum?",
+    "options": {
+      "a": "The Product Owner",
+      "b": "The Scrum Master",
+      "c": "The Development Team",
+      "d": "The CEO"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which ceremony is for 'Reflecting on the process'?",
+    "options": {
+      "a": "Sprint Review",
+      "b": "Sprint Retrospective",
+      "c": "Daily Standup",
+      "d": "Sprint Planning"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Monday.com is particularly effective for:",
+    "options": {
+      "a": "Small, single-team projects.",
+      "b": "Large-scale initiatives across different departments.",
+      "c": "Code-heavy development tasks only.",
+      "d": "Generating encryption keys."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the main goal of 'Sprint Planning'?",
+    "options": {
+      "a": "To review the backlog and choose items for the sprint.",
+      "b": "To demonstrate the product to stakeholders.",
+      "c": "To fix bugs from the previous sprint.",
+      "d": "To celebrate the end of a sprint."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "DevSecOps ensures security is a shared responsibility from:",
+    "options": {
+      "a": "The very start of a project.",
+      "b": "The testing phase.",
+      "c": "The deployment phase.",
+      "d": "The maintenance phase."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "The Waterfall model allows for easy changes to the project structure once implementation has begun.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Agile practices align security efforts with modern development cycles and organizational goals.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In the Scrum framework, the 'Sprint Review' happens at the beginning of each sprint.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The Product Owner acts as the team coach and removes roadblocks.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Jira is widely used in Agile environments, particularly among technical teams.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "DevSecOps treats security as a final step handled after main development is finished.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Static Application Security Testing (SAST) scans source code for hard-coded credentials.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "A CI/CD pipeline automatically blocks deployment if a critical security issue is detected.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "The Waterfall model is suitable for dynamic environments with evolving threats.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Agile methodology involves breaking work down into short cycles called Sprints.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "The 'Daily Standup' is a 1-hour meeting to discuss project strategy.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Asana is known for being user-friendly and popular with cross-functional teams.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In Agile, feedback comes late in the cycle, similar to Waterfall.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The Sprint Backlog is owned by the Development Team.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "DevSecOps integrates security into the CI/CD pipeline.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Agile tools are not necessary for maintaining audit trails in cybersecurity.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Cross-functional collaboration involves stakeholders early in the sprint.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "The 'Waterfall' model is best used for fixed-scope, compliance-heavy projects.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Agile allows teams to respond to new threats immediately.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Dependency Scanners check for syntax errors in the code.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  }
+]

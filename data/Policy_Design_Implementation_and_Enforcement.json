@@ -1,0 +1,1162 @@
+[
+  {
+    "question": "What is the primary function of cybersecurity policies within an organization?",
+    "options": {
+      "a": "To replace technical security controls like firewalls",
+      "b": "To serve as rules of engagement for secure interaction with technology",
+      "c": "To exclusively protect physical assets from theft",
+      "d": "To eliminate the need for human intervention in security"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a primary purpose of an Acceptable Use Policy (AUP)?",
+    "options": {
+      "a": "Reducing legal and compliance risks",
+      "b": "Boosting employee productivity",
+      "c": "Defining technical specifications for server hardware",
+      "d": "Protecting company assets"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In the context of an AUP, what does 'Accountability' primarily define?",
+    "options": {
+      "a": "The hardware inventory of the organization",
+      "b": "The disciplinary actions or legal consequences of breaking rules",
+      "c": "The list of approved software vendors",
+      "d": "The total budget for cybersecurity tools"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which activity is typically prohibited under a standard AUP?",
+    "options": {
+      "a": "Using Microsoft Teams for internal meetings",
+      "b": "Downloading software from pre-approved sources",
+      "c": "Using corporate email for personal services",
+      "d": "Reporting lost devices to IT"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Why is bandwidth management often a critical component of an AUP in a hospital environment?",
+    "options": {
+      "a": "To ensure doctors can stream entertainment during breaks",
+      "b": "To reduce the cost of internet subscriptions",
+      "c": "To prioritize life-critical physical systems over streaming services",
+      "d": "To prevent patients from accessing the internet"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a potential risk of lacking a proper AUP?",
+    "options": {
+      "a": "Increased employee retention rates",
+      "b": "Reputational damage due to offensive activity from corporate accounts",
+      "c": "Over-compliance with regulatory standards",
+      "d": "Excessive system redundancy"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The 'Principle of Least Privilege' is the core principle of which policy?",
+    "options": {
+      "a": "Data Classification Policy",
+      "b": "Incident Response Policy",
+      "c": "Access Control Policy",
+      "d": "Acceptable Use Policy"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In an Access Control Policy, what does RBAC stand for?",
+    "options": {
+      "a": "Risk-Based Access Control",
+      "b": "Rule-Based Administrative Control",
+      "c": "Role-Based Access Control",
+      "d": "Remote-Based Authentication Code"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following best describes the 'Access Lifecycle'?",
+    "options": {
+      "a": "The physical lifespan of a security token",
+      "b": "The process of granting, modifying, and revoking access",
+      "c": "The duration a password remains valid",
+      "d": "The time it takes to log in to a system"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Under an Access Control Policy in a hospital, which access level is appropriate for a Finance Officer?",
+    "options": {
+      "a": "Access to patient medical records but not billing",
+      "b": "Access to billing systems but not sensitive health information",
+      "c": "Full administrative access to all hospital systems",
+      "d": "Read-only access to surgical procedures"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary goal of an Incident Response Policy?",
+    "options": {
+      "a": "To prevent all security incidents from ever occurring",
+      "b": "To outline formal steps to follow when a security incident occurs",
+      "c": "To assign blame to specific employees for security failures",
+      "d": "To automatically encrypt all data during a breach"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT typically considered a security incident?",
+    "options": {
+      "a": "Scheduled system maintenance",
+      "b": "Phishing scams",
+      "c": "Ransomware attacks",
+      "d": "Data breaches"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the first operational step in a typical Incident Response Policy for a phishing attack?",
+    "options": {
+      "a": "Writing a post-incident report",
+      "b": "Notifying customers immediately",
+      "c": "Immediate reporting to IT Security",
+      "d": "Firing the employee who clicked the link"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which category of data requires access to be restricted to a strict 'need-to-know' basis?",
+    "options": {
+      "a": "Public Data",
+      "b": "Internal Data",
+      "c": "Confidential Data",
+      "d": "Restricted Data"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Marketing materials and press releases typically fall under which data classification?",
+    "options": {
+      "a": "Public Data",
+      "b": "Internal Data",
+      "c": "Confidential Data",
+      "d": "Restricted Data"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is data classification important for resource allocation?",
+    "options": {
+      "a": "It ensures all data receives the highest level of expensive encryption",
+      "b": "It allows organizations to prioritize protection based on risk",
+      "c": "It mandates that all data be made public for transparency",
+      "d": "It eliminates the need for any data storage limits"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which stage of the Policy Lifecycle involves identifying risks and involving key stakeholders?",
+    "options": {
+      "a": "Enforcement Stage",
+      "b": "Approval Stage",
+      "c": "Development Stage",
+      "d": "Revision Stage"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "During policy development, why is Human Resources (HR) a key stakeholder?",
+    "options": {
+      "a": "To ensure technical accuracy of the policy",
+      "b": "To manage how policies affect employee behavior and discipline",
+      "c": "To ensure alignment with PCI DSS regulations",
+      "d": "To approve the budget for security software"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary purpose of the 'Approval Stage' in the policy lifecycle?",
+    "options": {
+      "a": "To draft the initial content of the policy",
+      "b": "To distribute the policy to all employees",
+      "c": "To give the policy formal authority and legitimacy",
+      "d": "To test the policy against simulated attacks"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is a method used during the 'Enforcement Stage'?",
+    "options": {
+      "a": "Drafting the policy text",
+      "b": "Defining the risk appetite",
+      "c": "Monitoring and compliance checks",
+      "d": "Selecting the font for the document"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a common trigger for the 'Revision Stage' of a policy?",
+    "options": {
+      "a": "The hiring of a new junior intern",
+      "b": "A minor software update",
+      "c": "Major incidents or regulatory changes",
+      "d": "The end of a fiscal week"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which section of a policy answers the question: 'Why does this policy exist?'",
+    "options": {
+      "a": "Scope",
+      "b": "Policy Statement",
+      "c": "Purpose",
+      "d": "Exceptions"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "The 'Scope' section of a policy defines:",
+    "options": {
+      "a": "The penalties for breaking the rules",
+      "b": "Who and what the policy applies to",
+      "c": "The detailed list of technical rules",
+      "d": "The expiration date of the policy"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "If a contractor is excluded from the scope of a security policy, what is the likely result?",
+    "options": {
+      "a": "A decrease in overall operational costs",
+      "b": "A security blind spot where weak practices can be exploited",
+      "c": "Faster project completion times",
+      "d": "Improved compliance with GDPR"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which section of a policy contains the detailed list of rules and expectations?",
+    "options": {
+      "a": "Purpose",
+      "b": "Enforcement",
+      "c": "Policy Statement",
+      "d": "Exceptions"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is an example of a clear Policy Statement rule?",
+    "options": {
+      "a": "Users should try to be safe online.",
+      "b": "Passwords must be changed every 90 days.",
+      "c": "Avoid doing bad things on the computer.",
+      "d": "Security is everyone's responsibility."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The 'Exceptions' section of a policy provides a process for:",
+    "options": {
+      "a": "Permanently ignoring all rules",
+      "b": "Deviating from rules under special, controlled circumstances",
+      "c": "Allowing senior management to bypass all security measures",
+      "d": "Automating the punishment of violators"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a key function of Policy Management Platforms like PowerDMS?",
+    "options": {
+      "a": "To actively block hackers from entering the network",
+      "b": "To collect digital sign-offs (attestations) from employees",
+      "c": "To recover lost passwords for users",
+      "d": "To encrypt hard drives automatically"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool is primarily used for Single Sign-On (SSO) and Multi-Factor Authentication (MFA)?",
+    "options": {
+      "a": "Splunk",
+      "b": "Okta",
+      "c": "KnowBe4",
+      "d": "ConvergePoint"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does SIEM stand for in the context of monitoring tools?",
+    "options": {
+      "a": "System Internet and Email Monitoring",
+      "b": "Security Identification and Error Management",
+      "c": "Security Information and Event Management",
+      "d": "System Integration and Event Modeling"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary function of training platforms like KnowBe4?",
+    "options": {
+      "a": "To detect malware on endpoints",
+      "b": "To manage user access permissions",
+      "c": "To run simulated phishing campaigns and educate users",
+      "d": "To monitor network traffic for anomalies"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "COBIT is a framework developed by which organization?",
+    "options": {
+      "a": "ISO",
+      "b": "NIST",
+      "c": "ISACA",
+      "d": "IEEE"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which COBIT domain focuses on day-to-day operations and service delivery?",
+    "options": {
+      "a": "Evaluate, Direct, and Monitor (EDM)",
+      "b": "Align, Plan, and Organize (APO)",
+      "c": "Deliver, Service, and Support (DSS)",
+      "d": "Build, Acquire, and Implement (BAI)"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "How does COBIT help with 'Gap Analysis'?",
+    "options": {
+      "a": "By identifying deficiencies in IT processes compared to standards",
+      "b": "By analyzing the physical gap between server racks",
+      "c": "By calculating the budget deficit for the fiscal year",
+      "d": "By measuring the time gap between incidents"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the primary responsibility of a Governance Board (Board of Directors) regarding cybersecurity?",
+    "options": {
+      "a": "Installing antivirus software on employee laptops",
+      "b": "Overseeing the organization's entire risk posture",
+      "c": "Managing the daily schedule of the IT support team",
+      "d": "Writing the code for internal applications"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which body is responsible for 'Tactical Decision Making' and prioritizing specific projects?",
+    "options": {
+      "a": "The Governance Board",
+      "b": "The Steering Committee",
+      "c": "The External Audit Team",
+      "d": "The Human Resources Department"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a function of the Steering Committee?",
+    "options": {
+      "a": "Approving high-level strategic policies like data protection",
+      "b": "Allocating resources across departments for security initiatives",
+      "c": "Defining the organization's risk appetite",
+      "d": "Managing public disclosures during a major breach"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why are metrics important for reporting to executives?",
+    "options": {
+      "a": "They provide complex technical data that executives enjoy analyzing",
+      "b": "They translate security data into insights for strategic decision-making",
+      "c": "They are required to fill up space in the annual report",
+      "d": "They replace the need for a security budget"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which metric tracks the average time taken to contain and remediate an incident?",
+    "options": {
+      "a": "Mean Time to Detect (MTTD)",
+      "b": "Return on Security Investment (ROSI)",
+      "c": "Mean Time to Respond (MTTR)",
+      "d": "Service Level Agreement (SLA)"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does 'Return on Security Investment (ROSI)' calculate?",
+    "options": {
+      "a": "The total cost of all security tools purchased",
+      "b": "The financial benefit of security projects by estimating costs saved",
+      "c": "The amount of money lost to ransomware payments",
+      "d": "The interest rate on security loans"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a 'Compliance Metric'?",
+    "options": {
+      "a": "Phishing simulation click rates",
+      "b": "Percentage of systems meeting HIPAA encryption standards",
+      "c": "Mean Time to Detect (MTTD)",
+      "d": "Number of high-risk vulnerabilities unpatched"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Risk Appetite'?",
+    "options": {
+      "a": "The desire of an organization to take on as much risk as possible",
+      "b": "The amount and type of risk an organization is willing to accept",
+      "c": "A metric used to calculate the cost of insurance",
+      "d": "The hunger of employees for more security training"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "A quantitative approach to risk appetite uses:",
+    "options": {
+      "a": "Descriptive levels like low, medium, or high",
+      "b": "Numbers and measurable thresholds (e.g., dollar amounts)",
+      "c": "Emotional assessments of fear and uncertainty",
+      "d": "Colors to indicate danger levels"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which type of organization typically has a 'Very Low' risk appetite?",
+    "options": {
+      "a": "A bank",
+      "b": "A tech startup testing beta software",
+      "c": "A marketing agency",
+      "d": "A gaming company"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Who is typically the 'Incident Commander' during a crisis?",
+    "options": {
+      "a": "The newest member of the IT team",
+      "b": "The team leader who oversees the response and makes critical decisions",
+      "c": "The external press contact",
+      "d": "The CEO's administrative assistant"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the role of the 'Communications Lead' during an incident?",
+    "options": {
+      "a": "To isolate infected servers",
+      "b": "To manage internal and external messaging",
+      "c": "To negotiate with ransomware attackers",
+      "d": "To restore data from backups"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of a 'Post-Incident Review'?",
+    "options": {
+      "a": "To assign blame and fire the responsible employees",
+      "b": "To transform the crisis into a learning opportunity and prevent recurrence",
+      "c": "To calculate the exact financial loss for tax purposes",
+      "d": "To delete all logs related to the incident"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the University Ransomware Case Study, what was the identified root cause?",
+    "options": {
+      "a": "A malicious insider",
+      "b": "A known unpatched vulnerability",
+      "c": "A zero-day exploit",
+      "d": "A stolen laptop"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is 'Internal Communication' critical during a crisis?",
+    "options": {
+      "a": "To ensure employees do not leak information to the press",
+      "b": "To keep executive staff and affected departments informed",
+      "c": "To ask employees for donations to pay the ransom",
+      "d": "To tell everyone to go home early"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What distinguishes a 'Qualitative Approach' to risk appetite?",
+    "options": {
+      "a": "It relies on strict financial calculations",
+      "b": "It uses descriptive levels such as low, medium, or high",
+      "c": "It is only used by government agencies",
+      "d": "It requires complex mathematical modeling"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which component of an AUP prevents violations of copyright laws?",
+    "options": {
+      "a": "Data Security Rules",
+      "b": "Permitted Activities",
+      "c": "Reduce Legal and Compliance Risks",
+      "d": "Bandwidth Management"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In the context of policy enforcement, what is 'Dissemination'?",
+    "options": {
+      "a": "Firing employees who break rules",
+      "b": "Sharing the policy via email, intranet, or posters",
+      "c": "Encrypting the policy document",
+      "d": "Archiving old policies"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the 'Action-Oriented' requirement of a Policy Statement?",
+    "options": {
+      "a": "It must be written in the active voice",
+      "b": "It clearly states what users must, must not, or should do",
+      "c": "It requires users to physically sign the document",
+      "d": "It includes a list of verbs"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a 'High-Risk Vulnerability' metric?",
+    "options": {
+      "a": "Total number of passwords reset",
+      "b": "Vulnerabilities remaining open beyond the defined SLA",
+      "c": "Number of new employees hired",
+      "d": "Average internet speed"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which COBIT domain focuses on 'Align, Plan, and Organize'?",
+    "options": {
+      "a": "EDM",
+      "b": "APO",
+      "c": "BAI",
+      "d": "MEA"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the strategic goal of the Governance Board?",
+    "options": {
+      "a": "Ensuring cybersecurity supports overall business objectives",
+      "b": "Ensuring every computer has the latest wallpaper",
+      "c": "Managing the cafeteria budget",
+      "d": "Organizing team-building events"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is 'Phishing Simulation Click Rate' measuring?",
+    "options": {
+      "a": "The speed of the internet connection",
+      "b": "The percentage of employees who fail internal phishing tests",
+      "c": "The number of phishing emails blocked by the firewall",
+      "d": "The cost of sending an email"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which is an example of 'Internal Data'?",
+    "options": {
+      "a": "Press releases",
+      "b": "Employee training guides",
+      "c": "Customer credit card numbers",
+      "d": "Trade secrets"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'MFA' stand for?",
+    "options": {
+      "a": "Multiple Factor Authorization",
+      "b": "Multi-Factor Authentication",
+      "c": "Main Fire-wall Access",
+      "d": "Master File Allocation"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is an example of a 'Restricted' data type?",
+    "options": {
+      "a": "Internal policies",
+      "b": "Marketing brochures",
+      "c": "Private encryption keys",
+      "d": "Employee handbook"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Why should technical acronyms be avoided in executive reporting?",
+    "options": {
+      "a": "They take up too much space on the page",
+      "b": "Non-technical board members may not understand them",
+      "c": "They are considered unprofessional",
+      "d": "They are illegal to use in reports"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does the 'Exceptions' section of a policy require for validation?",
+    "options": {
+      "a": "A risk assessment and proposed mitigation",
+      "b": "A signature from the CEO only",
+      "c": "A fee paid by the requestor",
+      "d": "A permanent change to the policy"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In the context of Crisis Leadership, what are 'Incident Response Playbooks'?",
+    "options": {
+      "a": "Scripts for a play about cybersecurity",
+      "b": "Action guides for specific threats to ensure no steps are missed",
+      "c": "A list of games to play during downtime",
+      "d": "The contact list for the IT team"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which policy would likely contain rules about not using personal USB drives?",
+    "options": {
+      "a": "Incident Response Policy",
+      "b": "Acceptable Use Policy (AUP)",
+      "c": "Disaster Recovery Policy",
+      "d": "Physical Security Policy"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the main benefit of 'Visual Dashboards' in executive reporting?",
+    "options": {
+      "a": "They look prettier than text",
+      "b": "They help convey complex status quickly using colors and graphs",
+      "c": "They hide the actual data",
+      "d": "They are easier to print"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which role ensures policy alignment with laws like GDPR or HIPAA during development?",
+    "options": {
+      "a": "IT/Cybersecurity",
+      "b": "Legal & Compliance",
+      "c": "Human Resources",
+      "d": "Facilities Management"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'tiered approach' in policy enforcement?",
+    "options": {
+      "a": "Building policies in layers like a cake",
+      "b": "Escalating consequences from warnings to termination based on severity",
+      "c": "Having different policies for different floors of the building",
+      "d": "Applying rules only to lower-tier employees"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool would be used to detect a user logging in from an unauthorized foreign country?",
+    "options": {
+      "a": "PowerDMS",
+      "b": "KnowBe4",
+      "c": "SIEM (e.g., Splunk)",
+      "d": "Microsoft Word"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the focus of the COBIT domain 'Build, Acquire, and Implement' (BAI)?",
+    "options": {
+      "a": "Governance responsibilities",
+      "b": "Managing the development and deployment of IT solutions",
+      "c": "Monitoring performance",
+      "d": "Strategic alignment"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a trigger for a policy revision due to 'New Technology'?",
+    "options": {
+      "a": "Moving from on-premise servers to cloud platforms",
+      "b": "Hiring a new receptionist",
+      "c": "Replacing office chairs",
+      "d": "Updating the lunch menu"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "The 'Incident Severity' metric categorizes events by:",
+    "options": {
+      "a": "The time of day they occurred",
+      "b": "The name of the attacker",
+      "c": "Impact (e.g., blocked phishing vs. data exfiltration)",
+      "d": "The software used to detect them"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following describes 'Public Data'?",
+    "options": {
+      "a": "Information intended for general viewing requiring minimal controls",
+      "b": "Data that must be encrypted at all times",
+      "c": "Employee salary information",
+      "d": "Trade secrets"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a risk of a 'High Appetite' for risk in a startup?",
+    "options": {
+      "a": "Slow feature releases",
+      "b": "Occasional system downtime or minor bugs",
+      "c": "Excessive spending on security controls",
+      "d": "Loss of all customers immediately"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does the 'Legal and Compliance Advisor' do during an incident?",
+    "options": {
+      "a": "Fixes the server hardware",
+      "b": "Ensures actions comply with laws and liaises with law enforcement",
+      "c": "Writes the press release",
+      "d": "Manages the IT budget"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following represents a 'Strategic Decision' by the Governance Board?",
+    "options": {
+      "a": "Choosing which brand of mouse to buy",
+      "b": "Allocating funding for an organization-wide MFA rollout",
+      "c": "Resetting a user's password",
+      "d": "Scheduling a team meeting"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'Mean Time to Detect' (MTTD) indicate?",
+    "options": {
+      "a": "How long hackers stay in the system",
+      "b": "The average time to identify an incident",
+      "c": "The time it takes to install an update",
+      "d": "The duration of a phishing simulation"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is 'Trust Management' an executive responsibility?",
+    "options": {
+      "a": "Executives need to trust their employees blindly",
+      "b": "Protecting stakeholder and customer confidence is vital for business",
+      "c": "Trust is a metric in the firewall logs",
+      "d": "It replaces the need for contracts"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which platform is an example of a Policy Management tool?",
+    "options": {
+      "a": "Splunk",
+      "b": "Active Directory",
+      "c": "Policy Tech",
+      "d": "KnowBe4"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the function of 'Maturity Models' in COBIT?",
+    "options": {
+      "a": "To assess the age of the hardware",
+      "b": "To assess the implementation quality of controls",
+      "c": "To determine when employees should retire",
+      "d": "To measure the maturity of the software code"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a 'Prohibited Activity' in a standard AUP?",
+    "options": {
+      "a": "Professional email communication",
+      "b": "Installing unauthorized software like torrents",
+      "c": "Using Zoom for meetings",
+      "d": "Accessing the company intranet"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The 'Technical Lead' in an Incident Response Team is responsible for:",
+    "options": {
+      "a": "Speaking to the media",
+      "b": "Investigating and containing threats",
+      "c": "Approving the legal strategy",
+      "d": "Setting the budget"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the 'Review' step in the University Ransomware Case Study?",
+    "options": {
+      "a": "Paying the ransom",
+      "b": "Updating patch management policies based on lessons learned",
+      "c": "Firing the IT manager",
+      "d": "Deleting the infected files"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a step in the Policy Lifecycle?",
+    "options": {
+      "a": "Development",
+      "b": "Approval",
+      "c": "Rejection",
+      "d": "Enforcement"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the purpose of 'Version Control' in policy management?",
+    "options": {
+      "a": "To ensure the most current document is in use",
+      "b": "To keep track of different font versions",
+      "c": "To allow everyone to edit the policy at once",
+      "d": "To make the file size smaller"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does 'Identity and Access Management' (IAM) primarily manage?",
+    "options": {
+      "a": "The physical keys to the building",
+      "b": "Who can access what, from where, and for how long",
+      "c": "The identity of external hackers",
+      "d": "The formatting of the policy document"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following represents 'Confidential Data'?",
+    "options": {
+      "a": "Marketing materials",
+      "b": "Customer personal information",
+      "c": "Internal training guides",
+      "d": "Public job postings"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the 'Containment' step in incident response?",
+    "options": {
+      "a": "Writing a report about the incident",
+      "b": "Preventing the spread of the threat (e.g., isolating network segments)",
+      "c": "Calling the police",
+      "d": "Restoring data from backups"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why might a SaaS company accept a small amount of downtime (risk appetite)?",
+    "options": {
+      "a": "Because they don't care about customers",
+      "b": "Because 100% uptime is technically impossible or too expensive",
+      "c": "To save money on electricity",
+      "d": "To test if customers notice"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which governance body meets monthly or bi-weekly for hands-on involvement?",
+    "options": {
+      "a": "The Board of Directors",
+      "b": "The Steering Committee",
+      "c": "The Shareholders",
+      "d": "The Public Relations Team"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the result of 'Role-Based Access Control' (RBAC)?",
+    "options": {
+      "a": "Access is granted based on the user's specific job function",
+      "b": "Everyone gets the same access",
+      "c": "Access is determined by the user's age",
+      "d": "Access is random"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following is an example of 'Social Media Guidelines' in an AUP?",
+    "options": {
+      "a": "Mandating the use of hashtags in every post",
+      "b": "Restricting offensive content from official accounts",
+      "c": "Requiring employees to friend their boss",
+      "d": "Banning all social media use at home"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'Zero Tolerance' risk appetite example?",
+    "options": {
+      "a": "Allowing minor bugs in beta software",
+      "b": "A hospital refusing any data breaches involving patient records",
+      "c": "Accepting occasional website downtime",
+      "d": "Ignoring low-level phishing attempts"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why are 'Simulated Attacks' useful in training?",
+    "options": {
+      "a": "They actually hack the company to test defenses",
+      "b": "They measure real-world responses without causing damage",
+      "c": "They are fun games for employees",
+      "d": "They are required by the software vendor"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the role of 'Management/Executives' in policy development?",
+    "options": {
+      "a": "To write the technical code",
+      "b": "To provide oversight and business perspective",
+      "c": "To design the document layout",
+      "d": "To proofread for spelling errors"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which COBIT domain focuses on 'Monitor, Evaluate, and Assess' (MEA)?",
+    "options": {
+      "a": "Performance monitoring and internal control",
+      "b": "Building new software",
+      "c": "Directing governance",
+      "d": "Aligning strategy"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the primary benefit of 'Automated Reminders' in policy management tools?",
+    "options": {
+      "a": "They annoy employees until they quit",
+      "b": "They notify administrators of necessary reviews or updates",
+      "c": "They automatically update the policy text",
+      "d": "They send birthday wishes"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a consequence for AUP violations?",
+    "options": {
+      "a": "Verbal/written warnings",
+      "b": "Promotion to a higher role",
+      "c": "Loss of system access",
+      "d": "Termination"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the 'Scope' of COBIT?",
+    "options": {
+      "a": "Only financial auditing",
+      "b": "All aspects of enterprise IT governance",
+      "c": "Only physical security",
+      "d": "Only software development"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which metric helps justify the investment in a new patch management system?",
+    "options": {
+      "a": "Investment Justification (showing reduced window-of-exposure)",
+      "b": "Number of employees",
+      "c": "Cost of office supplies",
+      "d": "Server temperature"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In the context of exceptions, what is an 'Approval Authority'?",
+    "options": {
+      "a": "The person who asks for the exception",
+      "b": "The CISO or Security Lead who grants the exception",
+      "c": "The software that tracks the exception",
+      "d": "The auditor who checks the exception"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "An Acceptable Use Policy is a core document within a cybersecurity framework.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Policies are static documents that should never be changed once written.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The Principle of Least Privilege states that users should have the maximum access possible.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Public data requires the strongest level of protection and encryption.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "A Data Classification Policy helps organizations comply with regulations like GDPR.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "The 'Enforcement' stage of the policy lifecycle moves the policy from paper to practice.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Exceptions to policies should be unwritten and informal agreements.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "SIEM tools are used to manually type out security policies.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Humans are often considered the 'weakest link' in security.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "COBIT is a framework primarily used for physical building security.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The Steering Committee is responsible for high-level strategic oversight like budget approval.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Mean Time to Respond (MTTR) should ideally be as high as possible.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Risk Appetite refers to the amount of risk an organization is willing to accept.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "A bank typically has a very high risk appetite for data breaches.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Crisis Leadership involves making decisions under pressure.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "The Incident Commander must always wait for a committee vote before shutting down a compromised system.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Post-Incident Reviews are conducted to assign blame to individuals.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Internal communication is not important during a cybersecurity crisis.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Board members prefer technical jargon over business-focused metrics.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Governance frameworks help align IT initiatives with business goals.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  }
+]

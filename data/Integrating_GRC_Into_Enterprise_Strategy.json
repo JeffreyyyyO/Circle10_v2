@@ -1,0 +1,1162 @@
+[
+  {
+    "question": "In a mature organization, GRC is best described as:",
+    "options": {
+      "a": "A set of written manuals handled primarily by the legal team.",
+      "b": "A living part of the organization embedded in daily operations.",
+      "c": "A periodic audit process conducted annually.",
+      "d": "A technical framework managed solely by the IT department."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a primary goal of integrating GRC into enterprise strategy?",
+    "options": {
+      "a": "Guiding daily actions and decision-making.",
+      "b": "Ensuring GRC is an afterthought handled only during audits.",
+      "c": "Making compliance a natural outcome of daily business.",
+      "d": "embedding risk awareness into culture."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the context of the Healthcare case study, what is a specific Governance function?",
+    "options": {
+      "a": " Installing antivirus software on all hospital computers.",
+      "b": "Defining roles such as restricting medical record access to authorized staff.",
+      "c": "Paying fines for HIPAA violations.",
+      "d": "Reporting suspicious emails to the IT helpdesk."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which regulation is specifically mentioned in the Healthcare case study regarding patient data?",
+    "options": {
+      "a": "SOX (Sarbanes-Oxley Act)",
+      "b": "PCI-DSS",
+      "c": "HIPAA",
+      "d": "ISO 27001"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In the Healthcare case study, what is a key Risk Management activity?",
+    "options": {
+      "a": "Mitigating threats like unauthorized access and malware.",
+      "b": "Ensuring doctors arrive on time for shifts.",
+      "c": "Managing the hospital's public relations campaigns.",
+      "d": "Reviewing patient dietary restrictions."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "For a Financial Institution introducing a digital loan feature, GRC acts as:",
+    "options": {
+      "a": "A blocker to innovation to ensure safety.",
+      "b": "A strategic partner rather than a blocker.",
+      "c": "A separate entity that reviews the product after launch.",
+      "d": "A financial auditor only."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the Financial Institution case study, which team defines clear approval processes?",
+    "options": {
+      "a": "The Risk Team",
+      "b": "Executive Leadership (Governance)",
+      "c": "The IT Support Team",
+      "d": "External Auditors"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a Compliance requirement for the digital loan application mentioned in the text?",
+    "options": {
+      "a": "Ensuring the app has a dark mode.",
+      "b": "Meeting anti-money laundering (AML) rules.",
+      "c": "Minimizing the number of clicks to apply.",
+      "d": "Ensuring the app is available on all app stores."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the E-commerce case study, what is an example of a Governance policy?",
+    "options": {
+      "a": "Installing a firewall.",
+      "b": "Enforcing two-factor authentication (2FA) for internal systems.",
+      "c": "Conducting a phishing test.",
+      "d": "Backing up customer databases."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which regulation is cited in the E-commerce case study regarding privacy?",
+    "options": {
+      "a": "FERPA",
+      "b": "GDPR",
+      "c": "OSHA",
+      "d": "FISMA"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In an online retail setting, the logistics department helps protect data by:",
+    "options": {
+      "a": "Ensuring delivery data is not misused.",
+      "b": "Encrypting the website's payment gateway.",
+      "c": "Updating the privacy policy on the website.",
+      "d": "Managing the customer support chat logs."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Embedding GRC into daily business activities requires aligning GRC with:",
+    "options": {
+      "a": "Only the IT department's goals.",
+      "b": "How people work, make decisions, and are measured.",
+      "c": "External audit schedules exclusively.",
+      "d": "The legal department's filing system."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "One effective way to embed GRC is to link it directly to:",
+    "options": {
+      "a": "The number of emails sent per day.",
+      "b": "The organization's business objectives.",
+      "c": "The software budget.",
+      "d": "The cafeteria menu."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the 'International Expansion' example, what is a key GRC team action?",
+    "options": {
+      "a": "Designing the marketing logo for the new region.",
+      "b": "Evaluating local data protection regulations like NDPR.",
+      "c": "Setting the price points for products.",
+      "d": "Hiring local sales staff immediately."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a potential outcome of involving GRC at the planning stage of expansion?",
+    "options": {
+      "a": "Significant delays due to excessive red tape.",
+      "b": "Avoiding last-minute issues that could damage the brand.",
+      "c": "Increased likelihood of regulatory fines.",
+      "d": "Reduced need for local managers."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why should GRC goals be included in employee evaluations?",
+    "options": {
+      "a": "To make performance reviews longer.",
+      "b": "Because people tend to focus on what they are measured and rewarded for.",
+      "c": "To ensure only the legal team gets bonuses.",
+      "d": "To reduce the workload of the HR department."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a GRC-related KPI for IT Staff?",
+    "options": {
+      "a": "Number of lines of code written.",
+      "b": "How effectively they manage vulnerabilities and maintain patches.",
+      "c": "Speed of internet connection.",
+      "d": "Number of new hardware units purchased."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How might Finance Staff be evaluated regarding GRC?",
+    "options": {
+      "a": "By their ability to maximize petty cash spending.",
+      "b": "By how well they adhere to internal controls to prevent fraud.",
+      "c": "By the number of invoices generated per hour.",
+      "d": "By their knowledge of IT security patches."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is a single onboarding session insufficient for GRC training?",
+    "options": {
+      "a": "It is too expensive to host one long session.",
+      "b": "The risk and compliance landscape changes constantly.",
+      "c": "Employees will forget their passwords.",
+      "d": "Onboarding sessions are only for HR policies."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of conducting simulated phishing exercises?",
+    "options": {
+      "a": "To trick employees so they can be fired.",
+      "b": "To evaluate how employees respond to real-world threats.",
+      "c": "To test the speed of the email server.",
+      "d": "To increase the volume of email traffic."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "According to the text, who owns the responsibility for GRC?",
+    "options": {
+      "a": "The Internal Audit department solely.",
+      "b": "The Compliance Manager solely.",
+      "c": "Shared accountability across all departments.",
+      "d": "The CEO solely."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a key GRC responsibility for Human Resources?",
+    "options": {
+      "a": "Ensuring secure onboarding and offboarding procedures.",
+      "b": "Monitoring network traffic for malware.",
+      "c": "Approving financial transactions.",
+      "d": "Managing customer delivery addresses."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Sales and Marketing teams must ensure compliance by:",
+    "options": {
+      "a": "Collecting as much customer data as possible regardless of consent.",
+      "b": "Understanding regulations around email marketing (e.g., consent).",
+      "c": "Sharing customer lists with all partners freely.",
+      "d": "Ignoring advertising standards to maximize reach."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which department is responsible for enforcing segregation of duties to prevent unauthorized transactions?",
+    "options": {
+      "a": "IT",
+      "b": "Human Resources",
+      "c": "Finance",
+      "d": "Sales"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is NOT listed as a long-term benefit of embedding GRC?",
+    "options": {
+      "a": "Resilience",
+      "b": "Complex Bureaucracy",
+      "c": "Efficiency",
+      "d": "Trustworthiness"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How is 'Resilience' defined in the context of GRC?",
+    "options": {
+      "a": "The ability to never fail.",
+      "b": "The ability to recover and adapt quickly to disruptions.",
+      "c": "The ability to ignore regulations.",
+      "d": "The ability to maximize short-term profits."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the example of a logistics company hit by a flood, what enabled them to recover faster?",
+    "options": {
+      "a": "They had a large insurance payout.",
+      "b": "They had a business continuity plan and emergency suppliers.",
+      "c": "They ignored the flood and continued working.",
+      "d": "They relied solely on government aid."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "When GRC is embedded, compliance becomes:",
+    "options": {
+      "a": "A frantic cleanup effort before an audit.",
+      "b": "A natural outcome of everyday business.",
+      "c": "A task solely for the legal team.",
+      "d": "Optional depending on the season."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How does embedding GRC lead to 'Efficiency'?",
+    "options": {
+      "a": "By adding more layers of management.",
+      "b": "By reducing costly risks like fraud and data breaches.",
+      "c": "By slowing down decision-making processes.",
+      "d": "By increasing the budget for legal fees."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the competitive advantage gained by being 'Trustworthy' through GRC?",
+    "options": {
+      "a": "Customers and partners feel confident their data is protected.",
+      "b": "It allows the company to charge higher hidden fees.",
+      "c": "It reduces the need for marketing.",
+      "d": "It prevents competitors from entering the market."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which role is primarily responsible for the organization's overall information security strategy?",
+    "options": {
+      "a": "Risk Officer",
+      "b": "Compliance Manager",
+      "c": "Chief Information Security Officer (CISO)",
+      "d": "Human Resources Director"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "To whom does the CISO often report?",
+    "options": {
+      "a": "The IT Helpdesk Manager.",
+      "b": "Top executives or the board.",
+      "c": "The Sales Director.",
+      "d": "The external auditor."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Who oversees the identification and assessment of financial, legal, and operational risks?",
+    "options": {
+      "a": "The CISO",
+      "b": "The Risk Officer (CRO)",
+      "c": "The Compliance Manager",
+      "d": "The System Administrator"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a primary responsibility of the Compliance Manager?",
+    "options": {
+      "a": "Managing cybersecurity teams.",
+      "b": "Ensuring adherence to laws, regulations, and internal policies.",
+      "c": "Developing the business marketing strategy.",
+      "d": "Prioritizing threats based on technical impact."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What tool is used to provide real-time updates on key GRC indicators?",
+    "options": {
+      "a": "A yearly PDF report.",
+      "b": "A GRC Dashboard.",
+      "c": "An email chain.",
+      "d": "A physical notice board."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a typical metric found on a GRC dashboard?",
+    "options": {
+      "a": "Employee birthday list.",
+      "b": "The number of open security incidents.",
+      "c": "Stock market trends.",
+      "d": "Cafeteria menu options."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Who is the target audience for GRC dashboards?",
+    "options": {
+      "a": "Only the IT team.",
+      "b": "Technical teams, senior management, and board members.",
+      "c": "Customers only.",
+      "d": "External regulators only."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the first step in the 'Five-Step Roadmap' for building a GRC program?",
+    "options": {
+      "a": "Tools and Process Implementation",
+      "b": "Assessment",
+      "c": "Training and Awareness",
+      "d": "Continuous Monitoring"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In which step of the GRC roadmap are roles like the CISO and Risk Officer defined?",
+    "options": {
+      "a": "Assessment",
+      "b": "Policy and Role Definition",
+      "c": "Training and Awareness",
+      "d": "Continuous Monitoring"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The 'Tools and Process Implementation' step involves:",
+    "options": {
+      "a": "Choosing tools to automate or streamline GRC tasks.",
+      "b": "Evaluating current risk exposure.",
+      "c": "Running phishing simulations.",
+      "d": "Conducting final audits."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is 'Continuous Monitoring and Improvement' the final step in the roadmap?",
+    "options": {
+      "a": "Because GRC is a one-time project.",
+      "b": "To use metrics to review progress and make adjustments.",
+      "c": "So the team can finally stop working on GRC.",
+      "d": "To close the GRC department."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a major challenge of manual GRC processes?",
+    "options": {
+      "a": "They are too fast for humans to keep up with.",
+      "b": "Lack of real-time visibility and susceptibility to human error.",
+      "c": "They require too many computers.",
+      "d": "They are too transparent."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How do GRC automation tools help with 'Duplication of work'?",
+    "options": {
+      "a": "They increase the number of emails sent.",
+      "b": "They provide a centralized platform for cross-departmental tracking.",
+      "c": "They hire more staff to double-check work.",
+      "d": "They delete old records automatically."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Archer GRC is a platform developed by:",
+    "options": {
+      "a": "Microsoft",
+      "b": "RSA",
+      "c": "ServiceNow",
+      "d": "IBM"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which feature of Archer GRC maps company activities to frameworks like HIPAA?",
+    "options": {
+      "a": "Enterprise Risk Management",
+      "b": "Compliance Tracking",
+      "c": "Policy Management",
+      "d": "Incident Response"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "ServiceNow GRC is described as a:",
+    "options": {
+      "a": "Spreadsheet-based tool.",
+      "b": "Workflow-driven platform integrating with other IT tools.",
+      "c": "Manual auditing service.",
+      "d": "Standalone legal database."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'Vendor Risk Management' in ServiceNow GRC track?",
+    "options": {
+      "a": "Employee attendance.",
+      "b": "Risk exposure from third-party vendors.",
+      "c": "Customer satisfaction scores.",
+      "d": "Internal software updates."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the Cybersecurity Awareness Training use case, what happens 'Without Automation'?",
+    "options": {
+      "a": "Training is completed instantly.",
+      "b": "HR manually emails employees, and emails are often ignored.",
+      "c": "Auditors are automatically notified.",
+      "d": "Managers receive real-time updates."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "With automation, what happens if an employee delays their training?",
+    "options": {
+      "a": "Nothing happens.",
+      "b": "The system escalates the delay to managers.",
+      "c": "The employee is immediately fired.",
+      "d": "The training is cancelled."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a benefit of GRC automation regarding 'Manual Errors'?",
+    "options": {
+      "a": "It increases errors due to software bugs.",
+      "b": "Tasks are system-driven, reducing dependence on human memory.",
+      "c": "It removes all human involvement entirely.",
+      "d": "It makes errors harder to find."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Mature GRC integration implies that GRC is:",
+    "options": {
+      "a": "Handled only by the legal team.",
+      "b": "A primary consideration in business operations.",
+      "c": "Focused only on financial audits.",
+      "d": "Ignored until a problem arises."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the Hospital Case Study, who should have editing privileges for medical records?",
+    "options": {
+      "a": "All staff members.",
+      "b": "Doctors and authorized staff only.",
+      "c": "Patients and their families.",
+      "d": "External insurance agents."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following represents a 'Risk Management' action in a hospital?",
+    "options": {
+      "a": "Regular data backups.",
+      "b": "Hiring more janitorial staff.",
+      "c": "Changing the hospital logo.",
+      "d": "Scheduling patient appointments."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In a bank, who defines the security policies?",
+    "options": {
+      "a": "The customer service team.",
+      "b": "Executive leadership (Governance).",
+      "c": "The loan applicants.",
+      "d": "The marketing department."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Before launching a digital loan feature, the risk team addresses issues like:",
+    "options": {
+      "a": "Color schemes of the app.",
+      "b": "Identity theft and loan fraud.",
+      "c": "Interest rates for savings accounts.",
+      "d": "Branch opening hours."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What specific risk must online stores monitor according to the text?",
+    "options": {
+      "a": "Overstocking of inventory.",
+      "b": "Fraudulent transactions and website outages.",
+      "c": "Employee break times.",
+      "d": "Customer parking availability."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why must customer support teams be trained in an E-commerce setting?",
+    "options": {
+      "a": "To upsell products more effectively.",
+      "b": "To avoid disclosing customer information carelessly.",
+      "c": "To fix technical website bugs.",
+      "d": "To manage the warehouse inventory."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Linking GRC to business goals transforms GRC from an obstacle into:",
+    "options": {
+      "a": "A financial burden.",
+      "b": "An essential component of success.",
+      "c": "A necessary evil.",
+      "d": "A separate legal department."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "When expanding internationally, assessing 'reputational risks' involves:",
+    "options": {
+      "a": "Checking the weather in the new country.",
+      "b": "Considering public backlash from violating social norms.",
+      "c": "Calculating the cost of office rent.",
+      "d": "Choosing the right office furniture."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "If GRC is involved in the planning stage of a project, what is avoided?",
+    "options": {
+      "a": "Successful project completion.",
+      "b": "Last-minute issues that delay the project.",
+      "c": "Compliance with local laws.",
+      "d": "Proper risk assessment."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Managers can be evaluated on GRC based on:",
+    "options": {
+      "a": "How many meetings they hold.",
+      "b": "How consistently they enforce compliance within their teams.",
+      "c": "Their personal sales figures.",
+      "d": "The number of emails they send."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Refresher training sessions should be:",
+    "options": {
+      "a": "Generic for all employees.",
+      "b": "Tailored to different roles (e.g., secure coding for developers).",
+      "c": "Held only once every ten years.",
+      "d": "Optional for senior management."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Using real examples of data breaches in training helps to:",
+    "options": {
+      "a": "Scare employees into quitting.",
+      "b": "Emphasize the importance of best practices.",
+      "c": "Fill time during the session.",
+      "d": "Promote competitor companies."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In a distributed accountability model, Finance is responsible for:",
+    "options": {
+      "a": "Secure coding.",
+      "b": "Monitoring for suspicious financial activity.",
+      "c": "Managing employee records.",
+      "d": "Updating antivirus software."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In a distributed accountability model, IT is responsible for:",
+    "options": {
+      "a": "Enforcing segregation of financial duties.",
+      "b": "Supporting data backup and recovery plans.",
+      "c": "Training staff on workplace ethics.",
+      "d": "Creating marketing campaigns."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a benefit of 'Resilience'?",
+    "options": {
+      "a": "Reduced downtime.",
+      "b": "Faster recovery.",
+      "c": "Increased panic during disasters.",
+      "d": "Continued service to customers."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Up-to-date access control records are an example of:",
+    "options": {
+      "a": "Marketing material.",
+      "b": "Compliance readiness.",
+      "c": "Financial waste.",
+      "d": "Customer service logs."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How does GRC prevent waste?",
+    "options": {
+      "a": "By increasing paperwork.",
+      "b": "By spending less effort fixing preventable problems.",
+      "c": "By hiring cheaper staff.",
+      "d": "By reducing the quality of products."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Trustworthiness is especially important in industries like:",
+    "options": {
+      "a": "Finance, Healthcare, and Tech.",
+      "b": "Entertainment only.",
+      "c": "Agriculture only.",
+      "d": "Construction only."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Who must communicate cybersecurity risks in 'business terms'?",
+    "options": {
+      "a": "The Junior Developer.",
+      "b": "The CISO.",
+      "c": "The Receptionist.",
+      "d": "The External Auditor."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The Risk Officer works with departments to build:",
+    "options": {
+      "a": "Sales funnels.",
+      "b": "Risk registers.",
+      "c": "Marketing brochures.",
+      "d": "Social media calendars."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Preparing reports for regulatory bodies is a key task for:",
+    "options": {
+      "a": "The CISO.",
+      "b": "The Compliance Manager.",
+      "c": "The Risk Officer.",
+      "d": "The HR Manager."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a strategic value of GRC dashboards?",
+    "options": {
+      "a": "They look pretty.",
+      "b": "They help executives identify performance gaps and risks.",
+      "c": "They replace the need for managers.",
+      "d": "They automatically fix all security issues."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "During the 'Assessment' phase of the GRC roadmap, an organization should:",
+    "options": {
+      "a": "Buy the most expensive software.",
+      "b": "Identify gaps and areas for improvement.",
+      "c": "Fire the compliance team.",
+      "d": "Ignore current risks."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The 'Policy and Role Definition' phase ensures:",
+    "options": {
+      "a": "Everyone has a computer.",
+      "b": "Roles like CSO and Compliance Manager are clearly defined.",
+      "c": "Office supplies are ordered.",
+      "d": "The office layout is optimized."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is 'Training and Awareness' a critical step in the roadmap?",
+    "options": {
+      "a": "To check off a box.",
+      "b": "To create a culture where GRC is prioritized and understood.",
+      "c": "To distract employees from their work.",
+      "d": "To justify the training budget."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Manual GRC processes often lead to:",
+    "options": {
+      "a": "Missed deadlines for audits.",
+      "b": "Perfect compliance records.",
+      "c": "Real-time risk updates.",
+      "d": "Improved collaboration."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Automated access reviews help reduce:",
+    "options": {
+      "a": "The number of employees.",
+      "b": "The risk of unauthorized users.",
+      "c": "Internet bandwidth usage.",
+      "d": "The speed of the network."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "ServiceNow GRC 'Regulatory Compliance' feature:",
+    "options": {
+      "a": "Maps operations to global laws and notifies of non-compliance.",
+      "b": "Writes new laws for the government.",
+      "c": "Automatically pays fines.",
+      "d": "Hires lawyers automatically."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "A centralized GRC platform improves collaboration between:",
+    "options": {
+      "a": "Competitors.",
+      "b": "HR, IT, Legal, and Operations.",
+      "c": "Customers and suppliers only.",
+      "d": "The CEO and the janitor only."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Using automation, compliance reports can be generated in:",
+    "options": {
+      "a": "Months.",
+      "b": "Weeks.",
+      "c": "Minutes.",
+      "d": "Years."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "The ultimate goal of embedding GRC is to make the business:",
+    "options": {
+      "a": "More rigid and slower.",
+      "b": "More adaptive, secure, and trusted.",
+      "c": "Focus solely on profit regardless of risk.",
+      "d": "Eliminate all employees."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Who is responsible for 'Incident Response' automation in ServiceNow GRC?",
+    "options": {
+      "a": "The tool automates tasks when incidents occur.",
+      "b": "The user must manually type every email.",
+      "c": "The external police force.",
+      "d": "The CEO's secretary."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is 'Audit Management' in Archer GRC designed to do?",
+    "options": {
+      "a": "Prevent audits from happening.",
+      "b": "Automate internal and external audit processes.",
+      "c": "Create fake audit trails.",
+      "d": "Hire external auditors."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which department ensures customer data is used in compliance with privacy laws?",
+    "options": {
+      "a": "Sales and Marketing.",
+      "b": "Facilities Management.",
+      "c": "Product Development.",
+      "d": "Cafeteria Staff."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following helps to build a 'culture of awareness'?",
+    "options": {
+      "a": "Secret policies kept from staff.",
+      "b": "Regular exposure to GRC topics and training.",
+      "c": "Punishing employees without explanation.",
+      "d": "Ignoring small infractions."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Embedding GRC helps a financial services company avoid:",
+    "options": {
+      "a": "Making a profit.",
+      "b": "Expensive legal penalties and lawsuits.",
+      "c": "Hiring new staff.",
+      "d": "Using computers."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'Risk Register' used for?",
+    "options": {
+      "a": "To register new employees.",
+      "b": "To list and prioritize threats based on impact and likelihood.",
+      "c": "To track office inventory.",
+      "d": "To record daily sales."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The CISO ensures security goals align with:",
+    "options": {
+      "a": "The personal goals of the IT team.",
+      "b": "Business objectives.",
+      "c": "The latest gaming trends.",
+      "d": "The preferences of the hardware vendor."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Dashboards provide visibility into:",
+    "options": {
+      "a": "Future stock prices.",
+      "b": "Current compliance status and emerging risks.",
+      "c": "Personal emails of employees.",
+      "d": "Competitor's internal data."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is an example of an operational risk?",
+    "options": {
+      "a": "System downtime.",
+      "b": "Change in tax law.",
+      "c": "Competitor pricing.",
+      "d": "Market trends."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is 'Shared Accountability' important?",
+    "options": {
+      "a": "It allows everyone to blame someone else.",
+      "b": "It fosters cross-functional collaboration.",
+      "c": "It removes responsibility from leadership.",
+      "d": "It makes the organization slower."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What happens when GRC is treated as a one-time project?",
+    "options": {
+      "a": "It becomes highly effective.",
+      "b": "It fails to adapt to changing risks.",
+      "c": "It saves the company millions forever.",
+      "d": "It ensures permanent compliance."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Automation helps standardization by:",
+    "options": {
+      "a": "Allowing everyone to do things their own way.",
+      "b": "Enforcing consistent policies across all departments.",
+      "c": "Creating more unique manual processes.",
+      "d": "Reducing the number of policies."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary benefit of 'Real-Time Visibility' provided by GRC tools?",
+    "options": {
+      "a": "It allows managers to spy on employees.",
+      "b": "It shows current status and allows for quick reaction to risks.",
+      "c": "It looks impressive to clients.",
+      "d": "It uses more electricity."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a task that can be automated by GRC tools?",
+    "options": {
+      "a": "Strategic decision making.",
+      "b": "Policy distribution and tracking.",
+      "c": "Hiring interviews.",
+      "d": "Client negotiation."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The 'Compliance Manager' works closely with which team?",
+    "options": {
+      "a": "The janitorial team.",
+      "b": "The legal team.",
+      "c": "The catering team.",
+      "d": "The landscaping team."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'Business Continuity Plan' an example of?",
+    "options": {
+      "a": "Resilience planning.",
+      "b": "Marketing strategy.",
+      "c": "Sales forecasting.",
+      "d": "Product design."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following best describes the role of GRC in 'Innovation'?",
+    "options": {
+      "a": "It stops innovation to prevent risk.",
+      "b": "It acts as a strategic partner to enable safe innovation.",
+      "c": "It is irrelevant to innovation.",
+      "d": "It slows down innovation significantly."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the result of 'Better Collaboration' via GRC tools?",
+    "options": {
+      "a": "More meetings.",
+      "b": "Unified tracking of GRC responsibilities across departments.",
+      "c": "More confusion.",
+      "d": "Duplicated work."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the True/False section, is GRC solely the responsibility of the IT department?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Effective GRC integration means GRC is an afterthought handled only during audits.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Healthcare organizations must follow regulations like HIPAA or NDPR.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Governance in a hospital includes giving editing privileges to all staff members.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Risk management involves identifying threats like malware and implementing mitigation steps.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In a commercial bank, the risk team works to identify issues like loan fraud.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Online stores do not need to manage human risks, only technical ones.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Linking GRC to business goals is an effective way to embed it in daily activities.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "GRC goals should be excluded from employee performance reviews to avoid stress.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "A single onboarding session is sufficient for long-term GRC awareness.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "HR is responsible for ensuring employee records are protected.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Resilience refers to the ability to recover and adapt quickly to disruptions.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Embedding GRC slows down business operations and creates waste.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The CISO is responsible for financial risk assessments.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "A GRC dashboard is a visual interface providing real-time updates on key indicators.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "The first step in building a GRC roadmap is 'Policy and Role Definition'.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Manual GRC processes are efficient and error-free.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Archer GRC helps businesses with Enterprise Risk Management.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "ServiceNow GRC cannot track vendor risk.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Automation reduces manual errors in GRC tasks.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  }
+]

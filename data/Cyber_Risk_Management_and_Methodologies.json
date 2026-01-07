@@ -1,0 +1,1172 @@
+[
+  {
+    "question": "Which of the following is NOT one of the core components of cyber risk management described in the introduction?",
+    "options": {
+      "a": "Identification",
+      "b": "Assessment",
+      "c": "Elimination",
+      "d": "Mitigation"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In the context of cyber risk management, what does 'Assessment' specifically involve?",
+    "options": {
+      "a": "Determining what could go wrong in digital systems",
+      "b": "Understanding the likelihood of events and potential consequences",
+      "c": "Deciding on the best way to prevent risks",
+      "d": "Implementing firewalls and antivirus software"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the 'Online Payment Systems' case study, which of the following is listed as a potential consequence of a compromised system?",
+    "options": {
+      "a": "Increased marketing costs",
+      "b": "Loss of customer trust",
+      "c": "Hardware malfunction",
+      "d": "Employee turnover"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary threat identified in the 'University Records' case study?",
+    "options": {
+      "a": "Ransomware attack",
+      "b": "DDoS attack",
+      "c": "Phishing email",
+      "d": "SQL Injection"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which specific mitigation strategy is suggested for the 'University Records' phishing threat?",
+    "options": {
+      "a": "Installing stronger firewalls",
+      "b": "Switching to paper records",
+      "c": "Multi-factor authentication (MFA)",
+      "d": "Encrypting the hard drives"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In the 'Healthcare Clinics' case study, what action does ransomware typically take?",
+    "options": {
+      "a": "Steals patient credit card numbers silently",
+      "b": "Locks all files and demands payment",
+      "c": "Deletes all backups immediately",
+      "d": "Sends fake emails to patients"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which law is mentioned in relation to legal penalties for healthcare clinics facing data breaches?",
+    "options": {
+      "a": "GDPR",
+      "b": "SOX",
+      "c": "HIPAA",
+      "d": "FERPA"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What was the cause of the data leak in the 'Retail Data Leaks via Third Parties' case study?",
+    "options": {
+      "a": "A hacked admin password",
+      "b": "A misconfigured setting on a third-party platform",
+      "c": "An unpatched operating system",
+      "d": "Physical theft of a server"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Cyber risk management is described as being ________ rather than reactive.",
+    "options": {
+      "a": "Aggressive",
+      "b": "Proactive",
+      "c": "Passive",
+      "d": "Expensive"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is the first stage of the Risk Management Lifecycle?",
+    "options": {
+      "a": "Assess Risks",
+      "b": "Treat the Risks",
+      "c": "Identify the Risk",
+      "d": "Monitor the Risks"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "During the 'Identify the Risk' stage, which of the following would NOT be considered a potential vulnerability?",
+    "options": {
+      "a": "Outdated software",
+      "b": "Misconfigured firewalls",
+      "c": "Encrypted backups",
+      "d": "Human errors"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What two factors are analyzed during the 'Assess Risks' stage?",
+    "options": {
+      "a": "Cost and Time",
+      "b": "Likelihood and Impact",
+      "c": "Source and Destination",
+      "d": "Vulnerability and Threat"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "If a vulnerability has a high likelihood and high impact, how should it be prioritized?",
+    "options": {
+      "a": "It should be ignored",
+      "b": "It is a low priority",
+      "c": "It is a top priority",
+      "d": "It should be transferred immediately"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which risk treatment strategy involves eliminating the activity that causes the risk?",
+    "options": {
+      "a": "Reduce",
+      "b": "Transfer",
+      "c": "Avoid",
+      "d": "Accept"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Outsourcing a risk or buying insurance is an example of which treatment strategy?",
+    "options": {
+      "a": "Avoid",
+      "b": "Transfer",
+      "c": "Reduce",
+      "d": "Accept"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Applying controls to minimize the likelihood or impact of a risk is known as:",
+    "options": {
+      "a": "Reducing",
+      "b": "Avoiding",
+      "c": "Accepting",
+      "d": "Transferring"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "When might an organization choose to 'Accept' a risk?",
+    "options": {
+      "a": "When the risk is too dangerous to mitigate",
+      "b": "When the mitigation cost is higher than the potential loss",
+      "c": "When they don't understand the risk",
+      "d": "When the risk involves legal penalties"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is 'Monitor the Risks' an essential stage in the lifecycle?",
+    "options": {
+      "a": "Because risks remain static over time",
+      "b": "To increase the budget for the IT department",
+      "c": "Because new threats can appear and old controls may fail",
+      "d": "To ensure employees are working hard"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does the acronym FAIR stand for?",
+    "options": {
+      "a": "Federal Analysis of Information Risk",
+      "b": "Factor Analysis of Information Risk",
+      "c": "Financial Assessment of Internet Risk",
+      "d": "Functional Analysis of Internal Risk"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "FAIR is primarily a ________ model.",
+    "options": {
+      "a": "Qualitative",
+      "b": "Quantitative",
+      "c": "Subjective",
+      "d": "Administrative"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a component measured by FAIR?",
+    "options": {
+      "a": "Frequency of threat events",
+      "b": "Vulnerability of the system",
+      "c": "Magnitude of loss",
+      "d": "Speed of internet connection"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What is a key advantage of using the FAIR framework for executive leadership?",
+    "options": {
+      "a": "It uses complex technical jargon",
+      "b": "It expresses risk in financial terms (monetary loss)",
+      "c": "It guarantees 100% security",
+      "d": "It requires no data input"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Who developed the RMF (Risk Management Framework) mentioned in the text?",
+    "options": {
+      "a": "ISO (International Organization for Standardization)",
+      "b": "NIST (National Institute of Standards and Technology)",
+      "c": "CIS (Center for Internet Security)",
+      "d": "NSA (National Security Agency)"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the first step in the NIST RMF?",
+    "options": {
+      "a": "Select",
+      "b": "Implement",
+      "c": "Categorize",
+      "d": "Monitor"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which step in the NIST RMF involves determining if the controls are effective?",
+    "options": {
+      "a": "Implement",
+      "b": "Assess",
+      "c": "Authorize",
+      "d": "Select"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'Risk Appetite' represent?",
+    "options": {
+      "a": "The specific technical limits of a firewall",
+      "b": "The overall level of risk an organization is willing to accept",
+      "c": "The cost of insurance premiums",
+      "d": "The detailed rules for password complexity"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which organization type is described as typically having a 'Low Risk Appetite'?",
+    "options": {
+      "a": "A tech startup",
+      "b": "A hospital or bank",
+      "c": "A marketing agency",
+      "d": "A video game developer"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How does 'Risk Tolerance' differ from 'Risk Appetite'?",
+    "options": {
+      "a": "Tolerance is broader; Appetite is more detailed",
+      "b": "Tolerance is theoretical; Appetite is practical",
+      "c": "Tolerance is the detailed, practical application of Appetite",
+      "d": "There is no difference; they are synonyms"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "If a company states that 'system outages must not exceed two hours in a week', this is an example of:",
+    "options": {
+      "a": "Risk Appetite",
+      "b": "Risk Tolerance",
+      "c": "Risk Avoidance",
+      "d": "Risk Transfer"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Impact Analysis is used to:",
+    "options": {
+      "a": "Calculate the insurance premium",
+      "b": "Evaluate consequences if a specific threat occurs",
+      "c": "Determine the password strength of users",
+      "d": "Identify the hackers responsible"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a category of impact listed in the text?",
+    "options": {
+      "a": "Financial Loss",
+      "b": "Operational Disruption",
+      "c": "Reputational Damage",
+      "d": "Technological Advancement"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "In the case study of a cyber attack on a school, what is considered an 'Operational Impact'?",
+    "options": {
+      "a": "The school facing legal penalties",
+      "b": "Students missing classes because the platform is offline",
+      "c": "Backlash from angry parents",
+      "d": "The cost of buying new computers"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the shorthand formula provided for calculating a Risk Score?",
+    "options": {
+      "a": "Risk = Likelihood + Impact",
+      "b": "Risk = Likelihood / Impact",
+      "c": "Risk = Likelihood x Impact",
+      "d": "Risk = Likelihood - Impact"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a 'Risk Register'?",
+    "options": {
+      "a": "A list of all employees in the IT department",
+      "b": "A hardware device that records network traffic",
+      "c": "A living document that tracks and manages risks",
+      "d": "A software tool for hacking systems"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is NOT a standard field in a risk register?",
+    "options": {
+      "a": "Risk Owner",
+      "b": "Treatment Plan",
+      "c": "Employee Salary",
+      "d": "Status Updates"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Why is a central risk register important?",
+    "options": {
+      "a": "It ensures risks are not missed or duplicated",
+      "b": "It allows the company to hide risks from auditors",
+      "c": "It automatically fixes the security issues",
+      "d": "It replaces the need for a security team"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Cyber risk targets which three attributes of information and systems?",
+    "options": {
+      "a": "Speed, Accuracy, Reliability",
+      "b": "Confidentiality, Integrity, Availability",
+      "c": "Cost, Value, Profit",
+      "d": "Hardware, Software, Firmware"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is an example of an 'External Threat'?",
+    "options": {
+      "a": "Employee negligence",
+      "b": "Nation-state actors",
+      "c": "Misconfigurations by staff",
+      "d": "Insider abuse of privileges"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is an example of an 'Internal Threat'?",
+    "options": {
+      "a": "Ransomware from a hacker",
+      "b": "Natural disasters",
+      "c": "Employee negligence",
+      "d": "Phishing attack"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What defines a 'Data Breach'?",
+    "options": {
+      "a": "Unauthorized access to sensitive data",
+      "b": "Malware locking access to data",
+      "c": "Server crash due to DoS attack",
+      "d": "Failing to update software"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What defines a 'Service Downtime'?",
+    "options": {
+      "a": "Theft of financial records",
+      "b": "Website or server crashes due to attacks or failures",
+      "c": "Exposure of customer emails",
+      "d": "Paying a ransom to hackers"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the Risk Register Example Table, what is the Risk Score for 'Laptops used by staff have no encryption'?",
+    "options": {
+      "a": "3",
+      "b": "6",
+      "c": "9",
+      "d": "12"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Who is listed as the owner for the risk 'Weak admin passwords on databases' in the example table?",
+    "options": {
+      "a": "IT Manager",
+      "b": "HR Dept",
+      "c": "DBA (Database Administrator)",
+      "d": "CEO"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the status of the risk 'No staff training on phishing' in the example table?",
+    "options": {
+      "a": "Closed",
+      "b": "In Progress",
+      "c": "Open",
+      "d": "Deferred"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "A likelihood score of 'High (3)' corresponds to a percentage probability of:",
+    "options": {
+      "a": "0-20%",
+      "b": "21-50%",
+      "c": "51-70%",
+      "d": "71-100%"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "A 'Medium (2)' impact is described as:",
+    "options": {
+      "a": "Minor inconvenience",
+      "b": "Noticeable problems requiring effort to resolve",
+      "c": "Severe consequences affecting safety",
+      "d": "Catastrophic failure ending the business"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "A 'Low (1)' likelihood suggests the event:",
+    "options": {
+      "a": "Rarely happens (0-20% chance)",
+      "b": "Happens occasionally (21-70% chance)",
+      "c": "Happens frequently (71-100% chance)",
+      "d": "Has never happened before"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following is NOT an advantage of using a numerical scoring system?",
+    "options": {
+      "a": "Comparability",
+      "b": "Subjectivity",
+      "c": "Objectivity",
+      "d": "Prioritization"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the calculation example 'Website Crash During Sale Event', what is the resulting Risk Score?",
+    "options": {
+      "a": "2 (Low)",
+      "b": "6 (Medium)",
+      "c": "9 (High)",
+      "d": "4 (Medium)"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is 'Key Supplier Going Out of Business' calculated as a Low Risk (3) in the example?",
+    "options": {
+      "a": "Because the Impact is Low (1)",
+      "b": "Because the Likelihood is Low (1)",
+      "c": "Because it doesn't affect the business",
+      "d": "Because suppliers never go out of business"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the Risk Matrix, the 'Green Zone' corresponds to scores of:",
+    "options": {
+      "a": "1-3",
+      "b": "4-6",
+      "c": "7-9",
+      "d": "0-2"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the recommended action for risks in the 'Red Zone' (High/Critical)?",
+    "options": {
+      "a": "Monitor occasionally",
+      "b": "Plan mitigation strategies for later",
+      "c": "Immediate attention required",
+      "d": "Ignore until it happens"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Risks in the 'Yellow Zone' (Medium) typically require:",
+    "options": {
+      "a": "Minimal resources",
+      "b": "Immediate executive intervention",
+      "c": "Moderate resources and mitigation planning",
+      "d": "No action"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "When assessing likelihood in the practical application steps, one should consider:",
+    "options": {
+      "a": "Historical data and industry trends",
+      "b": "The weather forecast",
+      "c": "Employee morale only",
+      "d": "The competitor's stock price"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "One limitation of numerical scoring is 'Subjectivity'. What does this mean?",
+    "options": {
+      "a": "The math might be done incorrectly",
+      "b": "Different people may score the same risk differently",
+      "c": "Numbers cannot be added together",
+      "d": "Computers cannot process the scores"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'Dynamic Nature' refer to as a limitation of risk scoring?",
+    "options": {
+      "a": "Risk scores are too energetic",
+      "b": "Risk scores change over time as conditions evolve",
+      "c": "Risk scores are always static",
+      "d": "Risks only apply to dynamic web pages"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "To reduce individual bias in risk scoring, organizations should:",
+    "options": {
+      "a": "Let the CEO decide all scores",
+      "b": "Use a random number generator",
+      "c": "Get multiple perspectives from different teams",
+      "d": "Avoid using numbers altogether"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Why is it important to 'Document Reasoning' when scoring risks?",
+    "options": {
+      "a": "To increase the file size of the report",
+      "b": "To provide context for future reviews",
+      "c": "To prove that the team was working",
+      "d": "To make the document look professional"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the NIST RMF, what happens in the 'Authorize' step?",
+    "options": {
+      "a": "The system is turned on",
+      "b": "Security controls are installed",
+      "c": "The system is authorized for operation based on risk acceptance",
+      "d": "The risk register is deleted"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following describes a 'High Appetite' for risk?",
+    "options": {
+      "a": "Releasing features without exhaustive testing to move fast",
+      "b": "Conducting triple-checks on every line of code",
+      "c": "Refusing to use cloud storage due to security concerns",
+      "d": "Delaying a launch for 6 months to fix a minor bug"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the key question asked when determining 'Risk Tolerance'?",
+    "options": {
+      "a": "How much money can we make?",
+      "b": "How much risk are we willing to take?",
+      "c": "How much risk can we handle in this specific area before things break?",
+      "d": "Who is responsible for this risk?"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In the context of the Risk Register, what does 'Mitigation Strategy' refer to?",
+    "options": {
+      "a": "The name of the risk owner",
+      "b": "The specific actions taken to reduce the risk",
+      "c": "The date the risk was found",
+      "d": "The severity of the risk"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following scenarios would likely have a Risk Score of 2 (Low)?",
+    "options": {
+      "a": "Data breach of financial records",
+      "b": "Office printer breaking down",
+      "c": "Website crash on Black Friday",
+      "d": "Fire in the server room"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a strategy mentioned for treating risks?",
+    "options": {
+      "a": "Transfer",
+      "b": "Deny",
+      "c": "Avoid",
+      "d": "Accept"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Monitoring risks includes which of the following activities?",
+    "options": {
+      "a": "Hiring new staff",
+      "b": "Regular audits and vulnerability scans",
+      "c": "Deleting old emails",
+      "d": "Upgrading office furniture"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the main goal of the 'Identify' phase in the Risk Management Lifecycle?",
+    "options": {
+      "a": "To punish employees who make mistakes",
+      "b": "To buy new security software",
+      "c": "To discover and document potential threats",
+      "d": "To calculate the budget"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Under the NIST RMF, 'Categorize' involves categorizing information systems based on:",
+    "options": {
+      "a": "The cost of the hardware",
+      "b": "The impact of potential risks",
+      "c": "The number of users",
+      "d": "The age of the software"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which risk management concept is described as a 'shared map of concern'?",
+    "options": {
+      "a": "The Risk Matrix",
+      "b": "The Risk Appetite Statement",
+      "c": "The Risk Register",
+      "d": "The Firewall Log"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Regulatory fines are categorized under which type of impact?",
+    "options": {
+      "a": "Operational Disruption",
+      "b": "Reputational Damage",
+      "c": "Legal/Regulatory",
+      "d": "Technical Failure"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "A 'High' impact score (3) is assigned to events that cause:",
+    "options": {
+      "a": "Minor inconvenience",
+      "b": "Noticeable but manageable problems",
+      "c": "Severe consequences affecting operations or safety",
+      "d": "No disruption at all"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "The 'Green Zone' in a risk matrix suggests that the risk requires:",
+    "options": {
+      "a": "Immediate executive action",
+      "b": "Significant resources",
+      "c": "Monitoring occasionally",
+      "d": "Complete system shutdown"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following represents a 'Transfer' risk strategy?",
+    "options": {
+      "a": "Installing a firewall",
+      "b": "Discontinuing a risky product line",
+      "c": "Purchasing cyber insurance",
+      "d": "Training employees"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which case study highlights the risk of 'Misconfiguration of external tools'?",
+    "options": {
+      "a": "University Records",
+      "b": "Healthcare Clinics",
+      "c": "Retail Data Leaks via Third Parties",
+      "d": "Online Payment Systems"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the consequence of 'Ransomware' in the Healthcare case study?",
+    "options": {
+      "a": "Privacy violations only",
+      "b": "Disruption of healthcare services and treatment delays",
+      "c": "Loss of customer trust only",
+      "d": "Misconfigured plugins"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is an example of 'Reputational Damage'?",
+    "options": {
+      "a": "Paying a $10,000 fine",
+      "b": "Server being offline for 2 hours",
+      "c": "Loss of customer trust and brand value",
+      "d": "Loss of unsaved work"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "The text suggests that 'Risk Management does not stop after taking action'. This refers to which lifecycle stage?",
+    "options": {
+      "a": "Identify",
+      "b": "Assess",
+      "c": "Treat",
+      "d": "Monitor"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which NIST RMF step follows 'Select'?",
+    "options": {
+      "a": "Categorize",
+      "b": "Assess",
+      "c": "Implement",
+      "d": "Monitor"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following best defines 'Risk Appetite'?",
+    "options": {
+      "a": "The specific deviation allowed",
+      "b": "The big-picture view of acceptable risk",
+      "c": "The financial cost of a breach",
+      "d": "The probability of a threat"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which field in the Risk Register is used to track progress over time?",
+    "options": {
+      "a": "Risk ID",
+      "b": "Description",
+      "c": "Status Updates",
+      "d": "Likelihood"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the calculated risk score for a 'Cybersecurity Attack on Financial Data' where Likelihood is 3 and Impact is 3?",
+    "options": {
+      "a": "6",
+      "b": "9",
+      "c": "3",
+      "d": "0"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a source of cyber risk mentioned?",
+    "options": {
+      "a": "Technological vulnerabilities",
+      "b": "Process gaps",
+      "c": "Solar flares",
+      "d": "Human behavior"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In the example Risk Register, what is the mitigation strategy for 'R-002 Weak admin passwords on databases'?",
+    "options": {
+      "a": "Install encryption software",
+      "b": "Phishing awareness training",
+      "c": "Enforce strong passwords",
+      "d": "Purchase insurance"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "The 'Yellow Zone' in the Risk Matrix corresponds to a score range of:",
+    "options": {
+      "a": "1-3",
+      "b": "4-6",
+      "c": "7-9",
+      "d": "10-12"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a 'Reduce' strategy?",
+    "options": {
+      "a": "Buying insurance",
+      "b": "Implementing encrypted email tools",
+      "c": "Shutting down the email server entirely",
+      "d": "Accepting the risk of email interception"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the definition of 'Likelihood'?",
+    "options": {
+      "a": "How bad the consequences would be",
+      "b": "How often an event might happen",
+      "c": "The cost of the solution",
+      "d": "The person responsible for the risk"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following implies a 'Low Risk Appetite'?",
+    "options": {
+      "a": "Accepting significant risks to grow",
+      "b": "Zero tolerance for unauthorized access",
+      "c": "Releasing beta software to the public",
+      "d": "Testing in production"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "A risk score of 9 falls into which zone?",
+    "options": {
+      "a": "Green Zone",
+      "b": "Yellow Zone",
+      "c": "Red Zone",
+      "d": "Blue Zone"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "The FAIR framework allows organizations to express risk in:",
+    "options": {
+      "a": "Binary code",
+      "b": "Business language (financial terms)",
+      "c": "Hardware specifications",
+      "d": "Abstract colors"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which case study mentions 'GDPR' as a relevant law?",
+    "options": {
+      "a": "University Records",
+      "b": "Healthcare Clinics",
+      "c": "Retail Data Leaks via Third Parties",
+      "d": "Online Payment Systems"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the formula for Risk Score?",
+    "options": {
+      "a": "Impact + Likelihood",
+      "b": "Likelihood x Impact",
+      "c": "Impact - Likelihood",
+      "d": "Likelihood / Impact"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does a 'Closed' status in a Risk Register mean?",
+    "options": {
+      "a": "The risk has been identified but not treated",
+      "b": "The risk is currently being mitigated",
+      "c": "The risk has been resolved or fully mitigated",
+      "d": "The business is closed"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is an example of 'Operational Disruption'?",
+    "options": {
+      "a": "Fines",
+      "b": "Loss of trust",
+      "c": "System failures",
+      "d": "Theft"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "When prioritizing risks, which should be addressed first?",
+    "options": {
+      "a": "Low Likelihood, Low Impact",
+      "b": "High Likelihood, Low Impact",
+      "c": "Low Likelihood, High Impact",
+      "d": "High Likelihood, High Impact"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What does 'Interdependence' mean as a limitation of risk scoring?",
+    "options": {
+      "a": "Risks are independent and never touch",
+      "b": "Risks are often connected and can trigger one another",
+      "c": "Risks depend on the weather",
+      "d": "Risk scores are dependent on the calculator used"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Using 'Historical Data' helps to:",
+    "options": {
+      "a": "Inform current likelihood scores",
+      "b": "Predict the lottery",
+      "c": "Ignore current trends",
+      "d": "Write the risk description"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following is NOT a step in the NIST RMF?",
+    "options": {
+      "a": "Select",
+      "b": "Implement",
+      "c": "Calculate",
+      "d": "Monitor"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary purpose of 'Impact Analysis'?",
+    "options": {
+      "a": "To guess who attacked the system",
+      "b": "To prioritize risks based on severity of potential damage",
+      "c": "To calculate the likelihood of an event",
+      "d": "To determine the risk appetite"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "A 'risk owner' is:",
+    "options": {
+      "a": "The person who caused the risk",
+      "b": "The person or team responsible for managing the risk",
+      "c": "The hacker targeting the system",
+      "d": "The insurance company"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is considered a 'Technological Vulnerability'?",
+    "options": {
+      "a": "Phishing",
+      "b": "Unsecured databases",
+      "c": "Insider trading",
+      "d": "Natural disaster"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Risk management helps organizations be:",
+    "options": {
+      "a": "Reactive",
+      "b": "Proactive",
+      "c": "Passive",
+      "d": "Inactive"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Cyber risk management involves Identification, Assessment, and ________.",
+    "options": {
+      "a": "Mitigation",
+      "b": "Investigation",
+      "c": "Retaliation",
+      "d": "Observation"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Cyber risk management is only important for leadership roles, not entry-level analysts.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: The goal of mitigation is to completely eliminate all risks from an organization.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: A phishing email is an example of a threat to university records.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: 'Accept' is a valid risk treatment strategy if mitigation is not cost-effective.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Once a risk is treated, it never needs to be monitored again.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: FAIR is a qualitative model that uses colors to describe risk.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: The NIST RMF is only used by the U.S. federal government and cannot be used by the private sector.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: A hospital typically has a higher risk appetite than a tech startup.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Risk tolerance is more detailed and often measurable compared to risk appetite.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: 'Reputational Damage' is a category of impact in risk analysis.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: A risk register helps prevent risks from being missed or duplicated.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Internal threats include employee negligence and unintentional errors.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: A Risk Score is calculated by adding Likelihood and Impact.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: A Likelihood score of 1 means the event frequently occurs.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Risks in the Green Zone (1-3) require immediate executive attention.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Subjectivity is a limitation of numerical risk scoring.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Impact analysis helps organizations prioritize which risks to address first.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Transferring a risk means eliminating the activity that causes it.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Regular audits are part of the 'Monitor the Risks' stage.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: The FAIR framework breaks down risk into components like 'Frequency of threat events' and 'Magnitude of loss'.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  }
+]

@@ -1,0 +1,1212 @@
+[
+  {
+    "question": "Which of the following is NOT listed as a major cloud platform in the module introduction?",
+    "options": {
+      "a": "AWS",
+      "b": "IBM Cloud",
+      "c": "Microsoft Azure",
+      "d": "Google Cloud Platform"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary definition of 'Audit Readiness' in a cloud environment?",
+    "options": {
+      "a": "Ensuring all systems are encrypted with AES-256 by default",
+      "b": "Having evidence like logs and documentation ready for external verification",
+      "c": "Passing a penetration test conducted by an internal team",
+      "d": "Migrating all on-premise infrastructure to the cloud"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which organization developed the SOC 2 compliance standard?",
+    "options": {
+      "a": "ISO",
+      "b": "NIST",
+      "c": "AICPA",
+      "d": "CIS"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which SOC 2 Trust Service Principle focuses on uptime, disaster recovery, and performance monitoring?",
+    "options": {
+      "a": "Security",
+      "b": "Availability",
+      "c": "Processing Integrity",
+      "d": "Confidentiality"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which SOC 2 principle is most critical for transaction-heavy systems like e-commerce to ensure accurate data handling?",
+    "options": {
+      "a": "Privacy",
+      "b": "Processing Integrity",
+      "c": "Security",
+      "d": "Availability"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The 'Privacy' principle in SOC 2 aligns with laws such as:",
+    "options": {
+      "a": "PCI-DSS",
+      "b": "GDPR",
+      "c": "ISO 27001",
+      "d": "CIS Benchmarks"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the context of SOC 2, what is a key requirement for 'Change Management'?",
+    "options": {
+      "a": "Encrypting all data at rest",
+      "b": "Reviewing and recording all system updates or patches",
+      "c": "Deleting logs older than 90 days",
+      "d": "Using multi-factor authentication for all users"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "ISO/IEC 27017 is a specialized standard that builds upon which other standard?",
+    "options": {
+      "a": "ISO/IEC 9001",
+      "b": "ISO/IEC 27001",
+      "c": "SOC 2 Type 2",
+      "d": "NIST SP 800-53"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a key focus area of ISO 27017 regarding data lifecycle management?",
+    "options": {
+      "a": "Secure Deletion of Data",
+      "b": "Real-time Data Mirroring",
+      "c": "Manual Data Entry",
+      "d": "Data Compression"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "ISO 27017 provides specific guidance on 'Shared Responsibility'. What does this clarify?",
+    "options": {
+      "a": "The split of costs between the provider and the customer",
+      "b": "The division of security tasks between the cloud provider and the customer",
+      "c": "The sharing of physical hardware among different customers",
+      "d": "The legal liability of third-party auditors"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a target for CIS Benchmarks?",
+    "options": {
+      "a": "Web servers like Apache",
+      "b": "Cloud Platforms like AWS",
+      "c": "Physical building security systems",
+      "d": "Operating Systems like Linux"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "A specific CIS Benchmark example for AWS is:",
+    "options": {
+      "a": "Ensuring S3 buckets are public by default",
+      "b": "Requiring MFA for all IAM users",
+      "c": "Disabling encryption for better performance",
+      "d": "Allowing root user access for daily tasks"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which automated tool is used to scan AWS environments against CIS Foundation benchmarks?",
+    "options": {
+      "a": "AWS Shield",
+      "b": "AWS Inspector",
+      "c": "Amazon GuardDuty",
+      "d": "AWS Macie"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "For Azure, a CIS Benchmark example involves disabling which unused ports?",
+    "options": {
+      "a": "HTTP ports",
+      "b": "Remote Desktop (RDP) ports",
+      "c": "DNS ports",
+      "d": "SMTP ports"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "OpenSCAP is an open-source tool primarily used for scanning which type of systems?",
+    "options": {
+      "a": "Windows Server",
+      "b": "Linux systems",
+      "c": "macOS workstations",
+      "d": "Mobile devices"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the foundational principle of cloud security mentioned in the 'Logging and Monitoring' section?",
+    "options": {
+      "a": "Complexity",
+      "b": "Visibility",
+      "c": "Redundancy",
+      "d": "Obscurity"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How is 'Logging' defined in the context of cloud security?",
+    "options": {
+      "a": "Actively analyzing data to generate alerts",
+      "b": "Capturing a historical record of events and activities",
+      "c": "Preventing unauthorized access in real-time",
+      "d": "Encrypting data as it travels across the network"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following describes 'Monitoring'?",
+    "options": {
+      "a": "Storing data for long-term retention",
+      "b": "Actively analyzing log data to generate alerts",
+      "c": "Defining user permissions for file access",
+      "d": "Creating a historical trail of API calls"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a primary cause of undetected breaches in regulated industries like finance?",
+    "options": {
+      "a": "Using open-source software",
+      "b": "Failing to enable logging and monitoring tools",
+      "c": "Having too many firewalls",
+      "d": "Migrating to the cloud too quickly"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary service for logging API activity within an AWS account?",
+    "options": {
+      "a": "AWS Config",
+      "b": "Amazon CloudWatch",
+      "c": "AWS CloudTrail",
+      "d": "AWS Artifact"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Where are AWS CloudTrail logs typically stored for long-term retention?",
+    "options": {
+      "a": "Amazon EC2",
+      "b": "Amazon RDS",
+      "c": "Amazon S3",
+      "d": "Amazon DynamoDB"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Azure Monitor allows for complex data querying using which language?",
+    "options": {
+      "a": "SQL",
+      "b": "Python",
+      "c": "Kusto Query Language (KQL)",
+      "d": "JSON"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which component of Azure Monitor provides near real-time performance data like CPU usage?",
+    "options": {
+      "a": "Log Analytics",
+      "b": "Metrics",
+      "c": "Alerts",
+      "d": "Application Insights"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Google Cloud (GCP) automatically categorizes logs into three types. Which is NOT one of them?",
+    "options": {
+      "a": "Admin Activity Logs",
+      "b": "Data Access Logs",
+      "c": "System Event Logs",
+      "d": "Network Flow Logs"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which GCP log type tracks configuration changes, such as IAM permission updates?",
+    "options": {
+      "a": "Data Access Logs",
+      "b": "System Event Logs",
+      "c": "Admin Activity Logs",
+      "d": "VPC Flow Logs"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a universal best practice for log storage?",
+    "options": {
+      "a": "Store logs on the same server that generates them",
+      "b": "Centralize logs in a single, tamper-resistant location",
+      "c": "Delete logs immediately after analysis",
+      "d": "Encrypt logs only when they are being transferred"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why should you set retention policies for logs?",
+    "options": {
+      "a": "To save storage costs primarily",
+      "b": "To support long-term investigations and legal audits",
+      "c": "To improve the performance of the logging tool",
+      "d": "To prevent the logs from being encrypted"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Security Hardening is compared to what analogy in the text?",
+    "options": {
+      "a": "Building a fortress",
+      "b": "Securing a house",
+      "c": "Driving a car",
+      "d": "Managing a bank vault"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the goal of Security Hardening?",
+    "options": {
+      "a": "To increase the attack surface for better visibility",
+      "b": "To reduce the attack surface of a cloud environment",
+      "c": "To automate all security responses",
+      "d": "To ensure 100% uptime for all services"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In AWS, what does SCP stand for?",
+    "options": {
+      "a": "Secure Cloud Protocol",
+      "b": "Service Control Policies",
+      "c": "System Configuration Profile",
+      "d": "Standard Compliance Procedure"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a key characteristic of Service Control Policies (SCPs)?",
+    "options": {
+      "a": "They are only suggestions for administrators",
+      "b": "They override local administrator permissions",
+      "c": "They only apply to the root account",
+      "d": "They replace IAM policies completely"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the function of configuration tools like AWS Config or Azure Policy?",
+    "options": {
+      "a": "To provide anti-virus scanning",
+      "b": "To define the 'desired state' and flag configuration drifts",
+      "c": "To encrypt data in transit",
+      "d": "To manage user passwords"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which principle of Storage Security protects data stored on disks?",
+    "options": {
+      "a": "Encryption in Transit",
+      "b": "Encryption at Rest",
+      "c": "Access Control Lists",
+      "d": "Hashing"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a best practice for S3 bucket security?",
+    "options": {
+      "a": "Enable public access for easier sharing",
+      "b": "Use default encryption for all new objects",
+      "c": "Disable access logging to save space",
+      "d": "Grant 'Authenticated Users' full control"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does a Web Application Firewall (WAF) primarily monitor?",
+    "options": {
+      "a": "SSH connections",
+      "b": "HTTP/HTTPS traffic",
+      "c": "Database queries",
+      "d": "Internal VPC traffic"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which attack type is a WAF designed to block?",
+    "options": {
+      "a": "Phishing emails",
+      "b": "SQL Injection",
+      "c": "USB malware",
+      "d": "Insider trading"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Security Groups in cloud computing act as:",
+    "options": {
+      "a": "Stateless packet filters",
+      "b": "Stateful virtual firewalls",
+      "c": "Intrusion Detection Systems",
+      "d": "Load Balancers"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the recommended setting for Security Groups regarding inbound traffic?",
+    "options": {
+      "a": "Allow all traffic by default",
+      "b": "Deny by default and open only necessary ports",
+      "c": "Allow HTTP and SSH from anywhere",
+      "d": "Mirror the settings of the corporate firewall"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the Lab, what event type was selected when creating the CloudTrail trail?",
+    "options": {
+      "a": "Data events",
+      "b": "Management events",
+      "c": "Insight events",
+      "d": "Network events"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which attribute was used to filter logs in the CloudTrail Lab analysis step?",
+    "options": {
+      "a": "User ID",
+      "b": "Event name",
+      "c": "Source IP",
+      "d": "Region"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which SOC 2 principle is concerned with protecting intellectual property?",
+    "options": {
+      "a": "Security",
+      "b": "Confidentiality",
+      "c": "Privacy",
+      "d": "Processing Integrity"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a benefit of SOC 2 compliance?",
+    "options": {
+      "a": "Increased customer trust",
+      "b": "Guaranteed immunity from all cyber attacks",
+      "c": "Improved internal documentation",
+      "d": "Faster incident response"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'Processing Integrity' in SOC 2 ensure?",
+    "options": {
+      "a": "Data is encrypted at rest",
+      "b": "Data is processed accurately, completely, and on time",
+      "c": "System uptime is 99.99%",
+      "d": "Personal data is deleted upon request"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a specific focus of ISO 27017 regarding Virtual Machines?",
+    "options": {
+      "a": "Ensuring VMs always use the latest OS version",
+      "b": "Isolating VMs in multi-tenant environments",
+      "c": "Preventing VMs from accessing the internet",
+      "d": "Using only Windows-based VMs"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "CIS Benchmarks for GCP recommend which of the following?",
+    "options": {
+      "a": "Using default service accounts for all tasks",
+      "b": "Tightening IAM scopes",
+      "c": "Allowing anonymous access to storage buckets",
+      "d": "Disabling the Security Command Center"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool monitors Azure resources and recommends changes based on CIS standards?",
+    "options": {
+      "a": "Azure Sentinel",
+      "b": "Azure Security Center",
+      "c": "Azure AD",
+      "d": "Azure Key Vault"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Visibility in cloud security allows teams to:",
+    "options": {
+      "a": "Ignore minor alerts",
+      "b": "Observe, detect, and respond to activities",
+      "c": "Decrypt all user traffic",
+      "d": "Slow down network traffic for analysis"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What allows for complex data querying in Azure Monitor?",
+    "options": {
+      "a": "Log Analytics",
+      "b": "Event Hubs",
+      "c": "Service Health",
+      "d": "Network Watcher"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "GCP Data Access Logs specifically record:",
+    "options": {
+      "a": "Infrastructure maintenance events",
+      "b": "Read/write actions like accessing files",
+      "c": "IAM permission updates",
+      "d": "Billing information changes"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is 'Centralize Logs' a best practice?",
+    "options": {
+      "a": "It reduces the amount of data stored",
+      "b": "It simplifies correlation and analysis",
+      "c": "It is required by all cloud providers",
+      "d": "It prevents logs from being generated"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Moving from reactive to proactive security involves:",
+    "options": {
+      "a": "Manually reviewing logs once a month",
+      "b": "Configuring alerts for specific behavioral patterns",
+      "c": "Disabling logging to improve performance",
+      "d": "Relying solely on default security settings"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Guardrails are described as:",
+    "options": {
+      "a": "Manual processes for code review",
+      "b": "Automated mechanisms that prevent risky actions",
+      "c": "Physical barriers in data centers",
+      "d": "Legal contracts with cloud providers"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which AWS service is used to define allowed or denied actions across all member accounts?",
+    "options": {
+      "a": "AWS IAM",
+      "b": "AWS Organizations (SCPs)",
+      "c": "AWS Shield",
+      "d": "AWS WAF"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "An example of an SCP (Service Control Policy) is:",
+    "options": {
+      "a": "Preventing the launch of expensive GPU instances",
+      "b": "Allowing all users to delete logs",
+      "c": "Granting admin access to all developers",
+      "d": "Disabling MFA for root accounts"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Access Logging for storage buckets helps identify:",
+    "options": {
+      "a": "Disk failures",
+      "b": "Unusual activity like downloads from foreign IPs",
+      "c": "Slow network speeds",
+      "d": "Corrupted files"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "To secure a database server, it should be placed in:",
+    "options": {
+      "a": "A public subnet",
+      "b": "A private subnet",
+      "c": "The default VPC",
+      "d": "A DMZ exposed to the internet"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which port should generally be restricted to trusted IPs only?",
+    "options": {
+      "a": "Port 80 (HTTP)",
+      "b": "Port 22 (SSH)",
+      "c": "Port 443 (HTTPS)",
+      "d": "Port 53 (DNS)"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the lab, after stopping the instance, what state should you wait for?",
+    "options": {
+      "a": "Terminated",
+      "b": "Stopped",
+      "c": "Hibernated",
+      "d": "Pending"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "CloudTrail logs can be integrated with third-party tools known as:",
+    "options": {
+      "a": "CRMs",
+      "b": "SIEMs",
+      "c": "ERPs",
+      "d": "IDEs"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary compliance standard for companies handling customer data through cloud services?",
+    "options": {
+      "a": "ANSI",
+      "b": "SOC 2",
+      "c": "IEEE 802.11",
+      "d": "HTML5"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which SOC 2 principle involves 'Protecting systems against unauthorized access using firewalls'?",
+    "options": {
+      "a": "Availability",
+      "b": "Security",
+      "c": "Privacy",
+      "d": "Processing Integrity"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the context of 'Security Hardening', what does 'tightening configurations' imply?",
+    "options": {
+      "a": "Making configurations more complex to understand",
+      "b": "Removing default settings that are insecure",
+      "c": "Locking the server room door",
+      "d": "Compressing configuration files"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "AWS CloudTrail records actions taken by:",
+    "options": {
+      "a": "Only the root user",
+      "b": "Users, applications, or services",
+      "c": "Only external attackers",
+      "d": "Only AWS support staff"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a use case for AWS CloudTrail?",
+    "options": {
+      "a": "Hosting a static website",
+      "b": "Investigating resource disappearance",
+      "c": "Sending emails to customers",
+      "d": "Managing domain names"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Azure Monitor is tightly integrated with which security product?",
+    "options": {
+      "a": "Norton Antivirus",
+      "b": "Microsoft Defender for Cloud",
+      "c": "McAfee Cloud Security",
+      "d": "Kaspersky Endpoint Security"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does GCP Security Command Center do?",
+    "options": {
+      "a": "Automatically deploys applications",
+      "b": "Detects misconfigurations and security risks",
+      "c": "Manages billing accounts",
+      "d": "Provides customer support chat"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which CIS Benchmark recommendation is specific to Azure regarding disk encryption?",
+    "options": {
+      "a": "Disable encryption to improve IOPS",
+      "b": "Enforce encryption at rest for VM disks",
+      "c": "Use only software-based encryption",
+      "d": "Encrypt only the operating system drive"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What allows you to define the 'desired state' for resources in GCP?",
+    "options": {
+      "a": "GCP Organization Policy",
+      "b": "Google Drive",
+      "c": "Google Kubernetes Engine",
+      "d": "Cloud Functions"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "WAF stands for:",
+    "options": {
+      "a": "Wide Area Firewall",
+      "b": "Web Application Firewall",
+      "c": "Wireless Access Firewall",
+      "d": "Windows Authentication Framework"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is an example of a SQL Injection payload mentioned?",
+    "options": {
+      "a": "alert('Hello')",
+      "b": "UNION SELECT",
+      "c": "rm -rf /",
+      "d": "ping 127.0.0.1"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the key takeaway from the lab conclusion?",
+    "options": {
+      "a": "CloudTrail is optional for security",
+      "b": "What you cannot see, you cannot secure",
+      "c": "Logs should be deleted daily",
+      "d": "Security is solely the provider's responsibility"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the lab, 'Log file integrity validation' is used to:",
+    "options": {
+      "a": "Compress log files",
+      "b": "Determine if log files were modified or deleted",
+      "c": "Encrypt log files with a new key",
+      "d": "Translate logs into different languages"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which AWS service is used for 'Alerting' on public access grants?",
+    "options": {
+      "a": "AWS Lambda",
+      "b": "CloudWatch",
+      "c": "Amazon Connect",
+      "d": "AWS Glue"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of these is NOT a 'Five Trust Service Principle' of SOC 2?",
+    "options": {
+      "a": "Scalability",
+      "b": "Security",
+      "c": "Processing Integrity",
+      "d": "Privacy"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "The 'Who' in a CloudTrail log detail refers to:",
+    "options": {
+      "a": "The resource type",
+      "b": "The username performing the action",
+      "c": "The IP address",
+      "d": "The region name"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which cloud provider uses 'Cloud Audit Logs'?",
+    "options": {
+      "a": "AWS",
+      "b": "GCP",
+      "c": "Azure",
+      "d": "IBM"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The 'Source' in a CloudTrail log detail refers to:",
+    "options": {
+      "a": "The time of the event",
+      "b": "The IP address and resource type",
+      "c": "The action performed",
+      "d": "The cost of the operation"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of 'Instance state > Stop instance' in the lab?",
+    "options": {
+      "a": "To save money",
+      "b": "To generate a 'StopInstances' log event",
+      "c": "To delete the instance permanently",
+      "d": "To change the instance type"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which CIS Benchmark applies to database servers like MySQL?",
+    "options": {
+      "a": "Disable password authentication",
+      "b": "Configuration guidelines for securing the database",
+      "c": "Open all ports to the internet",
+      "d": "Run as root user"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is 'Deny by Default' a best practice for Security Groups?",
+    "options": {
+      "a": "It is easier to configure",
+      "b": "It ensures only explicitly allowed traffic can enter",
+      "c": "It improves network speed",
+      "d": "It is required by the Geneva Convention"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'Encryption in Transit' protect?",
+    "options": {
+      "a": "Data stored on hard drives",
+      "b": "Data as it travels across networks",
+      "c": "Data in the CPU cache",
+      "d": "Data printed on paper"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which action allows you to view the log of server creation in the lab?",
+    "options": {
+      "a": "Searching for 'TerminateInstances'",
+      "b": "Searching for 'RunInstances'",
+      "c": "Searching for 'StopInstances'",
+      "d": "Searching for 'RebootInstances'"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the 'Availability' principle in SOC 2 concerned with?",
+    "options": {
+      "a": "Hiding data from the public",
+      "b": "Ensuring systems are operational as needed",
+      "c": "Checking data accuracy",
+      "d": "Verifying user identities"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a 'Cloud-Native Tool' for AWS?",
+    "options": {
+      "a": "Azure Monitor",
+      "b": "CloudTrail",
+      "c": "Cloud Audit Logs",
+      "d": "OpenSCAP"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does the 'Confidentiality' principle in SOC 2 protect?",
+    "options": {
+      "a": "Public marketing data",
+      "b": "Sensitive information like business plans",
+      "c": "Website uptime statistics",
+      "d": "Open source code"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which is a benefit of implementing SOC 2 mentioned in the text?",
+    "options": {
+      "a": "Reduced need for security teams",
+      "b": "Competitive advantage",
+      "c": "Free cloud credits",
+      "d": "Automatic software updates"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "ISO 27017 adds specific guidance for:",
+    "options": {
+      "a": "Mobile app developers",
+      "b": "Cloud Service Providers (CSPs) and customers",
+      "c": "Hardware manufacturers",
+      "d": "Internet Service Providers (ISPs)"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which is an example of a Container environment covered by CIS Benchmarks?",
+    "options": {
+      "a": "VirtualBox",
+      "b": "Kubernetes",
+      "c": "VMware Workstation",
+      "d": "Hyper-V"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Azure Monitor 'Alerts' can trigger:",
+    "options": {
+      "a": "Physical alarms in the office",
+      "b": "Automated remediations like locking an account",
+      "c": "Stock market trades",
+      "d": "Employee termination letters"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "GCP 'System Event Logs' are generated by:",
+    "options": {
+      "a": "User actions",
+      "b": "Google systems",
+      "c": "External attackers",
+      "d": "Third-party applications"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of 'Review Regularly' in logging best practices?",
+    "options": {
+      "a": "To delete old logs",
+      "b": "To detect anomalies early",
+      "c": "To check for spelling errors",
+      "d": "To praise the security team"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Security Hardening involves eliminating:",
+    "options": {
+      "a": "Necessary services",
+      "b": "Unnecessary services or permissions",
+      "c": "Backup data",
+      "d": "User accounts"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What can prevent the launch of expensive GPU instances in AWS?",
+    "options": {
+      "a": "CloudWatch Alarms",
+      "b": "Service Control Policies (SCPs)",
+      "c": "VPC Flow Logs",
+      "d": "S3 Bucket Policies"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool flags configuration drifts?",
+    "options": {
+      "a": "AWS Config",
+      "b": "Amazon EC2",
+      "c": "AWS Lambda",
+      "d": "Amazon Route 53"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "A WAF can geo-block requests from:",
+    "options": {
+      "a": "Internal IP addresses",
+      "b": "Non-operating countries",
+      "c": "Mobile devices",
+      "d": "Specific browsers"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the 'What' in a CloudTrail log detail?",
+    "options": {
+      "a": "The user's name",
+      "b": "The action performed",
+      "c": "The timestamp",
+      "d": "The resource ID"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the lab, which instance type was selected?",
+    "options": {
+      "a": "t3.large",
+      "b": "t2.micro",
+      "c": "m5.xlarge",
+      "d": "c5.2xlarge"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "CloudTrail turns visibility into:",
+    "options": {
+      "a": "Confusing data",
+      "b": "Actionable security intelligence",
+      "c": "Higher costs",
+      "d": "Slower performance"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a 'Configuration Rule' tool for GCP?",
+    "options": {
+      "a": "Azure Policy",
+      "b": "GCP Organization Policy",
+      "c": "AWS Config",
+      "d": "Terraform"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "A key takeaway from the module is that you cannot protect:",
+    "options": {
+      "a": "What you do not own",
+      "b": "What you cannot see",
+      "c": "What is in the cloud",
+      "d": "What is encrypted"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "SOC 2 is relevant for organizations in which sectors?",
+    "options": {
+      "a": "Only Tech Startups",
+      "b": "Finance, Healthcare, Education, and Government",
+      "c": "Agriculture and Mining",
+      "d": "Retail only"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: SOC 2 is a compliance standard developed by ISO.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Maybe",
+      "d": "Unknown"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: The 'Availability' principle of SOC 2 focuses on data encryption.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Maybe",
+      "d": "Unknown"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: ISO 27017 addresses the unique risks of cloud computing.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Maybe",
+      "d": "Unknown"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: CIS Benchmarks only apply to Windows Operating Systems.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Maybe",
+      "d": "Unknown"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: AWS Inspector is an automated tool that scans for vulnerabilities.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Maybe",
+      "d": "Unknown"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Logging captures a historical record of what happened.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Maybe",
+      "d": "Unknown"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Monitoring is the process of ignoring log data.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Maybe",
+      "d": "Unknown"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: AWS CloudTrail logs are stored in Amazon S3.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Maybe",
+      "d": "Unknown"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Azure Monitor uses SQL for querying log data.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Maybe",
+      "d": "Unknown"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: GCP Cloud Audit Logs include 'Admin Activity Logs'.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Maybe",
+      "d": "Unknown"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: It is best practice to store logs in multiple scattered locations.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Maybe",
+      "d": "Unknown"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Security Hardening aims to increase the attack surface.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Maybe",
+      "d": "Unknown"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Service Control Policies (SCPs) can override local administrator permissions.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Maybe",
+      "d": "Unknown"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Encryption at Rest protects data as it travels across networks.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Maybe",
+      "d": "Unknown"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: A Web Application Firewall (WAF) can block SQL Injection attacks.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Maybe",
+      "d": "Unknown"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Security Groups are stateless firewalls.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Maybe",
+      "d": "Unknown"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: In the lab, you used the 'Root' user email address to sign in.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Maybe",
+      "d": "Unknown"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: CloudTrail logs can help identify who performed a specific action.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Maybe",
+      "d": "Unknown"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: The 'Processing Integrity' principle ensures data is processed accurately.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Maybe",
+      "d": "Unknown"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Visibility is not considered important for cloud security.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Maybe",
+      "d": "Unknown"
+    },
+    "correctAnswer": "b"
+  }
+]

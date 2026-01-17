@@ -1,0 +1,1152 @@
+[
+  {
+    "question": "What is the primary purpose of the General Data Protection Regulation (GDPR)?",
+    "options": {
+      "a": "To standardise cloud computing pricing across the European Union.",
+      "b": "To protect the personal data and privacy of EU citizens.",
+      "c": "To enforce strict firewall configurations for US-based companies.",
+      "d": "To regulate health insurance portability in Europe."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT one of the three major regulations covered in the course module?",
+    "options": {
+      "a": "GDPR",
+      "b": "HIPAA",
+      "c": "PCI DSS",
+      "d": "CCPA"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Under GDPR, what is the maximum fine for non-compliance?",
+    "options": {
+      "a": "€10 million or 2% of global annual revenue",
+      "b": "€20 million or 4% of global annual revenue",
+      "c": "$25 million or 5% of global annual revenue",
+      "d": "€50 million regardless of revenue"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Within what timeframe must a company report a data breach to authorities under GDPR?",
+    "options": {
+      "a": "24 hours",
+      "b": "48 hours",
+      "c": "72 hours",
+      "d": "1 week"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which GDPR right allows users to ask for their data to be deleted?",
+    "options": {
+      "a": "Right to Access",
+      "b": "Right to be Forgotten",
+      "c": "Right to Rectification",
+      "d": "Right to Portability"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does the concept 'Data Protection by Design and Default' imply?",
+    "options": {
+      "a": "Security measures must be added after the system is deployed.",
+      "b": "Security measures must be integrated into the system at the design phase.",
+      "c": "Data should only be encrypted when a breach occurs.",
+      "d": "Users are responsible for designing their own privacy settings."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "To whom does HIPAA primarily apply?",
+    "options": {
+      "a": "All cloud service providers globally.",
+      "b": "Healthcare providers, insurers, and businesses handling patient data in the US.",
+      "c": "Financial institutions handling credit card data.",
+      "d": "European Union citizens accessing healthcare."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which HIPAA rule specifically controls who can access Personal Health Information (PHI)?",
+    "options": {
+      "a": "The Security Rule",
+      "b": "The Breach Notification Rule",
+      "c": "The Privacy Rule",
+      "d": "The Enforcement Rule"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "The HIPAA Security Rule requires three types of safeguards. What are they?",
+    "options": {
+      "a": "Administrative, Physical, and Technical",
+      "b": "Digital, Analog, and Hybrid",
+      "c": "Internal, External, and Perimeter",
+      "d": "Network, Application, and Database"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a Business Associate Agreement (BAA) in the context of HIPAA?",
+    "options": {
+      "a": "A contract between a hospital and a patient regarding payment.",
+      "b": "A contract ensuring a cloud provider is compliant when handling healthcare data.",
+      "c": "An agreement between two insurance companies to share profit.",
+      "d": "A license required to practice medicine in the cloud."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What year did the California Consumer Privacy Act (CCPA) take effect?",
+    "options": {
+      "a": "2018",
+      "b": "2019",
+      "c": "2020",
+      "d": "2021"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is a criterion for a business to be subject to CCPA?",
+    "options": {
+      "a": "Annual revenues exceeding $25 million.",
+      "b": "Processing personal info of fewer than 10,000 residents.",
+      "c": "Being headquartered in Sacramento.",
+      "d": "Having at least 500 employees."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does the 'Right to Opt Out' entitle consumers to under CCPA?",
+    "options": {
+      "a": "To stop using the internet entirely.",
+      "b": "To opt out of having their data sold to third parties.",
+      "c": "To refuse to pay for online services.",
+      "d": "To block all advertisements on a website."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the potential fine per violation under CCPA?",
+    "options": {
+      "a": "$1,000",
+      "b": "$2,500",
+      "c": "$5,000",
+      "d": "$7,500"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Which framework is specifically designed as a cloud security certification by the Cloud Security Alliance?",
+    "options": {
+      "a": "ISO 9001",
+      "b": "CSA STAR",
+      "c": "PCI DSS",
+      "d": "COBIT"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "ISO/IEC 27017 extends ISO 27002 to provide controls specifically for:",
+    "options": {
+      "a": "Healthcare environments.",
+      "b": "Cloud computing security.",
+      "c": "Payment card processing.",
+      "d": "Industrial control systems."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "SOC 2 compliance is based on five Trust Service Criteria. Which is NOT one of them?",
+    "options": {
+      "a": "Security",
+      "b": "Availability",
+      "c": "Profitability",
+      "d": "Confidentiality"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary function of a SIEM (Security Information and Event Management) solution?",
+    "options": {
+      "a": "To encrypt data in transit.",
+      "b": "To centralize and analyze security logs across an environment.",
+      "c": "To act as a firewall for web applications.",
+      "d": "To manage user passwords."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is an example of a SIEM tool?",
+    "options": {
+      "a": "Microsoft Word",
+      "b": "Splunk",
+      "c": "Norton Antivirus",
+      "d": "Adobe Reader"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the difference between Data Residency and Data Sovereignty?",
+    "options": {
+      "a": "Residency refers to encryption; Sovereignty refers to storage.",
+      "b": "Residency is the physical location; Sovereignty implies the data is subject to the laws of that location.",
+      "c": "There is no difference; they are synonyms.",
+      "d": "Residency applies to cloud data; Sovereignty applies to on-premise data."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which Chinese law mandates that sensitive data collected in China must remain in China?",
+    "options": {
+      "a": "GDPR",
+      "b": "CCPA",
+      "c": "PIPL",
+      "d": "PDPA"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "The 2019 Capital One data breach was primarily caused by:",
+    "options": {
+      "a": "A phishing email sent to the CEO.",
+      "b": "Physical theft of servers.",
+      "c": "A misconfigured firewall.",
+      "d": "Lack of encryption on the database."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is Data Masking?",
+    "options": {
+      "a": "Encoding data so it can only be read with a key.",
+      "b": "Altering sensitive data to hide it while retaining its format for usability.",
+      "c": "Deleting data permanently from a drive.",
+      "d": "Backing up data to a hidden server."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which type of data masking permanently alters data before it is stored?",
+    "options": {
+      "a": "Dynamic Masking",
+      "b": "On-the-fly Masking",
+      "c": "Static Masking",
+      "d": "Virtual Masking"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "How does Tokenization differ from Encryption?",
+    "options": {
+      "a": "Tokenization is reversible using a key; Encryption is not.",
+      "b": "Tokenization replaces data with a random placeholder; Encryption uses algorithms to transform data.",
+      "c": "Tokenization is only for healthcare data; Encryption is for financial data.",
+      "d": "Tokenization uses more processing power than encryption."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Where are the original values stored in a tokenization system?",
+    "options": {
+      "a": "In the public cloud.",
+      "b": "In a secure Token Vault.",
+      "c": "On the user's device.",
+      "d": "They are deleted immediately."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the goal of Data Anonymization?",
+    "options": {
+      "a": "To encrypt data so it can be restored later.",
+      "b": "To remove PII so individuals cannot be identified, enabling data analysis.",
+      "c": "To compress data for cheaper storage.",
+      "d": "To mask data only during retrieval."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is Differential Privacy?",
+    "options": {
+      "a": "Adding 'noise' to datasets to prevent re-identification while maintaining statistical accuracy.",
+      "b": "Keeping data private by not sharing it with anyone.",
+      "c": "Using different passwords for different accounts.",
+      "d": "Encrypting data with two different keys."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "According to the 3-2-1 Backup Rule, you should maintain:",
+    "options": {
+      "a": "3 copies of data, on 2 different media, with 1 offsite.",
+      "b": "3 servers, 2 hard drives, and 1 cloud account.",
+      "c": "3 full backups, 2 differential backups, and 1 incremental backup.",
+      "d": "3 types of encryption, 2 firewalls, and 1 antivirus."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is an Incremental Backup?",
+    "options": {
+      "a": "A complete copy of all data.",
+      "b": "Stores only the changes made since the last backup.",
+      "c": "Accumulates changes made since the last full backup.",
+      "d": "Backs up data in real-time continuously."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is considered PII (Personally Identifiable Information)?",
+    "options": {
+      "a": "Aggregated census data.",
+      "b": "Social Security Number (SSN).",
+      "c": "Company revenue reports.",
+      "d": "Weather statistics."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the main objective of a Penetration Test?",
+    "options": {
+      "a": "To install antivirus software.",
+      "b": "To simulate real-world cyberattacks to identify exploitable vulnerabilities.",
+      "c": "To configure user permissions in the cloud.",
+      "d": "To audit the financial records of a company."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does the 'Principle of Least Privilege' (PoLP) entail?",
+    "options": {
+      "a": "Giving all users administrative access to ensure efficiency.",
+      "b": "Restricting access to the minimum level necessary for a job function.",
+      "c": "Allowing users to access only their own emails.",
+      "d": "Providing access only during business hours."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool is used for automated compliance auditing in AWS?",
+    "options": {
+      "a": "AWS Audit Manager",
+      "b": "AWS EC2",
+      "c": "AWS S3",
+      "d": "AWS Lambda"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a 'Vulnerability Assessment'?",
+    "options": {
+      "a": "A manual attempt to hack a system.",
+      "b": "An automated scan to identify potential weaknesses in configurations and software.",
+      "c": "A review of employee contracts.",
+      "d": "A check of physical security cameras."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary benefit of Continuous Monitoring?",
+    "options": {
+      "a": "It reduces the cost of cloud storage.",
+      "b": "It allows for real-time detection and response to security threats.",
+      "c": "It eliminates the need for firewalls.",
+      "d": "It automatically deletes old data."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a serverless compute service used for security automation in AWS?",
+    "options": {
+      "a": "AWS EC2",
+      "b": "AWS Lambda",
+      "c": "AWS S3",
+      "d": "AWS RDS"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is Security Orchestration?",
+    "options": {
+      "a": "Writing a single script to check a password.",
+      "b": "Coordinating multiple tasks or tools to work together in a security workflow.",
+      "c": "Manually checking logs every hour.",
+      "d": "Hiring a music orchestra for the office."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'Brute Force Attack'?",
+    "options": {
+      "a": "Physically breaking into a server room.",
+      "b": "A trial-and-error method to guess login credentials.",
+      "c": "Sending a virus via email.",
+      "d": "Overloading a website with traffic."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which Google Cloud service helps identifying risks across the environment?",
+    "options": {
+      "a": "Google Drive",
+      "b": "Security Command Center",
+      "c": "Google Kubernetes Engine",
+      "d": "BigQuery"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What defines a 'Differential Backup'?",
+    "options": {
+      "a": "Backing up only text files.",
+      "b": "Accumulating changes made since the last FULL backup.",
+      "c": "Accumulating changes made since the last INCREMENTAL backup.",
+      "d": "Backing up the operating system only."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Dynamic masking is useful because:",
+    "options": {
+      "a": "It permanently scrambles the database.",
+      "b": "It masks data during retrieval, ensuring authorized users can still see real data if needed.",
+      "c": "It is cheaper than encryption.",
+      "d": "It does not require any software."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a type of Data Anonymization technique?",
+    "options": {
+      "a": "Data Redaction",
+      "b": "Data Generalization",
+      "c": "Data Swapping",
+      "d": "Data Replication"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What is the main risk of 'Insider Threats'?",
+    "options": {
+      "a": "Employees forgetting their passwords.",
+      "b": "Authorized users misusing their access to steal or leak data.",
+      "c": "Hackers breaking in from the outside.",
+      "d": "Internet connection failure."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the context of Incident Response (IRP), what is 'Eradication'?",
+    "options": {
+      "a": "Finding the threat.",
+      "b": "Removing the threat (e.g., deleting malicious files).",
+      "c": "Restoring data from backups.",
+      "d": "Training employees after the event."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which regulation grants users the 'Right to Know' how their data is used?",
+    "options": {
+      "a": "HIPAA",
+      "b": "CCPA",
+      "c": "PCI DSS",
+      "d": "SOX"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Under HIPAA, what does PHI stand for?",
+    "options": {
+      "a": "Personal Health Identity",
+      "b": "Protected Health Information",
+      "c": "Private Health Insurance",
+      "d": "Public Health Index"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of 'Audit Logs' in a healthcare cloud environment?",
+    "options": {
+      "a": "To track exactly who accessed patient records.",
+      "b": "To monitor internet speed.",
+      "c": "To store patient X-rays.",
+      "d": "To billing patients automatically."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which organization manages the 'STAR' certification program?",
+    "options": {
+      "a": "NIST",
+      "b": "ISO",
+      "c": "Cloud Security Alliance (CSA)",
+      "d": "Microsoft"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does MFA stand for in security best practices?",
+    "options": {
+      "a": "Multiple File Access",
+      "b": "Multi-Factor Authentication",
+      "c": "Main Fire-wall Authorization",
+      "d": "Managed File Allocation"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is 'On-the-fly Masking' used during ETL processes?",
+    "options": {
+      "a": "To speed up the transfer.",
+      "b": "To mask data as it moves between systems to prevent exposure.",
+      "c": "To delete data that is no longer needed.",
+      "d": "To compress data for transfer."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a Cloud-Based Disaster Recovery solution?",
+    "options": {
+      "a": "Storing tapes in a bank vault.",
+      "b": "AWS Disaster Recovery.",
+      "c": "Buying a second laptop.",
+      "d": "Printing all documents."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Immutable Backup'?",
+    "options": {
+      "a": "A backup that is deleted every 24 hours.",
+      "b": "A backup that cannot be altered or deleted by ransomware.",
+      "c": "A backup stored on a USB drive.",
+      "d": "A backup that changes every time a file is opened."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the role of an Intrusion Detection System (IDS)?",
+    "options": {
+      "a": "To block all incoming traffic.",
+      "b": "To detect potential cyber threats and alert administrators.",
+      "c": "To automatically delete viruses.",
+      "d": "To encrypt emails."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which Azure tool helps manage security and configuration recommendations?",
+    "options": {
+      "a": "Azure DevOps",
+      "b": "Microsoft Defender for Cloud",
+      "c": "Azure Active Directory",
+      "d": "Azure Blob Storage"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the definition of a 'Data Breach'?",
+    "options": {
+      "a": "When a hard drive fails mechanically.",
+      "b": "When confidential information is accessed or disclosed without authorization.",
+      "c": "When a user forgets their password.",
+      "d": "When a cloud provider raises their prices."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "GDPR requires data encryption in which states?",
+    "options": {
+      "a": "Only at rest.",
+      "b": "Only in transit.",
+      "c": "Both at rest and in transit.",
+      "d": "Encryption is not mandatory under GDPR."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Under CCPA, businesses cannot deny services or charge higher prices if consumers exercise their rights. This is called:",
+    "options": {
+      "a": "Right to Access",
+      "b": "Non-discrimination",
+      "c": "Right to Fairness",
+      "d": "Equal Pricing Policy"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which ISO standard provides benchmarks for secure configurations?",
+    "options": {
+      "a": "ISO 9001",
+      "b": "CIS",
+      "c": "NIST",
+      "d": "ISO 14001"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a common target for vulnerability assessments?",
+    "options": {
+      "a": "Employee lunch breaks.",
+      "b": "Misconfigurations and open ports.",
+      "c": "Office furniture layout.",
+      "d": "Internet service provider speed."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is 'Behavioral Analytics' used in automated threat detection?",
+    "options": {
+      "a": "To predict stock market trends.",
+      "b": "To identify unusual user actions that may indicate a threat.",
+      "c": "To monitor employee productivity.",
+      "d": "To analyze customer purchasing habits."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does an Incident Response Plan (IRP) ensure?",
+    "options": {
+      "a": "That the company makes a profit.",
+      "b": "That teams efficiently address threats through structured stages.",
+      "c": "That no one ever makes a mistake.",
+      "d": "That all data is public."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Data Generalization' in anonymization?",
+    "options": {
+      "a": "Replacing specific data points with broader categories (e.g., age ranges).",
+      "b": "Deleting the data entirely.",
+      "c": "Copying the data to a general folder.",
+      "d": "Encrypting the data."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following is NOT a level of CSA STAR certification?",
+    "options": {
+      "a": "Self-assessment",
+      "b": "Third-party certification",
+      "c": "Government authorization",
+      "d": "Continuous auditing"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the 'Right to Data Portability' generally associated with (though not explicitly detailed in the text notes)?",
+    "options": {
+      "a": "Moving data between providers.",
+      "b": "Deleting data.",
+      "c": "Hiding data.",
+      "d": "Selling data."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "If a US hospital stores patient data on a cloud server in Europe, which regulations might they need to consider?",
+    "options": {
+      "a": "Only HIPAA.",
+      "b": "Only GDPR.",
+      "c": "Both HIPAA and GDPR.",
+      "d": "Neither, the internet has no borders."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What implies that data stored in a country is subject to that country's laws?",
+    "options": {
+      "a": "Data Residency",
+      "b": "Data Sovereignty",
+      "c": "Data Localization",
+      "d": "Data Independence"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary benefit of using a 'Token Vault'?",
+    "options": {
+      "a": "It speeds up the website.",
+      "b": "It allows attackers to easily guess the token.",
+      "c": "It prevents reverse-engineering of tokens without access to the vault.",
+      "d": "It automatically backs up data."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which cloud automation tool is specific to Google Cloud Platform?",
+    "options": {
+      "a": "Lambda",
+      "b": "Cloud Functions",
+      "c": "Azure Automation",
+      "d": "Orchestrator"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How does 'Automated Remediation' help in cloud security?",
+    "options": {
+      "a": "It automatically writes code for developers.",
+      "b": "It responds to alerts by taking immediate corrective action (e.g., closing a port).",
+      "c": "It sends an email to the CEO.",
+      "d": "It shuts down the entire company."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the main difference between IDS and IPS?",
+    "options": {
+      "a": "IDS detects, IPS prevents.",
+      "b": "IDS prevents, IPS detects.",
+      "c": "IDS is hardware, IPS is software.",
+      "d": "There is no difference."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which GDPR requirement ensures that companies report breaches quickly?",
+    "options": {
+      "a": "Data Minimization",
+      "b": "Data Breach Notification",
+      "c": "Purpose Limitation",
+      "d": "Storage Limitation"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Hybrid DR'?",
+    "options": {
+      "a": "Using a hybrid car for transport.",
+      "b": "A combination of on-premises and cloud storage for disaster recovery.",
+      "c": "Using two different cloud providers.",
+      "d": "Backing up only half the data."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The 'Right to Access' under GDPR allows users to:",
+    "options": {
+      "a": "Access the company's bank account.",
+      "b": "See their stored personal data.",
+      "c": "Enter the company's office.",
+      "d": "Modify the company's source code."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the main purpose of 'Configuration Reviews'?",
+    "options": {
+      "a": "To ensure employees are working hard.",
+      "b": "To ensure cloud settings follow best practices (e.g., firewall rules).",
+      "c": "To check the price of cloud services.",
+      "d": "To review the color scheme of the application."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a safeguard under the HIPAA Security Rule?",
+    "options": {
+      "a": "Administrative",
+      "b": "Financial",
+      "c": "Physical",
+      "d": "Technical"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'Data Redaction' involve?",
+    "options": {
+      "a": "Highlighting important text.",
+      "b": "Removing PII from documents (e.g., blocking out names).",
+      "c": "Translating data into another language.",
+      "d": "Copying data to a USB stick."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why are 'Regular Security Audits' important?",
+    "options": {
+      "a": "To find who is stealing office supplies.",
+      "b": "To identify vulnerabilities before attackers can exploit them.",
+      "c": "To increase the workload of the IT team.",
+      "d": "To slow down the system."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of 'Log Collection'?",
+    "options": {
+      "a": "To gather wood for a fire.",
+      "b": "To track user activities and access patterns for security analysis.",
+      "c": "To store old emails.",
+      "d": "To keep a diary of the CEO."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which component is critical for 'Real-Time Detection' of threats?",
+    "options": {
+      "a": "Monthly reports.",
+      "b": "Continuous Monitoring.",
+      "c": "Annual meetings.",
+      "d": "Paper records."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the 'Containment' phase in an IRP?",
+    "options": {
+      "a": "Locking the office doors.",
+      "b": "Limiting the scope of damage (e.g., isolating systems).",
+      "c": "Calling the police.",
+      "d": "Firing the employee responsible."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which is an example of 'Confidential Business Data' that needs masking?",
+    "options": {
+      "a": "Public marketing materials.",
+      "b": "Trade secrets and intellectual property.",
+      "c": "The company logo.",
+      "d": "The reception phone number."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'SaaS' stand for (implied in the ISO 27017 example)?",
+    "options": {
+      "a": "Security as a Service",
+      "b": "Software as a Service",
+      "c": "Storage as a Service",
+      "d": "System as a Service"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following describes 'Static Masking'?",
+    "options": {
+      "a": "Data is masked on the screen only.",
+      "b": "Data is permanently altered before being stored in the database.",
+      "c": "Data is masked during the backup process.",
+      "d": "Data is never masked."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary reason for 'Automated Policy Enforcement'?",
+    "options": {
+      "a": "To save electricity.",
+      "b": "To ensure consistent security configurations across all environments.",
+      "c": "To make the system look modern.",
+      "d": "To reduce the internet bandwidth."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a benefit of Security Automation?",
+    "options": {
+      "a": "Reduction of human error.",
+      "b": "Increased operational efficiency.",
+      "c": "Increased manual workload.",
+      "d": "Improved real-time threat response."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the 'Recovery' phase in IRP?",
+    "options": {
+      "a": "Buying new computers.",
+      "b": "Restoring systems and data from backups to resume operations.",
+      "c": "Taking a vacation.",
+      "d": "Apologizing to customers."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Role-Based Access Control' (RBAC)?",
+    "options": {
+      "a": "Letting everyone access everything.",
+      "b": "Determining access based on the user's role in the organization.",
+      "c": "Rolling dice to decide access.",
+      "d": "Access control based on the time of day."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which regulation covers the 'Right to be Forgotten'?",
+    "options": {
+      "a": "HIPAA",
+      "b": "CCPA",
+      "c": "GDPR",
+      "d": "PCI DSS"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the purpose of 'Audit Logs' in HIPAA compliance?",
+    "options": {
+      "a": "To check internet usage.",
+      "b": "To track exactly who accessed patient records.",
+      "c": "To monitor printer ink levels.",
+      "d": "To record employee attendance."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is 'Data Swapping' used?",
+    "options": {
+      "a": "To corrupt the database.",
+      "b": "To shuffle values within a dataset to break individual associations.",
+      "c": "To move data from HDD to SSD.",
+      "d": "To exchange data with a competitor."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the best way to prevent 'Unauthorized Access'?",
+    "options": {
+      "a": "Using a sticky note for passwords.",
+      "b": "Enabling Multi-Factor Authentication (MFA).",
+      "c": "Using the same password for everyone.",
+      "d": " disabling the firewall."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool acts as a 'Serverless' function in AWS?",
+    "options": {
+      "a": "EC2",
+      "b": "Lambda",
+      "c": "VPC",
+      "d": "EBS"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The 'Right to Delete' is a key aspect of which US law?",
+    "options": {
+      "a": "HIPAA",
+      "b": "CCPA",
+      "c": "GDPR",
+      "d": "SOX"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the main goal of compliance in cloud security?",
+    "options": {
+      "a": "To make cloud services more expensive.",
+      "b": "To avoid legal penalties and protect customer trust.",
+      "c": "To slow down innovation.",
+      "d": "To eliminate the need for security teams."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the 'Lessons Learned' phase of IRP?",
+    "options": {
+      "a": "Teaching a class about the breach.",
+      "b": "Analyzing the incident post-mortem to improve future processes.",
+      "c": "Punishing the person responsible.",
+      "d": "Forgetting about the incident."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a 'Technical Safeguard' under HIPAA?",
+    "options": {
+      "a": "Locked doors.",
+      "b": "Encryption and Access Control.",
+      "c": "Employee training.",
+      "d": "Background checks."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the result of 'Non-compliance' with GDPR?",
+    "options": {
+      "a": "A warning letter only.",
+      "b": "Heavy fines up to €20 million.",
+      "c": "Nothing happens.",
+      "d": "The internet is turned off."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is 'Cloud Security Alliance (CSA) STAR' used for?",
+    "options": {
+      "a": "Rating movies.",
+      "b": "Evaluating cloud providers based on security and transparency.",
+      "c": "Certifying restaurants.",
+      "d": "Tracking satellites."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "GDPR applies to any organization processing EU citizen data, regardless of the organization's location. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "HIPAA only applies to hospitals and doctors, not to insurance companies. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The California Consumer Privacy Act (CCPA) allows consumers to opt out of having their data sold. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Tokenization uses mathematical algorithms to transform data into a code. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Dynamic masking permanently changes the data stored in the database. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The 3-2-1 Backup Rule suggests keeping all three copies of data on the same server. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Security Orchestration involves coordinating multiple tools to work together. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Penetration testing is a completely automated process with no human intervention. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Data Sovereignty means data is subject to the laws of the country where it is stored. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "The Capital One breach was caused by a sophisticated phishing email campaign. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Anonymized data allows organizations to use personal data for research without violating privacy laws. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "AWS Lambda is a server-based computing service that requires manual OS updates. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "SIEM stands for System Information and Event Management. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Under GDPR, companies have up to one month to report a data breach. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The HIPAA Security Rule includes Administrative, Physical, and Technical safeguards. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Static masking is applied to data only when it is retrieved for viewing. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "A Differential Backup stores only the changes made since the last FULL backup. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "ISO 27017 is a standard specifically for healthcare data security. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Continuous monitoring helps in the real-time detection of unauthorized access. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Data Residency is exactly the same concept as Data Sovereignty. True or False?",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  }
+]

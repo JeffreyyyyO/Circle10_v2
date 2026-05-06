@@ -1,4 +1,4 @@
-# **Circle10 Study App** 
+# [**Circle10 Study App**](https://jeffreyyyyo.github.io/Circle10_v2/)
 
 **Circle10** is a lightweight, mobile-first, and highly optimized web application designed to help Cybersecurity students at AltSchool Africa access course materials, lecture transcripts, and test quizzes on-the-go—unbound by the limitations of location, resources, or bandwidth.
 
@@ -65,3 +65,5 @@ The app functions as a Single Page Application (SPA) that fetches its content dy
 As of December 2025, Circle10 has integrated Google Analytics to measure usage and reach. The platform has successfully supported **133 unique users across 9 different countries**, proving its value as a decentralized, low-bandwidth educational tool.
 
 *Built with love for the AltSchool Africa Cybersecurity Cohort.*
+
+[Try it out here!](https://jeffreyyyyo.github.io/Circle10_v2/)

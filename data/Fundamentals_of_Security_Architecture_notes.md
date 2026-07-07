@@ -4,7 +4,7 @@
 
 1. # **Introduction**
 
-This week, the following will be explored:
+The following will be explored:
 
 ## **1\. Introduction to Security Architecture**
 
@@ -50,7 +50,7 @@ Hands-on approach to identifying vulnerabilities and threats during the design p
 
 2. # **Security Architecture in Cybersecurity Frameworks – Definition and Role 1.0**
 
-# **Security Architecture Fundamentals**
+## **Security Architecture Fundamentals**
 
 Security architecture serves as the comprehensive blueprint for an organization’s security strategy and implementation. It provides a structured approach to protecting information assets while supporting business objectives.
 
@@ -1696,4 +1696,3 @@ The system architecture follows a standard multi-tier flow:
 * **Threat Modeling Tools:**  
   * Microsoft Threat Modeling Tool  
   * OWASP Threat Dragon
-

@@ -1,0 +1,942 @@
+[
+  {
+    "question": "Why has the focus of cyber attackers shifted toward the application layer?",
+    "options": {
+      "a": "Because applications are easier to patch than operating systems.",
+      "b": "Because the application layer is where critical sensitive data and business logic reside.",
+      "c": "Because application code is always open-source and easier to inspect.",
+      "d": "Because network firewalls are no longer capable of inspecting application traffic."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following best describes the Equifax Data Breach (2017) in the context of application security?",
+    "options": {
+      "a": "It was caused by a failure of the physical data center security.",
+      "b": "It resulted from a vulnerability in an unpatched web application framework.",
+      "c": "It was caused by an insider threat stealing credentials.",
+      "d": "It was a result of a massive Distributed Denial of Service (DDoS) attack."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary benefit of adopting secure coding standards like OWASP?",
+    "options": {
+      "a": "It completely eliminates the need for any infrastructure-level security.",
+      "b": "It allows developers to bypass the testing phase of software development.",
+      "c": "It turns abstract security concepts into concrete developer actions, reducing risk from the start.",
+      "d": "It increases the application's speed by removing complex security headers."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which approach is described as more robust and future-proof for application security?",
+    "options": {
+      "a": "Whitelisting good practices/inputs while blocking known bad ones.",
+      "b": "Blacklisting only specific malicious IP addresses.",
+      "c": "Disabling all input validation to prevent parsing errors.",
+      "d": "Relying entirely on perimeter firewalls to filter all malicious application requests."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is consistency in following secure coding standards important for development teams?",
+    "options": {
+      "a": "It makes the source code smaller and easier to compile.",
+      "b": "It creates a culture where security is embedded into the DNA of the development process.",
+      "c": "It ensures that the application will never have any bugs.",
+      "d": "It simplifies the process of hiring developers who are not security experts."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What should be done with error messages in a secure application?",
+    "options": {
+      "a": "They should reveal detailed internal logic to help users troubleshoot.",
+      "b": "They should be suppressed entirely to prevent any feedback.",
+      "c": "They should not reveal internal system logic that an attacker could exploit.",
+      "d": "They should always include the database connection string for debugging."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "According to secure coding practices, when should security considerations begin?",
+    "options": {
+      "a": "Immediately after the application is deployed to production.",
+      "b": "During the final quality assurance (QA) review.",
+      "c": "At the first line of code.",
+      "d": "Once the application has been audited by an external third party."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is emphasized as a key component of proactive application security?",
+    "options": {
+      "a": "Relying heavily on post-deployment patching as the primary defense mechanism.",
+      "b": "Validating input at the application level to sanitize all incoming data streams.",
+      "c": "Limiting security oversight to only external-facing application interfaces.",
+      "d": "Prioritizing performance optimizations over security protocols in production."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How does the culture of security benefit the onboarding of new developers?",
+    "options": {
+      "a": "It eliminates the need for documentation by teaching through intuition.",
+      "b": "It allows new hires to focus solely on functional features rather than security.",
+      "c": "It provides a clear, documented reference for how to code securely within the team.",
+      "d": "It reduces the onboarding time by bypassing security training requirements."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary purpose of encrypting sensitive data 'at rest'?",
+    "options": {
+      "a": "To protect information from unauthorized access while it is stored on physical media.",
+      "b": "To increase the data transmission speed over the internal network.",
+      "c": "To prevent data from being accidentally deleted by database administrators.",
+      "d": "To ensure that data can only be accessed by the original application creator."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following represents a significant risk of ignoring application security?",
+    "options": {
+      "a": "Potential decrease in the complexity of the application codebase.",
+      "b": "Loss of sensitive business data and damage to organizational reputation.",
+      "c": "Improved system interoperability between diverse cloud providers.",
+      "d": "A reduction in the number of security updates needed by the infrastructure."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the context of FinTech, what does following OWASP standards achieve?",
+    "options": {
+      "a": "It ensures that application hardware is physically hardened against tampering.",
+      "b": "It provides a proactive discipline that reduces the overall attack surface.",
+      "c": "It mandates the use of specific proprietary cloud hosting services.",
+      "d": "It guarantees that no data breaches can ever occur in the system."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is 'first line of code' the recommended start for security?",
+    "options": {
+      "a": "Because security retrofitting is often more expensive and prone to errors.",
+      "b": "Because it ensures that all hardware components are compatible with the code.",
+      "c": "Because security patches are only effective if written during initial setup.",
+      "d": "Because it fulfills legal requirements for mandatory audit compliance."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the consequence of failing to patch web application frameworks?",
+    "options": {
+      "a": "It forces the infrastructure to move all data to an offline storage vault.",
+      "b": "It creates significant vulnerabilities that attackers can exploit for data theft.",
+      "c": "It automatically boosts the performance of the application on the server.",
+      "d": "It results in higher costs for firewall software subscription renewals."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of these is a typical target for attackers in an application?",
+    "options": {
+      "a": "The physical cooling system of the server room.",
+      "b": "The business logic governing access to sensitive records.",
+      "c": "The network cable routing inside the office building.",
+      "d": "The brand of the monitor used by the developers."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does a 'secure-by-design' mindset entail?",
+    "options": {
+      "a": "Focusing on security only after the user interface is completely finished.",
+      "b": "Integrating security measures into the planning and architecture phases.",
+      "c": "Outsourcing all security tasks to third-party consultants after deployment.",
+      "d": "Disabling all non-essential features to reduce the application functionality."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is business logic considered a high-value target for attackers?",
+    "options": {
+      "a": "Because it controls how data flows and how users interact with the system.",
+      "b": "Because it is required to be published on the public internet by law.",
+      "c": "Because it is the easiest part of the code for attackers to delete.",
+      "d": "Because it is always written in the most insecure programming languages."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What role does input validation play in preventing attacks?",
+    "options": {
+      "a": "It filters out malicious data before it can be processed by the application.",
+      "b": "It increases the speed of data processing by skipping unnecessary checks.",
+      "c": "It forces users to provide personal data to confirm their identity.",
+      "d": "It replaces insecure user passwords with physical hardware tokens."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How should sensitivity of application logs be treated?",
+    "options": {
+      "a": "Logs should be public to ensure maximum transparency to all users.",
+      "b": "Logs should be secured to prevent attackers from discovering system secrets.",
+      "c": "Logs should contain every piece of data processed by the application.",
+      "d": "Logs are irrelevant to security and should be automatically discarded."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is an example of an application layer vulnerability?",
+    "options": {
+      "a": "A broken lock on the server room door.",
+      "b": "A failure to sanitize inputs, leading to code injection.",
+      "c": "An unpatched kernel vulnerability in the operating system.",
+      "d": "A lack of network cable redundancy in the data center."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is regular maintenance of application security important?",
+    "options": {
+      "a": "Because software security requirements evolve as new threats are discovered.",
+      "b": "Because all applications have a shelf life of exactly one year.",
+      "c": "Because it ensures the application remains compliant with outdated regulations.",
+      "d": "Because it helps the application developers keep their jobs."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which security standard is mentioned for secure coding practices?",
+    "options": {
+      "a": "OWASP.",
+      "b": "ISO-9000.",
+      "c": "IEEE-802.11.",
+      "d": "HTML-5."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the primary risk of revealing database connection strings in errors?",
+    "options": {
+      "a": "Attackers gain information about the database structure and credentials.",
+      "b": "The application performance degrades due to increased debugging load.",
+      "c": "The server hardware may fail due to unnecessary output generation.",
+      "d": "Users will be confused by the technical details provided."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does a culture of security achieve in a development team?",
+    "options": {
+      "a": "It mandates that every employee must become a dedicated security researcher.",
+      "b": "It embeds security practices as a standard, non-negotiable part of daily work.",
+      "c": "It simplifies the application testing process by automating all security reviews.",
+      "d": "It eliminates the need for any security testing tools or scanners."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of these is a key security goal for sensitive user information?",
+    "options": {
+      "a": "Ensuring the data is always available to the public.",
+      "b": "Protecting the confidentiality and integrity of the user information.",
+      "c": "Limiting the storage capacity for sensitive user records.",
+      "d": "Automatically formatting user information for marketing campaigns."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does the Equifax incident illustrate about infrastructure security?",
+    "options": {
+      "a": "Infrastructure security is sufficient to prevent all application-level breaches.",
+      "b": "Strong infrastructure security can still be bypassed by application-level flaws.",
+      "c": "Infrastructure security is redundant when applications are properly coded.",
+      "d": "Only physical infrastructure security matters for protecting global data."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary function of an application layer firewall (WAF)?",
+    "options": {
+      "a": "To filter traffic based on specific web-based attack patterns.",
+      "b": "To replace the need for secure application code.",
+      "c": "To manage the hardware cooling systems for web servers.",
+      "d": "To act as the primary database storage solution."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is 'Bring Your Own Device' (BYOD) a challenge for security?",
+    "options": {
+      "a": "It increases the number of unmanaged entry points into the network.",
+      "b": "It makes it impossible to install security software on the network.",
+      "c": "It forces employees to work exclusively from office locations.",
+      "d": "It improves security by decentralizing data storage."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the goal of a multi-layered security approach?",
+    "options": {
+      "a": "To ensure that if one layer fails, others remain to protect the assets.",
+      "b": "To increase the complexity of the network configuration.",
+      "c": "To provide multiple entry points for administrative troubleshooting.",
+      "d": "To reduce the cost of software licensing by combining tools."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How does input sanitization protect an application?",
+    "options": {
+      "a": "It removes or neutralizes harmful content from user input.",
+      "b": "It speeds up the database queries by reducing data size.",
+      "c": "It allows the application to store user input in encrypted form.",
+      "d": "It forces the user to log in before they can enter data."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does 'sensitive data' usually encompass in an application?",
+    "options": {
+      "a": "Public news articles and general company announcements.",
+      "b": "Personal information, financial records, and business secrets.",
+      "c": "Open-source library documentation and code tutorials.",
+      "d": "Hardware specification manuals for office computers."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is it important to audit application code?",
+    "options": {
+      "a": "To ensure that all code comments are professionally written.",
+      "b": "To identify potential security vulnerabilities before they are exploited.",
+      "c": "To confirm that the application meets the budget requirements.",
+      "d": "To force developers to use a specific programming language."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How can developers ensure consistency in security?",
+    "options": {
+      "a": "By documenting their own custom security rules for every project.",
+      "b": "By following established, industry-recognized secure coding standards.",
+      "c": "By relying on the compiler to catch all security errors automatically.",
+      "d": "By avoiding the use of any security libraries or frameworks."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does a successful application breach look like to the business?",
+    "options": {
+      "a": "A positive PR opportunity to demonstrate responsiveness.",
+      "b": "A significant threat to brand identity, trust, and legal compliance.",
+      "c": "An opportunity to upgrade the hardware at a lower cost.",
+      "d": "A routine operational expense that is expected every year."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is the application layer a primary target?",
+    "options": {
+      "a": "Because it lacks traditional protection mechanisms like firewalls.",
+      "b": "Because it directly interfaces with users and critical data.",
+      "c": "Because it is the most difficult layer for organizations to manage.",
+      "d": "Because it contains the source code that describes the server's location."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a major advantage of secure design principles?",
+    "options": {
+      "a": "They completely eliminate the need for any application testing.",
+      "b": "They help developers anticipate and prevent threats proactively.",
+      "c": "They make the application run faster than unoptimized code.",
+      "d": "They allow for the use of weaker encryption to save resources."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How does input validation differ from input sanitization?",
+    "options": {
+      "a": "Validation checks for correctness; sanitization removes harmful content.",
+      "b": "Validation removes content; sanitization checks for correctness.",
+      "c": "They are identical processes with no difference in function.",
+      "d": "Validation is used only for numeric data; sanitization for text."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the role of the developer in application security?",
+    "options": {
+      "a": "Developers should rely on IT security teams to handle all security concerns.",
+      "b": "Developers have a responsibility to write secure code from the start.",
+      "c": "Developers are only responsible for the functionality of the code.",
+      "d": "Developers should only worry about security if a bug is found."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is it dangerous to ignore application security?",
+    "options": {
+      "a": "Because it can lead to devastating data breaches and legal trouble.",
+      "b": "Because the application might run slower in production environments.",
+      "c": "Because it violates the software license agreements of the framework.",
+      "d": "Because it prevents the application from being marketed effectively."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does the 'attack surface' represent?",
+    "options": {
+      "a": "The total number of entry points an attacker can exploit.",
+      "b": "The total processing power used by the application.",
+      "c": "The amount of data transferred over the network daily.",
+      "d": "The total number of users who access the application."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is encrypted data important in mobile applications?",
+    "options": {
+      "a": "Because mobile apps are often used on insecure public Wi-Fi.",
+      "b": "Because mobile devices have limited storage space for logs.",
+      "c": "Because encrypted data improves the battery life of the mobile device.",
+      "d": "Because mobile application stores mandate encryption by default."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a risk of relying solely on perimeter firewalls?",
+    "options": {
+      "a": "It leaves internal applications vulnerable to lateral attacks.",
+      "b": "It makes it difficult to manage external web requests.",
+      "c": "It prevents the application from communicating with external servers.",
+      "d": "It adds too much latency to internal database queries."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the primary benefit of centralized identity management?",
+    "options": {
+      "a": "It simplifies access control and enhances security across environments.",
+      "b": "It reduces the storage capacity needed for user information.",
+      "c": "It automates the software update process for individual applications.",
+      "d": "It provides a clear interface for managing individual database records."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why do security standards often require regular updates?",
+    "options": {
+      "a": "To ensure they remain effective against evolving attack techniques.",
+      "b": "To increase the length of the technical documentation.",
+      "c": "To ensure compatibility with newly released programming languages.",
+      "d": "To force organizations to purchase new security tools."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of these is a benefit of secure coding standards?",
+    "options": {
+      "a": "Reduced overall risk and a more resilient application.",
+      "b": "Faster compilation times for large enterprise projects.",
+      "c": "Increased ease of implementing new, experimental features.",
+      "d": "Reduced dependency on secure infrastructure configurations."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How can teams measure the effectiveness of their security?",
+    "options": {
+      "a": "Through regular testing, audits, and monitoring of the application.",
+      "b": "By comparing the total lines of code in the application.",
+      "c": "By tracking the number of users who login every day.",
+      "d": "By counting the number of server restarts per week."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the main goal of OWASP?",
+    "options": {
+      "a": "To improve the security of software through community resources.",
+      "b": "To provide a platform for developers to sell their applications.",
+      "c": "To regulate the internet traffic of small businesses.",
+      "d": "To provide server hosting for free web applications."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is it important to limit error output?",
+    "options": {
+      "a": "To protect internal system details from being exposed to attackers.",
+      "b": "To prevent the user from knowing if the application is offline.",
+      "c": "To decrease the log file size during normal operations.",
+      "d": "To prevent developers from seeing any errors in their code."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How should application security be prioritized?",
+    "options": {
+      "a": "It should be treated as a core business and operational priority.",
+      "b": "It should only be considered if budget permits after development.",
+      "c": "It should be outsourced to contractors after deployment.",
+      "d": "It should be an optional consideration based on client demand."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a major risk associated with unpatched frameworks?",
+    "options": {
+      "a": "It can be the root cause of large-scale data breaches.",
+      "b": "It causes the application to consume excessive memory resources.",
+      "c": "It limits the number of concurrent users allowed on the app.",
+      "d": "It prevents the application from being installed on Windows."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is it important for developers to be aware of security?",
+    "options": {
+      "a": "Because security is integrated into every stage of development.",
+      "b": "Because the security team will not allow code to be deployed.",
+      "c": "Because it makes the coding process more interesting.",
+      "d": "Because it prevents the need for any further testing."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How can teams avoid 'hardcoding' secrets?",
+    "options": {
+      "a": "By using secure credential management solutions or vaults.",
+      "b": "By storing secrets in plain text files within the source code.",
+      "c": "By using temporary password generators every time the app starts.",
+      "d": "By removing passwords from the system entirely."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the impact of data breaches on trust?",
+    "options": {
+      "a": "They often cause significant and lasting damage to user trust.",
+      "b": "They help improve trust by proving the system's resilience.",
+      "c": "They are seen as a normal part of doing business online.",
+      "d": "They have no effect on how users perceive a brand."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is input validation considered 'robust'?",
+    "options": {
+      "a": "Because it handles unexpected or malicious data gracefully.",
+      "b": "Because it makes the code run on any operating system.",
+      "c": "Because it allows users to enter data in any format they want.",
+      "d": "Because it speeds up the application significantly."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of these contributes to application resilience?",
+    "options": {
+      "a": "Consistent application of secure coding standards.",
+      "b": "Adding more features without security reviews.",
+      "c": "Relying on legacy frameworks for stability.",
+      "d": "Avoiding documentation to keep the code private."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why do mobile applications need special security considerations?",
+    "options": {
+      "a": "Because they are easily stolen or lost and used in various networks.",
+      "b": "Because they don't use the same programming languages as web apps.",
+      "c": "Because they are unable to connect to the same servers as web apps.",
+      "d": "Because they are designed to be offline at all times."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the primary benefit of consistent security culture?",
+    "options": {
+      "a": "Improved security posture across the entire organization.",
+      "b": "Lower overhead for purchasing security hardware.",
+      "c": "The ability to bypass all security compliance audits.",
+      "d": "A reduction in the number of developers needed."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How does input validation prevent injection attacks?",
+    "options": {
+      "a": "By rejecting data that doesn't match expected patterns.",
+      "b": "By encrypting all user input before processing it.",
+      "c": "By hiding the database structure from the users.",
+      "d": "By blocking all incoming network traffic."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is application security considered a necessity today?",
+    "options": {
+      "a": "Because digital dependency makes apps high-value targets.",
+      "b": "Because it has become a requirement for legal compliance.",
+      "c": "Because attackers no longer target the network layer.",
+      "d": "Because security tools have become too expensive."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of these is a key benefit of proactive discipline?",
+    "options": {
+      "a": "It reduces the frequency and impact of security incidents.",
+      "b": "It allows developers to work without any supervision.",
+      "c": "It enables the use of cheaper server infrastructure.",
+      "d": "It ensures that applications are compatible with all legacy OS."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the role of the business in application security?",
+    "options": {
+      "a": "To treat application security as a key business priority.",
+      "b": "To delegate all security decisions to the development team.",
+      "c": "To prioritize feature delivery over any security concern.",
+      "d": "To avoid any investment in security until a breach occurs."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why should sensitive data be encrypted both in transit and at rest?",
+    "options": {
+      "a": "To ensure protection regardless of where the data is located.",
+      "b": "To improve the overall performance of the database queries.",
+      "c": "To ensure that data is stored in the correct format.",
+      "d": "To follow standard industry design patterns for aesthetics."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the value of clear security documentation?",
+    "options": {
+      "a": "It serves as a reference and aids in team consistency.",
+      "b": "It protects the team from being legally responsible.",
+      "c": "It forces developers to spend less time coding.",
+      "d": "It is used to market the software to potential users."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How does secure coding differ from general coding?",
+    "options": {
+      "a": "It includes specific checks for potential security threats.",
+      "b": "It uses different hardware components during development.",
+      "c": "It avoids the use of any functions from standard libraries.",
+      "d": "It is not concerned with performance, only security."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why are APIs a focus for attackers?",
+    "options": {
+      "a": "Because they are often the backbone of modern application interactions.",
+      "b": "Because they require no authentication to access.",
+      "c": "Because they do not handle any sensitive data.",
+      "d": "Because they are exclusively used for internal server tasks."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the primary goal of secure coding?",
+    "options": {
+      "a": "To build resilient and trustworthy software from the start.",
+      "b": "To ensure that the application is easy to use for customers.",
+      "c": "To provide the fastest possible code execution speed.",
+      "d": "To ensure compatibility with all legacy hardware systems."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What happens if an app has poor application security?",
+    "options": {
+      "a": "It may face legal, financial, and reputational consequences.",
+      "b": "It will still be successful due to its features.",
+      "c": "It will run more efficiently on older operating systems.",
+      "d": "It will automatically be protected by the network firewall."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What should be done when an application is updated?",
+    "options": {
+      "a": "Security assessments should be performed on the updated version.",
+      "b": "The security standards should be lowered to save time.",
+      "c": "The testing phase should be skipped to speed up deployment.",
+      "d": "The infrastructure security should be the only focus."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of these is a typical business impact of a breach?",
+    "options": {
+      "a": "Loss of public trust and legal penalties.",
+      "b": "Reduction in the cost of IT management.",
+      "c": "Increased market share due to media publicity.",
+      "d": "Improved relationships with third-party vendors."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is security not a one-time setup?",
+    "options": {
+      "a": "Because new vulnerabilities emerge constantly.",
+      "b": "Because the server hardware needs regular maintenance.",
+      "c": "Because the user base is always changing.",
+      "d": "Because it takes too long to set up correctly."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the best way to handle user input?",
+    "options": {
+      "a": "Validate it against strict rules before any processing.",
+      "b": "Pass it directly to the database to ensure accuracy.",
+      "c": "Assume the user is trustworthy and reliable.",
+      "d": "Display it directly on the screen without filtering."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What role does training play in security?",
+    "options": {
+      "a": "It keeps the team informed about current security practices.",
+      "b": "It is a requirement for getting an insurance discount.",
+      "c": "It consumes time that should be spent on coding.",
+      "d": "It forces developers to use specific software tools."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is the Equifax case still relevant?",
+    "options": {
+      "a": "Because it highlights the high cost of failing to patch applications.",
+      "b": "Because it demonstrates the weakness of firewalls.",
+      "c": "Because it serves as an example of good application design.",
+      "d": "Because it shows how data breaches can increase trust."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does a secure payment system ensure?",
+    "options": {
+      "a": "That customer data is validated and properly encrypted.",
+      "b": "That the payment process is always the fastest available.",
+      "c": "That the system works with any currency automatically.",
+      "d": "That users can bypass any authentication steps."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How can teams improve their security posture?",
+    "options": {
+      "a": "By continuously referring to secure coding standards.",
+      "b": "By focusing on adding features and ignoring security.",
+      "c": "By hiring new developers and not training them.",
+      "d": "By removing security headers to improve performance."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of these is a key security responsibility?",
+    "options": {
+      "a": "Coding securely as a standard part of the job.",
+      "b": "Ensuring the application looks good to customers.",
+      "c": "Marketing the application to new user bases.",
+      "d": "Setting up the server room for hardware repair."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is 'design' critical for security?",
+    "options": {
+      "a": "Because it's easier to build security in than add it later.",
+      "b": "Because design is the only thing users care about.",
+      "c": "Because security is purely an aesthetic choice.",
+      "d": "Because it helps the application launch on time."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does an application layer focus imply?",
+    "options": {
+      "a": "That attackers recognize the value of business logic.",
+      "b": "That the network layer is too secure to attack.",
+      "c": "That application security is the only layer that matters.",
+      "d": "That developers should ignore network security."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Application security is a business priority, not just a technical issue.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Secure coding practices can completely eliminate all possible vulnerabilities.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Input validation is more effective than just blacklist-based filtering.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Security should begin as early as the requirements or design phase.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Data encryption should only happen when data is in transit, not at rest.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Application layer breaches rarely result in financial loss.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Consistency in secure coding makes team onboarding more difficult.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Attackers focus on applications because that's where sensitive data resides.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Error messages should be descriptive enough to help attackers identify internal logic.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Secure coding is considered a professional responsibility for all developers.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Security standards like OWASP provide concrete actions for developers.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Infrastructure-level security is no longer needed if an application is secure.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "A data breach can lead to reputational damage that is difficult to repair.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Input sanitization is equivalent to input validation.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Application security is solely a concern for small businesses.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Regular audits are a good practice for maintaining application security.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Hardcoding secrets into source code is a recommended practice for speed.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Attackers can use business logic to steal data from an application.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Security should be the responsibility of every developer on a team.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Perimeter firewalls are the only defense needed to protect an application.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  }
+]

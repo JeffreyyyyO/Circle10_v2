@@ -1,0 +1,992 @@
+[
+  {
+    "question": "Why is basic encryption considered insufficient in today's digital landscape?",
+    "options": {
+      "a": "It requires massive server infrastructure to function.",
+      "b": "Due to mobile-first computing, zero-trust, and quantum threats.",
+      "c": "Symmetric encryption has been mathematically proven impossible.",
+      "d": "Hackers have reverse-engineered all basic algorithms manually."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What mathematical structure does Elliptic Curve Cryptography (ECC) rely on?",
+    "options": {
+      "a": "Prime number factorization and discrete logarithms.",
+      "b": "Complex mathematical structures called elliptic curves.",
+      "c": "Multidimensional lattice grid navigation techniques.",
+      "d": "Stateful hash-based digital signature trees."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a primary advantage of ECC over traditional RSA?",
+    "options": {
+      "a": "It offers strong security with significantly shorter keys.",
+      "b": "It utilizes symmetric keys for faster data decryption.",
+      "c": "It completely eliminates the need for private keys.",
+      "d": "It functions perfectly without any processing power."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is ECC exceptionally well-suited for smartphones and IoT devices?",
+    "options": {
+      "a": "It relies on cloud computing for key generation.",
+      "b": "It requires less processing power, making it lightweight.",
+      "c": "It uses extremely long key lengths for maximum security.",
+      "d": "It bypasses standard operating system security controls."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which OpenSSL command parameter specifies the use of an elliptic curve?",
+    "options": {
+      "a": "openssl rsa -name",
+      "b": "openssl genrsa -curve",
+      "c": "openssl ecparam -name",
+      "d": "openssl req -newkey"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In the OpenSSL command 'openssl ecparam -name prime256v1 -genkey', what does '-genkey' do?",
+    "options": {
+      "a": "It extracts the public key from the curve.",
+      "b": "It deletes the existing primary encryption key.",
+      "c": "It commands the tool to generate a new key.",
+      "d": "It verifies the security of the generated key."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is 'prime256v1' in the context of Elliptic Curve Cryptography?",
+    "options": {
+      "a": "An outdated hashing algorithm used in the 1990s.",
+      "b": "A common and highly secure ECC curve used today.",
+      "c": "A post-quantum algorithm designed by NIST.",
+      "d": "A symmetric key exchange protocol for mobile apps."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of these is a real-world application where ECC actively operates?",
+    "options": {
+      "a": "End-to-end encrypted messaging like WhatsApp and Signal.",
+      "b": "Legacy physical lock-and-key vault security systems.",
+      "c": "Unencrypted radio frequency broadcasting networks.",
+      "d": "Analog telephone switchboard communication lines."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How does ECC benefit website security through SSL/TLS certificates?",
+    "options": {
+      "a": "It requires users to install special browser plugins.",
+      "b": "It disables website encryption to increase loading speeds.",
+      "c": "It reduces server processing load and helps sites load faster.",
+      "d": "It replaces the HTTP protocol entirely with a new standard."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In blockchain technology, what specific function does ECC perform?",
+    "options": {
+      "a": "It generates new cryptocurrency coins automatically.",
+      "b": "It signs transactions to prove coin or token ownership.",
+      "c": "It physically stores cryptocurrency on hard drives.",
+      "d": "It translates blockchain code into human-readable text."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What theoretical machine poses a severe threat to RSA and ECC?",
+    "options": {
+      "a": "Supercomputers using standard binary processing.",
+      "b": "Quantum machines running Shor's algorithm.",
+      "c": "Mainframes operating on outdated legacy code.",
+      "d": "Artificial intelligence language learning models."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which mathematical concept forms the basis of Lattice-Based Cryptography?",
+    "options": {
+      "a": "Navigating a grid of points across multiple dimensions.",
+      "b": "Factoring two extremely large prime numbers together.",
+      "c": "Using one-way cryptographic hash function fingerprints.",
+      "d": "Decoding random linear error-correcting matrices."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What advanced capability does Lattice-based cryptography uniquely enable?",
+    "options": {
+      "a": "Decoding intercepted satellite transmissions instantly.",
+      "b": "Processing data while it is still fully encrypted.",
+      "c": "Creating physical hardware security module chips.",
+      "d": "Bypassing biometric security on mobile smartphones."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Hash-based cryptography relies on functions that act as what?",
+    "options": {
+      "a": "Two-way mathematical translation dictionaries.",
+      "b": "One-way digital fingerprints that compress inputs.",
+      "c": "Symmetric keys that unlock multiple systems at once.",
+      "d": "Physical security tokens plugged into USB ports."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is an example of a Hash-based algorithm?",
+    "options": {
+      "a": "RSA-2048",
+      "b": "CRYSTALS-Kyber",
+      "c": "McEliece",
+      "d": "XMSS"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Code-based cryptography is built on the difficulty of what process?",
+    "options": {
+      "a": "Decoding random linear error-correcting codes.",
+      "b": "Navigating complex multidimensional lattice grids.",
+      "c": "Reversing one-way cryptographic hash functions.",
+      "d": "Calculating discrete logarithms on elliptic curves."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which cryptosystem is a prominent, decades-old example of Code-based cryptography?",
+    "options": {
+      "a": "The Diffie-Hellman Key Exchange",
+      "b": "The McEliece cryptosystem",
+      "c": "The NTRU polynomial system",
+      "d": "The SPHINCS+ signature scheme"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a major practical limitation of the McEliece cryptosystem?",
+    "options": {
+      "a": "It has been easily broken by classical computers.",
+      "b": "It requires massive public key sizes to function.",
+      "c": "It cannot be used for encryption, only signatures.",
+      "d": "It drains smartphone batteries in a matter of minutes."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the standout strength of the NTRU lattice-based system?",
+    "options": {
+      "a": "It uses the largest known key sizes in cryptography.",
+      "b": "It is fast, compact, and highly quantum-resistant.",
+      "c": "It is entirely open-source and requires no math.",
+      "d": "It utilizes stateful hash trees for signature tracking."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Kyber, a lattice-based algorithm, is primarily designed for what function?",
+    "options": {
+      "a": "Securely storing passwords in local databases.",
+      "b": "Key Encapsulation and securely exchanging keys.",
+      "c": "Creating highly verifiable digital signatures.",
+      "d": "Ensuring physical security of IoT smart sensors."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which mathematical problem serves as the foundation for the Kyber algorithm?",
+    "options": {
+      "a": "Module Learning with Errors (MLWE).",
+      "b": "N-th degree Truncated polynomial Ring Units.",
+      "c": "Extended Merkle Signature Schemes.",
+      "d": "Prime number integer factorization."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the primary goal of the NIST PQC Project?",
+    "options": {
+      "a": "To ban the use of RSA algorithms globally.",
+      "b": "To standardize quantum-resistant algorithms for public use.",
+      "c": "To build the world's first operational quantum computer.",
+      "d": "To replace all current blockchain networks with new ones."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which candidate algorithm made it to the final stages for digital signatures in the NIST project?",
+    "options": {
+      "a": "Kyber",
+      "b": "Diffie-Hellman",
+      "c": "Dilithium",
+      "d": "McEliece"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a critical operational requirement for using the XMSS hash-based scheme?",
+    "options": {
+      "a": "It requires constant connection to a quantum mainframe.",
+      "b": "Keys must be reused multiple times to ensure security.",
+      "c": "It requires stateful management to track used keys.",
+      "d": "It must be executed exclusively on mobile platforms."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What happens if a key is reused in a hash-based cryptographic system like XMSS?",
+    "options": {
+      "a": "The system automatically upgrades the key's security.",
+      "b": "The security of the digital signature is significantly weakened.",
+      "c": "The message is encrypted rather than digitally signed.",
+      "d": "The key becomes permanently locked in the database."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is hash-based cryptography ideal for firmware updates?",
+    "options": {
+      "a": "It ensures the update code executes faster on devices.",
+      "b": "It provides unforgeable, long-term authenticity for updates.",
+      "c": "It reduces the file size of the software update massively.",
+      "d": "It hides the update from users until it is fully installed."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What original purpose did linear codes serve before being adapted for cryptography?",
+    "options": {
+      "a": "Encrypting secret military communications during WWII.",
+      "b": "Detecting and correcting errors in data transmission.",
+      "c": "Compressing large video files for internet streaming.",
+      "d": "Generating random numbers for casino slot machines."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How does Hybrid Encryption bridge the gap between current and future threats?",
+    "options": {
+      "a": "It combines a traditional algorithm with a quantum-resistant one.",
+      "b": "It switches between RSA and ECC depending on battery life.",
+      "c": "It uses symmetric encryption twice to double the security.",
+      "d": "It completely uninstalls old encryption to force new standards."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What specific attack strategy does Hybrid Encryption directly protect against?",
+    "options": {
+      "a": "Distributed Denial of Service (DDoS) attacks.",
+      "b": "Store now, decrypt later interception tactics.",
+      "c": "Phishing emails targeting administrative users.",
+      "d": "Physical theft of unencrypted mobile devices."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the Open Quantum Safe (OQS) project primarily dedicated to?",
+    "options": {
+      "a": "Building the physical hardware for quantum computers.",
+      "b": "Creating software libraries for quantum-resistant algorithms.",
+      "c": "Regulating the sale of quantum technology internationally.",
+      "d": "Hacking legacy systems to prove they are vulnerable."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the centerpiece C library of the Open Quantum Safe (OQS) project called?",
+    "options": {
+      "a": "libquantum",
+      "b": "crypto-safe",
+      "c": "liboqs",
+      "d": "q-crypt"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which traditional cryptographic tools does the OQS project offer integrated forks for?",
+    "options": {
+      "a": "OpenSSL and OpenSSH",
+      "b": "Microsoft Word and Excel",
+      "c": "Linux Kernel and Windows Defender",
+      "d": "Google Chrome and Mozilla Firefox"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is simulating quantum-safe key exchanges necessary today?",
+    "options": {
+      "a": "To permanently break older RSA encryption systems.",
+      "b": "To evaluate performance, memory usage, and latency.",
+      "c": "To ensure quantum algorithms can crack passwords faster.",
+      "d": "To automatically update all mobile devices globally."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tech giant experimented with integrating Kyber into its web browser?",
+    "options": {
+      "a": "Apple via Safari",
+      "b": "Google via Chrome",
+      "c": "Microsoft via Edge",
+      "d": "Mozilla via Firefox"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What proactive defense approach ensures backward compatibility while adding quantum resistance?",
+    "options": {
+      "a": "Strictly enforcing Lattice-based algorithms globally.",
+      "b": "Using a Hybrid Cryptography layered approach.",
+      "c": "Relying exclusively on hardware security modules.",
+      "d": "Disabling TLS protocols on web servers temporarily."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In what year did NIST formally announce the global initiative to find quantum-resistant algorithms?",
+    "options": {
+      "a": "2001",
+      "b": "2010",
+      "c": "2016",
+      "d": "2022"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What two algorithms did NIST select as the primary standards in 2022?",
+    "options": {
+      "a": "RSA and Elliptic Curve Cryptography",
+      "b": "CRYSTALS-Kyber and CRYSTALS-Dilithium",
+      "c": "McEliece and SPHINCS+",
+      "d": "AES-256 and SHA-3"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "To prepare for quantum migration, organizations should update procurement processes to ensure what?",
+    "options": {
+      "a": "That all software purchases are open-source only.",
+      "b": "That new hardware is completely disconnected from the internet.",
+      "c": "That new services are 'quantum-ready' or support upgrade paths.",
+      "d": "That they purchase actual quantum computers immediately."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What defines a cryptographic protocol?",
+    "options": {
+      "a": "A single mathematical algorithm used to encrypt files.",
+      "b": "A formalized set of rules for using cryptography securely.",
+      "c": "A physical device that generates random number sequences.",
+      "d": "A legal contract between two parties sharing secure data."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which protocol secures the connection to a website, represented by a padlock icon?",
+    "options": {
+      "a": "FTP (File Transfer Protocol)",
+      "b": "SMTP (Simple Mail Transfer Protocol)",
+      "c": "SSL/TLS (Transport Layer Security)",
+      "d": "SSH (Secure Shell)"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary function of Elliptic Curve Diffie-Hellman (ECDH)?",
+    "options": {
+      "a": "Generating a shared secret over an insecure channel.",
+      "b": "Hashing passwords for secure database storage.",
+      "c": "Creating highly secure physical smart cards.",
+      "d": "Compressing large files before network transmission."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why was the early Wi-Fi security protocol WEP eventually broken?",
+    "options": {
+      "a": "Because quantum computers successfully factored its primes.",
+      "b": "Because it used Elliptic Curve Cryptography incorrectly.",
+      "c": "Because its internal processes and design were deeply flawed.",
+      "d": "Because its keys were intentionally published online."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the core concept of a Zero-Knowledge Proof (ZKP)?",
+    "options": {
+      "a": "Proving something is true without revealing the actual information.",
+      "b": "Sharing encryption keys with completely unknown third parties.",
+      "c": "Ensuring a system has zero knowledge of prior user activity.",
+      "d": "Eliminating the need for any form of identity verification."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In a Zero-Knowledge Proof scenario, what is the role of the 'Prover'?",
+    "options": {
+      "a": "To challenge the other party with complex math problems.",
+      "b": "To convince the other party they possess specific knowledge.",
+      "c": "To decrypt the data payload sent by the Verifier.",
+      "d": "To act as the trusted third-party Certificate Authority."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What distinguishes Non-Interactive Proofs from Interactive Proofs?",
+    "options": {
+      "a": "They require continuous back-and-forth communication.",
+      "b": "They use advanced math to make the proof standalone and instant.",
+      "c": "They are only used in analog, non-digital security systems.",
+      "d": "They fail completely if the network connection drops momentarily."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How do zk-SNARKs enable privacy-focused cryptocurrencies like Zcash?",
+    "options": {
+      "a": "By publishing all transaction data openly for public audit.",
+      "b": "By keeping sender, receiver, and amount details completely private.",
+      "c": "By physically destroying the hard drives after a transaction.",
+      "d": "By converting all digital tokens into tangible fiat currency."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What major security liability do ZKPs aim to eliminate through passwordless authentication?",
+    "options": {
+      "a": "The need for users to remember and transmit secret passwords.",
+      "b": "The requirement of having a mobile phone to log in.",
+      "c": "The use of biometric scanners which can be easily fooled.",
+      "d": "The necessity of physical security guards at data centers."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How can Zero-Knowledge Proofs benefit secure digital voting?",
+    "options": {
+      "a": "By allowing officials to see exactly who each citizen voted for.",
+      "b": "By generating proof of eligibility without exposing voter identity.",
+      "c": "By replacing digital ballots with traditional paper ballots.",
+      "d": "By ensuring only voters with specific political views can participate."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does Secure Multi-Party Computation (SMPC) elegantly address?",
+    "options": {
+      "a": "The inability to connect diverse mobile networks together.",
+      "b": "The challenge of safely sharing data without exposing raw inputs.",
+      "c": "The process of generating random numbers for classical algorithms.",
+      "d": "The requirement to store all cryptographic keys in one location."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the critical first step in how SMPC operates?",
+    "options": {
+      "a": "Encrypting the entire database using the AES-256 algorithm.",
+      "b": "Splitting the original data into random pieces or 'shares'.",
+      "c": "Uploading the data to a public cloud storage environment.",
+      "d": "Assigning a single trusted administrator to manage the inputs."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What happens if someone intercepts a single 'share' in an SMPC environment?",
+    "options": {
+      "a": "They can easily reconstruct the entire original dataset.",
+      "b": "The share reveals absolutely nothing useful on its own.",
+      "c": "The system automatically self-destructs the remaining shares.",
+      "d": "They can trace the share back to the specific participating user."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What core strength makes SMPC highly powerful for competing institutions?",
+    "options": {
+      "a": "It allows them to steal each other's proprietary algorithms.",
+      "b": "It completely eliminates the need for a trusted third party.",
+      "c": "It bypasses all government regulatory compliance rules.",
+      "d": "It forces all parties to merge their financial data publicly."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How could banks utilize SMPC for Anti-Money Laundering efforts?",
+    "options": {
+      "a": "By running joint algorithms that flag fraud without exposing customer data.",
+      "b": "By openly publishing all flagged transaction records on the internet.",
+      "c": "By physically sharing their server hard drives with regulators.",
+      "d": "By freezing all customer accounts during the computation process."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What role does SMPC play in Artificial Intelligence?",
+    "options": {
+      "a": "It prevents AI models from learning any new information.",
+      "b": "It enables Federated Learning where local training data remains private.",
+      "c": "It grants AI algorithms total access to unsecured databases.",
+      "d": "It replaces human analysts completely with automated bots."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a known challenge of implementing SMPC?",
+    "options": {
+      "a": "It is highly computationally expensive and often slower.",
+      "b": "It is mathematically impossible to execute on modern computers.",
+      "c": "It requires every participant to have a fully operational quantum computer.",
+      "d": "It automatically decrypts all data if a single error occurs."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "ZKPs enable banks to prove their ledgers balance while keeping details confidential. What is this called?",
+    "options": {
+      "a": "Total Data Obfuscation",
+      "b": "Selective Transparency",
+      "c": "Absolute Zero-Trust",
+      "d": "Cryptographic Isolation"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Symmetric/asymmetric encryption and digital signatures are categorized in this module as what?",
+    "options": {
+      "a": "Advanced Privacy techniques.",
+      "b": "Foundational Security methods.",
+      "c": "Future-Proofing cryptography.",
+      "d": "Obsolete historical frameworks."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How are Zero-Knowledge Proofs (ZKPs) and SMPC categorized in the course conclusion?",
+    "options": {
+      "a": "As Foundational Security that should be replaced.",
+      "b": "As Future-Proofing mechanisms for post-quantum threats.",
+      "c": "As Advanced Privacy enabling trust without exposure.",
+      "d": "As experimental theories with no real-world application."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the ultimate goal of cryptographic protocols, according to the module summary?",
+    "options": {
+      "a": "To build trust in an inherently untrusted environment.",
+      "b": "To ensure data can never be accessed by anyone, ever.",
+      "c": "To replace all human security analysts with automation.",
+      "d": "To make encryption algorithms too complex to understand."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What resource is described in the conclusion as 'our most valuable currency'?",
+    "options": {
+      "a": "Cryptocurrency tokens.",
+      "b": "Server processing power.",
+      "c": "Network bandwidth.",
+      "d": "Digital data."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Why is RSA traditionally slower than ECC?",
+    "options": {
+      "a": "Because RSA requires massive key lengths to remain secure.",
+      "b": "Because RSA must connect to a central database to encrypt.",
+      "c": "Because RSA cannot be used for secure web browsing.",
+      "d": "Because RSA keys automatically expire every 24 hours."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What makes post-quantum cryptography different from standard cryptography?",
+    "options": {
+      "a": "It uses standard binary bits rather than advanced algorithms.",
+      "b": "It is designed to resist attacks from highly advanced quantum machines.",
+      "c": "It eliminates the need for any form of mathematical computation.",
+      "d": "It can only be executed on supercomputers, not mobile phones."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the cave analogy of ZKPs, how does the Prover demonstrate knowledge?",
+    "options": {
+      "a": "By loudly stating the secret password to the Verifier.",
+      "b": "By mapping out the entire internal structure of the cave.",
+      "c": "By exiting the specific path requested by the Verifier.",
+      "d": "By physically breaking the door down to show strength."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is a 'stateful' signature system in cryptography?",
+    "options": {
+      "a": "A system that randomly changes its algorithm every minute.",
+      "b": "A system that meticulously tracks which keys have already been used.",
+      "c": "A system that legally belongs to a specific government state.",
+      "d": "A system that requires the user to remain constantly online."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of these is NOT considered a family of Quantum-Resistant Algorithms?",
+    "options": {
+      "a": "Lattice-Based Cryptography",
+      "b": "Hash-Based Cryptography",
+      "c": "Code-Based Cryptography",
+      "d": "Curve-Based Cryptography"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Why are Hybrid Encryption Systems a recommended strategy today?",
+    "options": {
+      "a": "They allow hackers to test networks safely without causing damage.",
+      "b": "They provide a safety net by layering traditional and quantum algorithms.",
+      "c": "They are significantly cheaper to license than single algorithms.",
+      "d": "They completely bypass the need for digital certificates."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "When generating an ECC key pair in OpenSSL, what is produced first?",
+    "options": {
+      "a": "The Public Key",
+      "b": "The Digital Certificate",
+      "c": "The Private Key",
+      "d": "The Hash Fingerprint"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which organization finalized the standards for Kyber and Dilithium?",
+    "options": {
+      "a": "National Security Agency (NSA)",
+      "b": "Open Quantum Safe (OQS)",
+      "c": "National Institute of Standards and Technology (NIST)",
+      "d": "International Organization for Standardization (ISO)"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "How do zk-SNARKs process a transaction at a conceptual bank?",
+    "options": {
+      "a": "They open the envelope and scan the contents publicly.",
+      "b": "They verify the envelope's mathematical proof without opening it.",
+      "c": "They send the envelope to a trusted third party for manual review.",
+      "d": "They reject the envelope if it does not contain physical cash."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What type of environment significantly benefits from the low overhead of ECC?",
+    "options": {
+      "a": "High-performance liquid-cooled supercomputing clusters.",
+      "b": "Resource-constrained environments like smartphones and IoT.",
+      "c": "Analog communication lines lacking digital infrastructure.",
+      "d": "Offline storage vaults disconnected from all networks."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What cryptographic technique is often used to ensure long-term data archival integrity?",
+    "options": {
+      "a": "Symmetric key exchange protocols.",
+      "b": "Hash-based digital signatures like XMSS.",
+      "c": "Standard RSA-1024 encryption.",
+      "d": "Interactive Zero-Knowledge Proofs."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What describes the 'Store Now, Decrypt Later' threat?",
+    "options": {
+      "a": "Storing physical hard drives in heavily guarded secure vaults.",
+      "b": "Intercepting encrypted data today to crack when quantum computing arrives.",
+      "c": "Delaying the encryption of sensitive files to save server processing power.",
+      "d": "Using slow algorithms that naturally delay decryption by authorized users."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does the abbreviation 'KEM' stand for in the context of the Kyber algorithm?",
+    "options": {
+      "a": "Key Encapsulation Mechanism",
+      "b": "Kinetic Encryption Module",
+      "c": "Known Error Mitigation",
+      "d": "Kernel Extraction Matrix"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is the transition to quantum-resistant cryptography considered urgent today?",
+    "options": {
+      "a": "Because standard computers will stop functioning next year.",
+      "b": "To defend against adversaries intercepting and storing data right now.",
+      "c": "Because NIST has legally outlawed the use of RSA worldwide.",
+      "d": "To improve the graphical performance of modern web browsers."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "If a user signs a transaction in a software wallet like MetaMask, what powers that signature?",
+    "options": {
+      "a": "A centralized banking database.",
+      "b": "Elliptic Curve Cryptography (ECC).",
+      "c": "A physical smart card chip.",
+      "d": "Lattice-based Quantum algorithms."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In SMPC, what happens after the data is split into shares and distributed?",
+    "options": {
+      "a": "The shares are deleted immediately to ensure ultimate security.",
+      "b": "A central authority gathers them back to perform the calculation.",
+      "c": "They are processed in a joint mathematical computation securely.",
+      "d": "They are broadcasted over an unencrypted public ledger."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is true regarding traditional password-based authentication?",
+    "options": {
+      "a": "It is completely secure and cannot be breached.",
+      "b": "It is a massive liability because passwords are easily stolen or reused.",
+      "c": "It utilizes Zero-Knowledge Proofs by default in all systems.",
+      "d": "It requires the server to delete the password after every login."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary function of a digital signature?",
+    "options": {
+      "a": "To compress large files for faster email delivery.",
+      "b": "To prove sender identity and ensure data has not been tampered with.",
+      "c": "To encrypt the physical hard drive of a laptop computer.",
+      "d": "To bypass organizational firewalls during data transfer."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does TLS stand for in web security?",
+    "options": {
+      "a": "Total Logic System",
+      "b": "Transport Layer Security",
+      "c": "Transmitted Ledger Signature",
+      "d": "Terminal Local Sync"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Evaluate this statement: Basic encryption methods (like RSA) are fully sufficient to protect data against future quantum computing threats.",
+    "options": {
+      "a": "True, because current key lengths are virtually infinite.",
+      "b": "False, because quantum algorithms like Shor's can easily break them.",
+      "c": "True, provided they are paired with a strong password.",
+      "d": "False, but only if the data is stored on mobile devices."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Evaluate this statement: Elliptic Curve Cryptography provides strong security using significantly shorter key lengths than RSA.",
+    "options": {
+      "a": "True, this makes it highly efficient and lightweight.",
+      "b": "False, ECC requires much longer keys to match RSA security.",
+      "c": "True, but only when used over analog radio frequencies.",
+      "d": "False, ECC and RSA require exactly the same key lengths."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Evaluate this statement: Reusing a single one-time key in the XMSS hash-based system strengthens the security of the digital signature.",
+    "options": {
+      "a": "True, because it builds a consistent history of trust.",
+      "b": "False, reusing a key in a hash-based system weakens security.",
+      "c": "True, as long as the key is rotated at least once a month.",
+      "d": "False, because XMSS is actually a lattice-based algorithm."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Evaluate this statement: Lattice-based cryptography is based on the mathematical problem of navigating a multi-dimensional grid of points.",
+    "options": {
+      "a": "True, and this problem remains difficult for quantum computers.",
+      "b": "False, it is based entirely on factoring large prime numbers.",
+      "c": "True, but this method has already been broken by classical computers.",
+      "d": "False, it relies on random linear error-correcting codes."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Evaluate this statement: The McEliece cryptosystem is an experimental new algorithm created during the 2016 NIST PQC project.",
+    "options": {
+      "a": "True, it was designed specifically for modern IoT devices.",
+      "b": "False, it was introduced in 1978 and is a prominent code-based system.",
+      "c": "True, it is the newest and least tested form of cryptography.",
+      "d": "False, it is actually a foundational component of standard RSA."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Evaluate this statement: Open Quantum Safe (OQS) provides open-source libraries, like liboqs, for developers to experiment with post-quantum algorithms.",
+    "options": {
+      "a": "True, it acts as a bridge between academic research and practical software.",
+      "b": "False, OQS is a closed, proprietary system sold only to governments.",
+      "c": "True, but it only supports obsolete symmetric encryption schemes.",
+      "d": "False, OQS is solely a theoretical research paper with no software."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Evaluate this statement: CRYSTALS-Kyber was selected by NIST primarily to handle highly secure digital signatures.",
+    "options": {
+      "a": "True, Kyber is the global standard for signing digital documents.",
+      "b": "False, Dilithium is for signatures, while Kyber is for Key Encapsulation.",
+      "c": "True, but only when operating on a decentralized blockchain.",
+      "d": "False, Kyber was completely rejected by the NIST standardization process."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Evaluate this statement: Zero-Knowledge Proofs (ZKPs) require one party to fully reveal their password to prove their identity.",
+    "options": {
+      "a": "True, otherwise the verifying party cannot establish absolute trust.",
+      "b": "False, ZKPs allow proving knowledge without ever revealing the secret.",
+      "c": "True, but the password is immediately deleted after verification.",
+      "d": "False, ZKPs do not involve verifying identity in any capacity."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Evaluate this statement: Secure Multi-Party Computation (SMPC) requires all participants to hand their raw data over to a trusted central server.",
+    "options": {
+      "a": "True, this central server executes the secret sharing process.",
+      "b": "False, SMPC eliminates the need for a trusted third party entirely.",
+      "c": "True, but only for highly regulated banking transactions.",
+      "d": "False, SMPC prevents any party from performing mathematical computations."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Evaluate this statement: Hybrid encryption systems combine traditional algorithms (like ECC) with quantum-resistant algorithms to maintain backward compatibility.",
+    "options": {
+      "a": "True, this layered approach protects data while maintaining operational stability.",
+      "b": "False, hybrid systems only combine two obsolete classical algorithms together.",
+      "c": "True, but this completely removes all forward secrecy protections.",
+      "d": "False, NIST strictly forbids the use of any hybrid cryptographic models."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Evaluate this statement: In SMPC, a single 'share' of split data can easily be deciphered to reveal the entire original dataset.",
+    "options": {
+      "a": "True, which is why SMPC is considered highly vulnerable to insider threats.",
+      "b": "False, no single share reveals anything useful on its own.",
+      "c": "True, but only if the share is intercepted by a quantum computer.",
+      "d": "False, because shares are physically printed on paper and destroyed."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Evaluate this statement: zk-SNARKs allow privacy coins like Zcash to mathematically verify transactions without opening the 'sealed envelope' of data.",
+    "options": {
+      "a": "True, this enables selective transparency and strong privacy on the ledger.",
+      "b": "False, zk-SNARKs require all transaction details to be publicly readable.",
+      "c": "True, but the envelope must contain physical proof of funds.",
+      "d": "False, Zcash relies exclusively on standard transparent Bitcoin protocols."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Evaluate this statement: A major disadvantage of code-based cryptography, like the McEliece system, is that it requires massive key sizes.",
+    "options": {
+      "a": "True, which makes it difficult to implement on resource-limited IoT devices.",
+      "b": "False, McEliece is renowned for having the smallest key sizes available.",
+      "c": "True, but these massive keys only provide minimal classical security.",
+      "d": "False, key sizes are completely irrelevant in code-based cryptography."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Evaluate this statement: The 'prime256v1' elliptic curve is considered obsolete and highly insecure for modern use.",
+    "options": {
+      "a": "True, it was deprecated in the early 2000s due to vulnerabilities.",
+      "b": "False, it is actually one of the most common and secure ECC curves used today.",
+      "c": "True, and it should immediately be replaced with basic RSA encryption.",
+      "d": "False, it is exclusively reserved for experimental quantum hardware."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Evaluate this statement: When testing post-quantum cryptography, simulating secure handshakes helps evaluate memory usage and potential latency.",
+    "options": {
+      "a": "True, this is vital to ensure mobile devices don't drain their batteries.",
+      "b": "False, simulations are useless because post-quantum algorithms have zero latency.",
+      "c": "True, but only if the simulation is run on an actual quantum machine.",
+      "d": "False, memory usage is unaffected by any changes in cryptographic algorithms."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Evaluate this statement: Hash-based cryptography relies on functions that can easily compress data and then reverse the process to uncover the original message.",
+    "options": {
+      "a": "True, this two-way translation is the core of hash-based security.",
+      "b": "False, hash functions are strictly one-way and practically impossible to reverse.",
+      "c": "True, but only when utilizing the Extended Merkle Signature Scheme.",
+      "d": "False, hash functions actually expand small messages into massive files."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Evaluate this statement: ECC-based TLS certificates significantly increase the processing load on web servers, making websites load slower.",
+    "options": {
+      "a": "True, the complex math causes severe server bottlenecking during traffic spikes.",
+      "b": "False, ECC certificates help websites load faster and reduce server processing loads.",
+      "c": "True, which is why major platforms like Google strictly avoid using ECC.",
+      "d": "False, TLS certificates have absolutely no impact on website loading speeds."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Evaluate this statement: Cryptographic protocols are simply single mathematical algorithms acting independently to secure data.",
+    "options": {
+      "a": "True, a protocol and an algorithm are exactly the same technical concept.",
+      "b": "False, a protocol is a formalized framework dictating how to use cryptography.",
+      "c": "True, protocols do not involve step-by-step processes or system agreements.",
+      "d": "False, protocols refer only to the physical network cables transmitting data."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Evaluate this statement: The 'Signal Protocol' is a legacy system that requires continuous network connectivity to secure messages.",
+    "options": {
+      "a": "True, if the network drops, all previously sent messages are immediately exposed.",
+      "b": "False, it is resilient to network interruptions and device changes.",
+      "c": "True, it is no longer used by modern applications like WhatsApp.",
+      "d": "False, it is a server-side protocol that has nothing to do with messaging."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Evaluate this statement: The NIST PQC standardization process involved a global effort to evaluate and select quantum-resistant algorithms.",
+    "options": {
+      "a": "True, it included rigorous evaluation, simulated attacks, and public peer review.",
+      "b": "False, it was a secretive project conducted entirely by isolated US researchers.",
+      "c": "True, but no algorithms actually survived the final evaluation phase.",
+      "d": "False, the project was completely abandoned in 2022 due to lack of funding."
+    },
+    "correctAnswer": "a"
+  }
+]

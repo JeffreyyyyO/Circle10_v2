@@ -1,0 +1,772 @@
+[
+  {
+    "question": "What is the primary risk associated with operating cybersecurity tools in isolated silos?",
+    "options": {
+      "a": "It forces organizations to purchase expensive hardware upgrades to maintain tool performance.",
+      "b": "It creates significant visibility gaps and duplicates efforts due to a lack of data correlation.",
+      "c": "It automatically triggers false positive alerts across the entire local area network infrastructure.",
+      "d": "It requires all employees to memorize multiple complex passwords for everyday software."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following best defines the practice of Secure System Integration?",
+    "options": {
+      "a": "Combining disparate security tools into a cohesive, intelligent, and responsive architecture.",
+      "b": "Physically locking all enterprise server hardware in a centralized, highly monitored data center.",
+      "c": "Replacing all legacy security software with a single, cloud-native enterprise application.",
+      "d": "Enforcing mandatory biweekly password resets for every single user in the organization."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How does integrating systems directly accelerate an organization's incident response time?",
+    "options": {
+      "a": "It legally bypasses standard compliance regulations, allowing teams to act without auditing.",
+      "b": "It enables automation platforms to execute remediation workflows in near real-time.",
+      "c": "It physically increases the bandwidth speed of the corporate internet service provider.",
+      "d": "It disables all endpoint firewalls to allow security teams uninterrupted access to devices."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the context of cybersecurity, what is the primary function of an API?",
+    "options": {
+      "a": "To permanently encrypt all data stored on an enterprise's local hard drives.",
+      "b": "To enable programmatic communication and data exchange between different tools.",
+      "c": "To provide a user-friendly graphical interface for non-technical company employees.",
+      "d": "To physically bridge the gap between two disconnected local area networks."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which security principle should be strictly followed when granting API access tokens?",
+    "options": {
+      "a": "Assume Breach",
+      "b": "Defense in Depth",
+      "c": "Least Privilege",
+      "d": "Security through Obscurity"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Why is implementing rate limiting a critical best practice for securing API integrations?",
+    "options": {
+      "a": "It ensures that API communication is converted from plaintext to a proprietary binary format.",
+      "b": "It prevents malicious abuse or accidental overloads from crashing the API endpoints.",
+      "c": "It automatically categorizes and normalizes incoming data streams for the SIEM platform.",
+      "d": "It translates legacy application code into modern, scalable microservice architectures."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the specific purpose of implementing Mutual TLS (mTLS) in an API architecture?",
+    "options": {
+      "a": "To compress data payloads, allowing for faster transmission over slow mobile networks.",
+      "b": "To authenticate both the client and the server, ensuring secure, bidirectional trust.",
+      "c": "To automatically rotate API keys every twenty-four hours without human intervention.",
+      "d": "To translate older network protocols into modernized RESTful API web standards."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a primary consequence of failing to implement input validation on an API?",
+    "options": {
+      "a": "The API will automatically downgrade its connection to a slower, unencrypted protocol.",
+      "b": "The system becomes highly vulnerable to injection attacks and malformed data exploits.",
+      "c": "The API will only be able to accept data formatted in legacy Syslog standard structures.",
+      "d": "The system will permanently lock out all administrators until the server is rebooted."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which standardized log format is recognized as a lightweight, structured data format ideal for modern analytics?",
+    "options": {
+      "a": "Syslog",
+      "b": "CEF (Common Event Format)",
+      "c": "JSON (JavaScript Object Notation)",
+      "d": "CSV (Comma-Separated Values)"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What role does a tool like Fluentd or Logstash play in a cybersecurity log forwarding architecture?",
+    "options": {
+      "a": "They act as endpoint protection agents that actively block malware execution on host devices.",
+      "b": "They serve as identity providers, granting users Single Sign-On access to cloud applications.",
+      "c": "They operate as centralized log collectors that parse, normalize, and relay data downstream.",
+      "d": "They function as standalone firewalls that physically block malicious incoming network traffic."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Why is the Network Time Protocol (NTP) considered absolutely essential for effective log forwarding?",
+    "options": {
+      "a": "It encrypts all network traffic to prevent eavesdropping during large data transfers.",
+      "b": "It ensures accurate timestamps, which are critical for correlating events across diverse sources.",
+      "c": "It automatically archives old log files to preserve space on centralized storage servers.",
+      "d": "It forces legacy applications to output their internal logs in a standardized JSON format."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following actions best helps verify the integrity and authenticity of forwarded logs?",
+    "options": {
+      "a": "Converting all log files into plain text documents before transmitting them.",
+      "b": "Using log signing or hashing mechanisms to ensure data has not been tampered with.",
+      "c": "Sending all security logs over the standard, unencrypted User Datagram Protocol (UDP).",
+      "d": "Allowing all corporate employees to access the SIEM dashboard to visually inspect logs."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What significant problem do middleware and message brokers solve in modern security operations?",
+    "options": {
+      "a": "They completely replace the need for traditional SIEMs by analyzing threats internally.",
+      "b": "They decrypt all incoming network traffic automatically without requiring SSL certificates.",
+      "c": "They decouple data generation from analysis, providing massive scalability and resilience.",
+      "d": "They physically connect on-premise legacy servers directly to public cloud infrastructure."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In a Publish-Subscribe (Pub/Sub) architecture, what is the primary function of the message broker?",
+    "options": {
+      "a": "To actively scan all incoming data packets for known malware signatures and drop them.",
+      "b": "To temporarily store data in topics and route it efficiently from producers to consumers.",
+      "c": "To permanently archive all security events for long-term legal and regulatory compliance.",
+      "d": "To serve as the primary authentication gateway for remote employees accessing the network."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which software platform is widely recognized as a highly scalable, industry-standard message broker?",
+    "options": {
+      "a": "Apache Kafka",
+      "b": "Microsoft Active Directory",
+      "c": "Cisco Firepower",
+      "d": "VMware ESXi"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the strategic advantage of \"Replayability\" in a message broker architecture?",
+    "options": {
+      "a": "It allows employees to watch recorded video tutorials of complex software installations.",
+      "b": "It enables organizations to legally bypass standard data retention compliance laws.",
+      "c": "It forces attackers into an infinite loop, effectively mitigating denial-of-service attacks.",
+      "d": "It allows historical data to be re-analyzed using brand new or updated threat detection logic."
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "How does a message broker handle the scenario where a downstream SIEM goes offline for maintenance?",
+    "options": {
+      "a": "It immediately deletes all incoming data to prevent the broker from overflowing.",
+      "b": "It redirects all the raw data directly to the analysts' personal email accounts.",
+      "c": "It temporarily holds the messages in its queue, preventing catastrophic data loss.",
+      "d": "It automatically shuts down all source systems until the SIEM comes back online."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary operational consequence of attempting to manually investigate every single security alert?",
+    "options": {
+      "a": "The organization will achieve a flawless, perfectly secure network architecture.",
+      "b": "Security analysts will inevitably suffer from severe alert fatigue and miss critical incidents.",
+      "c": "The SIEM platform will automatically optimize its correlation rules for better accuracy.",
+      "d": "The corporate firewalls will gradually learn to block all benign employee network traffic."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does the acronym SOAR stand for in the context of cybersecurity operations?",
+    "options": {
+      "a": "Systematic Observation, Analysis, and Remediation",
+      "b": "Security Orchestration, Automation, and Response",
+      "c": "Standardized Output and Analytical Reporting",
+      "d": "Strategic Organization of Automated Resources"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Within a SOAR platform, what specifically defines the series of logical steps used to handle an incident?",
+    "options": {
+      "a": "A Playbook",
+      "b": "A Data Dictionary",
+      "c": "An Access Control List",
+      "d": "A Routing Protocol"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In an automated brute-force response playbook, what is a typical example of an \"Enrichment\" step?",
+    "options": {
+      "a": "Sending an automated email to the company CEO summarizing the potential breach.",
+      "b": "Automatically shutting down the main corporate database to prevent data extraction.",
+      "c": "Querying an external threat intelligence feed like VirusTotal to check a suspicious IP.",
+      "d": "Deploying a brand new virtual machine to act as a honeypot for the attacking IP."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Why is it highly recommended to include a \"Human-in-the-Loop\" step for specific SOAR playbooks?",
+    "options": {
+      "a": "Because SOAR platforms are entirely incapable of executing scripts without human interaction.",
+      "b": "To ensure manual approval is obtained before executing highly disruptive containment actions.",
+      "c": "To legally satisfy the requirements of the Payment Card Industry Data Security Standard.",
+      "d": "Because AI algorithms cannot process data feeds faster than a trained human security analyst."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the core purpose of performing Data Normalization on raw security logs?",
+    "options": {
+      "a": "To compress the files into smaller zip archives, saving storage space on corporate servers.",
+      "b": "To permanently delete any non-critical data fields, ensuring the SIEM runs significantly faster.",
+      "c": "To standardize disparate log formats from various tools into one common, searchable schema.",
+      "d": "To actively scan the raw log text for embedded malware before it reaches the data lake."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is a widely adopted, industry-standard data normalization framework?",
+    "options": {
+      "a": "TCP (Transmission Control Protocol)",
+      "b": "ECS (Elastic Common Schema)",
+      "c": "HTTP (Hypertext Transfer Protocol)",
+      "d": "AES (Advanced Encryption Standard)"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "When normalizing data, why is it considered a best practice to retain the original raw data alongside it?",
+    "options": {
+      "a": "Because raw data is the only format that can be sent securely over a standard VPN connection.",
+      "b": "To ensure that analysts do not lose critical, unmapped context during deep investigations.",
+      "c": "Because modern SOAR playbooks can only execute automation commands using raw data.",
+      "d": "To artificially inflate the volume of data stored, satisfying specific vendor licensing quotas."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following scenarios is the best example of \"Data Enrichment\"?",
+    "options": {
+      "a": "Converting a date written as '12/04/2023' into a standard ISO 8601 timestamp.",
+      "b": "Mapping a generic 'userid' field from an application to a standardized 'user.name' field.",
+      "c": "Appending a user's full name and corporate department to a raw authentication log.",
+      "d": "Deleting excess network traffic logs that occurred outside of standard business hours."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary reason for implementing a Time To Live (TTL) on threat intelligence enrichment data?",
+    "options": {
+      "a": "To ensure that threat data naturally expires so legitimate IPs aren't permanently blacklisted.",
+      "b": "To force the security team to manually review every single log entry at least once a month.",
+      "c": "To permanently archive the data into deep cold storage for regulatory compliance reasons.",
+      "d": "To comply with strict hardware limitations associated with older, legacy firewall appliances."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is integrating legacy systems into a modern security architecture notoriously difficult?",
+    "options": {
+      "a": "Legacy systems typically utilize advanced, uncrackable encryption that modern SIEMs cannot read.",
+      "b": "Legacy systems constantly generate false positive alerts designed to crash modern message brokers.",
+      "c": "Legacy systems often lack API support and output logs in complex, proprietary, unstructured formats.",
+      "d": "Legacy systems require a continuous connection to the public internet to function properly."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "How can an organization securely extract logs from a legacy application that lacks modern API support?",
+    "options": {
+      "a": "By permanently migrating the entire legacy application to a public cloud container environment.",
+      "b": "By developing a custom wrapper or installing a local agent to collect and forward the log files.",
+      "c": "By physically connecting a dedicated external hard drive to the legacy server every single day.",
+      "d": "By forcing the legacy software vendor to rewrite the application code in modern Python."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is exposing legacy management interfaces directly to modern security automation tools dangerous?",
+    "options": {
+      "a": "The modern tools will automatically attempt to delete the outdated legacy application source code.",
+      "b": "It will cause massive network congestion, effectively slowing down the entire corporate intranet.",
+      "c": "Attackers frequently exploit these older, vulnerable interfaces to pivot into the broader network.",
+      "d": "The legacy systems will immediately begin producing logs in a format that corrupts the SIEM."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which type of event correlation detects related suspicious actions occurring within a very specific timeframe?",
+    "options": {
+      "a": "Spatial Correlation",
+      "b": "Temporal Correlation",
+      "c": "Behavioral Correlation",
+      "d": "Geographic Correlation"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "An alert triggered because multiple failed logins originated from the exact same IP address is an example of:",
+    "options": {
+      "a": "Temporal Correlation",
+      "b": "Spatial Correlation",
+      "c": "Behavioral Correlation",
+      "d": "Endpoint Correlation"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which enterprise security control is explicitly designed to detect and block the unauthorized transmission of sensitive information?",
+    "options": {
+      "a": "Identity and Access Management (IAM)",
+      "b": "Intrusion Prevention System (IPS)",
+      "c": "Data Loss Prevention (DLP)",
+      "d": "Virtual Private Network (VPN)"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In the context of a DLP system, what does \"Data in Motion\" refer to?",
+    "options": {
+      "a": "Data that is currently being actively edited by a user on their desktop computer.",
+      "b": "Data that is actively being transmitted from one location to another over a network.",
+      "c": "Data that is securely stored inside a heavily encrypted enterprise database.",
+      "d": "Data that has been permanently deleted but is still recoverable via forensic tools."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How does an Intrusion Prevention System (IPS) primarily differ from an Intrusion Detection System (IDS)?",
+    "options": {
+      "a": "An IPS only monitors internal network traffic, while an IDS only monitors public internet traffic.",
+      "b": "An IPS is installed on individual employee laptops, while an IDS is installed on core routers.",
+      "c": "An IPS automatically takes preventative action to block threats, while an IDS only generates alerts.",
+      "d": "An IPS can only detect known malware signatures, while an IDS utilizes advanced machine learning."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the primary advantage of utilizing Anomaly-Based Detection within an IPS?",
+    "options": {
+      "a": "It strictly relies on vendor-provided signature updates, making it incredibly easy to manage.",
+      "b": "It can identify brand new, zero-day attacks by detecting deviations from normal traffic baselines.",
+      "c": "It consumes significantly less processing power than basic, static packet filtering firewalls.",
+      "d": "It automatically decrypts all HTTPS traffic entering the network without requiring any keys."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is it a best practice to configure an inline IPS device to \"fail open\"?",
+    "options": {
+      "a": "So that if the IPS device crashes or loses power, legitimate network traffic continues to flow.",
+      "b": "So that the device automatically opens all firewall ports to allow remote IT troubleshooting.",
+      "c": "To ensure that all internal proprietary source code is immediately published to public repositories.",
+      "d": "To permanently block all incoming internet traffic, effectively isolating the entire organization."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following frameworks governs the full lifecycle of user identities and their specific resource permissions?",
+    "options": {
+      "a": "Data Loss Prevention (DLP)",
+      "b": "Intrusion Prevention System (IPS)",
+      "c": "Security Information and Event Management (SIEM)",
+      "d": "Identity and Access Management (IAM)"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Within the IAM framework, what is the specific purpose of \"Authorization\"?",
+    "options": {
+      "a": "To confirm a user's identity by requiring them to input a password and a biometric scan.",
+      "b": "To determine exactly what network resources and files an authenticated user is allowed to access.",
+      "c": "To keep a detailed, tamper-proof log of every single action a user takes on the network.",
+      "d": "To automatically revoke all user privileges if they attempt to log in from a foreign country."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary security benefit of implementing Just-In-Time (JIT) access within an IAM strategy?",
+    "options": {
+      "a": "It grants temporary, time-bound access to sensitive resources, reducing the risk of persistent privilege abuse.",
+      "b": "It allows employees to completely bypass Multi-Factor Authentication if they are using a company laptop.",
+      "c": "It securely stores all employee passwords in a centralized, easily accessible plaintext text document.",
+      "d": "It ensures that network resources are only available during standard, local daytime business hours."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How does Identity Federation streamline user access across complex enterprise environments?",
+    "options": {
+      "a": "By requiring users to create a brand new, highly complex password for every single application.",
+      "b": "By supporting Single Sign-On (SSO), allowing users to authenticate once across multiple applications.",
+      "c": "By completely replacing the need for passwords with unsecured, open-access internal networks.",
+      "d": "By storing individual user credentials locally on the hard drive of every specific application server."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "According to the module, what specific method did attackers use to compromise the SolarWinds software build process?",
+    "options": {
+      "a": "They executed a massive Distributed Denial of Service (DDoS) attack against the main servers.",
+      "b": "They infiltrated the supply chain and inserted a backdoor directly into software updates.",
+      "c": "They physically broke into the SolarWinds headquarters and stole hard drives containing code.",
+      "d": "They successfully guessed the default administrator password for the company's main website."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which critical best practice was primarily ignored, leading to the massive 2017 Equifax data breach?",
+    "options": {
+      "a": "Implementing robust physical security controls at their main corporate data centers.",
+      "b": "Applying available security patches to known vulnerabilities in their web applications.",
+      "c": "Requiring all remote employees to use a Virtual Private Network when accessing emails.",
+      "d": "Using a commercial off-the-shelf antivirus solution on employee workstation laptops."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the Capital One breach, what specific architectural component was misconfigured, allowing the attacker to access data?",
+    "options": {
+      "a": "An unpatched on-premise legacy database server.",
+      "b": "A cloud-based Web Application Firewall (WAF).",
+      "c": "An employee's unsecured home Wi-Fi network.",
+      "d": "A physical data diode used in an air-gapped room."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What fundamental shift did Google's BeyondCorp model introduce to enterprise security architecture?",
+    "options": {
+      "a": "It moved access control away from the network perimeter to individual user and device identity.",
+      "b": "It mandated that all corporate data must be stored exclusively on physically air-gapped servers.",
+      "c": "It replaced all advanced AI threat detection tools with a team of manual security analysts.",
+      "d": "It required all employees to exclusively use hardwired ethernet connections rather than Wi-Fi."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How did attackers initially breach Target's network before moving laterally to access Point-of-Sale systems?",
+    "options": {
+      "a": "By executing a highly complex zero-day exploit against Target's primary external firewall.",
+      "b": "By exploiting the weak security controls of a third-party HVAC vendor to access a portal.",
+      "c": "By physically installing malicious credit card skimmers on all checkout registers nationwide.",
+      "d": "By sending a highly convincing phishing email directly to the company's Chief Executive Officer."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following was a key failure that exacerbated the severity of the 2013 Adobe data breach?",
+    "options": {
+      "a": "Storing user passwords using weak encryption and hashing formats, making them easy to crack.",
+      "b": "Failing to implement a perimeter firewall, leaving internal servers directly exposed to the internet.",
+      "c": "Allowing all employees unrestricted access to modify the company's proprietary source code.",
+      "d": "Storing all customer credit card data on physical USB drives rather than secure cloud servers."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "During the Microsoft Exchange Server hack, what mechanism did attackers deploy to maintain persistent access?",
+    "options": {
+      "a": "They utilized stolen administrator passwords to log in via standard Remote Desktop Protocol.",
+      "b": "They installed web shells on the compromised servers after exploiting zero-day vulnerabilities.",
+      "c": "They manipulated the core routing tables to redirect all company emails to an external server.",
+      "d": "They physically mailed infected USB drives to employees, hoping someone would plug them in."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What catastrophic operational mistake led to the 2016 Uber data breach?",
+    "options": {
+      "a": "An engineer accidentally deleted the primary customer database without a backup.",
+      "b": "The company failed to configure a basic packet filtering firewall on their main application.",
+      "c": "Engineers stored highly sensitive database credentials directly inside a private GitHub repository.",
+      "d": "A third-party contractor physically stole an unencrypted laptop from a corporate office."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What does the strategic concept of \"Shift Left Security\" primarily advocate for?",
+    "options": {
+      "a": "Moving all corporate servers to the western hemisphere to comply with international privacy laws.",
+      "b": "Embedding rigorous security practices and testing into the earliest stages of software design.",
+      "c": "Transferring all security responsibilities away from IT staff and assigning them to regular users.",
+      "d": "Delaying all security testing until the software has been fully deployed into a live environment."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a key reason why isolated security tools create dangerous visibility gaps?",
+    "options": {
+      "a": "Because they lack native communication capabilities and cannot easily share data or correlate events.",
+      "b": "Because isolated tools automatically delete all threat logs after exactly twenty-four hours.",
+      "c": "Because isolation completely prevents the tools from receiving critical manufacturer updates.",
+      "d": "Because they encrypt their data so heavily that even human analysts cannot read the alerts."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which integration strategy involves developing custom scripts to extract data from an older system and expose it via modern APIs?",
+    "options": {
+      "a": "Agent-Based Collection",
+      "b": "Protocol Translation",
+      "c": "Custom Wrappers or Adapters",
+      "d": "Isolated Log Aggregation"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following represents a \"Behavioral Correlation\" performed by a SIEM?",
+    "options": {
+      "a": "Detecting three separate failed login attempts occurring within a tight five-minute window.",
+      "b": "Detecting suspicious login activity originating simultaneously from two different countries.",
+      "c": "Detecting a user accessing files in a manner that deviates entirely from their historical baseline.",
+      "d": "Detecting an outdated, unpatched version of an application running on a corporate endpoint."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which regulatory framework specifically mandates strict Segregation of Duties (SoD) for financial records?",
+    "options": {
+      "a": "HIPAA (Health Insurance Portability and Accountability Act)",
+      "b": "GDPR (General Data Protection Regulation)",
+      "c": "PCI-DSS (Payment Card Industry Data Security Standard)",
+      "d": "SOX (Sarbanes-Oxley Act)"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What is the primary function of a Cloud Access Security Broker (CASB) in a DLP strategy?",
+    "options": {
+      "a": "To physically connect local endpoint devices to remote cloud storage servers via ethernet.",
+      "b": "To monitor and protect sensitive data being uploaded to or stored within cloud applications.",
+      "c": "To automatically process payments for cloud subscription services on behalf of the company.",
+      "d": "To permanently block all access to public cloud storage applications like Google Drive."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "When deploying a new DLP policy, why is it crucial to start in a \"Monitor-Only\" mode?",
+    "options": {
+      "a": "To understand user behavior and minimize disruptive false positives before enforcing blocking actions.",
+      "b": "To deliberately allow attackers to steal a small amount of data so their identity can be tracked.",
+      "c": "To ensure the DLP software does not consume too much of the server's available RAM or CPU.",
+      "d": "To comply with international privacy laws that forbid the active blocking of employee emails."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which specific IAM capability uses machine learning to dynamically prompt for MFA if it detects anomalies like impossible travel?",
+    "options": {
+      "a": "Just-In-Time (JIT) Access",
+      "b": "Identity Federation",
+      "c": "Risk-Based Authentication",
+      "d": "Lifecycle Automation"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What happens during the \"Lifecycle Automation\" process of an IAM system when an employee is terminated in the HR database?",
+    "options": {
+      "a": "The employee is sent an automated email thanking them for their service to the organization.",
+      "b": "The employee's access across all integrated tools and systems is instantly and automatically revoked.",
+      "c": "The system pauses the employee's access for thirty days in case they are rehired by the company.",
+      "d": "The system automatically forwards all of the employee's future emails directly to their manager."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What common security failure links the Target data breach and the SolarWinds supply chain attack?",
+    "options": {
+      "a": "Both attacks were entirely executed by an internal, malicious employee acting alone.",
+      "b": "Both attacks were caused by an organization failing to update their antivirus software.",
+      "c": "Both attacks involved the exploitation of trusted, third-party vendor access or software.",
+      "d": "Both attacks resulted in the theft of over one billion user passwords stored in plaintext."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following best describes the principle of \"Defense in Depth\"?",
+    "options": {
+      "a": "Relying on a single, highly advanced AI firewall to stop all incoming cyber attacks.",
+      "b": "Combining multiple security controls (like DLP, IPS, and IAM) holistically in layers.",
+      "c": "Moving all sensitive corporate data to a secure, disconnected, offline hard drive.",
+      "d": "Hiring multiple third-party cybersecurity firms to manually monitor the network 24/7."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What specific vulnerability allowed attackers to maintain persistent, undetected access in the Yahoo data breach?",
+    "options": {
+      "a": "The failure to utilize strong, modern password hashing algorithms like Bcrypt or PBKDF2.",
+      "b": "The decision to store customer passwords in plain text on an unencrypted web server.",
+      "c": "The complete lack of any network perimeter firewalls surrounding the database servers.",
+      "d": "The intentional installation of a malicious backdoor by a disgruntled Yahoo software engineer."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Without secure system integration, an organization risks duplicating security efforts and missing critical threats due to visibility gaps.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: The principle of \"Least Privilege\" states that a user or API token should be granted maximum administrative rights to ensure smooth application functionality.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Log normalization involves standardizing disparate log formats into a single, common schema to allow for accurate and consistent threat correlation.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: A message broker completely replaces the need for a SIEM platform by automatically resolving all detected network security threats.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: The primary purpose of a SOAR platform is to centralize automation, execute playbooks, and drastically reduce alert fatigue for human analysts.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: When building SOAR playbooks, it is an established best practice to automate every single response action without ever requiring manual human approval.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Data enrichment involves transforming a raw event by injecting additional, meaningful context directly into it, such as adding geographical location data to an IP address.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Integrating older, legacy systems into a modern security architecture is generally effortless because all legacy software natively supports secure RESTful API connections.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: Exposing a vulnerable legacy application interface directly to the public internet or modern automation tools is considered a highly dangerous practice that attackers often exploit.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: In a hybrid cloud environment, organizations should strive to aggregate their telemetry from both on-premise and cloud systems into a single, unified analytics platform.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Data Loss Prevention (DLP) solutions are strictly limited to monitoring network traffic and are entirely incapable of inspecting data resting on local hard drives.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: An Intrusion Prevention System (IPS) deployed inline has the capability to actively drop malicious packets and terminate unauthorized connections before they cause harm.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: If an inline IPS device experiences a critical hardware failure and is configured to \"fail closed,\" it will physically block all legitimate network traffic from passing through.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Identity Federation and Single Sign-On (SSO) are technologies that require users to memorize dozens of different passwords for their daily software applications.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: The massive SolarWinds breach was a prime example of a supply chain attack, where threat actors injected a malicious backdoor directly into trusted software updates.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: The 2017 Equifax data breach could have been largely prevented if the organization had maintained a proper vulnerability management program and applied available security patches.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Google's BeyondCorp architecture significantly improved security by relying solely on a massive, impenetrable perimeter firewall rather than individual user identity verification.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: The Target data breach highlighted the critical importance of strictly segregating internal corporate networks from external, third-party vendor access portals.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "True or False: Storing plaintext database credentials directly inside private or public GitHub repositories is an acceptable practice as long as the repository requires a password.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "True or False: The concept of \"Shift Left Security\" emphasizes that organizations should address security vulnerabilities during the initial design phase rather than waiting until deployment.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  }
+]

@@ -1,0 +1,912 @@
+[
+  {
+    "question": "What is the foundational objective of system security within an IT infrastructure?",
+    "options": {
+      "a": "To replace all physical server hardware with virtualized cloud instances.",
+      "b": "To protect core components like operating systems, applications, and middleware through hardening.",
+      "c": "To exclusively focus on perimeter firewalls to keep attackers outside the network.",
+      "d": "To increase application performance by disabling security protocols that introduce latency."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why did the WannaCry ransomware outbreak of 2017 pose such a massive threat to global systems?",
+    "options": {
+      "a": "It successfully bypassed all modern AI-based EDR tools by utilizing sophisticated behavioral mimicking.",
+      "b": "It exploited a known vulnerability in the Windows SMB protocol for which a patch was already available.",
+      "c": "It attacked the physical hardware BIOS of the affected servers to prevent system recovery.",
+      "d": "It relied on zero-day exploits that had never been documented by security researchers previously."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a primary operating system attack vector described in the notes?",
+    "options": {
+      "a": "Physical destruction of server rack power supplies.",
+      "b": "Unpatched vulnerabilities in system code and services.",
+      "c": "The automatic replacement of local user profiles with root-level administrator accounts.",
+      "d": "The deliberate throttling of network bandwidth to disrupt user sessions."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What makes middleware components particularly dangerous if left unsecured?",
+    "options": {
+      "a": "They act as a bridge between the OS and applications, often serving as a target for lateral movement.",
+      "b": "They are incompatible with standard operating system logging and audit mechanisms.",
+      "c": "They automatically delete system audit logs to conserve disk space for application data.",
+      "d": "They can only run on legacy, non-encrypted hardware platforms."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following is an example of an attack vector specifically targeting middleware?",
+    "options": {
+      "a": "SQL injection aimed at manipulating database queries via application input.",
+      "b": "The physical theft of server chassis from secure, locked-down colocation facilities.",
+      "c": "The unauthorized replacement of server-side CPU processors with faster models.",
+      "d": "Directly editing system kernel binaries to change the OS version string."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the primary goal of the 'System Hardening' process?",
+    "options": {
+      "a": "To reduce the system's attack surface by disabling unnecessary services, ports, and insecure defaults.",
+      "b": "To replace all existing administrative accounts with a single global shared password.",
+      "c": "To maximize hardware performance by overclocking the system's processing cores.",
+      "d": "To ensure that all temporary files are permanently saved to the system registry."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What concept describes using multiple layers of security controls to build redundancy?",
+    "options": {
+      "a": "Defense in Depth.",
+      "b": "The Principle of Least Privilege.",
+      "c": "Network Segmentation.",
+      "d": "Credential Obfuscation."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In the Linux security model, what is the purpose of Mandatory Access Control (MAC) frameworks like SELinux?",
+    "options": {
+      "a": "To define strict policies governing what a process can do, even if the user is root.",
+      "b": "To automatically grant read/write access to all system logs for every local user.",
+      "c": "To allow standard users to bypass system kernel-level permission checks during boot.",
+      "d": "To encrypt the home directories of all users using public-key infrastructure."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How does Fail2ban provide automated protection for an internet-facing Linux server?",
+    "options": {
+      "a": "It monitors logs for repeated failed login attempts and bans the IP address via firewall rules.",
+      "b": "It encrypts all network traffic arriving at the SSH port to prevent eavesdropping.",
+      "c": "It automatically patches vulnerable software libraries found in the operating system.",
+      "d": "It replaces insecure user passwords with physical smart card authentication tokens."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the function of Pluggable Authentication Modules (PAM) in Linux?",
+    "options": {
+      "a": "To control how users authenticate to the system and enforce policies like account locking.",
+      "b": "To serve as a firewall that blocks all inbound traffic on ports below 1024.",
+      "c": "To provide a graphical interface for managing user disk quotas and storage limits.",
+      "d": "To automatically compress system logs to save disk space for security archives."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What access state does the Linux file permission '600' provide?",
+    "options": {
+      "a": "Read and write access for the owner only; no access for group or others.",
+      "b": "Full read, write, and execute access for the owner, group, and others.",
+      "c": "Read-only access for everyone on the system.",
+      "d": "Execute-only access for the owner only."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In Linux, what command is used to assign a file to a specific user and group?",
+    "options": {
+      "a": "chown",
+      "b": "chmod",
+      "c": "chgrp",
+      "d": "chperm"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the role of the Security Reference Monitor (SRM) in Windows?",
+    "options": {
+      "a": "It enforces access control policies by checking every access request against the defined ACLs.",
+      "b": "It automatically generates a graphical report of system performance metrics.",
+      "c": "It manages the distribution of security updates from the WSUS server.",
+      "d": "It serves as an antivirus scanner that monitors file downloads in real time."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does User Account Control (UAC) do in a Windows environment?",
+    "options": {
+      "a": "Prompts users for elevated permissions when an action requires administrative rights.",
+      "b": "Automatically blocks all internet access for standard user accounts.",
+      "c": "Encrypts the system drive using a BitLocker recovery key.",
+      "d": "Manages user account password rotations in Active Directory."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the primary function of BitLocker Drive Encryption?",
+    "options": {
+      "a": "It encrypts an entire storage volume to protect data at rest against unauthorized physical access.",
+      "b": "It creates a virtual private network tunnel to secure data in transit.",
+      "c": "It monitors for and blocks malicious processes running on the local host.",
+      "d": "It provides centralized management for pushing security updates across a domain."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What tool is used in Windows environments to centrally manage security policies across thousands of machines?",
+    "options": {
+      "a": "Group Policy.",
+      "b": "Task Manager.",
+      "c": "Windows Defender Firewall.",
+      "d": "System Information."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How does WSUS help organizations improve their security posture?",
+    "options": {
+      "a": "By enabling centralized control, distribution, and monitoring of security updates.",
+      "b": "By encrypting all network traffic between internal clients and external servers.",
+      "c": "By automatically detecting and removing malware from end-user email accounts.",
+      "d": "By providing a graphical interface for configuring complex Active Directory forests."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the goal of setting strict file permissions on application configuration files?",
+    "options": {
+      "a": "To ensure only the necessary system users can read or modify sensitive credentials and keys.",
+      "b": "To boost application performance by limiting the number of times files are read.",
+      "c": "To prevent unauthorized users from deleting the file entirely.",
+      "d": "To force the operating system to move the file into a hidden directory."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following describes an 'Indicators of Compromise' (IoC)?",
+    "options": {
+      "a": "Specific signs, such as unauthorized account creation, suggesting a breach may be in progress.",
+      "b": "The standard password complexity requirements defined by the organization's HR team.",
+      "c": "The amount of free disk space remaining on a database server.",
+      "d": "The name of the vendor providing the firewall hardware for the network."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What components make up the 'ELK Stack' often used as a basic SIEM pipeline?",
+    "options": {
+      "a": "Elasticsearch, Logstash, and Kibana.",
+      "b": "Endpoint, Logs, and Kernel.",
+      "c": "Encryption, Logging, and Keys.",
+      "d": "External, Local, and Known."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which tool provides the most granular level of control over network traffic into and out of a Linux machine?",
+    "options": {
+      "a": "iptables / firewalld.",
+      "b": "Get-Service.",
+      "c": "Services.msc.",
+      "d": "The system log viewer."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is an advantage of centralized logging?",
+    "options": {
+      "a": "It allows logs to be stored securely and analyzed in real-time from a single location.",
+      "b": "It completely removes the need for local endpoint firewall rules.",
+      "c": "It automatically patches all vulnerabilities found within the server environment.",
+      "d": "It enables users to reset their own passwords without administrative intervention."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What are the common event categories that should be audited on critical systems?",
+    "options": {
+      "a": "Privilege changes, sensitive file access, system configuration changes, and execution of privileged commands.",
+      "b": "Browser history, user-downloaded image files, and printer queue status.",
+      "c": "CPU usage, memory availability, and disk read/write speeds.",
+      "d": "The brand of the computer and the model of the local monitor display."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which command is used to change file permissions on a Linux system?",
+    "options": {
+      "a": "chmod",
+      "b": "chown",
+      "c": "chgrp",
+      "d": "chperm"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does a '7' represent in a Linux octal permission mode?",
+    "options": {
+      "a": "Read, write, and execute (rwx).",
+      "b": "Read and execute only (r-x).",
+      "c": "Write only (-w-).",
+      "d": "No permissions (---)."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the primary function of the 'Group Policy' feature in an Active Directory environment?",
+    "options": {
+      "a": "To push security configurations and rules to multiple machines from a central location.",
+      "b": "To automatically scan for and install hardware drivers on new devices.",
+      "c": "To create a backup of all local system data on a regular schedule.",
+      "d": "To act as an external firewall for all outgoing internet traffic."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why should you test new policies in a lab environment before deploying them?",
+    "options": {
+      "a": "To avoid accidental service disruption or being locked out of systems due to misconfiguration.",
+      "b": "To ensure they are compatible with all legacy, unsupported hardware devices.",
+      "c": "To measure the impact on network bandwidth during policy deployment.",
+      "d": "To wait for a vendor's approval on the policy configuration."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the function of the 'Local Security Policy' tool?",
+    "options": {
+      "a": "To manage security settings on a standalone Windows machine that is not domain-joined.",
+      "b": "To manage security settings across an entire corporate domain automatically.",
+      "c": "To configure the hardware BIOS settings for an individual server.",
+      "d": "To scan for and remove viruses from the system local drive."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the primary benefit of BitLocker's integration with the TPM (Trusted Platform Module)?",
+    "options": {
+      "a": "It ensures secure storage of encryption keys and validates system integrity during boot.",
+      "b": "It allows the system to boot faster than if it were not encrypted.",
+      "c": "It automatically clears the system memory on every restart.",
+      "d": "It allows the encryption to be managed entirely over a wireless connection."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which Windows feature classifies network connections into profiles to determine firewall rules?",
+    "options": {
+      "a": "Network Profiles (Domain, Private, Public).",
+      "b": "The Local Security Group Manager.",
+      "c": "The Windows Task Scheduler.",
+      "d": "The BitLocker Recovery Tool."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What are the common classifications for updates managed in WSUS?",
+    "options": {
+      "a": "Critical Updates, Security Updates, and Feature Packs.",
+      "b": "Desktop Themes, Wallpapers, and Icons.",
+      "c": "Language Packs, Audio Drivers, and Video codecs.",
+      "d": "User accounts, Group Policies, and Domain settings."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is it important to synchronize specific Microsoft products with WSUS?",
+    "options": {
+      "a": "To ensure only necessary patches for deployed software are downloaded, saving bandwidth and space.",
+      "b": "To allow end-users to choose which patches they want to install.",
+      "c": "To prevent Microsoft from automatically updating the WSUS server itself.",
+      "d": "To maximize the number of updates downloaded for all possible Microsoft products."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which tool provides performance monitoring and alerting for host resources?",
+    "options": {
+      "a": "Nagios.",
+      "b": "Git.",
+      "c": "The Windows Registry Editor.",
+      "d": "The Bash shell manual page."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the main advantage of continuous monitoring for security?",
+    "options": {
+      "a": "It identifies anomalies and security breaches in real-time.",
+      "b": "It completely replaces the need for a firewall.",
+      "c": "It removes the need for administrators to perform daily check-ins.",
+      "d": "It lowers the cost of physical server hardware."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which tool is known for its web-based interface and automated network device discovery?",
+    "options": {
+      "a": "Zabbix.",
+      "b": "The Linux system log viewer.",
+      "c": "The Windows Event Log file.",
+      "d": "The Bash echo command."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why do log files need to be secured?",
+    "options": {
+      "a": "To protect sensitive information and prevent attackers from tampering with forensic trails.",
+      "b": "To allow the server to process files more quickly.",
+      "c": "To make them easier for regular users to read.",
+      "d": "To prevent the OS from automatically deleting them."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the main role of a SIEM system?",
+    "options": {
+      "a": "To collect, correlate, and analyze security events from diverse sources across the enterprise.",
+      "b": "To encrypt disk partitions using physical hardware keys.",
+      "c": "To act as the primary database storage for all business applications.",
+      "d": "To force system reboots when updates are detected."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How does correlation work in a SIEM?",
+    "options": {
+      "a": "By linking related events from different sources to detect sophisticated attack patterns.",
+      "b": "By storing logs in a single location for manual human inspection.",
+      "c": "By automatically patching software vulnerabilities as they are detected.",
+      "d": "By providing graphical icons for all server assets."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is 'Normalization' in a SIEM pipeline?",
+    "options": {
+      "a": "Transforming diverse log formats into a common, structured format for easier analysis.",
+      "b": "Deleting unnecessary log fields to save space.",
+      "c": "Renaming servers to match a standard naming convention.",
+      "d": "Changing the timezone of the logs to match the server time."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why are automated alerts valuable in security operations?",
+    "options": {
+      "a": "They provide timely notification of potential issues, allowing for faster response times.",
+      "b": "They reduce the amount of data stored on the server.",
+      "c": "They make the system look more advanced to auditors.",
+      "d": "They replace the need for human analysts entirely."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the function of the 'Kibana' component in the ELK stack?",
+    "options": {
+      "a": "Providing an interface to visualize and query data stored in Elasticsearch.",
+      "b": "Collecting logs from network devices.",
+      "c": "Storing the index files for all system events.",
+      "d": "Managing user permissions for database access."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why must security be a continuous commitment rather than a one-time project?",
+    "options": {
+      "a": "Threats evolve, and vulnerabilities are continuously discovered in existing environments.",
+      "b": "Hardening is only effective for the first week after deployment.",
+      "c": "Most organizations don't have enough IT staff to complete security in one project.",
+      "d": "Security software automatically expires after 30 days."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does a 'Security Baseline' represent?",
+    "options": {
+      "a": "The expected, secure state of a system that acts as a reference for detecting unauthorized changes.",
+      "b": "The total amount of memory available to the operating system.",
+      "c": "The minimum number of users allowed to access a server simultaneously.",
+      "d": "The brand of firewall used at the network perimeter."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why should administrative scripts be signed?",
+    "options": {
+      "a": "To ensure that only trusted and unaltered scripts execute on the host.",
+      "b": "To save disk space by compressing the script contents.",
+      "c": "To allow the script to bypass all network firewall rules.",
+      "d": "To force the system to perform a reboot after execution."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How can logs assist in the aftermath of a security incident?",
+    "options": {
+      "a": "They provide a forensic trail to reconstruct events and identify the root cause.",
+      "b": "They prevent the attacker from coming back the next day.",
+      "c": "They automatically restore deleted files to the disk.",
+      "d": "They provide a record of all business financial transactions."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the purpose of 'Whitelisting' in application security?",
+    "options": {
+      "a": "To permit only explicitly trusted applications to run.",
+      "b": "To block specific, known malicious files.",
+      "c": "To automatically grant admin rights to all users.",
+      "d": "To encrypt the system drive entirely."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following describes the principle of 'Defense in Depth'?",
+    "options": {
+      "a": "Implementing multiple redundant layers of security controls.",
+      "b": "Using a single very strong firewall at the edge.",
+      "c": "Focusing security efforts only on the server room.",
+      "d": "Limiting security tools to only the operating system."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In Linux, what command would you use to change file ownership to user 'apache'?",
+    "options": {
+      "a": "chown apache filename",
+      "b": "chmod apache filename",
+      "c": "chgrp apache filename",
+      "d": "chperm apache filename"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is SSL/TLS essential for web server communication?",
+    "options": {
+      "a": "It encrypts data in transit to prevent interception and tampering.",
+      "b": "It allows the server to run without a firewall.",
+      "c": "It forces the client to download a specific browser.",
+      "d": "It manages user session cookies automatically."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the primary risk of SQL injection in a database?",
+    "options": {
+      "a": "Attackers can manipulate queries to retrieve, modify, or delete sensitive data.",
+      "b": "It causes the server to reboot unexpectedly.",
+      "c": "It slows down the network speed significantly.",
+      "d": "It deletes the database logs permanently."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does a 'Reverse Proxy' (like NGINX) often do for application security?",
+    "options": {
+      "a": "It sits in front of web servers to provide security and load balancing.",
+      "b": "It replaces the OS kernel to provide better protection.",
+      "c": "It encrypts all local hard drive partitions automatically.",
+      "d": "It automatically disables all internet access for the server."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which Linux tool allows you to track and log system audit events?",
+    "options": {
+      "a": "auditd",
+      "b": "syslog-ng",
+      "c": "journalctl",
+      "d": "all of the above"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "Why should administrative panels (like Tomcat Manager) be restricted?",
+    "options": {
+      "a": "Because they provide control over the application environment and are high-value targets.",
+      "b": "Because they are rarely used by real administrators.",
+      "c": "Because they consume too much CPU power when running.",
+      "d": "Because they are incompatible with web browsers."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the goal of auditing in Windows security?",
+    "options": {
+      "a": "To track critical activities for forensic and compliance purposes.",
+      "b": "To restrict user access to the internet.",
+      "c": "To automatically patch the operating system.",
+      "d": "To increase the system's overall storage capacity."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How can you implement least privilege in database access?",
+    "options": {
+      "a": "Granting only the necessary permissions required for each user's job.",
+      "b": "Granting full administrator rights to all users by default.",
+      "c": "Bypassing authentication for all internal network traffic.",
+      "d": "Storing database passwords in plaintext configuration files."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does 'brute-force' refer to in the context of system security?",
+    "options": {
+      "a": "Repeatedly trying different username and password combinations to guess credentials.",
+      "b": "Physically attacking the server room door to gain entry.",
+      "c": "Using a powerful magnets to delete data from storage drives.",
+      "d": "Disabling the firewall by forcibly cutting network cables."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the primary role of the 'Logstash' component in the ELK stack?",
+    "options": {
+      "a": "Collecting and normalizing log data from multiple sources.",
+      "b": "Visualizing logs in a dashboard.",
+      "c": "Storing the primary log database index.",
+      "d": "Encrypting the server drive."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a 'False Positive' in the context of security alerts?",
+    "options": {
+      "a": "When a security tool flags legitimate activity as suspicious or malicious.",
+      "b": "When a malicious attack goes completely undetected.",
+      "c": "When an attacker manages to change the server's configuration.",
+      "d": "When a system crash is caused by an antivirus update."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What role does documentation play in forensic investigations?",
+    "options": {
+      "a": "It ensures transparency, accuracy, and support for legal or audit proceedings.",
+      "b": "It is used only to satisfy HR requirements.",
+      "c": "It is needed to help the server run faster.",
+      "d": "It allows the software vendor to track license usage."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following is a best practice for managing system credentials?",
+    "options": {
+      "a": "Avoid hardcoding secrets in plain text and use secure credential storage solutions.",
+      "b": "Use the same password for all database and application services.",
+      "c": "Share root passwords between all members of the IT team.",
+      "d": "Post passwords in visible locations for easier troubleshooting."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the primary function of a web server in a system environment?",
+    "options": {
+      "a": "To process client web requests and serve content over HTTP/HTTPS.",
+      "b": "To manage the core operating system hardware drivers.",
+      "c": "To act as a physical bridge for network traffic.",
+      "d": "To store encrypted binary backups of the entire hard drive."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How can you audit user access in Windows?",
+    "options": {
+      "a": "By reviewing the Security Log in the Event Viewer.",
+      "b": "By checking the device manager settings.",
+      "c": "By physically inspecting the computer screen.",
+      "d": "By reading the BIOS manufacturer manual."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the impact of failing to secure system logs?",
+    "options": {
+      "a": "Attackers may tamper with logs to cover their tracks during an incident.",
+      "b": "The server will perform better without log overhead.",
+      "c": "The OS will automatically reboot the system.",
+      "d": "The application will consume more memory."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the benefit of using automated deployment tools like Ansible/Puppet?",
+    "options": {
+      "a": "They ensure consistent, repeatable configurations and reduce human error.",
+      "b": "They completely eliminate the need for any manual server maintenance.",
+      "c": "They are designed to monitor network traffic speed only.",
+      "d": "They provide automatic hardware repair for broken server components."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following is a common security weakness in middleware configurations?",
+    "options": {
+      "a": "Default administrative ports and passwords left unchanged.",
+      "b": "Overly secure encryption of all data by default.",
+      "c": "Excessive logging that is stored on a separate secure server.",
+      "d": "The use of advanced hardware-based biometric authentication."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why should you restrict the use of administrative accounts for daily tasks?",
+    "options": {
+      "a": "To limit the impact if an account is compromised during routine work.",
+      "b": "Because administrative accounts consume more CPU power.",
+      "c": "To force users to use different password management software.",
+      "d": "Because administrative accounts cannot be used on the internet."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the role of a 'Jail' in Fail2ban configuration?",
+    "options": {
+      "a": "To specify the rules for banning an IP address for a specific service and trigger event.",
+      "b": "To hide a sensitive file from the Linux file system.",
+      "c": "To prevent unauthorized users from shutting down the machine.",
+      "d": "To encrypt the server's SSH key store."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the purpose of 'Whitelisting' in application security?",
+    "options": {
+      "a": "To permit only explicitly trusted applications to run.",
+      "b": "To block specific, known malicious files.",
+      "c": "To automatically grant admin rights to all users.",
+      "d": "To encrypt the system drive entirely."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does a '5' represent in a Linux octal permission mode?",
+    "options": {
+      "a": "Read and execute (r-x).",
+      "b": "Read, write, and execute (rwx).",
+      "c": "Write only (-w-).",
+      "d": "Read only (r--)."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the function of the 'Elasticsearch' component in the ELK stack?",
+    "options": {
+      "a": "To index and securely store the normalized log data.",
+      "b": "To visualize the log data in a dashboard.",
+      "c": "To collect raw logs from various server sources.",
+      "d": "To update the software version on the servers."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following is a best practice for system security logs?",
+    "options": {
+      "a": "Send logs to a central server to ensure their integrity and aid in centralized analysis.",
+      "b": "Store all logs on the same partition as the operating system.",
+      "c": "Delete logs monthly to prevent the server from running out of disk space.",
+      "d": "Keep logs only in temporary memory to prevent long-term storage requirements."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What makes an application server like Apache Tomcat a common target?",
+    "options": {
+      "a": "It hosts backend logic and is often the bridge between users and databases.",
+      "b": "It is unable to be patched by security administrators.",
+      "c": "It is mandatory for all Linux distributions to run it.",
+      "d": "It provides no authentication mechanisms at all."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the benefit of a security baseline?",
+    "options": {
+      "a": "It provides a clear reference for what a 'secure' state looks like to identify deviations.",
+      "b": "It limits the server to running only one application.",
+      "c": "It automatically generates a high-quality user manual for the application.",
+      "d": "It disables the user's ability to change system settings."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is it important to use strong cipher suites in SSL/TLS configuration?",
+    "options": {
+      "a": "To provide robust protection against modern cryptographic attacks.",
+      "b": "To ensure the server works with very old browsers.",
+      "c": "To make the application launch faster.",
+      "d": "To reduce the CPU load on the server."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which Windows tool records user activity and system events?",
+    "options": {
+      "a": "Event Viewer.",
+      "b": "Device Manager.",
+      "c": "Disk Cleanup.",
+      "d": "System Properties."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "The primary goal of system hardening is to reduce the system's attack surface.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Database servers do not need to be hardened if they are behind a network firewall.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Linux file permissions '777' is considered a secure configuration for critical files.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Fail2ban is an automated tool used to protect against brute-force attacks by banning IP addresses.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "BitLocker encryption is only effective if the system uses a TPM chip.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Group Policy allows for the centralized management of security configurations on domain-joined machines.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Encryption of data in transit is not necessary if you are behind an internal corporate network.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "WSUS is a centralized tool used to manage the distribution of Microsoft security updates.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Continuous monitoring is a one-time setup process that provides security for the life of the system.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Log files must be secured to prevent tampering and ensure the integrity of forensic evidence.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "A SIEM system can automatically correlate events from multiple disparate log sources to detect patterns.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "It is acceptable practice to share administrative credentials between IT team members for troubleshooting efficiency.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Everything in Linux is considered a file, including directories and hardware devices.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "An access control list (ACL) can provide more granular permissions than standard Unix owner/group permissions.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Testing new security policies in a staging or lab environment is an optional step that is not strictly necessary.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The Principle of Least Privilege dictates that users should have administrative rights to easily resolve any system issues.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "SQL injection attacks can be used to extract, modify, or delete data from a database.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "HTTPS is the industry standard for securing web communication in transit.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "False positives occur when legitimate activity is incorrectly flagged as a security incident by monitoring tools.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "A well-configured firewall is sufficient to stop all possible system-level attacks.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  }
+]

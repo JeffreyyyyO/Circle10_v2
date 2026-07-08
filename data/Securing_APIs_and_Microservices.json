@@ -1,0 +1,992 @@
+[
+  {
+    "question": "What is the primary function of endpoint security in modern organizations?",
+    "options": {
+      "a": "To focus exclusively on perimeter firewalls.",
+      "b": "To protect individual devices like laptops and IoT systems from being entry points for attacks.",
+      "c": "To replace the need for secure routers and network gateways.",
+      "d": "To manage physical hardware cooling in the server room."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following best defines a 'Hybrid Cloud' environment?",
+    "options": {
+      "a": "Using two different public cloud providers simultaneously for compute.",
+      "b": "A mix of public cloud infrastructure and on-premises private data centers.",
+      "c": "A cloud environment that exclusively uses virtualization technology.",
+      "d": "An application architecture that runs entirely on local desktops."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What was the primary exploit used by the WannaCry ransomware in 2017?",
+    "options": {
+      "a": "A vulnerability in Microsoft Windows.",
+      "b": "An insecure API configuration in NGINX.",
+      "c": "A weak password policy in a cloud database.",
+      "d": "A misconfigured network firewall rule."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In the context of Kubernetes, what is the role of Admission Controllers?",
+    "options": {
+      "a": "To automatically patch vulnerabilities in third-party libraries.",
+      "b": "To enforce policies like blocking containers from running as root.",
+      "c": "To manage the scheduling of daily backups for the database.",
+      "d": "To provide public internet access to internal microservices."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the main goal of 'Shifting Left' in security?",
+    "options": {
+      "a": "Moving security testing to the end of the deployment phase.",
+      "b": "Integrating security considerations early in the development lifecycle.",
+      "c": "Reducing the amount of documentation required for compliance.",
+      "d": "Prioritizing marketing features over security updates."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'Data Flow Diagram' primarily used for in threat modeling?",
+    "options": {
+      "a": "To visualize how data moves through a system and identify potential attack vectors.",
+      "b": "To schedule development sprints and team meetings.",
+      "c": "To manage the hardware specifications for server infrastructure.",
+      "d": "To automatically generate secure code for APIs."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which tool is mentioned for managing the entire lifecycle of sensitive credentials?",
+    "options": {
+      "a": "HashiCorp Vault.",
+      "b": "Kali Linux.",
+      "c": "Nagios.",
+      "d": "Microsoft Excel."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does mTLS stand for in the context of microservice communication?",
+    "options": {
+      "a": "Microservice Transport Layer Security.",
+      "b": "Mutual Transport Layer Security.",
+      "c": "Multi-Factor Technical Layer Security.",
+      "d": "Managed Transfer Layer Security."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is Application Security considered a business priority?",
+    "options": {
+      "a": "Because it makes the user interface look more modern.",
+      "b": "Because vulnerabilities can lead to data breaches and reputational damage.",
+      "c": "Because it is required to purchase physical office equipment.",
+      "d": "Because it allows companies to charge more for open-source software."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a major benefit of using microservices over monolithic architectures?",
+    "options": {
+      "a": "It bundles the entire application into one massive, single file.",
+      "b": "It allows independent development and deployment of specific services.",
+      "c": "It eliminates the need for any form of network security.",
+      "d": "It requires the entire system to be updated every single day."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the role of an EDR tool in incident response?",
+    "options": {
+      "a": "To replace human intervention in all security matters.",
+      "b": "To monitor and respond to malicious behaviors on endpoints.",
+      "c": "To physically lock the server room doors.",
+      "d": "To format hard drives after a breach occurs."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the 'Big Picture' for application security?",
+    "options": {
+      "a": "Installing a powerful firewall on every desktop.",
+      "b": "Integrating proactive design and continuous testing.",
+      "c": "Focusing solely on the aesthetic design of the application.",
+      "d": "Storing all application secrets in plain text files."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of these is a common vulnerability in web applications?",
+    "options": {
+      "a": "SQL Injection.",
+      "b": "Excessive hardware cooling.",
+      "c": "Overly fast network speeds.",
+      "d": "High memory capacity."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the purpose of Threat Dragon?",
+    "options": {
+      "a": "To visualize threat models using DFDs.",
+      "b": "To automate the patching of operating systems.",
+      "c": "To monitor network traffic for outages.",
+      "d": "To provide marketing tools for cloud services."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What should be the primary outcome of a penetration test debrief?",
+    "options": {
+      "a": "Public announcement of all vulnerabilities found.",
+      "b": "Clear identification of next steps and mitigation strategies.",
+      "c": "Automatic termination of the entire development team.",
+      "d": "A purchase order for new firewall software."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is the traditional perimeter-based security model fading?",
+    "options": {
+      "a": "Because firewalls are no longer allowed to be used.",
+      "b": "Due to work-from-home, BYOD, and cloud environments.",
+      "c": "Because all attackers have moved to physical systems only.",
+      "d": "Because routers are now completely secure by default."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary definition of an API?",
+    "options": {
+      "a": "A software component that creates physical hardware.",
+      "b": "A mechanism allowing different applications to communicate.",
+      "c": "A network cable management protocol.",
+      "d": "A strategy for physical server room cooling."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does 'hardening' a system mean?",
+    "options": {
+      "a": "Installing new physical metal casing on servers.",
+      "b": "Configuring settings to minimize the attack surface.",
+      "c": "Updating the visual color scheme of the application.",
+      "d": "Deleting all logs to prevent monitoring."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a proactive security measure?",
+    "options": {
+      "a": "Patching a system after a hack.",
+      "b": "Threat modeling during the design phase.",
+      "c": "Changing passwords only after a leak.",
+      "d": "Waiting for software to crash before checking logs."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the purpose of hashing data in forensic analysis?",
+    "options": {
+      "a": "To compress the data for faster exfiltration.",
+      "b": "To ensure the integrity of evidence for audit requirements.",
+      "c": "To hide data from the original users.",
+      "d": "To delete all traces of the initial breach."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the significance of the Equifax Data Breach (2017)?",
+    "options": {
+      "a": "It showed that hardware failures cause most breaches.",
+      "b": "It highlighted the risks of unpatched web application frameworks.",
+      "c": "It proved that firewalls are entirely useless.",
+      "d": "It proved that only mobile apps are vulnerable."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does a CNI plugin do in Kubernetes?",
+    "options": {
+      "a": "Manage the physical cabling of the server rack.",
+      "b": "Implement network policies for container traffic.",
+      "c": "Provide customer support for cloud users.",
+      "d": "Upgrade the CPU of the host server."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tool is commonly used to analyze memory for forensic investigation?",
+    "options": {
+      "a": "Volatility.",
+      "b": "Microsoft Word.",
+      "c": "Adobe Photoshop.",
+      "d": "Google Maps."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a primary goal of security baseline establishment?",
+    "options": {
+      "a": "To serve as a reference point for detecting deviations.",
+      "b": "To limit the number of users on the network.",
+      "c": "To make software development cycle faster.",
+      "d": "To hide the system from potential internet users."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is meant by the 'attack surface' in security?",
+    "options": {
+      "a": "The physical area of the office floor.",
+      "b": "The total of all entry points where an attacker can interact with a system.",
+      "c": "The speed of the network internet connection.",
+      "d": "The cost of cloud infrastructure services."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is an advantage of centralized identity management?",
+    "options": {
+      "a": "It forces every user to use the same password.",
+      "b": "It provides a unified way to enforce access policies.",
+      "c": "It removes the need for Multi-Factor Authentication.",
+      "d": "It makes software run locally without internet."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How can you mitigate SQL Injection?",
+    "options": {
+      "a": "By using parameterized queries and validation.",
+      "b": "By disabling the database after hours.",
+      "c": "By increasing the server memory size.",
+      "d": "By switching to a non-relational database."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is log auditing important for system security?",
+    "options": {
+      "a": "To track malicious activity and detect threats.",
+      "b": "To save disk space on the server.",
+      "c": "To make the application look like it is working.",
+      "d": "To avoid the need for user passwords."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of these is a key security mindset practice?",
+    "options": {
+      "a": "Questioning assumptions and anticipating threats.",
+      "b": "Assuming all users are 100% trustworthy.",
+      "c": "Delaying security testing until the product launch.",
+      "d": "Relying strictly on automated third-party tools."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does OAuth 2.0 primarily handle?",
+    "options": {
+      "a": "Authentication and authorization protocols.",
+      "b": "Hardware storage specifications.",
+      "c": "Server room power management.",
+      "d": "User interface design layouts."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the purpose of rate limiting APIs?",
+    "options": {
+      "a": "To control traffic and protect against abuse.",
+      "b": "To slow down the internet speed of the user.",
+      "c": "To make the application feel more exclusive.",
+      "d": "To reduce the cost of the cloud server bill."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is penetration testing deeper than automated scanning?",
+    "options": {
+      "a": "It involves human experts actively exploiting flaws.",
+      "b": "It happens every hour of every day.",
+      "c": "It is cheaper than automated software.",
+      "d": "It requires no knowledge of the system."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the main role of a security culture?",
+    "options": {
+      "a": "Empowering teams to act proactively on security.",
+      "b": "Enforcing stricter rules for office dress codes.",
+      "c": "Reducing the budget for developer tools.",
+      "d": "Removing the need for security training."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is an example of an endpoint device?",
+    "options": {
+      "a": "An IoT thermostat.",
+      "b": "A server rack chassis.",
+      "c": "A network fiber optic cable.",
+      "d": "A local electric power grid."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does 'proactive design' mean for software?",
+    "options": {
+      "a": "Addressing potential threats during the build phase.",
+      "b": "Waiting for an attack before patching.",
+      "c": "Focusing only on the marketing aspects.",
+      "d": "Building software without any documentation."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a primary benefit of using JWTs (JSON Web Tokens)?",
+    "options": {
+      "a": "Standardized token-based authentication.",
+      "b": "Automatically generated user passwords.",
+      "c": "Increasing the speed of network cables.",
+      "d": "Reducing the number of servers needed."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the role of CORS in browser security?",
+    "options": {
+      "a": "Restricting cross-origin resource sharing.",
+      "b": "Improving the load time of web images.",
+      "c": "Caching data locally on the user machine.",
+      "d": "Managing the database connections."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is continuous monitoring critical?",
+    "options": {
+      "a": "To detect threats early and maintain awareness.",
+      "b": "To replace the need for physical security.",
+      "c": "To increase the cost of cloud services.",
+      "d": "To force developers to work on weekends."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the goal of secret management?",
+    "options": {
+      "a": "Moving away from hardcoded credentials.",
+      "b": "Making secrets easier for anyone to read.",
+      "c": "Increasing the memory usage of applications.",
+      "d": "Storing all secrets in the source code."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a typical result of lateral movement?",
+    "options": {
+      "a": "An attacker pivots from one device to another.",
+      "b": "A server automatically reboots for updates.",
+      "c": "The internet connection speed increases.",
+      "d": "Users are given free access to the cloud."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How does CI/CD pipeline auditing improve security?",
+    "options": {
+      "a": "By scanning manifests before deployment.",
+      "b": "By automatically hiring new security staff.",
+      "c": "By speeding up the code compilation process.",
+      "d": "By removing the need for testing tools."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a key principle of secure API design?",
+    "options": {
+      "a": "Validate all inputs.",
+      "b": "Assume all users are authorized.",
+      "c": "Store secrets in the UI layer.",
+      "d": "Disable all authentication."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why are visual aids effective in threat modeling?",
+    "options": {
+      "a": "They help simplify and clarify complex systems.",
+      "b": "They are required by the marketing team.",
+      "c": "They replace the need for security testing.",
+      "d": "They provide physical security for servers."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the main focus of OWASP?",
+    "options": {
+      "a": "Improving web application security.",
+      "b": "Managing company human resources.",
+      "c": "Developing new hardware architectures.",
+      "d": "Providing free internet access."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a key feature of dynamic secrets?",
+    "options": {
+      "a": "They are generated on-the-fly and expire.",
+      "b": "They are hardcoded for speed and reliability.",
+      "c": "They are stored forever in the database.",
+      "d": "They are shared with all team members."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What happens when you use unauthorized credentials?",
+    "options": {
+      "a": "A breach or lateral movement may occur.",
+      "b": "The system performance usually increases.",
+      "c": "Access is automatically denied by firewalls.",
+      "d": "The system automatically resets itself."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a benefit of network segmentation?",
+    "options": {
+      "a": "It limits the spread of threats.",
+      "b": "It simplifies the coding process.",
+      "c": "It reduces the power usage of servers.",
+      "d": "It eliminates the need for patching."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is the OWASP Top 10 important?",
+    "options": {
+      "a": "It lists common web vulnerabilities.",
+      "b": "It provides a list of top-selling cloud apps.",
+      "c": "It is a guide for hardware installation.",
+      "d": "It regulates internal company meetings."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How do you define a security baseline?",
+    "options": {
+      "a": "The expected secure state of a system.",
+      "b": "The total budget of the security team.",
+      "c": "The minimum number of developers needed.",
+      "d": "The number of servers in a rack."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What role does Multi-Factor Authentication play?",
+    "options": {
+      "a": "Adding an extra layer of access verification.",
+      "b": "Making the password easier to remember.",
+      "c": "Increasing the speed of user login.",
+      "d": "Replacing the need for firewalls."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does a 'phishing' attack typically involve?",
+    "options": {
+      "a": "Deceiving users to steal credentials.",
+      "b": "Physically breaking into a server room.",
+      "c": "Installing updates on a system.",
+      "d": "Testing the code for bugs automatically."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is documentation essential?",
+    "options": {
+      "a": "For audit and forensic compliance.",
+      "b": "To slow down the development team.",
+      "c": "To provide marketing materials.",
+      "d": "To force developers to stop working."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a common remediation for weak sessions?",
+    "options": {
+      "a": "Strict session timeout policies.",
+      "b": "Storing session tokens in plain text.",
+      "c": "Using static session identifiers.",
+      "d": "Disabling HTTPS entirely."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the purpose of threat modeling?",
+    "options": {
+      "a": "To prioritize risks before building.",
+      "b": "To increase the cost of the project.",
+      "c": "To distract developers from their work.",
+      "d": "To replace security testing."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why should you use SSL/TLS?",
+    "options": {
+      "a": "To encrypt data in transit.",
+      "b": "To reduce the hardware cost.",
+      "c": "To speed up the database queries.",
+      "d": "To make the website look professional."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the primary role of a firewall?",
+    "options": {
+      "a": "To regulate network traffic flow.",
+      "b": "To fix bugs in the application code.",
+      "c": "To store backup user data.",
+      "d": "To manage the employee payroll."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How do you protect data at rest?",
+    "options": {
+      "a": "By using encryption.",
+      "b": "By deleting it daily.",
+      "c": "By moving it to the cloud.",
+      "d": "By printing it on paper."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the main goal of incident response?",
+    "options": {
+      "a": "To minimize the impact of an attack.",
+      "b": "To fire the team responsible for bugs.",
+      "c": "To avoid notifying anyone of a breach.",
+      "d": "To increase the application feature count."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why are audit trails necessary?",
+    "options": {
+      "a": "To trace actions taken on a system.",
+      "b": "To save disk space on the server.",
+      "c": "To make users log in more frequently.",
+      "d": "To allow the system to crash gracefully."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a security vulnerability?",
+    "options": {
+      "a": "A flaw that can be exploited.",
+      "b": "A feature that increases speed.",
+      "c": "A component that is too expensive.",
+      "d": "A bug that stops the app from launching."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How is risk managed in security?",
+    "options": {
+      "a": "By identifying and mitigating.",
+      "b": "By ignoring it until it happens.",
+      "c": "By relying solely on luck.",
+      "d": "By deleting all logs."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the purpose of security training?",
+    "options": {
+      "a": "To empower teams to act securely.",
+      "b": "To replace the need for software tools.",
+      "c": "To keep employees busy in meetings.",
+      "d": "To force developers to learn new hardware."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does a penetration test result in?",
+    "options": {
+      "a": "A detailed security report.",
+      "b": "A marketing brochure.",
+      "c": "A new server operating system.",
+      "d": "An increase in website traffic."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is security an everyday reality?",
+    "options": {
+      "a": "Because threats are continuous.",
+      "b": "Because hardware is easy to secure.",
+      "c": "Because security tools are too cheap.",
+      "d": "Because hackers never attack anymore."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the benefit of a security mindset?",
+    "options": {
+      "a": "Identifying weaknesses early.",
+      "b": "Making the software launch faster.",
+      "c": "Ignoring the user requirements.",
+      "d": "Deleting all sensitive user records."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What do security teams do in debriefs?",
+    "options": {
+      "a": "Explain findings and remediation.",
+      "b": "Avoid talking to the development team.",
+      "c": "Assign blame for all security errors.",
+      "d": "Celebrate the end of the project."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why do breaches happen?",
+    "options": {
+      "a": "Because systems have exploitable flaws.",
+      "b": "Because users don't like new apps.",
+      "c": "Because developers prefer slower apps.",
+      "d": "Because firewalls are always perfect."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How can you improve resilience?",
+    "options": {
+      "a": "By testing and hardening.",
+      "b": "By removing security layers.",
+      "c": "By focusing on marketing.",
+      "d": "By deleting all security logs."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the primary goal of remediation?",
+    "options": {
+      "a": "To fix identified vulnerabilities.",
+      "b": "To ignore security bug reports.",
+      "c": "To decrease the server load.",
+      "d": "To make software run on older machines."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is consistency important in security?",
+    "options": {
+      "a": "For robust and future-proof defense.",
+      "b": "To save money on developer training.",
+      "c": "To ensure software is always free.",
+      "d": "To force developers to use new languages."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a common testing goal?",
+    "options": {
+      "a": "Finding and fixing weaknesses.",
+      "b": "Showing the site to investors.",
+      "c": "Updating the hardware racks.",
+      "d": "Avoiding any security meetings."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why are breaches costly?",
+    "options": {
+      "a": "Because of data loss and trust issues.",
+      "b": "Because they make the server run faster.",
+      "c": "Because they decrease the software cost.",
+      "d": "Because they don't involve any legal work."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How does automated scanning help?",
+    "options": {
+      "a": "By identifying issues in the code.",
+      "b": "By marketing the product better.",
+      "c": "By removing the need for developers.",
+      "d": "By making users change passwords."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is testing an engineering process?",
+    "options": {
+      "a": "Because it requires structured effort.",
+      "b": "Because it is performed by managers.",
+      "c": "Because it relates only to hardware.",
+      "d": "Because it uses no tools at all."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a benefit of threat modeling?",
+    "options": {
+      "a": "Early risk identification.",
+      "b": "Increased software bugs.",
+      "c": "Reduced developer documentation.",
+      "d": "Lowering cloud server power usage."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why do we test software?",
+    "options": {
+      "a": "To verify reliability and security.",
+      "b": "To keep the developers busy.",
+      "c": "To avoid any future updates.",
+      "d": "To force a redesign of the UI."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a security tool?",
+    "options": {
+      "a": "Software used to manage vulnerabilities.",
+      "b": "A tool that helps sell apps.",
+      "c": "A machine that cleans servers.",
+      "d": "A document listing hardware specs."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is proactive design necessary?",
+    "options": {
+      "a": "To prevent vulnerabilities early.",
+      "b": "To speed up the marketing cycle.",
+      "c": "To avoid cloud infrastructures.",
+      "d": "To reduce electricity costs."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a penetration test result?",
+    "options": {
+      "a": "A report of vulnerabilities found.",
+      "b": "A complete rewrite of the software.",
+      "c": "An automatic marketing campaign.",
+      "d": "An increase in server memory usage."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is security a reality?",
+    "options": {
+      "a": "Because attacks happen continuously.",
+      "b": "Because software never needs updates.",
+      "c": "Because security tools are too cheap.",
+      "d": "Because firewalls never break."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How do you identify threats?",
+    "options": {
+      "a": "Through structured analysis.",
+      "b": "By waiting for server crashes.",
+      "c": "By deleting all user records.",
+      "d": "By removing all network cables."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why are debriefs good?",
+    "options": {
+      "a": "For improving team knowledge.",
+      "b": "For assigning blame to teams.",
+      "c": "For ignoring security findings.",
+      "d": "For cancelling security audits."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the key takeaway?",
+    "options": {
+      "a": "Security requires constant effort.",
+      "b": "Testing is for hardware only.",
+      "c": "Security isn't needed for banks.",
+      "d": "Documentation is a waste of time."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Threat modeling is a reactive process performed after a system has been compromised.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Shifting security 'left' means moving security considerations earlier in the software development lifecycle.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Static Application Security Testing (SAST) requires the application to be running to test the code.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Data Flow Diagrams (DFDs) are a visual tool used in the threat modeling process.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Penetration testing is only meant to show what is broken, not to improve resilience.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Threat Dragon is a tool mentioned for supporting visual threat modeling.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "SQL injection can be mitigated by using parameterized queries and input validation.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Security should be treated as an optional 'nice-to-have' feature in modern engineering.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Dynamic Application Security Testing (DAST) analyzes the application while it is running.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "A penetration test debrief session is unnecessary if the testers provide a document.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Threat modeling helps teams identify and prioritize risks before code is written.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Kali Linux is a platform commonly used by security professionals for testing.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Proactive security is essentially the same as reactive security.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Application security testing is limited to just SAST and DAST.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "A vulnerability is a weakness in a system that can be exploited by an attacker.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Documentation is a critical part of the application security testing process.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Security testing can be completely automated without any human oversight.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The primary goal of threat modeling is to increase software release speed.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "HTTPS enforcement is a mitigation strategy for weak session tokens.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Application security is only important for banking apps, not for healthcare systems.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  }
+]

@@ -1,0 +1,742 @@
+[
+  {
+    "question": "At its core, what is the definition of Incident Response (IR)?",
+    "options": {
+      "a": "A fully automated software script that deletes infected files.",
+      "b": "A structured approach to managing the aftermath of a cybersecurity breach.",
+      "c": "A legal framework designed to prosecute external cybercriminals.",
+      "d": "A proactive method for upgrading server hardware before it fails."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What analogy does the document use to explain the concept of Incident Response?",
+    "options": {
+      "a": "A surgeon operating on a critical patient in an emergency room.",
+      "b": "A financial auditor reviewing a company's annual tax return.",
+      "c": "Building occupants following a predefined fire evacuation plan.",
+      "d": "A military general planning a covert offensive operation."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which of the following is one of the three primary objectives of an effective IR strategy?",
+    "options": {
+      "a": "To permanently disconnect the organization from the public internet.",
+      "b": "To minimize damage by preventing the attack from spreading.",
+      "c": "To track down the attacker and execute a counter-hack.",
+      "d": "To completely replace all compromised hardware immediately."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the typical nature of how cyber incidents manifest in an environment?",
+    "options": {
+      "a": "They often begin quietly, with actors lurking undetected for weeks or months.",
+      "b": "They are usually massive, immediate events that shut down all systems at once.",
+      "c": "They always trigger loud, inescapable system alarms the moment they begin.",
+      "d": "They only occur when users intentionally download malicious software."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why are Small and Medium-sized Businesses (SMBs) frequent targets for cyberattacks?",
+    "options": {
+      "a": "Because they process more financial transactions than large corporations.",
+      "b": "Because attackers view them as 'low-hanging fruit' due to limited security defenses.",
+      "c": "Because SMBs are legally prohibited from purchasing cybersecurity software.",
+      "d": "Because they exclusively use outdated, unpatched analog network systems."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "According to the document, what was the primary cause of the 2017 Equifax Data Breach?",
+    "options": {
+      "a": "An employee intentionally stealing and selling customer data.",
+      "b": "A known vulnerability in a web application framework that was left unpatched.",
+      "c": "A sophisticated nation-state zero-day exploit targeting their cloud servers.",
+      "d": "A physical break-in at their primary data center in Atlanta, Georgia."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What security failure allowed the Colonial Pipeline ransomware attack to spread rapidly?",
+    "options": {
+      "a": "The organization completely lacked any form of firewall protection.",
+      "b": "Poor network segmentation and weak monitoring allowed a single compromised password to be exploited.",
+      "c": "An executive approved a malicious financial transfer requested via a phishing email.",
+      "d": "The attackers physically infiltrated the pipeline control room and installed malware via USB."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which organization provides a widely respected, structured 4-phase framework for incident response?",
+    "options": {
+      "a": "The International Organization for Standardization (ISO)",
+      "b": "The National Security Agency (NSA)",
+      "c": "The National Institute of Standards and Technology (NIST)",
+      "d": "The Cybersecurity and Infrastructure Security Agency (CISA)"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "What is the first phase of the NIST Incident Response Lifecycle?",
+    "options": {
+      "a": "Detection and Analysis",
+      "b": "Preparation",
+      "c": "Containment, Eradication, and Recovery",
+      "d": "Post-Incident Activity"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "During the Preparation phase, what is the role of a SIEM system?",
+    "options": {
+      "a": "To physically secure individual user devices from theft.",
+      "b": "To aggregate and correlate logs in order to detect anomalies.",
+      "c": "To document and track incident response tickets from ingestion to closure.",
+      "d": "To train employees on how to identify sophisticated phishing emails."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a 'tabletop exercise' in the context of Incident Response Preparation?",
+    "options": {
+      "a": "A physical fitness test required for all security operations center personnel.",
+      "b": "An educational drill simulating an attack to build muscle memory and identify gaps.",
+      "c": "A software tool that automatically updates all endpoint protection platforms.",
+      "d": "A legal meeting where contracts are signed with third-party security vendors."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary goal of Phase 2 (Detection and Analysis)?",
+    "options": {
+      "a": "To restore affected systems to their normal operational states safely.",
+      "b": "To identify security events early, validate them, and determine their scope.",
+      "c": "To conduct a blameless reflection meeting on what went wrong.",
+      "d": "To disconnect all infected devices from the corporate network immediately."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What does IOC stand for in the context of incident response?",
+    "options": {
+      "a": "Incident Operation Center",
+      "b": "Indicator of Compromise",
+      "c": "Internal Organizational Communication",
+      "d": "Interconnected Operational Control"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is considered a common Indicator of Compromise (IOC)?",
+    "options": {
+      "a": "An employee logging in exactly at 9:00 AM every single weekday.",
+      "b": "Suspicious outbound connections to blacklisted domains.",
+      "c": "A scheduled weekly automated backup running successfully.",
+      "d": "A user legally changing their active directory password after 90 days."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the Coordinated Detection scenario, what combination of events confirmed an active credential-stuffing attack?",
+    "options": {
+      "a": "A physical security breach combined with a power outage in the data center.",
+      "b": "Multiple failed logins in the SIEM, an unknown executable in EDR, and blacklisted outbound firewall traffic.",
+      "c": "An employee reporting a lost laptop combined with a sudden spike in website visitor traffic.",
+      "d": "A routine software update failing to install across multiple accounting department workstations."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary objective of Short-Term Containment (Triage)?",
+    "options": {
+      "a": "To completely purge the malware from the internal network forever.",
+      "b": "To apply immediate, decisive action to isolate the threat and stop it from spreading.",
+      "c": "To draft public relations statements for media outlets and stakeholders.",
+      "d": "To permanently replace all physical network switches and routers."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is a critical constraint responders must follow during Short-Term Containment?",
+    "options": {
+      "a": "They must unplug all servers immediately to save electricity.",
+      "b": "They must preserve volatile evidence (like RAM dumps) before shutting down systems.",
+      "c": "They must notify local law enforcement before taking any containment actions.",
+      "d": "They must wait for written executive approval before isolating any devices."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which tactic is heavily utilized during Long-Term Containment to prevent an attacker's 'lateral movement'?",
+    "options": {
+      "a": "Implementing network segmentation.",
+      "b": "Erasing all hard drives connected to the domain.",
+      "c": "Ignoring the threat to observe the attacker's behavior.",
+      "d": "Increasing the physical security guard presence."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does the 'Eradication' step of Phase 3 primarily focus on?",
+    "options": {
+      "a": "Evaluating the legal liabilities of the organization post-breach.",
+      "b": "Completely purging the threat from the environment to prevent its return.",
+      "c": "Restoring the organization's public reputation through media campaigns.",
+      "d": "Purchasing new cybersecurity insurance policies to cover financial losses."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "During Eradication, why must responders explicitly check for 'persistence'?",
+    "options": {
+      "a": "Because employees often persistently try to log in to disabled accounts.",
+      "b": "Because attackers often install hidden backdoors to reinstall malware after a reboot.",
+      "c": "Because network firewalls persistently block all required outbound traffic.",
+      "d": "Because digital forensic tools persistently crash when analyzing malware."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How should systems ideally be reintroduced to the network during the Recovery phase?",
+    "options": {
+      "a": "All at once to minimize business downtime as much as possible.",
+      "b": "In stages (phased restoration) to simplify monitoring and limit the blast radius.",
+      "c": "Only after the attacker has been legally prosecuted and imprisoned.",
+      "d": "Through an entirely new, different internet service provider."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary objective of the 'Lessons Learned' meeting in Phase 4?",
+    "options": {
+      "a": "To assign blame and terminate the employees responsible for the breach.",
+      "b": "To conduct honest, collaborative, and blameless reflection to improve future security.",
+      "c": "To calculate the exact financial cost of the breach for insurance claims.",
+      "d": "To publicly announce the technical details of the breach to competitors."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is one of the practical outcomes of the Post-Incident Activity phase?",
+    "options": {
+      "a": "Revising playbooks and updating communication trees based on real-world friction points.",
+      "b": "Immediately laying off the entire Security Operations Center staff.",
+      "c": "Permanently disconnecting all remote workers from the corporate network.",
+      "d": "Ceasing all cybersecurity training programs because they proved ineffective."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the primary purpose of writing a formalized Incident Response Plan (IRP)?",
+    "options": {
+      "a": "To satisfy a one-time compliance checklist requirement and file it away.",
+      "b": "To transform an ad-hoc scramble into a disciplined practice rooted in preparedness.",
+      "c": "To provide a highly technical manual detailing how to program a new firewall.",
+      "d": "To outline the corporate policies regarding standard employee vacation time."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What specific question does the 'Scope' of an IRP answer?",
+    "options": {
+      "a": "How much money the IT department will spend next year?",
+      "b": "What does this plan cover, and what does it leave out?",
+      "c": "Which specific employee caused the most recent network outage?",
+      "d": "How to properly configure a remote worker's home Wi-Fi router?"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is it important to define success metrics in an IRP?",
+    "options": {
+      "a": "They bring accountability and act as tools to evaluate if objectives are being met.",
+      "b": "They provide a way to determine which employee should be fired after a breach.",
+      "c": "They automatically generate revenue to cover the costs of the incident.",
+      "d": "They confuse attackers by publishing misleading data about network performance."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following is an example of a clear, measurable objective for an IRP?",
+    "options": {
+      "a": "Respond to all incidents promptly.",
+      "b": "Begin investigation within 30 minutes of detection.",
+      "c": "Do not let the company get hacked.",
+      "d": "Try to keep the servers online as much as possible."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Within the key components of an IRP, what is the role of 'Classification Protocols'?",
+    "options": {
+      "a": "To physically organize the IT department's office space by rank.",
+      "b": "To create a framework for incident severity (e.g., Low, Medium, High, Critical).",
+      "c": "To encrypt all employee emails so they are classified as 'Top Secret'.",
+      "d": "To restrict network access based on an employee's salary level."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How often should an Incident Response Plan ideally be subjected to a formal review?",
+    "options": {
+      "a": "Every 5 to 10 years, or when a massive breach occurs.",
+      "b": "Every 6 to 12 months, or after major organizational/technological changes.",
+      "c": "Every single day during the morning IT stand-up meeting.",
+      "d": "Once it is written, it should never be altered to maintain consistency."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the function of an 'Incident Response Playbook'?",
+    "options": {
+      "a": "It provides a clear, tactical, step-by-step procedure for specific incident types.",
+      "b": "It is a high-level corporate manifesto outlining the company's core values.",
+      "c": "It is a legal document signed by all employees acknowledging internet usage rules.",
+      "d": "It is a list of passwords used to access all internal corporate servers."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why should organizations avoid using generic, downloaded playbooks from the internet?",
+    "options": {
+      "a": "Because they are always infected with polymorphic malware.",
+      "b": "Because playbooks must reflect the specific tools, platforms, and policies of the organization.",
+      "c": "Because it is illegal to use open-source documentation in corporate environments.",
+      "d": "Because they are written in complex programming languages that analysts cannot read."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is a critical element of 'Organizational Readiness' for an IRT?",
+    "options": {
+      "a": "The team must consist exclusively of highly trained software developers.",
+      "b": "The team must have cross-functional membership including Legal, HR, and Operations.",
+      "c": "The team must be completely isolated from the executive leadership board.",
+      "d": "The team must only operate during standard 9-to-5 business hours."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary responsibility of the 'Incident Commander' during an active event?",
+    "options": {
+      "a": "They act as the central coordinator, making key decisions and acting as the response 'conductor'.",
+      "b": "They personally dive into the server logs to hunt for malicious file hashes.",
+      "c": "They draft and send all emails to external media outlets and journalists.",
+      "d": "They physically repair and replace damaged server hardware components."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which IRT role is responsible for examining systems, logs, and network traffic to identify root causes?",
+    "options": {
+      "a": "The Incident Commander",
+      "b": "The Communications Manager",
+      "c": "The Recovery Lead",
+      "d": "The Forensic Analyst"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "What critical role does the Legal department play during an incident response?",
+    "options": {
+      "a": "They physically confiscate the cell phones of all suspected employees.",
+      "b": "They advise on compliance, data protection laws, and breach notification requirements.",
+      "c": "They analyze the malware's source code to find security vulnerabilities.",
+      "d": "They reconfigure the corporate firewall to block incoming external traffic."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is Human Resources (HR) included as an additional support function in incident response?",
+    "options": {
+      "a": "Because they are responsible for purchasing new cybersecurity software tools.",
+      "b": "To manage internal investigations if the incident involves employee negligence or insider threats.",
+      "c": "To ensure that all servers are updated with the latest operating system patches.",
+      "d": "Because they write the highly technical code used in the incident playbooks."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary value of conducting Tabletop Exercises?",
+    "options": {
+      "a": "They physically test the strength of the data center's door locks and security cameras.",
+      "b": "They uncover blind spots in communication and build muscle memory under stress.",
+      "c": "They automatically update all employee passwords across the entire corporate network.",
+      "d": "They generate immediate revenue by proving the system's security to potential investors."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "For a Forensic Analyst, what does 'evidence handling' primarily entail?",
+    "options": {
+      "a": "Preserving digital evidence in a way that remains legally valid for court.",
+      "b": "Printing out all system logs and storing them in a physical filing cabinet.",
+      "c": "Deleting compromised files as quickly as possible to prevent them from spreading.",
+      "d": "Forwarding all suspicious emails to the CEO for personal review."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why are soft skills, such as communication and emotional intelligence, vital for the Communications Manager?",
+    "options": {
+      "a": "Because they must manually write thousands of lines of code during an incident.",
+      "b": "Because they act as the bridge between technical responders and stressed stakeholders.",
+      "c": "Because they are required to interrogate suspected insider threats physically.",
+      "d": "Because they must convince the attackers to lower their ransom demands."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "During an incident, why is it critical that internal communication 'facts must lead'?",
+    "options": {
+      "a": "To ensure that speculation does not lead to chaos and poor decision-making.",
+      "b": "To deliberately confuse the attacker reading internal corporate emails.",
+      "c": "To legally shift the blame onto third-party software vendors immediately.",
+      "d": "To force employees to confess if they accidentally caused the breach."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why should organizations pre-plan alternative, out-of-band communication channels?",
+    "options": {
+      "a": "Because traditional communication methods are too expensive to use during emergencies.",
+      "b": "In case the primary corporate systems (like standard email) are compromised by the attacker.",
+      "c": "To allow employees to chat casually without being monitored by HR.",
+      "d": "Because out-of-band channels automatically decrypt ransomware files."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary goal of integrating Digital Forensics into the response process?",
+    "options": {
+      "a": "To quickly guess how the attacker got in and immediately reformat all hard drives.",
+      "b": "To build a clear timeline, identify the scope of the breach, and uncover the attacker's path.",
+      "c": "To publicly humiliate the employees who failed to follow security protocols.",
+      "d": "To generate detailed invoices to bill the attackers for the damage they caused."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In the context of digital forensics tooling, what does 'Packet Capture' allow analysts to do?",
+    "options": {
+      "a": "Physically capture the attacker's laptop before they can escape the building.",
+      "b": "Go 'back in time' to examine the exact network traffic that occurred during the breach.",
+      "c": "Automatically capture and quarantine any incoming phishing emails.",
+      "d": "Capture screenshots of the user's desktop every five minutes for compliance."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "When measuring the success of an IR program, what does 'MTTD' stand for?",
+    "options": {
+      "a": "Mean Time to Deploy",
+      "b": "Maximum Tolerable Time Delay",
+      "c": "Mean Time to Detect",
+      "d": "Minimum Threat Tracking Duration"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "When measuring the success of an IR program, what does 'MTTR' represent?",
+    "options": {
+      "a": "How long it takes to stop or contain the threat.",
+      "b": "How much money was spent on the response effort.",
+      "c": "How many external regulators were notified.",
+      "d": "How frequently the team conducts tabletop exercises."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In the Splunk Ransomware Response Simulation, what is the first step of the Standard Workflow before analyzing data?",
+    "options": {
+      "a": "Setting up an automated email alert system.",
+      "b": "Building a pie chart in Dashboard Studio.",
+      "c": "Ingesting and indexing the data correctly via 'Add Data'.",
+      "d": "Running a brute force query on the master database."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "In a Splunk query, what logic is used to detect a potential brute force SSH attack?",
+    "options": {
+      "a": "Filtering logs for 'failed password' and identifying users/IPs with high failure counts.",
+      "b": "Searching for the term 'ransom note' across all internal network drives.",
+      "c": "Filtering logs for successful administrative logins occurring at noon.",
+      "d": "Monitoring the network for unusually large inbound video file transfers."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is it important to monitor for 'Suspicious PowerShell Execution' in Splunk?",
+    "options": {
+      "a": "Because PowerShell is a legacy tool that constantly crashes Windows servers.",
+      "b": "Because attackers frequently use it for post-exploitation activities or to download malicious tools.",
+      "c": "Because PowerShell automatically generates unencrypted passwords for all users.",
+      "d": "Because it is the only way to detect a hardware failure in the server room."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "When hunting for 'Data Exfiltration' in Splunk, which file transfer protocols should an analyst monitor?",
+    "options": {
+      "a": "HTTP, DNS, and ICMP",
+      "b": "SCP, FTP, and CURL",
+      "c": "SMTP, POP3, and IMAP",
+      "d": "DHCP, ARP, and BGP"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What combination of terms in a Splunk query would best identify active Ransomware Behavior?",
+    "options": {
+      "a": "('login_success' OR 'session_opened' OR 'user_created')",
+      "b": "('encrypting' OR 'ransom note' OR 'file_renamed')",
+      "c": "('database_backup' OR 'archive_created' OR 'system_reboot')",
+      "d": "('failed_ping' OR 'network_timeout' OR 'connection_lost')"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary benefit of adding visualizations and Dashboards to a Splunk environment?",
+    "options": {
+      "a": "They allow management to visualize threat trends without interacting with raw, technical logs.",
+      "b": "They automatically delete older logs to save space on the organization's hard drives.",
+      "c": "They significantly increase the processing speed of the underlying server hardware.",
+      "d": "They encrypt the raw log data so that hackers cannot read the information."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In Splunk data enrichment, what does 'Geo-IP Mapping' achieve?",
+    "options": {
+      "a": "It maps internal employee badge swipes to specific floor layouts in the building.",
+      "b": "It translates complex network port numbers into readable English text.",
+      "c": "It maps IP addresses to physical geographic locations to spot unauthorized access.",
+      "d": "It tracks the exact physical location of a stolen corporate laptop via GPS."
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "When using the `timechart` command in Splunk, what does the argument `span=1h` do?",
+    "options": {
+      "a": "It forces the query to only search the last hour of available log data.",
+      "b": "It groups the data into hourly intervals, allowing the analyst to see exactly when activity spiked.",
+      "c": "It delays the execution of the search query by exactly one hour.",
+      "d": "It automatically logs out the analyst if they are inactive for one hour."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the main objective of setting up an 'Automated Alert' in Splunk?",
+    "options": {
+      "a": "To ensure the system turns off completely at the end of the business day.",
+      "b": "To notify the security team immediately via email when a specific threat threshold is crossed.",
+      "c": "To automatically send a ransom payment to the attackers if encryption is detected.",
+      "d": "To alert the general public via social media that the company is currently under attack."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Evaluate this statement: Incident Response is a structured, tactical plan designed to manage and address the aftermath of a cybersecurity breach calmly and efficiently.",
+    "options": {
+      "a": "True, it is the corporate equivalent of following a predefined fire evacuation plan.",
+      "b": "False, incident response is meant to be a spontaneous, unstructured reaction to threats.",
+      "c": "True, but it is only necessary for large, international corporations, not SMBs.",
+      "d": "False, incident response focuses entirely on purchasing insurance before an attack occurs."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Evaluate this statement: Cyber incidents are typically massive, immediate events that shut down all systems simultaneously the moment an attacker enters the network.",
+    "options": {
+      "a": "True, attackers always execute their payloads the instant they gain access.",
+      "b": "False, incidents rarely manifest instantly; attackers often lurk undetected for weeks or months.",
+      "c": "True, this is why signature-based antivirus catches 100% of modern cyberattacks.",
+      "d": "False, cyber incidents only ever occur when triggered by an internal employee."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Evaluate this statement: The devastating Equifax Data Breach in 2017 was caused because the organization left a known web application vulnerability completely unpatched.",
+    "options": {
+      "a": "True, this failure to prepare led to the theft of data from nearly 150 million people.",
+      "b": "False, the breach was caused by an unprecedented zero-day quantum computing exploit.",
+      "c": "True, but they successfully hid the breach from regulators and paid zero fines.",
+      "d": "False, the breach occurred because physical servers were stolen from their headquarters."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Evaluate this statement: The Colonial Pipeline ransomware attack succeeded primarily because attackers utilized an extremely complex, newly developed zero-day malware variant.",
+    "options": {
+      "a": "True, no existing security system could have possibly detected the advanced malware used.",
+      "b": "False, it succeeded due to poor network segmentation and a single compromised password.",
+      "c": "True, and the attackers completely bypassed all encryption using physical hardware taps.",
+      "d": "False, it was actually an insider threat executed by disgruntled pipeline engineers."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Evaluate this statement: The NIST Incident Response Lifecycle consists of exactly five distinct phases, beginning with Detection and ending with Legal Prosecution.",
+    "options": {
+      "a": "True, the framework relies heavily on prosecuting attackers to deter future incidents.",
+      "b": "False, it consists of four phases: Preparation, Detection/Analysis, Containment/Eradication/Recovery, and Post-Incident Activity.",
+      "c": "True, and organizations must strictly follow each phase in order without overlapping.",
+      "d": "False, the NIST framework was recently reduced to only two phases: Detection and Recovery."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Evaluate this statement: The 'Preparation' phase of the NIST lifecycle is considered a proactive foundation that should be completed before an incident ever occurs.",
+    "options": {
+      "a": "True, it involves establishing policies, deploying tools, and running simulations in advance.",
+      "b": "False, Preparation only begins the moment an active threat is detected on the network.",
+      "c": "True, but it is strictly an administrative phase that involves no technical security tools.",
+      "d": "False, Preparation refers to preparing the legal paperwork to file for bankruptcy after a breach."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Evaluate this statement: During Short-Term Containment, responders should always immediately pull the power cords on all infected servers to stop the attack instantly.",
+    "options": {
+      "a": "True, this is the only guaranteed way to stop malware from spreading laterally.",
+      "b": "False, pulling the plug destroys volatile evidence in RAM needed for forensic analysis.",
+      "c": "True, provided the servers do not contain any critical corporate financial data.",
+      "d": "False, responders should instead negotiate a ceasefire with the attackers directly."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Evaluate this statement: Eradication focuses entirely on restoring the systems to full operational status so the business can resume making money.",
+    "options": {
+      "a": "True, Eradication and Recovery are exactly the same concept in the NIST framework.",
+      "b": "False, Eradication focuses on completely purging the threat and removing malicious artifacts.",
+      "c": "True, the primary goal of Eradication is to recover lost customer trust through marketing.",
+      "d": "False, Eradication is the process of legally prosecuting the attackers in federal court."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Evaluate this statement: During the Recovery phase, organizations should reconnect all systems to the network simultaneously to minimize business downtime.",
+    "options": {
+      "a": "True, phased restoration is highly discouraged because it frustrates corporate executives.",
+      "b": "False, systems should be reintroduced in stages (phased restoration) to simplify monitoring and limit the blast radius.",
+      "c": "True, but only if the organization has purchased premium cybersecurity insurance.",
+      "d": "False, systems should never be reconnected; the organization must buy entirely new hardware."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Evaluate this statement: The primary objective of the 'Lessons Learned' meeting is to identify which specific employee caused the breach so they can be disciplined.",
+    "options": {
+      "a": "True, without strict punishment, employees will not take cybersecurity policies seriously.",
+      "b": "False, the meeting must be a blameless reflection designed to improve the response plan and prevent future incidents.",
+      "c": "True, human resources mandates that blame be assigned within 48 hours of any breach.",
+      "d": "False, the meeting is designed solely to calculate the financial bonuses of the IT staff."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Evaluate this statement: The 'Scope' of an Incident Response Plan (IRP) explicitly defines the boundaries of the plan, detailing what is covered and what is left out.",
+    "options": {
+      "a": "True, it clarifies the types of incidents covered and the specific systems or locations protected.",
+      "b": "False, the Scope solely defines the overall budget allocated to the cybersecurity department.",
+      "c": "True, but a good IRP scope will legally exempt the company from adhering to privacy laws.",
+      "d": "False, defining boundaries is dangerous because it limits the IT team's operational creativity."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Evaluate this statement: Organizations should download generic Incident Response Playbooks from the internet because they represent universal best practices that work for any network.",
+    "options": {
+      "a": "True, generic playbooks save time and guarantee compliance with all federal regulations.",
+      "b": "False, playbooks must be tailored specifically to reflect the exact tools, policies, and environment of the organization.",
+      "c": "True, customizing playbooks is considered a security risk by most compliance auditors.",
+      "d": "False, playbooks are obsolete and have been completely replaced by AI response bots."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Evaluate this statement: An Incident Response Plan (IRP) should be reviewed and updated formally every 6 to 12 months, or after major organizational changes.",
+    "options": {
+      "a": "True, treating the IRP as a living document ensures it accounts for evolving threats and new technologies.",
+      "b": "False, an IRP should only be reviewed when a massive, catastrophic breach successfully occurs.",
+      "c": "True, but the review must be conducted exclusively by an external government auditor.",
+      "d": "False, IRPs are legally binding contracts that cannot be altered once initially drafted."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Evaluate this statement: The Incident Commander is the technical specialist responsible for examining memory dumps and reading server logs to find malware.",
+    "options": {
+      "a": "True, the Commander must possess the deepest technical knowledge on the entire team.",
+      "b": "False, the Commander acts as the central coordinator and decision-maker; the Forensic Analyst examines the logs.",
+      "c": "True, but they only examine logs after the entire incident has been completely resolved.",
+      "d": "False, the Commander's only job is to communicate with external media and news outlets."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Evaluate this statement: Human Resources (HR) should be completely excluded from the Incident Response Team because cyber incidents are strictly IT problems.",
+    "options": {
+      "a": "True, HR personnel lack the technical skills required to assist during a malware infection.",
+      "b": "False, HR is vital for managing internal investigations involving employee negligence or insider threats.",
+      "c": "True, involving HR violates the confidentiality agreements signed by the IT department.",
+      "d": "False, HR's primary role is to manually unplug infected computers from the network."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Evaluate this statement: Forensic Analysts must feed their findings directly to the Incident Commander and IT Ops to inform the containment strategy.",
+    "options": {
+      "a": "True, this tight coordination moves the team from speculation to certainty, guiding effective containment.",
+      "b": "False, Forensic Analysts must keep their findings secret until the final written report is published.",
+      "c": "True, but only if the attacker explicitly demands a ransom payment in cryptocurrency.",
+      "d": "False, Forensic Analysts only report directly to external law enforcement agencies."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Evaluate this statement: When tracking Key Performance Indicators (KPIs) for incident response, MTTD stands for 'Mean Time to Detect.'",
+    "options": {
+      "a": "True, it measures the average amount of time it takes the organization to find a threat.",
+      "b": "False, it stands for 'Maximum Tolerable Threat Duration,' which measures system downtime.",
+      "c": "True, but it is only used to measure the detection speed of physical security cameras.",
+      "d": "False, it stands for 'Mean Time to Destroy,' tracking how fast malware deletes files."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Evaluate this statement: In Splunk, 'Data Enrichment' techniques like Geo-IP mapping add external context to raw logs, making them easier to investigate.",
+    "options": {
+      "a": "True, this helps analysts quickly spot unauthorized access originating from unexpected geographic locations.",
+      "b": "False, enrichment removes details from logs to save processing power on the Splunk server.",
+      "c": "True, but Geo-IP mapping is legally prohibited by international data privacy laws.",
+      "d": "False, Data Enrichment refers exclusively to increasing the financial budget of the SOC team."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Evaluate this statement: In a Splunk query, using the argument `timechart span=1h` will group the data into weekly intervals to spot long-term anomalies.",
+    "options": {
+      "a": "True, this allows executives to see broad, high-level trends over the course of several months.",
+      "b": "False, the `span=1h` argument groups the data into hourly intervals to see exactly when activity spiked.",
+      "c": "True, but it only functions correctly if the data is first enriched with geographic IP mapping.",
+      "d": "False, the `timechart` command cannot accept a `span` argument under any circumstances."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Evaluate this statement: While dashboards provide proactive visualization, automated alerting is required to ensure the team is notified immediately when a threat threshold is crossed.",
+    "options": {
+      "a": "True, alerts (like sending an email) trigger action without requiring an analyst to manually stare at a dashboard.",
+      "b": "False, dashboards automatically generate SMS text messages to the entire company without needing alerts.",
+      "c": "True, but automated alerts can only trigger once every 24 hours to prevent spam.",
+      "d": "False, automated alerting was deprecated in modern SIEMs because it generates too many false positives."
+    },
+    "correctAnswer": "a"
+  }
+]

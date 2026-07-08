@@ -1,0 +1,932 @@
+[
+  {
+    "question": "What is the primary goal of shifting security 'left' in the software development lifecycle?",
+    "options": {
+      "a": "To reduce the cost of marketing software products globally.",
+      "b": "To prevent vulnerabilities by addressing them early in the process.",
+      "c": "To ensure that all code is manually reviewed by external auditors.",
+      "d": "To delay the deployment of software until all features are complete."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following best describes Threat Modeling?",
+    "options": {
+      "a": "A reactive process of patching bugs found after a system is hacked.",
+      "b": "A structured way to identify and prioritize threats before a system is built.",
+      "c": "A method to automate the deployment of web servers on cloud platforms.",
+      "d": "A tool used to monitor network traffic for unauthorized access."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary function of a Data Flow Diagram (DFD) in threat modeling?",
+    "options": {
+      "a": "To visualize how data moves through a system and identify potential attack vectors.",
+      "b": "To manage the scheduling of development team meetings and sprint cycles.",
+      "c": "To automatically patch vulnerabilities found in third-party libraries.",
+      "d": "To document the hardware specifications of the server environment."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which tool is mentioned in the notes as helpful for creating visual threat modeling aids?",
+    "options": {
+      "a": "Metasploit.",
+      "b": "Threat Dragon.",
+      "c": "Nagios.",
+      "d": "Zabbix."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the main difference between SAST and DAST in application security testing?",
+    "options": {
+      "a": "SAST analyzes code without running it; DAST tests the running application.",
+      "b": "SAST requires network access; DAST works on physical hardware only.",
+      "c": "SAST is for mobile apps; DAST is only for cloud environments.",
+      "d": "SAST is a reactive method; DAST is a preventative design method."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is penetration testing described as more than just 'showing what is broken'?",
+    "options": {
+      "a": "Because it is primarily used to train new software developers.",
+      "b": "Because it focuses on improving resilience before real attackers strike.",
+      "c": "Because it ensures the software meets all aesthetic user requirements.",
+      "d": "Because it guarantees that a system will never be breached again."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which operating system environment is commonly associated with penetration testing tools like Metasploit?",
+    "options": {
+      "a": "Windows 11.",
+      "b": "Kali Linux.",
+      "c": "macOS.",
+      "d": "Android OS."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "When a SQL injection vulnerability is found, what is a recommended mitigation strategy?",
+    "options": {
+      "a": "Implementing parameterized queries and input validation.",
+      "b": "Disabling the database entirely to prevent data leaks.",
+      "c": "Switching the database to a public cloud provider.",
+      "d": "Increasing the memory allocation of the database server."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What should be the outcome of a post-penetration testing debrief session?",
+    "options": {
+      "a": "A public announcement of all system vulnerabilities found.",
+      "b": "A clear definition of next steps and remediation strategies.",
+      "c": "The automatic termination of the development team.",
+      "d": "The immediate purchase of more expensive firewall software."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is security considered a 'nice-to-have' by some, and why is this problematic?",
+    "options": {
+      "a": "It is not problematic; security should be optional in modern apps.",
+      "b": "It is problematic because it often leads to late-stage vulnerabilities.",
+      "c": "It is problematic because it increases the price of open-source software.",
+      "d": "It is problematic because it makes software harder to install."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary purpose of asking 'What are we building?' during threat modeling?",
+    "options": {
+      "a": "To start the structured process of understanding system architecture.",
+      "b": "To finalize the marketing budget for the software product.",
+      "c": "To decide which programming language to use for the user interface.",
+      "d": "To determine how many servers will be needed for hosting."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of these is a key component of an effective application security strategy?",
+    "options": {
+      "a": "A blend of threat modeling, SAST/DAST, and penetration testing.",
+      "b": "Ignoring vulnerabilities until they are exploited by attackers.",
+      "c": "Relying strictly on perimeter firewalls to block all malicious traffic.",
+      "d": "Using only automated tools without any human security testing."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "In the context of session management, what is a recommended mitigation for weak session tokens?",
+    "options": {
+      "a": "Hardcoding the session ID into the HTML source code.",
+      "b": "Enforcing HTTPS and implementing strict timeout policies.",
+      "c": "Using a simple numeric sequence for all generated tokens.",
+      "d": "Storing all session tokens in an unencrypted plain text file."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "How does proactive security differ from reactive security?",
+    "options": {
+      "a": "Proactive security focuses on prevention; reactive security focuses on response.",
+      "b": "Proactive security is for cloud; reactive security is for mobile apps.",
+      "c": "Proactive security is faster to implement; reactive security is cheaper.",
+      "d": "Proactive security is handled by managers; reactive is by developers."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the consequence of treating security as an afterthought in development?",
+    "options": {
+      "a": "Faster deployment cycles and higher user satisfaction.",
+      "b": "Vulnerabilities that are harder and more costly to fix later.",
+      "c": "A decrease in the amount of documentation required.",
+      "d": "Improved compatibility with older browser versions."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why are visual aids used in threat modeling?",
+    "options": {
+      "a": "To help teams systematically identify threats in a complex system.",
+      "b": "To make the project appear more professional to stakeholders.",
+      "c": "To hide complex system details from junior team members.",
+      "d": "To replace the need for security testing and code analysis."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of the following is an example of an application security testing practice?",
+    "options": {
+      "a": "Configuring the physical server rack for better airflow.",
+      "b": "Conducting Dynamic Application Security Testing (DAST).",
+      "c": "Updating the company website's marketing imagery.",
+      "d": "Refactoring the logo design for better visibility."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the primary goal of a penetration test report?",
+    "options": {
+      "a": "To showcase the tester's skill level to the management.",
+      "b": "To provide a structured list of findings and mitigation strategies.",
+      "c": "To justify the budget for new office equipment.",
+      "d": "To serve as a marketing tool for potential new customers."
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Why is 'What could go wrong?' a critical question in threat modeling?",
+    "options": {
+      "a": "To identify potential vulnerabilities before the system is built.",
+      "b": "To distract the development team from their deadlines.",
+      "c": "To ensure that the application is profitable in the market.",
+      "d": "To prevent the installation of unnecessary software tools."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which methodology is often used for categorizing common web application vulnerabilities?",
+    "options": {
+      "a": "OWASP Top 10.",
+      "b": "ISO 9001.",
+      "c": "IEEE 802.11.",
+      "d": "HTML5 Standards."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What role does automation play in modern security?",
+    "options": {
+      "a": "It enables continuous scanning through SAST and DAST.",
+      "b": "It removes the need for any human security professionals.",
+      "c": "It ensures that code never contains any bugs at all.",
+      "d": "It replaces the need for a documented threat model."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the 'Big Picture' for application security?",
+    "options": {
+      "a": "Building software with proactive design and continuous testing.",
+      "b": "Installing a powerful firewall to protect the perimeter.",
+      "c": "Focusing only on the user interface for customer appeal.",
+      "d": "Storing all application data in a secure offline vault."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is the software development lifecycle important in security?",
+    "options": {
+      "a": "Because security must be integrated at every phase of development.",
+      "b": "Because it defines the hardware requirements for the servers.",
+      "c": "Because it forces teams to work exclusively in local environments.",
+      "d": "Because it limits the number of developers allowed on a project."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of these is a benefit of threat modeling?",
+    "options": {
+      "a": "Reducing risk by addressing threats early.",
+      "b": "Increasing the number of features in a release.",
+      "c": "Eliminating the need for software testing entirely.",
+      "d": "Lowering the cost of cloud hosting services."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What are SAST and DAST examples of?",
+    "options": {
+      "a": "Application security testing methods.",
+      "b": "Physical server cooling techniques.",
+      "c": "Network cable management protocols.",
+      "d": "Marketing strategies for mobile apps."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why should teams debrief after security testing?",
+    "options": {
+      "a": "To ensure clear next steps for remediation.",
+      "b": "To assign blame for the vulnerabilities found.",
+      "c": "To delay the next software release cycle.",
+      "d": "To celebrate the successful completion of the test."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How do DFDs help security teams?",
+    "options": {
+      "a": "By showing how data moves, exposing potential gaps.",
+      "b": "By automatically fixing vulnerabilities in the code.",
+      "c": "By speeding up the code compilation process.",
+      "d": "By hiding sensitive database details from attackers."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a main focus of OWASP Top 10?",
+    "options": {
+      "a": "Highlighting critical web application vulnerabilities.",
+      "b": "Managing employee benefits for cybersecurity firms.",
+      "c": "Regulating the internet traffic of small businesses.",
+      "d": "Providing free server hosting for web developers."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is application security an essential engineering process?",
+    "options": {
+      "a": "Because applications are prime targets for cyberattacks.",
+      "b": "Because it allows developers to write code faster.",
+      "c": "Because it is a requirement for hardware procurement.",
+      "d": "Because it makes the software visually more appealing."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of these is a proactive security measure?",
+    "options": {
+      "a": "Threat modeling.",
+      "b": "Reactive patching.",
+      "c": "Hardware replacement.",
+      "d": "Log file deletion."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why should you use HTTPS?",
+    "options": {
+      "a": "To enforce stronger encryption in transit.",
+      "b": "To speed up server responses for users.",
+      "c": "To make the application look official.",
+      "d": "To store data more efficiently in the database."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How does penetration testing improve resilience?",
+    "options": {
+      "a": "By identifying weaknesses before real attackers find them.",
+      "b": "By removing the need for regular software updates.",
+      "c": "By increasing the complexity of the user interface.",
+      "d": "By reducing the need for threat modeling tools."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the first step of threat modeling?",
+    "options": {
+      "a": "Understanding what is being built.",
+      "b": "Deploying the app to a production server.",
+      "c": "Deleting all sensitive user information.",
+      "d": "Running an automated scanner on the code."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why are visual aids like DFDs effective?",
+    "options": {
+      "a": "They simplify understanding of complex system interactions.",
+      "b": "They are mandated by international law for all apps.",
+      "c": "They are required to get an application approved for app stores.",
+      "d": "They eliminate the need for any technical documentation."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What do automated scanners like SAST provide?",
+    "options": {
+      "a": "Systematic checks of source code for security flaws.",
+      "b": "Automatic physical security for the server room.",
+      "c": "Fast loading times for web application users.",
+      "d": "Detailed marketing statistics for the business."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the purpose of threat modeling?",
+    "options": {
+      "a": "To systematically identify and prioritize threats.",
+      "b": "To increase the cost of developing software apps.",
+      "c": "To help managers track daily project tasks.",
+      "d": "To provide a platform for software advertising."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is testing necessary?",
+    "options": {
+      "a": "To ensure software behaves as expected securely.",
+      "b": "To make sure the software is compatible with printers.",
+      "c": "To avoid the need for any future security patches.",
+      "d": "To make the software look professional for investors."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a vulnerability?",
+    "options": {
+      "a": "A weakness that can be exploited by an attacker.",
+      "b": "A feature that increases the system's performance.",
+      "c": "A piece of hardware that is difficult to repair.",
+      "d": "A bug that prevents the code from compiling."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How can you minimize risk?",
+    "options": {
+      "a": "Through proactive design and continuous security testing.",
+      "b": "By hiding the system's location from the internet.",
+      "c": "By limiting the number of users on the system.",
+      "d": "By skipping the software development lifecycle."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is Kali Linux popular?",
+    "options": {
+      "a": "Because it contains a suite of security testing tools.",
+      "b": "Because it is required to play modern video games.",
+      "c": "Because it is the only OS that supports web browsers.",
+      "d": "Because it makes computer hardware run faster."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Which of these is a goal of security?",
+    "options": {
+      "a": "Protecting systems from malicious activity.",
+      "b": "Reducing the battery life of mobile devices.",
+      "c": "Increasing the complexity of user passwords.",
+      "d": "Preventing software from ever being updated."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is threat modeling structured?",
+    "options": {
+      "a": "To ensure all threats are considered consistently.",
+      "b": "To slow down the development of the application.",
+      "c": "To require more paperwork for the management team.",
+      "d": "To force developers to use specific languages."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a security test?",
+    "options": {
+      "a": "An attempt to find weaknesses in software security.",
+      "b": "A process of checking for software bugs on websites.",
+      "c": "A method to verify if a software product looks good.",
+      "d": "An installation of new server hardware components."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is continuous testing important?",
+    "options": {
+      "a": "To catch vulnerabilities early as code changes.",
+      "b": "To increase the number of software features.",
+      "c": "To avoid the need for manual code analysis.",
+      "d": "To make the software look professional."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a Data Flow Diagram?",
+    "options": {
+      "a": "A map of how information moves through a system.",
+      "b": "A diagram of the physical server room layout.",
+      "c": "A list of employee names working on the project.",
+      "d": "A schedule for daily software updates."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does 'shifting left' mean?",
+    "options": {
+      "a": "Moving security earlier in the development lifecycle.",
+      "b": "Changing the programming language being used.",
+      "c": "Moving the server to a different geographic region.",
+      "d": "Prioritizing the user interface before the backend."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is penetration testing proactive?",
+    "options": {
+      "a": "Because it identifies flaws before they are exploited.",
+      "b": "Because it happens after a massive system breach.",
+      "c": "Because it avoids using any automated security tools.",
+      "d": "Because it saves money by skipping the design phase."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the benefit of using tools like Metasploit?",
+    "options": {
+      "a": "To test security vulnerabilities systematically.",
+      "b": "To play games on the security testing server.",
+      "c": "To bypass the need for any security testing.",
+      "d": "To hide flaws from the development team."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why should you validate input?",
+    "options": {
+      "a": "To prevent injection-based attacks.",
+      "b": "To make the application launch faster.",
+      "c": "To store data in a more compact format.",
+      "d": "To make the website more colorful."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the role of the security team in debriefs?",
+    "options": {
+      "a": "To explain the findings and guide remediation.",
+      "b": "To avoid talking to the software developers.",
+      "c": "To demand immediate salary increases.",
+      "d": "To ignore any findings from the test."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why do vulnerabilities exist?",
+    "options": {
+      "a": "Because software is complex and error-prone.",
+      "b": "Because security tools are too hard to install.",
+      "c": "Because developers don't have internet access.",
+      "d": "Because firewalls are always perfectly configured."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does Threat Dragon do?",
+    "options": {
+      "a": "Helps visualize threats through DFDs.",
+      "b": "Automatically repairs broken website links.",
+      "c": "Increases server hardware power usage.",
+      "d": "Provides free cloud server hosting for teams."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How can you improve resilience?",
+    "options": {
+      "a": "By testing and mitigating security issues.",
+      "b": "By removing all security from the system.",
+      "c": "By building more features as fast as possible.",
+      "d": "By relying solely on perimeter firewalls."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is penetration testing deep?",
+    "options": {
+      "a": "Because it actively tries to exploit weaknesses.",
+      "b": "Because it scans the entire internet daily.",
+      "c": "Because it is required by law for every user.",
+      "d": "Because it is done exclusively by managers."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is the goal of remediation?",
+    "options": {
+      "a": "To fix identified security vulnerabilities.",
+      "b": "To make the application look visually better.",
+      "c": "To save money by ignoring security bugs.",
+      "d": "To increase the load on the database server."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is documentation critical?",
+    "options": {
+      "a": "For tracking security findings and fixes.",
+      "b": "For making the project look complicated.",
+      "c": "For storing marketing materials offline.",
+      "d": "For forcing developers to write less code."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a common testing goal?",
+    "options": {
+      "a": "Finding and fixing vulnerabilities.",
+      "b": "Getting software approved by investors.",
+      "c": "Replacing all developers with software bots.",
+      "d": "Avoiding any communication with management."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why are breaches costly?",
+    "options": {
+      "a": "Because of data loss and reputational damage.",
+      "b": "Because they increase the speed of the software.",
+      "c": "Because they lower the cost of security tools.",
+      "d": "Because they make software easier to update."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How does SAST help developers?",
+    "options": {
+      "a": "By finding security bugs while they write code.",
+      "b": "By speeding up the building of new features.",
+      "c": "By automating the creation of marketing posts.",
+      "d": "By deleting all security logs automatically."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is testing an engineering process?",
+    "options": {
+      "a": "Because it requires structured, technical effort.",
+      "b": "Because it can only be performed by hardware techs.",
+      "c": "Because it is completely automated by software.",
+      "d": "Because it is not related to security at all."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a benefit of threat modeling?",
+    "options": {
+      "a": "Proactive risk identification.",
+      "b": "Increased software bugs and errors.",
+      "c": "Simplified user interface design.",
+      "d": "Reduced developer training time."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why do we test?",
+    "options": {
+      "a": "To verify software reliability and security.",
+      "b": "To avoid updating software in the future.",
+      "c": "To show we have enough budget to spend.",
+      "d": "To force developers to change their styles."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a security tool?",
+    "options": {
+      "a": "Software used to find or fix vulnerabilities.",
+      "b": "A machine that cleans the server room floor.",
+      "c": "A device that speeds up internet access.",
+      "d": "A document that lists software requirements."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is proactive design better?",
+    "options": {
+      "a": "It prevents issues before they happen.",
+      "b": "It makes the software run slower.",
+      "c": "It forces developers to take longer breaks.",
+      "d": "It requires more server hardware to run."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does a penetration test result in?",
+    "options": {
+      "a": "A report on discovered vulnerabilities.",
+      "b": "A complete rewrite of the application.",
+      "c": "A new version of the software compiler.",
+      "d": "An automatic increase in market share."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is security an everyday reality?",
+    "options": {
+      "a": "Because apps are always being targeted.",
+      "b": "Because software is getting harder to install.",
+      "c": "Because security tools are too cheap.",
+      "d": "Because hardware is always breaking."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How do you identify threats?",
+    "options": {
+      "a": "By analyzing data flows and potential attacks.",
+      "b": "By checking the server room temperature daily.",
+      "c": "By waiting for users to complain about bugs.",
+      "d": "By skipping the software development lifecycle."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why are security testing debriefs good?",
+    "options": {
+      "a": "For improving team security knowledge.",
+      "b": "For making developers work on weekends.",
+      "c": "For ignoring all the findings from the test.",
+      "d": "For reducing the budget for security tools."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a key security takeaway?",
+    "options": {
+      "a": "Security requires constant testing.",
+      "b": "Testing is only for physical systems.",
+      "c": "Security is not needed in banking apps.",
+      "d": "Documentation is a waste of developer time."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is threat modeling structured?",
+    "options": {
+      "a": "To ensure risks are not overlooked.",
+      "b": "To confuse the software development team.",
+      "c": "To delay the software release process.",
+      "d": "To force teams to change their languages."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is an application security goal?",
+    "options": {
+      "a": "To reduce the risk of successful attacks.",
+      "b": "To make software run only on Windows.",
+      "c": "To increase the number of system updates.",
+      "d": "To avoid all contact with the internet."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is penetration testing professional?",
+    "options": {
+      "a": "Because it follows a disciplined process.",
+      "b": "Because it uses free tools on the web.",
+      "c": "Because it doesn't need any planning.",
+      "d": "Because it is done only once a year."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What does SAST analyze?",
+    "options": {
+      "a": "Source code for security issues.",
+      "b": "Server room hardware specifications.",
+      "c": "Marketing materials for the product.",
+      "d": "User feedback on the software design."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "How is risk managed?",
+    "options": {
+      "a": "By identifying, testing, and mitigating.",
+      "b": "By hoping that no hackers are watching.",
+      "c": "By only using firewall protection.",
+      "d": "By deleting all user information."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is the BIG picture important?",
+    "options": {
+      "a": "To ensure security is holistic.",
+      "b": "To ignore specific system details.",
+      "c": "To hide flaws from management.",
+      "d": "To spend more time on marketing."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "What is a penetration test?",
+    "options": {
+      "a": "A simulated cyberattack by professionals.",
+      "b": "A scan of the office building layout.",
+      "c": "A meeting to discuss budget updates.",
+      "d": "An installation of new office furniture."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Why is proactive design necessary?",
+    "options": {
+      "a": "To prevent vulnerabilities before deployment.",
+      "b": "To ensure the app launches on schedule.",
+      "c": "To avoid the need for cloud infrastructure.",
+      "d": "To lower the cost of printer supplies."
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Threat modeling is a reactive process performed after a system has been compromised.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Shifting security 'left' means moving security considerations earlier in the software development lifecycle.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Static Application Security Testing (SAST) requires the application to be running to test the code.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Data Flow Diagrams (DFDs) are a visual tool used in the threat modeling process.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Penetration testing is only meant to show what is broken, not to improve resilience.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Threat Dragon is a tool mentioned for supporting visual threat modeling.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "SQL injection can be mitigated by using parameterized queries and input validation.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Security should be treated as an optional 'nice-to-have' feature in modern engineering.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Dynamic Application Security Testing (DAST) analyzes the application while it is running.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "A penetration test debrief session is unnecessary if the testers provide a document.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Threat modeling helps teams identify and prioritize risks before code is written.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Kali Linux is a platform commonly used by security professionals for testing.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Proactive security is essentially the same as reactive security.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Application security testing is limited to just SAST and DAST.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "A vulnerability is a weakness in a system that can be exploited by an attacker.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Documentation is a critical part of the application security testing process.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Security testing can be completely automated without any human oversight.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "The primary goal of threat modeling is to increase software release speed.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "HTTPS enforcement is a mitigation strategy for weak session tokens.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "Application security is only important for banking apps, not for healthcare systems.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "b"
+  }
+]

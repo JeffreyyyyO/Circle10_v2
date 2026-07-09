@@ -10,7 +10,7 @@
 
 As a Cybersecurity student at AltSchool Africa (Karatu 2025 cohort), I noticed a recurring challenge: the course's Learning Management System (LMS) relied heavily on video lectures. This made studying incredibly difficult when away from a desk or in areas with limited data and network connectivity. Scrubbing through hours of video just to find a specific concept was tedious, and many of my classmates voiced similar frustrations during town hall meetings.
 
-**Iteration 1: "Panels" (July 2025\)** My first solution was manual. I began transcribing the weekly lecture videos and sharing them with my colleagues. Shortly after, I built "Panels"—the very first iteration of this app. It was a basic HTML application that hosted test quizzes for the first two weeks of material. As schoolwork intensified, I paused app development but continued releasing the weekly transcripts.
+**Iteration 1: "Panels" (July 2025\)** My first solution was manual. I began transcribing the weekly lecture videos and sharing them with my colleagues. Shortly after, I built "Panels," the very first iteration of this app. It was a basic HTML application that hosted test quizzes for the first two weeks of material. As schoolwork intensified, I paused app development but continued releasing the weekly transcripts.
 
 **Iteration 2: Circle10 (October 2025 \- Present)** I decided to start from scratch, embarking on a self-taught journey through UI/UX design, database management, software architecture, and resource management. Inspired by my background in Architecture, I adopted a philosophy of **Minimalist Modernism**. I prioritized core functionality while engineering the system architecture to severely reduce bloat, weight, and management complexity.
 

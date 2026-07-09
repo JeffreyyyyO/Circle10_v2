@@ -1,6 +1,6 @@
 # [**Circle10 Study App**](https://jeffreyyyyo.github.io/Circle10_v2/)
 
-**Circle10** is a lightweight, mobile-first, and highly optimized web application designed to help Cybersecurity students at AltSchool Africa access course materials, lecture transcripts, and test quizzes on-the-go—unbound by the limitations of location, resources, or bandwidth.
+**Circle10** is a lightweight, mobile-first, and highly optimized web application designed to help Cybersecurity students at AltSchool Africa access course materials, lecture transcripts, and test quizzes on-the-go, unbound by the limitations of location, resources, or bandwidth.
 
 <img width="2000" height="1256" alt="1" src="https://github.com/user-attachments/assets/3d88ef12-7fe2-4726-9e90-5baa7bce5af0" />
 
